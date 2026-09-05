@@ -50,7 +50,7 @@ VT-ANA,8005EB,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B787-8,B788,Boei
 VT-ANC,8005ED,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B787-8,B788,Boeing,Boeing 787-8,FW,256,256,passenger,sch-oper.pdf,2026-08-31,2024-06-10
 VT-AND,8005EE,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B787-8,B788,Boeing,Boeing 787-8,FW,256,256,passenger,sch-oper.pdf,2026-08-31,2024-06-10
 VT-ANE,8005EF,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B787-8,B788,Boeing,Boeing 787-8,FW,256,256,passenger,sch-oper.pdf,2026-08-31,2024-06-10
-VT-ANF,8001DC,LCL Aviation . (ECOJET),LCL Aviation Pvt. Ltd. (ECOJET),non-scheduled,#09/2022,2027-09-27,Beechcraft Premier 1A,PRM1,Hawker Beechcraft,Beechcraft Premier I,FW,6,6,passenger,ns-oper.pdf,2026-08-31,2026-08-31
+VT-ANF,8001DC,LCL Aviation,LCL Aviation Pvt. Ltd.,non-scheduled,#09/2022,2027-09-27,Beechcraft Premier 1A,PRM1,Hawker Beechcraft,Beechcraft Premier I,FW,6,6,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-ANG,8005F0,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B787-8,B788,Boeing,Boeing 787-8,FW,256,256,passenger,sch-oper.pdf,2026-08-31,2024-06-10
 VT-ANH,8005F1,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B787-8,B788,Boeing,Boeing 787-8,FW,256,256,passenger,sch-oper.pdf,2026-08-31,2024-06-10
 VT-ANI,8005F2,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B787-8,B788,Boeing,Boeing 787-8,FW,256,256,passenger,sch-oper.pdf,2026-08-31,2024-06-10
@@ -239,7 +239,7 @@ VT-DEJ,,Jet Serve Aviation,Jet Serve Aviation Pvt. Ltd.,non-scheduled,#02/2017,2
 VT-DEV,8015B3,Ventura Airconnect,Ventura Airconnect Ltd.,non-scheduled,#08/2011,2028-06-08,CESSNA CARAVAN 208B,C208,Cessna,Cessna 208 Grand Caravan,FW,9,9,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-DHA,80012D,Reliance Commercial Dealers,Reliance Commercial Dealers Ltd.,non-scheduled,#02/2008,2029-01-14,GLOBAL EXPRESS BD-700,GLEX,Bombardier,Bombardier Global Express,FW,16,16,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-DIA,801817,EHA Aviation,EHA Aviation Pvt. Ltd.,non-scheduled,#01/2022,2027-03-31,BD-700-1A11(GLOBAL 5500),GL5T,Bombardier,Bombardier Global 5000/5500/6000/6500,FW,13,13,passenger,ns-oper.pdf,2026-08-31,2026-08-31
-VT-DJB,801610,RAJHANS INFRACON (INDIA),RAJHANS INFRACON (INDIA),non-scheduled,#03/2024,2029-02-08,Beech SKA B200GT,BE20,Beechcraft,Beechcraft King Air 200,FW,7,7,passenger,ns-oper.pdf,2026-08-31,2026-08-31
+VT-DJB,801610,RAJHANS INFRACON,RAJHANS INFRACON,non-scheduled,#03/2024,2029-02-08,Beech SKA B200GT,BE20,Beechcraft,Beechcraft King Air 200,FW,7,7,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-DOV,800405,Bluecraft Aviation,Bluecraft Aviation Pvt Ltd,non-scheduled,#09/2026,2031-07-15,CESSNA CITATION CJ2,C25B,Cessna,Cessna Citation CJ series,FW,7,7,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-DVG,8006F6,Davangere Sugar Company,Davangere Sugar Company Ltd.,non-scheduled,#4/2012,2028-04-29,AS 350 B3,B350,Beechcraft,Beechcraft King Air 350,RW,6,6,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-DVV,800CDA,Air Charters Services,Air Charters Services Pvt. Ltd.,non-scheduled,#15/2008,2029-05-14,CESSNA CITATION 560XL EXCEL,C56X,Cessna,Cessna Citation XLS,FW,9,9,passenger,ns-oper.pdf,2026-08-31,2026-08-31
@@ -965,13 +965,13 @@ VT-PWJ,,Pawan Hans,Pawan Hans Ltd.,non-scheduled,#02/1998,2029-03-14,SIKORSKY S-
 VT-PWK,,Pawan Hans,Pawan Hans Ltd.,non-scheduled,#02/1998,2029-03-14,SIKORSKY S-76D,S76,Sikorsky,Sikorsky S-76,RW,12,12,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-PWL,8014AA,Pawan Hans,Pawan Hans Ltd.,non-scheduled,#02/1998,2029-03-14,SIKORSKY S-76D,S76,Sikorsky,Sikorsky S-76,RW,12,12,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-PWM,8014B1,Pawan Hans,Pawan Hans Ltd.,non-scheduled,#02/1998,2029-03-14,SIKORSKY S-76D,S76,Sikorsky,Sikorsky S-76,RW,12,12,passenger,ns-oper.pdf,2026-08-31,2026-08-31
-VT-RAG,,Rajas Aerosports and Adventures (Air Safari),Rajas Aerosports and Adventures Private Limited (Air Safari),non-scheduled,#02/2024,2029-01-31,ULTRAMAGIC M-105,BALL,Hot air balloon,Hot air balloon,B,4,4,passenger,ns-oper.pdf,2026-08-31,2026-08-31
+VT-RAG,,Rajas Aerosports and Adventures,Rajas Aerosports and Adventures Private Limited,non-scheduled,#02/2024,2029-01-31,ULTRAMAGIC M-105,BALL,Hot air balloon,Hot air balloon,B,4,4,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-RAJ,,Golden Crane Aviation,Golden Crane Aviation Pvt. Ltd.,non-scheduled,#03/2023,2028-03-08,Agusta A109E,A109,Leonardo,Leonardo AW109,RW,6,6,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-RAM,,Redbird Airways,Redbird Airways Pvt. Ltd.,non-scheduled,#01/2020,2030-08-12,KINGAIR C90B,BE9L,Beechcraft,Beechcraft King Air C90,FW,6,6,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-RAS,,Flaps Aviation,Flaps Aviation Pvt. Ltd.,non-scheduled,#07/2022,2027-09-20,BEECH SUPER KING AIR B-200,,Beechcraft,Beechcraft King Air,FW,9,9,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-RBB,8013B6,Redbird Flight Training Academy,Redbird Flight Training Academy Private Limited,non-scheduled,#10/2022,2027-10-06,TECNAM P2006T,P06T,Tecnam,Tecnam P2006T,FW,3,3,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-RBG,,Deccan Charters,Deccan Charters Pvt. Ltd.,non-scheduled,#26/2008,2028-10-06,BELL 206 L4,B06,Bell,Bell 206 JetRanger,RW,6,6,passenger,ns-oper.pdf,2026-08-31,2026-08-31
-VT-RBO,,Rajas Aerosports and Adventures (Air Safari),Rajas Aerosports and Adventures Private Limited (Air Safari),non-scheduled,#02/2024,2029-01-31,ULTRAMAGIC N-210,BALL,Hot air balloon,Hot air balloon,B,10,10,passenger,ns-oper.pdf,2026-08-31,2026-08-31
+VT-RBO,,Rajas Aerosports and Adventures,Rajas Aerosports and Adventures Private Limited,non-scheduled,#02/2024,2029-01-31,ULTRAMAGIC N-210,BALL,Hot air balloon,Hot air balloon,B,10,10,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-RDS,801781,GMR Aviation,GMR Aviation Pvt. Ltd.,non-scheduled,#06/2007,2028-08-06,EMB135BJ (LEGACY 650),E35L,Embraer,Embraer Legacy 600/650,FW,13,13,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-REM,800417,Flaps Aviation,Flaps Aviation Pvt. Ltd.,non-scheduled,#07/2022,2027-09-20,BEECH SUPER KING AIR B-200,BE20,Beechcraft,Beechcraft King Air,FW,9,9,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-RFX,8015B7,Sparzana Aviation,Sparzana Aviation Pvt. Ltd.,non-scheduled,#06/2022,2027-09-08,Hawker900XP,H25B,Hawker Beechcraft,Hawker 800/850/900,FW,8,8,passenger,ns-oper.pdf,2026-08-31,2026-08-31
@@ -986,11 +986,11 @@ VT-RGZ,,Chipsan Aviation,Chipsan Aviation Pvt. Ltd.,non-scheduled,#04/2017,2029-
 VT-RIM,80142C,IRM,IRM Pvt. Ltd.,non-scheduled,#09/2014,2028-07-03,GULFSTREAM GV-SP (G550),GLF5,Gulfstream,Gulfstream G550,FW,8,8,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-RIO,8016A6,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,A320-251N,A20N,Airbus,Airbus A320neo,FW,162,162,passenger,sch-oper.pdf,2026-08-31,2026-08-31
 VT-RJA,8003A9,Avenor Aviation,Avenor Aviation LLP,non-scheduled,#08/2026,2031-07-09,BEECH SUPER KING AIR B-200,BE20,Beechcraft,Beechcraft King Air,FW,7,7,passenger,ns-oper.pdf,2026-08-31,2026-08-31
-VT-RJF,,Rajas Aerosports and Adventures (Air Safari),Rajas Aerosports and Adventures Private Limited (Air Safari),non-scheduled,#02/2024,2029-01-31,AS350B3,B350,Beechcraft,Beechcraft King Air 350,RW,5,5,passenger,ns-oper.pdf,2026-08-31,2026-08-31
-VT-RJG,80169B,Rajas Aerosports and Adventures (Air Safari),Rajas Aerosports and Adventures Private Limited (Air Safari),non-scheduled,#02/2024,2029-01-31,AS350B3,B350,Beechcraft,Beechcraft King Air 350,RW,5,5,passenger,ns-oper.pdf,2026-08-31,2026-08-31
-VT-RJH,,Rajas Aerosports and Adventures (Air Safari),Rajas Aerosports and Adventures Private Limited (Air Safari),non-scheduled,#02/2024,2029-01-31,AS350B3,B350,Beechcraft,Beechcraft King Air 350,RW,5,5,passenger,ns-oper.pdf,2026-08-31,2026-08-31
-VT-RJL,801634,Rajas Aerosports and Adventures (Air Safari),Rajas Aerosports and Adventures Private Limited (Air Safari),non-scheduled,#02/2024,2029-01-31,Cessna Citation 560XL,C56X,Cessna,Cessna Citation XLS,FW,9,9,passenger,ns-oper.pdf,2026-08-31,2026-08-31
-VT-RJM,,Rajas Aerosports and Adventures (Air Safari),Rajas Aerosports and Adventures Private Limited (Air Safari),non-scheduled,#02/2024,2029-01-31,AS350B3,B350,Beechcraft,Beechcraft King Air 350,RW,5,5,passenger,ns-oper.pdf,2026-08-31,2026-08-31
+VT-RJF,,Rajas Aerosports and Adventures,Rajas Aerosports and Adventures Private Limited,non-scheduled,#02/2024,2029-01-31,AS350B3,B350,Beechcraft,Beechcraft King Air 350,RW,5,5,passenger,ns-oper.pdf,2026-08-31,2026-08-31
+VT-RJG,80169B,Rajas Aerosports and Adventures,Rajas Aerosports and Adventures Private Limited,non-scheduled,#02/2024,2029-01-31,AS350B3,B350,Beechcraft,Beechcraft King Air 350,RW,5,5,passenger,ns-oper.pdf,2026-08-31,2026-08-31
+VT-RJH,,Rajas Aerosports and Adventures,Rajas Aerosports and Adventures Private Limited,non-scheduled,#02/2024,2029-01-31,AS350B3,B350,Beechcraft,Beechcraft King Air 350,RW,5,5,passenger,ns-oper.pdf,2026-08-31,2026-08-31
+VT-RJL,801634,Rajas Aerosports and Adventures,Rajas Aerosports and Adventures Private Limited,non-scheduled,#02/2024,2029-01-31,Cessna Citation 560XL,C56X,Cessna,Cessna Citation XLS,FW,9,9,passenger,ns-oper.pdf,2026-08-31,2026-08-31
+VT-RJM,,Rajas Aerosports and Adventures,Rajas Aerosports and Adventures Private Limited,non-scheduled,#02/2024,2029-01-31,AS350B3,B350,Beechcraft,Beechcraft King Air 350,RW,5,5,passenger,ns-oper.pdf,2026-08-31,2026-08-31
 VT-RKC,800C09,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2026-08-31,2024-06-10
 VT-RKD,800C0A,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2026-08-31,2024-06-10
 VT-RKE,800C3A,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2026-08-31,2024-06-10

@@ -1225,9 +1225,9 @@
   "heroReg": "VT-KJS"
  },
  {
-  "id": "rajas-aerosports-and-adventures-air-safari",
-  "name": "Rajas Aerosports and Adventures (Air Safari)",
-  "legalName": "Rajas Aerosports and Adventures Private Limited (Air Safari)",
+  "id": "rajas-aerosports-and-adventures",
+  "name": "Rajas Aerosports and Adventures",
+  "legalName": "Rajas Aerosports and Adventures Private Limited",
   "category": "non-scheduled",
   "website": null,
   "permit": {
@@ -4488,9 +4488,9 @@
   "heroReg": null
  },
  {
-  "id": "lcl-aviation-ecojet",
-  "name": "LCL Aviation . (ECOJET)",
-  "legalName": "LCL Aviation Pvt. Ltd. (ECOJET)",
+  "id": "lcl-aviation",
+  "name": "LCL Aviation",
+  "legalName": "LCL Aviation Pvt. Ltd.",
   "category": "non-scheduled",
   "website": null,
   "permit": {
@@ -4865,9 +4865,9 @@
   "heroReg": "VT-PNS"
  },
  {
-  "id": "rajhans-infracon-india",
-  "name": "RAJHANS INFRACON (INDIA)",
-  "legalName": "RAJHANS INFRACON (INDIA)",
+  "id": "rajhans-infracon",
+  "name": "RAJHANS INFRACON",
+  "legalName": "RAJHANS INFRACON",
   "category": "non-scheduled",
   "website": null,
   "permit": {

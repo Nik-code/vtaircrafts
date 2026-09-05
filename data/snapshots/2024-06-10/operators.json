@@ -308,7 +308,7 @@
  {
   "id": "alliance-air",
   "name": "Alliance Air",
-  "legalName": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "legalName": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "website": "https://www.allianceair.in",
   "permit": {
@@ -506,7 +506,7 @@
  {
   "id": "quikjet",
   "name": "Quikjet Cargo",
-  "legalName": "Quikjet Cargo Airlines Pvt. Ltd. (Quikjet)",
+  "legalName": "Quikjet Cargo Airlines Pvt. Ltd.",
   "category": "scheduled",
   "website": "https://www.quikjet.in",
   "permit": {
@@ -535,7 +535,7 @@
  {
   "id": "zexus-air",
   "name": "Zexus Air",
-  "legalName": "Zexus Air Services Private Limited (Zooom)",
+  "legalName": "Zexus Air Services Private Limited",
   "category": "scheduled",
   "website": null,
   "permit": {

@@ -1,5 +1,5 @@
 reg,hex,operator,operator_legal,category,permit_no,permit_valid_until,model,type_icao,type_manufacturer,type_name,wing,seats,seats_raw,role,source_file,source_as_on,first_seen
-VT-AAZ,801530,Quikjet Cargo,Quikjet Cargo Airlines Pvt. Ltd. (Quikjet),scheduled,S-34,2027-12-11,B737-800 (Freighter),B738,Boeing,Boeing 737-800,FW,,Cargo,cargo,sch-oper.pdf,2024-06-10,2024-06-10
+VT-AAZ,801530,Quikjet Cargo,Quikjet Cargo Airlines Pvt. Ltd.,scheduled,S-34,2027-12-11,B737-800 (Freighter),B738,Boeing,Boeing 737-800,FW,,Cargo,cargo,sch-oper.pdf,2024-06-10,2024-06-10
 VT-AEE,801538,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-200 LR,B772,Boeing,Boeing 777-200LR,FW,238,238,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-AEF,80153C,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-200 LR,B772,Boeing,Boeing 777-200LR,FW,238,238,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-AEG,80153F,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-200 LR,B772,Boeing,Boeing 777-200LR,FW,238,238,passenger,sch-oper.pdf,2024-06-10,2024-06-10
@@ -11,14 +11,14 @@ VT-AEO,80159E,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-300 ER,B77W
 VT-AEP,80159F,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-300 ER,B77W,Boeing,Boeing 777-300ER,FW,342,342,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-AEQ,8015A6,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-300 ER,B77W,Boeing,Boeing 777-300ER,FW,342,342,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-AER,8015A7,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-200 LR,B772,Boeing,Boeing 777-200LR,FW,238,238,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-AII,800B52,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-AIT,800B53,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-AIU,800B54,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-AIV,800B55,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-AIW,800B56,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-AIX,800B9F,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-AIY,800BA0,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-AIZ,800BA1,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-AII,800B52,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-AIT,800B53,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-AIU,800B54,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-AIV,800B55,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-AIW,800B56,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-AIX,800B9F,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-AIY,800BA0,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-AIZ,800BA1,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-ALF,8004DA,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-200 LR,B772,Boeing,Boeing 777-200LR,FW,238,238,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-ALG,8004DB,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-200 LR,B772,Boeing,Boeing 777-200LR,FW,238,238,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-ALH,8004DC,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,B777-200 LR,B772,Boeing,Boeing 777-200LR,FW,238,238,passenger,sch-oper.pdf,2024-06-10,2024-06-10
@@ -87,7 +87,7 @@ VT-AYA,80044B,Air India Express,Air India Express Ltd.,scheduled,S-14,2028-04-21
 VT-AYB,80044C,Air India Express,Air India Express Ltd.,scheduled,S-14,2028-04-21,B737-800,B738,Boeing,Boeing 737-800,FW,186,186,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-AYC,80044D,Air India Express,Air India Express Ltd.,scheduled,S-14,2028-04-21,B737-800,B738,Boeing,Boeing 737-800,FW,186,186,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-AYD,80044E,Air India Express,Air India Express Ltd.,scheduled,S-14,2028-04-21,B737-800,B738,Boeing,Boeing 737-800,FW,186,186,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-BAZ,80154E,Quikjet Cargo,Quikjet Cargo Airlines Pvt. Ltd. (Quikjet),scheduled,S-34,2027-12-11,B737-800 (Freighter),B738,Boeing,Boeing 737-800,FW,,Cargo,cargo,sch-oper.pdf,2024-06-10,2024-06-10
+VT-BAZ,80154E,Quikjet Cargo,Quikjet Cargo Airlines Pvt. Ltd.,scheduled,S-34,2027-12-11,B737-800 (Freighter),B738,Boeing,Boeing 737-800,FW,,Cargo,cargo,sch-oper.pdf,2024-06-10,2024-06-10
 VT-BDA,800B45,Blue Dart Aviation,Blue Dart Aviation Ltd.,scheduled,S-13,2027-12-30,B757-200,B752,Boeing,Boeing 757,FW,,Cargo,cargo,sch-oper.pdf,2024-06-10,2024-06-10
 VT-BDB,800BA9,Blue Dart Aviation,Blue Dart Aviation Ltd.,scheduled,S-13,2027-12-30,B757-200,B752,Boeing,Boeing 757,FW,,Cargo,cargo,sch-oper.pdf,2024-06-10,2024-06-10
 VT-BDC,80156E,Blue Dart Aviation,Blue Dart Aviation Ltd.,scheduled,S-13,2027-12-30,B737-800 Freighter,B738,Boeing,Boeing 737-800,FW,,Cargo,cargo,sch-oper.pdf,2024-06-10,2024-06-10
@@ -546,7 +546,7 @@ VT-JRH,801666,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,A350-941,A359,Ai
 VT-JRI,801665,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,A350-941,A359,Airbus,Airbus A350-900,FW,316,316,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-JRT,800B43,Air India Express,AIX Connect Pvt. Ltd.,scheduled,S-26,2029-05-06,A320-216,A320,Airbus,Airbus A320,FW,180,180,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-KHU,8015D6,FlyBig,Big Charter Pvt. Ltd.,scheduled,SC-07,2025-12-13,DHC-6-400 (Twin Otter),DHC6,De Havilland Canada,DHC-6 Twin Otter,FW,19,19,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-KNP,800C35,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,DO 228-201,D228,Other,DO 228-201,FW,16,16,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-KNP,800C35,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,DO 228-201,D228,Other,DO 228-201,FW,16,16,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-KOC,800CC0,Air India Express,AIX Connect Pvt. Ltd.,scheduled,S-26,2029-05-06,A320-216,A320,Airbus,Airbus A320,FW,180,180,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-KSS,801505,GSEC Monarch & Deccan Charters,GSEC Monarch and Deccan Aviation Pvt.,scheduled,SC-09,2025-06-23,Cessna Grand,C208,Cessna,Cessna Grand,FW,9,9,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-KTM,80138C,Air India Express,AIX Connect Pvt. Ltd.,scheduled,S-26,2029-05-06,A320-214,A320,Airbus,Airbus A320,FW,180,180,passenger,sch-oper.pdf,2024-06-10,2024-06-10
@@ -577,16 +577,16 @@ VT-PPV,800579,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,A321-211,A321,Ai
 VT-PPW,80057B,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,A321-211,A321,Airbus,Airbus A321,FW,182,182,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-PPX,80058A,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,A321-211,A321,Airbus,Airbus A321,FW,182,182,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-RED,,Air India Express,AIX Connect Pvt. Ltd.,scheduled,S-26,2029-05-06,A320-216,A320,Airbus,Airbus A320,FW,180,180,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKC,800C09,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKD,800C0A,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKE,800C3A,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKF,800C3B,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKG,800C4E,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKH,800C7F,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKJ,800CBB,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKK,800CE7,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKL,800D3B,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-RKM,800D52,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKC,800C09,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKD,800C0A,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKE,800C3A,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKF,800C3B,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKG,800C4E,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKH,800C7F,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKJ,800CBB,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKK,800CE7,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKL,800D3B,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-RKM,800D52,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR72-600,AT76,ATR,ATR 72-600,FW,70,70,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-RTB,801590,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,A321-251NX,A21N,Airbus,Airbus A321neo,FW,192,192,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-RTC,801591,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,A321-251NX,A21N,Airbus,Airbus A321neo,FW,192,192,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-RTD,801595,Air India,Air India Ltd.,scheduled,S-9,2028-06-30,A321-251NX,A21N,Airbus,Airbus A321neo,FW,192,192,passenger,sch-oper.pdf,2024-06-10,2024-06-10
@@ -740,8 +740,8 @@ VT-TYD,8014AE,Vistara,Tata SIA Airlines Ltd.,scheduled,S-27,2024-12-14,A320-251N
 VT-TYE,8014F3,Vistara,Tata SIA Airlines Ltd.,scheduled,S-27,2024-12-14,A320-251N,A20N,Airbus,Airbus A320neo,FW,164,164,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-TYF,80158B,Vistara,Tata SIA Airlines Ltd.,scheduled,S-27,2024-12-14,A320-251N,A20N,Airbus,Airbus A320neo,FW,164,164,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-TYG,801584,Vistara,Tata SIA Airlines Ltd.,scheduled,S-27,2024-12-14,A320-251N,A20N,Airbus,Airbus A320neo,FW,164,164,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-UDA,8014E9,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR42-500,AT46,ATR,ATR 42-600,FW,48,48,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-UDB,8014EA,Alliance Air,Alliance Air Aviation Ltd. (Alliance Air),scheduled,S-8,2028-04-30,ATR42-500,AT46,ATR,ATR 42-600,FW,48,48,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-UDA,8014E9,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR42-500,AT46,ATR,ATR 42-600,FW,48,48,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-UDB,8014EA,Alliance Air,Alliance Air Aviation Ltd.,scheduled,S-8,2028-04-30,ATR42-500,AT46,ATR,ATR 42-600,FW,48,48,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-VKK,801555,GSEC Monarch & Deccan Charters,GSEC Monarch and Deccan Aviation Pvt.,scheduled,SC-09,2025-06-23,Cessna Grand,C208,Cessna,Cessna Grand,FW,9,9,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-VNS,8013CA,Air India Express,AIX Connect Pvt. Ltd.,scheduled,S-26,2029-05-06,A320-216,A320,Airbus,Airbus A320,FW,180,180,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-VTZ,800CE4,Air India Express,AIX Connect Pvt. Ltd.,scheduled,S-26,2029-05-06,A320-214,A320,Airbus,Airbus A320,FW,180,180,passenger,sch-oper.pdf,2024-06-10,2024-06-10
@@ -769,5 +769,5 @@ VT-YAV,8015AB,Akasa Air,SNV Aviation Pvt. Ltd.,scheduled,S-33,2027-07-06,B737-82
 VT-YAW,80161D,Akasa Air,SNV Aviation Pvt. Ltd.,scheduled,S-33,2027-07-06,B737-8,B38M,Boeing,Boeing 737-8,FW,189,189,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-YAX,801633,Akasa Air,SNV Aviation Pvt. Ltd.,scheduled,S-33,2027-07-06,B737-8,B38M,Boeing,Boeing 737-8,FW,189,189,passenger,sch-oper.pdf,2024-06-10,2024-06-10
 VT-YBA,801632,Akasa Air,SNV Aviation Pvt. Ltd.,scheduled,S-33,2027-07-06,B737-8,B38M,Boeing,Boeing 737-8,FW,189,189,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-ZOC,,Zexus Air,Zexus Air Services Private Limited (Zooom),scheduled,S-32,2024-09-13,CRJ-200ER,,Other,CRJ-200ER,FW,50,50,passenger,sch-oper.pdf,2024-06-10,2024-06-10
-VT-ZOD,,Zexus Air,Zexus Air Services Private Limited (Zooom),scheduled,S-32,2024-09-13,CRJ-200ER,,Other,CRJ-200ER,FW,50,50,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-ZOC,,Zexus Air,Zexus Air Services Private Limited,scheduled,S-32,2024-09-13,CRJ-200ER,,Other,CRJ-200ER,FW,50,50,passenger,sch-oper.pdf,2024-06-10,2024-06-10
+VT-ZOD,,Zexus Air,Zexus Air Services Private Limited,scheduled,S-32,2024-09-13,CRJ-200ER,,Other,CRJ-200ER,FW,50,50,passenger,sch-oper.pdf,2024-06-10,2024-06-10

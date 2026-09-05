@@ -39,7 +39,7 @@ export interface OperatorIdentity {
 }
 
 export function identifyOperator(legalName: string, brandRaw: string | null): OperatorIdentity {
-  const legal = legalName.replace(/\s+/g, " ").trim();
+  const legal = legalName.replace(/\s+/g, " ").replace(/\s*\([^)]*\)\s*$/, "").trim();
   for (const a of OPERATOR_ALIASES) {
     if (a.match.test(legal)) return { id: a.id, name: a.name, legalName: legal, website: a.website ?? null };
   }

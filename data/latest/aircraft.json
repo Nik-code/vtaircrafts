@@ -2012,9 +2012,9 @@
  {
   "reg": "VT-ANF",
   "hex": "8001DC",
-  "operatorId": "lcl-aviation-ecojet",
-  "operator": "LCL Aviation . (ECOJET)",
-  "operatorLegal": "LCL Aviation Pvt. Ltd. (ECOJET)",
+  "operatorId": "lcl-aviation",
+  "operator": "LCL Aviation",
+  "operatorLegal": "LCL Aviation Pvt. Ltd.",
   "category": "non-scheduled",
   "permit": {
    "no": "#09/2022",
@@ -9362,9 +9362,9 @@
  {
   "reg": "VT-DJB",
   "hex": "801610",
-  "operatorId": "rajhans-infracon-india",
-  "operator": "RAJHANS INFRACON (INDIA)",
-  "operatorLegal": "RAJHANS INFRACON (INDIA)",
+  "operatorId": "rajhans-infracon",
+  "operator": "RAJHANS INFRACON",
+  "operatorLegal": "RAJHANS INFRACON",
   "category": "non-scheduled",
   "permit": {
    "no": "#03/2024",
@@ -37826,9 +37826,9 @@
  {
   "reg": "VT-RAG",
   "hex": null,
-  "operatorId": "rajas-aerosports-and-adventures-air-safari",
-  "operator": "Rajas Aerosports and Adventures (Air Safari)",
-  "operatorLegal": "Rajas Aerosports and Adventures Private Limited (Air Safari)",
+  "operatorId": "rajas-aerosports-and-adventures",
+  "operator": "Rajas Aerosports and Adventures",
+  "operatorLegal": "Rajas Aerosports and Adventures Private Limited",
   "category": "non-scheduled",
   "permit": {
    "no": "#02/2024",
@@ -38030,9 +38030,9 @@
  {
   "reg": "VT-RBO",
   "hex": null,
-  "operatorId": "rajas-aerosports-and-adventures-air-safari",
-  "operator": "Rajas Aerosports and Adventures (Air Safari)",
-  "operatorLegal": "Rajas Aerosports and Adventures Private Limited (Air Safari)",
+  "operatorId": "rajas-aerosports-and-adventures",
+  "operator": "Rajas Aerosports and Adventures",
+  "operatorLegal": "Rajas Aerosports and Adventures Private Limited",
   "category": "non-scheduled",
   "permit": {
    "no": "#02/2024",
@@ -38504,9 +38504,9 @@
  {
   "reg": "VT-RJF",
   "hex": null,
-  "operatorId": "rajas-aerosports-and-adventures-air-safari",
-  "operator": "Rajas Aerosports and Adventures (Air Safari)",
-  "operatorLegal": "Rajas Aerosports and Adventures Private Limited (Air Safari)",
+  "operatorId": "rajas-aerosports-and-adventures",
+  "operator": "Rajas Aerosports and Adventures",
+  "operatorLegal": "Rajas Aerosports and Adventures Private Limited",
   "category": "non-scheduled",
   "permit": {
    "no": "#02/2024",
@@ -38534,9 +38534,9 @@
  {
   "reg": "VT-RJG",
   "hex": "80169B",
-  "operatorId": "rajas-aerosports-and-adventures-air-safari",
-  "operator": "Rajas Aerosports and Adventures (Air Safari)",
-  "operatorLegal": "Rajas Aerosports and Adventures Private Limited (Air Safari)",
+  "operatorId": "rajas-aerosports-and-adventures",
+  "operator": "Rajas Aerosports and Adventures",
+  "operatorLegal": "Rajas Aerosports and Adventures Private Limited",
   "category": "non-scheduled",
   "permit": {
    "no": "#02/2024",
@@ -38564,9 +38564,9 @@
  {
   "reg": "VT-RJH",
   "hex": null,
-  "operatorId": "rajas-aerosports-and-adventures-air-safari",
-  "operator": "Rajas Aerosports and Adventures (Air Safari)",
-  "operatorLegal": "Rajas Aerosports and Adventures Private Limited (Air Safari)",
+  "operatorId": "rajas-aerosports-and-adventures",
+  "operator": "Rajas Aerosports and Adventures",
+  "operatorLegal": "Rajas Aerosports and Adventures Private Limited",
   "category": "non-scheduled",
   "permit": {
    "no": "#02/2024",
@@ -38594,9 +38594,9 @@
  {
   "reg": "VT-RJL",
   "hex": "801634",
-  "operatorId": "rajas-aerosports-and-adventures-air-safari",
-  "operator": "Rajas Aerosports and Adventures (Air Safari)",
-  "operatorLegal": "Rajas Aerosports and Adventures Private Limited (Air Safari)",
+  "operatorId": "rajas-aerosports-and-adventures",
+  "operator": "Rajas Aerosports and Adventures",
+  "operatorLegal": "Rajas Aerosports and Adventures Private Limited",
   "category": "non-scheduled",
   "permit": {
    "no": "#02/2024",
@@ -38636,9 +38636,9 @@
  {
   "reg": "VT-RJM",
   "hex": null,
-  "operatorId": "rajas-aerosports-and-adventures-air-safari",
-  "operator": "Rajas Aerosports and Adventures (Air Safari)",
-  "operatorLegal": "Rajas Aerosports and Adventures Private Limited (Air Safari)",
+  "operatorId": "rajas-aerosports-and-adventures",
+  "operator": "Rajas Aerosports and Adventures",
+  "operatorLegal": "Rajas Aerosports and Adventures Private Limited",
   "category": "non-scheduled",
   "permit": {
    "no": "#02/2024",

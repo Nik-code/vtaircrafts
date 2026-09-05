@@ -4,7 +4,7 @@
   "hex": "801530",
   "operatorId": "quikjet",
   "operator": "Quikjet Cargo",
-  "operatorLegal": "Quikjet Cargo Airlines Pvt. Ltd. (Quikjet)",
+  "operatorLegal": "Quikjet Cargo Airlines Pvt. Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-34",
@@ -436,7 +436,7 @@
   "hex": "800B52",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -478,7 +478,7 @@
   "hex": "800B53",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -520,7 +520,7 @@
   "hex": "800B54",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -562,7 +562,7 @@
   "hex": "800B55",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -604,7 +604,7 @@
   "hex": "800B56",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -646,7 +646,7 @@
   "hex": "800B9F",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -688,7 +688,7 @@
   "hex": "800BA0",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -730,7 +730,7 @@
   "hex": "800BA1",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -3592,7 +3592,7 @@
   "hex": "80154E",
   "operatorId": "quikjet",
   "operator": "Quikjet Cargo",
-  "operatorLegal": "Quikjet Cargo Airlines Pvt. Ltd. (Quikjet)",
+  "operatorLegal": "Quikjet Cargo Airlines Pvt. Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-34",
@@ -22834,7 +22834,7 @@
   "hex": "800C35",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24124,7 +24124,7 @@
   "hex": "800C09",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24166,7 +24166,7 @@
   "hex": "800C0A",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24208,7 +24208,7 @@
   "hex": "800C3A",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24250,7 +24250,7 @@
   "hex": "800C3B",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24292,7 +24292,7 @@
   "hex": "800C4E",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24334,7 +24334,7 @@
   "hex": "800C7F",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24376,7 +24376,7 @@
   "hex": "800CBB",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24418,7 +24418,7 @@
   "hex": "800CE7",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24460,7 +24460,7 @@
   "hex": "800D3B",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -24502,7 +24502,7 @@
   "hex": "800D52",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -30970,7 +30970,7 @@
   "hex": "8014E9",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -31000,7 +31000,7 @@
   "hex": "8014EA",
   "operatorId": "alliance-air",
   "operator": "Alliance Air",
-  "operatorLegal": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "operatorLegal": "Alliance Air Aviation Ltd.",
   "category": "scheduled",
   "permit": {
    "no": "S-8",
@@ -32152,7 +32152,7 @@
   "hex": null,
   "operatorId": "zexus-air",
   "operator": "Zexus Air",
-  "operatorLegal": "Zexus Air Services Private Limited (Zooom)",
+  "operatorLegal": "Zexus Air Services Private Limited",
   "category": "scheduled",
   "permit": {
    "no": "S-32",
@@ -32182,7 +32182,7 @@
   "hex": null,
   "operatorId": "zexus-air",
   "operator": "Zexus Air",
-  "operatorLegal": "Zexus Air Services Private Limited (Zooom)",
+  "operatorLegal": "Zexus Air Services Private Limited",
   "category": "scheduled",
   "permit": {
    "no": "S-32",
