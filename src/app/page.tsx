@@ -3,7 +3,7 @@ import { fmtDate, fmtInt } from "@/lib/format";
 import type { Wing } from "@/lib/types";
 import { Hero } from "@/components/home/Hero";
 import { Section } from "@/components/home/Section";
-import { OperatorBars } from "@/components/home/OperatorBars";
+import { OperatorEngineChart } from "@/components/home/OperatorEngineChart";
 import { TypeMix } from "@/components/home/TypeMix";
 import { PermitHorizon } from "@/components/home/PermitHorizon";
 import { Movements } from "@/components/home/Movements";
@@ -11,7 +11,6 @@ import { PlateStrip } from "@/components/home/PlateStrip";
 import { HowDrawn } from "@/components/home/HowDrawn";
 import {
   apronGroups,
-  operatorsBySize,
   permitHorizon,
   plateSelection,
   recentMovements,
@@ -49,9 +48,12 @@ export default function Home() {
           id="sheet-02"
           sheet="02"
           title="Fleet by operator"
-          fields={[{ label: "Scheduled", value: fmtInt(meta.counts.scheduled) }, { label: "Non-sched", value: fmtInt(meta.counts.nonScheduled) }]}
+          fields={[
+            { label: "Fixed Wing", value: fmtInt(meta.counts.fixedWing) },
+            { label: "Rotary", value: fmtInt(meta.counts.rotary) },
+          ]}
         >
-          <OperatorBars operators={operators} total={meta.counts.aircraft} shown={operatorsBySize(operators).slice(0, 16)} />
+          <OperatorEngineChart operators={operators} total={meta.counts.aircraft} counts={meta.counts} />
         </Section>
 
         <Section sheet="03" title="Type mix" fields={[revField]}>
