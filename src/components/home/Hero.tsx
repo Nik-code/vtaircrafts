@@ -3,7 +3,7 @@ import { CountUp } from "@/components/ui/CountUp";
 import { Callout } from "./Callout";
 import { fmtDate, fmtInt } from "@/lib/format";
 import { ApronChart } from "./ApronChart";
-import type { ApronGroup } from "./apron";
+import { layoutApron, VW, type ApronGroup } from "./apron";
 
 const lightGhost =
   "border-paper/45! text-paper! hover:bg-paper! hover:text-ink! hover:border-paper!";
@@ -29,6 +29,12 @@ export function Hero({
     { label: "Aircraft types", value: fmtInt(types) },
     { label: "Seats on the lists", value: fmtInt(seats) },
   ];
+  // ApronChart is a client component fetching its own SVG; hand it only the
+  // few numbers it needs to draw the legend and reserve layout, never the
+  // full per-aircraft groups (that would ship the whole apron a second time
+  // inside the hydration payload).
+  const apronTotal = groups.reduce((n, g) => n + g.aircraft.length, 0);
+  const { height: apronHeight } = layoutApron(groups);
 
   return (
     <section className="blueprint px-4 py-6 sm:px-6 sm:py-8">
@@ -77,7 +83,7 @@ export function Hero({
           </div>
         </div>
 
-        <ApronChart groups={groups} />
+        <ApronChart total={apronTotal} operatorCount={groups.length} width={VW} height={apronHeight} />
       </div>
     </section>
   );

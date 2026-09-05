@@ -15,7 +15,7 @@ export interface ApronGroup {
 }
 
 /* Drawing units. The SVG scales to its container, so these are ratios, not pixels. */
-const VW = 900;      // sheet width
+export const VW = 900;      // sheet width
 const PITCH = 11;    // horizontal step between parked aircraft
 const ROW = 13;      // vertical step between rows
 const TICK = 5;      // station tick + gap before an operator name
@@ -115,10 +115,23 @@ export function apronSvg(groups: ApronGroup[], titleId: string, descId: string) 
     return `${out}</g>`;
   };
 
+  /*
+   * The chart is served standalone (see src/app/apron.svg/route.ts) and injected
+   * into the page as a plain markup string, so it carries its own hover style
+   * rather than depending on page CSS reaching an injected-then-hydrated string.
+   */
+  const style =
+    `<style>` +
+    `use{transition:fill 150ms}` +
+    `a:hover use{fill:#FF4F00}` +
+    `@media (prefers-reduced-motion: reduce){use{transition:none}}` +
+    `</style>`;
+
   const svg =
     `<svg viewBox='0 0 ${VW} ${height}' width='100%' role='img' aria-labelledby='${titleId} ${descId}' style='display:block;overflow:visible'>` +
     `<title id='${titleId}'>Apron chart of ${total.toLocaleString("en-IN")} aircraft</title>` +
     `<desc id='${descId}'>Every aircraft on the DGCA operator lists, drawn as one glyph and parked in blocks by operator, largest operator first.</desc>` +
+    style +
     glyphDefs() +
     layer("s", FILL_SCHEDULED) +
     layer("n", FILL_NONSCHEDULED) +

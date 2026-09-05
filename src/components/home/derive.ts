@@ -27,7 +27,7 @@ export function apronGroups(): ApronGroup[] {
       id: o.id,
       name: o.name,
       scheduled: o.category === "scheduled",
-      aircraft: (fleets.get(o.id) ?? []).map((a) => ({ reg: a.reg, type: a.type.icao ?? a.type.name, wing: a.wing })),
+      aircraft: (fleets.get(o.id) ?? []).map((a) => ({ reg: a.reg, type: a.type.name, wing: a.wing })),
     }))
     .filter((g) => g.aircraft.length > 0);
 }

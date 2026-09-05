@@ -1,6 +1,9 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { Streamlines } from "@/components/ui/Streamlines";
 import { GLYPH_PATHS } from "./glyphs";
-import { APRON_FILL, apronSvg, type ApronGroup } from "./apron";
+import { APRON_FILL } from "./apron";
 import type { Wing } from "@/lib/types";
 
 const LEGEND: Array<{ wing: Wing; label: string }> = [
@@ -9,20 +12,66 @@ const LEGEND: Array<{ wing: Wing; label: string }> = [
   { wing: "B", label: "Balloon" },
 ];
 
+/** Module-scope so every mount of ApronChart on the page shares one fetch. */
+let apronSvgPromise: Promise<string> | null = null;
+
+function loadApronSvg(): Promise<string> {
+  if (!apronSvgPromise) {
+    apronSvgPromise = fetch("/apron.svg")
+      .then((res) => {
+        if (!res.ok) throw new Error(`apron.svg responded ${res.status}`);
+        return res.text();
+      })
+      .catch((err) => {
+        apronSvgPromise = null; // let a later mount retry instead of caching the failure
+        throw err;
+      });
+  }
+  return apronSvgPromise;
+}
+
 /**
  * The apron: every aircraft on the lists drawn once, parked in blocks by
- * operator. Rendered on the server as a single SVG so each glyph is a real
- * link, and painted from two layers so fill costs nothing per aircraft.
+ * operator. The chart itself lives at /apron.svg (see src/app/apron.svg/route.ts)
+ * as a self-contained static SVG, so its 1,306 anchors never travel through
+ * the React tree or the hydration payload — this component only fetches it
+ * once and drops the markup in.
  */
-export function ApronChart({ groups }: { groups: ApronGroup[] }) {
-  const { svg } = apronSvg(groups, "apron-title", "apron-desc");
-  const total = groups.reduce((n, g) => n + g.aircraft.length, 0);
+export function ApronChart({
+  total,
+  operatorCount,
+  width,
+  height,
+}: {
+  total: number;
+  operatorCount: number;
+  width: number;
+  height: number;
+}) {
+  const [svg, setSvg] = useState<string | null>(null);
+  const [failed, setFailed] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadApronSvg().then(
+      (markup) => {
+        if (!cancelled) setSvg(markup);
+      },
+      () => {
+        if (!cancelled) setFailed(true);
+      },
+    );
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   return (
     <div className="flex min-w-0 flex-col">
       <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-b border-paper/25 pb-2">
         <span className="label">Apron chart · one glyph per aircraft</span>
         <span className="mono text-[11px] text-paper/70">
-          {total.toLocaleString("en-IN")} parked · {groups.length} operators
+          {total.toLocaleString("en-IN")} parked · {operatorCount} operators
         </span>
       </div>
 
@@ -36,10 +85,13 @@ export function ApronChart({ groups }: { groups: ApronGroup[] }) {
       <div className="relative mt-4 min-w-0 flex-1 overflow-x-auto">
         <div className="relative min-w-[620px]">
           <Streamlines className="pointer-events-none absolute inset-0 h-full w-full opacity-[0.14]" airfoil={false} />
-          <div
-            className="mono relative [&_a]:transition-[fill] [&_a]:duration-150 [&_a:hover]:fill-signal"
-            dangerouslySetInnerHTML={{ __html: svg }}
-          />
+          {failed ? (
+            <p className="mono py-10 text-center text-[13px] text-paper/70">Chart unavailable</p>
+          ) : svg ? (
+            <div className="relative" dangerouslySetInnerHTML={{ __html: svg }} />
+          ) : (
+            <div className="grid-paper w-full" style={{ aspectRatio: `${width} / ${height}` }} aria-hidden />
+          )}
         </div>
       </div>
 
