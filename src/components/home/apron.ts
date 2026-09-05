@@ -1,6 +1,6 @@
 import type { Wing } from "@/lib/types";
 import { fmtInt } from "@/lib/format";
-import { GLYPH_ID, glyphDefs } from "./glyphs";
+import { MARK_ID, markDefs } from "./glyphs";
 
 export interface ApronAircraft {
   reg: string;
@@ -15,202 +15,233 @@ export interface ApronGroup {
   aircraft: ApronAircraft[];
 }
 
-/* Drawing units. The SVG scales to its container, so these are ratios, not pixels. */
-export const VW = 900;      // sheet width
-const PITCH = 14;    // horizontal step between parked aircraft
-const ROW = 17;      // vertical step between rows
-const TICK = 6;      // station tick + gap before an operator name
-const AFTER = 11;    // gap after an operator name
-const CHAR = 7.7;    // advance of one uppercase mono character at NAME_SIZE
-const NAME_SIZE = 10;
-const NAME_TRACK = 0.9;
-const BASELINE = 12; // text baseline inside a 0..17 row
-const GROUP_GAP = 16;// gap after a labelled operator's aircraft, before the next name
-const SMALL_GAP = 3; // gap between two unlabelled operators inside the "more" block
-const MIN_INLINE = 4;// glyphs that must fit beside a name, else the row starts lower
-const PAD_T = 8;
-const PAD_B = 6;
+/*
+ * Drawing units. The SVG scales to its container (`width="100%"`), so these
+ * are ratios, not pixels.
+ *
+ * The chart is a column waffle, one mark per aircraft: a fixed number of
+ * rows, operators laid out left to right as rectangular blocks of columns
+ * (largest operator first), each block filled top-to-bottom then
+ * column-by-column, a one-column gap between blocks. Operators with fewer
+ * than LABEL_MIN aircraft pool into one trailing block (their marks keep
+ * their own operator's colour). The viewBox width is exactly the total
+ * column count × PITCH, so the field fills its container edge to edge.
+ */
+const ROWS = 23; // Fixed row count. Chosen against the current fleet split
+// (12 named operators plus a ~377-aircraft pool) so the field itself lands
+// near a 3.2:1 width:height (900×276 at PITCH 12 for the current dataset).
+const PITCH = 12; // column / row step
+const MARK = round(PITCH * 0.72); // mark side, centred in its cell
+const MARK_OFFSET = round((PITCH - MARK) / 2);
+const BLOCK_GAP = 1; // one empty column between blocks
 
-/** Glyphs are authored in a 0..10 box; drawn GLYPH_SCALE larger, centred on the same anchor. */
-const GLYPH_SCALE = 1.25;
-const GLYPH_OFFSET = 5 * (1 - GLYPH_SCALE);
-
-/** Operators smaller than this flow into one unlabelled "and N more" block. */
+/** Operators smaller than this pool into one trailing mixed-colour block. */
 const LABEL_MIN = 12;
+/** Only the largest operators get a name callout above the field. */
+const CALLOUT_COUNT = 8;
+
+const NAME_SIZE = 12;
+const NAME_TRACK = 0.4;
+const CHAR_W = NAME_SIZE * 0.62; // rough mono advance, for collision-avoidance only
+const SHELF_NEAR_Y = 27; // baseline, shelf closer to the field
+const SHELF_FAR_Y = 12; // baseline, shelf further from the field
+const LEADER_GAP = 4; // gap below a label's baseline before its leader starts
+const FIELD_TOP = 40; // top of the dot matrix; every leader ends here
+const BOTTOM_PAD = 22; // room below the field for the "and N more" label
+const MIN_SHELF_GAP = 10; // x clearance kept between two labels on one shelf
 
 /** Paper and mint-tinted paper, sitting on the blueprint ground. */
 const FILL_SCHEDULED = "#EFEBE0";
 const FILL_NONSCHEDULED = "#8DC2B7";
 /** Dim paper: the quiet "and N more operators" label, not tied to one operator. */
 const FILL_MORE = "rgba(243,240,232,0.55)";
-
-interface Placed { x: number; row: number }
-interface PlacedGlyph extends Placed { a: ApronAircraft }
-interface PlacedName extends Placed { name: string }
-
-function esc(s: string) {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-}
+const FILL_NAME = "#F3F0E8";
+const STROKE_LEADER = "rgba(243,240,232,0.4)";
 
 type FlowKey = "s" | "n";
-interface FlowItem {
+
+interface Mark {
+  x: number;
+  y: number;
   key: FlowKey;
-  /** null = no name drawn (an unlabelled operator folded into the "more" block). */
-  displayName: string | null;
-  isMore?: boolean;
-  aircraft: ApronAircraft[];
+  a: ApronAircraft;
 }
 
-/**
- * Splits operators into the ones worth naming (LABEL_MIN aircraft or more,
- * already the largest operators since `groups` arrives largest-first) and
- * everyone else, who flow together into one quiet "and N more operators"
- * block: one label, then their aircraft, unlabelled, in the same order.
- */
-function prepareFlow(groups: ApronGroup[]): FlowItem[] {
-  const big = groups.filter((g) => g.aircraft.length >= LABEL_MIN);
-  const small = groups.filter((g) => g.aircraft.length < LABEL_MIN);
-
-  const flow: FlowItem[] = big.map((g) => ({
-    key: g.scheduled ? "s" : "n",
-    displayName: g.name,
-    aircraft: g.aircraft,
-  }));
-
-  if (small.length > 0) {
-    flow.push({
-      key: "s",
-      displayName: `and ${fmtInt(small.length)} more operators`,
-      isMore: true,
-      aircraft: [],
-    });
-    for (const g of small) {
-      flow.push({ key: g.scheduled ? "s" : "n", displayName: null, aircraft: g.aircraft });
-    }
-  }
-
-  return flow;
+interface Callout {
+  x: number;
+  name: string;
+  count: number;
+  shelf: 0 | 1;
 }
 
-/**
- * Flows every aircraft into rows the way words flow into a paragraph: a named
- * operator's name, then its aircraft, then the next name. Operators too small
- * to earn a label fold into one quiet "and N more operators" block and keep
- * flowing with only a small gap between them. A name that will not fit beside
- * at least a few of its own aircraft starts the row lower rather than being
- * shortened.
- */
-export function layoutApron(groups: ApronGroup[]) {
-  const glyphs: Record<FlowKey, PlacedGlyph[]> = { s: [], n: [] };
-  const names: Record<FlowKey, PlacedName[]> = { s: [], n: [] };
-  const moreNames: PlacedName[] = [];
-  let x = 0;
-  let row = 0;
-  const newline = () => { x = 0; row += 1; };
-
-  for (const item of prepareFlow(groups)) {
-    if (item.displayName !== null) {
-      const label = item.displayName.toUpperCase();
-      const nameW = TICK + label.length * CHAR + AFTER;
-      if (x > 0 && x + nameW + MIN_INLINE * PITCH > VW) newline();
-      const entry = { x: round(x), row, name: label };
-      if (item.isMore) moreNames.push(entry);
-      else names[item.key].push(entry);
-      x += nameW;
-    } else if (x > 0) {
-      x += SMALL_GAP;
-    }
-    if (x + PITCH > VW) newline();
-    for (const a of item.aircraft) {
-      if (x + PITCH > VW) newline();
-      glyphs[item.key].push({ x: round(x), row, a });
-      x += PITCH;
-    }
-    if (item.displayName !== null && !item.isMore) x += GROUP_GAP;
-  }
-  const rows = row + 1;
-  return { glyphs, names, moreNames, rows, height: PAD_T + rows * ROW + PAD_B };
+export interface ApronLayout {
+  marks: Mark[];
+  callouts: Callout[];
+  more: { x: number; count: number } | null;
+  cols: number;
+  rows: number;
+  width: number;
+  height: number;
 }
 
 function round(n: number) {
   return Math.round(n * 100) / 100;
 }
 
+function esc(s: string) {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
 /**
- * Serialises the whole apron as one SVG string. Written by hand rather than as
- * JSX so that anchors cost few bytes each: fill, size and tracking live on the
- * layer, the row `<g>` carries y, and each aircraft only spends bytes on its
- * own href, title and position.
+ * Lays every aircraft out as a column waffle and picks the label positions:
+ * operators largest first, each a rectangular block of columns filled
+ * top-to-bottom then column-by-column; operators under LABEL_MIN pool into
+ * one trailing block, each mark still coloured by its own operator's
+ * scheduled status. The CALLOUT_COUNT largest operators get a name + leader
+ * above the field, alternated across two shelf heights — greedily, so a
+ * label only leaves its preferred shelf when it would otherwise collide with
+ * the previous label already sitting there.
+ */
+export function layoutApron(groups: ApronGroup[]): ApronLayout {
+  const big = groups.filter((g) => g.aircraft.length >= LABEL_MIN);
+  const small = groups.filter((g) => g.aircraft.length < LABEL_MIN);
+
+  const marks: Mark[] = [];
+  const blockCenters: { name: string; count: number; x: number }[] = [];
+  let col = 0;
+
+  const placeBlock = (aircraft: { a: ApronAircraft; key: FlowKey }[]) => {
+    const cols = Math.max(1, Math.ceil(aircraft.length / ROWS));
+    aircraft.forEach((item, i) => {
+      const c = col + Math.floor(i / ROWS);
+      const r = i % ROWS;
+      marks.push({
+        x: round(c * PITCH + MARK_OFFSET),
+        y: round(r * PITCH + MARK_OFFSET),
+        key: item.key,
+        a: item.a,
+      });
+    });
+    const center = round((col + cols / 2) * PITCH);
+    col += cols + BLOCK_GAP;
+    return center;
+  };
+
+  for (const g of big) {
+    const key: FlowKey = g.scheduled ? "s" : "n";
+    const center = placeBlock(g.aircraft.map((a) => ({ a, key })));
+    blockCenters.push({ name: g.name, count: g.aircraft.length, x: center });
+  }
+
+  let more: { x: number; count: number } | null = null;
+  if (small.length > 0) {
+    const pooled = small.flatMap((g) =>
+      g.aircraft.map((a) => ({ a, key: (g.scheduled ? "s" : "n") as FlowKey })),
+    );
+    more = { x: placeBlock(pooled), count: small.length };
+  }
+  // No trailing gap after the last block.
+  const cols = col > 0 ? col - BLOCK_GAP : 0;
+
+  // The callouts are a prefix of `big` (already largest-first).
+  const shelfEnd: [number, number] = [-Infinity, -Infinity];
+  // A label that fits neither shelf is dropped rather than drawn over its neighbour:
+  // the largest operators come first, so what is lost is always the smallest block.
+  const callouts: Callout[] = blockCenters.slice(0, CALLOUT_COUNT).flatMap((b, i) => {
+    const label = `${b.name.toUpperCase()} ${fmtInt(b.count)}`;
+    const w = label.length * CHAR_W;
+    const preferred = (i % 2) as 0 | 1;
+    const other = (1 - preferred) as 0 | 1;
+    const fits = (s: 0 | 1) => b.x >= shelfEnd[s] + MIN_SHELF_GAP;
+    const shelf = fits(preferred) ? preferred : fits(other) ? other : null;
+    if (shelf === null) return [];
+    shelfEnd[shelf] = Math.max(shelfEnd[shelf], b.x) + w;
+    return [{ x: b.x, name: b.name, count: b.count, shelf }];
+  });
+
+  const width = cols * PITCH;
+  const height = FIELD_TOP + ROWS * PITCH + (more ? BOTTOM_PAD : 0);
+
+  return { marks, callouts, more, cols, rows: ROWS, width, height };
+}
+
+/**
+ * Serialises the whole apron as one SVG string, written by hand rather than
+ * as JSX so anchors cost few bytes each: rows share one `<g>` (and so one
+ * y), fill lives on the layer, and each mark only spends bytes on its own
+ * href, title and x position.
  */
 export function apronSvg(groups: ApronGroup[], titleId: string, descId: string) {
-  const { glyphs, names, moreNames, height } = layoutApron(groups);
-  const total = groups.reduce((n, g) => n + g.aircraft.length, 0);
+  const layout = layoutApron(groups);
+  const { marks, callouts, more, width, height, rows } = layout;
+  const total = marks.length;
 
   const layer = (key: FlowKey, fill: string) => {
-    const byRow = new Map<number, PlacedGlyph[]>();
-    for (const p of glyphs[key]) {
-      const list = byRow.get(p.row);
-      if (list) list.push(p);
-      else byRow.set(p.row, [p]);
+    const byRow = new Map<number, Mark[]>();
+    for (const m of marks) {
+      if (m.key !== key) continue;
+      const list = byRow.get(m.y);
+      if (list) list.push(m);
+      else byRow.set(m.y, [m]);
     }
     let out = `<g fill='${fill}'>`;
-    for (const [r, list] of byRow) {
-      out += `<g transform='translate(0,${PAD_T + r * ROW})'>`;
-      for (const p of list) {
-        const tx = round(p.x + GLYPH_OFFSET);
-        out += `<a href='/aircraft/${p.a.reg}'><title>${esc(p.a.reg)} · ${esc(p.a.type)}</title><use href='#${GLYPH_ID[p.a.wing]}' transform='translate(${tx},${GLYPH_OFFSET}) scale(${GLYPH_SCALE})'/></a>`;
+    for (const [y, list] of byRow) {
+      out += `<g transform='translate(0,${FIELD_TOP + y})'>`;
+      for (const m of list) {
+        out += `<a href='/aircraft/${m.a.reg}'><title>${esc(m.a.reg)} · ${esc(m.a.type)}</title><use x='${m.x}' href='#${MARK_ID[m.a.wing]}'/></a>`;
       }
       out += `</g>`;
     }
     return `${out}</g>`;
   };
 
-  const nameLayer = (key: FlowKey, fill: string) => {
-    if (names[key].length === 0) return "";
-    let out = `<g fill='${fill}' font-size='${NAME_SIZE}' letter-spacing='${NAME_TRACK}'>`;
-    for (const p of names[key]) {
-      const y = PAD_T + p.row * ROW;
-      out += `<rect x='${p.x}' y='${y + 1}' width='1' height='${ROW - 5}' opacity='.75'/>`;
-      out += `<text x='${p.x + TICK}' y='${y + BASELINE}'>${esc(p.name)}</text>`;
+  const calloutLayer = () => {
+    if (callouts.length === 0) return "";
+    let out = `<g font-size='${NAME_SIZE}' letter-spacing='${NAME_TRACK}'>`;
+    for (const c of callouts) {
+      const baseline = c.shelf === 0 ? SHELF_NEAR_Y : SHELF_FAR_Y;
+      const leaderStart = baseline + LEADER_GAP;
+      out += `<line x1='${c.x}' y1='${leaderStart}' x2='${c.x}' y2='${FIELD_TOP}' stroke='${STROKE_LEADER}'/>`;
+      out += `<circle cx='${c.x}' cy='${FIELD_TOP}' r='1.2' fill='${STROKE_LEADER}'/>`;
+      out += `<text x='${c.x}' y='${baseline}' fill='${FILL_NAME}'><tspan fill-opacity='.85'>${esc(c.name.toUpperCase())}</tspan><tspan fill-opacity='.55'> ${fmtInt(c.count)}</tspan></text>`;
     }
     return `${out}</g>`;
   };
 
-  const moreLayer = () => {
-    if (moreNames.length === 0) return "";
-    let out = `<g fill='${FILL_MORE}' font-size='${NAME_SIZE}' letter-spacing='${NAME_TRACK}' font-style='italic'>`;
-    for (const p of moreNames) {
-      const y = PAD_T + p.row * ROW;
-      out += `<text x='${p.x}' y='${y + BASELINE}'>${esc(p.name)}</text>`;
-    }
-    return `${out}</g>`;
+  const moreLabel = () => {
+    if (!more) return "";
+    const y = FIELD_TOP + rows * PITCH + BOTTOM_PAD - 8;
+    return `<text x='${width}' y='${y}' text-anchor='end' font-style='italic' font-size='${NAME_SIZE}' fill='${FILL_MORE}'>and ${fmtInt(more.count)} more operators</text>`;
   };
 
   /*
-   * The chart is served standalone (see src/app/apron.svg/route.ts) and injected
-   * into the page as a plain markup string, so it carries its own hover style
-   * rather than depending on page CSS reaching an injected-then-hydrated string.
+   * The chart is served standalone (see src/app/apron.svg/route.ts) and
+   * injected into the page as a plain markup string, so it carries its own
+   * font stack and hover style rather than depending on page CSS reaching an
+   * injected-then-hydrated string. `var(--font-mono)` resolves when the
+   * markup lands inside the live page; the literal fallback keeps text
+   * readable when the SVG is viewed on its own.
    */
   const style =
     `<style>` +
+    `text{font-family:var(--font-mono,'Azeret Mono',ui-monospace,monospace)}` +
     `use{transition:fill 150ms}` +
     `a:hover use{fill:#FF4F00}` +
     `@media (prefers-reduced-motion: reduce){use{transition:none}}` +
     `</style>`;
 
   const svg =
-    `<svg viewBox='0 0 ${VW} ${height}' width='100%' role='img' aria-labelledby='${titleId} ${descId}' style='display:block;overflow:visible'>` +
+    `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 ${width} ${height}' width='100%' preserveAspectRatio='xMidYMin meet' role='img' aria-labelledby='${titleId} ${descId}' style='display:block;overflow:visible'>` +
     `<title id='${titleId}'>Apron chart of ${fmtInt(total)} aircraft</title>` +
-    `<desc id='${descId}'>Every aircraft on the DGCA operator lists, drawn as one glyph and parked in blocks by operator, largest operator first. Operators with fewer than ${LABEL_MIN} aircraft are grouped into one unlabelled block.</desc>` +
+    `<desc id='${descId}'>Every aircraft on the DGCA operator lists, drawn as one mark and parked in blocks by operator, largest operator first. Operators with fewer than ${LABEL_MIN} aircraft are grouped into one pooled block.</desc>` +
     style +
-    glyphDefs() +
+    markDefs(MARK) +
     layer("s", FILL_SCHEDULED) +
     layer("n", FILL_NONSCHEDULED) +
-    nameLayer("s", FILL_SCHEDULED) +
-    nameLayer("n", FILL_NONSCHEDULED) +
-    moreLayer() +
+    calloutLayer() +
+    moreLabel() +
     `</svg>`;
-  return { svg, height, width: VW };
+  return { svg, height, width };
 }
 
 export const APRON_FILL = { scheduled: FILL_SCHEDULED, nonScheduled: FILL_NONSCHEDULED };

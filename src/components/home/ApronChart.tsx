@@ -1,9 +1,10 @@
 "use client";
+import fade from "./hero/apron.module.css";
 
 import { useEffect, useState } from "react";
 import { Streamlines } from "@/components/ui/Streamlines";
 import { fmtInt } from "@/lib/format";
-import { GLYPH_PATHS } from "./glyphs";
+import { MARK_LINE } from "./glyphs";
 import { APRON_FILL } from "./apron";
 import type { Wing } from "@/lib/types";
 
@@ -12,6 +13,20 @@ const LEGEND: Array<{ wing: Wing; label: string }> = [
   { wing: "RW", label: "Rotary" },
   { wing: "B", label: "Balloon" },
 ];
+
+/** Miniature of the apron chart's own mark shapes, for the legend row. */
+function LegendMark({ wing, fill }: { wing: Wing; fill: string }) {
+  if (wing === "B") return <circle cx="5" cy="5" r="4" fill={fill} />;
+  if (wing === "RW")
+    return (
+      <>
+        <rect x="1" y="1" width="8" height="8" rx="1" fill={fill} />
+        <line x1="1" y1="1" x2="9" y2="9" stroke={MARK_LINE} strokeWidth={0.6} />
+        <line x1="1" y1="9" x2="9" y2="1" stroke={MARK_LINE} strokeWidth={0.6} />
+      </>
+    );
+  return <rect x="1" y="1" width="8" height="8" rx="1" fill={fill} />;
+}
 
 /** Module-scope so every mount of ApronChart on the page shares one fetch. */
 let apronSvgPromise: Promise<string> | null = null;
@@ -49,10 +64,6 @@ export function ApronChart({
 }) {
   const [svg, setSvg] = useState<string | null>(null);
   const [failed, setFailed] = useState(false);
-  const [visible, setVisible] = useState(false);
-  const [reducedMotion] = useState(
-    () => typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches,
-  );
 
   useEffect(() => {
     let cancelled = false;
@@ -69,11 +80,6 @@ export function ApronChart({
     };
   }, []);
 
-  useEffect(() => {
-    if (!svg || reducedMotion) return;
-    const id = requestAnimationFrame(() => setVisible(true));
-    return () => cancelAnimationFrame(id);
-  }, [svg, reducedMotion]);
 
   return (
     <div className="flex min-w-0 flex-col">
@@ -85,17 +91,13 @@ export function ApronChart({
       </a>
 
       <div className="relative min-w-0 flex-1 overflow-x-auto">
-        <div className="relative min-w-[680px]">
+        <div className="relative min-w-[640px]">
           <Streamlines className="pointer-events-none absolute inset-0 h-full w-full opacity-[0.14]" airfoil={false} />
           {failed ? (
             <p className="mono py-10 text-center text-[13px] text-paper/70">Chart unavailable</p>
           ) : svg ? (
             <div
-              className="relative"
-              style={{
-                opacity: reducedMotion || visible ? 1 : 0,
-                transition: reducedMotion ? "none" : "opacity 400ms ease-out",
-              }}
+              className={`relative ${fade.fade}`}
               dangerouslySetInnerHTML={{ __html: svg }}
             />
           ) : (
@@ -109,7 +111,7 @@ export function ApronChart({
           {LEGEND.map((l) => (
             <span key={l.wing} className="label flex items-center gap-1.5">
               <svg viewBox="0 0 10 10" width="12" height="12" aria-hidden className="shrink-0">
-                <path d={GLYPH_PATHS[l.wing]} fill={APRON_FILL.scheduled} />
+                <LegendMark wing={l.wing} fill={APRON_FILL.scheduled} />
               </svg>
               {l.label}
             </span>
@@ -123,7 +125,7 @@ export function ApronChart({
             Non-scheduled
           </span>
         </div>
-        <span className="label text-paper/70">One glyph per aircraft · {fmtInt(total)} parked</span>
+        <span className="label text-paper/70">One mark per aircraft · {fmtInt(total)} parked</span>
       </div>
     </div>
   );
