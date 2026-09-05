@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# vtaircrafts.in
 
-## Getting Started
+Every aircraft on an Indian scheduled or non-scheduled operator permit, as a
+searchable site and an open dataset, rebuilt monthly from the DGCA's own lists.
 
-First, run the development server:
+**Live:** https://vtaircrafts.in · **Data:** [`data/latest/`](data/latest) · **Licence:** code MIT, data CC BY 4.0
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Why
+
+India's regulator has not published a machine-readable aircraft register since
+2019. What it does publish, every month, are two PDFs: the list of scheduled
+operators and the list of non-scheduled operators, each with every registration,
+model and seat count under that permit. This project turns those PDFs into a
+versioned dataset and a site you can actually browse.
+
+Coverage is commercial aviation only: roughly 1,300 of about 2,300 manned
+aircraft on the register. Privately owned aircraft, flying schools and state
+government fleets have no public list.
+
+## What you get
+
+- **Fleet explorer** with search by registration, hex, operator, type and model,
+  faceted filters, a dense log view and a photo grid view. State lives in the URL.
+- **Aircraft pages** for every tail: type, ICAO designator, Mode S hex, seats,
+  permit number and validity, source page, and a photo with credit.
+- **Operator pages** with type mix and full fleet lists.
+- **Change log** of registrations added, removed and moved between snapshots.
+- **Downloads**: `aircraft.json`, `aircraft.csv`, `operators.json`, `changes.json`,
+  `meta.json`, plus a GitHub Release per snapshot.
+
+## How it works
+
+```
+DGCA PDFs ──▶ pdftotext -bbox-layout ──▶ positional parsers ──▶ normalise ──▶ enrich ──▶ snapshot JSON/CSV ──▶ Next.js static site
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. `pipeline/fetch.ts` downloads both PDFs, reads the "updated as on" date, and
+   stores them unmodified under `data/raw/<date>/` with hashes.
+2. `pipeline/parse.ts` extracts word bounding boxes with poppler and rebuilds the
+   tables. It detects columns from the header row, strips the first operator's
+   header that the spreadsheet export stamps on every page, re-joins
+   registrations split across lines, and validates every model group against the
+   count DGCA prints beside it. Mismatches are recorded, never silently fixed.
+3. `pipeline/images.ts` looks up a Wikimedia Commons category per registration
+   and records the chosen photo with its author and licence.
+4. `pipeline/build.ts` normalises operator names, classifies models into types,
+   adds hex codes and ICAO designators from the tar1090 aircraft database, picks
+   representative photos for tails without one (same type and operator, else
+   same type), and writes the snapshot plus a diff against the previous one.
+5. The Next.js app is a static export that reads `data/latest/` at build time.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A GitHub Actions workflow runs this on the 3rd of every month and commits the
+new snapshot. Deploys happen from `main`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Run it locally
 
-## Learn More
+```bash
+brew install poppler          # pdftotext
+npm install
+npm run pipeline:parse data/raw/2026-08-31
+npm run pipeline:images data/parsed/2026-08-31
+npm run pipeline:build 2026-08-31 -- --previous 2024-06-10
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Data notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Registrations are unique across the dataset. The two DGCA lists do not overlap.
+- `seats` is the number DGCA prints; freighters and aerial-work aircraft carry
+  `role` instead. Some rows read `222/232` for mixed configurations; the first
+  number is used.
+- Where DGCA's stated count for a model group disagrees with the registrations it
+  lists, both numbers are kept and the discrepancy is shown on the data page.
+- Photos are hotlinked from Wikimedia Commons and credited per image. Tails
+  without a photo show a labelled representative photo or a silhouette.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Type classification rules live in `pipeline/lib/normalize.ts`; operator display
+names and websites in the same file. Pull requests that fix a misread model,
+add a missing alias, or improve the parser on a new DGCA layout are welcome.
+Run `npm run lint && npm run typecheck` before opening one.

@@ -1,0 +1,76 @@
+name: Monthly DGCA snapshot
+
+on:
+  schedule:
+    # 03:30 UTC on the 3rd of every month (DGCA refreshes the lists in the first days of the month)
+    - cron: "30 3 3 * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rebuild even if the PDFs are unchanged"
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends poppler-utils
+      - run: npm ci
+      - name: Refresh hex database (tar1090-db)
+        run: curl -sL -o data/raw/aircraft.csv.gz https://github.com/wiedehopf/tar1090-db/raw/refs/heads/csv/aircraft.csv.gz
+      - name: Fetch DGCA PDFs
+        id: fetch
+        run: npx tsx pipeline/fetch.ts | tee fetch.log
+      - name: Decide whether to continue
+        id: decide
+        run: |
+          if grep -q '^unchanged' fetch.log && [ "${{ github.event.inputs.force }}" != "true" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            SNAP=$(ls data/raw | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' | sort | tail -1)
+            PREV=$(ls data/raw | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' | sort | tail -2 | head -1)
+            echo "snapshot=$SNAP" >> "$GITHUB_OUTPUT"
+            echo "previous=$PREV" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Parse
+        if: steps.decide.outputs.run == 'true'
+        run: npx tsx pipeline/parse.ts data/raw/${{ steps.decide.outputs.snapshot }}
+      - name: Resolve Commons images
+        if: steps.decide.outputs.run == 'true'
+        run: npx tsx pipeline/images.ts data/parsed/${{ steps.decide.outputs.snapshot }}
+      - name: Build dataset
+        if: steps.decide.outputs.run == 'true'
+        run: |
+          if [ -n "${{ steps.decide.outputs.previous }}" ] && [ "${{ steps.decide.outputs.previous }}" != "${{ steps.decide.outputs.snapshot }}" ]; then
+            npx tsx pipeline/build.ts ${{ steps.decide.outputs.snapshot }} --previous ${{ steps.decide.outputs.previous }}
+          else
+            npx tsx pipeline/build.ts ${{ steps.decide.outputs.snapshot }}
+          fi
+      - name: Commit snapshot
+        if: steps.decide.outputs.run == 'true'
+        run: |
+          git config user.name "vtaircrafts-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/raw data/parsed data/snapshots data/latest
+          git commit -m "data: DGCA snapshot ${{ steps.decide.outputs.snapshot }}" || echo "nothing to commit"
+          git push
+      - name: Release
+        if: steps.decide.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="snapshot-${{ steps.decide.outputs.snapshot }}"
+          gh release create "$TAG" data/latest/aircraft.json data/latest/aircraft.csv data/latest/operators.json data/latest/meta.json data/latest/changes.json \
+            --title "DGCA snapshot ${{ steps.decide.outputs.snapshot }}" \
+            --notes "Dataset rebuilt from DGCA operator lists updated as on ${{ steps.decide.outputs.snapshot }}. CC BY 4.0." || echo "release exists"
