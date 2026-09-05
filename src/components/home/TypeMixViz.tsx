@@ -6,7 +6,7 @@ import type { TypeRow } from "./derive";
 import { layoutFlightLine } from "./typemix/layout";
 import styles from "./typemix/typemix.module.css";
 
-/** At most this many types get a silhouette on the flight line. */
+/** At most this many types get a pictogram on the flight line. */
 const DRAWN = 12;
 
 const WING_LABEL: Record<Wing, string> = { FW: "Fixed wing", RW: "Rotary", B: "Balloon" };
@@ -24,7 +24,20 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
   if (drawn.length === 0) return null;
 
   const layout = layoutFlightLine(drawn, rows[0].name);
-  const { items, vw, vh, baseline, apronBottom, centerlineY, standY, labelLineH, labelFontSize, countFontSize } = layout;
+  const {
+    items,
+    vw,
+    vh,
+    baseline,
+    apronBottom,
+    centerlineY,
+    standY,
+    labelLineH,
+    labelFontSize,
+    labelTracking,
+    countFontSize,
+    standFontSize,
+  } = layout;
   const apronH = apronBottom - baseline;
 
   return (
@@ -59,7 +72,7 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
             const t = tone(item.row.wing, item.highlight);
             const strokeCls = t === "signal" ? "stroke-signal" : t === "mint" ? "stroke-mint" : "stroke-ink";
             const fillCls = t === "signal" ? "fill-signal" : t === "mint" ? "fill-mint" : "fill-ink";
-            const helipadR = Math.min(apronH / 2 - 4, item.w * 0.16);
+            const helipadR = Math.min(apronH / 2 - 4, item.w * 0.19);
             return (
               <g key={item.row.name}>
                 {/* faint apron stand number under the aircraft */}
@@ -70,21 +83,21 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
                   textAnchor="middle"
                   className="fill-ink mono"
                   fillOpacity={0.4}
-                  fontSize={9}
+                  style={{ fontSize: standFontSize }}
                 >
                   {String(item.number).padStart(2, "0")}
                 </text>
 
                 {item.row.wing === "RW" && (
                   <g>
-                    <circle cx={item.cx} cy={centerlineY} r={helipadR} className={`fill-paper ${strokeCls}`} strokeWidth={1} />
+                    <circle cx={item.cx} cy={centerlineY} r={helipadR} className={`fill-paper ${strokeCls}`} strokeWidth={1.2} />
                     <text
                       x={item.cx}
                       y={centerlineY}
-                      dy="0.32em"
+                      dy="0.34em"
                       textAnchor="middle"
                       className={`${fillCls} mono`}
-                      fontSize={Math.max(6, helipadR * 0.9)}
+                      style={{ fontSize: Math.max(10, helipadR * 1.05) }}
                     >
                       H
                     </text>
@@ -96,12 +109,12 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
                   x1={item.cx}
                   y1={item.leaderTopY}
                   x2={item.cx}
-                  y2={item.y - 4}
+                  y2={item.y - 5}
                   className={strokeCls}
                   strokeWidth={1}
                   strokeOpacity={0.85}
                 />
-                <circle cx={item.cx} cy={item.y - 4} r={1.6} className={fillCls} />
+                <circle cx={item.cx} cy={item.y - 5} r={1.8} className={fillCls} />
 
                 {/* callout: type name (1-2 lines, never truncated) + count */}
                 {item.nameLines.map((line, i) => (
@@ -110,8 +123,8 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
                     x={item.cx}
                     y={item.labelY + i * labelLineH}
                     textAnchor="middle"
-                    className={`label ${fillCls}`}
-                    fontSize={labelFontSize}
+                    className={`mono ${fillCls}`}
+                    style={{ fontSize: labelFontSize, letterSpacing: labelTracking }}
                   >
                     {line}
                   </text>
@@ -121,7 +134,7 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
                   y={item.countY}
                   textAnchor="middle"
                   className={`display-num ${fillCls}`}
-                  fontSize={countFontSize}
+                  style={{ fontSize: countFontSize }}
                 >
                   {fmtInt(item.row.count)}
                 </text>
@@ -146,7 +159,7 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
                 height: `${(item.h / vh) * 100}%`,
               }}
             >
-              <Planform icao={item.row.icao} wing={item.row.wing} className={`h-full w-full ${colorCls}`} strokeWidth={item.strokeWidth} />
+              <Planform icao={item.row.icao} wing={item.row.wing} className={`h-full w-full ${colorCls}`} />
             </div>
           );
         })}
@@ -157,16 +170,11 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
           .filter((w) => (wings[w] ?? 0) > 0)
           .map((w) => (
             <span key={w} className="inline-flex items-center gap-2">
-              <Planform icao={null} wing={w} className={`h-4 w-6 shrink-0 ${w === "RW" ? "text-mint" : "text-ink-2"}`} strokeWidth={1.3} />
+              <Planform icao={null} wing={w} className={`h-5 w-5 shrink-0 ${w === "RW" ? "text-mint" : "text-ink-2"}`} />
               {fmtInt(wings[w] ?? 0)} {WING_LABEL[w].toLowerCase()}
             </span>
           ))}
       </div>
-
-      {/* Two of the drawn planforms (737-8 and 787-8) trace CC BY-SA Commons
-       * files; DESIGN.md's attribution rule requires this credit line when
-       * any CC BY / CC BY-SA source is used. See docs/SILHOUETTES.md. */}
-      <p className="label label-dim mt-2">Silhouettes: Wikimedia Commons contributors, see docs/SILHOUETTES.md</p>
     </>
   );
 }

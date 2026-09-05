@@ -1,174 +1,566 @@
 import type { Wing } from "@/lib/types";
+import { bladeDisc, bladePhase, buildPaths, capsule, circle, symmetric, wing, wingAtRear } from "./geometry";
+import type { Bounds, Chain, Shape } from "./geometry";
 
 /**
- * Plan-view (top-down) aircraft silhouettes for the type-mix flight line, keyed
- * by ICAO type designator. Two are traced from Wikimedia Commons SVGs (CC BY-SA
- * 4.0, credited below); the rest are drawn in-house because no usable top-view
- * silhouette could be found under an acceptable licence. See docs/SILHOUETTES.md
- * for the full source list and search notes.
+ * Plan-view (top-down) aircraft pictograms for the type-mix flight line.
  *
- * Every path is nose-up, tight-cropped to its own viewBox (so the box's own
- * aspect ratio already carries the type's real span/length proportions), single
- * colour, and free of ids/inline styles so `<Planform>` can tint it via
- * `currentColor`.
+ * Every type on the sheet is drawn by one generator from a table of published
+ * dimensions, so the whole line shares a single format and a single look: flat
+ * shapes filled with `currentColor`, no strokes, no outlines, built from
+ * straight segments and cubic curves, symmetric about the centreline, nose up.
+ * Nothing here is traced from anyone else's artwork. See docs/SILHOUETTES.md.
+ *
+ * Specs are in metres. `buildPlanform` measures the finished geometry and
+ * returns a viewBox cropped to it, so a type's viewBox aspect *is* its real
+ * length/span (rotor-diameter for rotorcraft) proportion, which is what the
+ * flight-line layout uses to size it.
  */
-export interface PlanformDef {
-  /** `0 0 W H`, cropped tight to the drawing; H/W already encodes the type's
-   *  real length/span ratio (or rotor-diameter/length for rotorcraft). */
-  viewBox: string;
-  /** One filled shape, or several (fuselage + engine pods, or fuselage + rotor
-   *  ring + blades for rotorcraft) so overlapping pieces never fight over a
-   *  shared fill-rule. */
-  d: string | string[];
-  credit: string;
-  licence: string;
-  source: string;
+
+/** A fixed-wing aeroplane: fuselage, wing, engines, tailplane, fin. */
+export interface FixedWingSpec {
+  kind: "fw";
+  /** Overall fuselage length, nose to tail cone. */
+  length: number;
+  /** Maximum fuselage width. */
+  width: number;
+  /** Share of the length taken by the nose taper. */
+  noseTaper: number;
+  /** Share of the length taken by the tail cone. */
+  tailTaper: number;
+  span: number;
+  rootChord: number;
+  tipChord: number;
+  /** Leading-edge sweep, degrees. */
+  sweep: number;
+  /** Wing leading-edge root, as a share of fuselage length from the nose. */
+  wingX: number;
+  engines: "underwing" | "rearFuselage" | "wingProp" | "none";
+  engineCount: number;
+  nacelleLength: number;
+  nacelleWidth: number;
+  /** Propeller disc radius, for `wingProp`. */
+  propRadius?: number;
+  propBlades?: number;
+  /** Engine station as a share of semi-span. */
+  enginePos?: number;
+  /** Draws a small forward-raked triangle at each tip (split-tip winglets). */
+  winglets?: boolean;
+  htSpan: number;
+  htChord: number;
+  htSweep: number;
+  /** Horizontal tail carried on top of the fin: a wider bar at the very rear. */
+  tTail?: boolean;
+  finLength: number;
+  finWidth: number;
 }
 
-const INHOUSE = "Drawn in-house for vtaircrafts.in";
-const NO_SOURCE = "";
-const ORIGINAL = "Original artwork";
+/** A helicopter: teardrop cabin into a tail boom, main rotor, anti-torque. */
+export interface RotorcraftSpec {
+  kind: "rw";
+  /** Cabin length, nose to the boom junction. */
+  length: number;
+  width: number;
+  boomLength: number;
+  boomWidth: number;
+  rotorRadius: number;
+  blades: number;
+  bladeRoot: number;
+  bladeTip: number;
+  /** Rotor hub, as a share of cabin length from the nose. */
+  hubX: number;
+  tailRotorRadius: number;
+  /** Shrouded tail fan: a ring cut into a fin instead of an exposed disc. */
+  fenestron?: boolean;
+  gear: "skids" | "wheels";
+  /** Horizontal stabiliser span on the boom. */
+  stabSpan: number;
+}
 
-const FLYINGPETE = "Peter James Lowden (Wikimedia Commons user FlyingPete)";
-const CC_BY_SA_4 = "CC BY-SA 4.0";
+export interface BalloonSpec {
+  kind: "b";
+  envelopeRadius: number;
+  basketWidth: number;
+  basketLength: number;
+}
 
-// Boeing 737-800: traced from Commons, y-flipped to nose-up, simplified to a
-// 62-point outline (Ramer-Douglas-Peucker, epsilon 0.25) and re-cropped.
-const B738_D =
-  "M 27.8 60.5 L 28.9 59.2 L 30.4 53 L 30.9 47.8 L 30.9 38.7 L 33.8 36.3 L 34 40.4 L 36.7 40.4 L 37 37.3 L 36.7 35 L 36.2 34.7 L 53.9 25.4 L 54.8 24.6 L 55.3 23.4 L 55.3 21.5 L 54.2 23.3 L 42.8 26.9 L 42.4 25.4 L 42 27.1 L 37.8 28.1 L 37.4 26.6 L 37 28.3 L 35.2 28.5 L 34.8 26.9 L 34.4 28.5 L 30.9 28.5 L 30.8 14.2 L 29.8 9.3 L 38.9 2.3 L 38.9 0.3 L 28.2 3.5 L 27.9 2.5 L 27.4 3.5 L 16.7 0.3 L 16.7 2.3 L 25.9 9.3 L 24.8 14.2 L 24.7 28.5 L 21.2 28.5 L 20.8 26.9 L 20.4 28.5 L 18.6 28.3 L 18.2 26.6 L 17.8 28.1 L 13.6 27.1 L 13.2 25.4 L 12.8 26.9 L 1.4 23.3 L 0.3 21.5 L 0.3 23.4 L 0.8 24.6 L 1.7 25.4 L 19.4 34.7 L 18.8 35 L 18.6 38.8 L 18.9 40.4 L 21.6 40.4 L 21.8 36.3 L 24.7 38.7 L 24.7 47.8 L 25.2 53 L 26.8 59.2 Z";
+export type PlanformSpec = FixedWingSpec | RotorcraftSpec | BalloonSpec;
 
-// Boeing 787-8: same tracing method, epsilon 0.3, 70-point outline.
-const B788_D =
-  "M 30.6 58 L 31.8 56.8 L 33.2 52.4 L 33.5 37.9 L 40 33.3 L 39.7 34.1 L 39.1 34 L 38.8 35.2 L 38.9 39.7 L 42.3 39.9 L 42.8 38.1 L 42.7 35.2 L 42.3 33.8 L 41.6 34.1 L 41.2 32.5 L 58.7 20.2 L 60.9 17 L 60.9 16 L 57.7 18.4 L 50.2 21.6 L 49.9 20.5 L 49.5 21.9 L 45.7 23.5 L 45.4 22.4 L 45 23.8 L 41.8 25.2 L 39.8 25.2 L 39.5 24.1 L 39.2 25.2 L 33.5 25.2 L 33.5 16.1 L 32.8 9 L 40 2.2 L 40.7 0.3 L 31.5 3.7 L 30.8 0.8 L 30.4 0.8 L 29.7 3.7 L 20.5 0.3 L 21.2 2.2 L 28.4 9 L 27.7 16.1 L 27.7 25.2 L 22 25.2 L 21.7 24 L 21.4 25.2 L 19.4 25.2 L 16.1 23.8 L 15.7 22.6 L 15.4 23.6 L 11.8 21.9 L 11.4 20.7 L 11.1 21.6 L 3.5 18.4 L 0.3 16 L 0.3 17 L 2.5 20.2 L 20 32.5 L 19.6 34.1 L 18.9 33.8 L 18.6 35.2 L 18.9 39.9 L 22.3 39.7 L 22.4 35.2 L 22.1 34 L 21.5 34.1 L 21.2 33.3 L 27.7 37.9 L 28 52.4 L 29.4 56.8 Z";
+const RAD = Math.PI / 180;
 
-// Airbus narrowbody family (A320/A320neo/A321neo): drawn in-house, swept low
-// wing with two underwing engine pods, swept tailplane, tapered tail cone.
-const A20N_D =
-  "M 89.5 0 Q 95.1 4.1 98.9 20.7 L 98.9 75.2 L 179 105.3 L 179 131.6 L 98.9 127.8 L 98.9 165.4 L 116.3 173.9 L 116.3 183.3 L 92.8 184.2 L 89.5 188 L 86.2 184.2 L 62.7 183.3 L 62.7 173.9 L 80.1 165.4 L 80.1 127.8 L 0 131.6 L 0 105.3 L 80.1 75.2 L 80.1 20.7 Q 83.9 4.1 89.5 0 Z M 138.3 84.2 L 148.1 84.2 L 146.4 100.2 L 140 100.2 Z M 30.9 84.2 L 40.7 84.2 L 39 100.2 L 32.6 100.2 Z";
-const A21N_D =
-  "M 89.5 0 Q 96.2 4.9 100.7 24.5 L 100.7 75.8 L 179 111.5 L 179 142.7 L 100.7 138.3 L 100.7 200.7 L 116.3 210.7 L 116.3 221.9 L 93.4 223 L 89.5 223 L 85.6 223 L 62.7 221.9 L 62.7 210.7 L 78.3 200.7 L 78.3 138.3 L 0 142.7 L 0 111.5 L 78.3 75.8 L 78.3 24.5 Q 82.8 4.9 89.5 0 Z M 137.4 86.5 L 149 86.5 L 147 105.5 L 139.4 105.5 Z M 30 86.5 L 41.6 86.5 L 39.6 105.5 L 32 105.5 Z";
-const A320_D =
-  "M 85 0 Q 90.6 4.1 94.4 20.7 L 94.4 75.2 L 170 105.3 L 170 131.6 L 94.4 127.8 L 94.4 165.4 L 110.5 173.9 L 110.5 183.3 L 88.3 184.2 L 85 188 L 81.7 184.2 L 59.5 183.3 L 59.5 173.9 L 75.6 165.4 L 75.6 127.8 L 0 131.6 L 0 105.3 L 75.6 75.2 L 75.6 20.7 Q 79.4 4.1 85 0 Z M 131.1 84.2 L 140.9 84.2 L 139.2 100.2 L 132.8 100.2 Z M 29.1 84.2 L 38.9 84.2 L 37.2 100.2 L 30.8 100.2 Z";
+function fixedWing(s: FixedWingSpec): Shape[] {
+  const hw = s.width / 2;
+  const noseEnd = s.length * s.noseTaper;
+  const tailStart = s.length * (1 - s.tailTaper);
+  const tailW = s.width * 0.16;
+  const shapes: Shape[] = [];
 
-// High-wing, T-tail twin turboprops (ATR 72-600, Dash 8 Q400): straight wing,
-// nacelles with a thin propeller-disc ring at each.
-const AT76_D =
-  "M 67.5 0 Q 74.6 4.8 77.7 19 L 77.7 54.4 L 135 60.5 L 135 75.5 L 77.7 81.6 L 77.7 114.2 L 94.5 118.5 L 94.5 126.5 L 70.6 126.5 L 67.5 136 L 64.4 126.5 L 40.5 126.5 L 40.5 118.5 L 57.3 114.2 L 57.3 81.6 L 0 75.5 L 0 60.5 L 57.3 54.4 L 57.3 19 Q 60.4 4.8 67.5 0 Z M 104.5 58.5 L 111.5 58.5 L 111.5 73.4 L 104.5 73.4 Z M 93 66 A 15 15 0 1 0 123 66 A 15 15 0 1 0 93 66 Z M 95.2 66 A 12.8 12.8 0 1 0 120.8 66 A 12.8 12.8 0 1 0 95.2 66 Z M 23.5 58.5 L 30.5 58.5 L 30.5 73.4 L 23.5 73.4 Z M 12 66 A 15 15 0 1 0 42 66 A 15 15 0 1 0 12 66 Z M 14.2 66 A 12.8 12.8 0 1 0 39.8 66 A 12.8 12.8 0 1 0 14.2 66 Z";
-const DH8D_D =
-  "M 71 0 Q 78.1 4.5 81.2 18 L 81.2 68.9 L 142 76.3 L 142 94.3 L 81.2 101.7 L 81.2 142.7 L 99.4 147.8 L 99.4 157.4 L 74.1 157.4 L 71 164 L 67.9 157.4 L 42.6 157.4 L 42.6 147.8 L 60.8 142.7 L 60.8 101.7 L 0 94.3 L 0 76.3 L 60.8 68.9 L 60.8 18 Q 63.9 4.5 71 0 Z M 106.6 73.8 L 113.5 73.8 L 113.5 91.8 L 106.6 91.8 Z M 92 82.8 A 18 18 0 1 0 128.1 82.8 A 18 18 0 1 0 92 82.8 Z M 94.2 82.8 A 15.8 15.8 0 1 0 125.9 82.8 A 15.8 15.8 0 1 0 94.2 82.8 Z M 28.5 73.8 L 35.4 73.8 L 35.4 91.8 L 28.5 91.8 Z M 13.9 82.8 A 18 18 0 1 0 50 82.8 A 18 18 0 1 0 13.9 82.8 Z M 16.1 82.8 A 15.8 15.8 0 1 0 47.8 82.8 A 15.8 15.8 0 1 0 16.1 82.8 Z";
+  // Fuselage: ogive nose, parallel barrel, tapered tail cone.
+  const fuse: Chain = [
+    { t: "M", p: [0, 0] },
+    { t: "C", a: [hw * 0.58, 0], b: [hw, noseEnd * 0.42], p: [hw, noseEnd] },
+    { t: "L", p: [hw, tailStart] },
+    {
+      t: "C",
+      a: [hw, tailStart + (s.length - tailStart) * 0.5],
+      b: [tailW * 0.95, s.length - (s.length - tailStart) * 0.1],
+      p: [tailW / 2, s.length],
+    },
+  ];
+  shapes.push([symmetric(fuse)]);
 
-// King Airs (350 and 200): same twin-turboprop T-tail family, short fuselage
-// relative to a wide straight wing.
-const B350_D =
-  "M 70.5 0 Q 76.5 4.6 79 18.2 L 79 45.6 L 141 51.9 L 141 64.4 L 79 70.7 L 79 100.3 L 94.5 103.9 L 94.5 110.6 L 73.1 110.6 L 70.5 114 L 67.9 110.6 L 46.5 110.6 L 46.5 103.9 L 62 100.3 L 62 70.7 L 0 64.4 L 0 51.9 L 62 45.6 L 62 18.2 Q 64.5 4.6 70.5 0 Z M 97.2 49.4 L 103 49.4 L 103 63.2 L 97.2 63.2 Z M 88.7 56.3 A 11.4 11.4 0 1 0 111.5 56.3 A 11.4 11.4 0 1 0 88.7 56.3 Z M 90.9 56.3 A 9.2 9.2 0 1 0 109.3 56.3 A 9.2 9.2 0 1 0 90.9 56.3 Z M 38 49.4 L 43.8 49.4 L 43.8 63.2 L 38 63.2 Z M 29.5 56.3 A 11.4 11.4 0 1 0 52.3 56.3 A 11.4 11.4 0 1 0 29.5 56.3 Z M 31.7 56.3 A 9.2 9.2 0 1 0 50.1 56.3 A 9.2 9.2 0 1 0 31.7 56.3 Z";
-const BE20_D =
-  "M 66.5 0 Q 72.3 4.3 74.8 17.1 L 74.8 42.8 L 133 48.7 L 133 60.5 L 74.8 66.3 L 74.8 94.2 L 89.1 97.5 L 89.1 103.8 L 69 103.8 L 66.5 107 L 64 103.8 L 43.9 103.8 L 43.9 97.5 L 58.2 94.2 L 58.2 66.3 L 0 60.5 L 0 48.7 L 58.2 42.8 L 58.2 17.1 Q 60.7 4.3 66.5 0 Z M 91.6 46.3 L 97.3 46.3 L 97.3 59.3 L 91.6 59.3 Z M 83.7 52.8 A 10.7 10.7 0 1 0 105.1 52.8 A 10.7 10.7 0 1 0 83.7 52.8 Z M 85.9 52.8 A 8.5 8.5 0 1 0 102.9 52.8 A 8.5 8.5 0 1 0 85.9 52.8 Z M 35.7 46.3 L 41.4 46.3 L 41.4 59.3 L 35.7 59.3 Z M 27.9 52.8 A 10.7 10.7 0 1 0 49.3 52.8 A 10.7 10.7 0 1 0 27.9 52.8 Z M 30.1 52.8 A 8.5 8.5 0 1 0 47.1 52.8 A 8.5 8.5 0 1 0 30.1 52.8 Z";
+  const halfSpan = s.span / 2;
+  const leRoot = s.length * s.wingX;
+  shapes.push([wing(leRoot, s.rootChord, halfSpan, s.tipChord, s.sweep)]);
 
-// Eurocopter/Airbus Helicopters Dauphin (AS365): fuselage + shrouded fenestron
-// tail fan + 4-blade main rotor disc. Array form keeps the rotor ring's hole
-// from fighting the fuselage fill under one shared fill-rule.
-const AS65_D = [
-  "M 50 0 Q 70.5 1.6 67.8 10.3 L 67.8 21.5 L 53.2 39.1 L 53.2 101.2 L 46.8 101.2 L 46.8 39.1 L 32.2 21.5 L 32.2 10.3 Q 29.5 1.6 50 0 Z",
-  "M 41.4 101.2 A 8.6 8.6 0 1 0 58.6 101.2 A 8.6 8.6 0 1 0 41.4 101.2 Z M 45.3 101.2 A 4.7 4.7 0 1 0 54.7 101.2 A 4.7 4.7 0 1 0 45.3 101.2 Z",
-  "M 2 48.3 A 48 48 0 1 0 98 48.3 A 48 48 0 1 0 2 48.3 Z M 4.4 48.3 A 45.6 45.6 0 1 0 95.6 48.3 A 45.6 45.6 0 1 0 4.4 48.3 Z",
-  "M 48.9 47.8 L 32 88.6 L 34.2 89.5 L 51.1 48.8 Z",
-  "M 50.5 47.2 L 9.7 30.3 L 8.8 32.5 L 49.5 49.4 Z",
-  "M 51.1 48.8 L 68 8 L 65.8 7.1 L 48.9 47.8 Z",
-  "M 49.5 49.4 L 90.3 66.3 L 91.2 64.1 L 50.5 47.2 Z",
-];
+  if (s.winglets) {
+    const leTip = leRoot + Math.tan(s.sweep * RAD) * halfSpan;
+    const t = s.tipChord;
+    const tri = (sign: number): Chain => [
+      { t: "M", p: [sign * halfSpan, leTip - t * 0.75] },
+      { t: "L", p: [sign * halfSpan, leTip + t * 1.05] },
+      { t: "L", p: [sign * (halfSpan - t * 0.5), leTip + t * 0.15] },
+      { t: "Z" },
+    ];
+    shapes.push([tri(1), tri(-1)]);
+  }
 
-// Leonardo/AgustaWestland AW109: fuselage + exposed tail rotor disc + 4-blade
-// main rotor disc.
-const A109_D = [
-  "M 47 0 Q 66.3 1.5 63.7 9.7 L 63.7 21.4 L 50 38.9 L 50 95 L 44 95 L 44 38.9 L 30.3 21.4 L 30.3 9.7 Q 27.7 1.5 47 0 Z",
-  "M 31.7 95 A 5 5 0 1 0 41.7 95 A 5 5 0 1 0 31.7 95 Z",
-  "M 36.7 86.9 L 35.7 103.1 L 37.7 103.1 Z",
-  "M 3 45.4 A 44 44 0 1 0 91 45.4 A 44 44 0 1 0 3 45.4 Z M 5.4 45.4 A 41.6 41.6 0 1 0 88.6 45.4 A 41.6 41.6 0 1 0 5.4 45.4 Z",
-  "M 46 44.9 L 30.6 82 L 32.7 82.8 L 48 45.8 Z",
-  "M 47.4 44.3 L 10.4 29 L 9.5 31 L 46.6 46.4 Z",
-  "M 48 45.8 L 63.4 8.7 L 61.3 7.9 L 46 44.9 Z",
-  "M 46.6 46.4 L 83.6 61.7 L 84.5 59.7 L 47.4 44.3 Z",
-];
+  // Engines. Stations are mirrored, so `engineCount` 2 gives one pair.
+  const pairs = Math.max(1, Math.round(s.engineCount / 2));
+  const pos = s.enginePos ?? 0.33;
+  const stations: number[] = [];
+  for (let i = 0; i < pairs; i++) stations.push(halfSpan * (pos + i * 0.27));
 
-// Generic balloon fallback: envelope only, seen from directly above.
-const BALLOON_D =
-  "M 10 46 A 40 40 0 1 0 90 46 A 40 40 0 1 0 10 46 Z M 42 78 L 58 78 L 58 92 L 42 92 Z";
+  if (s.engines === "underwing" || s.engines === "wingProp") {
+    const nacelles: Chain[] = [];
+    const discs: Chain[] = [];
+    const fwd = s.engines === "wingProp" ? 0.62 : 0.78;
+    for (const ex of stations) {
+      const le = leRoot + Math.tan(s.sweep * RAD) * ex;
+      const front = le - s.nacelleLength * fwd;
+      for (const sign of [1, -1]) {
+        nacelles.push(capsule(sign * ex, front, front + s.nacelleLength, s.nacelleWidth));
+        if (s.engines === "wingProp" && s.propRadius) {
+          const r = s.propRadius;
+          const n = s.propBlades ?? 4;
+          const cy = front + s.nacelleWidth * 0.12;
+          // Blades are drawn fat: at flight-line size a scale-chord blade is
+          // thinner than a pixel, so the disc has to carry the reading.
+          discs.push(...bladeDisc(sign * ex, cy, n, 0, r, r * 0.46, r * 0.3, bladePhase(n)));
+        }
+      }
+    }
+    shapes.push(nacelles);
+    if (discs.length) shapes.push(discs);
+  } else if (s.engines === "rearFuselage") {
+    const y0 = tailStart - s.nacelleLength * 0.2;
+    const ex = hw + s.nacelleWidth * 0.55;
+    shapes.push([capsule(ex, y0, y0 + s.nacelleLength, s.nacelleWidth), capsule(-ex, y0, y0 + s.nacelleLength, s.nacelleWidth)]);
+  }
 
-export const PLANFORMS: Record<string, PlanformDef> = {
-  A20N: { viewBox: "0 0 179 188", d: A20N_D, credit: INHOUSE, licence: ORIGINAL, source: NO_SOURCE },
-  A21N: { viewBox: "0 0 179 223", d: A21N_D, credit: INHOUSE, licence: ORIGINAL, source: NO_SOURCE },
-  A320: { viewBox: "0 0 170 188", d: A320_D, credit: INHOUSE, licence: ORIGINAL, source: NO_SOURCE },
-  AT76: { viewBox: "0 0 135 136", d: AT76_D, credit: INHOUSE, licence: ORIGINAL, source: NO_SOURCE },
-  DH8D: { viewBox: "0 0 142 164", d: DH8D_D, credit: INHOUSE, licence: ORIGINAL, source: NO_SOURCE },
-  B350: { viewBox: "0 0 141 114", d: B350_D, credit: INHOUSE, licence: ORIGINAL, source: NO_SOURCE },
-  BE20: {
-    viewBox: "0 0 133 107",
-    d: BE20_D,
-    credit: `${INHOUSE}, scaled from the King Air 350 planform (same T-tail twin-turboprop family)`,
-    licence: ORIGINAL,
-    source: NO_SOURCE,
-  },
-  AS65: { viewBox: "0 0 100 115", d: AS65_D, credit: INHOUSE, licence: ORIGINAL, source: NO_SOURCE },
-  A109: { viewBox: "0 0 94 108", d: A109_D, credit: INHOUSE, licence: ORIGINAL, source: NO_SOURCE },
-  B738: {
-    viewBox: "0 0 55.6 60.8",
-    d: B738_D,
-    credit: FLYINGPETE,
-    licence: CC_BY_SA_4,
-    source: "https://commons.wikimedia.org/wiki/File:Boeing_737-800_silhouette.svg",
-  },
+  // Fin: a short thick line down the centreline at the rear.
+  shapes.push([capsule(0, s.length - s.finLength, s.length - s.length * 0.01, s.finWidth)]);
+
+  // Tailplane: on top of the fin at the very rear for a T-tail, a little
+  // further forward for a conventional tail.
+  const rear = s.tTail ? s.length - s.length * 0.005 : s.length - s.length * 0.05;
+  const htTip = s.tTail ? s.htChord * 0.62 : s.htChord * 0.5;
+  shapes.push([wingAtRear(rear, s.htChord, s.htSpan / 2, htTip, s.htSweep)]);
+
+  return shapes;
+}
+
+function rotorcraft(s: RotorcraftSpec): { shapes: Shape[]; bounds: Bounds } {
+  const hw = s.width / 2;
+  const L = s.length;
+  const bw = s.boomWidth;
+  const boomEnd = L + s.boomLength;
+  const shapes: Shape[] = [];
+
+  // Teardrop cabin narrowing into the tail boom.
+  const body: Chain = [
+    { t: "M", p: [0, 0] },
+    { t: "C", a: [hw * 0.72, L * 0.02], b: [hw, L * 0.15], p: [hw, L * 0.42] },
+    { t: "C", a: [hw, L * 0.62], b: [bw * 0.85, L * 0.88], p: [bw / 2, L] },
+    { t: "L", p: [bw * 0.44, boomEnd] },
+  ];
+  shapes.push([symmetric(body)]);
+
+  // Gear hint: two short parallel lines outboard of the cabin.
+  const gearX = hw * 1.42;
+  const y0 = s.gear === "skids" ? L * 0.3 : L * 0.48;
+  const y1 = s.gear === "skids" ? L * 0.88 : L * 0.7;
+  shapes.push([capsule(gearX, y0, y1, s.width * 0.13), capsule(-gearX, y0, y1, s.width * 0.13)]);
+
+  // Boom stabiliser.
+  shapes.push([wing(boomEnd - s.stabSpan * 0.34, s.stabSpan * 0.28, s.stabSpan / 2, s.stabSpan * 0.22, 0)]);
+
+  // Anti-torque: a shrouded fan (ring cut into a fin) or an exposed disc.
+  const tr = s.tailRotorRadius;
+  if (s.fenestron) {
+    const cy = boomEnd + tr * 0.72;
+    shapes.push([capsule(0, boomEnd - tr * 0.9, boomEnd + tr * 1.95, tr * 2.05), circle(0, cy, tr * 0.58)]);
+  } else {
+    // Short fin on the centreline, tail-rotor disc offset to one side of it.
+    shapes.push([capsule(0, boomEnd - tr * 0.7, boomEnd + tr * 0.75, bw * 1.15)]);
+    shapes.push([circle(bw * 0.5 + tr * 0.86, boomEnd, tr * 0.86)]);
+  }
+
+  // Main rotor: solid blades from the hub, one blade forward of the nose.
+  const hubY = L * s.hubX;
+  const r = s.rotorRadius;
+  shapes.push(bladeDisc(0, hubY, s.blades, r * 0.05, r, s.bladeRoot, s.bladeTip, bladePhase(s.blades)));
+  shapes.push([circle(0, hubY, s.bladeRoot * 1.15)]);
+
+  // The rotor disc, not the blade tips, sets the drawing's width: that is the
+  // rotorcraft's "span", so it is scaled against fixed-wing spans honestly.
+  return { shapes, bounds: { minX: -r, maxX: r, minY: hubY - r, maxY: hubY + r } };
+}
+
+function balloon(s: BalloonSpec): Shape[] {
+  const r = s.envelopeRadius;
+  return [
+    [circle(0, 0, r)],
+    [capsule(0, r * 1.15, r * 1.15 + s.basketLength, s.basketWidth)],
+  ];
+}
+
+/** Turns a spec into a tight viewBox plus one path string per part. */
+export function buildPlanform(spec: PlanformSpec): { viewBox: string; paths: string[] } {
+  if (spec.kind === "rw") {
+    const { shapes, bounds } = rotorcraft(spec);
+    return buildPaths(shapes, bounds);
+  }
+  return buildPaths(spec.kind === "fw" ? fixedWing(spec) : balloon(spec));
+}
+
+/* ------------------------------------------------------------------ specs */
+
+/** Airbus A320 family: one wing, three fuselage lengths and nacelle sizes. */
+function narrowbodyAirbus(length: number, span: number, nacelleWidth: number, nacelleLength: number): FixedWingSpec {
+  return {
+    kind: "fw",
+    length,
+    width: 3.95,
+    noseTaper: 0.14,
+    tailTaper: 0.26,
+    span,
+    rootChord: 6.1,
+    tipChord: 1.7,
+    sweep: 27,
+    wingX: 0.41,
+    engines: "underwing",
+    engineCount: 2,
+    nacelleLength,
+    nacelleWidth,
+    enginePos: 0.33,
+    htSpan: 12.45,
+    htChord: 3.6,
+    htSweep: 29,
+    finLength: length * 0.2,
+    finWidth: 1.5,
+  };
+}
+
+/** Boeing 737: 737-800 and 737-8 differ mainly in nacelle size and tips. */
+function boeing737(length: number, span: number, nacelleWidth: number, winglets: boolean): FixedWingSpec {
+  return {
+    kind: "fw",
+    length,
+    width: 3.76,
+    noseTaper: 0.13,
+    tailTaper: 0.25,
+    span,
+    rootChord: 6.4,
+    tipChord: 1.6,
+    sweep: 26,
+    wingX: 0.4,
+    engines: "underwing",
+    engineCount: 2,
+    nacelleLength: 4.7,
+    nacelleWidth,
+    enginePos: 0.31,
+    winglets,
+    htSpan: 14.35,
+    htChord: 3.7,
+    htSweep: 30,
+    finLength: length * 0.19,
+    finWidth: 1.5,
+  };
+}
+
+/** Twin turboprop with a T-tail: ATR 72, Dash 8 Q400, King Air. */
+function turboprop(o: {
+  length: number;
+  width: number;
+  span: number;
+  rootChord: number;
+  tipChord: number;
+  wingX: number;
+  propRadius: number;
+  nacelleLength: number;
+  nacelleWidth: number;
+  enginePos: number;
+  htSpan: number;
+  htChord: number;
+  propBlades: number;
+}): FixedWingSpec {
+  return {
+    kind: "fw",
+    length: o.length,
+    width: o.width,
+    noseTaper: 0.14,
+    tailTaper: 0.24,
+    span: o.span,
+    rootChord: o.rootChord,
+    tipChord: o.tipChord,
+    sweep: 2.5,
+    wingX: o.wingX,
+    engines: "wingProp",
+    engineCount: 2,
+    nacelleLength: o.nacelleLength,
+    nacelleWidth: o.nacelleWidth,
+    propRadius: o.propRadius,
+    propBlades: o.propBlades,
+    enginePos: o.enginePos,
+    htSpan: o.htSpan,
+    htChord: o.htChord,
+    htSweep: 12,
+    tTail: true,
+    finLength: o.length * 0.22,
+    finWidth: o.width * 0.5,
+  };
+}
+
+const SPECS: Record<string, PlanformSpec> = {
+  // Airbus narrowbodies. A320neo 35.80 x 37.57, A321neo 35.80 x 44.51,
+  // A320ceo 34.10 x 37.57 with the smaller CFM56 nacelle.
+  A20N: narrowbodyAirbus(37.57, 35.8, 2.6, 5.2),
+  A21N: narrowbodyAirbus(44.51, 35.8, 2.6, 5.2),
+  A320: narrowbodyAirbus(37.57, 34.1, 2.0, 4.5),
+
+  // Boeing 737-800 35.79 x 39.47 (flattened CFM56 pods, well forward);
+  // 737-8 35.92 x 39.52 (larger LEAP-1B pods, split-tip winglets).
+  B738: boeing737(39.47, 35.79, 2.1, false),
+  B38M: boeing737(39.52, 35.92, 2.5, true),
+
+  // Boeing 787-8, 60.12 x 56.72, raked 32 degree wing, big GEnx nacelles.
   B788: {
-    viewBox: "0 0 61.2 58.3",
-    d: B788_D,
-    credit: FLYINGPETE,
-    licence: CC_BY_SA_4,
-    source: "https://commons.wikimedia.org/wiki/File:Boeing_787-8_silhouette.svg",
+    kind: "fw",
+    length: 56.72,
+    width: 5.77,
+    noseTaper: 0.13,
+    tailTaper: 0.27,
+    span: 60.12,
+    rootChord: 9.6,
+    tipChord: 2.6,
+    sweep: 32,
+    wingX: 0.4,
+    engines: "underwing",
+    engineCount: 2,
+    nacelleLength: 6.6,
+    nacelleWidth: 4.3,
+    enginePos: 0.31,
+    htSpan: 19.6,
+    htChord: 5.4,
+    htSweep: 34,
+    finLength: 11,
+    finWidth: 2.1,
   },
-  B38M: {
-    viewBox: "0 0 55.6 60.8",
-    d: B738_D,
-    credit: `${FLYINGPETE} — reuses the 737-800 planform (no 737 MAX silhouette on Commons; near-identical airframe)`,
-    licence: CC_BY_SA_4,
-    source: "https://commons.wikimedia.org/wiki/File:Boeing_737-800_silhouette.svg",
+
+  // ATR 72-600, 27.05 x 27.17, high straight wing, T-tail, six-blade props.
+  AT76: turboprop({
+    length: 27.17,
+    width: 2.87,
+    span: 27.05,
+    rootChord: 2.6,
+    tipChord: 1.6,
+    wingX: 0.33,
+    propRadius: 1.97,
+    propBlades: 4,
+    nacelleLength: 6.2,
+    nacelleWidth: 1.6,
+    enginePos: 0.31,
+    htSpan: 7.31,
+    htChord: 2.2,
+  }),
+
+  // Dash 8 Q400, 28.42 x 32.84, long slim fuselage, T-tail, six-blade props.
+  DH8D: turboprop({
+    length: 32.84,
+    width: 2.69,
+    span: 28.42,
+    rootChord: 2.9,
+    tipChord: 1.7,
+    wingX: 0.32,
+    propRadius: 2.06,
+    propBlades: 4,
+    nacelleLength: 7.4,
+    nacelleWidth: 1.7,
+    enginePos: 0.3,
+    htSpan: 9.0,
+    htChord: 2.5,
+  }),
+
+  // King Air 350 (17.65 x 14.22) and King Air 200 (16.61 x 13.34): low
+  // straight wing, T-tail, four-blade props.
+  B350: turboprop({
+    length: 14.22,
+    width: 1.68,
+    span: 17.65,
+    rootChord: 2.2,
+    tipChord: 1.1,
+    wingX: 0.34,
+    propRadius: 1.4,
+    propBlades: 4,
+    nacelleLength: 4.4,
+    nacelleWidth: 1.05,
+    enginePos: 0.33,
+    htSpan: 5.6,
+    htChord: 1.5,
+  }),
+  BE20: turboprop({
+    length: 13.34,
+    width: 1.65,
+    span: 16.61,
+    rootChord: 2.15,
+    tipChord: 1.05,
+    wingX: 0.34,
+    propRadius: 1.25,
+    propBlades: 4,
+    nacelleLength: 4.1,
+    nacelleWidth: 1.0,
+    enginePos: 0.33,
+    htSpan: 5.2,
+    htChord: 1.45,
+  }),
+
+  // Airbus Dauphin AS365: 4-blade rotor, radius 5.9, fuselage 12.0, fenestron.
+  AS65: {
+    kind: "rw",
+    length: 8.1,
+    width: 2.66,
+    boomLength: 3.1,
+    boomWidth: 0.95,
+    rotorRadius: 5.9,
+    blades: 4,
+    bladeRoot: 0.46,
+    bladeTip: 0.28,
+    hubX: 0.62,
+    tailRotorRadius: 0.55,
+    fenestron: true,
+    gear: "wheels",
+    stabSpan: 2.6,
   },
-  // Generic fallbacks, used when a type has no dedicated entry above (and for
-  // the wing-category key in the legend strip).
-  FW: { viewBox: "0 0 170 188", d: A320_D, credit: `${INHOUSE} (generic fixed-wing)`, licence: ORIGINAL, source: NO_SOURCE },
-  RW: { viewBox: "0 0 94 108", d: A109_D, credit: `${INHOUSE} (generic rotary)`, licence: ORIGINAL, source: NO_SOURCE },
-  B: { viewBox: "0 0 100 100", d: BALLOON_D, credit: `${INHOUSE} (generic balloon)`, licence: ORIGINAL, source: NO_SOURCE },
+
+  // Leonardo AW109: 4-blade rotor, radius 5.5, fuselage 11.45, tail rotor.
+  A109: {
+    kind: "rw",
+    length: 7.7,
+    width: 2.36,
+    boomLength: 3.1,
+    boomWidth: 0.84,
+    rotorRadius: 5.5,
+    blades: 4,
+    bladeRoot: 0.43,
+    bladeTip: 0.26,
+    hubX: 0.6,
+    tailRotorRadius: 1.05,
+    gear: "wheels",
+    stabSpan: 2.4,
+  },
+
+  // Airbus H125 (AS350): 3-blade rotor, radius 5.35, fuselage 10.93, skids.
+  AS50: {
+    kind: "rw",
+    length: 6.9,
+    width: 2.32,
+    boomLength: 3.2,
+    boomWidth: 0.8,
+    rotorRadius: 5.35,
+    blades: 3,
+    bladeRoot: 0.42,
+    bladeTip: 0.26,
+    hubX: 0.58,
+    tailRotorRadius: 0.93,
+    gear: "skids",
+    stabSpan: 2.2,
+  },
+
+  // Bell 412: 4-blade rotor, radius 7.01, fuselage 12.92, skids.
+  B412: {
+    kind: "rw",
+    length: 8.4,
+    width: 3.1,
+    boomLength: 3.9,
+    boomWidth: 1.05,
+    rotorRadius: 7.01,
+    blades: 4,
+    bladeRoot: 0.55,
+    bladeTip: 0.33,
+    hubX: 0.58,
+    tailRotorRadius: 1.3,
+    gear: "skids",
+    stabSpan: 2.9,
+  },
+
+  // Generic fallbacks, also used for the wing-category key in the legend.
+  FW: narrowbodyAirbus(37.57, 34.1, 2.2, 4.7),
+  RW: {
+    kind: "rw",
+    length: 7.6,
+    width: 2.4,
+    boomLength: 3.1,
+    boomWidth: 0.86,
+    rotorRadius: 5.6,
+    blades: 4,
+    bladeRoot: 0.9,
+    bladeTip: 0.57,
+    hubX: 0.6,
+    tailRotorRadius: 1.0,
+    gear: "skids",
+    stabSpan: 2.4,
+  },
+  B: { kind: "b", envelopeRadius: 8.5, basketWidth: 3.4, basketLength: 3.4 },
 };
+
+export interface PlanformDef {
+  /** `0 0 W H`, cropped to the drawing, so H/W is the type's real
+   *  length/span (rotor-diameter for rotorcraft) proportion. */
+  viewBox: string;
+  /** One string per part (fuselage, wing, nacelles, tail, blades), kept apart
+   *  so overlapping pieces never fight over a shared fill rule. */
+  paths: string[];
+}
+
+/** Every drawn type, generated once at module load. */
+export const PLANFORMS: Record<string, PlanformDef> = Object.fromEntries(
+  Object.entries(SPECS).map(([k, spec]) => [k, buildPlanform(spec)]),
+);
+
+function defFor(icao: string | null, wing: Wing): PlanformDef {
+  return (icao && PLANFORMS[icao]) || PLANFORMS[wing] || PLANFORMS.FW;
+}
 
 /** The type's own plan-view aspect ratio (drawing height / width), falling
  *  back to its wing category's generic shape when the ICAO code isn't drawn. */
 export function planformAspect(icao: string | null, wing: Wing): number {
-  const def = (icao && PLANFORMS[icao]) || PLANFORMS[wing] || PLANFORMS.FW;
-  const [, , w, h] = def.viewBox.split(" ").map(Number);
+  const [, , w, h] = defFor(icao, wing).viewBox.split(" ").map(Number);
   return h / w;
 }
 
 /**
- * A plan-view aircraft silhouette, filled with `currentColor` so its tone
+ * A plan-view aircraft pictogram, filled with `currentColor` so its tone
  * (ink / mint / signal) comes from the wrapping element's text colour. Falls
  * back to the wing category's generic shape when the ICAO code isn't one of
  * the drawn types.
  */
-export function Planform({
-  icao,
-  wing,
-  className,
-  strokeWidth = 1,
-}: {
-  icao: string | null;
-  wing: Wing;
-  className?: string;
-  strokeWidth?: number;
-}) {
-  const def = (icao && PLANFORMS[icao]) || PLANFORMS[wing] || PLANFORMS.FW;
-  const paths = Array.isArray(def.d) ? def.d : [def.d];
+export function Planform({ icao, wing, className }: { icao: string | null; wing: Wing; className?: string }) {
+  const def = defFor(icao, wing);
   return (
-    <svg viewBox={def.viewBox} className={className} aria-hidden>
-      {paths.map((d, i) => (
-        <path key={i} d={d} fill="currentColor" fillRule="evenodd" stroke="currentColor" strokeWidth={strokeWidth * 0.4} strokeLinejoin="round" />
+    <svg viewBox={def.viewBox} className={className} fill="currentColor" fillRule="evenodd" aria-hidden>
+      {def.paths.map((d, i) => (
+        <path key={i} d={d} />
       ))}
     </svg>
   );

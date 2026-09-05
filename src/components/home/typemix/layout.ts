@@ -3,10 +3,15 @@ import { planformAspect } from "./planforms";
 
 /**
  * Geometry for the "flight line" drawing: the top types parked nose-to-tail on
- * an apron, each silhouette bottom-aligned to one ground datum and scaled by
+ * an apron, each pictogram bottom-aligned to one ground datum and scaled by
  * fleet count, with its own callout (leader line + label + count) above it.
- * All units are SVG user-space; the caller sizes the SVG to `vw`x`vh` and lets
- * the viewBox scale it fluidly.
+ *
+ * The viewBox width is fixed at `VIEW_W`, which is close to the drawing's
+ * rendered width on a 1440px screen (the sheet is 1440px minus the page and
+ * section gutters, about 1330px). Type sizes are fitted into that frame rather
+ * than the frame growing to fit them, so the label and numeral sizes below are
+ * effectively css pixels: 12.5 units of label renders at about 12.8px, the
+ * counts at about 26px and the stand numbers at about 11px.
  */
 export interface FlightLineItem {
   row: TypeRow;
@@ -17,23 +22,20 @@ export interface FlightLineItem {
   w: number;
   h: number;
   cx: number;
-  /** Outline weight for this silhouette, in its own 200x120 user units: scales
-   *  with drawn size from STROKE_MIN up to STROKE_MAX at MAX_W. */
-  strokeWidth: number;
   /** The single largest type on the whole sheet, not just among the drawn rows. */
   highlight: boolean;
-  /** 0 = short leader, label sits just above the tallest silhouettes.
-   *  1 = long leader, label sits a further row up. Alternates so neighbouring
-   *  callouts never share a shelf. */
+  /** 0 = near shelf (just above the aircraft), 1 = far shelf (a row higher).
+   *  Alternates so neighbouring callouts never share a shelf. */
   calloutRow: 0 | 1;
-  /** The type name, pre-wrapped to 1 or 2 lines so it never truncates. */
+  /** The type name, uppercased and pre-wrapped to 1 or 2 lines so it never
+   *  truncates. */
   nameLines: string[];
   /** Baseline y of the first (topmost) name line; the second, if any, is one
-   *  `LABEL_LINE_H` below it. */
+   *  `labelLineH` below it. */
   labelY: number;
   /** Baseline y of the count numeral, below the name line(s). */
   countY: number;
-  /** Leader line runs from (cx, leaderTopY) down to (cx, y - LEADER_STUB). */
+  /** Leader line runs from (cx, leaderTopY) down to the pictogram. */
   leaderTopY: number;
 }
 
@@ -41,7 +43,7 @@ export interface FlightLineLayout {
   items: FlightLineItem[];
   vw: number;
   vh: number;
-  /** Ground line every silhouette's undercarriage rests on. */
+  /** Ground line every pictogram's undercarriage rests on. */
   baseline: number;
   /** Bottom edge of the apron pavement band below the baseline. */
   apronBottom: number;
@@ -50,89 +52,116 @@ export interface FlightLineLayout {
   standY: number;
   labelLineH: number;
   labelFontSize: number;
+  /** Letter-spacing for the labels, in viewBox units. */
+  labelTracking: number;
   countFontSize: number;
+  standFontSize: number;
 }
 
-const MIN_W = 90;
-const MAX_W = 260;
-const GAP = 22;
-const MARGIN_X = 20;
-/** Minimum label-footprint clearance between same-shelf neighbours (i, i-2). */
-const LABEL_GAP = 12;
-/** Minimum label-footprint clearance between adjacent silhouettes (i, i-1),
- *  which sit on opposite shelves; smaller than LABEL_GAP because the shelves'
- *  own vertical offset already buys some separation. */
-const ADJACENT_GAP = 8;
+/** Fixed frame width. Maps roughly 1:1 to css pixels at 1440px. */
+const VIEW_W = 1300;
+const MARGIN_X = 16;
 
-/** ~7px per uppercase mono character at 11px, per DESIGN.md's `.label` type. */
-const CHAR_W = 7;
-const LABEL_FONT_SIZE = 11;
-const LABEL_LINE_H = 14;
-const COUNT_FONT_SIZE = 22;
-const COUNT_CHAR_W = 13;
-/** Roughly the widest a single label line is allowed to get before wrapping.
- *  Kept generous so real DGCA type names stay on one line (the horizontal
- *  collision checks below adapt to whatever width results either way); a
- *  2-line wrap is a rare fallback, not the common case. */
-const MAX_LABEL_LINE_W = 170;
-const LABEL_COUNT_GAP = 5;
+const LABEL_FONT_SIZE = 12.5;
+/** 0.06em, tighter than the global `.label` rule so long type names fit on the
+ *  flight line without dropping below a readable size. */
+const LABEL_TRACKING = LABEL_FONT_SIZE * 0.06;
+/** Azeret Mono advances 0.6em per glyph, plus the tracking above. */
+const LABEL_CHAR_W = LABEL_FONT_SIZE * 0.6 + LABEL_TRACKING;
+const LABEL_LINE_H = 16;
+const COUNT_FONT_SIZE = 26;
+/** Barlow Condensed tabular digits run about 0.5em wide. */
+const COUNT_CHAR_W = COUNT_FONT_SIZE * 0.52;
+const STAND_FONT_SIZE = 11;
+/** A name wider than this wraps to two lines. */
+const MAX_LABEL_LINE_W = 108;
+const LABEL_COUNT_GAP = 6;
 
-/** Margin above the far shelf's own (possibly 2-line) label block. */
-const ROW_TOP_PAD = 4;
-/** Gap from a shelf's count baseline down to where its leader line starts. */
-const LEADER_PAD = 4;
-/** How far above the tallest silhouette's top each shelf's count numeral sits. */
-const NEAR_ABOVE_SIL = 24;
-const FAR_ABOVE_SIL = 44;
+/** Pictogram footprint range, in viewBox units, before the fit-to-frame pass. */
+const MIN_W = 62;
+const MAX_W = 176;
+/** Minimum clear air between two neighbouring pictograms. */
+const GAP = 14;
+/** Minimum clearance between the label blocks of same-shelf neighbours. */
+const LABEL_GAP = 14;
 
-const APRON_H = 32;
-const STAND_INSET = 12;
-const BOTTOM_PAD = 10;
+const TOP_PAD = 4;
+/** Clear air between the far shelf's count baseline and the near shelf's
+ *  label block, so the two shelves never overlap vertically at all. */
+const SHELF_PAD = 10;
+/** Gap from a count baseline down to the start of that shelf's leader line. */
+const LEADER_PAD = 5;
+/** Clear air between the near shelf's count baseline and the tallest aircraft. */
+const SIL_PAD = 26;
 
-/** Silhouette outline weight range, in the silhouette's own user units. */
-const STROKE_MIN = 1.1;
-const STROKE_MAX = 1.6;
+const APRON_H = 36;
+const STAND_INSET = 13;
+const BOTTOM_PAD = 12;
 
 function round2(n: number) {
   return Math.round(n * 100) / 100;
 }
 
-/** Splits an already-known-too-wide name into two lines at a word boundary,
- * greedily packing the first line. Never drops or truncates a word. */
-function wrapName(name: string): string[] {
-  if (name.length * CHAR_W <= MAX_LABEL_LINE_W) return [name];
-  const words = name.split(" ");
-  if (words.length < 2) return [name];
-
-  const line1: string[] = [];
-  let w1 = 0;
-  let i = 0;
-  for (; i < words.length; i++) {
-    const addW = words[i].length * CHAR_W + (line1.length > 0 ? CHAR_W : 0);
-    if (line1.length > 0 && w1 + addW > MAX_LABEL_LINE_W) break;
-    line1.push(words[i]);
-    w1 += addW;
-  }
-  if (line1.length === 0) {
-    line1.push(words[0]);
-    i = 1;
-  }
-  const line2 = words.slice(i);
-  return line2.length === 0 ? [line1.join(" ")] : [line1.join(" "), line2.join(" ")];
+function lineWidth(line: string) {
+  return line.length * LABEL_CHAR_W;
 }
 
-function lineWidth(line: string) {
-  return line.length * CHAR_W;
+/** Wraps a name onto two lines at the word boundary that makes the wider of
+ *  the two lines as narrow as possible. Never drops or truncates a word. */
+function wrapName(raw: string): string[] {
+  const name = raw.toUpperCase();
+  if (lineWidth(name) <= MAX_LABEL_LINE_W) return [name];
+  const words = name.split(" ");
+  if (words.length < 2) return [name];
+  let best: string[] = [name];
+  let bestW = Infinity;
+  for (let i = 1; i < words.length; i++) {
+    const a = words.slice(0, i).join(" ");
+    const b = words.slice(i).join(" ");
+    const w = Math.max(lineWidth(a), lineWidth(b));
+    if (w < bestW) {
+      bestW = w;
+      best = [a, b];
+    }
+  }
+  return best;
+}
+
+/** Centre-to-centre distances for one trial pictogram scale. Neighbouring
+ *  pictograms must clear each other, and same-shelf neighbours (i and i-2,
+ *  since shelves strictly alternate) must clear each other's label block. */
+function spacing(widths: number[], footprints: number[]): number[] {
+  const d: number[] = [];
+  for (let i = 1; i < widths.length; i++) {
+    let need = (widths[i - 1] + widths[i]) / 2 + GAP;
+    if (i >= 2) {
+      const shelfNeed = (footprints[i - 2] + footprints[i]) / 2 + LABEL_GAP;
+      if (d[i - 2] + need < shelfNeed) need = shelfNeed - d[i - 2];
+    }
+    d.push(need);
+  }
+  return d;
+}
+
+/** End allowance: the outer items must fit their label block inside the frame,
+ *  not just their pictogram. */
+function endHalf(widths: number[], footprints: number[], i: number) {
+  return Math.max(widths[i] / 2, footprints[i] / 2);
+}
+
+function totalWidth(widths: number[], footprints: number[], d: number[]) {
+  const sum = d.reduce((a, b) => a + b, 0);
+  const last = widths.length - 1;
+  return endHalf(widths, footprints, 0) + sum + endHalf(widths, footprints, last) + 2 * MARGIN_X;
 }
 
 /**
- * Lays out `rows` left to right, largest fleet count first. Width is scaled by
- * sqrt(count) so the drawn *area* roughly tracks fleet count, with a floor and
- * ceiling so every silhouette stays legible; it is a fleet-count icon, not a
- * scale model. Each item gets a leader-line callout, alternating between two
- * shelf heights so long neighbouring labels never overlap; a same-shelf pair
- * that would still collide (checked against each label's measured width) pushes
- * everything from that point rightward rather than crowding.
+ * Lays out `rows` left to right, largest fleet count first, inside a fixed
+ * `VIEW_W` frame. Footprint is scaled by sqrt(count) so the drawn *area*
+ * roughly tracks fleet count, with a floor and ceiling so every pictogram
+ * stays legible; it is a fleet-count icon, not a scale model. Each item gets a
+ * leader-line callout on one of two shelves, and the shelves are far enough
+ * apart vertically that adjacent callouts can never collide.
  */
 export function layoutFlightLine(rows: TypeRow[], highlightName: string): FlightLineLayout {
   const counts = rows.map((r) => r.count);
@@ -142,16 +171,9 @@ export function layoutFlightLine(rows: TypeRow[], highlightName: string): Flight
   const sMin = Math.sqrt(minCount);
   const span = sMax - sMin;
 
-  // t in [0, 1]: 0 = smallest fleet in the drawn set, 1 = the largest. Drives
-  // both the silhouette's footprint and (below) its outline weight.
+  // t in [0, 1]: 0 = smallest fleet in the drawn set, 1 = the largest.
   const ts = rows.map((r) => (span > 0 ? (Math.sqrt(r.count) - sMin) / span : 1));
-  const widths = ts.map((t) => MIN_W + t * (MAX_W - MIN_W));
-  const strokeWidths = ts.map((t) => round2(STROKE_MIN + t * (STROKE_MAX - STROKE_MIN)));
-  // Each type keeps its own drawing's real aspect ratio (span/length for fixed
-  // wing, rotor-diameter/length for rotorcraft) instead of one fixed ratio.
-  const aspects = rows.map((r) => planformAspect(r.icao, r.wing));
-  const heights = widths.map((w, i) => w * aspects[i]);
-  const maxHeight = Math.max(...heights, MIN_W);
+  const baseWidths = ts.map((t) => MIN_W + t * (MAX_W - MIN_W));
 
   const nameLinesByRow = rows.map((r) => wrapName(r.name));
   const footprints = rows.map((r, i) => {
@@ -161,107 +183,94 @@ export function layoutFlightLine(rows: TypeRow[], highlightName: string): Flight
   });
   const calloutRows = rows.map((_, i) => (i % 2) as 0 | 1);
 
-  // Vertical stack, top to bottom: far-shelf callout, near-shelf callout,
-  // silhouettes (bottom-aligned to `baseline`), apron band, stand numbers.
-  // Both shelves' count numerals sit a fixed distance above the *tallest*
-  // silhouette's top (NEAR_ABOVE_SIL / FAR_ABOVE_SIL); `topSpan` is the
-  // distance from a shelf's count baseline up to the top of its own label
-  // block, sized to the tallest label actually parked on that shelf (only a
-  // 2-line name needs the extra LABEL_LINE_H) so the drawing doesn't carry
-  // headroom for a wrap that never happens.
-  const topSpan1 = COUNT_FONT_SIZE + LABEL_COUNT_GAP + LABEL_FONT_SIZE;
-  const topSpan2 = topSpan1 + LABEL_LINE_H;
-  const topSpanOf = (i: number) => (nameLinesByRow[i].length === 2 ? topSpan2 : topSpan1);
-  const farTopSpan = rows.reduce(
-    (worst, _, i) => (calloutRows[i] === 1 ? Math.max(worst, topSpanOf(i)) : worst),
-    topSpan1,
-  );
-  const silTop = ROW_TOP_PAD + farTopSpan + FAR_ABOVE_SIL;
-  const farY = silTop - FAR_ABOVE_SIL;
-  const nearY = silTop - NEAR_ABOVE_SIL;
-  const farLeaderTop = farY + LEADER_PAD;
-  const nearLeaderTop = nearY + LEADER_PAD;
+  // Fit the line to the frame: shrink the pictograms until the row fits, since
+  // the label blocks cannot shrink without going under 12px on screen. Twenty
+  // bisection steps settle the scale to well under a tenth of a unit.
+  const fits = (f: number) => {
+    const w = baseWidths.map((v) => v * f);
+    return totalWidth(w, footprints, spacing(w, footprints));
+  };
+  let scale = 1;
+  if (rows.length > 1 && fits(1) > VIEW_W) {
+    let lo = 0.3;
+    let hi = 1;
+    for (let i = 0; i < 20; i++) {
+      const mid = (lo + hi) / 2;
+      if (fits(mid) <= VIEW_W) lo = mid;
+      else hi = mid;
+    }
+    scale = lo;
+  }
+  const widths = baseWidths.map((v) => v * scale);
+  const d = spacing(widths, footprints);
+
+  // Spread whatever is left over evenly between the aircraft.
+  const slack = VIEW_W - totalWidth(widths, footprints, d);
+  if (slack > 0 && d.length > 0) {
+    const share = slack / d.length;
+    for (let i = 0; i < d.length; i++) d[i] += share;
+  }
+
+  const cx: number[] = [
+    d.length === 0 ? VIEW_W / 2 : MARGIN_X + endHalf(widths, footprints, 0),
+  ];
+  for (let i = 1; i < rows.length; i++) cx.push(cx[i - 1] + d[i - 1]);
+
+  // Each type keeps its own drawing's real aspect ratio (span/length for fixed
+  // wing, rotor-diameter/length for rotorcraft) instead of one fixed ratio.
+  const aspects = rows.map((r) => planformAspect(r.icao, r.wing));
+  const heights = widths.map((w, i) => w * aspects[i]);
+  const maxHeight = Math.max(...heights, MIN_W);
+
+  // Vertical stack, top to bottom: far-shelf callouts, near-shelf callouts,
+  // pictograms (bottom-aligned to `baseline`), apron band, stand numbers.
+  // A shelf's block runs from the top of its tallest label up to its count
+  // baseline; the two blocks are stacked, never interleaved.
+  const blockH = (lines: number) => LABEL_FONT_SIZE + (lines - 1) * LABEL_LINE_H + LABEL_COUNT_GAP + COUNT_FONT_SIZE;
+  const linesOn = (shelf: 0 | 1) =>
+    rows.reduce((worst, _, i) => (calloutRows[i] === shelf ? Math.max(worst, nameLinesByRow[i].length) : worst), 1);
+  const farCountY = TOP_PAD + blockH(linesOn(1));
+  const nearCountY = farCountY + blockH(linesOn(0)) + SHELF_PAD;
+  const silTop = nearCountY + SIL_PAD;
   const baseline = silTop + maxHeight;
-
-  // Pass 1: place silhouettes nose to tail with a fixed base gap.
-  let cursor = MARGIN_X;
-  const x = widths.map((w) => {
-    const thisX = cursor;
-    cursor += w + GAP;
-    return thisX;
-  });
-  const cxOf = (i: number) => x[i] + widths[i] / 2;
-
-  // Pass 2: immediate neighbours (i and i-1) sit on opposite shelves, only
-  // ROW_CLEARANCE-ish pixels apart vertically now, so their label footprints
-  // must also clear each other horizontally; push right when they would not.
-  for (let i = 1; i < rows.length; i++) {
-    const prev = i - 1;
-    const minCenterDist = footprints[prev] / 2 + footprints[i] / 2 + ADJACENT_GAP;
-    const curDist = cxOf(i) - cxOf(prev);
-    if (curDist < minCenterDist) {
-      const shift = minCenterDist - curDist;
-      for (let j = i; j < rows.length; j++) x[j] += shift;
-    }
-  }
-
-  // Pass 3: same-shelf neighbours (i and i-2, since rows strictly alternate)
-  // must clear each other's label footprint; push right when they would not.
-  for (let i = 2; i < rows.length; i++) {
-    const prev = i - 2;
-    const minCenterDist = footprints[prev] / 2 + footprints[i] / 2 + LABEL_GAP;
-    const curDist = cxOf(i) - cxOf(prev);
-    if (curDist < minCenterDist) {
-      const shift = minCenterDist - curDist;
-      for (let j = i; j < rows.length; j++) x[j] += shift;
-    }
-  }
 
   const items: FlightLineItem[] = rows.map((row, i) => {
     const w = widths[i];
     const h = heights[i];
-    const y = baseline - h;
-    const cx = x[i] + w / 2;
     const calloutRow = calloutRows[i];
-    const shelfY = calloutRow === 0 ? nearY : farY;
-    const leaderTopY = calloutRow === 0 ? nearLeaderTop : farLeaderTop;
+    const countY = calloutRow === 0 ? nearCountY : farCountY;
     const lines = nameLinesByRow[i];
-    const lastLabelBaseline = shelfY - COUNT_FONT_SIZE - LABEL_COUNT_GAP;
-    const labelY = lastLabelBaseline - (lines.length - 1) * LABEL_LINE_H;
-    const countY = shelfY;
+    const labelY = countY - COUNT_FONT_SIZE - LABEL_COUNT_GAP - (lines.length - 1) * LABEL_LINE_H;
     return {
       row,
       number: i + 1,
-      x: round2(x[i]),
-      y: round2(y),
+      x: round2(cx[i] - w / 2),
+      y: round2(baseline - h),
       w: round2(w),
       h: round2(h),
-      cx: round2(cx),
-      strokeWidth: strokeWidths[i],
+      cx: round2(cx[i]),
       highlight: row.name === highlightName,
       calloutRow,
       nameLines: lines,
       labelY: round2(labelY),
       countY: round2(countY),
-      leaderTopY: round2(leaderTopY),
+      leaderTopY: round2(countY + LEADER_PAD),
     };
   });
 
-  const lastRight = x[x.length - 1] + widths[widths.length - 1];
-  const vw = round2(lastRight + MARGIN_X);
   const apronBottom = baseline + APRON_H;
-  const vh = round2(apronBottom + BOTTOM_PAD);
-
   return {
     items,
-    vw,
-    vh,
+    vw: VIEW_W,
+    vh: round2(apronBottom + BOTTOM_PAD),
     baseline: round2(baseline),
     apronBottom: round2(apronBottom),
     centerlineY: round2(baseline + APRON_H / 2),
     standY: round2(apronBottom - STAND_INSET),
     labelLineH: LABEL_LINE_H,
     labelFontSize: LABEL_FONT_SIZE,
+    labelTracking: round2(LABEL_TRACKING),
     countFontSize: COUNT_FONT_SIZE,
+    standFontSize: STAND_FONT_SIZE,
   };
 }
