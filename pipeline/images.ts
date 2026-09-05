@@ -16,7 +16,7 @@
 // Usage: npx tsx pipeline/images.ts data/parsed/2026-08-31 [--skip-regs] [--skip-types]
 import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { classifyModel, identifyOperator } from "./lib/normalize";
+import { canonicalizeType, classifyModel, identifyOperator } from "./lib/normalize";
 import { TYPE_CATEGORIES, searchTokens, type TypeCategory } from "./lib/typeCategories";
 import type { ParseResult } from "./lib/types";
 
@@ -591,7 +591,8 @@ function readFleet(dir: string): FleetRow[] {
     const parsed = JSON.parse(readFileSync(join(dir, f), "utf8")) as ParseResult;
     for (const a of parsed.aircraft) {
       const op = identifyOperator(a.operatorName, a.operatorBrandRaw);
-      const type = classifyModel(a.model, a.wing);
+      const cls = classifyModel(a.model, a.wing);
+      const type = canonicalizeType(cls, null);
       rows.set(a.reg, { reg: a.reg, operator: op.name, typeName: type.name });
     }
   }

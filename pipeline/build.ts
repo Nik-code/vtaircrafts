@@ -3,12 +3,13 @@
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync, cpSync, statSync } from "node:fs";
 import { join } from "node:path";
-import { classifyModel, identifyOperator, manufacturerFromIcao, roleFromSeating } from "./lib/normalize";
+import { canonicalizeType, classifyModel, identifyOperator, manufacturerFromIcao, roleFromSeating } from "./lib/normalize";
 import { loadHexDatabase } from "./lib/enrich";
 import { parseSeats } from "./lib/text";
 import type { ParseResult } from "./lib/types";
 import type { CommonsImage } from "./images";
 import { assignImages, type ImageCache } from "./lib/assignImages";
+import { aircraftHistoryFor, buildHistory, type AircraftHistory } from "./history/events";
 
 export type Wing = "FW" | "RW" | "B";
 export type ImageTier = "exact" | "operator-type" | "type" | "type-world";
@@ -30,6 +31,7 @@ export interface Aircraft {
   image: (CommonsImage & { tier: ImageTier; ofReg: string | null }) | null;
   source: { file: string; asOn: string; page: number };
   firstSeen: string;
+  history: AircraftHistory;
 }
 
 export interface Operator {
@@ -71,19 +73,11 @@ async function main() {
     ? JSON.parse(readFileSync(cachePath, "utf8"))
     : {};
 
-  // first-seen dates from earlier snapshots
-  const firstSeen = new Map<string, string>();
-  const snapDir = join("data", "snapshots");
-  if (existsSync(snapDir)) {
-    for (const s of readdirSync(snapDir).sort()) {
-      if (s >= snapshot) continue;
-      const f = join(snapDir, s, "aircraft.json");
-      if (!existsSync(f)) continue;
-      for (const a of JSON.parse(readFileSync(f, "utf8")) as Aircraft[]) {
-        if (!firstSeen.has(a.reg)) firstSeen.set(a.reg, a.firstSeen ?? s);
-      }
-    }
-  }
+  // The whole recorded history: the archived DGCA list snapshots plus the registration
+  // reports. `firstSeen` is the earliest snapshot a registration appears in, anywhere in
+  // that chain, which is why it can predate this repo's own first fetch.
+  const history = buildHistory();
+  console.error(`history: ${JSON.stringify(history.counts)} across ${history.snapshots.length} snapshots`);
 
   const aircraft: Aircraft[] = [];
   const operators = new Map<string, Operator>();
@@ -100,7 +94,8 @@ async function main() {
       const manufacturer = cls.manufacturer !== "Other" && cls.manufacturer !== "Other helicopter"
         ? cls.manufacturer
         : (icao && manufacturerFromIcao(icao)) || cls.manufacturer;
-      const wing: Wing = raw.wing ?? (cls.manufacturer.includes("Helicopters") || cls.manufacturer === "Bell" || cls.manufacturer === "Leonardo" ? "RW" : "FW");
+      const typeInfo = canonicalizeType({ icao, manufacturer, family: cls.family, name: cls.name }, hexRec?.icaoType ?? null);
+      const wing: Wing = raw.wing ?? (/Helicopters|^Bell$|^Leonardo$|^Robinson$|^Sikorsky$/.test(typeInfo.manufacturer) ? "RW" : "FW");
       const rawOp = r.operators.find((o) => o.seq === raw.operatorSeq)!;
       const a: Aircraft = {
         reg: raw.reg,
@@ -111,14 +106,15 @@ async function main() {
         category: raw.category,
         permit: { no: raw.permitNo, validUntil: raw.validUntil },
         model: raw.model,
-        type: { icao, manufacturer, family: cls.family, name: cls.name },
+        type: typeInfo,
         wing,
         seats: parseSeats(raw.seatingRaw ?? ""),
         seatsRaw: raw.seatingRaw,
         role: roleFromSeating(raw.seatingRaw, raw.ops, raw.model),
         image: null,
         source: { file, asOn: r.asOn ?? snapshot, page: raw.page + 1 },
-        firstSeen: firstSeen.get(raw.reg) ?? snapshot,
+        firstSeen: history.firstSeen.get(raw.reg) ?? snapshot,
+        history: aircraftHistoryFor(history, { reg: raw.reg, type: typeInfo }, snapshot),
       };
       aircraft.push(a);
 
@@ -144,9 +140,9 @@ async function main() {
       op.fleetCount += 1;
       op.wings[wing] += 1;
       op.seatsTotal += a.seats ?? 0;
-      const t = op.types.find((x) => x.name === cls.name);
+      const t = op.types.find((x) => x.name === typeInfo.name);
       if (t) t.count += 1;
-      else op.types.push({ name: cls.name, icao, manufacturer, count: 1 });
+      else op.types.push({ name: typeInfo.name, icao: typeInfo.icao, manufacturer: typeInfo.manufacturer, count: 1 });
     }
   }
   aircraft.sort((x, y) => x.reg.localeCompare(y.reg));
@@ -225,9 +221,9 @@ async function main() {
     f: a.firstSeen,
   }));
 
-  const csvHeader = ["reg","hex","operator","operator_legal","category","permit_no","permit_valid_until","model","type_icao","type_manufacturer","type_name","wing","seats","seats_raw","role","source_file","source_as_on","first_seen"];
+  const csvHeader = ["reg","hex","operator","operator_legal","category","permit_no","permit_valid_until","model","type_icao","type_manufacturer","type_name","wing","seats","seats_raw","role","source_file","source_as_on","first_seen","registered_on","msn","year_of_manufacture","owner","lessor"];
   const csvEsc = (v: unknown) => { const s = v == null ? "" : String(v); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
-  const csv = [csvHeader.join(","), ...aircraft.map((a) => [a.reg,a.hex,a.operator,a.operatorLegal,a.category,a.permit.no,a.permit.validUntil,a.model,a.type.icao,a.type.manufacturer,a.type.name,a.wing,a.seats,a.seatsRaw,a.role,a.source.file,a.source.asOn,a.firstSeen].map(csvEsc).join(","))].join("\n");
+  const csv = [csvHeader.join(","), ...aircraft.map((a) => [a.reg,a.hex,a.operator,a.operatorLegal,a.category,a.permit.no,a.permit.validUntil,a.model,a.type.icao,a.type.manufacturer,a.type.name,a.wing,a.seats,a.seatsRaw,a.role,a.source.file,a.source.asOn,a.firstSeen,a.history.registeredOn,a.history.msn,a.history.yearOfManufacture,a.history.owner,a.history.lessor].map(csvEsc).join(","))].join("\n");
 
   writeFileSync(join(outDir, "aircraft.json"), JSON.stringify(aircraft, null, 1));
   writeFileSync(join(outDir, "operators.json"), JSON.stringify(ops, null, 1));
@@ -235,25 +231,16 @@ async function main() {
   writeFileSync(join(outDir, "index.json"), JSON.stringify(index));
   writeFileSync(join(outDir, "aircraft.csv"), csv);
   if (changes) writeFileSync(join(outDir, "changes.json"), JSON.stringify(changes, null, 1));
-  // Interim events/snapshots (replaced by pipeline/history): interval-dated diffs only.
-  if (!existsSync(join(outDir, "events.json"))) {
-    const ev: unknown[] = [];
-    const src = (cat: string) => ({ kind: "dgca", file: cat === "scheduled" ? "sch-oper.pdf" : "ns-oper.pdf", url: null });
-    if (changes) {
-      for (const c of changes.added) ev.push({ id: `added|${c.reg}|${changes.from}|${changes.to}`, kind: "added", reg: c.reg, date: null, from: changes.from, to: changes.to, list: "scheduled", operator: c.operator, operatorId: c.operatorId, model: c.model, type: c.type, source: src("scheduled") });
-      for (const c of changes.removed) ev.push({ id: `removed|${c.reg}|${changes.from}|${changes.to}`, kind: "removed", reg: c.reg, date: null, from: changes.from, to: changes.to, list: "scheduled", operator: c.operator, operatorId: c.operatorId, model: c.model, type: c.type, source: src("scheduled") });
-      for (const c of changes.moved) ev.push({ id: `moved|${c.reg}|${changes.from}|${changes.to}`, kind: "moved", reg: c.reg, date: null, from: changes.from, to: changes.to, list: "scheduled", fromOperator: c.from, fromOperatorId: c.fromId, toOperator: c.to, toOperatorId: c.toId, model: c.model, source: src("scheduled") });
-    }
-    for (const s of sources) ev.push({ id: `snapshot|${s.file}|${snapshot}`, kind: "snapshot", reg: null, date: snapshot, from: null, to: null, list: s.category, source: { kind: "dgca", file: s.file, url: s.url }, note: `${s.aircraft} aircraft, ${s.operators} operators` });
-    writeFileSync(join(outDir, "events.json"), JSON.stringify(ev, null, 1));
-    writeFileSync(join(outDir, "snapshots.json"), JSON.stringify(sources.map((s) => ({ date: s.asOn ?? snapshot, list: s.category, source: "dgca", url: s.url, sha256: s.sha256, aircraft: s.aircraft, operators: s.operators })), null, 1));
-  }
+  writeFileSync(join(outDir, "events.json"), JSON.stringify(history.events, null, 1));
+  writeFileSync(join(outDir, "snapshots.json"), JSON.stringify(history.snapshots, null, 1));
 
   const latest = join("data", "latest");
   mkdirSync(latest, { recursive: true });
   cpSync(outDir, latest, { recursive: true });
   console.log(JSON.stringify(meta.counts, null, 1));
   if (changes) console.log(`changes vs ${previous}: +${changes.added.length} -${changes.removed.length} ~${changes.moved.length}`);
+  console.log(`events: ${history.events.length} (${Object.entries(history.counts).map(([k, v]) => `${k} ${v}`).join(", ")})`);
+  console.log(`with registeredOn: ${aircraft.filter((a) => a.history.registeredOn).length}, with msn: ${aircraft.filter((a) => a.history.msn).length}`);
   console.log(`issues: ${issues.length}`);
 }
 
