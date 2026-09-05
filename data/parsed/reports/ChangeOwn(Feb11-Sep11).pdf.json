@@ -12,10 +12,14 @@
    "dateOfRegistration": "2011-02-10",
    "dateOfDeregistration": null,
    "date": "2011-02-10",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOMBARDIER BD-700-1A10 (GLOBAL",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SUN TV NETWORK LIMITED",
    "source": {
@@ -30,10 +34,14 @@
    "dateOfRegistration": "2011-02-22",
    "dateOfDeregistration": null,
    "date": "2011-02-22",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "EXPRESS GULFSTREAM GV SP(G-550)",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S INDALCO INDUSTRIES LIMITED",
    "source": {
@@ -48,10 +56,14 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "POWERED HANG GLIDER CRUISER",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S INV 310",
    "operator": "M/S SUKET ADVENTURE FUNDATION",
    "source": {
@@ -66,12 +78,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,
    "owner": null,
    "lessor": null,
-   "operator": "LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -84,12 +100,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S INV 310 LIMITED",
    "lessor": "M/S INV 310 LIMITED",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -102,12 +122,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S INV 310 LIMITED",
    "lessor": "M/S INV 310 LIMITED",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -120,12 +144,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S INV 310 LIMITED",
    "lessor": "M/S INV 310 LIMITED",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -138,12 +166,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S INV 310 LIMITED",
    "lessor": "M/S INV 310 LIMITED",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -156,12 +188,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S INV 310 LIMITED",
    "lessor": "M/S INV 310 LIMITED",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -174,12 +210,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -192,12 +232,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -210,12 +254,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
    "owner": null,
    "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -228,12 +276,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
    "owner": "M/S GOLDEN STATE AIRCRAFT LLC",
    "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -246,12 +298,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
    "owner": "M/S GOLDEN STATE AIRCRAFT LLC",
    "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -264,12 +320,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
    "owner": "M/S FOUR LIONS AIRCRAFT LLC",
    "lessor": "M/S ULSTRE AVIATION TH LEASING LTD",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -282,6 +342,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
@@ -300,12 +364,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
    "owner": "M/S KAI TING AIRCRAFT LLC",
    "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -318,12 +386,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
    "owner": "M/S KAI TING AIRCRAFT LLC",
    "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -336,12 +408,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
    "owner": "M/S KAI TING AIRCRAFT LLC",
    "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -354,12 +430,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
    "owner": "M/S KAI TING AIRCRAFT LLC",
    "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -372,12 +452,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -390,12 +474,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -408,12 +496,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -426,12 +518,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 747-437",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -444,6 +540,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 747-437",
    "yearOfManufacture": null,
@@ -462,6 +562,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 747-437",
    "yearOfManufacture": null,
@@ -480,6 +584,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -498,6 +606,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -516,6 +628,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -534,6 +650,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -552,6 +672,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -570,6 +694,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -588,6 +716,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -606,6 +738,10 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -624,12 +760,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 747-437",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -642,12 +782,16 @@
    "dateOfRegistration": "2011-02-23",
    "dateOfDeregistration": null,
    "date": "2011-02-23",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "BOEING 747-437",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "M/S AIR INDIA LIMITED",
    "source": {
     "file": "ChangeOwn(Feb11-Sep11).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
@@ -660,6 +804,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -678,6 +826,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -696,6 +848,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -714,6 +870,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -732,6 +892,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -750,6 +914,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -768,6 +936,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -786,6 +958,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -804,6 +980,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -822,6 +1002,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -840,6 +1024,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -858,6 +1046,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -876,6 +1068,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -894,6 +1090,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -912,6 +1112,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -930,10 +1134,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -948,10 +1156,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -966,10 +1178,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -984,10 +1200,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1002,10 +1222,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1020,6 +1244,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -1038,10 +1266,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1056,10 +1288,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1074,10 +1310,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1092,10 +1332,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1110,10 +1354,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1128,10 +1376,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1146,10 +1398,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1164,10 +1420,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1182,10 +1442,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1200,10 +1464,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1218,10 +1486,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1236,10 +1508,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1254,10 +1530,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1272,10 +1552,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1290,10 +1574,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1308,10 +1596,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1326,10 +1618,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1344,10 +1640,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1362,10 +1662,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-100",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "CIT AEROSPACE INTERNATIONAL",
    "lessor": "CIT AEROSPACE INTERNATIONAL",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1380,10 +1684,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-100",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "CIT AEROSPACE INTERNATIONAL",
    "lessor": "CIT AEROSPACE INTERNATIONAL",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1398,10 +1706,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-100",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "ALS IRISH AIRCRAFT LEASING MSN 1668 LIMITED",
    "lessor": "ALS IRISH AIRCRAFT LEASING MSN 1668 LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1416,10 +1728,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-100",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "ALS IRISH AIRCRAFT LEASING MSN 1668 LIMITED",
    "lessor": "ALS IRISH AIRCRAFT LEASING MSN 1668 LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1434,10 +1750,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BAYERN",
    "lessor": "BAYERN",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1452,6 +1772,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
@@ -1470,10 +1794,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BAYERN AIRCRAFT LIMITED",
    "lessor": "BAYERN AIRCRAFT LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1488,10 +1816,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BAYERN AIRCRAFT LIMITED",
    "lessor": "BAYERN AIRCRAFT LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1506,6 +1838,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
@@ -1524,10 +1860,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAN ORANGE LIMITED",
    "lessor": "INDIAN ORANGE LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1542,10 +1882,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAN ORANGE LIMITED",
    "lessor": "INDIAN ORANGE LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1560,10 +1904,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAN ORANGE LIMITED",
    "lessor": "INDIAN ORANGE LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1578,6 +1926,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
@@ -1596,10 +1948,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAN ORANGE LIMITED",
    "lessor": "INDIAN ORANGE LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1614,10 +1970,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1632,10 +1992,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1650,10 +2014,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1668,10 +2036,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1686,6 +2058,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
@@ -1704,10 +2080,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1722,10 +2102,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1740,10 +2124,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1758,10 +2146,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1776,10 +2168,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BAYERN AIRCRAFT LIMITED",
    "lessor": "BAYERN AIRCRAFT LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1794,10 +2190,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BAYERN AIRCRAFT LIMITED",
    "lessor": "BAYERN AIRCRAFT LIMITED",
    "operator": null,
    "source": {
@@ -1812,10 +2212,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BAYERN AIRCRAFT LIMITED",
    "lessor": "BAYERN AIRCRAFT LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1830,10 +2234,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BAYERN AIRCRAFT LIMITED",
    "lessor": "BAYERN AIRCRAFT LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1848,10 +2256,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211 AIRBUS",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BAYERN AIRCRAFT LIMITED",
    "lessor": "BAYERN AIRCRAFT LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1866,6 +2278,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "321-211",
    "yearOfManufacture": null,
@@ -1884,10 +2300,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAN ORANGE LIMITED",
    "lessor": "INDIAN ORANGE LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1902,10 +2322,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAN ORANGE LIMITED",
    "lessor": "INDIAN ORANGE LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1920,10 +2344,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAN ORANGE LIMITED",
    "lessor": "INDIAN ORANGE LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1938,6 +2366,10 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
@@ -1956,10 +2388,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAN ORANGE LIMITED",
    "lessor": "INDIAN ORANGE LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1974,10 +2410,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAN ORANGE LIMITED",
    "lessor": "INDIAN ORANGE LIMITED",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1992,10 +2432,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -2010,10 +2454,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -2028,10 +2476,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "321-211 AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -2046,10 +2498,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -2064,10 +2520,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -2082,10 +2542,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -2100,10 +2564,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -2118,10 +2586,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 330-223",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "YAMASA FULL MOON CO. LTD",
    "lessor": "YAMASA FULL MOON CO. LTD",
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -2136,10 +2608,14 @@
    "dateOfRegistration": "2011-02-24",
    "dateOfDeregistration": null,
    "date": "2011-02-24",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "owner-change",
    "type": "DHRUV ALH- WHEEL VERSION OWNERSHIP/C OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "HINDUSTAN AERONAUTICS LIMITED",
    "source": {
@@ -2154,10 +2630,14 @@
    "dateOfRegistration": "2011-03-04",
    "dateOfDeregistration": null,
    "date": "2011-03-04",
+   "period": {
+    "from": "2011-03-01",
+    "to": "2011-03-31"
+   },
    "kind": "owner-change",
    "type": "BELL 206",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S MALHOTRA HELIKOPTERS PVT. LTD",
    "source": {
@@ -2172,10 +2652,14 @@
    "dateOfRegistration": "2011-03-10",
    "dateOfDeregistration": null,
    "date": "2011-03-10",
+   "period": {
+    "from": "2011-03-01",
+    "to": "2011-03-31"
+   },
    "kind": "owner-change",
    "type": "BELL 407",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "; CONSOLIATED AVIATION MANAGEMENT CORPORATION LTD",
    "lessor": "; CONSOLIATED AVIATION MANAGEMENT CORPORATION LTD",
    "operator": "SWAJAS AIR CHARTERS LIMITED",
    "source": {
@@ -2190,10 +2674,14 @@
    "dateOfRegistration": "2011-03-10",
    "dateOfDeregistration": null,
    "date": "2011-03-10",
+   "period": {
+    "from": "2011-03-01",
+    "to": "2011-03-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA CITATION 560XL",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "; CONSOLIATED AVIATION MANAGEMENT CORPORATION LTD",
    "lessor": "; CONSOLIATED AVIATION MANAGEMENT CORPORATION LTD",
    "operator": "SWAJAS AIR CHARTERS LIMITED",
    "source": {
@@ -2208,10 +2696,14 @@
    "dateOfRegistration": "2011-03-10",
    "dateOfDeregistration": null,
    "date": "2011-03-10",
+   "period": {
+    "from": "2011-03-01",
+    "to": "2011-03-31"
+   },
    "kind": "owner-change",
    "type": "BELL 412EP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "AIRCON BEIBARA FZE",
    "lessor": "AIRCON BEIBARA FZE",
    "operator": "SWAJAS AIR CHARTERS LIMITED",
    "source": {
@@ -2226,10 +2718,14 @@
    "dateOfRegistration": "2011-03-15",
    "dateOfDeregistration": null,
    "date": "2011-03-15",
+   "period": {
+    "from": "2011-03-01",
+    "to": "2011-03-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS OWNERSHIP/C OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AVOLON AEROSPACE AOE 4 LIMITED",
    "lessor": "M/S AVOLON AEROSPACE AOE 4 LIMITED",
    "operator": "M/s INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -2244,6 +2740,10 @@
    "dateOfRegistration": "2011-04-01",
    "dateOfDeregistration": null,
    "date": "2011-04-01",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-83N",
    "yearOfManufacture": null,
@@ -2262,10 +2762,14 @@
    "dateOfRegistration": "2011-04-20",
    "dateOfDeregistration": null,
    "date": "2011-04-20",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AVOLON AEROSPACE AOE 8 LIMITED",
    "lessor": "M/S AVOLON AEROSPACE AOE 8 LIMITED",
    "operator": "M/S SPICEJET LIMITED",
    "source": {
@@ -2280,6 +2784,10 @@
    "dateOfRegistration": "2011-04-25",
    "dateOfDeregistration": null,
    "date": "2011-04-25",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800 AIRCFAT",
    "yearOfManufacture": null,
@@ -2298,6 +2806,10 @@
    "dateOfRegistration": "2011-04-28",
    "dateOfDeregistration": null,
    "date": "2011-04-28",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 330-202 AIRCAFT",
    "yearOfManufacture": null,
@@ -2316,6 +2828,10 @@
    "dateOfRegistration": "2011-04-28",
    "dateOfDeregistration": null,
    "date": "2011-04-28",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 330-202 AIRCAFT",
    "yearOfManufacture": null,
@@ -2334,10 +2850,14 @@
    "dateOfRegistration": "2011-05-01",
    "dateOfDeregistration": null,
    "date": "2011-05-01",
+   "period": {
+    "from": "2011-05-01",
+    "to": "2011-05-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800NG",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ILFC AIRCARFT 73B -29369 LIMITED",
    "lessor": "M/S ILFC AIRCARFT 73B -29369 LIMITED",
    "operator": "M/S AIR INDIA ST CHARTERS LIMITED",
    "source": {
@@ -2352,10 +2872,14 @@
    "dateOfRegistration": "2011-05-19",
    "dateOfDeregistration": null,
    "date": "2011-05-19",
+   "period": {
+    "from": "2011-05-01",
+    "to": "2011-05-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800NG",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ILFC AIRCARFT 73B -29369 LIMITED",
    "lessor": "M/S ILFC AIRCARFT 73B -29369 LIMITED",
    "operator": "M/S AIR INDIA ST CHARTERS LIMITED",
    "source": {
@@ -2370,10 +2894,14 @@
    "dateOfRegistration": "2011-05-26",
    "dateOfDeregistration": null,
    "date": "2011-05-26",
+   "period": {
+    "from": "2011-05-01",
+    "to": "2011-05-31"
+   },
    "kind": "owner-change",
    "type": "BEECHCRAFT SUPER KING AIR B-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M /S ORBIT AVIATION PRIVATE LIMITED",
    "source": {
@@ -2388,6 +2916,10 @@
    "dateOfRegistration": "2011-05-31",
    "dateOfDeregistration": null,
    "date": "2011-05-31",
+   "period": {
+    "from": "2011-05-01",
+    "to": "2011-05-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS",
    "yearOfManufacture": null,
@@ -2406,6 +2938,10 @@
    "dateOfRegistration": "2011-05-31",
    "dateOfDeregistration": null,
    "date": "2011-05-31",
+   "period": {
+    "from": "2011-05-01",
+    "to": "2011-05-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS",
    "yearOfManufacture": null,
@@ -2424,10 +2960,14 @@
    "dateOfRegistration": "2011-06-01",
    "dateOfDeregistration": null,
    "date": "2011-06-01",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA CITATION AIRCAFT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "INDIA FLYSAFE AVIATION LIMITED",
    "source": {
@@ -2442,10 +2982,14 @@
    "dateOfRegistration": "2011-06-06",
    "dateOfDeregistration": null,
    "date": "2011-06-06",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "DHRUV ALH-WHEEL VERSION",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S HINDUSTAN AERONAUTICS LIMITED",
    "lessor": "M/S HINDUSTAN AERONAUTICS LIMITED",
    "operator": "M/S PAWAN HANS HELICOPTERS LIMITED",
    "source": {
@@ -2460,10 +3004,14 @@
    "dateOfRegistration": "2011-06-14",
    "dateOfDeregistration": null,
    "date": "2011-06-14",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "DHRUV ALH-WHEEL VERSION",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S BORDER SECURITY FORCE ( AIR WING )BSF AIR WING, MINISTRY OF HOME AFFAIRS, CGO COMPLEX ,LODHI ROAD, NEW DELHI",
    "source": {
@@ -2478,10 +3026,14 @@
    "dateOfRegistration": "2011-06-14",
    "dateOfDeregistration": null,
    "date": "2011-06-14",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "DHRUV ALH-WHEEL VERSION",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S BORDER SECURITY FORCE ( AIR WING )BSF AIR WING, MINISTRY OF HOME AFFAIRS, CGO COMPLEX ,LODHI ROAD, NEW DELHI",
    "source": {
@@ -2496,10 +3048,14 @@
    "dateOfRegistration": "2011-06-14",
    "dateOfDeregistration": null,
    "date": "2011-06-14",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "DHRUV ALH-WHEEL VERSION",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S BORDER SECURITY FORCE ( AIR WING )BSF AIR WING, MINISTRY OF HOME AFFAIRS, CGO COMPLEX ,LODHI ROAD, NEW DELHI",
    "source": {
@@ -2514,10 +3070,14 @@
    "dateOfRegistration": "2011-06-21",
    "dateOfDeregistration": null,
    "date": "2011-06-21",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "BELL JET RANGER 206 III",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S FAST HELICHARTERS INDIA PRIVATE LIMITED",
    "source": {
@@ -2532,6 +3092,10 @@
    "dateOfRegistration": "2011-06-21",
    "dateOfDeregistration": null,
    "date": "2011-06-21",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "CRJ 700",
    "yearOfManufacture": null,
@@ -2550,6 +3114,10 @@
    "dateOfRegistration": "2011-06-21",
    "dateOfDeregistration": null,
    "date": "2011-06-21",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "BOEING",
    "yearOfManufacture": null,
@@ -2568,6 +3136,10 @@
    "dateOfRegistration": "2011-06-29",
    "dateOfDeregistration": null,
    "date": "2011-06-29",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
@@ -2586,10 +3158,14 @@
    "dateOfRegistration": "2011-06-29",
    "dateOfDeregistration": null,
    "date": "2011-06-29",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S RBS RD AEROSPACE LIMITED",
    "lessor": "M/S RBS RD AEROSPACE LIMITED",
    "operator": "M/S GO AIRLINES (INDIA) LIMITED",
    "source": {
@@ -2604,10 +3180,14 @@
    "dateOfRegistration": "2011-06-29",
    "dateOfDeregistration": null,
    "date": "2011-06-29",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CELESTIAL",
    "lessor": "M/S CELESTIAL",
    "operator": "M/S GO AIRLINES (INDIA) LIMITED",
    "source": {
@@ -2622,6 +3202,10 @@
    "dateOfRegistration": "2011-06-29",
    "dateOfDeregistration": null,
    "date": "2011-06-29",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
@@ -2640,10 +3224,14 @@
    "dateOfRegistration": "2011-06-29",
    "dateOfDeregistration": null,
    "date": "2011-06-29",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CELESTIAL ECA TRADING 2 LIMITED",
    "lessor": "M/S CELESTIAL ECA TRADING 2 LIMITED",
    "operator": "M/S GO AIRLINES (INDIA) LIMITED",
    "source": {
@@ -2658,10 +3246,14 @@
    "dateOfRegistration": "2011-06-29",
    "dateOfDeregistration": null,
    "date": "2011-06-29",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CELESTIAL ECA TRADING 2 LIMITED",
    "lessor": "M/S CELESTIAL ECA TRADING 2 LIMITED",
    "operator": "M/S GO AIRLINES (INDIA) LIMITED",
    "source": {
@@ -2676,6 +3268,10 @@
    "dateOfRegistration": "2011-06-29",
    "dateOfDeregistration": null,
    "date": "2011-06-29",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
@@ -2694,6 +3290,10 @@
    "dateOfRegistration": "2011-06-29",
    "dateOfDeregistration": null,
    "date": "2011-06-29",
+   "period": {
+    "from": "2011-06-01",
+    "to": "2011-06-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
@@ -2712,10 +3312,14 @@
    "dateOfRegistration": "2011-07-01",
    "dateOfDeregistration": null,
    "date": "2011-07-01",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA 172 AIRCAFT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "GOVERNMENT OF HARYANA",
    "lessor": "GOVERNMENT OF HARYANA",
    "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
    "source": {
@@ -2730,10 +3334,14 @@
    "dateOfRegistration": "2011-07-01",
    "dateOfDeregistration": null,
    "date": "2011-07-01",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA 172 AIRCAFT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "GOVERNMENT OF HARYANA",
    "lessor": "GOVERNMENT OF HARYANA",
    "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
    "source": {
@@ -2748,10 +3356,14 @@
    "dateOfRegistration": "2011-07-05",
    "dateOfDeregistration": null,
    "date": "2011-07-05",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "ROBINSON RAVEN II",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S KARINA AIRLINES INTERNATIONAL LIMITED",
    "source": {
@@ -2766,10 +3378,14 @@
    "dateOfRegistration": "2011-07-05",
    "dateOfDeregistration": null,
    "date": "2011-07-05",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "ROBINSON RAVEN II",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S KARINA AIRLINES INTERNATIONAL LIMITED",
    "source": {
@@ -2784,10 +3400,14 @@
    "dateOfRegistration": "2011-07-05",
    "dateOfDeregistration": null,
    "date": "2011-07-05",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "ROBINSON RAVEN II",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S KARINA AIRLINES INTERNATIONAL LIMITED",
    "source": {
@@ -2802,10 +3422,14 @@
    "dateOfRegistration": "2011-07-11",
    "dateOfDeregistration": null,
    "date": "2011-07-11",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s CRESCENT nd LEASING 5 LIMITED",
    "lessor": "M/s CRESCENT nd LEASING 5 LIMITED",
    "operator": "M/s INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -2820,10 +3444,14 @@
    "dateOfRegistration": "2011-07-11",
    "dateOfDeregistration": null,
    "date": "2011-07-11",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s CRESCENT LEASING 6 LIMITED",
    "lessor": "M/s CRESCENT LEASING 6 LIMITED",
    "operator": "M/s INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -2838,10 +3466,14 @@
    "dateOfRegistration": "2011-07-12",
    "dateOfDeregistration": null,
    "date": "2011-07-12",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "ECUREUIL 350 B3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s SREI EQUIPMENT FINANCE PVT. LTD",
    "lessor": "M/s SREI EQUIPMENT FINANCE PVT. LTD",
    "operator": "M/s INDOCOPTERS PRIVATE LIMITED",
    "source": {
@@ -2856,10 +3488,14 @@
    "dateOfRegistration": "2011-07-15",
    "dateOfDeregistration": null,
    "date": "2011-07-15",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "AGUSTA",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AEROTECH AVIATION INDIA PVT. LTD",
    "source": {
@@ -2874,6 +3510,10 @@
    "dateOfRegistration": "2011-07-15",
    "dateOfDeregistration": null,
    "date": "2011-07-15",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "BELL 407",
    "yearOfManufacture": null,
@@ -2892,10 +3532,14 @@
    "dateOfRegistration": "2011-07-15",
    "dateOfDeregistration": null,
    "date": "2011-07-15",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "BEECH SUPER KING AIR",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ORISSA STEVEDORES LIMITEDOSL TOWER, LINK ROAD, CUTTACK-753012",
    "lessor": "M/S ORISSA STEVEDORES LIMITEDOSL TOWER, LINK ROAD, CUTTACK-753012",
    "operator": null,
    "source": {
@@ -2910,10 +3554,14 @@
    "dateOfRegistration": "2011-07-20",
    "dateOfDeregistration": null,
    "date": "2011-07-20",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AERO CLUB OF INDIA",
    "lessor": "M/S AERO CLUB OF INDIA",
    "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
    "source": {
@@ -2928,10 +3576,14 @@
    "dateOfRegistration": "2011-07-20",
    "dateOfDeregistration": null,
    "date": "2011-07-20",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA 152 AEROBAT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AERO CLUB OF INDIA",
    "lessor": "M/S AERO CLUB OF INDIA",
    "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
    "source": {
@@ -2946,10 +3598,14 @@
    "dateOfRegistration": "2011-07-20",
    "dateOfDeregistration": null,
    "date": "2011-07-20",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AERO CLUB OF INDIA",
    "lessor": "M/S AERO CLUB OF INDIA",
    "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
    "source": {
@@ -2964,10 +3620,14 @@
    "dateOfRegistration": "2011-07-20",
    "dateOfDeregistration": null,
    "date": "2011-07-20",
+   "period": {
+    "from": "2011-07-01",
+    "to": "2011-07-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AERO CLUB OF INDIA",
    "lessor": "M/S AERO CLUB OF INDIA",
    "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
    "source": {
@@ -2982,10 +3642,14 @@
    "dateOfRegistration": "2011-08-05",
    "dateOfDeregistration": null,
    "date": "2011-08-05",
+   "period": {
+    "from": "2011-08-01",
+    "to": "2011-08-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA AIRCAFT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AERO CLUB OF INDIA",
    "lessor": "M/S AERO CLUB OF INDIA",
    "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
    "source": {
@@ -3000,10 +3664,14 @@
    "dateOfRegistration": "2011-08-08",
    "dateOfDeregistration": null,
    "date": "2011-08-08",
+   "period": {
+    "from": "2011-08-01",
+    "to": "2011-08-31"
+   },
    "kind": "owner-change",
    "type": "BELL 412",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AZAL AZARBAIJAN AVIATION LTD",
    "lessor": "M/S AZAL AZARBAIJAN AVIATION LTD",
    "operator": "M/S GLOBAL VECTRA HELICORP LIMITED",
    "source": {
@@ -3018,10 +3686,14 @@
    "dateOfRegistration": "2011-08-29",
    "dateOfDeregistration": null,
    "date": "2011-08-29",
+   "period": {
+    "from": "2011-08-01",
+    "to": "2011-08-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s TRANS BHARAT AVAITION (P) LTD",
    "source": {
@@ -3036,10 +3708,14 @@
    "dateOfRegistration": "2011-08-29",
    "dateOfDeregistration": null,
    "date": "2011-08-29",
+   "period": {
+    "from": "2011-08-01",
+    "to": "2011-08-31"
+   },
    "kind": "owner-change",
    "type": "TECNAM P",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s TRANS BHARAT AVAITION (P) LTD",
    "source": {
@@ -3054,10 +3730,14 @@
    "dateOfRegistration": "2011-09-06",
    "dateOfDeregistration": null,
    "date": "2011-09-06",
+   "period": {
+    "from": "2011-09-01",
+    "to": "2011-09-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA 172P AIRCAFT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s GLOBAL AVIANAUTICS LTD",
    "lessor": "M/s GLOBAL AVIANAUTICS LTD",
    "operator": "M/s GOVERNMENT AVIATION TRAINING INSTITUTE",
    "source": {
@@ -3072,10 +3752,14 @@
    "dateOfRegistration": "2011-09-06",
    "dateOfDeregistration": null,
    "date": "2011-09-06",
+   "period": {
+    "from": "2011-09-01",
+    "to": "2011-09-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA AIRCAFT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s GLOBAL AVIANAUTICS LTD",
    "lessor": "M/s GLOBAL AVIANAUTICS LTD",
    "operator": "M/s GOVERNMENT AVIATION TRAINING INSTITUTE",
    "source": {

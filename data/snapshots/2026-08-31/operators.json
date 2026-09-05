@@ -822,8 +822,8 @@
     "count": 2
    },
    {
-    "name": "Beechcraft King Air",
-    "icao": null,
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
     "manufacturer": "Beechcraft",
     "count": 1
    }
@@ -1174,8 +1174,8 @@
     "count": 2
    },
    {
-    "name": "Bell helicopter",
-    "icao": null,
+    "name": "Bell 407",
+    "icao": "B407",
     "manufacturer": "Bell",
     "count": 1
    },
@@ -1602,22 +1602,16 @@
   "statedCount": 5,
   "types": [
    {
-    "name": "Beechcraft King Air",
-    "icao": null,
-    "manufacturer": "Beechcraft",
-    "count": 2
-   },
-   {
     "name": "Beechcraft King Air 200",
     "icao": "BE20",
     "manufacturer": "Beechcraft",
-    "count": 2
+    "count": 3
    },
    {
     "name": "Beechcraft King Air C90",
     "icao": "BE9L",
     "manufacturer": "Beechcraft",
-    "count": 1
+    "count": 2
    }
   ],
   "wings": {
@@ -1947,27 +1941,21 @@
   "statedCount": 4,
   "types": [
    {
+    "name": "Bell 429",
+    "icao": "B429",
+    "manufacturer": "Bell",
+    "count": 2
+   },
+   {
     "name": "Beechcraft King Air 200",
     "icao": "BE20",
     "manufacturer": "Beechcraft",
     "count": 1
    },
    {
-    "name": "Bell 429",
-    "icao": "B429",
-    "manufacturer": "Bell",
-    "count": 1
-   },
-   {
     "name": "Hawker 800/850/900",
     "icao": "H25B",
     "manufacturer": "Hawker Beechcraft",
-    "count": 1
-   },
-   {
-    "name": "Bell helicopter",
-    "icao": null,
-    "manufacturer": "Bell",
     "count": 1
    }
   ],
@@ -2977,9 +2965,9 @@
   "heroReg": "VT-JIT"
  },
  {
-  "id": "hn-safal-aviation-hn",
-  "name": "HN Safal Aviation . HN",
-  "legalName": "HN Safal Aviation Pvt. Ltd. HN",
+  "id": "hn-safal-aviation",
+  "name": "HN Safal Aviation",
+  "legalName": "HN Safal Aviation Pvt. Ltd.",
   "category": "non-scheduled",
   "website": null,
   "permit": {
@@ -3058,13 +3046,7 @@
     "name": "Bell 407",
     "icao": "B407",
     "manufacturer": "Bell",
-    "count": 1
-   },
-   {
-    "name": "Bell helicopter",
-    "icao": null,
-    "manufacturer": "Bell",
-    "count": 1
+    "count": 2
    }
   ],
   "wings": {
@@ -3800,8 +3782,8 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Bell helicopter",
-    "icao": null,
+    "name": "Bell 427",
+    "icao": "B427",
     "manufacturer": "Bell",
     "count": 1
    }
@@ -5018,8 +5000,8 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Beechcraft King Air",
-    "icao": null,
+    "name": "Beechcraft King Air C90",
+    "icao": "BE9L",
     "manufacturer": "Beechcraft",
     "count": 1
    }

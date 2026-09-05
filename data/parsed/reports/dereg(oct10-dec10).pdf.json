@@ -12,6 +12,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-10-11",
    "date": "2010-10-11",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "CL-600-2B19",
    "yearOfManufacture": null,
@@ -30,6 +34,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-10-11",
    "date": "2010-10-11",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "CL-600-2B19",
    "yearOfManufacture": null,
@@ -48,6 +56,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-10-15",
    "date": "2010-10-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "CL-600-2B19",
    "yearOfManufacture": null,
@@ -66,6 +78,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-10-21",
    "date": "2010-10-21",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "BOEING 777- 222",
    "yearOfManufacture": null,
@@ -84,6 +100,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-11-01",
    "date": "2010-11-01",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "ZENAIR STOL CH701 MICROLIGHT",
    "yearOfManufacture": null,
@@ -102,6 +122,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-11-12",
    "date": "2010-11-12",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "ALOUETTE III CHETAH",
    "yearOfManufacture": null,
@@ -120,6 +144,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-11-26",
    "date": "2010-11-26",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "BELL 412 EP",
    "yearOfManufacture": null,
@@ -138,6 +166,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-11-26",
    "date": "2010-11-26",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "BELL 412 HP",
    "yearOfManufacture": null,
@@ -156,6 +188,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-11-26",
    "date": "2010-11-26",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "BELL 412 EP",
    "yearOfManufacture": null,
@@ -174,6 +210,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-12-16",
    "date": "2010-12-16",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "BEECH SUPER KING AIR B-200",
    "yearOfManufacture": null,
@@ -192,6 +232,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-12-16",
    "date": "2010-12-16",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "BEECH SUPER KING AIR B-200",
    "yearOfManufacture": null,
@@ -210,6 +254,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-12-21",
    "date": "2010-12-21",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "CL600-2B19 (CRJ 200)",
    "yearOfManufacture": null,
@@ -228,6 +276,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-12-27",
    "date": "2010-12-27",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "BOEING 777-337 ER",
    "yearOfManufacture": null,
@@ -246,6 +298,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-12-31",
    "date": "2010-12-31",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "BELL 206L-4",
    "yearOfManufacture": null,
@@ -264,6 +320,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-12-31",
    "date": "2010-12-31",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "BOEING 747-437",
    "yearOfManufacture": null,
@@ -282,6 +342,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2010-12-31",
    "date": "2010-12-31",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-12-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,

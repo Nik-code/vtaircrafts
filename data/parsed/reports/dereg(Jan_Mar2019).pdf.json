@@ -12,6 +12,10 @@
    "dateOfRegistration": "2007-11-11",
    "dateOfDeregistration": "2019-01-10",
    "date": "2019-01-10",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "Agusta AW109S",
    "yearOfManufacture": 2007,
@@ -30,6 +34,10 @@
    "dateOfRegistration": "2015-04-10",
    "dateOfDeregistration": "2019-01-25",
    "date": "2019-01-25",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "Airbus A320- 232",
    "yearOfManufacture": 2013,
@@ -48,6 +56,10 @@
    "dateOfRegistration": "2008-09-17",
    "dateOfDeregistration": "2019-02-12",
    "date": "2019-02-12",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "EC-155 B1",
    "yearOfManufacture": 2007,
@@ -66,6 +78,10 @@
    "dateOfRegistration": "2008-10-10",
    "dateOfDeregistration": "2019-02-12",
    "date": "2019-02-12",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "EC-155 B1",
    "yearOfManufacture": 2007,
@@ -84,6 +100,10 @@
    "dateOfRegistration": "2018-11-09",
    "dateOfDeregistration": "2019-02-20",
    "date": "2019-02-20",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "Boeing 737-800",
    "yearOfManufacture": 2009,
@@ -102,6 +122,10 @@
    "dateOfRegistration": "2013-07-11",
    "dateOfDeregistration": "2019-02-20",
    "date": "2019-02-20",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "ATR 72- 212A",
    "yearOfManufacture": 2012,
@@ -120,6 +144,10 @@
    "dateOfRegistration": "2013-12-11",
    "dateOfDeregistration": "2019-02-20",
    "date": "2019-02-20",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "ATR 72- 212A",
    "yearOfManufacture": 2013,
@@ -138,6 +166,10 @@
    "dateOfRegistration": "2009-10-15",
    "dateOfDeregistration": "2019-02-25",
    "date": "2019-02-25",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "Boeing 737-800",
    "yearOfManufacture": 2009,
@@ -156,6 +188,10 @@
    "dateOfRegistration": "2009-12-01",
    "dateOfDeregistration": "2019-03-08",
    "date": "2019-03-08",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "Boeing 737-86N",
    "yearOfManufacture": 2009,
@@ -174,6 +210,10 @@
    "dateOfRegistration": "2009-02-25",
    "dateOfDeregistration": "2019-03-14",
    "date": "2019-03-14",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "B737- 85R",
    "yearOfManufacture": 2009,
@@ -192,6 +232,10 @@
    "dateOfRegistration": "2016-07-25",
    "dateOfDeregistration": "2019-03-14",
    "date": "2019-03-14",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "deregistration",
    "type": "B737- 838",
    "yearOfManufacture": 2008,

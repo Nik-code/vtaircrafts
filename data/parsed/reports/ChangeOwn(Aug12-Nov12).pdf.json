@@ -12,10 +12,14 @@
    "dateOfRegistration": "2012-08-01",
    "dateOfDeregistration": null,
    "date": "2012-08-01",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
    "kind": "owner-change",
    "type": "AGUSTA 109",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S BRICS LEASING FINANCE INTERNATIONAL LTD",
    "lessor": "M/S BRICS LEASING FINANCE INTERNATIONAL LTD",
    "operator": "M/S OSS AIR MANAGEMENT LTD",
    "source": {
@@ -30,10 +34,14 @@
    "dateOfRegistration": "2012-08-01",
    "dateOfDeregistration": null,
    "date": "2012-08-01",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
    "kind": "owner-change",
    "type": "EMBRAER 500",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S ERA LEASING",
    "operator": "M/S JOY JETS LIMITED",
    "source": {
@@ -48,6 +56,10 @@
    "dateOfRegistration": "2012-08-03",
    "dateOfDeregistration": null,
    "date": "2012-08-03",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
    "kind": "owner-change",
    "type": "AGUSTA AW- 139",
    "yearOfManufacture": null,
@@ -66,10 +78,14 @@
    "dateOfRegistration": "2012-08-22",
    "dateOfDeregistration": null,
    "date": "2012-08-22",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
    "kind": "owner-change",
    "type": "A320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CELESTIAL AVIATION TRADING 9 LTD",
    "lessor": "M/S CELESTIAL AVIATION TRADING 9 LTD",
    "operator": "M/S INTERGLOBE AVIATION",
    "source": {
@@ -84,10 +100,14 @@
    "dateOfRegistration": "2012-08-27",
    "dateOfDeregistration": null,
    "date": "2012-08-27",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA 172P",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S GLOBAL AVIANAUTICS LTD",
    "lessor": "M/S GLOBAL AVIANAUTICS LTD",
    "operator": "M/S GOVERNMENT AVIATION TRAINING INSTITUTE",
    "source": {
@@ -102,10 +122,14 @@
    "dateOfRegistration": "2012-08-28",
    "dateOfDeregistration": null,
    "date": "2012-08-28",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
    "kind": "owner-change",
    "type": "A320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AETHER AIRCRAFT LIMITED",
    "lessor": "M/S AETHER AIRCRAFT LIMITED",
    "operator": "INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -120,10 +144,14 @@
    "dateOfRegistration": "2012-09-03",
    "dateOfDeregistration": null,
    "date": "2012-09-03",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LTD. 8 FITZWILLIAM PLACE, DUBLIN, IRELAND",
    "lessor": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LTD. 8 FITZWILLIAM PLACE, DUBLIN, IRELAND",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -138,10 +166,14 @@
    "dateOfRegistration": "2012-09-03",
    "dateOfDeregistration": null,
    "date": "2012-09-03",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LTD. 8 FITZWILLIAM PLACE, DUBLIN, IRELAND",
    "lessor": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LTD. 8 FITZWILLIAM PLACE, DUBLIN, IRELAND",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -156,10 +188,14 @@
    "dateOfRegistration": "2012-09-05",
    "dateOfDeregistration": null,
    "date": "2012-09-05",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LTD. 8 FITZWILLIAM PLACE, DUBLIN, IRELAND",
    "lessor": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LTD. 8 FITZWILLIAM PLACE, DUBLIN, IRELAND",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -174,10 +210,14 @@
    "dateOfRegistration": "2012-09-05",
    "dateOfDeregistration": null,
    "date": "2012-09-05",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LTD. 8 FITZWILLIAM PLACE, DUBLIN, IRELAND",
    "lessor": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LTD. 8 FITZWILLIAM PLACE, DUBLIN, IRELAND",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -192,10 +232,14 @@
    "dateOfRegistration": "2012-09-05",
    "dateOfDeregistration": null,
    "date": "2012-09-05",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 321-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S MUL AVIATION CAPITAL LIMITED",
    "lessor": "M/S MUL AVIATION CAPITAL LIMITED",
    "operator": "M/S INTERGLOBE AVIATION LTD",
    "source": {
@@ -210,10 +254,14 @@
    "dateOfRegistration": "2012-09-11",
    "dateOfDeregistration": null,
    "date": "2012-09-11",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "P68C",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S SESA GOA LIMITED",
    "source": {
@@ -228,10 +276,14 @@
    "dateOfRegistration": "2012-09-14",
    "dateOfDeregistration": null,
    "date": "2012-09-14",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S NBB TIDE CO, LTD URBANNET, OTEMACHI BUILDING, OTEMACHI 2-CHOME, JAPAN",
    "lessor": "M/S NBB TIDE CO, LTD URBANNET, OTEMACHI BUILDING, OTEMACHI 2-CHOME, JAPAN",
    "operator": "M/S SPICE JET LIMITED CARGO COMPLEX, TERMINAL1, AIRPORT, NEW DELHI",
    "source": {
@@ -246,10 +298,14 @@
    "dateOfRegistration": "2012-09-19",
    "dateOfDeregistration": null,
    "date": "2012-09-19",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "PILATUS PC-12/45",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S DIRECTORATE",
    "operator": "M/S DECCAN CHARTERS LTD",
    "source": {
@@ -264,6 +320,10 @@
    "dateOfRegistration": "2012-09-21",
    "dateOfDeregistration": null,
    "date": "2012-09-21",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "HANSA-3",
    "yearOfManufacture": null,
@@ -282,10 +342,14 @@
    "dateOfRegistration": "2012-09-27",
    "dateOfDeregistration": null,
    "date": "2012-09-27",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S PENTAVANA LIMITED",
    "lessor": "M/S PENTAVANA LIMITED",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -300,10 +364,14 @@
    "dateOfRegistration": "2012-09-28",
    "dateOfDeregistration": null,
    "date": "2012-09-28",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800 IN THE MONTH",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S NBB 37362 LEASE PARTNERSHIP",
    "lessor": "M/S NBB 37362 LEASE PARTNERSHIP",
    "operator": "M/S SPICEJET LIMITED 319 UDYOG VIHAR, PHASE-IV, GURGAON -122 016, HARYANA",
    "source": {
@@ -318,10 +386,14 @@
    "dateOfRegistration": "2012-10-03",
    "dateOfDeregistration": null,
    "date": "2012-10-03",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "AGUSTA AW-139",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ABU DHABI AVIATION",
    "lessor": "M/S ABU DHABI AVIATION",
    "operator": "M/S HELIGO CHARTERS PRIVATE LTD",
    "source": {
@@ -336,10 +408,14 @@
    "dateOfRegistration": "2012-10-03",
    "dateOfDeregistration": null,
    "date": "2012-10-03",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "AGUSTA AW-139",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S CHC",
    "operator": "M/S HELIGO CHARTERS PRIVATE LTD",
    "source": {
@@ -354,6 +430,10 @@
    "dateOfRegistration": "2012-10-03",
    "dateOfDeregistration": null,
    "date": "2012-10-03",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "BELL 212",
    "yearOfManufacture": null,
@@ -372,10 +452,14 @@
    "dateOfRegistration": "2012-10-03",
    "dateOfDeregistration": null,
    "date": "2012-10-03",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S SLF PTC 72 LIMITED",
    "lessor": "M/S SLF PTC 72 LIMITED",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -390,10 +474,14 @@
    "dateOfRegistration": "2012-10-03",
    "dateOfDeregistration": null,
    "date": "2012-10-03",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S AIRCRAFT INTERNATIONAL RENTING (AIR) LIMITEDADD: RINEANNA HOUSE, SHANNON FREE ZONE, SHANNON, CO.CLARE, IRELAND",
    "lessor": "M/S AIRCRAFT INTERNATIONAL RENTING (AIR) LIMITEDADD: RINEANNA HOUSE, SHANNON FREE ZONE, SHANNON, CO.CLARE, IRELAND",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -408,10 +496,14 @@
    "dateOfRegistration": "2012-10-04",
    "dateOfDeregistration": null,
    "date": "2012-10-04",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "MI-172",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S PAWAN HANS HELICOPTERS LIMITED",
    "source": {
@@ -426,10 +518,14 @@
    "dateOfRegistration": "2012-10-04",
    "dateOfDeregistration": null,
    "date": "2012-10-04",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "MI-172",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S PAWAN HANS HELICOPTERS LIMITED",
    "source": {
@@ -444,10 +540,14 @@
    "dateOfRegistration": "2012-10-09",
    "dateOfDeregistration": null,
    "date": "2012-10-09",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "HAWKER 900XP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S L & T AVIATION SERVICES PVT. LIMITED",
    "source": {
@@ -462,10 +562,14 @@
    "dateOfRegistration": "2012-10-15",
    "dateOfDeregistration": null,
    "date": "2012-10-15",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "BEECH SUPER KING AIR B-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S L & T AVIATION SERVICES PVT. LIMITED",
    "source": {
@@ -480,10 +584,14 @@
    "dateOfRegistration": "2012-10-19",
    "dateOfDeregistration": null,
    "date": "2012-10-19",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ACG ACQUSITION (CAYMAN) 2874 LTD",
    "lessor": "M/S ACG ACQUSITION (CAYMAN) 2874 LTD",
    "operator": null,
    "source": {
@@ -498,10 +606,14 @@
    "dateOfRegistration": "2012-10-19",
    "dateOfDeregistration": null,
    "date": "2012-10-19",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "BEECH KING AIR C-90",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S BAHC 1 PTE",
    "operator": "M/S KINGFISHER AIRLINES LIMITED (EARLIER DECCAN MERGED KINGFISHER",
    "source": {
@@ -516,6 +628,10 @@
    "dateOfRegistration": "2012-10-23",
    "dateOfDeregistration": null,
    "date": "2012-10-23",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "HAWKER 850XP",
    "yearOfManufacture": null,
@@ -534,10 +650,14 @@
    "dateOfRegistration": "2012-10-23",
    "dateOfDeregistration": null,
    "date": "2012-10-23",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "HAWKER 850XP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S BAHC 1 PTE. LIMITED",
    "lessor": "M/S BAHC 1 PTE. LIMITED",
    "operator": "M/S BUSSINESS JETS PVT. LTD",
    "source": {
@@ -552,10 +672,14 @@
    "dateOfRegistration": "2012-10-23",
    "dateOfDeregistration": null,
    "date": "2012-10-23",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "HAWKER 850XP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S BAHC 1 PTE. LIMITED",
    "lessor": "M/S BAHC 1 PTE. LIMITED",
    "operator": "M/S BUSSINESS JETS PVT. LTD",
    "source": {
@@ -570,10 +694,14 @@
    "dateOfRegistration": "2012-10-23",
    "dateOfDeregistration": null,
    "date": "2012-10-23",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA CITATION 525A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CULLEN OAKES CORPORATION",
    "lessor": "M/S CULLEN OAKES CORPORATION",
    "operator": "M/S BUSSINESS JETS PVT. LTD",
    "source": {
@@ -588,10 +716,14 @@
    "dateOfRegistration": "2012-10-26",
    "dateOfDeregistration": null,
    "date": "2012-10-26",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "HAWKER 800XP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S JUBILANT ENPRO LIMITED",
    "lessor": "M/S JUBILANT ENPRO LIMITED",
    "operator": "M/S FORUM I AVIATION LIMITED",
    "source": {
@@ -606,10 +738,14 @@
    "dateOfRegistration": "2012-10-29",
    "dateOfDeregistration": null,
    "date": "2012-10-29",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "BEECH KING AIR C-90A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S ABRIC LEASING",
    "operator": "M/S SARAYA AVIATION PVT. LTD",
    "source": {
@@ -624,6 +760,10 @@
    "dateOfRegistration": "2012-10-29",
    "dateOfDeregistration": null,
    "date": "2012-10-29",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "ATR 42-320",
    "yearOfManufacture": null,
@@ -642,10 +782,14 @@
    "dateOfRegistration": "2012-10-29",
    "dateOfDeregistration": null,
    "date": "2012-10-29",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "ATR 42-320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ABRIC LEASING LIMITED",
    "lessor": "M/S ABRIC LEASING LIMITED",
    "operator": "M/S AIRLINE ALLIED SERVICES LTD",
    "source": {
@@ -660,10 +804,14 @@
    "dateOfRegistration": "2012-10-31",
    "dateOfDeregistration": null,
    "date": "2012-10-31",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "ATR 42-320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ABRIC LEASING LIMITED",
    "lessor": "M/S ABRIC LEASING LIMITED",
    "operator": "M/S AIRLINE ALLIED SERVICES LTD",
    "source": {
@@ -678,10 +826,14 @@
    "dateOfRegistration": "2012-10-31",
    "dateOfDeregistration": null,
    "date": "2012-10-31",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
    "kind": "owner-change",
    "type": "BELL 407",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S PRAYAG AVIATION SERVICES (P) LTD",
    "source": {
@@ -696,10 +848,14 @@
    "dateOfRegistration": "2012-11-07",
    "dateOfDeregistration": null,
    "date": "2012-11-07",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "ATR 42-320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ABRIC LEASING LIMITED",
    "lessor": "M/S ABRIC LEASING LIMITED",
    "operator": "M/S AIRLINE ALLIED SERVICES LTD",
    "source": {
@@ -714,10 +870,14 @@
    "dateOfRegistration": "2012-11-07",
    "dateOfDeregistration": null,
    "date": "2012-11-07",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "ATR 42-320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ABRIC LEASING LIMITED",
    "lessor": "M/S ABRIC LEASING LIMITED",
    "operator": "M/S AIRLINE ALLIED SERVICES LTD",
    "source": {
@@ -732,10 +892,14 @@
    "dateOfRegistration": "2012-11-07",
    "dateOfDeregistration": null,
    "date": "2012-11-07",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "ATR 42-320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ABRIC LEASING LIMITED",
    "lessor": "M/S ABRIC LEASING LIMITED",
    "operator": "M/S AIRLINE ALLIED SERVICES LTD",
    "source": {
@@ -750,10 +914,14 @@
    "dateOfRegistration": "2012-11-12",
    "dateOfDeregistration": null,
    "date": "2012-11-12",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "DHRUV (ALH)",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S BORDER SECURITY FORCE (AIR WING)",
    "source": {
@@ -768,10 +936,14 @@
    "dateOfRegistration": "2012-11-15",
    "dateOfDeregistration": null,
    "date": "2012-11-15",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "HAWKER 900XP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S L & T AVIATION SERVICES PVT. LIMITED",
    "source": {
@@ -786,10 +958,14 @@
    "dateOfRegistration": "2012-11-19",
    "dateOfDeregistration": null,
    "date": "2012-11-19",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA CITATION JET 525",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S DOVE AIRLINES PVT LTD",
    "source": {
@@ -804,10 +980,14 @@
    "dateOfRegistration": "2012-11-19",
    "dateOfDeregistration": null,
    "date": "2012-11-19",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A330-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ALLCO LEASING NO.2) LTD",
    "lessor": "M/S ALLCO LEASING NO.2) LTD",
    "operator": "M/S INTERGLOBE AVIATION LTD",
    "source": {
@@ -822,10 +1002,14 @@
    "dateOfRegistration": "2012-11-20",
    "dateOfDeregistration": null,
    "date": "2012-11-20",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737- 86Q",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CELESTIAL AVIATION TRADING 27 LTD",
    "lessor": "M/S CELESTIAL AVIATION TRADING 27 LTD",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -840,10 +1024,14 @@
    "dateOfRegistration": "2012-11-20",
    "dateOfDeregistration": null,
    "date": "2012-11-20",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA 560 XL",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S INTERNATIONAL",
    "operator": "M/S MONNET & ENERGY LIMITED",
    "source": {
@@ -858,6 +1046,10 @@
    "dateOfRegistration": "2012-11-20",
    "dateOfDeregistration": null,
    "date": "2012-11-20",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "ROBINSON R44",
    "yearOfManufacture": null,
@@ -876,10 +1068,14 @@
    "dateOfRegistration": "2012-11-21",
    "dateOfDeregistration": null,
    "date": "2012-11-21",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737- 800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S INJET 800 ACFT LEASING CO LTD",
    "lessor": "M/S INJET 800 ACFT LEASING CO LTD",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -894,6 +1090,10 @@
    "dateOfRegistration": "2012-11-21",
    "dateOfDeregistration": null,
    "date": "2012-11-21",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "BOEING 737- 800",
    "yearOfManufacture": null,
@@ -912,10 +1112,14 @@
    "dateOfRegistration": "2012-11-22",
    "dateOfDeregistration": null,
    "date": "2012-11-22",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "CTLS",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S BANASTHALI VIDYAPITH G&F CLUB",
    "lessor": "M/S BANASTHALI VIDYAPITH G&F CLUB",
    "operator": null,
    "source": {
@@ -930,10 +1134,14 @@
    "dateOfRegistration": "2012-11-26",
    "dateOfDeregistration": null,
    "date": "2012-11-26",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S LARE LEASING LIMITED",
    "lessor": "M/S LARE LEASING LIMITED",
    "operator": "M/S AERO CLUB OF INDIAADD: AUROBINDO MARG, SAFDARJUNG AIRPORT, NEW DELHI- 110003",
    "source": {
@@ -948,10 +1156,14 @@
    "dateOfRegistration": "2012-11-26",
    "dateOfDeregistration": null,
    "date": "2012-11-26",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AGUSTA 109E",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S LARE LEASING",
    "operator": "M/S HIMALYAPUTRA AVIATION LIMITED",
    "source": {
@@ -966,6 +1178,10 @@
    "dateOfRegistration": "2012-11-27",
    "dateOfDeregistration": null,
    "date": "2012-11-27",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
@@ -984,10 +1200,14 @@
    "dateOfRegistration": "2012-11-27",
    "dateOfDeregistration": null,
    "date": "2012-11-27",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AGUSTA AW-139",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S APTREE",
    "operator": "M/S INDIA FLYSAFE AVIATION LIMITED",
    "source": {
@@ -1002,6 +1222,10 @@
    "dateOfRegistration": "2012-11-27",
    "dateOfDeregistration": null,
    "date": "2012-11-27",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
@@ -1020,10 +1244,14 @@
    "dateOfRegistration": "2012-11-27",
    "dateOfDeregistration": null,
    "date": "2012-11-27",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S APTREE AVIATION TRADING 2 CO., LTD",
    "lessor": "M/S APTREE AVIATION TRADING 2 CO., LTD",
    "operator": "M/S INTERGLOBE AVIATION",
    "source": {
@@ -1038,10 +1266,14 @@
    "dateOfRegistration": "2012-11-29",
    "dateOfDeregistration": null,
    "date": "2012-11-29",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "BELL 407",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S BAJAJ AVIATION PVT. LTD",
    "source": {
@@ -1056,10 +1288,14 @@
    "dateOfRegistration": "2012-11-30",
    "dateOfDeregistration": null,
    "date": "2012-11-30",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA 172P",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S WILMINGTON",
    "operator": "M/S GARG AVIATION LIMITED",
    "source": {
@@ -1074,6 +1310,10 @@
    "dateOfRegistration": "2012-11-30",
    "dateOfDeregistration": null,
    "date": "2012-11-30",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "BELL 412 EP",
    "yearOfManufacture": null,
@@ -1092,10 +1332,14 @@
    "dateOfRegistration": "2012-11-30",
    "dateOfDeregistration": null,
    "date": "2012-11-30",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "FALCON 2000 LX",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S BAJAJ HINDUSTHAN LTD",
    "lessor": "M/S BAJAJ HINDUSTHAN LTD",
    "operator": "M/S BAJAJ AVIATION PVT",
    "source": {
@@ -1110,10 +1354,14 @@
    "dateOfRegistration": "2012-11-30",
    "dateOfDeregistration": null,
    "date": "2012-11-30",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S HOWTH AIRCRAFT LEASING LIMITED",
    "lessor": "M/S HOWTH AIRCRAFT LEASING LIMITED",
    "operator": "M/S INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -1128,10 +1376,14 @@
    "dateOfRegistration": "2012-11-30",
    "dateOfDeregistration": null,
    "date": "2012-11-30",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S JAMESTOWN AIRCRAFT LEASING LTD",
    "lessor": "M/S JAMESTOWN AIRCRAFT LEASING LTD",
    "operator": "M/S INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -1146,10 +1398,14 @@
    "dateOfRegistration": "2012-11-30",
    "dateOfDeregistration": null,
    "date": "2012-11-30",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/ S INVER AIRCRAFT LEASING LIMITED",
    "lessor": "M/ S INVER AIRCRAFT LEASING LIMITED",
    "operator": "M/S INTERGLOBE AVIATION LIMITED",
    "source": {

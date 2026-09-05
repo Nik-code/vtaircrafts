@@ -12,6 +12,10 @@
    "dateOfRegistration": "2009-10-05",
    "dateOfDeregistration": null,
    "date": "2009-10-05",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "BOEING B737-800",
    "yearOfManufacture": null,
@@ -30,6 +34,10 @@
    "dateOfRegistration": "2009-10-06",
    "dateOfDeregistration": null,
    "date": "2009-10-06",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "AIRBUS A319-112",
    "yearOfManufacture": null,
@@ -48,10 +56,14 @@
    "dateOfRegistration": "2009-10-07",
    "dateOfDeregistration": null,
    "date": "2009-10-07",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "AMBITION FLYING CLUB PVT.LTD",
    "source": {
@@ -66,10 +78,14 @@
    "dateOfRegistration": "2009-10-07",
    "dateOfDeregistration": null,
    "date": "2009-10-07",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "AMBITION FLYING CLUB PVT.LTD",
    "source": {
@@ -84,10 +100,14 @@
    "dateOfRegistration": "2009-10-07",
    "dateOfDeregistration": null,
    "date": "2009-10-07",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "AMBITION FLYING CLUB PVT.LTD",
    "source": {
@@ -102,10 +122,14 @@
    "dateOfRegistration": "2009-10-07",
    "dateOfDeregistration": null,
    "date": "2009-10-07",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "HAWKER 4000",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "HINDUSTAN CONSTRUCTION CO.LTD",
    "source": {
@@ -120,10 +144,14 @@
    "dateOfRegistration": "2009-10-09",
    "dateOfDeregistration": null,
    "date": "2009-10-09",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "CAMERON A-105 BALLOON",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "E- FACTOR ADVENTURE TOURISM (P) LIMITED",
    "source": {
@@ -138,10 +166,14 @@
    "dateOfRegistration": "2009-10-09",
    "dateOfDeregistration": null,
    "date": "2009-10-09",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "EC 130 B4",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "VEDANTA ALUMINIUM LIMITED",
    "source": {
@@ -156,10 +188,14 @@
    "dateOfRegistration": "2009-10-15",
    "dateOfDeregistration": null,
    "date": "2009-10-15",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "CESSNA 172R",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "ALCHEMIST AVIATION PVT.LTD",
    "source": {
@@ -174,6 +210,10 @@
    "dateOfRegistration": "2009-10-21",
    "dateOfDeregistration": null,
    "date": "2009-10-21",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -192,10 +232,14 @@
    "dateOfRegistration": "2009-10-21",
    "dateOfDeregistration": null,
    "date": "2009-10-21",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "CTLS",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "ACADEMY OF CARVER AVIATION PVT. LTD",
    "source": {
@@ -210,10 +254,14 @@
    "dateOfRegistration": "2009-10-21",
    "dateOfDeregistration": null,
    "date": "2009-10-21",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "CTLS",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "ACADEMY OF CARVER AVIATION PVT. LTD",
    "source": {
@@ -228,10 +276,14 @@
    "dateOfRegistration": "2009-10-22",
    "dateOfDeregistration": null,
    "date": "2009-10-22",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "DIAMOND DA-40CS",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "NATIONAL FLYING TRAINING INSTITUTE PRIVATE (NFTIPL)",
    "source": {
@@ -246,10 +298,14 @@
    "dateOfRegistration": "2009-10-22",
    "dateOfDeregistration": null,
    "date": "2009-10-22",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "DIAMOND DA-40CS",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "CESSNA",
    "operator": "NATIONAL FLYING TRAINING INSTITUTE PRIVATE (NFTIPL)",
    "source": {
@@ -264,6 +320,10 @@
    "dateOfRegistration": "2009-10-23",
    "dateOfDeregistration": null,
    "date": "2009-10-23",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "SIKORSKY S-76C",
    "yearOfManufacture": null,
@@ -282,10 +342,14 @@
    "dateOfRegistration": "2009-10-23",
    "dateOfDeregistration": null,
    "date": "2009-10-23",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "registration",
    "type": "PHG-CRUISER",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "MUTHANNA MAPANGADA",
    "source": {
@@ -300,6 +364,10 @@
    "dateOfRegistration": "2009-11-03",
    "dateOfDeregistration": null,
    "date": "2009-11-03",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -318,6 +386,10 @@
    "dateOfRegistration": "2009-11-03",
    "dateOfDeregistration": null,
    "date": "2009-11-03",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
@@ -336,6 +408,10 @@
    "dateOfRegistration": "2009-11-03",
    "dateOfDeregistration": null,
    "date": "2009-11-03",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
@@ -354,10 +430,14 @@
    "dateOfRegistration": "2009-11-05",
    "dateOfDeregistration": null,
    "date": "2009-11-05",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "FALCON 2000EX",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "GMR AVIATION PVT. LTD",
    "source": {
@@ -372,10 +452,14 @@
    "dateOfRegistration": "2009-11-10",
    "dateOfDeregistration": null,
    "date": "2009-11-10",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "MICROLIGHT FLIGHTSTAR II SC",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "CAPT. VIRAF G. EDULJI, PRIME MARITIME (INDIA PVT. LTD)",
    "source": {
@@ -390,10 +474,14 @@
    "dateOfRegistration": "2009-11-11",
    "dateOfDeregistration": null,
    "date": "2009-11-11",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "BOMBARDIER CL-600-2B16 (604 VARIANT)",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "",
    "operator": "KARNAVATI AVIATION PVT. LTD",
    "source": {
@@ -408,6 +496,10 @@
    "dateOfRegistration": "2009-11-12",
    "dateOfDeregistration": null,
    "date": "2009-11-12",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "CESSNA 560XL",
    "yearOfManufacture": null,
@@ -426,6 +518,10 @@
    "dateOfRegistration": "2009-11-13",
    "dateOfDeregistration": null,
    "date": "2009-11-13",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -444,10 +540,14 @@
    "dateOfRegistration": "2009-11-17",
    "dateOfDeregistration": null,
    "date": "2009-11-17",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "HAWKER 400XP (400A)",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": ";- WELSPUN LOGISTICS LIMITED",
    "source": {
@@ -462,10 +562,14 @@
    "dateOfRegistration": "2009-11-24",
    "dateOfDeregistration": null,
    "date": "2009-11-24",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAER LEASING 1 LIMITED",
    "lessor": "INDIAER LEASING 1 LIMITED",
    "operator": "INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -480,10 +584,14 @@
    "dateOfRegistration": "2009-11-26",
    "dateOfDeregistration": null,
    "date": "2009-11-26",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "CIRRUS SR22",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "AEROSTAR AVIATION",
    "lessor": "AEROSTAR AVIATION",
    "operator": "I JET AIRLINES PVT. LTD",
    "source": {
@@ -498,10 +606,14 @@
    "dateOfRegistration": "2009-11-27",
    "dateOfDeregistration": null,
    "date": "2009-11-27",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "BELL 412EP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "AIRCON BEIBARS FZE",
    "lessor": "AIRCON BEIBARS FZE",
    "operator": "SWAJAS AIR CHARTERS LTD",
    "source": {
@@ -516,10 +628,14 @@
    "dateOfRegistration": "2009-11-27",
    "dateOfDeregistration": null,
    "date": "2009-11-27",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "BELL 412EP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "AIRCON BEIBARS FZE",
    "lessor": "AIRCON BEIBARS FZE",
    "operator": "SWAJAS AIR CHARTERS LTD",
    "source": {
@@ -534,6 +650,10 @@
    "dateOfRegistration": "2009-11-30",
    "dateOfDeregistration": null,
    "date": "2009-11-30",
+   "period": {
+    "from": "2009-11-01",
+    "to": "2009-11-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
@@ -552,10 +672,14 @@
    "dateOfRegistration": "2009-12-02",
    "dateOfDeregistration": null,
    "date": "2009-12-02",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "GULFSTREAM G IV",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "DLF LIMITED",
    "source": {
@@ -570,10 +694,14 @@
    "dateOfRegistration": "2009-12-02",
    "dateOfDeregistration": null,
    "date": "2009-12-02",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS A319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
    "source": {
@@ -588,6 +716,10 @@
    "dateOfRegistration": "2009-12-07",
    "dateOfDeregistration": null,
    "date": "2009-12-07",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -606,10 +738,14 @@
    "dateOfRegistration": "2009-12-09",
    "dateOfDeregistration": null,
    "date": "2009-12-09",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "BOMBARDIER BD-100-1A10 CHALLENGER 300",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "JUPITERVAVIATION SERVICES PRIVATE LIMITED",
    "source": {
@@ -624,10 +760,14 @@
    "dateOfRegistration": "2009-12-09",
    "dateOfDeregistration": null,
    "date": "2009-12-09",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "MICROLIGHT X- AIR F",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "CONSOLIDATED AVIATION",
    "operator": "CAPT. VINITHA M C",
    "source": {
@@ -642,6 +782,10 @@
    "dateOfRegistration": "2009-12-14",
    "dateOfDeregistration": null,
    "date": "2009-12-14",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "AGUSTA 109E",
    "yearOfManufacture": null,
@@ -660,10 +804,14 @@
    "dateOfRegistration": "2009-12-24",
    "dateOfDeregistration": null,
    "date": "2009-12-24",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAER LEASING 1 LIMITED",
    "lessor": "INDIAER LEASING 1 LIMITED",
    "operator": "INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -678,10 +826,14 @@
    "dateOfRegistration": "2009-12-24",
    "dateOfDeregistration": null,
    "date": "2009-12-24",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
    "source": {
@@ -696,10 +848,14 @@
    "dateOfRegistration": "2009-12-29",
    "dateOfDeregistration": null,
    "date": "2009-12-29",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "AIR INDIA CHARTERS LIMITED",
    "source": {
@@ -714,10 +870,14 @@
    "dateOfRegistration": "2009-12-29",
    "dateOfDeregistration": null,
    "date": "2009-12-29",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 319-112",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "AERO CLUB",
    "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
    "source": {
@@ -732,6 +892,10 @@
    "dateOfRegistration": "2009-12-31",
    "dateOfDeregistration": null,
    "date": "2009-12-31",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "registration",
    "type": "BEECHCRAFT BARON G58",
    "yearOfManufacture": null,
@@ -750,10 +914,14 @@
    "dateOfRegistration": "2010-01-05",
    "dateOfDeregistration": null,
    "date": "2010-01-05",
+   "period": {
+    "from": "2010-01-01",
+    "to": "2010-01-31"
+   },
    "kind": "registration",
    "type": "BELL 407",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "VSL AVIATION PVT. LTD",
    "source": {
@@ -768,10 +936,14 @@
    "dateOfRegistration": "2010-01-05",
    "dateOfDeregistration": null,
    "date": "2010-01-05",
+   "period": {
+    "from": "2010-01-01",
+    "to": "2010-01-31"
+   },
    "kind": "registration",
    "type": "BELL 407 HEILCOPTER",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "ESSAR POWER GUJARAT LIMITED",
    "source": {
@@ -786,10 +958,14 @@
    "dateOfRegistration": "2010-01-08",
    "dateOfDeregistration": null,
    "date": "2010-01-08",
+   "period": {
+    "from": "2010-01-01",
+    "to": "2010-01-31"
+   },
    "kind": "registration",
    "type": "EUROCOPTER AS 350 B3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "ERA LEASING LLC",
    "operator": "DECCAN CHARTERS LIMITED",
    "source": {
@@ -804,6 +980,10 @@
    "dateOfRegistration": "2010-01-22",
    "dateOfDeregistration": null,
    "date": "2010-01-22",
+   "period": {
+    "from": "2010-01-01",
+    "to": "2010-01-31"
+   },
    "kind": "registration",
    "type": "AGUSTA WESTLAND AB 139",
    "yearOfManufacture": null,
@@ -822,6 +1002,10 @@
    "dateOfRegistration": "2010-01-29",
    "dateOfDeregistration": null,
    "date": "2010-01-29",
+   "period": {
+    "from": "2010-01-01",
+    "to": "2010-01-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
@@ -840,6 +1024,10 @@
    "dateOfRegistration": "2010-02-01",
    "dateOfDeregistration": null,
    "date": "2010-02-01",
+   "period": {
+    "from": "2010-02-01",
+    "to": "2010-02-28"
+   },
    "kind": "registration",
    "type": "AIRBUS A319-112",
    "yearOfManufacture": null,
@@ -858,10 +1046,14 @@
    "dateOfRegistration": "2010-02-05",
    "dateOfDeregistration": null,
    "date": "2010-02-05",
+   "period": {
+    "from": "2010-02-01",
+    "to": "2010-02-28"
+   },
    "kind": "registration",
    "type": "R-44 RAVEN II",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SRI LAKSHMI MINERALS",
    "source": {
@@ -876,10 +1068,14 @@
    "dateOfRegistration": "2010-02-05",
    "dateOfDeregistration": null,
    "date": "2010-02-05",
+   "period": {
+    "from": "2010-02-01",
+    "to": "2010-02-28"
+   },
    "kind": "registration",
    "type": "AGUSTA A109S",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "GOVERNMENT OF UTTAR PRADESH",
    "source": {
@@ -894,10 +1090,14 @@
    "dateOfRegistration": "2010-02-16",
    "dateOfDeregistration": null,
    "date": "2010-02-16",
+   "period": {
+    "from": "2010-02-01",
+    "to": "2010-02-28"
+   },
    "kind": "registration",
    "type": "DHRUV ALH- WHEEL VERSION",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "HINDUSTAN AERONAUTICS LIMITED",
    "source": {
@@ -912,10 +1112,14 @@
    "dateOfRegistration": "2010-02-16",
    "dateOfDeregistration": null,
    "date": "2010-02-16",
+   "period": {
+    "from": "2010-02-01",
+    "to": "2010-02-28"
+   },
    "kind": "registration",
    "type": "DHRUV ALH- WHEEL VERSION",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "HINDUSTAN AERONAUTICS LIMITED",
    "source": {
@@ -930,10 +1134,14 @@
    "dateOfRegistration": "2010-02-16",
    "dateOfDeregistration": null,
    "date": "2010-02-16",
+   "period": {
+    "from": "2010-02-01",
+    "to": "2010-02-28"
+   },
    "kind": "registration",
    "type": "DHRUV ALH- WHEEL VERSION",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "HINDUSTAN AERONAUTICS LIMITED",
    "source": {
@@ -948,10 +1156,14 @@
    "dateOfRegistration": "2010-02-23",
    "dateOfDeregistration": null,
    "date": "2010-02-23",
+   "period": {
+    "from": "2010-02-01",
+    "to": "2010-02-28"
+   },
    "kind": "registration",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAER LEASING 1 LIMITED",
    "lessor": "INDIAER LEASING 1 LIMITED",
    "operator": "INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -966,10 +1178,14 @@
    "dateOfRegistration": "2010-02-23",
    "dateOfDeregistration": null,
    "date": "2010-02-23",
+   "period": {
+    "from": "2010-02-01",
+    "to": "2010-02-28"
+   },
    "kind": "registration",
    "type": "CESSNA TURBO 206H STATIONAIR",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "DIRECTI INTERNET SOLUTIONS PVT. LTD",
    "source": {
@@ -984,6 +1200,10 @@
    "dateOfRegistration": "2010-03-02",
    "dateOfDeregistration": null,
    "date": "2010-03-02",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
@@ -1002,10 +1222,14 @@
    "dateOfRegistration": "2010-03-05",
    "dateOfDeregistration": null,
    "date": "2010-03-05",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "registration",
    "type": "EMBRAER EMB- 135BJ (LEGACY 600)",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "KRISHNAPATNAM PORT COMPANY LTD",
    "source": {
@@ -1020,6 +1244,10 @@
    "dateOfRegistration": "2010-03-08",
    "dateOfDeregistration": null,
    "date": "2010-03-08",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "registration",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
@@ -1038,6 +1266,10 @@
    "dateOfRegistration": "2010-03-23",
    "dateOfDeregistration": null,
    "date": "2010-03-23",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -1056,10 +1288,14 @@
    "dateOfRegistration": "2010-03-26",
    "dateOfDeregistration": null,
    "date": "2010-03-26",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "registration",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SOUTHERN PILOT TRAINING ACADEMY (A Unit of Kohinoor Education Services Pvt. Ltd.)",
    "source": {
@@ -1074,10 +1310,14 @@
    "dateOfRegistration": "2010-03-26",
    "dateOfDeregistration": null,
    "date": "2010-03-26",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "registration",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SOUTHERN PILOT TRAINING ACADEMY (A Unit of Kohinoor Education Services Pvt. Ltd.)",
    "source": {
@@ -1092,6 +1332,10 @@
    "dateOfRegistration": "2010-03-29",
    "dateOfDeregistration": null,
    "date": "2010-03-29",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-700",
    "yearOfManufacture": null,
@@ -1110,6 +1354,10 @@
    "dateOfRegistration": "2010-03-31",
    "dateOfDeregistration": null,
    "date": "2010-03-31",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
@@ -1128,6 +1376,10 @@
    "dateOfRegistration": "2010-04-01",
    "dateOfDeregistration": null,
    "date": "2010-04-01",
+   "period": {
+    "from": "2010-04-01",
+    "to": "2010-04-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320- 214",
    "yearOfManufacture": null,
@@ -1146,10 +1398,14 @@
    "dateOfRegistration": "2010-04-09",
    "dateOfDeregistration": null,
    "date": "2010-04-09",
+   "period": {
+    "from": "2010-04-01",
+    "to": "2010-04-30"
+   },
    "kind": "registration",
    "type": "SCHWEIZER 269C",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "HINDUSTAN AERONAUTICS LIMITED",
    "source": {
@@ -1164,10 +1420,14 @@
    "dateOfRegistration": "2010-04-13",
    "dateOfDeregistration": null,
    "date": "2010-04-13",
+   "period": {
+    "from": "2010-04-01",
+    "to": "2010-04-30"
+   },
    "kind": "registration",
    "type": "ROBINSON R44 (CLIPPER) II",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "INDIAN METALS & FERRO ALLOYS LTD",
    "source": {
@@ -1182,10 +1442,14 @@
    "dateOfRegistration": "2010-04-15",
    "dateOfDeregistration": null,
    "date": "2010-04-15",
+   "period": {
+    "from": "2010-04-01",
+    "to": "2010-04-30"
+   },
    "kind": "registration",
    "type": "FALCON 7X",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "RELIGARE AVIATION LIMITED",
    "source": {
@@ -1200,10 +1464,14 @@
    "dateOfRegistration": "2010-04-21",
    "dateOfDeregistration": null,
    "date": "2010-04-21",
+   "period": {
+    "from": "2010-04-01",
+    "to": "2010-04-30"
+   },
    "kind": "registration",
    "type": "GULFSTREAM GV-SP (G-550)",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "GRASIM INDUSTRIES LIMITED",
    "source": {
@@ -1218,6 +1486,10 @@
    "dateOfRegistration": "2010-04-23",
    "dateOfDeregistration": null,
    "date": "2010-04-23",
+   "period": {
+    "from": "2010-04-01",
+    "to": "2010-04-30"
+   },
    "kind": "registration",
    "type": "GLOBAL EXPRESS XRS BD700-1",
    "yearOfManufacture": null,
@@ -1236,6 +1508,10 @@
    "dateOfRegistration": "2010-05-03",
    "dateOfDeregistration": null,
    "date": "2010-05-03",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 321-211",
    "yearOfManufacture": null,
@@ -1254,6 +1530,10 @@
    "dateOfRegistration": "2010-05-03",
    "dateOfDeregistration": null,
    "date": "2010-05-03",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
@@ -1272,10 +1552,14 @@
    "dateOfRegistration": "2010-05-10",
    "dateOfDeregistration": null,
    "date": "2010-05-10",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "FALCON 2000LX",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BAJAJ HINDUSTHAN LTD",
    "lessor": "BAJAJ HINDUSTHAN LTD",
    "operator": "PINAACLE AIR PVT. LTD",
    "source": {
@@ -1290,6 +1574,10 @@
    "dateOfRegistration": "2010-05-15",
    "dateOfDeregistration": null,
    "date": "2010-05-15",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -1308,10 +1596,14 @@
    "dateOfRegistration": "2010-05-20",
    "dateOfDeregistration": null,
    "date": "2010-05-20",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "PIAGGIO AVANTI-II P-180",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "J.K.LAKSHMI CEMENT LTD",
    "source": {
@@ -1326,10 +1618,14 @@
    "dateOfRegistration": "2010-05-25",
    "dateOfDeregistration": null,
    "date": "2010-05-25",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "POWERED HANG GLIDER CRUISER",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SURESH HASTIMAL GUGALE",
    "source": {
@@ -1344,6 +1640,10 @@
    "dateOfRegistration": "2010-05-26",
    "dateOfDeregistration": null,
    "date": "2010-05-26",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "BOEING 777-300ER",
    "yearOfManufacture": null,
@@ -1362,10 +1662,14 @@
    "dateOfRegistration": "2010-05-26",
    "dateOfDeregistration": null,
    "date": "2010-05-26",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "BELL 407",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "SINGAPORE AVIATION Pte LTD",
    "lessor": "SINGAPORE AVIATION Pte LTD",
    "operator": "AEROTECH AVIATION INDIAL PVT. LTD",
    "source": {
@@ -1380,6 +1684,10 @@
    "dateOfRegistration": "2010-05-28",
    "dateOfDeregistration": null,
    "date": "2010-05-28",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -1398,10 +1706,14 @@
    "dateOfRegistration": "2010-05-28",
    "dateOfDeregistration": null,
    "date": "2010-05-28",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "registration",
    "type": "BOMBARDIER BD-100-1A10 CAHLLENGER 300",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "PRIVILEGE AIRWAYS PVT. LTD",
    "source": {
@@ -1416,10 +1728,14 @@
    "dateOfRegistration": "2010-06-01",
    "dateOfDeregistration": null,
    "date": "2010-06-01",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "INDIAER LEASING 1 LIMITED",
    "lessor": "INDIAER LEASING 1 LIMITED",
    "operator": "INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -1434,10 +1750,14 @@
    "dateOfRegistration": "2010-06-04",
    "dateOfDeregistration": null,
    "date": "2010-06-04",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "registration",
    "type": "KING AIR B 200GT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "JAIPRAKASH ASSOCIATES LIMITED",
    "source": {
@@ -1452,10 +1772,14 @@
    "dateOfRegistration": "2010-06-09",
    "dateOfDeregistration": null,
    "date": "2010-06-09",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "registration",
    "type": "SIKORSKY S – 76C",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "HIRANANDANI AVIATION PVT. LTD",
    "source": {
@@ -1470,10 +1794,14 @@
    "dateOfRegistration": "2010-06-15",
    "dateOfDeregistration": null,
    "date": "2010-06-15",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "CRESCENT LEASING 5 LIMITED",
    "lessor": "CRESCENT LEASING 5 LIMITED",
    "operator": "INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -1488,10 +1816,14 @@
    "dateOfRegistration": "2010-06-15",
    "dateOfDeregistration": null,
    "date": "2010-06-15",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "registration",
    "type": "DORNIER 228- 212",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "NORTHEAST SHUTTLES (P) LIMITED",
    "source": {
@@ -1506,10 +1838,14 @@
    "dateOfRegistration": "2010-06-17",
    "dateOfDeregistration": null,
    "date": "2010-06-17",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "registration",
    "type": "PILATUS PC 12/45",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "AIR CHARTER SERVICES PVT. LTD",
    "source": {
@@ -1524,6 +1860,10 @@
    "dateOfRegistration": "2010-06-18",
    "dateOfDeregistration": null,
    "date": "2010-06-18",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -1542,10 +1882,14 @@
    "dateOfRegistration": "2010-06-22",
    "dateOfDeregistration": null,
    "date": "2010-06-22",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "registration",
    "type": "AGUSTA A109S",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "BHARATHOTELS LIMITED",
    "source": {
@@ -1560,10 +1904,14 @@
    "dateOfRegistration": "2010-07-07",
    "dateOfDeregistration": null,
    "date": "2010-07-07",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "registration",
    "type": "AS 350 B3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "PAWAN HANS HELICOPTERS LIMITED",
    "source": {
@@ -1578,6 +1926,10 @@
    "dateOfRegistration": "2010-07-07",
    "dateOfDeregistration": null,
    "date": "2010-07-07",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "registration",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
@@ -1596,10 +1948,14 @@
    "dateOfRegistration": "2010-07-20",
    "dateOfDeregistration": null,
    "date": "2010-07-20",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "registration",
    "type": "SIKORSKY S76C",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "RELIANCE COMMERCIAL DEALERS LTD",
    "source": {
@@ -1614,10 +1970,14 @@
    "dateOfRegistration": "2010-07-22",
    "dateOfDeregistration": null,
    "date": "2010-07-22",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "registration",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SOUTHERN PILOT TRAINING ACADEMY (A Unit of Kohinoor Education Services Pvt. Ltd.)",
    "source": {
@@ -1632,10 +1992,14 @@
    "dateOfRegistration": "2010-07-23",
    "dateOfDeregistration": null,
    "date": "2010-07-23",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "registration",
    "type": "BEECHCRAFT PREMIER IA-390",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "TVS MOTOR COMPANY LTD",
    "source": {
@@ -1650,10 +2014,14 @@
    "dateOfRegistration": "2010-07-29",
    "dateOfDeregistration": null,
    "date": "2010-07-29",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "registration",
    "type": "DA 42 L 360",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "NATIONAL FLYING TRAINING INSTITUTE PVT. LTD",
    "source": {
@@ -1668,10 +2036,14 @@
    "dateOfRegistration": "2010-07-29",
    "dateOfDeregistration": null,
    "date": "2010-07-29",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-8BK",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "C.I.T AEROSPACE INTERNATIONAL",
    "lessor": "C.I.T AEROSPACE INTERNATIONAL",
    "operator": "JET AIRWAYS (INDIA) LIMITED",
    "source": {
@@ -1686,10 +2058,14 @@
    "dateOfRegistration": "2010-08-02",
    "dateOfDeregistration": null,
    "date": "2010-08-02",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "registration",
    "type": "AIRBUS A320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s CRESCENT LEASING 6 LIMITED",
    "lessor": "M/s CRESCENT LEASING 6 LIMITED",
    "operator": "M/s INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -1704,10 +2080,14 @@
    "dateOfRegistration": "2010-08-03",
    "dateOfDeregistration": null,
    "date": "2010-08-03",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "registration",
    "type": "AS 350 B3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "PAWAN HANS HELICOPTERS LIMITED",
    "source": {
@@ -1722,10 +2102,14 @@
    "dateOfRegistration": "2010-08-03",
    "dateOfDeregistration": null,
    "date": "2010-08-03",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "registration",
    "type": "AS 350 B3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "PAWAN HANS HELICOPTERS LIMITED",
    "source": {
@@ -1740,10 +2124,14 @@
    "dateOfRegistration": "2010-08-06",
    "dateOfDeregistration": null,
    "date": "2010-08-06",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "registration",
    "type": "AS 350 B3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S SUMMIT AVIATION PVT. LTD",
    "source": {
@@ -1758,10 +2146,14 @@
    "dateOfRegistration": "2010-08-09",
    "dateOfDeregistration": null,
    "date": "2010-08-09",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "registration",
    "type": "DAUPHIN AS 365N3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "PAWAN HANS HELICOPTERS LIMITED",
    "source": {
@@ -1776,6 +2168,10 @@
    "dateOfRegistration": "2010-08-10",
    "dateOfDeregistration": null,
    "date": "2010-08-10",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -1794,10 +2190,14 @@
    "dateOfRegistration": "2010-08-11",
    "dateOfDeregistration": null,
    "date": "2010-08-11",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "registration",
    "type": "AGUSTA A109E",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/s TORODELL LIMITED",
    "operator": "M/s SPICEJET LIMITED",
    "source": {
@@ -1812,6 +2212,10 @@
    "dateOfRegistration": "2010-08-17",
    "dateOfDeregistration": null,
    "date": "2010-08-17",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
@@ -1830,10 +2234,14 @@
    "dateOfRegistration": "2010-08-20",
    "dateOfDeregistration": null,
    "date": "2010-08-20",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "registration",
    "type": "BOMBARDIER CHALLENGER CL-600-2B19",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S GO AIRLINES (INDIA) PVT. LTD",
    "source": {
@@ -1848,10 +2256,14 @@
    "dateOfRegistration": "2010-09-06",
    "dateOfDeregistration": null,
    "date": "2010-09-06",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "registration",
    "type": "AGUSTA WESTLAND AW139",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ERA LEASING LLC",
    "lessor": "M/S ERA LEASING LLC",
    "operator": "GLOBAL VECTRA HELICORP. LTD",
    "source": {
@@ -1866,10 +2278,14 @@
    "dateOfRegistration": "2010-09-15",
    "dateOfDeregistration": null,
    "date": "2010-09-15",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "registration",
    "type": "ECUREUIL AS 350 B3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S PL PANORAMA LEASING LTD",
    "lessor": "M/S PL PANORAMA LEASING LTD",
    "operator": "M/S UTAIR INDIA PVT. LTD",
    "source": {
@@ -1884,10 +2300,14 @@
    "dateOfRegistration": "2010-09-15",
    "dateOfDeregistration": null,
    "date": "2010-09-15",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "registration",
    "type": "PREMIER IA-390",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S SIMM SAMM AIRWAYS PVT. LTD",
    "source": {
@@ -1902,10 +2322,14 @@
    "dateOfRegistration": "2010-09-23",
    "dateOfDeregistration": null,
    "date": "2010-09-23",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "registration",
    "type": "AGUSTA AW 139",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s INDIA FLYSAFE AVIATION LIMITED",
    "source": {
@@ -1920,10 +2344,14 @@
    "dateOfRegistration": "2010-09-23",
    "dateOfDeregistration": null,
    "date": "2010-09-23",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "registration",
    "type": "DAUPHIN AS 365 N3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s PAWAN HANS HELICOPTERS LIMITED",
    "source": {
@@ -1938,10 +2366,14 @@
    "dateOfRegistration": "2010-09-27",
    "dateOfDeregistration": null,
    "date": "2010-09-27",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "registration",
    "type": "KING AIR B- 200GT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s TATA STEEL LIMITED",
    "source": {
@@ -1956,6 +2388,10 @@
    "dateOfRegistration": "2010-09-29",
    "dateOfDeregistration": null,
    "date": "2010-09-29",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,

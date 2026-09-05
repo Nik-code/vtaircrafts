@@ -12,6 +12,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-08-02",
    "date": "2012-08-02",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
    "kind": "deregistration",
    "type": "BOEING 737- 75R BEECH KING AIR C-90A BELL 206L3 BOEING 737-700 BOEING 737-800",
    "yearOfManufacture": null,
@@ -30,10 +34,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-09-05",
    "date": "2012-09-05",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320 ATR 72-212A BELL 407 ATR 72-212A HAWKER 850XP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CELESTIAL AVIATION TRADING 9 LIMITED",
    "lessor": "M/S CELESTIAL AVIATION TRADING 9 LIMITED",
    "operator": "M/S INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -48,6 +56,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-09-19",
    "date": "2012-09-19",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
@@ -66,10 +78,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-09-27",
    "date": "2012-09-27",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "GULFSTREAM 200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S EUROPEAN PROJECTS & AVIATION LTD",
    "source": {
@@ -84,10 +100,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-09-28",
    "date": "2012-09-28",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "BELL 407 THE MONTH OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S RELIANCE NATURAL RESOURCES LIMITED",
    "source": {
@@ -102,10 +122,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-10-22",
    "date": "2012-10-22",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "BOEING 737-700",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S BAVARIA INTERNATIONAL AIRCRAFT LEASING GMB",
    "lessor": "M/S BAVARIA INTERNATIONAL AIRCRAFT LEASING GMB",
    "operator": "M/S JET LITE (INDIA) LTD",
    "source": {
@@ -120,10 +144,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-10-23",
    "date": "2012-10-23",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320 ENSTROM 480B",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -138,10 +166,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-10-29",
    "date": "2012-10-29",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "BEECH JET 400 THE MONTH OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SHRI K.C.G. VERGHESE",
    "source": {
@@ -156,10 +188,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-11-12",
    "date": "2012-11-12",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "BOEING 737-800 MD-600N ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S NORTH AMERICAN AIRCRAFT HIRE CO. LTD",
    "lessor": "M/S NORTH AMERICAN AIRCRAFT HIRE CO. LTD",
    "operator": "M/S JET AIRWAYS (INDIA) LTD",
    "source": {
@@ -174,10 +210,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-11-19",
    "date": "2012-11-19",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "CESSNA 152 CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S NORTH",
    "operator": "MR. K.C.G. VERGHESE",
    "source": {
@@ -192,6 +232,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-11-26",
    "date": "2012-11-26",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "BOEING 737-75R",
    "yearOfManufacture": null,
@@ -210,10 +254,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-11-30",
    "date": "2012-11-30",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CELESTIAL AVIATION TRADING 9 LTD",
    "lessor": "M/S CELESTIAL AVIATION TRADING 9 LTD",
    "operator": "M/S INTERGLOBE AVIATION LTD",
    "source": {

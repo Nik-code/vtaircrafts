@@ -12,10 +12,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-10-27",
    "date": "2011-10-27",
+   "period": {
+    "from": "2011-10-01",
+    "to": "2011-10-31"
+   },
    "kind": "deregistration",
    "type": "SARAS PROTO TYPE 1 IN THE MONTH",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S CONCIL FOR SCIENTIFIC & INDUSTRIAL RESEARCH",
    "source": {
@@ -30,10 +34,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-11-30",
    "date": "2011-11-30",
+   "period": {
+    "from": "2011-11-01",
+    "to": "2011-11-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A-310- 304 IN THE MONTH",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -48,10 +56,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-12-01",
    "date": "2011-12-01",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CHAMELI AIRCRAFT LEASING LTD",
    "lessor": "M/S CHAMELI AIRCRAFT LEASING LTD",
    "operator": "M/S KINGFISHER AIRLINES LIMITED(EARLIER DECCAN MERGED WITH KINGFISHER)",
    "source": {
@@ -66,10 +78,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-12-01",
    "date": "2011-12-01",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320-231",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S FIFI AIRCRAFT LEASING LT",
    "lessor": "M/S FIFI AIRCRAFT LEASING LT",
    "operator": "M/S KINGFISHER AIRLINES LIMITED(EARLIER DECCAN MERGED WITH KINGFISHER), UB TOWER LEVEL 12 CITY 24,VITTAL MALLYA ROAD",
    "source": {
@@ -84,10 +100,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-12-22",
    "date": "2011-12-22",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -102,10 +122,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-12-22",
    "date": "2011-12-22",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -120,10 +144,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-12-22",
    "date": "2011-12-22",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -138,10 +166,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-12-22",
    "date": "2011-12-22",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "BEECH SUPER KING AIR B-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S JAYPEE VENTURES LTD",
    "source": {
@@ -156,10 +188,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-12-28",
    "date": "2011-12-28",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "CESSNA 680",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S BRISTOW",
    "operator": "M/S VEDANTA ALUMINA LTD",
    "source": {
@@ -174,6 +210,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-12-29",
    "date": "2011-12-29",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "BELL 412 IN THE MONTH",
    "yearOfManufacture": null,
@@ -192,10 +232,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-01-13",
    "date": "2012-01-13",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "TRINIDAD TB20 AIRBUS A310 ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S AIR INDIA LIMITED OLD AIRPORT, KALINA, SANTACRUZ (EAST), MUMBAI",
    "operator": "M/S INDIRA GANHI RASHTRIYA URAN AKADEMY",
    "source": {
@@ -210,10 +254,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-01-30",
    "date": "2012-01-30",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S HUBLI AIRCRAFT LIMITED",
    "lessor": "M/S HUBLI AIRCRAFT LIMITED",
    "operator": "M/S KINGFISHER AIRLINES",
    "source": {
@@ -228,10 +276,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-01-31",
    "date": "2012-01-31",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "BOEING 737-800 THE MONTH OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ACG TRUST 29050 299 SOUTH MAIN STREET, U 1228- SALT LAKE UTA, USA",
    "lessor": "M/S ACG TRUST 29050 299 SOUTH MAIN STREET, U 1228- SALT LAKE UTA, USA",
    "operator": "M/S JET LITE (INDIA) LTD S.M.CENTRE, ANDHERI EAST",
    "source": {
@@ -246,10 +298,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-02-10",
    "date": "2012-02-10",
+   "period": {
+    "from": "2011-12-01",
+    "to": "2011-12-31"
+   },
    "kind": "deregistration",
    "type": "BELL 206B III JET RA THE MONTH OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AK AVIATION I-MARINE CHAMBERS, 43 NEW CHAMBERS, MARINE LINES",
    "source": {
@@ -264,6 +320,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-03-02",
    "date": "2012-03-02",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320 AIRBUS A 321 LEARJET 40 AIRBUS A310",
    "yearOfManufacture": null,
@@ -282,6 +342,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-03-20",
    "date": "2012-03-20",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320 AIRBUS A320 AIRBUS A330",
    "yearOfManufacture": null,
@@ -300,6 +364,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-03-29",
    "date": "2012-03-29",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A330 THE MONTH OF",
    "yearOfManufacture": null,
@@ -318,6 +386,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-04-03",
    "date": "2012-04-03",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A310 ATR 72-212A ATR 72-212A ATR 72-212A ATR 72-500 ATR 72-500",
    "yearOfManufacture": null,
@@ -336,6 +408,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-04-18",
    "date": "2012-04-18",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,
@@ -354,6 +430,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-04-18",
    "date": "2012-04-18",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,
@@ -372,6 +452,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-04-30",
    "date": "2012-04-30",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "BELL 212 IN THE MONTH",
    "yearOfManufacture": null,
@@ -390,10 +474,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-05-11",
    "date": "2012-05-11",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "BOEING 737-800 THORP T 211 AIRBUS A320 BOEING 737-200 BOEING 737-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S NBB SUNGOD CO.LTD",
    "operator": "M/S JET LITE (INDIA) LTD",
    "source": {
@@ -408,10 +496,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-05-22",
    "date": "2012-05-22",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -426,10 +518,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-05-22",
    "date": "2012-05-22",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -444,10 +540,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-05-22",
    "date": "2012-05-22",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -462,6 +562,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-05-23",
    "date": "2012-05-23",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
@@ -480,6 +584,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-05-24",
    "date": "2012-05-24",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "EC-155 B1",
    "yearOfManufacture": null,
@@ -498,10 +606,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-05-24",
    "date": "2012-05-24",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "MI-172",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S PAWAN HANS HELICOPTERS LTD",
    "source": {
@@ -516,10 +628,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-05-24",
    "date": "2012-05-24",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AS 350 B3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S PAWAN HANS HELICOPTERS LTD",
    "source": {
@@ -534,6 +650,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-05-25",
    "date": "2012-05-25",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "BOEING 737-800 BELL 407 THE MONTH OF",
    "yearOfManufacture": null,
@@ -552,10 +672,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-06-04",
    "date": "2012-06-04",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "CHEETAH SA 315",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S HIMALAYAN HELI SERVICES (P) LTD",
    "source": {
@@ -570,10 +694,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-06-19",
    "date": "2012-06-19",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320 AIRBUS A320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -588,10 +716,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-06-21",
    "date": "2012-06-21",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
    "kind": "deregistration",
    "type": "AGUSTA A119 THE MONTH OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S KINGFISHER AIRLINES LIMITED",
    "source": {
@@ -606,6 +738,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-07-02",
    "date": "2012-07-02",
+   "period": {
+    "from": "2012-07-01",
+    "to": "2012-07-31"
+   },
    "kind": "deregistration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -624,6 +760,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-07-03",
    "date": "2012-07-03",
+   "period": {
+    "from": "2012-07-01",
+    "to": "2012-07-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A330",
    "yearOfManufacture": null,
@@ -642,6 +782,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-07-16",
    "date": "2012-07-16",
+   "period": {
+    "from": "2012-07-01",
+    "to": "2012-07-31"
+   },
    "kind": "deregistration",
    "type": "BOEING 737- 75R BOEING 737- 75R",
    "yearOfManufacture": null,
@@ -660,10 +804,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-07-20",
    "date": "2012-07-20",
+   "period": {
+    "from": "2012-07-01",
+    "to": "2012-07-31"
+   },
    "kind": "deregistration",
    "type": "BELL 407",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S VSL AVIATION LTD",
    "source": {
@@ -678,10 +826,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-07-24",
    "date": "2012-07-24",
+   "period": {
+    "from": "2012-07-01",
+    "to": "2012-07-31"
+   },
    "kind": "deregistration",
    "type": "CESNNA CJ2- 525A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S TELAMON",
    "lessor": "M/S TELAMON",
    "operator": "M/S TURBO AVIATION PVT",
    "source": {
@@ -696,10 +848,14 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2012-07-30",
    "date": "2012-07-30",
+   "period": {
+    "from": "2012-07-01",
+    "to": "2012-07-31"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CELESTIAL AVIATION TRADING 9 LIMITED",
    "lessor": "M/S CELESTIAL AVIATION TRADING 9 LIMITED",
    "operator": "M/S INTERGLOBE AVIATION LIMITED",
    "source": {

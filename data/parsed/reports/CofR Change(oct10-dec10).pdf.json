@@ -12,6 +12,10 @@
    "dateOfRegistration": "2010-10-18",
    "dateOfDeregistration": null,
    "date": "2010-10-18",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -30,10 +34,14 @@
    "dateOfRegistration": "2010-10-26",
    "dateOfDeregistration": null,
    "date": "2010-10-26",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 757-25C",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s DHL AVIATION ( NETHERLANDS) BV",
    "lessor": "M/s DHL AVIATION ( NETHERLANDS) BV",
    "operator": "M/s BLUE DART AVIATION LIMITED",
    "source": {
@@ -48,10 +56,14 @@
    "dateOfRegistration": "2010-10-26",
    "dateOfDeregistration": null,
    "date": "2010-10-26",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 757-236",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s DHL AVIATION ( NETHERLANDS) BV",
    "lessor": "M/s DHL AVIATION ( NETHERLANDS) BV",
    "operator": "M/s BLUE DART AVIATION LIMITED",
    "source": {
@@ -66,10 +78,14 @@
    "dateOfRegistration": "2010-10-26",
    "dateOfDeregistration": null,
    "date": "2010-10-26",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 757-236 SF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s DHL AVIATION ( NETHERLANDS) BV",
    "lessor": "M/s DHL AVIATION ( NETHERLANDS) BV",
    "operator": "M/s BLUE DART AVIATION LIMITED",
    "source": {
@@ -84,10 +100,14 @@
    "dateOfRegistration": "2010-10-26",
    "dateOfDeregistration": null,
    "date": "2010-10-26",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 757-23N AIRCAFT",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s DHL AVIATION ( NETHERLANDS) BV",
    "lessor": "M/s DHL AVIATION ( NETHERLANDS) BV",
    "operator": "M/s BLUE DART AVIATION LIMITED",
    "source": {
@@ -102,6 +122,10 @@
    "dateOfRegistration": "2010-11-11",
    "dateOfDeregistration": null,
    "date": "2010-11-11",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
@@ -120,6 +144,10 @@
    "dateOfRegistration": "2010-11-11",
    "dateOfDeregistration": null,
    "date": "2010-11-11",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
@@ -138,6 +166,10 @@
    "dateOfRegistration": "2010-11-11",
    "dateOfDeregistration": null,
    "date": "2010-11-11",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
@@ -156,6 +188,10 @@
    "dateOfRegistration": "2010-11-11",
    "dateOfDeregistration": null,
    "date": "2010-11-11",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -174,6 +210,10 @@
    "dateOfRegistration": "2010-11-11",
    "dateOfDeregistration": null,
    "date": "2010-11-11",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-337ER",
    "yearOfManufacture": null,
@@ -192,6 +232,10 @@
    "dateOfRegistration": "2010-11-11",
    "dateOfDeregistration": null,
    "date": "2010-11-11",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -210,6 +254,10 @@
    "dateOfRegistration": "2010-11-11",
    "dateOfDeregistration": null,
    "date": "2010-11-11",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 777-237LR",
    "yearOfManufacture": null,
@@ -228,10 +276,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "FALCON 7X",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s RELIGARE AVIATION LIMITED",
    "source": {
@@ -246,10 +298,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "SUPER KING AIR B-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s RELIGARE AVIATION LIMITED",
    "source": {
@@ -264,10 +320,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "HAWKER 800XP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s RELIGARE AVIATION LIMITED",
    "source": {
@@ -282,10 +342,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BELL 430",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s RELIGARE AVIATION LIMITED",
    "source": {
@@ -300,10 +364,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "SUPER KING AIR C-90A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s RELIGARE AVIATION LIMITED",
    "source": {
@@ -318,10 +386,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BEECH 1900D AIRLINER",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s RELIGARE AVIATION LIMITED",
    "source": {
@@ -336,10 +408,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BEECH 1900D",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s RELIGARE AVIATION LIMITED",
    "source": {
@@ -354,10 +430,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "SUPER KING AIR B-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s RELIGARE AVIATION LIMITED",
    "source": {
@@ -372,10 +452,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "SUPER KING AIR B-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s RELIGARE AVIATION LIMITED",
    "source": {
@@ -390,10 +474,14 @@
    "dateOfRegistration": "2010-11-15",
    "dateOfDeregistration": null,
    "date": "2010-11-15",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "FALCON 2000",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s G.I.E MIKE SIERRA",
    "lessor": "M/s G.I.E MIKE SIERRA",
    "operator": "RELIGARE AVIATION LIMITED",
    "source": {
@@ -408,10 +496,14 @@
    "dateOfRegistration": "2010-12-09",
    "dateOfDeregistration": null,
    "date": "2010-12-09",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "EUROCOPTER EC 130B4",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "ACE AIR SERVICES (P) LTD",
    "source": {
@@ -426,6 +518,10 @@
    "dateOfRegistration": "2010-12-10",
    "dateOfDeregistration": null,
    "date": "2010-12-10",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A320-214",
    "yearOfManufacture": null,
@@ -444,10 +540,14 @@
    "dateOfRegistration": "2010-12-24",
    "dateOfDeregistration": null,
    "date": "2010-12-24",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S MCAP EUROPE LIMITED",
    "lessor": "M/S MCAP EUROPE LIMITED",
    "operator": "M/S JETLITE (INDIA) LIMITED",
    "source": {
@@ -462,10 +562,14 @@
    "dateOfRegistration": "2010-12-24",
    "dateOfDeregistration": null,
    "date": "2010-12-24",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S MCAP EUROPE LIMITED",
    "lessor": "M/S MCAP EUROPE LIMITED",
    "operator": "M/S JETLITE (INDIA) LIMITED",
    "source": {
@@ -480,6 +584,10 @@
    "dateOfRegistration": "2010-12-29",
    "dateOfDeregistration": null,
    "date": "2010-12-29",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -498,10 +606,14 @@
    "dateOfRegistration": "2010-12-29",
    "dateOfDeregistration": null,
    "date": "2010-12-29",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BELL 407",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CONSOLIDATED AVIATION MANAGEMENT CORPORATION LTD",
    "lessor": "M/S CONSOLIDATED AVIATION MANAGEMENT CORPORATION LTD",
    "operator": "M/S SWAJAS AIR CHARTER LTD",
    "source": {
@@ -516,10 +628,14 @@
    "dateOfRegistration": "2010-12-29",
    "dateOfDeregistration": null,
    "date": "2010-12-29",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "AGUSTA 109E",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CONSOLIDATED AVIATION MANAGEMENT CORPORATION LTD",
    "lessor": "M/S CONSOLIDATED AVIATION MANAGEMENT CORPORATION LTD",
    "operator": "M/S RAINBOW AIR PRIVATE LIMITED",
    "source": {
@@ -534,10 +650,14 @@
    "dateOfRegistration": "2010-12-30",
    "dateOfDeregistration": null,
    "date": "2010-12-30",
+   "period": {
+    "from": "2010-10-01",
+    "to": "2010-10-31"
+   },
    "kind": "owner-change",
    "type": "BELL 412 EP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
    "lessor": "M/S WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
    "operator": "M/S GLOBAL VECTRA HELICORP LIMITED",
    "source": {

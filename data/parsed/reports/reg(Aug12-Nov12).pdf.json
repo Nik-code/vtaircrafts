@@ -12,10 +12,14 @@
    "dateOfRegistration": "2012-10-31",
    "dateOfDeregistration": null,
    "date": "2012-10-31",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800 THE MONTH OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S BOC AVIATION IRELAND LTD",
    "lessor": "M/S BOC AVIATION IRELAND LTD",
    "operator": "M/S JET AIRWAYS (INDIA)",
    "source": {
@@ -30,10 +34,14 @@
    "dateOfRegistration": "2012-11-01",
    "dateOfDeregistration": null,
    "date": "2012-11-01",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "DIAMOND DA 40D",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ASIA PACIFIC FLIGHT TRAINING SDN",
    "lessor": "M/S ASIA PACIFIC FLIGHT TRAINING SDN",
    "operator": "M/S ASIA PACIFIC FLIGHT TRAININGACADEMY LIMITED",
    "source": {
@@ -48,10 +56,14 @@
    "dateOfRegistration": "2012-11-01",
    "dateOfDeregistration": null,
    "date": "2012-11-01",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "DIAMOND DA 40D",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ASIA PACIFIC FLIGHT TRAINING SDN",
    "lessor": "M/S ASIA PACIFIC FLIGHT TRAINING SDN",
    "operator": "M/S ASIA PACIFIC FLIGHT TRAININGACADEMY LIMITED",
    "source": {
@@ -66,10 +78,14 @@
    "dateOfRegistration": "2012-11-01",
    "dateOfDeregistration": null,
    "date": "2012-11-01",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "DIAMOND DA 40D",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S ASIA PACIFIC FLIGHT TRAINING SDN",
    "lessor": "M/S ASIA PACIFIC FLIGHT TRAINING SDN",
    "operator": "M/S ASIA PACIFIC FLIGHT TRAININGACADEMY LIMITED",
    "source": {
@@ -84,10 +100,14 @@
    "dateOfRegistration": "2012-11-06",
    "dateOfDeregistration": null,
    "date": "2012-11-06",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "DIAMOND DA 40",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S NATIONAL FLYING TRAINING INSTITUTEPRIVATE (NFTIPL)",
    "source": {
@@ -102,10 +122,14 @@
    "dateOfRegistration": "2012-11-06",
    "dateOfDeregistration": null,
    "date": "2012-11-06",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "DIAMOND DA 40",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S NATIONAL FLYING TRAINING INSTITUTEPRIVATE (NFTIPL)",
    "source": {
@@ -120,10 +144,14 @@
    "dateOfRegistration": "2012-11-06",
    "dateOfDeregistration": null,
    "date": "2012-11-06",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "AGUSTA AW 109SP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S VARVA AVIATION",
    "source": {
@@ -138,10 +166,14 @@
    "dateOfRegistration": "2012-11-09",
    "dateOfDeregistration": null,
    "date": "2012-11-09",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "MAULE MT-7-235",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S HKAC LEASING",
    "operator": "M/S OPEN SKIES AVIATION PVT. LTD",
    "source": {
@@ -156,6 +188,10 @@
    "dateOfRegistration": "2012-11-15",
    "dateOfDeregistration": null,
    "date": "2012-11-15",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -174,6 +210,10 @@
    "dateOfRegistration": "2012-11-16",
    "dateOfDeregistration": null,
    "date": "2012-11-16",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "EMB 135BJ",
    "yearOfManufacture": null,
@@ -192,10 +232,14 @@
    "dateOfRegistration": "2012-11-30",
    "dateOfDeregistration": null,
    "date": "2012-11-30",
+   "period": {
+    "from": "2012-11-01",
+    "to": "2012-11-30"
+   },
    "kind": "registration",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S CELESTIAL AVIATION TRADING 27 LTD",
    "lessor": "M/S CELESTIAL AVIATION TRADING 27 LTD",
    "operator": "M/S JET AIRWAYS (INDIA) LIMITED",
    "source": {

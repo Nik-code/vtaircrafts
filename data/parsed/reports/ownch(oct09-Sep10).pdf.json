@@ -12,6 +12,10 @@
    "dateOfRegistration": "2009-10-01",
    "dateOfDeregistration": null,
    "date": "2009-10-01",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "owner-change",
    "type": "BELL 212",
    "yearOfManufacture": null,
@@ -30,10 +34,14 @@
    "dateOfRegistration": "2009-10-05",
    "dateOfDeregistration": null,
    "date": "2009-10-05",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "owner-change",
    "type": "BELL 212",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BRISTOW HELICOPTER INTERNATIONAL LTD",
    "lessor": "BRISTOW HELICOPTER INTERNATIONAL LTD",
    "operator": "DECCAN CHARTERS LIMITED",
    "source": {
@@ -48,10 +56,14 @@
    "dateOfRegistration": "2009-10-07",
    "dateOfDeregistration": null,
    "date": "2009-10-07",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "owner-change",
    "type": "ZENAIR CH-701",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "RANBIR SINGH",
    "source": {
@@ -66,6 +78,10 @@
    "dateOfRegistration": "2009-10-13",
    "dateOfDeregistration": null,
    "date": "2009-10-13",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "owner-change",
    "type": "BELL 412",
    "yearOfManufacture": null,
@@ -84,10 +100,14 @@
    "dateOfRegistration": "2009-10-14",
    "dateOfDeregistration": null,
    "date": "2009-10-14",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "owner-change",
    "type": "PIPER SENECA PA34-200T",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "BIRMI FLYING ACADEMY (P) LTD",
    "source": {
@@ -102,10 +122,14 @@
    "dateOfRegistration": "2009-10-22",
    "dateOfDeregistration": null,
    "date": "2009-10-22",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "owner-change",
    "type": "SUPER KING AIR B-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "NATIONAL REMOTE SENSING CENTRE",
    "source": {
@@ -120,10 +144,14 @@
    "dateOfRegistration": "2009-10-22",
    "dateOfDeregistration": null,
    "date": "2009-10-22",
+   "period": {
+    "from": "2009-10-01",
+    "to": "2009-10-31"
+   },
    "kind": "owner-change",
    "type": "SUPER KING AIR B-200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "NATIONAL REMOTE SENSING CENTRE",
    "source": {
@@ -138,12 +166,16 @@
    "dateOfRegistration": "2009-12-03",
    "dateOfDeregistration": null,
    "date": "2009-12-03",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "BEECH SUPER KING AIR B-200",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR:-ABG RESOURCES PVT. LTD",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "ABG RESOURCES PVT. LTD",
    "source": {
     "file": "ownch(oct09-Sep10).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ownch(oct09-Sep10).pdf",
@@ -156,12 +188,16 @@
    "dateOfRegistration": "2009-12-08",
    "dateOfDeregistration": null,
    "date": "2009-12-08",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "BELL 212",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "QATAR GENERAL PETROLEUM CORPORATION",
    "lessor": "QATAR GENERAL PETROLEUM CORPORATION",
-   "operator": "/LESSEE: - UNITED HELICHARTERS PVT. LTD",
+   "operator": "LESSEE: - UNITED HELICHARTERS PVT. LTD",
    "source": {
     "file": "ownch(oct09-Sep10).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ownch(oct09-Sep10).pdf",
@@ -174,12 +210,16 @@
    "dateOfRegistration": "2009-12-08",
    "dateOfDeregistration": null,
    "date": "2009-12-08",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "BELL 212",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "QATAR GENERAL PETROLEUM CORPORATION",
    "lessor": "QATAR GENERAL PETROLEUM CORPORATION",
-   "operator": "/LESSEE: - UNITED HELICHARTERS PVT. LTD",
+   "operator": "LESSEE: - UNITED HELICHARTERS PVT. LTD",
    "source": {
     "file": "ownch(oct09-Sep10).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ownch(oct09-Sep10).pdf",
@@ -192,6 +232,10 @@
    "dateOfRegistration": "2009-12-08",
    "dateOfDeregistration": null,
    "date": "2009-12-08",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "BELL 412 HP",
    "yearOfManufacture": null,
@@ -210,12 +254,16 @@
    "dateOfRegistration": "2009-12-08",
    "dateOfDeregistration": null,
    "date": "2009-12-08",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "BELL 412 EP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "QATAR PETROLEUM",
    "lessor": "QATAR PETROLEUM",
-   "operator": "/LESSEE: - UNITED HELICHARTERS PVT. LTD",
+   "operator": "LESSEE: - UNITED HELICHARTERS PVT. LTD",
    "source": {
     "file": "ownch(oct09-Sep10).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ownch(oct09-Sep10).pdf",
@@ -228,10 +276,14 @@
    "dateOfRegistration": "2009-12-24",
    "dateOfDeregistration": null,
    "date": "2009-12-24",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA 172R",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "TOUCHWOOD ENTERTAINMENT LTD",
    "lessor": "TOUCHWOOD ENTERTAINMENT LTD",
    "operator": "GOVERNMENT AVIATION TRAINING INSTITUTE",
    "source": {
@@ -246,6 +298,10 @@
    "dateOfRegistration": "2009-12-29",
    "dateOfDeregistration": null,
    "date": "2009-12-29",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -264,6 +320,10 @@
    "dateOfRegistration": "2009-12-30",
    "dateOfDeregistration": null,
    "date": "2009-12-30",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -282,12 +342,16 @@
    "dateOfRegistration": "2010-01-04",
    "dateOfDeregistration": null,
    "date": "2010-01-04",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "DHRUV ( ALH WHEEL VERSION)",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR:- BORDER SECURITY FORCE ( AIR WING)",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "BORDER SECURITY FORCE ( AIR WING)",
    "source": {
     "file": "ownch(oct09-Sep10).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ownch(oct09-Sep10).pdf",
@@ -300,10 +364,14 @@
    "dateOfRegistration": "2010-01-07",
    "dateOfDeregistration": null,
    "date": "2010-01-07",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "BELL 230",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "DECCAN CHARTERS LIMITED",
    "source": {
@@ -318,12 +386,16 @@
    "dateOfRegistration": "2010-02-01",
    "dateOfDeregistration": null,
    "date": "2010-02-01",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "KING AIR C-90",
    "yearOfManufacture": null,
-   "owner": "/OPEARTOR:-WHITE CITY AVIATION PVT. LTD",
+   "owner": "",
    "lessor": null,
-   "operator": null,
+   "operator": "WHITE CITY AVIATION PVT. LTD",
    "source": {
     "file": "ownch(oct09-Sep10).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ownch(oct09-Sep10).pdf",
@@ -336,6 +408,10 @@
    "dateOfRegistration": "2010-02-02",
    "dateOfDeregistration": null,
    "date": "2010-02-02",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -354,6 +430,10 @@
    "dateOfRegistration": "2010-02-02",
    "dateOfDeregistration": null,
    "date": "2010-02-02",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -372,6 +452,10 @@
    "dateOfRegistration": "2010-02-02",
    "dateOfDeregistration": null,
    "date": "2010-02-02",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -390,10 +474,14 @@
    "dateOfRegistration": "2010-02-04",
    "dateOfDeregistration": null,
    "date": "2010-02-04",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "DHRUV ALH- SKID VERSION",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SPICE JET LIMITED",
    "source": {
@@ -408,6 +496,10 @@
    "dateOfRegistration": "2010-02-08",
    "dateOfDeregistration": null,
    "date": "2010-02-08",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS A310-304",
    "yearOfManufacture": null,
@@ -426,10 +518,14 @@
    "dateOfRegistration": "2010-02-24",
    "dateOfDeregistration": null,
    "date": "2010-02-24",
+   "period": {
+    "from": "2009-12-01",
+    "to": "2009-12-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "CHETAK AVIATION(A UNIT OF EDUCATION SOCIETY)",
    "source": {
@@ -444,10 +540,14 @@
    "dateOfRegistration": "2010-03-03",
    "dateOfDeregistration": null,
    "date": "2010-03-03",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "owner-change",
    "type": "DORNIER 228- 201",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "ORIENT FLIGHTS (P) LTD",
    "source": {
@@ -462,10 +562,14 @@
    "dateOfRegistration": "2010-03-03",
    "dateOfDeregistration": null,
    "date": "2010-03-03",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "owner-change",
    "type": "BELL 206 BIII JET RANGER",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "GLOBE AIR INC",
    "lessor": "GLOBE AIR INC",
    "operator": "SAARTHI AIRWAYS PRIVATE LIMITED",
    "source": {
@@ -480,10 +584,14 @@
    "dateOfRegistration": "2010-03-03",
    "dateOfDeregistration": null,
    "date": "2010-03-03",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "BOC AVIATION PTE. LTD",
    "lessor": "BOC AVIATION PTE. LTD",
    "operator": "KINGFISHER AIRLINES LIMITED",
    "source": {
@@ -498,6 +606,10 @@
    "dateOfRegistration": "2010-03-03",
    "dateOfDeregistration": null,
    "date": "2010-03-03",
+   "period": {
+    "from": "2010-03-01",
+    "to": "2010-03-31"
+   },
    "kind": "owner-change",
    "type": "320-232 CESSNA 172R",
    "yearOfManufacture": null,
@@ -516,10 +628,14 @@
    "dateOfRegistration": "2010-04-01",
    "dateOfDeregistration": null,
    "date": "2010-04-01",
+   "period": {
+    "from": "2010-04-01",
+    "to": "2010-04-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA172R",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SARASWATI AVIATION ACADEMY",
    "source": {
@@ -534,10 +650,14 @@
    "dateOfRegistration": "2010-04-30",
    "dateOfDeregistration": null,
    "date": "2010-04-30",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "owner-change",
    "type": "ATR 42-500",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "KINGFISHER AIRLINES LIMITED",
    "source": {
@@ -552,10 +672,14 @@
    "dateOfRegistration": "2010-05-21",
    "dateOfDeregistration": null,
    "date": "2010-05-21",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "owner-change",
    "type": "ATR 42-500",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "KINGFISHER AIRLINES LIMITED",
    "source": {
@@ -570,10 +694,14 @@
    "dateOfRegistration": "2010-05-26",
    "dateOfDeregistration": null,
    "date": "2010-05-26",
+   "period": {
+    "from": "2010-05-01",
+    "to": "2010-05-31"
+   },
    "kind": "owner-change",
    "type": "CESSNA",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "Mr.G.S.RAJU",
    "lessor": "Mr.G.S.RAJU",
    "operator": "WINGS AVIATION PVT. LTD",
    "source": {
@@ -588,10 +716,14 @@
    "dateOfRegistration": "2010-06-07",
    "dateOfDeregistration": null,
    "date": "2010-06-07",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA CITATION XLS",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "BHUSHAN AVIATION LIMITED",
    "source": {
@@ -606,10 +738,14 @@
    "dateOfRegistration": "2010-06-08",
    "dateOfDeregistration": null,
    "date": "2010-06-08",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "GULFSTREAM 200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "EUROPEAN PROJECTS & AVIATION LIMITED",
    "source": {
@@ -624,10 +760,14 @@
    "dateOfRegistration": "2010-06-11",
    "dateOfDeregistration": null,
    "date": "2010-06-11",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "GULFSTREAM IV",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "RELIANCE INDUSTRIES LTD",
    "source": {
@@ -642,10 +782,14 @@
    "dateOfRegistration": "2010-06-16",
    "dateOfDeregistration": null,
    "date": "2010-06-16",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "BEECH BARON B-58",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "FLYTECH AVIATION LIMITED",
    "source": {
@@ -660,10 +804,14 @@
    "dateOfRegistration": "2010-06-16",
    "dateOfDeregistration": null,
    "date": "2010-06-16",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "BEECHCRAFT BARON B-58",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "SUNITHA SHAKELLI C/o FLYTECH AVIATION LIMITED",
    "source": {
@@ -678,10 +826,14 @@
    "dateOfRegistration": "2010-06-16",
    "dateOfDeregistration": null,
    "date": "2010-06-16",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "FLYTECH AVIATION LIMITED",
    "source": {
@@ -696,10 +848,14 @@
    "dateOfRegistration": "2010-06-16",
    "dateOfDeregistration": null,
    "date": "2010-06-16",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "FLYTECH AVIATION LIMITED",
    "source": {
@@ -714,10 +870,14 @@
    "dateOfRegistration": "2010-06-16",
    "dateOfDeregistration": null,
    "date": "2010-06-16",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "FLYTECH AVIATION LIMITED",
    "source": {
@@ -732,10 +892,14 @@
    "dateOfRegistration": "2010-06-16",
    "dateOfDeregistration": null,
    "date": "2010-06-16",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "FLYTECH AVIATION LIMITED",
    "source": {
@@ -750,10 +914,14 @@
    "dateOfRegistration": "2010-06-16",
    "dateOfDeregistration": null,
    "date": "2010-06-16",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "FLYTECH AVIATION LIMITED",
    "source": {
@@ -768,10 +936,14 @@
    "dateOfRegistration": "2010-06-22",
    "dateOfDeregistration": null,
    "date": "2010-06-22",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "BELL 206B JET RANGER",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "SWARN T. DHILLON",
    "lessor": "SWARN T. DHILLON",
    "operator": "DHILLON AVIATION PVT. LTD",
    "source": {
@@ -786,10 +958,14 @@
    "dateOfRegistration": "2010-06-22",
    "dateOfDeregistration": null,
    "date": "2010-06-22",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "AETHER AIRCRAFT 1 LIMITED",
    "lessor": "AETHER AIRCRAFT 1 LIMITED",
    "operator": "INTERGLOBE AVIATION LIMITED",
    "source": {
@@ -804,10 +980,14 @@
    "dateOfRegistration": "2010-06-23",
    "dateOfDeregistration": null,
    "date": "2010-06-23",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "BELL 407",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "RELIANCE NATURAL RESOURCES LIMITED",
    "source": {
@@ -822,10 +1002,14 @@
    "dateOfRegistration": "2010-06-29",
    "dateOfDeregistration": null,
    "date": "2010-06-29",
+   "period": {
+    "from": "2010-06-01",
+    "to": "2010-06-30"
+   },
    "kind": "owner-change",
    "type": "FALCON 2000",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "EUROPEAN PROJECTS & AVIATION LIMITED",
    "source": {
@@ -840,10 +1024,14 @@
    "dateOfRegistration": "2010-07-02",
    "dateOfDeregistration": null,
    "date": "2010-07-02",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "owner-change",
    "type": "DHRUV (ALH WHEEL VERSION)",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "BORDER SECURITY FORCE (AIR WING)",
    "source": {
@@ -858,10 +1046,14 @@
    "dateOfRegistration": "2010-07-09",
    "dateOfDeregistration": null,
    "date": "2010-07-09",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "owner-change",
    "type": "CIRRUS SR 22",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "; AEROSTAR AVIATION",
    "lessor": "; AEROSTAR AVIATION",
    "operator": "AIRCAR AIRLINES PVT. LTD",
    "source": {
@@ -876,10 +1068,14 @@
    "dateOfRegistration": "2010-07-09",
    "dateOfDeregistration": null,
    "date": "2010-07-09",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "owner-change",
    "type": "L-23 SUPER BLANIK GLIDER",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "; DIRECTOR GENERAL OF CIVIL AVIATION",
    "lessor": "; DIRECTOR GENERAL OF CIVIL AVIATION",
    "operator": "DEOLALI GLIDING",
    "source": {
@@ -894,10 +1090,14 @@
    "dateOfRegistration": "2010-07-27",
    "dateOfDeregistration": null,
    "date": "2010-07-27",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "owner-change",
    "type": "DHRUV",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "; OIL & NATURAL GAS CORPORATION",
    "source": {
@@ -912,10 +1112,14 @@
    "dateOfRegistration": "2010-07-27",
    "dateOfDeregistration": null,
    "date": "2010-07-27",
+   "period": {
+    "from": "2010-07-01",
+    "to": "2010-07-31"
+   },
    "kind": "owner-change",
    "type": "HAWKER 800XP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "ABG RESOURCES PRIVATE LIMITED",
    "source": {
@@ -930,10 +1134,14 @@
    "dateOfRegistration": "2010-08-11",
    "dateOfDeregistration": null,
    "date": "2010-08-11",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "owner-change",
    "type": "MD 902",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/s AIRCRAFT",
    "operator": "M/S TATA STEEL LIMITED",
    "source": {
@@ -948,6 +1156,10 @@
    "dateOfRegistration": "2010-08-11",
    "dateOfDeregistration": null,
    "date": "2010-08-11",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "owner-change",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
@@ -966,10 +1178,14 @@
    "dateOfRegistration": "2010-08-11",
    "dateOfDeregistration": null,
    "date": "2010-08-11",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "owner-change",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s AIRCRAFT INTERNATIONAL RENTING (A.I.R) LIMITED",
    "lessor": "M/s AIRCRAFT INTERNATIONAL RENTING (A.I.R) LIMITED",
    "operator": "M/s JET AIRWAYS (INDIA) LIMITED",
    "source": {
@@ -984,10 +1200,14 @@
    "dateOfRegistration": "2010-08-11",
    "dateOfDeregistration": null,
    "date": "2010-08-11",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "owner-change",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s AIRCRAFT INTERNATIONAL RENTING (A.I.R) LIMITED",
    "lessor": "M/s AIRCRAFT INTERNATIONAL RENTING (A.I.R) LIMITED",
    "operator": "M/s JET AIRWAYS (INDIA) LIMITED",
    "source": {
@@ -1002,10 +1222,14 @@
    "dateOfRegistration": "2010-08-11",
    "dateOfDeregistration": null,
    "date": "2010-08-11",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "owner-change",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/s AIRCRAFT INTERNATIONAL RENTING (A.I.R) LIMITED",
    "lessor": "M/s AIRCRAFT INTERNATIONAL RENTING (A.I.R) LIMITED",
    "operator": "M/s JET AIRWAYS (INDIA) LIMITED",
    "source": {
@@ -1020,6 +1244,10 @@
    "dateOfRegistration": "2010-08-13",
    "dateOfDeregistration": null,
    "date": "2010-08-13",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "owner-change",
    "type": "BELL 427",
    "yearOfManufacture": null,
@@ -1038,10 +1266,14 @@
    "dateOfRegistration": "2010-08-13",
    "dateOfDeregistration": null,
    "date": "2010-08-13",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "owner-change",
    "type": "BEECHCRAFT KING AIR C-90A",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "ARROW AVIATION SERVICES PVT. LTD 53/1/3 HAZRA ROAD, KOLKATA",
    "source": {
@@ -1056,10 +1288,14 @@
    "dateOfRegistration": "2010-08-18",
    "dateOfDeregistration": null,
    "date": "2010-08-18",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "owner-change",
    "type": "FALCON 2000DX",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "GVK PROJECTS AND TECHNICAL SERVICES LIMITED",
    "source": {
@@ -1074,10 +1310,14 @@
    "dateOfRegistration": "2010-08-25",
    "dateOfDeregistration": null,
    "date": "2010-08-25",
+   "period": {
+    "from": "2010-08-01",
+    "to": "2010-08-31"
+   },
    "kind": "owner-change",
    "type": "AGUSTA A109S",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "GVK PROJECTS AND TECHNICAL SERVICES LIMITED",
    "source": {
@@ -1092,6 +1332,10 @@
    "dateOfRegistration": "2010-09-13",
    "dateOfDeregistration": null,
    "date": "2010-09-13",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "owner-change",
    "type": "FALCON 2000",
    "yearOfManufacture": null,
@@ -1110,10 +1354,14 @@
    "dateOfRegistration": "2010-09-13",
    "dateOfDeregistration": null,
    "date": "2010-09-13",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "owner-change",
    "type": "BELL 412EP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S RELIANCE TRANSPORT & TRAVELS PVT. LTD",
    "source": {
@@ -1128,6 +1376,10 @@
    "dateOfRegistration": "2010-09-13",
    "dateOfDeregistration": null,
    "date": "2010-09-13",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "owner-change",
    "type": "GLOBAL 5000 MODEL BD 700-1A11",
    "yearOfManufacture": null,
@@ -1146,10 +1398,14 @@
    "dateOfRegistration": "2010-09-24",
    "dateOfDeregistration": null,
    "date": "2010-09-24",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "owner-change",
    "type": "BELL 212",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "GULF HELICOPTRES COMPANY",
    "lessor": "GULF HELICOPTRES COMPANY",
    "operator": "M/s UNITED HELICHARTERS PVT. LTD",
    "source": {
@@ -1164,10 +1420,14 @@
    "dateOfRegistration": "2010-09-24",
    "dateOfDeregistration": null,
    "date": "2010-09-24",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "owner-change",
    "type": "BELL 212",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "GULF HELICOPTRES COMPANY",
    "lessor": "GULF HELICOPTRES COMPANY",
    "operator": "M/s UNITED HELICHARTERS PVT. LTD",
    "source": {
@@ -1182,10 +1442,14 @@
    "dateOfRegistration": "2010-09-24",
    "dateOfDeregistration": null,
    "date": "2010-09-24",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "owner-change",
    "type": "DORNIER (COMMUTER) 228-201",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/s NORTHEAST SHUTTLES (P) LIMITED",
    "source": {
@@ -1200,6 +1464,10 @@
    "dateOfRegistration": "2010-09-27",
    "dateOfDeregistration": null,
    "date": "2010-09-27",
+   "period": {
+    "from": "2010-09-01",
+    "to": "2010-09-30"
+   },
    "kind": "owner-change",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,

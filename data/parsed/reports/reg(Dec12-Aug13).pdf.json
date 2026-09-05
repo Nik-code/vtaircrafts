@@ -12,6 +12,10 @@
    "dateOfRegistration": "2012-12-04",
    "dateOfDeregistration": null,
    "date": "2012-12-04",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -30,10 +34,14 @@
    "dateOfRegistration": "2012-12-12",
    "dateOfDeregistration": null,
    "date": "2012-12-12",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "DIAMOND DA 40",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S NATIONAL FLYING TRAINING INSTITUTE PVT",
    "source": {
@@ -48,6 +56,10 @@
    "dateOfRegistration": "2013-12-13",
    "dateOfDeregistration": null,
    "date": "2013-12-13",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "DHC-8-402",
    "yearOfManufacture": null,
@@ -66,6 +78,10 @@
    "dateOfRegistration": "2012-12-13",
    "dateOfDeregistration": null,
    "date": "2012-12-13",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -84,6 +100,10 @@
    "dateOfRegistration": "2012-12-13",
    "dateOfDeregistration": null,
    "date": "2012-12-13",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS A330-300",
    "yearOfManufacture": null,
@@ -102,10 +122,14 @@
    "dateOfRegistration": "2012-12-17",
    "dateOfDeregistration": null,
    "date": "2012-12-17",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "STEMME TSA-M S6-RT MOTOR GLIDER",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "CIVIL AVIATION DEPT, GOVT OF JHARKAND",
    "source": {
@@ -120,6 +144,10 @@
    "dateOfRegistration": "2012-12-18",
    "dateOfDeregistration": null,
    "date": "2012-12-18",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "DHC-8-402",
    "yearOfManufacture": null,
@@ -138,6 +166,10 @@
    "dateOfRegistration": "2012-12-18",
    "dateOfDeregistration": null,
    "date": "2012-12-18",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "DHC-8-402",
    "yearOfManufacture": null,
@@ -156,6 +188,10 @@
    "dateOfRegistration": "2012-12-18",
    "dateOfDeregistration": null,
    "date": "2012-12-18",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS A330-302",
    "yearOfManufacture": null,
@@ -174,10 +210,14 @@
    "dateOfRegistration": "2012-12-19",
    "dateOfDeregistration": null,
    "date": "2012-12-19",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BOEING 787-8",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -192,10 +232,14 @@
    "dateOfRegistration": "2012-12-21",
    "dateOfDeregistration": null,
    "date": "2012-12-21",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "HAWKER 900XP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S FREEDOM CHARTER SERVICES PVT. LTD",
    "source": {
@@ -210,10 +254,14 @@
    "dateOfRegistration": "2012-12-26",
    "dateOfDeregistration": null,
    "date": "2012-12-26",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "GULFSTREAM 200",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S EMERALD HAVEN AVIATION SERVICES LTD. 29 HADDOWS ROAD, CHENNAI- 600006",
    "source": {
@@ -228,10 +276,14 @@
    "dateOfRegistration": "2012-12-28",
    "dateOfDeregistration": null,
    "date": "2012-12-28",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BOEING 787-8",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -246,6 +298,10 @@
    "dateOfRegistration": "2012-12-31",
    "dateOfDeregistration": null,
    "date": "2012-12-31",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
@@ -264,10 +320,14 @@
    "dateOfRegistration": "2012-12-31",
    "dateOfDeregistration": null,
    "date": "2012-12-31",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BELL 429 THE MONTH OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "DEPT. OF CIVIL AVIATION, GOVT. OF PUNJAB",
    "source": {
@@ -282,10 +342,14 @@
    "dateOfRegistration": "2013-01-01",
    "dateOfDeregistration": null,
    "date": "2013-01-01",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BOEING 787-8",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -300,6 +364,10 @@
    "dateOfRegistration": "2013-01-08",
    "dateOfDeregistration": null,
    "date": "2013-01-08",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "EMB 135 BJ",
    "yearOfManufacture": null,
@@ -318,6 +386,10 @@
    "dateOfRegistration": "2013-01-10",
    "dateOfDeregistration": null,
    "date": "2013-01-10",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BELL 412EP",
    "yearOfManufacture": null,
@@ -336,10 +408,14 @@
    "dateOfRegistration": "2013-01-17",
    "dateOfDeregistration": null,
    "date": "2013-01-17",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "CESSNA 206H",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": "M/S UNICORN",
    "operator": "M/S IIT KANPUR",
    "source": {
@@ -354,6 +430,10 @@
    "dateOfRegistration": "2013-01-28",
    "dateOfDeregistration": null,
    "date": "2013-01-28",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -372,10 +452,14 @@
    "dateOfRegistration": "2013-01-30",
    "dateOfDeregistration": null,
    "date": "2013-01-30",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "M/S BANK OF UTAH (AS",
    "lessor": "M/S BANK OF UTAH (AS",
    "operator": null,
    "source": {
@@ -390,6 +474,10 @@
    "dateOfRegistration": "2013-01-31",
    "dateOfDeregistration": null,
    "date": "2013-01-31",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 330-302 IN THE MONTH",
    "yearOfManufacture": null,
@@ -408,6 +496,10 @@
    "dateOfRegistration": "2013-02-01",
    "dateOfDeregistration": null,
    "date": "2013-02-01",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -426,6 +518,10 @@
    "dateOfRegistration": "2013-02-01",
    "dateOfDeregistration": null,
    "date": "2013-02-01",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -444,10 +540,14 @@
    "dateOfRegistration": "2013-02-07",
    "dateOfDeregistration": null,
    "date": "2013-02-07",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "EMB 135 BJ",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S KARNAVATI AVIATION PVT LMITED",
    "source": {
@@ -462,6 +562,10 @@
    "dateOfRegistration": "2013-02-12",
    "dateOfDeregistration": null,
    "date": "2013-02-12",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
@@ -480,6 +584,10 @@
    "dateOfRegistration": "2013-02-14",
    "dateOfDeregistration": null,
    "date": "2013-02-14",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -498,6 +606,10 @@
    "dateOfRegistration": "2013-02-21",
    "dateOfDeregistration": null,
    "date": "2013-02-21",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -516,6 +628,10 @@
    "dateOfRegistration": "2013-02-22",
    "dateOfDeregistration": null,
    "date": "2013-02-22",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BOEING 737- 800",
    "yearOfManufacture": null,
@@ -534,10 +650,14 @@
    "dateOfRegistration": "2013-02-22",
    "dateOfDeregistration": null,
    "date": "2013-02-22",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BELL 429",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S INDIA FLYSAFE AVIATION LIMITED",
    "source": {
@@ -552,6 +672,10 @@
    "dateOfRegistration": "2013-02-26",
    "dateOfDeregistration": null,
    "date": "2013-02-26",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800 NG IN THE MONTH OF",
    "yearOfManufacture": null,
@@ -570,6 +694,10 @@
    "dateOfRegistration": "2013-03-05",
    "dateOfDeregistration": null,
    "date": "2013-03-05",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "ATR 72-212A",
    "yearOfManufacture": null,
@@ -588,6 +716,10 @@
    "dateOfRegistration": "2013-03-08",
    "dateOfDeregistration": null,
    "date": "2013-03-08",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 330-302",
    "yearOfManufacture": null,
@@ -606,10 +738,14 @@
    "dateOfRegistration": "2013-03-11",
    "dateOfDeregistration": null,
    "date": "2013-03-11",
+   "period": {
+    "from": "2012-12-01",
+    "to": "2012-12-31"
+   },
    "kind": "registration",
    "type": "BOMNARDIER BD-700-1A10 IN THE MONTH OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S SUN TV NETWORK LTD",
    "source": {
@@ -624,10 +760,14 @@
    "dateOfRegistration": "2013-04-08",
    "dateOfDeregistration": null,
    "date": "2013-04-08",
+   "period": {
+    "from": "2013-04-01",
+    "to": "2013-04-30"
+   },
    "kind": "registration",
    "type": "CESSNA 172R",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S RAJIV GANDHI ACADEMY FOR AVITION TECHNOLOGY T.C.36/1200, (1&2) VALLAKKADAVU ENCHAKKAL-695008, TRIVANDRUM",
    "source": {
@@ -642,6 +782,10 @@
    "dateOfRegistration": "2013-04-10",
    "dateOfDeregistration": null,
    "date": "2013-04-10",
+   "period": {
+    "from": "2013-04-01",
+    "to": "2013-04-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -660,10 +804,14 @@
    "dateOfRegistration": "2013-04-11",
    "dateOfDeregistration": null,
    "date": "2013-04-11",
+   "period": {
+    "from": "2013-04-01",
+    "to": "2013-04-30"
+   },
    "kind": "registration",
    "type": "CHALLENGER 300",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S FORCE MOTOR LTD",
    "source": {
@@ -678,6 +826,10 @@
    "dateOfRegistration": "2013-04-11",
    "dateOfDeregistration": null,
    "date": "2013-04-11",
+   "period": {
+    "from": "2013-04-01",
+    "to": "2013-04-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
@@ -696,10 +848,14 @@
    "dateOfRegistration": "2013-04-22",
    "dateOfDeregistration": null,
    "date": "2013-04-22",
+   "period": {
+    "from": "2013-04-01",
+    "to": "2013-04-30"
+   },
    "kind": "registration",
    "type": "DIAMOND DA40",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S NATIONAL FLYING TRAINING INSTITUTE PVT LTD",
    "source": {
@@ -714,10 +870,14 @@
    "dateOfRegistration": "2013-04-22",
    "dateOfDeregistration": null,
    "date": "2013-04-22",
+   "period": {
+    "from": "2013-04-01",
+    "to": "2013-04-30"
+   },
    "kind": "registration",
    "type": "EC 135 P2+",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S MAHINDRA & MAHINDRA LTD",
    "source": {
@@ -732,6 +892,10 @@
    "dateOfRegistration": "2013-04-26",
    "dateOfDeregistration": null,
    "date": "2013-04-26",
+   "period": {
+    "from": "2013-04-01",
+    "to": "2013-04-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800 IN THE MONTH OF",
    "yearOfManufacture": null,
@@ -750,6 +914,10 @@
    "dateOfRegistration": "2013-05-09",
    "dateOfDeregistration": null,
    "date": "2013-05-09",
+   "period": {
+    "from": "2013-05-01",
+    "to": "2013-05-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -768,6 +936,10 @@
    "dateOfRegistration": "2013-05-10",
    "dateOfDeregistration": null,
    "date": "2013-05-10",
+   "period": {
+    "from": "2013-05-01",
+    "to": "2013-05-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -786,6 +958,10 @@
    "dateOfRegistration": "2013-05-13",
    "dateOfDeregistration": null,
    "date": "2013-05-13",
+   "period": {
+    "from": "2013-05-01",
+    "to": "2013-05-31"
+   },
    "kind": "registration",
    "type": "AS 350 B3",
    "yearOfManufacture": null,
@@ -804,6 +980,10 @@
    "dateOfRegistration": "2013-05-14",
    "dateOfDeregistration": null,
    "date": "2013-05-14",
+   "period": {
+    "from": "2013-05-01",
+    "to": "2013-05-31"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -822,10 +1002,14 @@
    "dateOfRegistration": "2013-05-17",
    "dateOfDeregistration": null,
    "date": "2013-05-17",
+   "period": {
+    "from": "2013-05-01",
+    "to": "2013-05-31"
+   },
    "kind": "registration",
    "type": "AGUSTA AW 109SP",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S NIRMA LIMITED",
    "source": {
@@ -840,6 +1024,10 @@
    "dateOfRegistration": "2013-05-21",
    "dateOfDeregistration": null,
    "date": "2013-05-21",
+   "period": {
+    "from": "2013-05-01",
+    "to": "2013-05-31"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -858,6 +1046,10 @@
    "dateOfRegistration": "2013-05-24",
    "dateOfDeregistration": null,
    "date": "2013-05-24",
+   "period": {
+    "from": "2013-05-01",
+    "to": "2013-05-31"
+   },
    "kind": "registration",
    "type": "CESSNA 206H",
    "yearOfManufacture": null,
@@ -876,6 +1068,10 @@
    "dateOfRegistration": "2013-05-24",
    "dateOfDeregistration": null,
    "date": "2013-05-24",
+   "period": {
+    "from": "2013-05-01",
+    "to": "2013-05-31"
+   },
    "kind": "registration",
    "type": "BOEING 777 337 ER IN THE MONTH OF",
    "yearOfManufacture": null,
@@ -894,6 +1090,10 @@
    "dateOfRegistration": "2013-06-12",
    "dateOfDeregistration": null,
    "date": "2013-06-12",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -912,10 +1112,14 @@
    "dateOfRegistration": "2013-06-13",
    "dateOfDeregistration": null,
    "date": "2013-06-13",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 787-8",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -930,10 +1134,14 @@
    "dateOfRegistration": "2013-06-13",
    "dateOfDeregistration": null,
    "date": "2013-06-13",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "SA 316 B CHETAK",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S HINDUSTAN AERONAUTICS LTD",
    "source": {
@@ -948,6 +1156,10 @@
    "dateOfRegistration": "2013-06-13",
    "dateOfDeregistration": null,
    "date": "2013-06-13",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 777 337 ER",
    "yearOfManufacture": null,
@@ -966,6 +1178,10 @@
    "dateOfRegistration": "2013-06-18",
    "dateOfDeregistration": null,
    "date": "2013-06-18",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "ERJ 170- 100LR",
    "yearOfManufacture": null,
@@ -984,6 +1200,10 @@
    "dateOfRegistration": "2013-06-18",
    "dateOfDeregistration": null,
    "date": "2013-06-18",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "ERJ 170- 100LR",
    "yearOfManufacture": null,
@@ -1002,6 +1222,10 @@
    "dateOfRegistration": "2013-06-26",
    "dateOfDeregistration": null,
    "date": "2013-06-26",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -1020,6 +1244,10 @@
    "dateOfRegistration": "2013-06-27",
    "dateOfDeregistration": null,
    "date": "2013-06-27",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800 IN THE MONTH OF",
    "yearOfManufacture": null,
@@ -1038,6 +1266,10 @@
    "dateOfRegistration": "2013-07-01",
    "dateOfDeregistration": null,
    "date": "2013-07-01",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -1056,6 +1288,10 @@
    "dateOfRegistration": "2013-07-02",
    "dateOfDeregistration": null,
    "date": "2013-07-02",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -1074,6 +1310,10 @@
    "dateOfRegistration": "2013-07-03",
    "dateOfDeregistration": null,
    "date": "2013-07-03",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -1092,6 +1332,10 @@
    "dateOfRegistration": "2013-07-03",
    "dateOfDeregistration": null,
    "date": "2013-07-03",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -1110,6 +1354,10 @@
    "dateOfRegistration": "2013-07-26",
    "dateOfDeregistration": null,
    "date": "2013-07-26",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-214",
    "yearOfManufacture": null,
@@ -1128,6 +1376,10 @@
    "dateOfRegistration": "2013-07-30",
    "dateOfDeregistration": null,
    "date": "2013-07-30",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 777- 300 ER",
    "yearOfManufacture": null,
@@ -1146,10 +1398,14 @@
    "dateOfRegistration": "2013-07-30",
    "dateOfDeregistration": null,
    "date": "2013-07-30",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "GULFSTREAM IV IN THE MONTH OF",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S PUNK LIOYD LIMITED",
    "source": {
@@ -1164,6 +1420,10 @@
    "dateOfRegistration": "2013-08-06",
    "dateOfDeregistration": null,
    "date": "2013-08-06",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -1182,10 +1442,14 @@
    "dateOfRegistration": "2013-08-17",
    "dateOfDeregistration": null,
    "date": "2013-08-17",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 787-8",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR INDIA LIMITED",
    "source": {
@@ -1200,6 +1464,10 @@
    "dateOfRegistration": "2013-08-22",
    "dateOfDeregistration": null,
    "date": "2013-08-22",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -1218,6 +1486,10 @@
    "dateOfRegistration": "2013-08-23",
    "dateOfDeregistration": null,
    "date": "2013-08-23",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BOEING 737-800",
    "yearOfManufacture": null,
@@ -1236,10 +1508,14 @@
    "dateOfRegistration": "2013-08-23",
    "dateOfDeregistration": null,
    "date": "2013-08-23",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "BELL 429",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S KALYAN JEWELLERS INDIA PVT. LTD",
    "source": {
@@ -1254,6 +1530,10 @@
    "dateOfRegistration": "2013-08-26",
    "dateOfDeregistration": null,
    "date": "2013-08-26",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "CESSNA GRAND CARAVVAN 208B",
    "yearOfManufacture": null,
@@ -1272,6 +1552,10 @@
    "dateOfRegistration": "2013-08-29",
    "dateOfDeregistration": null,
    "date": "2013-08-29",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "AIRBUS 320-232",
    "yearOfManufacture": null,
@@ -1290,10 +1574,14 @@
    "dateOfRegistration": "2013-08-31",
    "dateOfDeregistration": null,
    "date": "2013-08-31",
+   "period": {
+    "from": "2013-06-01",
+    "to": "2013-06-30"
+   },
    "kind": "registration",
    "type": "CESSNA CITATION 560 XL",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR CHARTER SERVICES PVT LTD",
    "source": {

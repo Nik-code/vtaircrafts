@@ -12,10 +12,14 @@
    "dateOfRegistration": "2011-01-03",
    "dateOfDeregistration": null,
    "date": "2011-01-03",
+   "period": {
+    "from": "2011-01-01",
+    "to": "2011-01-31"
+   },
    "kind": "registration",
    "type": "GV-SP (G-550)",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "CROMPTON GREAVES LIMITED",
    "source": {
@@ -30,10 +34,14 @@
    "dateOfRegistration": "2011-01-11",
    "dateOfDeregistration": null,
    "date": "2011-01-11",
+   "period": {
+    "from": "2011-01-01",
+    "to": "2011-01-31"
+   },
    "kind": "registration",
    "type": "EMBRAER-500",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S T V SUNDRAM IYENGAR & SONS LIMITED",
    "source": {
@@ -48,10 +56,14 @@
    "dateOfRegistration": "2011-01-11",
    "dateOfDeregistration": null,
    "date": "2011-01-11",
+   "period": {
+    "from": "2011-01-01",
+    "to": "2011-01-31"
+   },
    "kind": "registration",
    "type": "AS 350 B3",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "Mr. TH D.Y.UPPAR",
    "source": {
@@ -66,6 +78,10 @@
    "dateOfRegistration": "2011-01-17",
    "dateOfDeregistration": null,
    "date": "2011-01-17",
+   "period": {
+    "from": "2011-01-01",
+    "to": "2011-01-31"
+   },
    "kind": "registration",
    "type": "EMBRAER-500",
    "yearOfManufacture": null,
@@ -84,10 +100,14 @@
    "dateOfRegistration": "2011-01-21",
    "dateOfDeregistration": null,
    "date": "2011-01-21",
+   "period": {
+    "from": "2011-01-01",
+    "to": "2011-01-31"
+   },
    "kind": "registration",
    "type": "PILATUS PC-12/45",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S AIR CHARTER SERVICES PVT. LTD",
    "source": {
@@ -102,10 +122,14 @@
    "dateOfRegistration": "2011-01-28",
    "dateOfDeregistration": null,
    "date": "2011-01-28",
+   "period": {
+    "from": "2011-01-01",
+    "to": "2011-01-31"
+   },
    "kind": "registration",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S INTERNATIONAL AVIATION ACADEMY PVT. LTD",
    "source": {
@@ -120,10 +144,14 @@
    "dateOfRegistration": "2011-01-28",
    "dateOfDeregistration": null,
    "date": "2011-01-28",
+   "period": {
+    "from": "2011-01-01",
+    "to": "2011-01-31"
+   },
    "kind": "registration",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S INTERNATIONAL AVIATION ACADEMY PVT. LTD",
    "source": {
@@ -138,10 +166,14 @@
    "dateOfRegistration": "2011-01-31",
    "dateOfDeregistration": null,
    "date": "2011-01-31",
+   "period": {
+    "from": "2011-01-01",
+    "to": "2011-01-31"
+   },
    "kind": "registration",
    "type": "DIAMOND DA 40CS",
    "yearOfManufacture": null,
-   "owner": "/",
+   "owner": "",
    "lessor": null,
    "operator": "M/S NATIONAL FLYING TRAINING INSTITUTE PRIVATE LIMITED",
    "source": {

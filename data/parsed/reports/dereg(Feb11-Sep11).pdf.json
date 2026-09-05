@@ -12,6 +12,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-02-03",
    "date": "2011-02-03",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "deregistration",
    "type": "CESSNA 152",
    "yearOfManufacture": null,
@@ -30,6 +34,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-02-10",
    "date": "2011-02-10",
+   "period": {
+    "from": "2011-02-01",
+    "to": "2011-02-28"
+   },
    "kind": "deregistration",
    "type": "EC135 T1 THE MONTH",
    "yearOfManufacture": null,
@@ -48,6 +56,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-04-08",
    "date": "2011-04-08",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 310-304",
    "yearOfManufacture": null,
@@ -66,6 +78,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-04-08",
    "date": "2011-04-08",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "BELL 412 HP",
    "yearOfManufacture": null,
@@ -84,6 +100,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-04-29",
    "date": "2011-04-29",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "BOEING 737-7Q8 IN THE",
    "yearOfManufacture": null,
@@ -102,6 +122,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-06-14",
    "date": "2011-06-14",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "BELL 407",
    "yearOfManufacture": null,
@@ -120,6 +144,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-06-30",
    "date": "2011-06-30",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 310-300",
    "yearOfManufacture": null,
@@ -138,6 +166,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-06-30",
    "date": "2011-06-30",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 310-300",
    "yearOfManufacture": null,
@@ -156,6 +188,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-06-30",
    "date": "2011-06-30",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "CESSNA 152 AIRCAFT",
    "yearOfManufacture": null,
@@ -174,6 +210,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-07-01",
    "date": "2011-07-01",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 310-300",
    "yearOfManufacture": null,
@@ -192,6 +232,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-07-01",
    "date": "2011-07-01",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "GULFSTREAM G IV SP",
    "yearOfManufacture": null,
@@ -210,6 +254,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-07-06",
    "date": "2011-07-06",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "BOMBARDIER CL 600-2B19 (CRJ 200)",
    "yearOfManufacture": null,
@@ -228,6 +276,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-07-27",
    "date": "2011-07-27",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -246,6 +298,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-07-27",
    "date": "2011-07-27",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -264,6 +320,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-07-20",
    "date": "2011-07-20",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -282,6 +342,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-07-27",
    "date": "2011-07-27",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS 320-231",
    "yearOfManufacture": null,
@@ -300,6 +364,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-08-09",
    "date": "2011-08-09",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "BELL 407",
    "yearOfManufacture": null,
@@ -318,6 +386,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-08-19",
    "date": "2011-08-19",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "BELL 412 EP THE MONTH",
    "yearOfManufacture": null,
@@ -336,6 +408,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-08-09",
    "date": "2011-08-09",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "BELL 407",
    "yearOfManufacture": null,
@@ -354,6 +430,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-09-23",
    "date": "2011-09-23",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "CESSNA 172R",
    "yearOfManufacture": null,
@@ -372,6 +452,10 @@
    "dateOfRegistration": null,
    "dateOfDeregistration": "2011-09-30",
    "date": "2011-09-30",
+   "period": {
+    "from": "2011-04-01",
+    "to": "2011-04-30"
+   },
    "kind": "deregistration",
    "type": "AIRBUS A320",
    "yearOfManufacture": null,

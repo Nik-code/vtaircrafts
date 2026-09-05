@@ -12,6 +12,10 @@
    "dateOfRegistration": "2019-01-01",
    "dateOfDeregistration": null,
    "date": "2019-01-01",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A 320-251N",
    "yearOfManufacture": 2018,
@@ -30,6 +34,10 @@
    "dateOfRegistration": "2019-01-08",
    "dateOfDeregistration": null,
    "date": "2019-01-08",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A320-232",
    "yearOfManufacture": 2011,
@@ -48,6 +56,10 @@
    "dateOfRegistration": "2019-01-09",
    "dateOfDeregistration": null,
    "date": "2019-01-09",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "DHC-8-402",
    "yearOfManufacture": 2018,
@@ -66,6 +78,10 @@
    "dateOfRegistration": "2019-01-09",
    "dateOfDeregistration": null,
    "date": "2019-01-09",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A320-216",
    "yearOfManufacture": 2008,
@@ -84,6 +100,10 @@
    "dateOfRegistration": "2019-01-10",
    "dateOfDeregistration": null,
    "date": "2019-01-10",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A 320-232",
    "yearOfManufacture": 2006,
@@ -102,6 +122,10 @@
    "dateOfRegistration": "2019-01-18",
    "dateOfDeregistration": null,
    "date": "2019-01-18",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "EMB-145LR",
    "yearOfManufacture": 2003,
@@ -120,6 +144,10 @@
    "dateOfRegistration": "2019-01-22",
    "dateOfDeregistration": null,
    "date": "2019-01-22",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A320-271N",
    "yearOfManufacture": 2019,
@@ -138,6 +166,10 @@
    "dateOfRegistration": "2019-01-24",
    "dateOfDeregistration": null,
    "date": "2019-01-24",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "Diamond DA 42",
    "yearOfManufacture": 2006,
@@ -156,6 +188,10 @@
    "dateOfRegistration": "2019-01-24",
    "dateOfDeregistration": null,
    "date": "2019-01-24",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "Cessna 172S",
    "yearOfManufacture": 2006,
@@ -174,6 +210,10 @@
    "dateOfRegistration": "2019-01-24",
    "dateOfDeregistration": null,
    "date": "2019-01-24",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A320-271N",
    "yearOfManufacture": 2019,
@@ -192,6 +232,10 @@
    "dateOfRegistration": "2019-01-28",
    "dateOfDeregistration": null,
    "date": "2019-01-28",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "B 737-8",
    "yearOfManufacture": 2019,
@@ -210,6 +254,10 @@
    "dateOfRegistration": "2019-02-01",
    "dateOfDeregistration": null,
    "date": "2019-02-01",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "MBB-BK117D- 2(H145)",
    "yearOfManufacture": 2018,
@@ -228,6 +276,10 @@
    "dateOfRegistration": "2019-02-01",
    "dateOfDeregistration": null,
    "date": "2019-02-01",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "B 737-8",
    "yearOfManufacture": 2019,
@@ -246,6 +298,10 @@
    "dateOfRegistration": "2019-02-01",
    "dateOfDeregistration": null,
    "date": "2019-02-01",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "MBB-BK117 D- 2",
    "yearOfManufacture": 2019,
@@ -264,6 +320,10 @@
    "dateOfRegistration": "2019-02-04",
    "dateOfDeregistration": null,
    "date": "2019-02-04",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A320-232",
    "yearOfManufacture": 2003,
@@ -282,6 +342,10 @@
    "dateOfRegistration": "2019-02-07",
    "dateOfDeregistration": null,
    "date": "2019-02-07",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "Cessna 172S",
    "yearOfManufacture": 2014,
@@ -300,6 +364,10 @@
    "dateOfRegistration": "2019-02-19",
    "dateOfDeregistration": null,
    "date": "2019-02-19",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "ATR 72-212A (600 Version)",
    "yearOfManufacture": 2019,
@@ -318,6 +386,10 @@
    "dateOfRegistration": "2019-02-21",
    "dateOfDeregistration": null,
    "date": "2019-02-21",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A 320-271N",
    "yearOfManufacture": 2019,
@@ -336,6 +408,10 @@
    "dateOfRegistration": "2019-02-26",
    "dateOfDeregistration": null,
    "date": "2019-02-26",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A 320-251N",
    "yearOfManufacture": 2019,
@@ -354,6 +430,10 @@
    "dateOfRegistration": "2019-02-26",
    "dateOfDeregistration": null,
    "date": "2019-02-26",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A 320-271N",
    "yearOfManufacture": 2019,
@@ -372,6 +452,10 @@
    "dateOfRegistration": "2019-03-01",
    "dateOfDeregistration": null,
    "date": "2019-03-01",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "Agusta A109S",
    "yearOfManufacture": 2007,
@@ -390,6 +474,10 @@
    "dateOfRegistration": "2019-03-01",
    "dateOfDeregistration": null,
    "date": "2019-03-01",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "Bell 505 JET RANGER-X",
    "yearOfManufacture": 2018,
@@ -408,6 +496,10 @@
    "dateOfRegistration": "2019-03-05",
    "dateOfDeregistration": null,
    "date": "2019-03-05",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "B 737-8",
    "yearOfManufacture": 2019,
@@ -426,6 +518,10 @@
    "dateOfRegistration": "2019-03-06",
    "dateOfDeregistration": null,
    "date": "2019-03-06",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A320-271N",
    "yearOfManufacture": 2019,
@@ -444,6 +540,10 @@
    "dateOfRegistration": "2019-03-14",
    "dateOfDeregistration": null,
    "date": "2019-03-14",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A320-232",
    "yearOfManufacture": 2007,
@@ -462,6 +562,10 @@
    "dateOfRegistration": "2019-03-15",
    "dateOfDeregistration": null,
    "date": "2019-03-15",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "Quick GT 450",
    "yearOfManufacture": 2006,
@@ -480,6 +584,10 @@
    "dateOfRegistration": "2019-03-15",
    "dateOfDeregistration": null,
    "date": "2019-03-15",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "Leonardo AW 139",
    "yearOfManufacture": 2013,
@@ -498,6 +606,10 @@
    "dateOfRegistration": "2019-03-28",
    "dateOfDeregistration": null,
    "date": "2019-03-28",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A320-251N",
    "yearOfManufacture": 2019,
@@ -516,6 +628,10 @@
    "dateOfRegistration": "2019-03-28",
    "dateOfDeregistration": null,
    "date": "2019-03-28",
+   "period": {
+    "from": "2019-01-01",
+    "to": "2019-03-31"
+   },
    "kind": "registration",
    "type": "A320-232",
    "yearOfManufacture": 2003,
