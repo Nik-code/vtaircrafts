@@ -26,9 +26,9 @@ export function OperatorCard({ operator, hero, index }: { operator: Operator; he
         className="transition-colors duration-150 group-hover:border-ink"
       />
       <div className="flex flex-1 flex-col gap-2 border border-t-0 border-rule-2 bg-paper-2 px-[10px] pb-2.5 pt-2 transition-colors duration-150 group-hover:border-ink">
-        <div className="flex items-baseline gap-3">
-          <span className="display text-2xl group-hover:underline">{operator.name}</span>
-          <span className="ml-auto flex items-baseline gap-1">
+        <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+          <span className="display min-w-0 flex-1 break-words text-2xl group-hover:underline">{operator.name}</span>
+          <span className="ml-auto flex shrink-0 items-baseline gap-1 whitespace-nowrap">
             <span className="display-num text-3xl">{fmtInt(operator.fleetCount)}</span>
             <span className="label label-dim">AC</span>
           </span>

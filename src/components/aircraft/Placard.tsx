@@ -5,9 +5,9 @@ import { Stamp } from "@/components/ui/Stamp";
 
 function Cell({ label, children, span = false }: { label: string; children: React.ReactNode; span?: boolean }) {
   return (
-    <div className={`border-b border-r border-rule px-3.5 py-2.5 ${span ? "col-span-2" : ""}`}>
+    <div className={`border-b border-r border-rule px-3.5 py-2.5 ${span ? "min-[480px]:col-span-2" : ""}`}>
       <div className="label mb-1">{label}</div>
-      <div className="mono text-[13px] leading-snug text-ink">{children}</div>
+      <div className="mono break-words text-[13px] leading-snug text-ink">{children}</div>
     </div>
   );
 }
@@ -21,13 +21,13 @@ export function Placard({ a }: { a: Aircraft }) {
   return (
     <div className="rivets grid-paper relative border border-rule-2 bg-paper-2/50 p-5 sm:p-7">
       <span className="rivet-b" />
-      <div className="label mb-2 flex items-center justify-between">
+      <div className="label mb-2 flex flex-col gap-1 min-[480px]:flex-row min-[480px]:items-center min-[480px]:justify-between">
         <span>Aircraft data plate</span>
         <span>{wingLabel}</span>
       </div>
       <div className="display-num text-[15vw] leading-none text-ink sm:text-[64px]">{a.reg}</div>
 
-      <div className="mt-6 grid grid-cols-1 border-l border-t border-rule sm:grid-cols-2">
+      <div className="mt-6 grid grid-cols-1 border-l border-t border-rule min-[480px]:grid-cols-2">
         <Cell label="Manufacturer">{a.type.manufacturer}</Cell>
         <Cell label="Model">{a.model}</Cell>
         <Cell label="Type">

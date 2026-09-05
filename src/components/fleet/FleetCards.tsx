@@ -21,7 +21,7 @@ export function FleetCards({ rows }: { rows: IndexRecord[] }) {
           href={`/aircraft/${a.r}`}
           className="row-hover group flex items-stretch gap-3 border-b border-r border-rule p-2.5"
         >
-          <div className="relative aspect-[3/2] w-32 shrink-0 overflow-hidden border border-rule-2 bg-paper-2">
+          <div className="relative aspect-[3/2] w-[104px] shrink-0 overflow-hidden border border-rule-2 bg-paper-2 min-[420px]:w-32">
             {a.i && (
               // eslint-disable-next-line @next/next/no-img-element
               <img
@@ -42,13 +42,13 @@ export function FleetCards({ rows }: { rows: IndexRecord[] }) {
 
           <div className="flex min-w-0 flex-1 flex-col justify-center gap-1">
             <div className="flex items-baseline gap-2">
-              <span className="stencil text-[16px] leading-none text-ink group-hover:text-signal">{a.r}</span>
+              <span className="stencil text-[15px] leading-none text-ink group-hover:text-signal min-[420px]:text-[16px]">{a.r}</span>
               {a.ti && <span className="mono text-[10px] text-ink-3">{a.ti}</span>}
             </div>
-            <div className="min-w-0 truncate text-[13px] leading-tight text-ink" title={a.m}>
+            <div className="min-w-0 break-words text-[13px] leading-tight text-ink" title={a.m}>
               {a.t}
             </div>
-            <div className="min-w-0 truncate text-[12px] leading-tight text-ink-2">{a.on}</div>
+            <div className="min-w-0 break-words text-[12px] leading-tight text-ink-2">{a.on}</div>
             <div className="mono flex flex-wrap items-center gap-x-2 gap-y-0.5 pt-0.5 text-[10.5px] leading-tight text-ink-3">
               <span>{a.s != null ? `${a.s} seats` : "Seats —"}</span>
               <span aria-hidden>·</span>

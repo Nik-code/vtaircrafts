@@ -13,9 +13,9 @@ export function TopNav() {
   return (
     <header className="sticky top-0 z-40 border-b border-ink bg-paper/95 backdrop-blur-sm">
       <div className="mx-auto flex h-12 max-w-[1440px] items-stretch px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2.5 border-r border-ink pr-4">
+        <Link href="/" className="flex min-w-0 items-center gap-2.5 border-r border-ink pr-4">
           <Logo className="h-[22px] w-[22px] shrink-0 text-ink" />
-          <span className="stencil text-[19px] leading-none">VT<span className="text-signal">·</span>AIRCRAFTS</span>
+          <span className="stencil whitespace-nowrap text-[16px] leading-none min-[400px]:text-[19px]">VT<span className="text-signal">·</span>AIRCRAFTS</span>
         </Link>
         <nav className="ml-2 hidden items-stretch sm:flex">
           {links.map((l) => (
@@ -24,7 +24,7 @@ export function TopNav() {
             </Link>
           ))}
         </nav>
-        <div className="ml-auto flex items-center gap-3">
+        <div className="ml-auto flex shrink-0 items-center gap-3">
           <SearchPalette />
           <a href="https://github.com/Nik-code/vtaircrafts" target="_blank" rel="noreferrer" className="label hidden text-ink-2 hover:text-ink md:inline">GitHub ↗</a>
         </div>

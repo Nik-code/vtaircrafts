@@ -229,20 +229,24 @@ export function LogTimeline({ counts: serverCounts }: { counts: Record<EventKind
                 {rest.map((e) => (
                   <div
                     key={e.id}
-                    className="row-hover flex flex-wrap items-baseline gap-x-3 gap-y-1 border-b border-rule px-1 py-2 text-[13px] last:border-b-0"
+                    className="row-hover flex flex-col gap-y-1 border-b border-rule px-1 py-2 text-[13px] last:border-b-0 sm:flex-row sm:flex-wrap sm:items-baseline sm:gap-x-3 sm:gap-y-1"
                   >
-                    <DateCell e={e} />
-                    <Stamp tone={eventTone(e.kind)} className="shrink-0">
-                      {eventLabel(e.kind)}
-                    </Stamp>
-                    {e.reg ? (
-                      <Link href={`/aircraft/${e.reg}`} className={`mono shrink-0 ${REG_W} text-ink hover:text-signal`}>
-                        {e.reg}
-                      </Link>
-                    ) : (
-                      <span className={`mono shrink-0 ${REG_W} text-ink-3`}>—</span>
-                    )}
-                    <span className="min-w-[240px] flex-1 text-ink-2">{eventProse(e)}</span>
+                    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                      <DateCell e={e} />
+                      <Stamp tone={eventTone(e.kind)} className="shrink-0">
+                        {eventLabel(e.kind)}
+                      </Stamp>
+                    </div>
+                    <div className="flex min-w-0 flex-wrap items-baseline gap-x-3 gap-y-1 sm:flex-1">
+                      {e.reg ? (
+                        <Link href={`/aircraft/${e.reg}`} className={`mono shrink-0 ${REG_W} text-ink hover:text-signal`}>
+                          {e.reg}
+                        </Link>
+                      ) : (
+                        <span className={`mono shrink-0 ${REG_W} text-ink-3`}>—</span>
+                      )}
+                      <span className="min-w-[180px] flex-1 text-ink-2 sm:min-w-[240px]">{eventProse(e)}</span>
+                    </div>
                   </div>
                 ))}
               </div>

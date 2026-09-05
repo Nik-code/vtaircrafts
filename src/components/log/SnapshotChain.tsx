@@ -75,11 +75,12 @@ export function SnapshotChain({ snapshots }: { snapshots: SnapshotInfo[] }) {
 
   return (
     <div className="border border-rule-2 bg-paper-2/40 p-4 sm:p-5">
-      <svg viewBox={`0 0 ${W} ${H}`} className="w-full" role="img" aria-label="DGCA snapshot timeline">
+      <div className="overflow-x-auto">
+        <svg viewBox={`0 0 ${W} ${H}`} className="w-full min-w-[720px]" role="img" aria-label="DGCA snapshot timeline">
         {years.map((y) => (
           <g key={y.t}>
             <line x1={x(y.t)} y1={8} x2={x(y.t)} y2={H - 16} stroke="var(--rule)" strokeWidth={1} />
-            <text x={x(y.t)} y={H - 4} textAnchor="middle" fontFamily="var(--font-mono)" fontSize={9} fill="var(--ink-3)">
+            <text x={x(y.t)} y={H - 4} textAnchor="middle" fontFamily="var(--font-mono)" fontSize={14} fill="var(--ink-3)">
               {y.year}
             </text>
           </g>
@@ -104,7 +105,7 @@ export function SnapshotChain({ snapshots }: { snapshots: SnapshotInfo[] }) {
                   y={gy + gh / 2 + 3}
                   textAnchor="middle"
                   fontFamily="var(--font-mono)"
-                  fontSize={7.5}
+                  fontSize={12}
                   letterSpacing={0.5}
                   fill="var(--caution)"
                 >
@@ -136,12 +137,13 @@ export function SnapshotChain({ snapshots }: { snapshots: SnapshotInfo[] }) {
         {showToday && (
           <g>
             <line x1={todayX} y1={6} x2={todayX} y2={H - 16} stroke="var(--signal)" strokeWidth={1} strokeDasharray="2 2" opacity={0.7} />
-            <text x={todayX} y={16} textAnchor="middle" fontFamily="var(--font-mono)" fontSize={7.5} letterSpacing={0.5} fill="var(--signal)">
+            <text x={todayX} y={16} textAnchor="middle" fontFamily="var(--font-mono)" fontSize={12} letterSpacing={0.5} fill="var(--signal)">
               TODAY
             </text>
           </g>
         )}
-      </svg>
+        </svg>
+      </div>
       <div className="mono mt-2 flex flex-wrap items-center justify-between gap-2 text-[11px] text-ink-3">
         <span>{fmtDate(first.date)}</span>
         <span className="label">
