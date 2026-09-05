@@ -53,7 +53,7 @@ async function main() {
   const dest = join(rawRoot, snapshot);
   mkdirSync(dest, { recursive: true });
   for (const d of downloaded) writeFileSync(join(dest, d.file), readFileSync(d.path));
-  writeFileSync(join(dest, "fetch.json"), JSON.stringify({ fetchedAt: new Date().toISOString(), files: downloaded.map(({ path: _p, ...rest }) => rest) }, null, 2));
+  writeFileSync(join(dest, "fetch.json"), JSON.stringify({ fetchedAt: new Date().toISOString(), files: downloaded.map((d) => ({ file: d.file, sha: d.sha, asOn: d.asOn, lastModified: d.lastModified })) }, null, 2));
   rmSync(tmp, { recursive: true, force: true });
   console.log(`snapshot=${snapshot}`);
   for (const d of downloaded) console.log(`  ${d.file}  asOn=${d.asOn}  sha256=${d.sha.slice(0, 12)}  last-modified=${d.lastModified}`);
