@@ -1,0 +1,209 @@
+{
+ "file": "dereg(Jan_Mar2019).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+ "from": "2019-01-01",
+ "to": "2019-03-31",
+ "layout": "modern",
+ "rows": [
+  {
+   "reg": "VT-RES",
+   "msn": "22040",
+   "dateOfRegistration": "2007-11-11",
+   "dateOfDeregistration": "2019-01-10",
+   "date": "2019-01-10",
+   "kind": "deregistration",
+   "type": "Agusta AW109S",
+   "yearOfManufacture": 2007,
+   "owner": "Ligare Voyages (Ireland) Limited Dublin 2,Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Ligare Aviation Limited District Centre, Saket, New Delhi- 110017.",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IDG",
+   "msn": "5449",
+   "dateOfRegistration": "2015-04-10",
+   "dateOfDeregistration": "2019-01-25",
+   "date": "2019-01-25",
+   "kind": "deregistration",
+   "type": "Airbus A320- 232",
+   "yearOfManufacture": 2013,
+   "owner": "Pembroke Aircraft Leasing 4 Ltd Dublin 2,Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Interglobe Aviation Limited Thapar House 124 Janpath, New Delhi-10001",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SVM",
+   "msn": "6761",
+   "dateOfRegistration": "2008-09-17",
+   "dateOfDeregistration": "2019-02-12",
+   "date": "2019-02-12",
+   "kind": "deregistration",
+   "type": "EC-155 B1",
+   "yearOfManufacture": 2007,
+   "owner": "Kingfisher Airlines Limited Mallya Road, Bangalore-560001",
+   "lessor": "Same As Owner",
+   "operator": "Kingfisher Airlines Limited Vittal Mallya Road, Bangalore-560001",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-LVM",
+   "msn": "6777",
+   "dateOfRegistration": "2008-10-10",
+   "dateOfDeregistration": "2019-02-12",
+   "date": "2019-02-12",
+   "kind": "deregistration",
+   "type": "EC-155 B1",
+   "yearOfManufacture": 2007,
+   "owner": "Kingfisher Airlines Limited Mallya Road, Bangalore-560001",
+   "lessor": "Same As Owner",
+   "operator": "Kingfisher Airlines Limited Vittal Mallya Road, Bangalore-560001",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JBN",
+   "msn": "36818",
+   "dateOfRegistration": "2018-11-09",
+   "dateOfDeregistration": "2019-02-20",
+   "date": "2019-02-20",
+   "kind": "deregistration",
+   "type": "Boeing 737-800",
+   "yearOfManufacture": 2009,
+   "owner": "Premier Aircraft Leasing Exim 4 Ltd Dublin 3, Ireland",
+   "lessor": "Celestial Ex- Im Trading 4 Ltd Shannon, County Clare, Ireland",
+   "operator": "Jet Airways (India) Ltd Andheri (East), Mumbai-400099",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JCY",
+   "msn": "1064",
+   "dateOfRegistration": "2013-07-11",
+   "dateOfDeregistration": "2019-02-20",
+   "date": "2019-02-20",
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2012,
+   "owner": "Celestial Aviation Trading 27 Limited Shannon, County Clare, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Jet Airways (India) Ltd Andheri (East), Mumbai-400099",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JCZ",
+   "msn": "1075",
+   "dateOfRegistration": "2013-12-11",
+   "dateOfDeregistration": "2019-02-20",
+   "date": "2019-02-20",
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2013,
+   "owner": "Celestial Aviation Trading 71 Limited Shannon, County Clare, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Jet Airways (India) Ltd Andheri (East), Mumbai-400099",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JBM",
+   "msn": "36817",
+   "dateOfRegistration": "2009-10-15",
+   "dateOfDeregistration": "2019-02-25",
+   "date": "2019-02-25",
+   "kind": "deregistration",
+   "type": "Boeing 737-800",
+   "yearOfManufacture": 2009,
+   "owner": "Premier Aircraft Leasing Ex-Im 3 Ltd Dublin 3, Ireland",
+   "lessor": "Celestial Ex- Im Trading 3 Ltd Shannon, County Clare, Ireland",
+   "operator": "Jet Airways (India) Ltd Andheri (East), Mumbai-400099",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JBP",
+   "msn": "36819",
+   "dateOfRegistration": "2009-12-01",
+   "dateOfDeregistration": "2019-03-08",
+   "date": "2019-03-08",
+   "kind": "deregistration",
+   "type": "Boeing 737-86N",
+   "yearOfManufacture": 2009,
+   "owner": "Premier Aircraft Leasing Ex-Im 4 Limited Dublin 3, Ireland",
+   "lessor": "Celestial Ex- Im Trading 4 Ltd,",
+   "operator": "Jet Airways (India) Ltd Andheri (East), Mumbai-400099",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JBH",
+   "msn": "35289",
+   "dateOfRegistration": "2009-02-25",
+   "dateOfDeregistration": "2019-03-14",
+   "date": "2019-03-14",
+   "kind": "deregistration",
+   "type": "B737- 85R",
+   "yearOfManufacture": 2009,
+   "owner": "International Lease Finance Corporation Angles California",
+   "lessor": "Shannon, County Clare, Ireland Ilfc Ireland Ltd Shannin County Clare, Ireland",
+   "operator": "Jet Airways (India) Ltd Andheri (East), Mumbai-400099",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JTD",
+   "msn": "30734",
+   "dateOfRegistration": "2016-07-25",
+   "dateOfDeregistration": "2019-03-14",
+   "date": "2019-03-14",
+   "kind": "deregistration",
+   "type": "B737- 838",
+   "yearOfManufacture": 2008,
+   "owner": "Aercap Ireland Ltd Shannon, County Clare, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Jet Airways (India) Ltd Andheri (East), Mumbai-400099",
+   "source": {
+    "file": "dereg(Jan_Mar2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Jan_Mar2019).pdf",
+    "page": 2
+   }
+  }
+ ],
+ "dropped": []
+}

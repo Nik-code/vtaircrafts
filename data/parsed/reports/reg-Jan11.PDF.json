@@ -1,0 +1,155 @@
+{
+ "file": "reg-Jan11.PDF",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg-Jan11.PDF",
+ "from": "2011-01-01",
+ "to": "2011-01-31",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-TMS",
+   "msn": null,
+   "dateOfRegistration": "2011-01-03",
+   "dateOfDeregistration": null,
+   "date": "2011-01-03",
+   "kind": "registration",
+   "type": "GV-SP (G-550)",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "CROMPTON GREAVES LIMITED",
+   "source": {
+    "file": "reg-Jan11.PDF",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg-Jan11.PDF",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SFM",
+   "msn": null,
+   "dateOfRegistration": "2011-01-11",
+   "dateOfDeregistration": null,
+   "date": "2011-01-11",
+   "kind": "registration",
+   "type": "EMBRAER-500",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S T V SUNDRAM IYENGAR & SONS LIMITED",
+   "source": {
+    "file": "reg-Jan11.PDF",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg-Jan11.PDF",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-UDY",
+   "msn": null,
+   "dateOfRegistration": "2011-01-11",
+   "dateOfDeregistration": null,
+   "date": "2011-01-11",
+   "kind": "registration",
+   "type": "AS 350 B3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "Mr. TH D.Y.UPPAR",
+   "source": {
+    "file": "reg-Jan11.PDF",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg-Jan11.PDF",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IAG",
+   "msn": null,
+   "dateOfRegistration": "2011-01-17",
+   "dateOfDeregistration": null,
+   "date": "2011-01-17",
+   "kind": "registration",
+   "type": "EMBRAER-500",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "INVISION AIR LEASING AND SALES LIMITED",
+   "operator": "INVISION AIR RD SERVICES PVT. LTD",
+   "source": {
+    "file": "reg-Jan11.PDF",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg-Jan11.PDF",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ACF",
+   "msn": null,
+   "dateOfRegistration": "2011-01-21",
+   "dateOfDeregistration": null,
+   "date": "2011-01-21",
+   "kind": "registration",
+   "type": "PILATUS PC-12/45",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR CHARTER SERVICES PVT. LTD",
+   "source": {
+    "file": "reg-Jan11.PDF",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg-Jan11.PDF",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IAV",
+   "msn": null,
+   "dateOfRegistration": "2011-01-28",
+   "dateOfDeregistration": null,
+   "date": "2011-01-28",
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S INTERNATIONAL AVIATION ACADEMY PVT. LTD",
+   "source": {
+    "file": "reg-Jan11.PDF",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg-Jan11.PDF",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IAU",
+   "msn": null,
+   "dateOfRegistration": "2011-01-28",
+   "dateOfDeregistration": null,
+   "date": "2011-01-28",
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S INTERNATIONAL AVIATION ACADEMY PVT. LTD",
+   "source": {
+    "file": "reg-Jan11.PDF",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg-Jan11.PDF",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-NFN",
+   "msn": null,
+   "dateOfRegistration": "2011-01-31",
+   "dateOfDeregistration": null,
+   "date": "2011-01-31",
+   "kind": "registration",
+   "type": "DIAMOND DA 40CS",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S NATIONAL FLYING TRAINING INSTITUTE PRIVATE LIMITED",
+   "source": {
+    "file": "reg-Jan11.PDF",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg-Jan11.PDF",
+    "page": 2
+   }
+  }
+ ],
+ "dropped": []
+}

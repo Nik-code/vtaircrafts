@@ -1,0 +1,389 @@
+{
+ "file": "dereg(Feb11-Sep11).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+ "from": "2011-02-01",
+ "to": "2011-09-30",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-EUB",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-02-03",
+   "date": "2011-02-03",
+   "kind": "deregistration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AHMEDABAD AVIATION ACADEMY LTD",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-GVD",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-02-10",
+   "date": "2011-02-10",
+   "kind": "deregistration",
+   "type": "EC135 T1 THE MONTH",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S GLOBAL VECTRA HELICORP LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-EJI",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-04-08",
+   "date": "2011-04-08",
+   "kind": "deregistration",
+   "type": "AIRBUS 310-304",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-UHA",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-04-08",
+   "date": "2011-04-08",
+   "kind": "deregistration",
+   "type": "BELL 412 HP",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S UNITED HELICHARTERES LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SJE",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-04-29",
+   "date": "2011-04-29",
+   "kind": "deregistration",
+   "type": "BOEING 737-7Q8 IN THE",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JET LITE (INDIA) LTD",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-VSL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-06-14",
+   "date": "2011-06-14",
+   "kind": "deregistration",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S VSL MINING COMPANYHOUSE OF LANDS, PLACE ROADSANDUR, BELLARY DIST.583119 KARNATAKA",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-AIO",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-06-30",
+   "date": "2011-06-30",
+   "kind": "deregistration",
+   "type": "AIRBUS 310-300",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S DECCAN CARGO & EXPRESS TH LOGISTICS PVT. LTD",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-AIP",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-06-30",
+   "date": "2011-06-30",
+   "kind": "deregistration",
+   "type": "AIRBUS 310-300",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S DECCAN CARGO & EXPRESS TH LOGISTICS PVT. LTD",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-EMR",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-06-30",
+   "date": "2011-06-30",
+   "kind": "deregistration",
+   "type": "CESSNA 152 AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AERO CLUB OF INDIA",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-AIN",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-07-01",
+   "date": "2011-07-01",
+   "kind": "deregistration",
+   "type": "AIRBUS 310-300",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S DECCAN CARGO & EXPRESS LOGISTICS PVT. LTD",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-MST",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-07-01",
+   "date": "2011-07-01",
+   "kind": "deregistration",
+   "type": "GULFSTREAM G IV SP",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S ASIA AVIATION LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SAO",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-07-06",
+   "date": "2011-07-06",
+   "kind": "deregistration",
+   "type": "BOMBARDIER CL 600-2B19 (CRJ 200)",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LTDS.M.CENTER, ANDHERI-KURLA ROAD, ANDHERI, (E) MUMBAI- 400059",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-EVO",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-07-27",
+   "date": "2011-07-27",
+   "kind": "deregistration",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-EVP",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-07-27",
+   "date": "2011-07-27",
+   "kind": "deregistration",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-EVQ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-07-20",
+   "date": "2011-07-20",
+   "kind": "deregistration",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-EVR",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-07-27",
+   "date": "2011-07-27",
+   "kind": "deregistration",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-VCP",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-08-09",
+   "date": "2011-08-09",
+   "kind": "deregistration",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S POONAWALA AVIATION PVT. LTD",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-AZM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-08-19",
+   "date": "2011-08-19",
+   "kind": "deregistration",
+   "type": "BELL 412 EP THE MONTH",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S GLOBAL VECTRA HELICORP LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-VCP",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-08-09",
+   "date": "2011-08-09",
+   "kind": "deregistration",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S POONAWALA AVIATION PVT. LTD",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-HBO",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-09-23",
+   "date": "2011-09-23",
+   "kind": "deregistration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "ACADEMY OF CARVER AVIATION PVT LTD",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-EYL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-09-30",
+   "date": "2011-09-30",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "dereg(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Feb11-Sep11).pdf",
+    "page": 5
+   }
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,1984 @@
+{
+ "file": "reg(oct09-Sep10).pdf",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+ "from": "2009-10-01",
+ "to": "2010-09-30",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-AYC",
+   "msn": null,
+   "dateOfRegistration": "2009-10-05",
+   "dateOfDeregistration": null,
+   "date": "2009-10-05",
+   "kind": "registration",
+   "type": "BOEING B737-800",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-A",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SCT",
+   "msn": null,
+   "dateOfRegistration": "2009-10-06",
+   "dateOfDeregistration": null,
+   "date": "2009-10-06",
+   "kind": "registration",
+   "type": "AIRBUS A319-112",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AFB",
+   "msn": null,
+   "dateOfRegistration": "2009-10-07",
+   "dateOfDeregistration": null,
+   "date": "2009-10-07",
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "AMBITION FLYING CLUB PVT.LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AFD",
+   "msn": null,
+   "dateOfRegistration": "2009-10-07",
+   "dateOfDeregistration": null,
+   "date": "2009-10-07",
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "AMBITION FLYING CLUB PVT.LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AFE",
+   "msn": null,
+   "dateOfRegistration": "2009-10-07",
+   "dateOfDeregistration": null,
+   "date": "2009-10-07",
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "AMBITION FLYING CLUB PVT.LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-HJA",
+   "msn": null,
+   "dateOfRegistration": "2009-10-07",
+   "dateOfDeregistration": null,
+   "date": "2009-10-07",
+   "kind": "registration",
+   "type": "HAWKER 4000",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "HINDUSTAN CONSTRUCTION CO.LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WOW",
+   "msn": null,
+   "dateOfRegistration": "2009-10-09",
+   "dateOfDeregistration": null,
+   "date": "2009-10-09",
+   "kind": "registration",
+   "type": "CAMERON A-105 BALLOON",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "E- FACTOR ADVENTURE TOURISM (P) LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-AKA",
+   "msn": null,
+   "dateOfRegistration": "2009-10-09",
+   "dateOfDeregistration": null,
+   "date": "2009-10-09",
+   "kind": "registration",
+   "type": "EC 130 B4",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "VEDANTA ALUMINIUM LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KDS",
+   "msn": null,
+   "dateOfRegistration": "2009-10-15",
+   "dateOfDeregistration": null,
+   "date": "2009-10-15",
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "ALCHEMIST AVIATION PVT.LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JBM",
+   "msn": null,
+   "dateOfRegistration": "2009-10-21",
+   "dateOfDeregistration": null,
+   "date": "2009-10-21",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "CELESTIAL EX-IM TRADING 3 LIMITED",
+   "operator": "JET AIRWAYS INDIA LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-BBC",
+   "msn": null,
+   "dateOfRegistration": "2009-10-21",
+   "dateOfDeregistration": null,
+   "date": "2009-10-21",
+   "kind": "registration",
+   "type": "CTLS",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "ACADEMY OF CARVER AVIATION PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CNN",
+   "msn": null,
+   "dateOfRegistration": "2009-10-21",
+   "dateOfDeregistration": null,
+   "date": "2009-10-21",
+   "kind": "registration",
+   "type": "CTLS",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "ACADEMY OF CARVER AVIATION PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-NFH",
+   "msn": null,
+   "dateOfRegistration": "2009-10-22",
+   "dateOfDeregistration": null,
+   "date": "2009-10-22",
+   "kind": "registration",
+   "type": "DIAMOND DA-40CS",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "NATIONAL FLYING TRAINING INSTITUTE PRIVATE (NFTIPL)",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-NFG",
+   "msn": null,
+   "dateOfRegistration": "2009-10-22",
+   "dateOfDeregistration": null,
+   "date": "2009-10-22",
+   "kind": "registration",
+   "type": "DIAMOND DA-40CS",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "CESSNA",
+   "operator": "NATIONAL FLYING TRAINING INSTITUTE PRIVATE (NFTIPL)",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-YUV",
+   "msn": null,
+   "dateOfRegistration": "2009-10-23",
+   "dateOfDeregistration": null,
+   "date": "2009-10-23",
+   "kind": "registration",
+   "type": "SIKORSKY S-76C",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "FUTURA TRAVELS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-GMU",
+   "msn": null,
+   "dateOfRegistration": "2009-10-23",
+   "dateOfDeregistration": null,
+   "date": "2009-10-23",
+   "kind": "registration",
+   "type": "PHG-CRUISER",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "MUTHANNA MAPANGADA",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JBK",
+   "msn": null,
+   "dateOfRegistration": "2009-11-03",
+   "dateOfDeregistration": null,
+   "date": "2009-11-03",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "SHELL MAKER LEASING LLC",
+   "lessor": "ACG ACQUISITION IRELAND V LIMITED",
+   "operator": "JET AIRWAYS (INDIA) LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-PPT",
+   "msn": null,
+   "dateOfRegistration": "2009-11-03",
+   "dateOfDeregistration": null,
+   "date": "2009-11-03",
+   "kind": "registration",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SCU",
+   "msn": null,
+   "dateOfRegistration": "2009-11-03",
+   "dateOfDeregistration": null,
+   "date": "2009-11-03",
+   "kind": "registration",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-BRK",
+   "msn": null,
+   "dateOfRegistration": "2009-11-05",
+   "dateOfDeregistration": null,
+   "date": "2009-11-05",
+   "kind": "registration",
+   "type": "FALCON 2000EX",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "GMR AVIATION PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-UVE",
+   "msn": null,
+   "dateOfRegistration": "2009-11-10",
+   "dateOfDeregistration": null,
+   "date": "2009-11-10",
+   "kind": "registration",
+   "type": "MICROLIGHT FLIGHTSTAR II SC",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "CAPT. VIRAF G. EDULJI, PRIME MARITIME (INDIA PVT. LTD)",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-APL",
+   "msn": null,
+   "dateOfRegistration": "2009-11-11",
+   "dateOfDeregistration": null,
+   "date": "2009-11-11",
+   "kind": "registration",
+   "type": "BOMBARDIER CL-600-2B16 (604 VARIANT)",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "",
+   "operator": "KARNAVATI AVIATION PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-SWC",
+   "msn": null,
+   "dateOfRegistration": "2009-11-12",
+   "dateOfDeregistration": null,
+   "date": "2009-11-12",
+   "kind": "registration",
+   "type": "CESSNA 560XL",
+   "yearOfManufacture": null,
+   "owner": "PREMIER AIRCRAFT",
+   "lessor": null,
+   "operator": "SWAJAS AIR CHARTERS LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JBN",
+   "msn": null,
+   "dateOfRegistration": "2009-11-13",
+   "dateOfDeregistration": null,
+   "date": "2009-11-13",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "CELESTIAL EX-IM TRADING 4 LIMITED",
+   "operator": "JET AIRWAYS INDIA LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-GRG",
+   "msn": null,
+   "dateOfRegistration": "2009-11-17",
+   "dateOfDeregistration": null,
+   "date": "2009-11-17",
+   "kind": "registration",
+   "type": "HAWKER 400XP (400A)",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": ";- WELSPUN LOGISTICS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IGI",
+   "msn": null,
+   "dateOfRegistration": "2009-11-24",
+   "dateOfDeregistration": null,
+   "date": "2009-11-24",
+   "kind": "registration",
+   "type": "AIRBUS A320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAER LEASING 1 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-SBE",
+   "msn": null,
+   "dateOfRegistration": "2009-11-26",
+   "dateOfDeregistration": null,
+   "date": "2009-11-26",
+   "kind": "registration",
+   "type": "CIRRUS SR22",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "AEROSTAR AVIATION",
+   "operator": "I JET AIRLINES PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-SWD",
+   "msn": null,
+   "dateOfRegistration": "2009-11-27",
+   "dateOfDeregistration": null,
+   "date": "2009-11-27",
+   "kind": "registration",
+   "type": "BELL 412EP",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "AIRCON BEIBARS FZE",
+   "operator": "SWAJAS AIR CHARTERS LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-SWE",
+   "msn": null,
+   "dateOfRegistration": "2009-11-27",
+   "dateOfDeregistration": null,
+   "date": "2009-11-27",
+   "kind": "registration",
+   "type": "BELL 412EP",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "AIRCON BEIBARS FZE",
+   "operator": "SWAJAS AIR CHARTERS LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-PPU",
+   "msn": null,
+   "dateOfRegistration": "2009-11-30",
+   "dateOfDeregistration": null,
+   "date": "2009-11-30",
+   "kind": "registration",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-ONE",
+   "msn": null,
+   "dateOfRegistration": "2009-12-02",
+   "dateOfDeregistration": null,
+   "date": "2009-12-02",
+   "kind": "registration",
+   "type": "GULFSTREAM G IV",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "DLF LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-SCV",
+   "msn": null,
+   "dateOfRegistration": "2009-12-02",
+   "dateOfDeregistration": null,
+   "date": "2009-12-02",
+   "kind": "registration",
+   "type": "AIRBUS A319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JBP",
+   "msn": null,
+   "dateOfRegistration": "2009-12-07",
+   "dateOfDeregistration": null,
+   "date": "2009-12-07",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "CELESTIAL EX-IM TRADING 4 LIMITED",
+   "operator": "JET AIRWAYS INDIA LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JUA",
+   "msn": null,
+   "dateOfRegistration": "2009-12-09",
+   "dateOfDeregistration": null,
+   "date": "2009-12-09",
+   "kind": "registration",
+   "type": "BOMBARDIER BD-100-1A10 CHALLENGER 300",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "JUPITERVAVIATION SERVICES PRIVATE LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-UVV",
+   "msn": null,
+   "dateOfRegistration": "2009-12-09",
+   "dateOfDeregistration": null,
+   "date": "2009-12-09",
+   "kind": "registration",
+   "type": "MICROLIGHT X- AIR F",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "CONSOLIDATED AVIATION",
+   "operator": "CAPT. VINITHA M C",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-SWB",
+   "msn": null,
+   "dateOfRegistration": "2009-12-14",
+   "dateOfDeregistration": null,
+   "date": "2009-12-14",
+   "kind": "registration",
+   "type": "AGUSTA 109E",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "SWAJAS AIR CHARTERS LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-IGJ",
+   "msn": null,
+   "dateOfRegistration": "2009-12-24",
+   "dateOfDeregistration": null,
+   "date": "2009-12-24",
+   "kind": "registration",
+   "type": "AIRBUS A320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAER LEASING 1 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-PPV",
+   "msn": null,
+   "dateOfRegistration": "2009-12-24",
+   "dateOfDeregistration": null,
+   "date": "2009-12-24",
+   "kind": "registration",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-AYD",
+   "msn": null,
+   "dateOfRegistration": "2009-12-29",
+   "dateOfDeregistration": null,
+   "date": "2009-12-29",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "AIR INDIA CHARTERS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-SCW",
+   "msn": null,
+   "dateOfRegistration": "2009-12-29",
+   "dateOfDeregistration": null,
+   "date": "2009-12-29",
+   "kind": "registration",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "AERO CLUB",
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-ACY",
+   "msn": null,
+   "dateOfRegistration": "2009-12-31",
+   "dateOfDeregistration": null,
+   "date": "2009-12-31",
+   "kind": "registration",
+   "type": "BEECHCRAFT BARON G58",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "AMRITSAR AVIATION CLUB",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-VMC",
+   "msn": null,
+   "dateOfRegistration": "2010-01-05",
+   "dateOfDeregistration": null,
+   "date": "2010-01-05",
+   "kind": "registration",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "VSL AVIATION PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-MHN",
+   "msn": null,
+   "dateOfRegistration": "2010-01-05",
+   "dateOfDeregistration": null,
+   "date": "2010-01-05",
+   "kind": "registration",
+   "type": "BELL 407 HEILCOPTER",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "ESSAR POWER GUJARAT LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-DCB",
+   "msn": null,
+   "dateOfRegistration": "2010-01-08",
+   "dateOfDeregistration": null,
+   "date": "2010-01-08",
+   "kind": "registration",
+   "type": "EUROCOPTER AS 350 B3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "ERA LEASING LLC",
+   "operator": "DECCAN CHARTERS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-GVG",
+   "msn": null,
+   "dateOfRegistration": "2010-01-22",
+   "dateOfDeregistration": null,
+   "date": "2010-01-22",
+   "kind": "registration",
+   "type": "AGUSTA WESTLAND AB 139",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "AZAL AZARBAIJAN AVIATION LTD",
+   "operator": "GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-PPW",
+   "msn": null,
+   "dateOfRegistration": "2010-01-29",
+   "dateOfDeregistration": null,
+   "date": "2010-01-29",
+   "kind": "registration",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-SCX",
+   "msn": null,
+   "dateOfRegistration": "2010-02-01",
+   "dateOfDeregistration": null,
+   "date": "2010-02-01",
+   "kind": "registration",
+   "type": "AIRBUS A319-112",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-KKR",
+   "msn": null,
+   "dateOfRegistration": "2010-02-05",
+   "dateOfDeregistration": null,
+   "date": "2010-02-05",
+   "kind": "registration",
+   "type": "R-44 RAVEN II",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "SRI LAKSHMI MINERALS",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-UPL",
+   "msn": null,
+   "dateOfRegistration": "2010-02-05",
+   "dateOfDeregistration": null,
+   "date": "2010-02-05",
+   "kind": "registration",
+   "type": "AGUSTA A109S",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "GOVERNMENT OF UTTAR PRADESH",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-BSM",
+   "msn": null,
+   "dateOfRegistration": "2010-02-16",
+   "dateOfDeregistration": null,
+   "date": "2010-02-16",
+   "kind": "registration",
+   "type": "DHRUV ALH- WHEEL VERSION",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-BSN",
+   "msn": null,
+   "dateOfRegistration": "2010-02-16",
+   "dateOfDeregistration": null,
+   "date": "2010-02-16",
+   "kind": "registration",
+   "type": "DHRUV ALH- WHEEL VERSION",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-BSP",
+   "msn": null,
+   "dateOfRegistration": "2010-02-16",
+   "dateOfDeregistration": null,
+   "date": "2010-02-16",
+   "kind": "registration",
+   "type": "DHRUV ALH- WHEEL VERSION",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-IGK",
+   "msn": null,
+   "dateOfRegistration": "2010-02-23",
+   "dateOfDeregistration": null,
+   "date": "2010-02-23",
+   "kind": "registration",
+   "type": "AIRBUS A320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAER LEASING 1 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-UFO",
+   "msn": null,
+   "dateOfRegistration": "2010-02-23",
+   "dateOfDeregistration": null,
+   "date": "2010-02-23",
+   "kind": "registration",
+   "type": "CESSNA TURBO 206H STATIONAIR",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "DIRECTI INTERNET SOLUTIONS PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-EDD",
+   "msn": null,
+   "dateOfRegistration": "2010-03-02",
+   "dateOfDeregistration": null,
+   "date": "2010-03-02",
+   "kind": "registration",
+   "type": "AIRBUS 320-214",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-CKP",
+   "msn": null,
+   "dateOfRegistration": "2010-03-05",
+   "dateOfDeregistration": null,
+   "date": "2010-03-05",
+   "kind": "registration",
+   "type": "EMBRAER EMB- 135BJ (LEGACY 600)",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "KRISHNAPATNAM PORT COMPANY LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-EDC",
+   "msn": null,
+   "dateOfRegistration": "2010-03-08",
+   "dateOfDeregistration": null,
+   "date": "2010-03-08",
+   "kind": "registration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-SGF",
+   "msn": null,
+   "dateOfRegistration": "2010-03-23",
+   "dateOfDeregistration": null,
+   "date": "2010-03-23",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "NBB BUZZARD CO. LTD",
+   "lessor": "ROWDELL LIMITED",
+   "operator": "UNITED HELICHATRERS PRIVATE LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-SHA",
+   "msn": null,
+   "dateOfRegistration": "2010-03-26",
+   "dateOfDeregistration": null,
+   "date": "2010-03-26",
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "SOUTHERN PILOT TRAINING ACADEMY (A Unit of Kohinoor Education Services Pvt. Ltd.)",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-SHB",
+   "msn": null,
+   "dateOfRegistration": "2010-03-26",
+   "dateOfDeregistration": null,
+   "date": "2010-03-26",
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "SOUTHERN PILOT TRAINING ACADEMY (A Unit of Kohinoor Education Services Pvt. Ltd.)",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-JLD",
+   "msn": null,
+   "dateOfRegistration": "2010-03-29",
+   "dateOfDeregistration": null,
+   "date": "2010-03-29",
+   "kind": "registration",
+   "type": "BOEING 737-700",
+   "yearOfManufacture": null,
+   "owner": "INJET700 AIRCRAFT LEASING COMPANY LIMITED",
+   "lessor": "GAIF II IRELAND EIGHT LIMITED",
+   "operator": "JET LITE (INDIA) LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-EDE",
+   "msn": null,
+   "dateOfRegistration": "2010-03-31",
+   "dateOfDeregistration": null,
+   "date": "2010-03-31",
+   "kind": "registration",
+   "type": "AIRBUS 320-214",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-EDF",
+   "msn": null,
+   "dateOfRegistration": "2010-04-01",
+   "dateOfDeregistration": null,
+   "date": "2010-04-01",
+   "kind": "registration",
+   "type": "AIRBUS 320- 214",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-HAV",
+   "msn": null,
+   "dateOfRegistration": "2010-04-09",
+   "dateOfDeregistration": null,
+   "date": "2010-04-09",
+   "kind": "registration",
+   "type": "SCHWEIZER 269C",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-BDP",
+   "msn": null,
+   "dateOfRegistration": "2010-04-13",
+   "dateOfDeregistration": null,
+   "date": "2010-04-13",
+   "kind": "registration",
+   "type": "ROBINSON R44 (CLIPPER) II",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "INDIAN METALS & FERRO ALLOYS LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-RGX",
+   "msn": null,
+   "dateOfRegistration": "2010-04-15",
+   "dateOfDeregistration": null,
+   "date": "2010-04-15",
+   "kind": "registration",
+   "type": "FALCON 7X",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-BRS",
+   "msn": null,
+   "dateOfRegistration": "2010-04-21",
+   "dateOfDeregistration": null,
+   "date": "2010-04-21",
+   "kind": "registration",
+   "type": "GULFSTREAM GV-SP (G-550)",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "GRASIM INDUSTRIES LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-HMA",
+   "msn": null,
+   "dateOfRegistration": "2010-04-23",
+   "dateOfDeregistration": null,
+   "date": "2010-04-23",
+   "kind": "registration",
+   "type": "GLOBAL EXPRESS XRS BD700-1",
+   "yearOfManufacture": null,
+   "owner": "CORP GLOBAL AIRCRAFT LEASING COMPANY",
+   "lessor": "INVESTEC INTERNATIONAL LIMITED",
+   "operator": "RELIANCE COMMERCIAL DEALERS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-PPX",
+   "msn": null,
+   "dateOfRegistration": "2010-05-03",
+   "dateOfDeregistration": null,
+   "date": "2010-05-03",
+   "kind": "registration",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-I",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-ALS",
+   "msn": null,
+   "dateOfRegistration": "2010-05-03",
+   "dateOfDeregistration": null,
+   "date": "2010-05-03",
+   "kind": "registration",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-A",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-AYV",
+   "msn": null,
+   "dateOfRegistration": "2010-05-10",
+   "dateOfDeregistration": null,
+   "date": "2010-05-10",
+   "kind": "registration",
+   "type": "FALCON 2000LX",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "BAJAJ HINDUSTHAN LTD",
+   "operator": "PINAACLE AIR PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-JBQ",
+   "msn": null,
+   "dateOfRegistration": "2010-05-15",
+   "dateOfDeregistration": null,
+   "date": "2010-05-15",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "PACIFIC TRIANGLE LEASING 2 LTD",
+   "lessor": "BOC AVIATION (IRELAND) LTD",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-JKL",
+   "msn": null,
+   "dateOfRegistration": "2010-05-20",
+   "dateOfDeregistration": null,
+   "date": "2010-05-20",
+   "kind": "registration",
+   "type": "PIAGGIO AVANTI-II P-180",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "J.K.LAKSHMI CEMENT LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-GGS",
+   "msn": null,
+   "dateOfRegistration": "2010-05-25",
+   "dateOfDeregistration": null,
+   "date": "2010-05-25",
+   "kind": "registration",
+   "type": "POWERED HANG GLIDER CRUISER",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "SURESH HASTIMAL GUGALE",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-ALT",
+   "msn": null,
+   "dateOfRegistration": "2010-05-26",
+   "dateOfDeregistration": null,
+   "date": "2010-05-26",
+   "kind": "registration",
+   "type": "BOEING 777-300ER",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-A",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-PNA",
+   "msn": null,
+   "dateOfRegistration": "2010-05-26",
+   "dateOfDeregistration": null,
+   "date": "2010-05-26",
+   "kind": "registration",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "SINGAPORE AVIATION Pte LTD",
+   "operator": "AEROTECH AVIATION INDIAL PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 19
+   }
+  },
+  {
+   "reg": "VT-JBR",
+   "msn": null,
+   "dateOfRegistration": "2010-05-28",
+   "dateOfDeregistration": null,
+   "date": "2010-05-28",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "BOC AVIATION (IRELAND) LTD",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 19
+   }
+  },
+  {
+   "reg": "VT-PIL",
+   "msn": null,
+   "dateOfRegistration": "2010-05-28",
+   "dateOfDeregistration": null,
+   "date": "2010-05-28",
+   "kind": "registration",
+   "type": "BOMBARDIER BD-100-1A10 CAHLLENGER 300",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "PRIVILEGE AIRWAYS PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 19
+   }
+  },
+  {
+   "reg": "VT-IGL",
+   "msn": null,
+   "dateOfRegistration": "2010-06-01",
+   "dateOfDeregistration": null,
+   "date": "2010-06-01",
+   "kind": "registration",
+   "type": "AIRBUS 320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAER LEASING 1 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-JPV",
+   "msn": null,
+   "dateOfRegistration": "2010-06-04",
+   "dateOfDeregistration": null,
+   "date": "2010-06-04",
+   "kind": "registration",
+   "type": "KING AIR B 200GT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "JAIPRAKASH ASSOCIATES LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-KNH",
+   "msn": null,
+   "dateOfRegistration": "2010-06-09",
+   "dateOfDeregistration": null,
+   "date": "2010-06-09",
+   "kind": "registration",
+   "type": "SIKORSKY S – 76C",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "HIRANANDANI AVIATION PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-IGS",
+   "msn": null,
+   "dateOfRegistration": "2010-06-15",
+   "dateOfDeregistration": null,
+   "date": "2010-06-15",
+   "kind": "registration",
+   "type": "AIRBUS 320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "CRESCENT LEASING 5 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-NER",
+   "msn": null,
+   "dateOfRegistration": "2010-06-15",
+   "dateOfDeregistration": null,
+   "date": "2010-06-15",
+   "kind": "registration",
+   "type": "DORNIER 228- 212",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "NORTHEAST SHUTTLES (P) LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-ACH",
+   "msn": null,
+   "dateOfRegistration": "2010-06-17",
+   "dateOfDeregistration": null,
+   "date": "2010-06-17",
+   "kind": "registration",
+   "type": "PILATUS PC 12/45",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "AIR CHARTER SERVICES PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-SGG",
+   "msn": null,
+   "dateOfRegistration": "2010-06-18",
+   "dateOfDeregistration": null,
+   "date": "2010-06-18",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "NBB WILLET Co., LTD",
+   "lessor": "STEDDEL LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 21
+   }
+  },
+  {
+   "reg": "VT-LJH",
+   "msn": null,
+   "dateOfRegistration": "2010-06-22",
+   "dateOfDeregistration": null,
+   "date": "2010-06-22",
+   "kind": "registration",
+   "type": "AGUSTA A109S",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "BHARATHOTELS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 21
+   }
+  },
+  {
+   "reg": "VT-PHT",
+   "msn": null,
+   "dateOfRegistration": "2010-07-07",
+   "dateOfDeregistration": null,
+   "date": "2010-07-07",
+   "kind": "registration",
+   "type": "AS 350 B3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "PAWAN HANS HELICOPTERS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-ALU",
+   "msn": null,
+   "dateOfRegistration": "2010-07-07",
+   "dateOfDeregistration": null,
+   "date": "2010-07-07",
+   "kind": "registration",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "NATIONAL AVIATION COMPANY OF INDIA LIMITED-A",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-NIT",
+   "msn": null,
+   "dateOfRegistration": "2010-07-20",
+   "dateOfDeregistration": null,
+   "date": "2010-07-20",
+   "kind": "registration",
+   "type": "SIKORSKY S76C",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "RELIANCE COMMERCIAL DEALERS LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-SHC",
+   "msn": null,
+   "dateOfRegistration": "2010-07-22",
+   "dateOfDeregistration": null,
+   "date": "2010-07-22",
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "SOUTHERN PILOT TRAINING ACADEMY (A Unit of Kohinoor Education Services Pvt. Ltd.)",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-RTR",
+   "msn": null,
+   "dateOfRegistration": "2010-07-23",
+   "dateOfDeregistration": null,
+   "date": "2010-07-23",
+   "kind": "registration",
+   "type": "BEECHCRAFT PREMIER IA-390",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "TVS MOTOR COMPANY LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-NFM",
+   "msn": null,
+   "dateOfRegistration": "2010-07-29",
+   "dateOfDeregistration": null,
+   "date": "2010-07-29",
+   "kind": "registration",
+   "type": "DA 42 L 360",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "NATIONAL FLYING TRAINING INSTITUTE PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-JBT",
+   "msn": null,
+   "dateOfRegistration": "2010-07-29",
+   "dateOfDeregistration": null,
+   "date": "2010-07-29",
+   "kind": "registration",
+   "type": "BOEING 737-8BK",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "C.I.T AEROSPACE INTERNATIONAL",
+   "operator": "JET AIRWAYS (INDIA) LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 23
+   }
+  },
+  {
+   "reg": "VT-IGT",
+   "msn": null,
+   "dateOfRegistration": "2010-08-02",
+   "dateOfDeregistration": null,
+   "date": "2010-08-02",
+   "kind": "registration",
+   "type": "AIRBUS A320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s CRESCENT LEASING 6 LIMITED",
+   "operator": "M/s INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 24
+   }
+  },
+  {
+   "reg": "VT-PHV",
+   "msn": null,
+   "dateOfRegistration": "2010-08-03",
+   "dateOfDeregistration": null,
+   "date": "2010-08-03",
+   "kind": "registration",
+   "type": "AS 350 B3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "PAWAN HANS HELICOPTERS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 24
+   }
+  },
+  {
+   "reg": "VT-PHU",
+   "msn": null,
+   "dateOfRegistration": "2010-08-03",
+   "dateOfDeregistration": null,
+   "date": "2010-08-03",
+   "kind": "registration",
+   "type": "AS 350 B3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "PAWAN HANS HELICOPTERS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 24
+   }
+  },
+  {
+   "reg": "VT-NBC",
+   "msn": null,
+   "dateOfRegistration": "2010-08-06",
+   "dateOfDeregistration": null,
+   "date": "2010-08-06",
+   "kind": "registration",
+   "type": "AS 350 B3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S SUMMIT AVIATION PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 24
+   }
+  },
+  {
+   "reg": "VT-PHX",
+   "msn": null,
+   "dateOfRegistration": "2010-08-09",
+   "dateOfDeregistration": null,
+   "date": "2010-08-09",
+   "kind": "registration",
+   "type": "DAUPHIN AS 365N3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "PAWAN HANS HELICOPTERS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 24
+   }
+  },
+  {
+   "reg": "VT-SGH",
+   "msn": null,
+   "dateOfRegistration": "2010-08-10",
+   "dateOfDeregistration": null,
+   "date": "2010-08-10",
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "(2): M/s NBB -36369 LEASE PARTNERSHIP",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 24
+   }
+  },
+  {
+   "reg": "VT-JPS",
+   "msn": null,
+   "dateOfRegistration": "2010-08-11",
+   "dateOfDeregistration": null,
+   "date": "2010-08-11",
+   "kind": "registration",
+   "type": "AGUSTA A109E",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s TORODELL LIMITED",
+   "operator": "M/s SPICEJET LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 25
+   }
+  },
+  {
+   "reg": "VT-WAM",
+   "msn": null,
+   "dateOfRegistration": "2010-08-17",
+   "dateOfDeregistration": null,
+   "date": "2010-08-17",
+   "kind": "registration",
+   "type": "AIRBUS 320-214",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S OSPREY AIRCRAFT LEASING LIMITED (SIXTEEN)",
+   "operator": null,
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 25
+   }
+  },
+  {
+   "reg": "VT-IBP",
+   "msn": null,
+   "dateOfRegistration": "2010-08-20",
+   "dateOfDeregistration": null,
+   "date": "2010-08-20",
+   "kind": "registration",
+   "type": "BOMBARDIER CHALLENGER CL-600-2B19",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S GO AIRLINES (INDIA) PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 25
+   }
+  },
+  {
+   "reg": "VT-GVH",
+   "msn": null,
+   "dateOfRegistration": "2010-09-06",
+   "dateOfDeregistration": null,
+   "date": "2010-09-06",
+   "kind": "registration",
+   "type": "AGUSTA WESTLAND AW139",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S ERA LEASING LLC",
+   "operator": "GLOBAL VECTRA HELICORP. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 26
+   }
+  },
+  {
+   "reg": "VT-UTA",
+   "msn": null,
+   "dateOfRegistration": "2010-09-15",
+   "dateOfDeregistration": null,
+   "date": "2010-09-15",
+   "kind": "registration",
+   "type": "ECUREUIL AS 350 B3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S PL PANORAMA LEASING LTD",
+   "operator": "M/S UTAIR INDIA PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 26
+   }
+  },
+  {
+   "reg": "VT-SSF",
+   "msn": null,
+   "dateOfRegistration": "2010-09-15",
+   "dateOfDeregistration": null,
+   "date": "2010-09-15",
+   "kind": "registration",
+   "type": "PREMIER IA-390",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S SIMM SAMM AIRWAYS PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 26
+   }
+  },
+  {
+   "reg": "VT-JSA",
+   "msn": null,
+   "dateOfRegistration": "2010-09-23",
+   "dateOfDeregistration": null,
+   "date": "2010-09-23",
+   "kind": "registration",
+   "type": "AGUSTA AW 139",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s INDIA FLYSAFE AVIATION LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 26
+   }
+  },
+  {
+   "reg": "VT-PHY",
+   "msn": null,
+   "dateOfRegistration": "2010-09-23",
+   "dateOfDeregistration": null,
+   "date": "2010-09-23",
+   "kind": "registration",
+   "type": "DAUPHIN AS 365 N3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s PAWAN HANS HELICOPTERS LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 27
+   }
+  },
+  {
+   "reg": "VT-JSR",
+   "msn": null,
+   "dateOfRegistration": "2010-09-27",
+   "dateOfDeregistration": null,
+   "date": "2010-09-27",
+   "kind": "registration",
+   "type": "KING AIR B- 200GT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s TATA STEEL LIMITED",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 27
+   }
+  },
+  {
+   "reg": "VT-WAN",
+   "msn": null,
+   "dateOfRegistration": "2010-09-29",
+   "dateOfDeregistration": null,
+   "date": "2010-09-29",
+   "kind": "registration",
+   "type": "AIRBUS 320-214",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S OSPREY AIRCRAFT LEASING LIMITED (SIXTEEN)",
+   "operator": "M/S GO AIRLINES (INDIA) PVT. LTD",
+   "source": {
+    "file": "reg(oct09-Sep10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(oct09-Sep10).pdf",
+    "page": 27
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "page": 11,
+   "reason": "no date for VT-UHA",
+   "text": "4077"
+  },
+  {
+   "page": 12,
+   "reason": "no date for VT-JLC",
+   "text": "4080"
+  }
+ ]
+}

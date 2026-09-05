@@ -1,0 +1,83 @@
+{
+ "file": "dereg-Jan11.pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg-Jan11.pdf",
+ "from": "2011-01-01",
+ "to": "2011-01-31",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-AZN",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-01-10",
+   "date": "2011-01-10",
+   "kind": "deregistration",
+   "type": "BELL 412 EP",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S GLOBAL VECTRA HELICORP LIMITED",
+   "source": {
+    "file": "dereg-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg-Jan11.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-XRM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-01-17",
+   "date": "2011-01-17",
+   "kind": "deregistration",
+   "type": "SARAS PROTOTYPE-II",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S NATIONAL AEROSPACE LABORATORIES",
+   "source": {
+    "file": "dereg-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg-Jan11.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RAN",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-01-19",
+   "date": "2011-01-19",
+   "kind": "deregistration",
+   "type": "HAWKER 800 XP",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "dereg-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg-Jan11.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AZE",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2011-01-24",
+   "date": "2011-01-24",
+   "kind": "deregistration",
+   "type": "BELL 412 HP",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S GLOBAL VECTRA HELICORP LIMITED",
+   "source": {
+    "file": "dereg-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg-Jan11.pdf",
+    "page": 1
+   }
+  }
+ ],
+ "dropped": []
+}

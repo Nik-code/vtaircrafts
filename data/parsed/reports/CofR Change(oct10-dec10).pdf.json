@@ -1,0 +1,551 @@
+{
+ "file": "CofR Change(oct10-dec10).pdf",
+ "kind": "owner-change",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+ "from": "2010-10-01",
+ "to": "2010-12-31",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-ESB",
+   "msn": null,
+   "dateOfRegistration": "2010-10-18",
+   "dateOfDeregistration": null,
+   "date": "2010-10-18",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "M/S INV 747-320 LEASING COMPANY LIMITED",
+   "lessor": "M/S INVESTEC INTERNATIONAL LIMITED",
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED (I)",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-BDN",
+   "msn": null,
+   "dateOfRegistration": "2010-10-26",
+   "dateOfDeregistration": null,
+   "date": "2010-10-26",
+   "kind": "owner-change",
+   "type": "BOEING 757-25C",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s DHL AVIATION ( NETHERLANDS) BV",
+   "operator": "M/s BLUE DART AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-BDJ",
+   "msn": null,
+   "dateOfRegistration": "2010-10-26",
+   "dateOfDeregistration": null,
+   "date": "2010-10-26",
+   "kind": "owner-change",
+   "type": "BOEING 757-236",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s DHL AVIATION ( NETHERLANDS) BV",
+   "operator": "M/s BLUE DART AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-BDK",
+   "msn": null,
+   "dateOfRegistration": "2010-10-26",
+   "dateOfDeregistration": null,
+   "date": "2010-10-26",
+   "kind": "owner-change",
+   "type": "BOEING 757-236 SF",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s DHL AVIATION ( NETHERLANDS) BV",
+   "operator": "M/s BLUE DART AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-BDM",
+   "msn": null,
+   "dateOfRegistration": "2010-10-26",
+   "dateOfDeregistration": null,
+   "date": "2010-10-26",
+   "kind": "owner-change",
+   "type": "BOEING 757-23N AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s DHL AVIATION ( NETHERLANDS) BV",
+   "operator": "M/s BLUE DART AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ALR",
+   "msn": null,
+   "dateOfRegistration": "2010-11-11",
+   "dateOfDeregistration": null,
+   "date": "2010-11-11",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION LEASING LTD",
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED (A)",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ALQ",
+   "msn": null,
+   "dateOfRegistration": "2010-11-11",
+   "dateOfDeregistration": null,
+   "date": "2010-11-11",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION LEASING LTD",
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED (A)",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ALP",
+   "msn": null,
+   "dateOfRegistration": "2010-11-11",
+   "dateOfDeregistration": null,
+   "date": "2010-11-11",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION LEASING LTD",
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED (A)",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ALG",
+   "msn": null,
+   "dateOfRegistration": "2010-11-11",
+   "dateOfDeregistration": null,
+   "date": "2010-11-11",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION LEASING LTD",
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED (A)",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ALO",
+   "msn": null,
+   "dateOfRegistration": "2010-11-11",
+   "dateOfDeregistration": null,
+   "date": "2010-11-11",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION LEASING LTD",
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED (A)",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ALH",
+   "msn": null,
+   "dateOfRegistration": "2010-11-11",
+   "dateOfDeregistration": null,
+   "date": "2010-11-11",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S MUNSTER AVIATION LEASING LTD",
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED (A)",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ALF",
+   "msn": null,
+   "dateOfRegistration": "2010-11-11",
+   "dateOfDeregistration": null,
+   "date": "2010-11-11",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION LEASING LTD",
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED (A)",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-RGX",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "FALCON 7X",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-RSN",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "SUPER KING AIR B-200",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-RAN",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "HAWKER 800XP",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-RER",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "BELL 430",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-RSL",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "SUPER KING AIR C-90A",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-REQ",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "BEECH 1900D AIRLINER",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-REN",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "BEECH 1900D",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-RSM",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "SUPER KING AIR B-200",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-REM",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "SUPER KING AIR B-200",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-RVL",
+   "msn": null,
+   "dateOfRegistration": "2010-11-15",
+   "dateOfDeregistration": null,
+   "date": "2010-11-15",
+   "kind": "owner-change",
+   "type": "FALCON 2000",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s G.I.E MIKE SIERRA",
+   "operator": "RELIGARE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JPL",
+   "msn": null,
+   "dateOfRegistration": "2010-12-09",
+   "dateOfDeregistration": null,
+   "date": "2010-12-09",
+   "kind": "owner-change",
+   "type": "EUROCOPTER EC 130B4",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "ACE AIR SERVICES (P) LTD",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-WAE",
+   "msn": null,
+   "dateOfRegistration": "2010-12-10",
+   "dateOfDeregistration": null,
+   "date": "2010-12-10",
+   "kind": "owner-change",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S ALC WAREHOUSE IRELAND LIMITED",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-SJI",
+   "msn": null,
+   "dateOfRegistration": "2010-12-24",
+   "dateOfDeregistration": null,
+   "date": "2010-12-24",
+   "kind": "owner-change",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S MCAP EUROPE LIMITED",
+   "operator": "M/S JETLITE (INDIA) LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-SJJ",
+   "msn": null,
+   "dateOfRegistration": "2010-12-24",
+   "dateOfDeregistration": null,
+   "date": "2010-12-24",
+   "kind": "owner-change",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S MCAP EUROPE LIMITED",
+   "operator": "M/S JETLITE (INDIA) LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-IGV",
+   "msn": null,
+   "dateOfRegistration": "2010-12-29",
+   "dateOfDeregistration": null,
+   "date": "2010-12-29",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-232",
+   "yearOfManufacture": null,
+   "owner": "M/S WHITE SKYE LEASING LIMITED",
+   "lessor": "M/S RBS AEROSPACE LIMITED",
+   "operator": "M/s INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-SWA",
+   "msn": null,
+   "dateOfRegistration": "2010-12-29",
+   "dateOfDeregistration": null,
+   "date": "2010-12-29",
+   "kind": "owner-change",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S CONSOLIDATED AVIATION MANAGEMENT CORPORATION LTD",
+   "operator": "M/S SWAJAS AIR CHARTER LTD",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-SWB",
+   "msn": null,
+   "dateOfRegistration": "2010-12-29",
+   "dateOfDeregistration": null,
+   "date": "2010-12-29",
+   "kind": "owner-change",
+   "type": "AGUSTA 109E",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S CONSOLIDATED AVIATION MANAGEMENT CORPORATION LTD",
+   "operator": "M/S RAINBOW AIR PRIVATE LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-AZM",
+   "msn": null,
+   "dateOfRegistration": "2010-12-30",
+   "dateOfDeregistration": null,
+   "date": "2010-12-30",
+   "kind": "owner-change",
+   "type": "BELL 412 EP",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "M/S GLOBAL VECTRA HELICORP LIMITED",
+   "source": {
+    "file": "CofR Change(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change(oct10-dec10).pdf",
+    "page": 8
+   }
+  }
+ ],
+ "dropped": []
+}

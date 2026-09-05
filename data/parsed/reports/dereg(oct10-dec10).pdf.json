@@ -1,0 +1,299 @@
+{
+ "file": "dereg(oct10-dec10).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+ "from": "2010-10-01",
+ "to": "2010-12-31",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-SAQ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-10-11",
+   "date": "2010-10-11",
+   "kind": "deregistration",
+   "type": "CL-600-2B19",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LIMITED",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SAR",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-10-11",
+   "date": "2010-10-11",
+   "kind": "deregistration",
+   "type": "CL-600-2B19",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LIMITED",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SAS",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-10-15",
+   "date": "2010-10-15",
+   "kind": "deregistration",
+   "type": "CL-600-2B19",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LIMITED",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AIR",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-10-21",
+   "date": "2010-10-21",
+   "kind": "deregistration",
+   "type": "BOEING 777- 222",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/s NATIONAL AVIATION COMPANY OF INDIA LIMITED",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-UBM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-11-01",
+   "date": "2010-11-01",
+   "kind": "deregistration",
+   "type": "ZENAIR STOL CH701 MICROLIGHT",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S SHIKARBADI HOTEL PRIVATE LIMITED",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-EIW",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-11-12",
+   "date": "2010-11-12",
+   "kind": "deregistration",
+   "type": "ALOUETTE III CHETAH",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S KING ROTORS AND AIR CHARTERS PVT. LTD",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-AZO",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-11-26",
+   "date": "2010-11-26",
+   "kind": "deregistration",
+   "type": "BELL 412 EP",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S GLOBAL VECTRA HELICORP LIMITED",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-HGG",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-11-26",
+   "date": "2010-11-26",
+   "kind": "deregistration",
+   "type": "BELL 412 HP",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S UNITED HELICHARTERS PVT. LTD",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-HGK",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-11-26",
+   "date": "2010-11-26",
+   "kind": "deregistration",
+   "type": "BELL 412 EP",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S UNITED HELICHARTERS PVT. LTD",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TVS",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-12-16",
+   "date": "2010-12-16",
+   "kind": "deregistration",
+   "type": "BEECH SUPER KING AIR B-200",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S TVS MOTOR COMPANY LTD",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-VSM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-12-16",
+   "date": "2010-12-16",
+   "kind": "deregistration",
+   "type": "BEECH SUPER KING AIR B-200",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S TVS MOTOR COMPANY LTD",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-SAU",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-12-21",
+   "date": "2010-12-21",
+   "kind": "deregistration",
+   "type": "CL600-2B19 (CRJ 200)",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JETLITE (INDIA) LIMITED",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-AIL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-12-27",
+   "date": "2010-12-27",
+   "kind": "deregistration",
+   "type": "BOEING 777-337 ER",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED –A",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-PAR",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-12-31",
+   "date": "2010-12-31",
+   "kind": "deregistration",
+   "type": "BELL 206L-4",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S ESSAR POWER LIMITED",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ESM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-12-31",
+   "date": "2010-12-31",
+   "kind": "deregistration",
+   "type": "BOEING 747-437",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED –A",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-EPE",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2010-12-31",
+   "date": "2010-12-31",
+   "kind": "deregistration",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S NATIONAL AVIATION COMPANY OF INDIA LIMITED –I",
+   "source": {
+    "file": "dereg(oct10-dec10).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(oct10-dec10).pdf",
+    "page": 3
+   }
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,353 @@
+{
+ "file": "CofR Change-Jan11.pdf",
+ "kind": "owner-change",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+ "from": "2011-01-01",
+ "to": "2011-01-31",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-DAR",
+   "msn": null,
+   "dateOfRegistration": "2011-01-06",
+   "dateOfDeregistration": null,
+   "date": "2011-01-06",
+   "kind": "owner-change",
+   "type": "PILATUS PC-12/45",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S DECCAN CHARTERS LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-HGF",
+   "msn": null,
+   "dateOfRegistration": "2011-01-07",
+   "dateOfDeregistration": null,
+   "date": "2011-01-07",
+   "kind": "owner-change",
+   "type": "BELL 412EP",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S GULF HELICOPTERS COMPANY",
+   "operator": "M/S UNITED HELICHATERS PVT. LTD",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AYB",
+   "msn": null,
+   "dateOfRegistration": "2011-01-12",
+   "dateOfDeregistration": null,
+   "date": "2011-01-12",
+   "kind": "owner-change",
+   "type": "BOEING 737-800NG",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
+   "operator": "M/S AIR INDIA CHARTERS LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AYC",
+   "msn": null,
+   "dateOfRegistration": "2011-01-12",
+   "dateOfDeregistration": null,
+   "date": "2011-01-12",
+   "kind": "owner-change",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
+   "operator": "M/S AIR INDIA CHARTERS LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-AYD",
+   "msn": null,
+   "dateOfRegistration": "2011-01-12",
+   "dateOfDeregistration": null,
+   "date": "2011-01-12",
+   "kind": "owner-change",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
+   "operator": "M/S AIR INDIA CHARTERS LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-RPL",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "HAWKER 800XP",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S RELIANCE COMMERCIAL RD DEALERS LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-DHB",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "DAUPHIN AS 365 N3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S RELIANCE COMMERCIAL RD DEALERS LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-NIT",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "SIKORSKY S-76C",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S RELIANCE COMMERCIAL RD DEALERS LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-NMA",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "SIKORSKY S-76C",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S RELIANCE COMMERCIAL RD DEALERS LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-KDA",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "BEECHCRAFT 1900D AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S RELIANCE COMMERCIAL RD DEALERS LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-AKU",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "FALCON 900EX",
+   "yearOfManufacture": null,
+   "owner": "M/S CORP AIRCRAFT LEASING COMPANY LTD",
+   "lessor": "M/S INVESTEC INTERNATIONAL LIMITED",
+   "operator": "M/S RELIANCE COMMERCIAL DEALERS LIMITED RD",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ISH",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "FALCON 900EX AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S INVESTEC INTERNATIONAL LIMITED",
+   "operator": "M/S RELIANCE COMMERCIAL DEALERS LIMITED RD",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IAH",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-115",
+   "yearOfManufacture": null,
+   "owner": "M/S AIRCRAFT RENTAL LEASING LIMITED",
+   "lessor": "M/S INVESTEC INTERNATIONAL LIMITED",
+   "operator": "M/S RELIANCE COMMERCIAL DEALERS LIMITED RD",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-HMA",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "GLOBAL EXPRESS XRS BD700-1A-10",
+   "yearOfManufacture": null,
+   "owner": "M/S CORP AIRCRAFT LEASING COMPANY LTD",
+   "lessor": "M/S INVESTEC INTERNATIONAL LIMITED",
+   "operator": "M/S RELIANCE COMMERCIAL DEALERS LIMITED RD",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-DHA",
+   "msn": null,
+   "dateOfRegistration": "2011-01-13",
+   "dateOfDeregistration": null,
+   "date": "2011-01-13",
+   "kind": "owner-change",
+   "type": "BOMBARDIER BD700-1A-10",
+   "yearOfManufacture": null,
+   "owner": "M/S CORP AIRCRAFT LEASING COMPANY LTD",
+   "lessor": "; M/S INVESTEC (IRELAND) ND LIMITED",
+   "operator": "M/S RELIANCE COMMERCIAL DEALERS LIMITED RD",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-SGP",
+   "msn": null,
+   "dateOfRegistration": "2011-01-24",
+   "dateOfDeregistration": null,
+   "date": "2011-01-24",
+   "kind": "owner-change",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S SANMAR FOUNDRIES LIMITED",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-PLS",
+   "msn": null,
+   "dateOfRegistration": "2011-01-25",
+   "dateOfDeregistration": null,
+   "date": "2011-01-25",
+   "kind": "owner-change",
+   "type": "BELL 206 L-4",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S GLOBAL",
+   "operator": "M/S PUNJ LLOYD AVIATION LTD",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-AAY",
+   "msn": null,
+   "dateOfRegistration": "2010-01-28",
+   "dateOfDeregistration": null,
+   "date": "2010-01-28",
+   "kind": "owner-change",
+   "type": "CESSNA 172P",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S GOVERNMENT AVIATION TRAINING INSTITUTE",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-TAU",
+   "msn": null,
+   "dateOfRegistration": "2010-01-31",
+   "dateOfDeregistration": null,
+   "date": "2010-01-31",
+   "kind": "owner-change",
+   "type": "ROBINSON R- 44 RAVEN II",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INTERNATIONAL HELICOPTER LEASING LLC",
+   "operator": "M/S TURBO AVIATION PVT. LTD",
+   "source": {
+    "file": "CofR Change-Jan11.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/CofR%20Change-Jan11.pdf",
+    "page": 6
+   }
+  }
+ ],
+ "dropped": []
+}

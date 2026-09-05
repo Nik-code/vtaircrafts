@@ -1,0 +1,227 @@
+{
+ "file": "dereg(Aug12-Nov12).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+ "from": "2012-08-01",
+ "to": "2012-11-30",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-SIU",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-08-02",
+   "date": "2012-08-02",
+   "kind": "deregistration",
+   "type": "BOEING 737- 75R BEECH KING AIR C-90A BELL 206L3 BOEING 737-700 BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S NORTH AMERICAN AIRCRAFT HIRE CO",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-DKK",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-09-05",
+   "date": "2012-09-05",
+   "kind": "deregistration",
+   "type": "AIRBUS A320 ATR 72-212A BELL 407 ATR 72-212A HAWKER 850XP",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S CELESTIAL AVIATION TRADING 9 LIMITED",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KAJ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-09-19",
+   "date": "2012-09-19",
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "M/S KF TURBO LEASING LIMITED",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JUM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-09-27",
+   "date": "2012-09-27",
+   "kind": "deregistration",
+   "type": "GULFSTREAM 200",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S EUROPEAN PROJECTS & AVIATION LTD",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-RIL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-09-28",
+   "date": "2012-09-28",
+   "kind": "deregistration",
+   "type": "BELL 407 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S RELIANCE NATURAL RESOURCES LIMITED",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-SIV",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-10-22",
+   "date": "2012-10-22",
+   "kind": "deregistration",
+   "type": "BOEING 737-700",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S BAVARIA INTERNATIONAL AIRCRAFT LEASING GMB",
+   "operator": "M/S JET LITE (INDIA) LTD",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-MIA",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-10-23",
+   "date": "2012-10-23",
+   "kind": "deregistration",
+   "type": "AIRBUS A320 ENSTROM 480B",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-TEL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-10-29",
+   "date": "2012-10-29",
+   "kind": "deregistration",
+   "type": "BEECH JET 400 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "SHRI K.C.G. VERGHESE",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JCB",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-11-12",
+   "date": "2012-11-12",
+   "kind": "deregistration",
+   "type": "BOEING 737-800 MD-600N ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S NORTH AMERICAN AIRCRAFT HIRE CO. LTD",
+   "operator": "M/S JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-EUO",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-11-19",
+   "date": "2012-11-19",
+   "kind": "deregistration",
+   "type": "CESSNA 152 CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S NORTH",
+   "operator": "MR. K.C.G. VERGHESE",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JGB",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-11-26",
+   "date": "2012-11-26",
+   "kind": "deregistration",
+   "type": "BOEING 737-75R",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) PVT. LTD",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-INE",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-11-30",
+   "date": "2012-11-30",
+   "kind": "deregistration",
+   "type": "AIRBUS 320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S CELESTIAL AVIATION TRADING 9 LTD",
+   "operator": "M/S INTERGLOBE AVIATION LTD",
+   "source": {
+    "file": "dereg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Aug12-Nov12).pdf",
+    "page": 5
+   }
+  }
+ ],
+ "dropped": []
+}

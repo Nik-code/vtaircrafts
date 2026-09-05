@@ -1,0 +1,3110 @@
+{
+ "file": "ChangeOwn(Feb11-Sep11).pdf",
+ "kind": "owner-change",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+ "from": "2011-02-01",
+ "to": "2011-09-30",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-STV",
+   "msn": null,
+   "dateOfRegistration": "2011-02-10",
+   "dateOfDeregistration": null,
+   "date": "2011-02-10",
+   "kind": "owner-change",
+   "type": "BOMBARDIER BD-700-1A10 (GLOBAL",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "SUN TV NETWORK LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-BRS",
+   "msn": null,
+   "dateOfRegistration": "2011-02-22",
+   "dateOfDeregistration": null,
+   "date": "2011-02-22",
+   "kind": "owner-change",
+   "type": "EXPRESS GULFSTREAM GV SP(G-550)",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S INDALCO INDUSTRIES LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-GFD",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "POWERED HANG GLIDER CRUISER",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INV 310",
+   "operator": "M/S SUKET ADVENTURE FUNDATION",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-EJG",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "AIRBUS 310-304",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-EJH",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "AIRBUS 310-304",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INV 310 LIMITED",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-EJI",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "AIRBUS 310-304",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INV 310 LIMITED",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-EJJ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "AIRBUS 310-304",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INV 310 LIMITED",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-EJK",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "AIRBUS 310-304",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INV 310 LIMITED",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-EJL",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "AIRBUS 310-304",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INV 310 LIMITED",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-EQS",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "AIRBUS 310-304",
+   "yearOfManufacture": null,
+   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-EQT",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "AIRBUS 310-304",
+   "yearOfManufacture": null,
+   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ALJ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ALK",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S GOLDEN STATE AIRCRAFT LLC",
+   "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ALL",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S GOLDEN STATE AIRCRAFT LLC",
+   "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ALM",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S FOUR LIONS AIRCRAFT LLC",
+   "lessor": "M/S ULSTRE AVIATION TH LEASING LTD",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ALN",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S FOUR LIONS AIRCRAFT LLC",
+   "lessor": "M/S ULSTRE AVIATION LEASING LTD",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ALO",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ALP",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ALQ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ALR",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-ALS",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-ALT",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-ALU",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-337ER",
+   "yearOfManufacture": null,
+   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-ESP",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 747-437",
+   "yearOfManufacture": null,
+   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-ESO",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 747-437",
+   "yearOfManufacture": null,
+   "owner": "M/S INV 747-320 LEASING COMPANY",
+   "lessor": "M/S INVESTEC INTERNATIONAL LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-ESN",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 747-437",
+   "yearOfManufacture": null,
+   "owner": "M/S INV 747-320 LEASING COMPANY",
+   "lessor": "M/S INVESTEC INTERNATIONAL LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-ALA",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": "M/S GOLDEN STATE AIRCRAFT LLC",
+   "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-ALB",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": "M/S GOLDEN STATE AIRCRAFT LLC",
+   "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-ALC",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": "M/S GOLDEN STATE AIRCRAFT LLC",
+   "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-ALC",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": "M/S GOLDEN STATE AIRCRAFT LLC",
+   "lessor": "M/S LEINSTAR AVIATION LEASING LTD",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-ALE",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": "M/S FOUR LIONS AIRCRAFT LLC",
+   "lessor": "M/S ULSTRE AVIATION TH LEASING LTD",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-ALF",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-ALG",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": "M/S KAI TING AIRCRAFT LLC",
+   "lessor": "M/S MUNSTER AVIATION TH LEASING LTD",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-ALH",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 777-237LR",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S MUNSTER AVIATION LEASING LTD",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-EVA",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 747-437",
+   "yearOfManufacture": null,
+   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-EVB",
+   "msn": null,
+   "dateOfRegistration": "2011-02-23",
+   "dateOfDeregistration": null,
+   "date": "2011-02-23",
+   "kind": "owner-change",
+   "type": "BOEING 747-437",
+   "yearOfManufacture": null,
+   "owner": "/OPEARTOR: M/S AIR INDIA LIMITED",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-EPB",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "INV 320 LIMITED C/O MAPLES FINANCE LIMITED",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-EPC",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-EPF",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "INV 320 LIMITED C/O MAPLES FINANCE LIMITED",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-EPG",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "INV 320 LIMITED C/O MAPLES FINANCE LIMITED",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-EPH",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "INV 320 LIMITED C/O MAPLES FINANCE LIMITED",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-EPI",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "INV 320 LIMITED C/O MAPLES FINANCE LIMITED",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-EPJ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "C/O MAPLES FINANCE LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-ESB",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "INV 747-320 LEASING COMPANY LIMITED",
+   "lessor": "INVESTEC INTERNATIONAL LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-EVO",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "GMT AIRCRAFT LEASING 12, LLC",
+   "lessor": "M/S ORIX AVIATION SYSTEMS LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-EVP",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-EVQ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "GMT AIRCRAFT LEASING 12, LLC",
+   "lessor": "M/S ORIX AVIATION SYSTEMS LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-EVR",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "GMT AIRCRAFT LEASING 12, LLC",
+   "lessor": "M/S ORIX AVIATION SYSTEMS LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-EYL",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S ORIX AVIATION SYSTEMS LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-EVS",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "M/S.JOHANNESBURG LIMITED",
+   "lessor": "M/S.VOLITO WORLDWIDE AB",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-EVT",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "M/S.JOHANNESBURG LIMITED",
+   "lessor": "M/S.VOLITO WORLDWIDE AB",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-EPD",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-EPM",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-EPS",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-EPK",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-EPL",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-EPO",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-EPP",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-EPQ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-EPR",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-ESA",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-ESC",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-ESD",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-ESE",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-ESF",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-ESG",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-ESH",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-ESI",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-ESJ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-ESK",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-ESL",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-EDC",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-214",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-EDD",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-214",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-EDE",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-214",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-EDF",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-214",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 18
+   }
+  },
+  {
+   "reg": "VT-SCB",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-100",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "CIT AEROSPACE INTERNATIONAL",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 19
+   }
+  },
+  {
+   "reg": "VT-SCC",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-100",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "CIT AEROSPACE INTERNATIONAL",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 19
+   }
+  },
+  {
+   "reg": "VT-SCD",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-100",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "ALS IRISH AIRCRAFT LEASING MSN 1668 LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 19
+   }
+  },
+  {
+   "reg": "VT-SCE",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-100",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "ALS IRISH AIRCRAFT LEASING MSN 1668 LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 19
+   }
+  },
+  {
+   "reg": "VT-SCF",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "BAYERN",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-SCG",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-SCH",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "BAYERN AIRCRAFT LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-SCJ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "BAYERN AIRCRAFT LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 20
+   }
+  },
+  {
+   "reg": "VT-SCI",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 21
+   }
+  },
+  {
+   "reg": "VT-SCK",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAN ORANGE LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 21
+   }
+  },
+  {
+   "reg": "VT-SCL",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAN ORANGE LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 21
+   }
+  },
+  {
+   "reg": "VT-SCM",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAN ORANGE LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 21
+   }
+  },
+  {
+   "reg": "VT-SCN",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-SCO",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAN ORANGE LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-SCP",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-SCQ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-SCR",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-SCS",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 22
+   }
+  },
+  {
+   "reg": "VT-SCT",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 23
+   }
+  },
+  {
+   "reg": "VT-SCU",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 23
+   }
+  },
+  {
+   "reg": "VT-SCV",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 23
+   }
+  },
+  {
+   "reg": "VT-SCW",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 23
+   }
+  },
+  {
+   "reg": "VT-SCX",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 319-112",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 23
+   }
+  },
+  {
+   "reg": "VT-PPA",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "BAYERN AIRCRAFT LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 23
+   }
+  },
+  {
+   "reg": "VT-PPB",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "BAYERN AIRCRAFT LIMITED",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 23
+   }
+  },
+  {
+   "reg": "VT-PPD",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "BAYERN AIRCRAFT LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 24
+   }
+  },
+  {
+   "reg": "VT-PPE",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "BAYERN AIRCRAFT LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 24
+   }
+  },
+  {
+   "reg": "VT-PPF",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211 AIRBUS",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "BAYERN AIRCRAFT LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 24
+   }
+  },
+  {
+   "reg": "VT-PPG",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "321-211",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 25
+   }
+  },
+  {
+   "reg": "VT-PPH",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAN ORANGE LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 25
+   }
+  },
+  {
+   "reg": "VT-PPI",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAN ORANGE LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 25
+   }
+  },
+  {
+   "reg": "VT-PPJ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAN ORANGE LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 25
+   }
+  },
+  {
+   "reg": "VT-PPK",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 26
+   }
+  },
+  {
+   "reg": "VT-PPL",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAN ORANGE LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 26
+   }
+  },
+  {
+   "reg": "VT-PPM",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "INDIAN ORANGE LIMITED",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 26
+   }
+  },
+  {
+   "reg": "VT-PPN",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 26
+   }
+  },
+  {
+   "reg": "VT-PPO",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 26
+   }
+  },
+  {
+   "reg": "VT-PPT",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "321-211 AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 27
+   }
+  },
+  {
+   "reg": "VT-PPU",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 27
+   }
+  },
+  {
+   "reg": "VT-PPV",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 27
+   }
+  },
+  {
+   "reg": "VT-PPW",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 27
+   }
+  },
+  {
+   "reg": "VT-PPX",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 321-211",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 27
+   }
+  },
+  {
+   "reg": "VT-IWA",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "AIRBUS 330-223",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "YAMASA FULL MOON CO. LTD",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 27
+   }
+  },
+  {
+   "reg": "VT-HAQ",
+   "msn": null,
+   "dateOfRegistration": "2011-02-24",
+   "dateOfDeregistration": null,
+   "date": "2011-02-24",
+   "kind": "owner-change",
+   "type": "DHRUV ALH- WHEEL VERSION OWNERSHIP/C OF",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 28
+   }
+  },
+  {
+   "reg": "VT-RLB",
+   "msn": null,
+   "dateOfRegistration": "2011-03-04",
+   "dateOfDeregistration": null,
+   "date": "2011-03-04",
+   "kind": "owner-change",
+   "type": "BELL 206",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S MALHOTRA HELIKOPTERS PVT. LTD",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 28
+   }
+  },
+  {
+   "reg": "VT-SWA",
+   "msn": null,
+   "dateOfRegistration": "2011-03-10",
+   "dateOfDeregistration": null,
+   "date": "2011-03-10",
+   "kind": "owner-change",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "; CONSOLIATED AVIATION MANAGEMENT CORPORATION LTD",
+   "operator": "SWAJAS AIR CHARTERS LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 28
+   }
+  },
+  {
+   "reg": "VT-SWC",
+   "msn": null,
+   "dateOfRegistration": "2011-03-10",
+   "dateOfDeregistration": null,
+   "date": "2011-03-10",
+   "kind": "owner-change",
+   "type": "CESSNA CITATION 560XL",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "; CONSOLIATED AVIATION MANAGEMENT CORPORATION LTD",
+   "operator": "SWAJAS AIR CHARTERS LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 28
+   }
+  },
+  {
+   "reg": "VT-SWE",
+   "msn": null,
+   "dateOfRegistration": "2011-03-10",
+   "dateOfDeregistration": null,
+   "date": "2011-03-10",
+   "kind": "owner-change",
+   "type": "BELL 412EP",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "AIRCON BEIBARA FZE",
+   "operator": "SWAJAS AIR CHARTERS LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 29
+   }
+  },
+  {
+   "reg": "VT-IGX",
+   "msn": null,
+   "dateOfRegistration": "2011-03-15",
+   "dateOfDeregistration": null,
+   "date": "2011-03-15",
+   "kind": "owner-change",
+   "type": "AIRBUS OWNERSHIP/C OF",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S AVOLON AEROSPACE AOE 4 LIMITED",
+   "operator": "M/s INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 29
+   }
+  },
+  {
+   "reg": "VT-SPH",
+   "msn": null,
+   "dateOfRegistration": "2011-04-01",
+   "dateOfDeregistration": null,
+   "date": "2011-04-01",
+   "kind": "owner-change",
+   "type": "BOEING 737-83N",
+   "yearOfManufacture": null,
+   "owner": "M/S INTERNATIONAL LEASE FINANCE CORPORATION",
+   "lessor": "M/S WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 29
+   }
+  },
+  {
+   "reg": "VT-SPO",
+   "msn": null,
+   "dateOfRegistration": "2011-04-20",
+   "dateOfDeregistration": null,
+   "date": "2011-04-20",
+   "kind": "owner-change",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S AVOLON AEROSPACE AOE 8 LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 30
+   }
+  },
+  {
+   "reg": "VT-SPP",
+   "msn": null,
+   "dateOfRegistration": "2011-04-25",
+   "dateOfDeregistration": null,
+   "date": "2011-04-25",
+   "kind": "owner-change",
+   "type": "BOEING 737-800 AIRCFAT",
+   "yearOfManufacture": null,
+   "owner": "M/S WELLS FARGO BANK",
+   "lessor": "M/S ALC WAREHOUSE IRELAND LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 30
+   }
+  },
+  {
+   "reg": "VT-JWQ",
+   "msn": null,
+   "dateOfRegistration": "2011-04-28",
+   "dateOfDeregistration": null,
+   "date": "2011-04-28",
+   "kind": "owner-change",
+   "type": "AIRBUS 330-202 AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "TRUSTEE , th",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 30
+   }
+  },
+  {
+   "reg": "VT-JWP",
+   "msn": null,
+   "dateOfRegistration": "2011-04-28",
+   "dateOfDeregistration": null,
+   "date": "2011-04-28",
+   "kind": "owner-change",
+   "type": "AIRBUS 330-202 AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "M/S WELLS FARGO BANK NORTHWEST, NATIONAL ASSOCIATION, NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 31
+   }
+  },
+  {
+   "reg": "VT-AXF",
+   "msn": null,
+   "dateOfRegistration": "2011-05-01",
+   "dateOfDeregistration": null,
+   "date": "2011-05-01",
+   "kind": "owner-change",
+   "type": "BOEING 737-800NG",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S ILFC AIRCARFT 73B -29369 LIMITED",
+   "operator": "M/S AIR INDIA ST CHARTERS LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 31
+   }
+  },
+  {
+   "reg": "VT-AXG",
+   "msn": null,
+   "dateOfRegistration": "2011-05-19",
+   "dateOfDeregistration": null,
+   "date": "2011-05-19",
+   "kind": "owner-change",
+   "type": "BOEING 737-800NG",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S ILFC AIRCARFT 73B -29369 LIMITED",
+   "operator": "M/S AIR INDIA ST CHARTERS LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 32
+   }
+  },
+  {
+   "reg": "VT-SRC",
+   "msn": null,
+   "dateOfRegistration": "2011-05-26",
+   "dateOfDeregistration": null,
+   "date": "2011-05-26",
+   "kind": "owner-change",
+   "type": "BEECHCRAFT SUPER KING AIR B-200",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M /S ORBIT AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 32
+   }
+  },
+  {
+   "reg": "VT-WAL",
+   "msn": null,
+   "dateOfRegistration": "2011-05-31",
+   "dateOfDeregistration": null,
+   "date": "2011-05-31",
+   "kind": "owner-change",
+   "type": "AIRBUS",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S OSPREY AIRCRAFT LEASING LIMITED (FIFTEEN)",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 32
+   }
+  },
+  {
+   "reg": "VT-WAK",
+   "msn": null,
+   "dateOfRegistration": "2011-05-31",
+   "dateOfDeregistration": null,
+   "date": "2011-05-31",
+   "kind": "owner-change",
+   "type": "AIRBUS",
+   "yearOfManufacture": null,
+   "owner": "M/S WARBA LTD",
+   "lessor": "M/S OSPREY AIRCRAFT LEASING LIMITED (FIFTEEN)",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 33
+   }
+  },
+  {
+   "reg": "VT-JSP",
+   "msn": null,
+   "dateOfRegistration": "2011-06-01",
+   "dateOfDeregistration": null,
+   "date": "2011-06-01",
+   "kind": "owner-change",
+   "type": "CESSNA CITATION AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "INDIA FLYSAFE AVIATION LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 33
+   }
+  },
+  {
+   "reg": "VT-HAQ",
+   "msn": null,
+   "dateOfRegistration": "2011-06-06",
+   "dateOfDeregistration": null,
+   "date": "2011-06-06",
+   "kind": "owner-change",
+   "type": "DHRUV ALH-WHEEL VERSION",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S HINDUSTAN AERONAUTICS LIMITED",
+   "operator": "M/S PAWAN HANS HELICOPTERS LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 34
+   }
+  },
+  {
+   "reg": "VT-BSM",
+   "msn": null,
+   "dateOfRegistration": "2011-06-14",
+   "dateOfDeregistration": null,
+   "date": "2011-06-14",
+   "kind": "owner-change",
+   "type": "DHRUV ALH-WHEEL VERSION",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S BORDER SECURITY FORCE ( AIR WING )BSF AIR WING, MINISTRY OF HOME AFFAIRS, CGO COMPLEX ,LODHI ROAD, NEW DELHI",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 34
+   }
+  },
+  {
+   "reg": "VT-BSN",
+   "msn": null,
+   "dateOfRegistration": "2011-06-14",
+   "dateOfDeregistration": null,
+   "date": "2011-06-14",
+   "kind": "owner-change",
+   "type": "DHRUV ALH-WHEEL VERSION",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S BORDER SECURITY FORCE ( AIR WING )BSF AIR WING, MINISTRY OF HOME AFFAIRS, CGO COMPLEX ,LODHI ROAD, NEW DELHI",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 34
+   }
+  },
+  {
+   "reg": "VT-BSP",
+   "msn": null,
+   "dateOfRegistration": "2011-06-14",
+   "dateOfDeregistration": null,
+   "date": "2011-06-14",
+   "kind": "owner-change",
+   "type": "DHRUV ALH-WHEEL VERSION",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S BORDER SECURITY FORCE ( AIR WING )BSF AIR WING, MINISTRY OF HOME AFFAIRS, CGO COMPLEX ,LODHI ROAD, NEW DELHI",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 34
+   }
+  },
+  {
+   "reg": "VT-TBA",
+   "msn": null,
+   "dateOfRegistration": "2011-06-21",
+   "dateOfDeregistration": null,
+   "date": "2011-06-21",
+   "kind": "owner-change",
+   "type": "BELL JET RANGER 206 III",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S FAST HELICHARTERS INDIA PRIVATE LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 34
+   }
+  },
+  {
+   "reg": "VT-RJD",
+   "msn": null,
+   "dateOfRegistration": "2011-06-21",
+   "dateOfDeregistration": null,
+   "date": "2011-06-21",
+   "kind": "owner-change",
+   "type": "CRJ 700",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S CILAN MSN 10048 LIMITED",
+   "operator": "M/S AIRLINE ALLIED SERVICES LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 34
+   }
+  },
+  {
+   "reg": "VT-SGQ",
+   "msn": null,
+   "dateOfRegistration": "2011-06-21",
+   "dateOfDeregistration": null,
+   "date": "2011-06-21",
+   "kind": "owner-change",
+   "type": "BOEING",
+   "yearOfManufacture": null,
+   "owner": "M/S NBB GARGANEY CO. LTD",
+   "lessor": "M/S VIRGODELL LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 35
+   }
+  },
+  {
+   "reg": "VT-WAE",
+   "msn": null,
+   "dateOfRegistration": "2011-06-29",
+   "dateOfDeregistration": null,
+   "date": "2011-06-29",
+   "kind": "owner-change",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S ALC WAREHOUSE IRELAND LIMITED",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 35
+   }
+  },
+  {
+   "reg": "VT-WAF",
+   "msn": null,
+   "dateOfRegistration": "2011-06-29",
+   "dateOfDeregistration": null,
+   "date": "2011-06-29",
+   "kind": "owner-change",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S RBS RD AEROSPACE LIMITED",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 35
+   }
+  },
+  {
+   "reg": "VT-WAG",
+   "msn": null,
+   "dateOfRegistration": "2011-06-29",
+   "dateOfDeregistration": null,
+   "date": "2011-06-29",
+   "kind": "owner-change",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S CELESTIAL",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 36
+   }
+  },
+  {
+   "reg": "VT-WAH",
+   "msn": null,
+   "dateOfRegistration": "2011-06-29",
+   "dateOfDeregistration": null,
+   "date": "2011-06-29",
+   "kind": "owner-change",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 36
+   }
+  },
+  {
+   "reg": "VT-WAI",
+   "msn": null,
+   "dateOfRegistration": "2011-06-29",
+   "dateOfDeregistration": null,
+   "date": "2011-06-29",
+   "kind": "owner-change",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S CELESTIAL ECA TRADING 2 LIMITED",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 36
+   }
+  },
+  {
+   "reg": "VT-WAJ",
+   "msn": null,
+   "dateOfRegistration": "2011-06-29",
+   "dateOfDeregistration": null,
+   "date": "2011-06-29",
+   "kind": "owner-change",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S CELESTIAL ECA TRADING 2 LIMITED",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 36
+   }
+  },
+  {
+   "reg": "VT-WAM",
+   "msn": null,
+   "dateOfRegistration": "2011-06-29",
+   "dateOfDeregistration": null,
+   "date": "2011-06-29",
+   "kind": "owner-change",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": "M/S ALAFCO IRISH AIRCRAFT LEASING TWO LIMITED",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 37
+   }
+  },
+  {
+   "reg": "VT-WAN",
+   "msn": null,
+   "dateOfRegistration": "2011-06-29",
+   "dateOfDeregistration": null,
+   "date": "2011-06-29",
+   "kind": "owner-change",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": "M/S WARBA LTD",
+   "lessor": "M/S OSPREY AIRCRAFT LEASING LIMITED (SIXTEEN)",
+   "operator": "M/S GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 37
+   }
+  },
+  {
+   "reg": "VT-HRB",
+   "msn": null,
+   "dateOfRegistration": "2011-07-01",
+   "dateOfDeregistration": null,
+   "date": "2011-07-01",
+   "kind": "owner-change",
+   "type": "CESSNA 172 AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "GOVERNMENT OF HARYANA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 38
+   }
+  },
+  {
+   "reg": "VT-HRC",
+   "msn": null,
+   "dateOfRegistration": "2011-07-01",
+   "dateOfDeregistration": null,
+   "date": "2011-07-01",
+   "kind": "owner-change",
+   "type": "CESSNA 172 AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "GOVERNMENT OF HARYANA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 38
+   }
+  },
+  {
+   "reg": "VT-HPC",
+   "msn": null,
+   "dateOfRegistration": "2011-07-05",
+   "dateOfDeregistration": null,
+   "date": "2011-07-05",
+   "kind": "owner-change",
+   "type": "ROBINSON RAVEN II",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S KARINA AIRLINES INTERNATIONAL LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 38
+   }
+  },
+  {
+   "reg": "VT-HNC",
+   "msn": null,
+   "dateOfRegistration": "2011-07-05",
+   "dateOfDeregistration": null,
+   "date": "2011-07-05",
+   "kind": "owner-change",
+   "type": "ROBINSON RAVEN II",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S KARINA AIRLINES INTERNATIONAL LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 38
+   }
+  },
+  {
+   "reg": "VT-OJS",
+   "msn": null,
+   "dateOfRegistration": "2011-07-05",
+   "dateOfDeregistration": null,
+   "date": "2011-07-05",
+   "kind": "owner-change",
+   "type": "ROBINSON RAVEN II",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S KARINA AIRLINES INTERNATIONAL LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 38
+   }
+  },
+  {
+   "reg": "VT-IGS",
+   "msn": null,
+   "dateOfRegistration": "2011-07-11",
+   "dateOfDeregistration": null,
+   "date": "2011-07-11",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s CRESCENT nd LEASING 5 LIMITED",
+   "operator": "M/s INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 39
+   }
+  },
+  {
+   "reg": "VT-IGT",
+   "msn": null,
+   "dateOfRegistration": "2011-07-11",
+   "dateOfDeregistration": null,
+   "date": "2011-07-11",
+   "kind": "owner-change",
+   "type": "AIRBUS 320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s CRESCENT LEASING 6 LIMITED",
+   "operator": "M/s INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 39
+   }
+  },
+  {
+   "reg": "VT-VAD",
+   "msn": null,
+   "dateOfRegistration": "2011-07-12",
+   "dateOfDeregistration": null,
+   "date": "2011-07-12",
+   "kind": "owner-change",
+   "type": "ECUREUIL 350 B3",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s SREI EQUIPMENT FINANCE PVT. LTD",
+   "operator": "M/s INDOCOPTERS PRIVATE LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 39
+   }
+  },
+  {
+   "reg": "VT-ATA",
+   "msn": null,
+   "dateOfRegistration": "2011-07-15",
+   "dateOfDeregistration": null,
+   "date": "2011-07-15",
+   "kind": "owner-change",
+   "type": "AGUSTA",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S AEROTECH AVIATION INDIA PVT. LTD",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 39
+   }
+  },
+  {
+   "reg": "VT-PNA",
+   "msn": null,
+   "dateOfRegistration": "2011-07-15",
+   "dateOfDeregistration": null,
+   "date": "2011-07-15",
+   "kind": "owner-change",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S AEROTECH AVIATION INDIA PVT. LTD",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 39
+   }
+  },
+  {
+   "reg": "VT-YUD",
+   "msn": null,
+   "dateOfRegistration": "2011-07-15",
+   "dateOfDeregistration": null,
+   "date": "2011-07-15",
+   "kind": "owner-change",
+   "type": "BEECH SUPER KING AIR",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S ORISSA STEVEDORES LIMITEDOSL TOWER, LINK ROAD, CUTTACK-753012",
+   "operator": null,
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 40
+   }
+  },
+  {
+   "reg": "VT-EMT",
+   "msn": null,
+   "dateOfRegistration": "2011-07-20",
+   "dateOfDeregistration": null,
+   "date": "2011-07-20",
+   "kind": "owner-change",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 40
+   }
+  },
+  {
+   "reg": "VT-ENH",
+   "msn": null,
+   "dateOfRegistration": "2011-07-20",
+   "dateOfDeregistration": null,
+   "date": "2011-07-20",
+   "kind": "owner-change",
+   "type": "CESSNA 152 AEROBAT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 40
+   }
+  },
+  {
+   "reg": "VT-ACN",
+   "msn": null,
+   "dateOfRegistration": "2011-07-20",
+   "dateOfDeregistration": null,
+   "date": "2011-07-20",
+   "kind": "owner-change",
+   "type": "CESSNA",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 40
+   }
+  },
+  {
+   "reg": "VT-ACW",
+   "msn": null,
+   "dateOfRegistration": "2011-07-20",
+   "dateOfDeregistration": null,
+   "date": "2011-07-20",
+   "kind": "owner-change",
+   "type": "CESSNA",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 40
+   }
+  },
+  {
+   "reg": "VT-EMZ",
+   "msn": null,
+   "dateOfRegistration": "2011-08-05",
+   "dateOfDeregistration": null,
+   "date": "2011-08-05",
+   "kind": "owner-change",
+   "type": "CESSNA AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 41
+   }
+  },
+  {
+   "reg": "VT-AZB",
+   "msn": null,
+   "dateOfRegistration": "2011-08-08",
+   "dateOfDeregistration": null,
+   "date": "2011-08-08",
+   "kind": "owner-change",
+   "type": "BELL 412",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S AZAL AZARBAIJAN AVIATION LTD",
+   "operator": "M/S GLOBAL VECTRA HELICORP LIMITED",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 41
+   }
+  },
+  {
+   "reg": "VT-AAE",
+   "msn": null,
+   "dateOfRegistration": "2011-08-29",
+   "dateOfDeregistration": null,
+   "date": "2011-08-29",
+   "kind": "owner-change",
+   "type": "CESSNA 152",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s TRANS BHARAT AVAITION (P) LTD",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 41
+   }
+  },
+  {
+   "reg": "VT-AMB",
+   "msn": null,
+   "dateOfRegistration": "2011-08-29",
+   "dateOfDeregistration": null,
+   "date": "2011-08-29",
+   "kind": "owner-change",
+   "type": "TECNAM P",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/s TRANS BHARAT AVAITION (P) LTD",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 41
+   }
+  },
+  {
+   "reg": "VT-AAY",
+   "msn": null,
+   "dateOfRegistration": "2011-09-06",
+   "dateOfDeregistration": null,
+   "date": "2011-09-06",
+   "kind": "owner-change",
+   "type": "CESSNA 172P AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s GLOBAL AVIANAUTICS LTD",
+   "operator": "M/s GOVERNMENT AVIATION TRAINING INSTITUTE",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 42
+   }
+  },
+  {
+   "reg": "VT-TED",
+   "msn": null,
+   "dateOfRegistration": "2011-09-06",
+   "dateOfDeregistration": null,
+   "date": "2011-09-06",
+   "kind": "owner-change",
+   "type": "CESSNA AIRCAFT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/s GLOBAL AVIANAUTICS LTD",
+   "operator": "M/s GOVERNMENT AVIATION TRAINING INSTITUTE",
+   "source": {
+    "file": "ChangeOwn(Feb11-Sep11).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Feb11-Sep11).pdf",
+    "page": 42
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "page": 17,
+   "reason": "no date for VT-SCA",
+   "text": "3279/3"
+  },
+  {
+   "page": 25,
+   "reason": "no date for VT-PPQ",
+   "text": "4003/2"
+  },
+  {
+   "page": 26,
+   "reason": "no date for VT-IWB",
+   "text": "3628/2"
+  },
+  {
+   "page": 27,
+   "reason": "no date for VT-SWD",
+   "text": "4050/2"
+  }
+ ]
+}

@@ -1,0 +1,422 @@
+{
+  "list": "scheduled",
+  "fetchedAt": "2026-09-05T13:18:25.188Z",
+  "captures": [
+    {
+      "timestamp": "20040228132342",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "VAUX7K2TVRAFBQCIVAFFN4YCDWBHHMLE",
+      "sha256": "33d647f2454322aac755a969ebbfd28a620a21b14323f930dd8dbe8ea941d0b5",
+      "bytes": 12606,
+      "file": "20040228132342.pdf"
+    },
+    {
+      "timestamp": "20050330231651",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "HUXRXNHZKKIZIHWSLWJIUAJBNZ3P2US7",
+      "sha256": "3747ced760f7b6ab9070ec2b3824a41b24f2f4310006bc5700daf8c823fd780b",
+      "bytes": 14632,
+      "file": "20050330231651.pdf"
+    },
+    {
+      "timestamp": "20050526235040",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "RC763IRTKTQOAWDQDRB23NSOIRIG5MVX",
+      "sha256": "482302b292e61b473430686c3cbbbd27707ba3654f27276ed12a03cec9bdd032",
+      "bytes": 17335,
+      "file": "20050526235040.pdf"
+    },
+    {
+      "timestamp": "20060103010514",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "DOB4GNFQKMOFJLP7OEZJZX65IWQ525T2",
+      "sha256": "6fae48d8bc6a847934b3bc64b38309c9aa5b14f6f599fb7a968a7d590505c212",
+      "bytes": 18706,
+      "file": "20060103010514.pdf"
+    },
+    {
+      "timestamp": "20060220060034",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "M76B52MM6G5XOQZFCKOLLTKWLEU6TI5B",
+      "sha256": "239edae05586a6825f26f60a1a95657ee69983c9a032bdd451957975be38e554",
+      "bytes": 20547,
+      "file": "20060220060034.pdf"
+    },
+    {
+      "timestamp": "20061013160310",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "JXIVQ3C4MMOCENBASMU7L5CRUSMNMQ7Q",
+      "sha256": "fa966f1a8babfdda852c66971625ef0b82b0461e50641be762b2ac8e9baec33b",
+      "bytes": 22983,
+      "file": "20061013160310.pdf"
+    },
+    {
+      "timestamp": "20061113054514",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "X6U5DWYFTRUIVVTZY6OQBXUJH544EPHM",
+      "sha256": "a64f5732b452b0f46becc282302d45ae0c4c627a8382b6f4bfedda115977e313",
+      "bytes": 23047,
+      "file": "20061113054514.pdf"
+    },
+    {
+      "timestamp": "20070709084759",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "3D263G65J6UCC2VOTVK33TSLNTY3PCPG",
+      "sha256": "ac8fc6ed5885e8da1f93c39704fc4da35a6ba721fa84209588bdbbc9dbd2e6b5",
+      "bytes": 30647,
+      "file": "20070709084759.pdf"
+    },
+    {
+      "timestamp": "20070926104826",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "K7RWVNM4GQNXNGS6E6BKR3XWIUOICRLC",
+      "sha256": "0f247900379d78522e101b14150608314c58f7af4dd9f34c675f751e3e605c9e",
+      "bytes": 27381,
+      "file": "20070926104826.pdf"
+    },
+    {
+      "timestamp": "20071128054650",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "PVWDWKNA6PST7AWCETYLQELLFLTWXBG3",
+      "sha256": "f2ac963bd2ab0fe67e130ae75080749be65bdab908e36018ea7803d67ff654ea",
+      "bytes": 29550,
+      "file": "20071128054650.pdf"
+    },
+    {
+      "timestamp": "20080229153739",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "SKNBBNH7IC6LJUWVJG2PWBWDWHMZSIK4",
+      "sha256": "241500d82c1988cb427e47aad50c08120c91594c998ccf6e7af6f51e650bd235",
+      "bytes": 29971,
+      "file": "20080229153739.pdf"
+    },
+    {
+      "timestamp": "20080529224223",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "VXXJFWIRRXQRHWSUSTG42LV6BYI7AKMP",
+      "sha256": "6f9c4bdce7ea996355dca91e3dd523319146a378ee4071a45dda851eee339066",
+      "bytes": 31274,
+      "file": "20080529224223.pdf"
+    },
+    {
+      "timestamp": "20090410021345",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "R6KLPNEVXWUGGLRYXC6KA6IROHL43HZN",
+      "sha256": "3eafee1f2d4b2d911a1ebde6a4cd67e54256642a4dda0b9cd57817750dfb78a5",
+      "bytes": 32195,
+      "file": "20090410021345.pdf"
+    },
+    {
+      "timestamp": "20090619062652",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "HC3L3YCHIHFH2OTHF22MVOL6T2DJANKF",
+      "sha256": "64b099ebf1c50c97ecfa0ddbee469a81ec92783208fc34d0041521d0dfbf7325",
+      "bytes": 38179,
+      "file": "20090619062652.pdf"
+    },
+    {
+      "timestamp": "20100920045028",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "H3MX3SW4T4G3W4IXMJH7UPEVBK4QLS5L",
+      "sha256": "6a10f35d234a6ea8576f5c5281f50d5199e99a081ecdbc40f6b314cbb171ebf3",
+      "bytes": 122307,
+      "file": "20100920045028.pdf"
+    },
+    {
+      "timestamp": "20101120090858",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "ZFTZEWOUXJKQDAHWHU5DILJURQIXN4RD",
+      "sha256": "74096962708c8cf09dbd4577efc81141cb1fe896030fadda5756e393dbc3a114",
+      "bytes": 103464,
+      "file": "20101120090858.pdf"
+    },
+    {
+      "timestamp": "20110721160233",
+      "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+      "digest": "OSQ3CXNQH7MVT3CHBCJMLW3LTC7RCNLP",
+      "sha256": "d575f9876ff87a521d5cdba308841e9ebc7fcc71170e1b270ff81baa22db06ed",
+      "bytes": 91019,
+      "file": "20110721160233.pdf"
+    },
+    {
+      "timestamp": "20111001172011",
+      "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+      "digest": "75337MG5DHBWAQTLBJSCMNURFMDRYYO6",
+      "sha256": "4fba59187127b1e5799b9ac471f905abd1cdb9910406090b67557e07321f3110",
+      "bytes": 91739,
+      "file": "20111001172011.pdf"
+    },
+    {
+      "timestamp": "20120208054257",
+      "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+      "digest": "XNVHRSLXWVJH3SRYJSGZF5EV7KNEFPSJ",
+      "sha256": "a440b93c172157ac1d1d9948833075c18cbc1e673e08d714e4a2915ce20df213",
+      "bytes": 92043,
+      "file": "20120208054257.pdf"
+    },
+    {
+      "timestamp": "20120314153422",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "5GK7ROL7S6MJJ4NQCHIYMKL4INIOZRBM",
+      "sha256": "01f046b924fc450c184a7c136b7039b2cfda2a1d0cfa9c014faad66136a2c406",
+      "bytes": 94351,
+      "file": "20120314153422.pdf"
+    },
+    {
+      "timestamp": "20130616025657",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "KVJ5WCRHO7VUXNAAZYUW74HK5EJSYS6S",
+      "sha256": "38e16d9d42ce33023bc57a84a2b51f09625f782512563179a4b1600dd8da229c",
+      "bytes": 37020,
+      "file": "20130616025657.pdf"
+    },
+    {
+      "timestamp": "20131006194446",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "SF7ZTBFNG6FFIEUA5CUUGY7EAUN24E5G",
+      "sha256": "51bdd52bff7f2fc5e53b64f1995bd590fa03e8bb0ab6b165cd942a0399328bc3",
+      "bytes": 31509,
+      "file": "20131006194446.pdf"
+    },
+    {
+      "timestamp": "20140326234701",
+      "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+      "digest": "ZFYS23CAOYB2L4DS43HGIOUUD4PHBSFD",
+      "sha256": "0a0cbfb2e0879866781c67e0f86c10cd370384017380e91b70a8171f3cfaa8b6",
+      "bytes": 32799,
+      "file": "20140326234701.pdf"
+    },
+    {
+      "timestamp": "20140724023351",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "AGV2YRV66JCE37KDIKDWZORE25WMA4TX",
+      "sha256": "9ba5540c9e6bb4f7f2b05d749844fa9a913a4c144836cea68a443441cf435639",
+      "bytes": 33389,
+      "file": "20140724023351.pdf"
+    },
+    {
+      "timestamp": "20160305195057",
+      "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+      "digest": "EGKLTS7W7OF66ZQWHJWTEAPMYTDVXAIT",
+      "sha256": "2a48ac23e73aa94a42140d0178e858bf4b7bf79db72d4ce4d028a638b325799a",
+      "bytes": 103450,
+      "file": "20160305195057.pdf"
+    },
+    {
+      "timestamp": "20170608222026",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "WUHT6QXEDDL6GMO2TWFNKAWXRIYQON6D",
+      "sha256": "5b149faaecfc1e417633309da6dd67baafc1b37c5177c1f590e8ad3c735af5e2",
+      "bytes": 104437,
+      "file": "20170608222026.pdf"
+    },
+    {
+      "timestamp": "20170919004837",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "YI2ZXKBPGA6ZC2S6I257OJIHAG3EXLJC",
+      "sha256": "07f31baa37f5692d2ff52435a03d199172c807378da7658c0f9d3c67f5ca257a",
+      "bytes": 100577,
+      "file": "20170919004837.pdf"
+    },
+    {
+      "timestamp": "20171030093927",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "JKFW4XIXOT3SIDBDJ7FXNGTW7S76A4XI",
+      "sha256": "a84d7086e0d69e4311889216535acb229e3a1f800a41714db6083973a4d7b2ef",
+      "bytes": 116860,
+      "file": "20171030093927.pdf"
+    },
+    {
+      "timestamp": "20180403153104",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "3ZJRHK5XEZ2UYNBLZLPXAE73YT2ZUNSO",
+      "sha256": "6c45f9f797dcd8f07fa818fe76984262c057be31a3abfd9129f0f6c69b5c0ba0",
+      "bytes": 105449,
+      "file": "20180403153104.pdf"
+    },
+    {
+      "timestamp": "20180714193133",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "FHFNNMQ5Y3FYMO5O77MNESAQESIBNDVI",
+      "sha256": "86a40511d08542c80b56caa5d9a0c4dead010d13f14bd5081f48f19a46088886",
+      "bytes": 425605,
+      "file": "20180714193133.pdf"
+    },
+    {
+      "timestamp": "20190329012150",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "EB3BHZHZJVY5RW6BUZ4DDPU3KEMWHCU2",
+      "sha256": "62dfcd23936e6bddd62171cb9ff012bcb225b72ee2fce61a284285385a290924",
+      "bytes": 325533,
+      "file": "20190329012150.pdf"
+    },
+    {
+      "timestamp": "20190819092524",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "KLHIC6WCEPCNYBQQEZLB55AEL4AE5FW5",
+      "sha256": "766b2874fee33a477ffbf97673dab74aad090294943ae5b89a0d985af698c358",
+      "bytes": 461124,
+      "file": "20190819092524.pdf"
+    },
+    {
+      "timestamp": "20200110214244",
+      "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+      "digest": "IZULO7WY3T4WHXL4EBZKDD3SDMHUH6KU",
+      "sha256": "677f1021e8abb37c94b7db890a2e1de75920f16efabc4fad699a6e242db6b8b7",
+      "bytes": 460973,
+      "file": "20200110214244.pdf"
+    },
+    {
+      "timestamp": "20230602080644",
+      "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "E7CF327ECG2NK7IDKE22V2DRFIEF2F2B",
+      "sha256": "1d35db7c5010aee64925e12d3241ac83260192a71fd26ed467e17d2911534ccc",
+      "bytes": 516805,
+      "file": "20230602080644.pdf"
+    },
+    {
+      "timestamp": "20231012222718",
+      "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "DZBPIBYBJO7RNCOHJLLMGMXKHZY36TFX",
+      "sha256": "78e00e44f4f702dde4581b580efaed639255dd6d3d874aa605dc43c96a823131",
+      "bytes": 506346,
+      "file": "20231012222718.pdf"
+    },
+    {
+      "timestamp": "20250219182207",
+      "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "DHYPPCSNRSW7OFY2Z2H5LC2MHMSKXIPP",
+      "sha256": "1d942bca65e8ba99e26e94ce2bdf71b2041c85a6804dc03e1d4b0790a8486e7d",
+      "bytes": 270039,
+      "file": "20250219182207.pdf"
+    },
+    {
+      "timestamp": "20250709154428",
+      "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "Y2WDIINWHFCF3PXSPWQIYOV7K2BO5ESQ",
+      "sha256": "bd1d5619955ae1f5d0724fbad646bdc2382ac14d645baf0018fb38c486383a64",
+      "bytes": 495520,
+      "file": "20250709154428.pdf"
+    },
+    {
+      "timestamp": "20250818031854",
+      "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "J2VTFDBXZOFKFDASBSLNBOCJ64XD6I3K",
+      "sha256": "5bb9cd7bdf91e57902471bb983a21501e4574cde41be818749d7f76849808423",
+      "bytes": 495277,
+      "file": "20250818031854.pdf"
+    },
+    {
+      "timestamp": "20260711060548",
+      "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "NHDPJIAIGKPHREERLDIXP6SF5P256L4A",
+      "sha256": "fb042b6cab544d942245ee7b0494c17301b41df42637f7bd893b2b309cd95550",
+      "bytes": 497679,
+      "file": "20260711060548.pdf"
+    }
+  ],
+  "skipped": [
+    {
+      "timestamp": "20200614082030",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "4TMBDWCQOHIUDWWKXRAV2MO46X3X2XEG",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20210725133834",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "U5L4LNN5IMWWKBJMM5PDHD2HOIZLUUAF",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20210731061432",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "U4YO7Y7I2LGG54YDNGJQLU4CM6NVBM74",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20210930090435",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/cargo/sch-oper1.pdf",
+      "digest": "QQN7NTHXNQXMVYW4RANCXB5A276QWVW6",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20211119084218",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "755O5KD5LVSULKXD2CXXM6V66ZUZ7RUS",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20220524152412",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "AH3EQ4SJJPUVNLTPSY3JK4AFIAOR6OW6",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20220619013615",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "UICVFR74MYW2Z4DNZSORW7SOZHQVU3PP",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20220630170441",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "ZQHKI4PWLLZDY7JMVSUQ2XFHHTXFGZ3L",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20230221022342",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "3L7MG6BS42CCD5FFFJ32M6J5CZIBDZMN",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20230402063452",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "4GRXMYZETKF4YY7YGWCUW3ONTGCAPCLD",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20231005134258",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "LZZJDFFIC6GTRO5WVLOKYPRDJEEHDQBT",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20241228205812",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "WETCTM4FXPHU2PM4CG22RSCLOYBVSWWN",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20250212202345",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/cargo/sch-oper1.pdf",
+      "digest": "LT23BJIP2HZZRFAS5LRROIHJIS7HQF25",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20250212213344",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "DZQAR3UFJ7XVJ23JHK3EE23BUJD4KZUE",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20250403234201",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/cargo/sch-oper1.pdf",
+      "digest": "54ZO352GETF63FOIWOXT3PEFYSVEL5L4",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20250426120248",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+      "digest": "2CACSQOHW4LDXJ4YZTYHDSE5YSKGDYZO",
+      "reason": "not a PDF"
+    },
+    {
+      "timestamp": "20250723034645",
+      "url": "https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/airOperation/certification/scheduled/cargo/sch-oper1.pdf",
+      "digest": "JFRN25FI4YU6ZQVK6KFKNZOXZAIHMQVS",
+      "reason": "not a PDF"
+    }
+  ]
+}

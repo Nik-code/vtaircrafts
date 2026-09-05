@@ -1,0 +1,1264 @@
+{
+ "file": "dereg(Dec12-Aug13).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+ "from": "2012-12-01",
+ "to": "2013-08-31",
+ "layout": "legacy",
+ "rows": [
+  {
+   "reg": "VT-AZX",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-03",
+   "date": "2012-12-03",
+   "kind": "deregistration",
+   "type": "ECUREUIL AS350B",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SAT",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-11",
+   "date": "2012-12-11",
+   "kind": "deregistration",
+   "type": "BELL 222 UT",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S INDIA INTERNATIONAL AIRWAYS (P) LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JCG",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-12",
+   "date": "2012-12-12",
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-LNT",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-12",
+   "date": "2012-12-12",
+   "kind": "deregistration",
+   "type": "BEECH SUPER KING AIR B200",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S LARSEN AND TOUBRO LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-DKI",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-20",
+   "date": "2012-12-20",
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JGM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-20",
+   "date": "2012-12-20",
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S CELESTIAL AVIATION TRADING 27 LTD",
+   "lessor": null,
+   "operator": "M/S FUTURA TRAVELS LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KFJ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-21",
+   "date": "2012-12-21",
+   "kind": "deregistration",
+   "type": "AIRBUS 319",
+   "yearOfManufacture": null,
+   "owner": "M/S BOC AVIATION PTE LTD",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KFW",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-26",
+   "date": "2012-12-26",
+   "kind": "deregistration",
+   "type": "AIRBUS A321-232",
+   "yearOfManufacture": null,
+   "owner": "M/S INTERNATIONAL LEASE FINANCE CORPORTATION",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-DNZ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-28",
+   "date": "2012-12-28",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INTERNATIONAL LEASE FINANCE CORPORTATION",
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KFT",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-28",
+   "date": "2012-12-28",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "M/S INTERNATIONAL LEASE FINANCE CORPORTATION",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KFX",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-28",
+   "date": "2012-12-28",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "M/S INTERNATIONAL LEASE FINANCE CORPORTATION",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-INF",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2012-12-31",
+   "date": "2012-12-31",
+   "kind": "deregistration",
+   "type": "AIRBUS A320 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "M/S CELESTIAL AVIATION TRADING 9 LTD",
+   "lessor": null,
+   "operator": "M/S INTERGLOBE AVIATION LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-SKY",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-01-03",
+   "date": "2013-01-03",
+   "kind": "deregistration",
+   "type": "LBL 150A LINDSTRAND",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S RELIANCE INFRASTRUCTURE AND",
+   "operator": "M/S E- FACTOR ADVENTURE TOURISM PVT LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-DDS",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-01-04",
+   "date": "2013-01-04",
+   "kind": "deregistration",
+   "type": "BEECH SUPER KINF AIR B-200",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S RELIANCE TRANSPORT & TRAVELS PVT LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-LAD",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-01-14",
+   "date": "2013-01-14",
+   "kind": "deregistration",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S DECCAN",
+   "operator": "M/S CRESCENT AIR CARGO SERVICES",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-DAW",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-01-15",
+   "date": "2013-01-15",
+   "kind": "deregistration",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S DECCAN CHARTERS LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-DAZ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-01-15",
+   "date": "2013-01-15",
+   "kind": "deregistration",
+   "type": "BELL 407",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S DECCAN CHARTERS LTD",
+   "operator": "M/S DECCAN CHARTERS LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SWD",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-01-22",
+   "date": "2013-01-22",
+   "kind": "deregistration",
+   "type": "BELL 412",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S AIRCON BEIBARS FZE",
+   "operator": "M/S SWAJAS AIR CHARTERS LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ADR",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-01-30",
+   "date": "2013-01-30",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INTERNATIONAL LEASE FINANCE CORPORTATION",
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-KAK",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-01-30",
+   "date": "2013-01-30",
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S KF TURBO LEASING LTD",
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-KFV",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-01-30",
+   "date": "2013-01-30",
+   "kind": "deregistration",
+   "type": "AIRBUS A320 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INTERNATIONAL LEASE FINANCE CORPORTATION",
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-VNJ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-02-01",
+   "date": "2013-02-01",
+   "kind": "deregistration",
+   "type": "EUROCOPTER MBB-BK-117C- 2",
+   "yearOfManufacture": null,
+   "owner": "M/S JINDAL STEEL & POWER LIMITED",
+   "lessor": null,
+   "operator": "M/S INDIA FLYSAFE AVIATION LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JGN",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-02-14",
+   "date": "2013-02-14",
+   "kind": "deregistration",
+   "type": "BOEING 737- 800",
+   "yearOfManufacture": null,
+   "owner": "CELESTIAL AVIATION TRADING 27 LTD",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ADU",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-02-15",
+   "date": "2013-02-15",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S ACG ACQUSITION (CAYMAN) 2874 LTD",
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-KFR",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-02-15",
+   "date": "2013-02-15",
+   "kind": "deregistration",
+   "type": "AIRBUS A321",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S WELLS FARGO BANK NORTHWEST",
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-HGJ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-02-25",
+   "date": "2013-02-25",
+   "kind": "deregistration",
+   "type": "BELL 212",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S CHC HELICOPTERS (BARBADOS) LTD",
+   "operator": "M/S UNITED HELICHARTERES PVT LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JWE",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-02-25",
+   "date": "2013-02-25",
+   "kind": "deregistration",
+   "type": "AIRBUS A330",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S INTERNATIONAL LEASE FINANCE CORPORTATION",
+   "operator": "M/S JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-STV",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-02-28",
+   "date": "2013-02-28",
+   "kind": "deregistration",
+   "type": "BOMBARDIER BD-700-1A10 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S SUN TV NETWORK LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-KFH",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-03-07",
+   "date": "2013-03-07",
+   "kind": "deregistration",
+   "type": "AIRBUS A319",
+   "yearOfManufacture": null,
+   "owner": "M/S WINGATE AVIATION LIMITED",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JNY",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-03-26",
+   "date": "2013-03-26",
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S NORTH AMERICAN AIRCRAFT HIRE CO. LTD. CALEDONIAN BANK & TRUST LTD., CALEDONIAN HOUSE, PO 1043, GRAND CAYMAN, CAYMAN ISLANDS",
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-KAG",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-03-26",
+   "date": "2013-03-26",
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S VELING NARAIN LIMITED",
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-KAH",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-03-26",
+   "date": "2013-03-26",
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S VELING SACHEEDANAND LIMITED",
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-BAV",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-03-28",
+   "date": "2013-03-28",
+   "kind": "deregistration",
+   "type": "GULFSTREAM 100 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S GRASIM INDUSTREIES LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-ERR",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-01",
+   "date": "2013-04-01",
+   "kind": "deregistration",
+   "type": "SA 316 B CHETAK",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S HINDUSTAN AERONAUTICS LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-FQA",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-04",
+   "date": "2013-04-04",
+   "kind": "deregistration",
+   "type": "ATR 72-202",
+   "yearOfManufacture": null,
+   "owner": "M/S FARNAIR SWITZERLAND",
+   "lessor": null,
+   "operator": "M/S QUIKJET CARGO AIRLINES PVT LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JNX",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-04",
+   "date": "2013-04-04",
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S NORTH AMERICAN AIRCRAFT HIRE CO. LTD",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-RCL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-04",
+   "date": "2013-04-04",
+   "kind": "deregistration",
+   "type": "BELL 412",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S RELIANCE TRANSPORT & TRAVELS PVT LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JCA",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-05",
+   "date": "2013-04-05",
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "M/S AIRCRAFT INTERNATIONAL RENTING (AIR) LIMITD RINEANNA HOUSE, SHANNON ZONE, SHANNON, CO. CLARE, IRELAND",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JJB",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-15",
+   "date": "2013-04-15",
+   "kind": "deregistration",
+   "type": "MI-172",
+   "yearOfManufacture": null,
+   "owner": "M/S SKY ONE FZE",
+   "lessor": null,
+   "operator": "M/S SWAJAS AIR CHARTERS LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-INI",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-18",
+   "date": "2013-04-18",
+   "kind": "deregistration",
+   "type": "AIRBUS 320-232",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "MSN 3086 LEASING LIMITED",
+   "operator": null,
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-KFL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-23",
+   "date": "2013-04-23",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "M/S DVB AVIATION FINANCE PTE LTD",
+   "lessor": null,
+   "operator": "M/S INTERGLOBE AVIATION LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-KFM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-23",
+   "date": "2013-04-23",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "M/S DVB AVIATION FINANCE PTE LTD",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JNZ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-04-29",
+   "date": "2013-04-29",
+   "kind": "deregistration",
+   "type": "BOEING 737-800 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": "M/S NORTH AMERICAN AIRCRAFT HIRE CO. LTD. CALEDONIAN BANK & TRUST LTD., CALEDONIAN HOUSE, PO 1043, GRAND CAYMAN, CAYMAN ISLANDS",
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-VJK",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-07",
+   "date": "2013-05-07",
+   "kind": "deregistration",
+   "type": "AIRBUS A330",
+   "yearOfManufacture": null,
+   "owner": "M/S MSN 874 LEASING LIMITED",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-VJO",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-07",
+   "date": "2013-05-07",
+   "kind": "deregistration",
+   "type": "AIRBUS A330",
+   "yearOfManufacture": null,
+   "owner": "M/S MSN 939 LEASING LIMITED",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-VJP",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-07",
+   "date": "2013-05-07",
+   "kind": "deregistration",
+   "type": "AIRBUS A330",
+   "yearOfManufacture": null,
+   "owner": "M/S MSN 946 LEASING LIMITED",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-DKJ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-21",
+   "date": "2013-05-21",
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "M/S TURBO 72-500 LEASING LIMITED",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-KML",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-21",
+   "date": "2013-05-21",
+   "kind": "deregistration",
+   "type": "CHALLENGER 850",
+   "yearOfManufacture": null,
+   "owner": "M/S AURORA AIRLINES LTD 4C THE ANCHORAGE, NORTH QUAY, WICKLOW, CO.WICKLOW",
+   "lessor": null,
+   "operator": "M/S SPAN AIR PVT LTD 1ST FLOOR, VIJAYA BUILDING BARAKHAMBA ROAD, NEW DELHI",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-PLS",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-21",
+   "date": "2013-05-21",
+   "kind": "deregistration",
+   "type": "BELL 206-L4",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S PUNJ LLOYD AVIATION LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-BDG",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-24",
+   "date": "2013-05-24",
+   "kind": "deregistration",
+   "type": "BOEING 737- 200",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S BLUE DART AVIATION LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-BDI",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-24",
+   "date": "2013-05-24",
+   "kind": "deregistration",
+   "type": "BOEING 737- 200",
+   "yearOfManufacture": null,
+   "owner": "M/S BLUE DART EXPRESS",
+   "lessor": null,
+   "operator": "M/S BLUE DART AVIATION LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JLC",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-29",
+   "date": "2013-05-29",
+   "kind": "deregistration",
+   "type": "BOEING 737- 700",
+   "yearOfManufacture": null,
+   "owner": "M/S INJET700 AIRCRAFT LEASING COMPANY",
+   "lessor": null,
+   "operator": "M/S JET LITE (INDIA) LTD. SIROYA CENTRE, SAHAR AIRPORT ROAD, ANDHERI (EAST), MUMBAI-400 099",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JLD",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-05-29",
+   "date": "2013-05-29",
+   "kind": "deregistration",
+   "type": "BOEING 737- 700 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "M/S INJET700 AIRCRAFT LEASING COMPANY",
+   "lessor": null,
+   "operator": "M/S JET LITE (INDIA) LTD. SIROYA CENTRE, SAHAR AIRPORT ROAD, ANDHERI (EAST), MUMBAI-400 099",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JNJ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-06-03",
+   "date": "2013-06-03",
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S AWAS IRELAND LEASING LIMITED",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JNM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-06-14",
+   "date": "2013-06-14",
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S AWAS IRELAND LEASING LIMITED",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-UHB",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-06-20",
+   "date": "2013-06-20",
+   "kind": "deregistration",
+   "type": "BELL 412 EP",
+   "yearOfManufacture": null,
+   "owner": "M/S GULF HELICOPTERS COMPANY",
+   "lessor": null,
+   "operator": "M/S UNITED HELICHARTERES PVT. LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-INJ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-06-21",
+   "date": "2013-06-21",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "M/S MSN 3159 LEASING LIMITED",
+   "lessor": null,
+   "operator": null,
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-KFB",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-06-28",
+   "date": "2013-06-28",
+   "kind": "deregistration",
+   "type": "AIRBUS A320 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "M/S JB2443 INC",
+   "lessor": null,
+   "operator": "M/S INTERGLOBE AVIATION LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-KFN",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-07-01",
+   "date": "2013-07-01",
+   "kind": "deregistration",
+   "type": "AIRBUS A321",
+   "yearOfManufacture": null,
+   "owner": "M/S PAFCO 2916 INC",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-KFP",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-07-01",
+   "date": "2013-07-01",
+   "kind": "deregistration",
+   "type": "AIRBUS A321",
+   "yearOfManufacture": null,
+   "owner": "M/S PAFCO 2919 INC",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-KFY",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-07-01",
+   "date": "2013-07-01",
+   "kind": "deregistration",
+   "type": "AIRBUS A321",
+   "yearOfManufacture": null,
+   "owner": "M/S AWAS IRELAND LEASING THREE LIMITED",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-KFZ",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-07-01",
+   "date": "2013-07-01",
+   "kind": "deregistration",
+   "type": "AIRBUS A321",
+   "yearOfManufacture": null,
+   "owner": "M/S AWAS IRELAND LEASING THREE LIMITED",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-ADV",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-07-09",
+   "date": "2013-07-09",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "M/S BOC AVIATION PTE LTD 8 SHENTON WAY,#18-01 SINGAPORE-068811",
+   "lessor": null,
+   "operator": "M/S KINGFISHER",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-ADW",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-07-09",
+   "date": "2013-07-09",
+   "kind": "deregistration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": "M/S BOC AVIATION PTE LTD 8 SHENTON WAY,#18-01 SINGAPORE-068811",
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-JBT",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-07-12",
+   "date": "2013-07-12",
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S CIT AEROSPACE INTERNATIONAL",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-INK",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-07-29",
+   "date": "2013-07-29",
+   "kind": "deregistration",
+   "type": "AIRBUS A320-232 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "M/S LARE LEASING LIMITED 4450, ATLANTIC AVENUE, WEST PARK, SHANNON, COUNTY CLARE, IRELAND",
+   "lessor": null,
+   "operator": "M/S INTERGLOBE AVIATION LTD",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-JWM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-08-05",
+   "date": "2013-08-05",
+   "kind": "deregistration",
+   "type": "AIRBUS 330",
+   "yearOfManufacture": null,
+   "owner": "M/S FLEET IRELAND AIRCRAFT LEASE 2007-A LTD",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-JCD",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-08-19",
+   "date": "2013-08-19",
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "M/S AIRCRAFT INTERNATIONAL RENTING (AIR) LTD. RINEANNA HOUSE, SHANNON ZONE, SHANNON, CO. CLARE, IRELAND",
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA) LIMITED",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-DAF",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-08-26",
+   "date": "2013-08-26",
+   "kind": "deregistration",
+   "type": "BEECH SUPER KING AIR B200",
+   "yearOfManufacture": null,
+   "owner": "/",
+   "lessor": null,
+   "operator": "M/S ABIR INFRASTRUCTURE PRIVATE LIMTED BLOCK -C, GROUND FLOOR, 14 FACTORY ROAD,NEAR SAFDARJUNG HOSPITAL, NEW DELHI-110 029",
+   "source": {
+    "file": "dereg(Dec12-Aug13).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/dereg(Dec12-Aug13).pdf",
+    "page": 14
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "page": 0,
+   "reason": "no date for VT-YUV",
+   "text": "4039"
+  },
+  {
+   "page": 12,
+   "reason": "no date for VT-ABT",
+   "text": "3868"
+  }
+ ]
+}
