@@ -1,0 +1,5360 @@
+[
+ {
+  "id": "indigo",
+  "name": "IndiGo",
+  "legalName": "Interglobe Aviation Ltd.",
+  "category": "scheduled",
+  "website": "https://www.goindigo.in",
+  "permit": {
+   "no": "S-19",
+   "validUntil": "2027-08-02"
+  },
+  "ops": "Passenger & Cargo",
+  "fleetCount": 403,
+  "statedCount": 425,
+  "types": [
+   {
+    "name": "Airbus A320neo",
+    "icao": "A20N",
+    "manufacturer": "Airbus",
+    "count": 171
+   },
+   {
+    "name": "Airbus A321neo",
+    "icao": "A21N",
+    "manufacturer": "Airbus",
+    "count": 159
+   },
+   {
+    "name": "ATR 72-600",
+    "icao": "AT76",
+    "manufacturer": "ATR",
+    "count": 44
+   },
+   {
+    "name": "Airbus A320",
+    "icao": "A320",
+    "manufacturer": "Airbus",
+    "count": 26
+   },
+   {
+    "name": "Airbus A321",
+    "icao": "A321",
+    "manufacturer": "Airbus",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 403,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 42769,
+  "heroReg": "VT-IAO"
+ },
+ {
+  "id": "air-india",
+  "name": "Air India",
+  "legalName": "Air India Ltd.",
+  "category": "scheduled",
+  "website": "https://www.airindia.com",
+  "permit": {
+   "no": "S-9",
+   "validUntil": "2028-06-30"
+  },
+  "ops": "Passenger & Cargo",
+  "fleetCount": 185,
+  "statedCount": 185,
+  "types": [
+   {
+    "name": "Airbus A320neo",
+    "icao": "A20N",
+    "manufacturer": "Airbus",
+    "count": 92
+   },
+   {
+    "name": "Boeing 787-8",
+    "icao": "B788",
+    "manufacturer": "Boeing",
+    "count": 26
+   },
+   {
+    "name": "Boeing 777-300ER",
+    "icao": "B77W",
+    "manufacturer": "Boeing",
+    "count": 18
+   },
+   {
+    "name": "Airbus A321",
+    "icao": "A321",
+    "manufacturer": "Airbus",
+    "count": 13
+   },
+   {
+    "name": "Airbus A321neo",
+    "icao": "A21N",
+    "manufacturer": "Airbus",
+    "count": 10
+   },
+   {
+    "name": "Boeing 787-9",
+    "icao": "B789",
+    "manufacturer": "Boeing",
+    "count": 9
+   },
+   {
+    "name": "Airbus A319",
+    "icao": "A319",
+    "manufacturer": "Airbus",
+    "count": 6
+   },
+   {
+    "name": "Airbus A350-900",
+    "icao": "A359",
+    "manufacturer": "Airbus",
+    "count": 6
+   },
+   {
+    "name": "Airbus A320",
+    "icao": "A320",
+    "manufacturer": "Airbus",
+    "count": 4
+   },
+   {
+    "name": "Boeing 777-200LR",
+    "icao": "B772",
+    "manufacturer": "Boeing",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 185,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 38159,
+  "heroReg": "VT-AEM"
+ },
+ {
+  "id": "air-india-express",
+  "name": "Air India Express",
+  "legalName": "Air India Express Ltd.",
+  "category": "scheduled",
+  "website": "https://www.airindiaexpress.com",
+  "permit": {
+   "no": "S-14",
+   "validUntil": "2028-04-21"
+  },
+  "ops": "Passenger & Cargo",
+  "fleetCount": 107,
+  "statedCount": 107,
+  "types": [
+   {
+    "name": "Boeing 737-8",
+    "icao": "B38M",
+    "manufacturer": "Boeing",
+    "count": 53
+   },
+   {
+    "name": "Boeing 737-800",
+    "icao": "B738",
+    "manufacturer": "Boeing",
+    "count": 26
+   },
+   {
+    "name": "Airbus A320neo",
+    "icao": "A20N",
+    "manufacturer": "Airbus",
+    "count": 14
+   },
+   {
+    "name": "Airbus A320",
+    "icao": "A320",
+    "manufacturer": "Airbus",
+    "count": 10
+   },
+   {
+    "name": "Airbus A321neo",
+    "icao": "A21N",
+    "manufacturer": "Airbus",
+    "count": 4
+   }
+  ],
+  "wings": {
+   "FW": 107,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 19336,
+  "heroReg": "VT-ATG"
+ },
+ {
+  "id": "spicejet",
+  "name": "SpiceJet",
+  "legalName": "Spice Jet Ltd.",
+  "category": "scheduled",
+  "website": "https://www.spicejet.com",
+  "permit": {
+   "no": "S-16",
+   "validUntil": "2028-05-16"
+  },
+  "ops": "Passenger & Cargo",
+  "fleetCount": 49,
+  "statedCount": 49,
+  "types": [
+   {
+    "name": "Dash 8 Q400",
+    "icao": "DH8D",
+    "manufacturer": "De Havilland Canada",
+    "count": 23
+   },
+   {
+    "name": "Boeing 737-800",
+    "icao": "B738",
+    "manufacturer": "Boeing",
+    "count": 12
+   },
+   {
+    "name": "Boeing 737-700",
+    "icao": "B737",
+    "manufacturer": "Boeing",
+    "count": 8
+   },
+   {
+    "name": "Boeing 737",
+    "icao": "B737",
+    "manufacturer": "Boeing",
+    "count": 3
+   },
+   {
+    "name": "Boeing 737-8",
+    "icao": "B38M",
+    "manufacturer": "Boeing",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 49,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 6010,
+  "heroReg": "VT-SFB"
+ },
+ {
+  "id": "akasa-air",
+  "name": "Akasa Air",
+  "legalName": "SNV Aviation Pvt. Ltd.",
+  "category": "scheduled",
+  "website": "https://www.akasaair.com",
+  "permit": {
+   "no": "S-33",
+   "validUntil": "2027-07-06"
+  },
+  "ops": "Passenger & Cargo",
+  "fleetCount": 41,
+  "statedCount": 41,
+  "types": [
+   {
+    "name": "Boeing 737-8",
+    "icao": "B38M",
+    "manufacturer": "Boeing",
+    "count": 23
+   },
+   {
+    "name": "Boeing 737-8-200",
+    "icao": "B38M",
+    "manufacturer": "Boeing",
+    "count": 18
+   }
+  ],
+  "wings": {
+   "FW": 41,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 7893,
+  "heroReg": "VT-YAI"
+ },
+ {
+  "id": "pawan-hans",
+  "name": "Pawan Hans",
+  "legalName": "Pawan Hans Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/1998",
+   "validUntil": "2029-03-14"
+  },
+  "ops": null,
+  "fleetCount": 36,
+  "statedCount": 36,
+  "types": [
+   {
+    "name": "Airbus Dauphin / H155",
+    "icao": "AS65",
+    "manufacturer": "Airbus Helicopters",
+    "count": 20
+   },
+   {
+    "name": "Sikorsky S-76",
+    "icao": "S76",
+    "manufacturer": "Sikorsky",
+    "count": 4
+   },
+   {
+    "name": "Bell 407",
+    "icao": "B407",
+    "manufacturer": "Bell",
+    "count": 3
+   },
+   {
+    "name": "SA 365N",
+    "icao": null,
+    "manufacturer": "Other helicopter",
+    "count": 3
+   },
+   {
+    "name": "Bell 206 JetRanger",
+    "icao": "B06",
+    "manufacturer": "Bell",
+    "count": 2
+   },
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "Mil Mi-172",
+    "icao": "MI17",
+    "manufacturer": "Mil",
+    "count": 1
+   },
+   {
+    "name": "HAL Dhruv",
+    "icao": "ALH",
+    "manufacturer": "HAL",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 36,
+   "B": 0
+  },
+  "seatsTotal": 402,
+  "heroReg": "VT-ELE"
+ },
+ {
+  "id": "global-vectra-helicorp",
+  "name": "Global Vectra Helicorp",
+  "legalName": "Global Vectra Helicorp Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#08/1998",
+   "validUntil": "2028-04-28"
+  },
+  "ops": null,
+  "fleetCount": 26,
+  "statedCount": 26,
+  "types": [
+   {
+    "name": "Bell 412",
+    "icao": "B412",
+    "manufacturer": "Bell",
+    "count": 13
+   },
+   {
+    "name": "Leonardo AW169",
+    "icao": "A169",
+    "manufacturer": "Leonardo",
+    "count": 7
+   },
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 4
+   },
+   {
+    "name": "AW 139",
+    "icao": "A139",
+    "manufacturer": "Leonardo",
+    "count": 1
+   },
+   {
+    "name": "Leonardo AW139",
+    "icao": "A139",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 26,
+   "B": 0
+  },
+  "seatsTotal": 279,
+  "heroReg": "VT-RRE"
+ },
+ {
+  "id": "alliance-air",
+  "name": "Alliance Air",
+  "legalName": "Alliance Air Aviation Ltd.",
+  "category": "scheduled",
+  "website": "https://www.allianceair.in",
+  "permit": {
+   "no": "S-8",
+   "validUntil": "2028-04-30"
+  },
+  "ops": "Passenger & Cargo",
+  "fleetCount": 21,
+  "statedCount": 21,
+  "types": [
+   {
+    "name": "ATR 72-600",
+    "icao": "AT76",
+    "manufacturer": "ATR",
+    "count": 18
+   },
+   {
+    "name": "ATR 42-600",
+    "icao": "AT46",
+    "manufacturer": "ATR",
+    "count": 2
+   },
+   {
+    "name": "DO 228-201 (UPGRADED)",
+    "icao": "D228",
+    "manufacturer": "Other",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 21,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 1372,
+  "heroReg": "VT-AII"
+ },
+ {
+  "id": "vsr-ventures",
+  "name": "VSR Ventures",
+  "legalName": "VSR Ventures Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2014",
+   "validUntil": "2028-04-20"
+  },
+  "ops": null,
+  "fleetCount": 17,
+  "statedCount": 17,
+  "types": [
+   {
+    "name": "Learjet",
+    "icao": "LJ45",
+    "manufacturer": "Bombardier",
+    "count": 7
+   },
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 5
+   },
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 4
+   },
+   {
+    "name": "Pilatus PC-12",
+    "icao": "PC12",
+    "manufacturer": "Pilatus",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 17,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 165,
+  "heroReg": "VT-DBL"
+ },
+ {
+  "id": "heligo-charters",
+  "name": "Heligo Charters",
+  "legalName": "Heligo Charters Pvt. Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2009",
+   "validUntil": "2029-02-10"
+  },
+  "ops": null,
+  "fleetCount": 16,
+  "statedCount": 16,
+  "types": [
+   {
+    "name": "Airbus H145",
+    "icao": "EC45",
+    "manufacturer": "Airbus Helicopters",
+    "count": 6
+   },
+   {
+    "name": "Leonardo AW139",
+    "icao": "A139",
+    "manufacturer": "Leonardo",
+    "count": 5
+   },
+   {
+    "name": "Bell 412",
+    "icao": "B412",
+    "manufacturer": "Bell",
+    "count": 3
+   },
+   {
+    "name": "AS 365 N3",
+    "icao": null,
+    "manufacturer": "Other helicopter",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 16,
+   "B": 0
+  },
+  "seatsTotal": 181,
+  "heroReg": "VT-HLD"
+ },
+ {
+  "id": "reliance-commercial-dealers",
+  "name": "Reliance Commercial Dealers",
+  "legalName": "Reliance Commercial Dealers Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2008",
+   "validUntil": "2029-01-14"
+  },
+  "ops": null,
+  "fleetCount": 15,
+  "statedCount": 15,
+  "types": [
+   {
+    "name": "Sikorsky S-76",
+    "icao": "S76",
+    "manufacturer": "Sikorsky",
+    "count": 2
+   },
+   {
+    "name": "Bombardier Global Express",
+    "icao": "GLEX",
+    "manufacturer": "Bombardier",
+    "count": 2
+   },
+   {
+    "name": "Bombardier Global 7500",
+    "icao": "GL7T",
+    "manufacturer": "Bombardier",
+    "count": 2
+   },
+   {
+    "name": "Airbus H160",
+    "icao": "H160",
+    "manufacturer": "Airbus Helicopters",
+    "count": 2
+   },
+   {
+    "name": "Airbus A319",
+    "icao": "A319",
+    "manufacturer": "Airbus",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon 900",
+    "icao": "F900",
+    "manufacturer": "Dassault",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Global 5000/5500/6000/6500",
+    "icao": "GL5T",
+    "manufacturer": "Bombardier",
+    "count": 1
+   },
+   {
+    "name": "AS 365 N3",
+    "icao": null,
+    "manufacturer": "Other helicopter",
+    "count": 1
+   },
+   {
+    "name": "EMBRAER 135ER",
+    "icao": "E135",
+    "manufacturer": "Embraer",
+    "count": 1
+   },
+   {
+    "name": "Boeing 737-9",
+    "icao": "B39M",
+    "manufacturer": "Boeing",
+    "count": 1
+   },
+   {
+    "name": "EMBRAER ERJ 170-200 LR",
+    "icao": "E170",
+    "manufacturer": "Embraer",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 10,
+   "RW": 5,
+   "B": 0
+  },
+  "seatsTotal": 252,
+  "heroReg": "VT-AHI"
+ },
+ {
+  "id": "star-air",
+  "name": "Star Air",
+  "legalName": "Ghodawat Enterprises Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": "https://www.starair.in",
+  "permit": {
+   "no": "#06/2014",
+   "validUntil": "2028-03-17"
+  },
+  "ops": null,
+  "fleetCount": 13,
+  "statedCount": 4,
+  "types": [
+   {
+    "name": "Embraer E170",
+    "icao": "E170",
+    "manufacturer": "Embraer",
+    "count": 8
+   },
+   {
+    "name": "Airbus H135",
+    "icao": "EC35",
+    "manufacturer": "Airbus Helicopters",
+    "count": 2
+   },
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   },
+   {
+    "name": "Airbus H145",
+    "icao": "EC45",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   },
+   {
+    "name": "Embraer ERJ 145",
+    "icao": "E145",
+    "manufacturer": "Embraer",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 9,
+   "RW": 4,
+   "B": 0
+  },
+  "seatsTotal": 681,
+  "heroReg": "VT-GSE"
+ },
+ {
+  "id": "air-charters-services",
+  "name": "Air Charters Services",
+  "legalName": "Air Charters Services Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#15/2008",
+   "validUntil": "2029-05-14"
+  },
+  "ops": null,
+  "fleetCount": 11,
+  "statedCount": 11,
+  "types": [
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 3
+   },
+   {
+    "name": "Cessna Citation XLS",
+    "icao": "C56X",
+    "manufacturer": "Cessna",
+    "count": 3
+   },
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon 7X",
+    "icao": "FA7X",
+    "manufacturer": "Dassault",
+    "count": 1
+   },
+   {
+    "name": "Cessna Citation CJ series",
+    "icao": "C25B",
+    "manufacturer": "Cessna",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon",
+    "icao": "FA6X",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 8,
+   "RW": 3,
+   "B": 0
+  },
+  "seatsTotal": 95,
+  "heroReg": "VT-BVV"
+ },
+ {
+  "id": "indo-pacific-aviation",
+  "name": "Indo Pacific Aviation",
+  "legalName": "Indo Pacific Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/1997",
+   "validUntil": "2028-10-14"
+  },
+  "ops": null,
+  "fleetCount": 10,
+  "statedCount": 10,
+  "types": [
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 4
+   },
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 2
+   },
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   },
+   {
+    "name": "Cessna Citation CJ series",
+    "icao": "C25B",
+    "manufacturer": "Cessna",
+    "count": 1
+   },
+   {
+    "name": "CESSNA T206H",
+    "icao": "T206",
+    "manufacturer": "Other",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Global 5000/5500/6000/6500",
+    "icao": "GL5T",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 8,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 80,
+  "heroReg": "VT-HUH"
+ },
+ {
+  "id": "jet-serve-aviation",
+  "name": "Jet Serve Aviation",
+  "legalName": "Jet Serve Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2017",
+   "validUntil": "2029-02-09"
+  },
+  "ops": null,
+  "fleetCount": 10,
+  "statedCount": 10,
+  "types": [
+   {
+    "name": "Beechcraft King Air C90",
+    "icao": "BE9L",
+    "manufacturer": "Beechcraft",
+    "count": 4
+   },
+   {
+    "name": "Robinson R44",
+    "icao": "R44",
+    "manufacturer": "Robinson",
+    "count": 3
+   },
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 2
+   },
+   {
+    "name": "Beechcraft King Air",
+    "icao": null,
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 5,
+   "RW": 5,
+   "B": 0
+  },
+  "seatsTotal": 53,
+  "heroReg": "VT-DEJ"
+ },
+ {
+  "id": "karnavati-aviation",
+  "name": "Karnavati Aviation",
+  "legalName": "Karnavati Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#22/2008",
+   "validUntil": "2028-08-06"
+  },
+  "ops": null,
+  "fleetCount": 10,
+  "statedCount": 10,
+  "types": [
+   {
+    "name": "Pilatus PC-24",
+    "icao": "PC24",
+    "manufacturer": "Pilatus",
+    "count": 5
+   },
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 3
+   },
+   {
+    "name": "Bombardier Global 5000/5500/6000/6500",
+    "icao": "GL5T",
+    "manufacturer": "Bombardier",
+    "count": 1
+   },
+   {
+    "name": "Leonardo AW169",
+    "icao": "A169",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 9,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 89,
+  "heroReg": "VT-AGL"
+ },
+ {
+  "id": "thumby-aviation",
+  "name": "Thumby Aviation",
+  "legalName": "Thumby Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2013",
+   "validUntil": "2029-03-24"
+  },
+  "ops": null,
+  "fleetCount": 10,
+  "statedCount": 10,
+  "types": [
+   {
+    "name": "Bell 412",
+    "icao": "B412",
+    "manufacturer": "Bell",
+    "count": 4
+   },
+   {
+    "name": "Bell 407",
+    "icao": "B407",
+    "manufacturer": "Bell",
+    "count": 3
+   },
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 10,
+   "B": 0
+  },
+  "seatsTotal": 83,
+  "heroReg": null
+ },
+ {
+  "id": "chipsan-aviation",
+  "name": "Chipsan Aviation",
+  "legalName": "Chipsan Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2017",
+   "validUntil": "2029-05-22"
+  },
+  "ops": null,
+  "fleetCount": 9,
+  "statedCount": 9,
+  "types": [
+   {
+    "name": "Airbus H160",
+    "icao": "H160",
+    "manufacturer": "Airbus Helicopters",
+    "count": 4
+   },
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "Airbus H135",
+    "icao": "EC35",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   },
+   {
+    "name": "Bell 407",
+    "icao": "B407",
+    "manufacturer": "Bell",
+    "count": 1
+   },
+   {
+    "name": "Airbus H145",
+    "icao": "EC45",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 9,
+   "B": 0
+  },
+  "seatsTotal": 56,
+  "heroReg": "VT-IBA"
+ },
+ {
+  "id": "deccan-charters",
+  "name": "Deccan Charters",
+  "legalName": "Deccan Charters Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#26/2008",
+   "validUntil": "2028-10-06"
+  },
+  "ops": null,
+  "fleetCount": 9,
+  "statedCount": 9,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "Bell 206 JetRanger",
+    "icao": "B06",
+    "manufacturer": "Bell",
+    "count": 1
+   },
+   {
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   },
+   {
+    "name": "Bell 429",
+    "icao": "B429",
+    "manufacturer": "Bell",
+    "count": 1
+   },
+   {
+    "name": "Sikorsky S-76",
+    "icao": "S76",
+    "manufacturer": "Sikorsky",
+    "count": 1
+   },
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 7,
+   "B": 0
+  },
+  "seatsTotal": 58,
+  "heroReg": "VT-AGP"
+ },
+ {
+  "id": "e-factor-adventure-tourism-p",
+  "name": "E-Factor Adventure Tourism (P)",
+  "legalName": "E-Factor Adventure Tourism (P) Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#1/2008",
+   "validUntil": "2029-01-01"
+  },
+  "ops": null,
+  "fleetCount": 9,
+  "statedCount": 9,
+  "types": [
+   {
+    "name": "Hot air balloon",
+    "icao": "BALL",
+    "manufacturer": "Hot air balloon",
+    "count": 9
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 0,
+   "B": 9
+  },
+  "seatsTotal": 96,
+  "heroReg": null
+ },
+ {
+  "id": "blue-dart-aviation",
+  "name": "Blue Dart Aviation",
+  "legalName": "Blue Dart Aviation Ltd.",
+  "category": "scheduled",
+  "website": "https://www.bluedart.com",
+  "permit": {
+   "no": "S-13",
+   "validUntil": "2027-12-30"
+  },
+  "ops": "Cargo",
+  "fleetCount": 8,
+  "statedCount": 8,
+  "types": [
+   {
+    "name": "Boeing 757",
+    "icao": "B752",
+    "manufacturer": "Boeing",
+    "count": 6
+   },
+   {
+    "name": "Boeing 737-800",
+    "icao": "B738",
+    "manufacturer": "Boeing",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 8,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 0,
+  "heroReg": "VT-BDN"
+ },
+ {
+  "id": "ar-airways",
+  "name": "AR Airways",
+  "legalName": "AR Airways Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2005",
+   "validUntil": "2029-05-11"
+  },
+  "ops": null,
+  "fleetCount": 7,
+  "statedCount": 7,
+  "types": [
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 5
+   },
+   {
+    "name": "Cessna Citation XLS",
+    "icao": "C56X",
+    "manufacturer": "Cessna",
+    "count": 1
+   },
+   {
+    "name": "Cessna Citation",
+    "icao": "C550",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 7,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 62,
+  "heroReg": "VT-CLB"
+ },
+ {
+  "id": "pinnacle-air",
+  "name": "Pinnacle Air",
+  "legalName": "Pinnacle Air Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#25/2008",
+   "validUntil": "2028-10-02"
+  },
+  "ops": null,
+  "fleetCount": 7,
+  "statedCount": 7,
+  "types": [
+   {
+    "name": "Beechcraft King Air C90",
+    "icao": "BE9L",
+    "manufacturer": "Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "Bell helicopter",
+    "icao": null,
+    "manufacturer": "Bell",
+    "count": 1
+   },
+   {
+    "name": "Partenavia P.68",
+    "icao": "P68",
+    "manufacturer": "Vulcanair / Partenavia",
+    "count": 1
+   },
+   {
+    "name": "Beechcraft Premier I",
+    "icao": "PRM1",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Gulfstream G200",
+    "icao": "GALX",
+    "manufacturer": "Gulfstream",
+    "count": 1
+   },
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 5,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 40,
+  "heroReg": "VT-KJS"
+ },
+ {
+  "id": "rajas-aerosports-and-adventures-air-safari",
+  "name": "Rajas Aerosports and Adventures (Air Safari)",
+  "legalName": "Rajas Aerosports and Adventures Private Limited (Air Safari)",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2024",
+   "validUntil": "2029-01-31"
+  },
+  "ops": null,
+  "fleetCount": 7,
+  "statedCount": 7,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 4
+   },
+   {
+    "name": "Hot air balloon",
+    "icao": "BALL",
+    "manufacturer": "Hot air balloon",
+    "count": 2
+   },
+   {
+    "name": "Cessna Citation XLS",
+    "icao": "C56X",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 4,
+   "B": 2
+  },
+  "seatsTotal": 43,
+  "heroReg": "VT-RJL"
+ },
+ {
+  "id": "arrow-aircrafts-sales-and-charters",
+  "name": "Arrow Aircrafts Sales & Charters",
+  "legalName": "Arrow Aircrafts Sales & Charters",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#4/2014",
+   "validUntil": "2028-03-10"
+  },
+  "ops": null,
+  "fleetCount": 6,
+  "statedCount": 6,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "Bell 407",
+    "icao": "B407",
+    "manufacturer": "Bell",
+    "count": 1
+   },
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   },
+   {
+    "name": "Leonardo AW169",
+    "icao": "A169",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 4,
+   "B": 0
+  },
+  "seatsTotal": 43,
+  "heroReg": null
+ },
+ {
+  "id": "aryan-aviation",
+  "name": "Aryan Aviation",
+  "legalName": "Aryan Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#13/2009",
+   "validUntil": "2029-04-07"
+  },
+  "ops": null,
+  "fleetCount": 6,
+  "statedCount": 6,
+  "types": [
+   {
+    "name": "STEMME S6RT",
+    "icao": null,
+    "manufacturer": "Other",
+    "count": 2
+   },
+   {
+    "name": "Bell 407",
+    "icao": "B407",
+    "manufacturer": "Bell",
+    "count": 2
+   },
+   {
+    "name": "EUROCOPTER AS355N",
+    "icao": null,
+    "manufacturer": "Other helicopter",
+    "count": 1
+   },
+   {
+    "name": "Airbus Dauphin / H155",
+    "icao": "AS65",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 4,
+   "B": 0
+  },
+  "seatsTotal": 26,
+  "heroReg": "VT-SIM"
+ },
+ {
+  "id": "fly91",
+  "name": "Fly91",
+  "legalName": "Just Udo Aviation Pvt. Ltd.",
+  "category": "scheduled",
+  "website": "https://www.fly91.in",
+  "permit": {
+   "no": "SC-10",
+   "validUntil": "2027-03-05"
+  },
+  "ops": "Passenger",
+  "fleetCount": 6,
+  "statedCount": 6,
+  "types": [
+   {
+    "name": "ATR 72-600",
+    "icao": "AT76",
+    "manufacturer": "ATR",
+    "count": 6
+   }
+  ],
+  "wings": {
+   "FW": 6,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 432,
+  "heroReg": "VT-FIC"
+ },
+ {
+  "id": "india-flysafe-aviation",
+  "name": "India Flysafe Aviation",
+  "legalName": "India Flysafe Aviation Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/2004",
+   "validUntil": "2028-12-14"
+  },
+  "ops": null,
+  "fleetCount": 6,
+  "statedCount": 6,
+  "types": [
+   {
+    "name": "Pilatus PC-12",
+    "icao": "PC12",
+    "manufacturer": "Pilatus",
+    "count": 2
+   },
+   {
+    "name": "Embraer ERJ 135 / Legacy",
+    "icao": "E135",
+    "manufacturer": "Embraer",
+    "count": 1
+   },
+   {
+    "name": "Leonardo AW139",
+    "icao": "A139",
+    "manufacturer": "Leonardo",
+    "count": 1
+   },
+   {
+    "name": "GRAND AGUSTA 109S",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Challenger 300/350",
+    "icao": "CL30",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 4,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 80,
+  "heroReg": "VT-JSA"
+ },
+ {
+  "id": "poonawalla-aviation",
+  "name": "Poonawalla Aviation",
+  "legalName": "Poonawalla Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2006",
+   "validUntil": "2029-06-25"
+  },
+  "ops": null,
+  "fleetCount": 6,
+  "statedCount": 6,
+  "types": [
+   {
+    "name": "Bombardier Global 5000/5500/6000/6500",
+    "icao": "GL5T",
+    "manufacturer": "Bombardier",
+    "count": 3
+   },
+   {
+    "name": "Airbus H145",
+    "icao": "EC45",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Global Express",
+    "icao": "GLEX",
+    "manufacturer": "Bombardier",
+    "count": 1
+   },
+   {
+    "name": "Airbus H160",
+    "icao": "H160",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 4,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 67,
+  "heroReg": "VT-CCA"
+ },
+ {
+  "id": "redbird-airways",
+  "name": "Redbird Airways",
+  "legalName": "Redbird Airways Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2020",
+   "validUntil": "2030-08-12"
+  },
+  "ops": null,
+  "fleetCount": 6,
+  "statedCount": 6,
+  "types": [
+   {
+    "name": "Beechcraft King Air C90",
+    "icao": "BE9L",
+    "manufacturer": "Beechcraft",
+    "count": 3
+   },
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Cessna Citation",
+    "icao": "C650",
+    "manufacturer": "Cessna",
+    "count": 1
+   },
+   {
+    "name": "Cessna Citation XLS",
+    "icao": "C56X",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 6,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 41,
+  "heroReg": "VT-BSL"
+ },
+ {
+  "id": "aviation-connectivity-and-infrastructure-developers-pvt",
+  "name": "Aviation Connectivity & Infrastructure Developers Pvt",
+  "legalName": "Aviation Connectivity & Infrastructure Developers Pvt.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2023",
+   "validUntil": "2028-07-02"
+  },
+  "ops": null,
+  "fleetCount": 5,
+  "statedCount": 5,
+  "types": [
+   {
+    "name": "Tecnam P2006T",
+    "icao": "P06T",
+    "manufacturer": "Tecnam",
+    "count": 5
+   }
+  ],
+  "wings": {
+   "FW": 5,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 15,
+  "heroReg": null
+ },
+ {
+  "id": "charlie-foxtrot-aviation-service",
+  "name": "Charlie Foxtrot Aviation Service",
+  "legalName": "Charlie Foxtrot Aviation Service Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2020",
+   "validUntil": "2030-12-27"
+  },
+  "ops": null,
+  "fleetCount": 5,
+  "statedCount": 5,
+  "types": [
+   {
+    "name": "Bombardier Challenger 600 series",
+    "icao": "CL60",
+    "manufacturer": "Bombardier",
+    "count": 5
+   }
+  ],
+  "wings": {
+   "FW": 5,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 51,
+  "heroReg": null
+ },
+ {
+  "id": "flaps-aviation",
+  "name": "Flaps Aviation",
+  "legalName": "Flaps Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2022",
+   "validUntil": "2027-09-20"
+  },
+  "ops": null,
+  "fleetCount": 5,
+  "statedCount": 5,
+  "types": [
+   {
+    "name": "Beechcraft King Air",
+    "icao": null,
+    "manufacturer": "Beechcraft",
+    "count": 4
+   },
+   {
+    "name": "Beechcraft King Air C90",
+    "icao": "BE9L",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 5,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 37,
+  "heroReg": "VT-RSL"
+ },
+ {
+  "id": "heritage-aviation",
+  "name": "Heritage Aviation",
+  "legalName": "Heritage Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2015",
+   "validUntil": "2029-06-30"
+  },
+  "ops": null,
+  "fleetCount": 5,
+  "statedCount": 5,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 3
+   },
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 5,
+   "B": 0
+  },
+  "seatsTotal": 32,
+  "heroReg": null
+ },
+ {
+  "id": "himalayan-heli-services",
+  "name": "Himalayan Heli Services",
+  "legalName": "Himalayan Heli Services Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2002",
+   "validUntil": "2029-01-17"
+  },
+  "ops": null,
+  "fleetCount": 5,
+  "statedCount": 5,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 5
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 5,
+   "B": 0
+  },
+  "seatsTotal": 29,
+  "heroReg": null
+ },
+ {
+  "id": "shivan-aadithya-air-services",
+  "name": "Shivan Aadithya Air Services",
+  "legalName": "Shivan Aadithya Air Services Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#05/2022",
+   "validUntil": "2027-07-20"
+  },
+  "ops": null,
+  "fleetCount": 5,
+  "statedCount": 5,
+  "types": [
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 3
+   },
+   {
+    "name": "Beechcraft Premier I",
+    "icao": "PRM1",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Airbus H160",
+    "icao": "H160",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 4,
+   "B": 0
+  },
+  "seatsTotal": 32,
+  "heroReg": null
+ },
+ {
+  "id": "sky-one-airways",
+  "name": "Sky One Airways",
+  "legalName": "Sky One Airways Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2013",
+   "validUntil": "2027-12-25"
+  },
+  "ops": null,
+  "fleetCount": 5,
+  "statedCount": 5,
+  "types": [
+   {
+    "name": "Mil Mi-172",
+    "icao": "MI17",
+    "manufacturer": "Mil",
+    "count": 5
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 5,
+   "B": 0
+  },
+  "seatsTotal": 123,
+  "heroReg": "VT-JJA"
+ },
+ {
+  "id": "aai-flight-inspection",
+  "name": "AAI Flight Inspection Unit",
+  "legalName": "Airports Authority of India",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2019",
+   "validUntil": "2029-05-14"
+  },
+  "ops": null,
+  "fleetCount": 4,
+  "statedCount": 4,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 3
+   },
+   {
+    "name": "Dornier 228",
+    "icao": "D228",
+    "manufacturer": "Dornier / HAL",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 4,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 25,
+  "heroReg": null
+ },
+ {
+  "id": "property-ventures-india",
+  "name": "Property Ventures (India)",
+  "legalName": "Property Ventures (India) Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2022",
+   "validUntil": "2027-04-18"
+  },
+  "ops": null,
+  "fleetCount": 4,
+  "statedCount": 4,
+  "types": [
+   {
+    "name": "Leonardo AW169",
+    "icao": "A169",
+    "manufacturer": "Leonardo",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   },
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   },
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 30,
+  "heroReg": "VT-RKP"
+ },
+ {
+  "id": "rithwik-green-power-and-aviation",
+  "name": "Rithwik Green Power and Aviation",
+  "legalName": "Rithwik Green Power and Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#12/2022",
+   "validUntil": "2027-10-25"
+  },
+  "ops": null,
+  "fleetCount": 4,
+  "statedCount": 4,
+  "types": [
+   {
+    "name": "Cessna Citation CJ series",
+    "icao": "C25B",
+    "manufacturer": "Cessna",
+    "count": 2
+   },
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 4,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 35,
+  "heroReg": "VT-SRE"
+ },
+ {
+  "id": "saarthi-airways",
+  "name": "Saarthi Airways",
+  "legalName": "Saarthi Airways Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/2010",
+   "validUntil": "2028-12-13"
+  },
+  "ops": null,
+  "fleetCount": 4,
+  "statedCount": 4,
+  "types": [
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   },
+   {
+    "name": "DHC-6 Twin Otter",
+    "icao": "DHC6",
+    "manufacturer": "De Havilland Canada",
+    "count": 1
+   },
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 26,
+  "heroReg": "VT-RSG"
+ },
+ {
+  "id": "span-air",
+  "name": "Span Air",
+  "legalName": "Span Air pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/1995",
+   "validUntil": "2028-11-23"
+  },
+  "ops": null,
+  "fleetCount": 4,
+  "statedCount": 4,
+  "types": [
+   {
+    "name": "Bell helicopter",
+    "icao": "B429",
+    "manufacturer": "Bell",
+    "count": 2
+   },
+   {
+    "name": "B 200 GT",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 29,
+  "heroReg": "VT-PRY"
+ },
+ {
+  "id": "syandan-aviation",
+  "name": "Syandan Aviation",
+  "legalName": "Syandan Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#11/2025",
+   "validUntil": "2030-09-10"
+  },
+  "ops": null,
+  "fleetCount": 4,
+  "statedCount": 4,
+  "types": [
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 2
+   },
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 4,
+   "B": 0
+  },
+  "seatsTotal": 28,
+  "heroReg": null
+ },
+ {
+  "id": "ventura-airconnect",
+  "name": "Ventura Airconnect",
+  "legalName": "Ventura Airconnect Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#08/2011",
+   "validUntil": "2028-06-08"
+  },
+  "ops": null,
+  "fleetCount": 4,
+  "statedCount": 4,
+  "types": [
+   {
+    "name": "Cessna 208 Grand Caravan",
+    "icao": "C208",
+    "manufacturer": "Cessna",
+    "count": 3
+   },
+   {
+    "name": "Pilatus PC-12",
+    "icao": "PC12",
+    "manufacturer": "Pilatus",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 4,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 35,
+  "heroReg": "VT-DEV"
+ },
+ {
+  "id": "zest-aviation",
+  "name": "Zest Aviation",
+  "legalName": "Zest Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2012",
+   "validUntil": "2028-06-27"
+  },
+  "ops": null,
+  "fleetCount": 4,
+  "statedCount": 4,
+  "types": [
+   {
+    "name": "Bombardier Global Express",
+    "icao": "GLEX",
+    "manufacturer": "Bombardier",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Challenger 600 series",
+    "icao": "CL60",
+    "manufacturer": "Bombardier",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Global 5000/5500/6000/6500",
+    "icao": "GL5T",
+    "manufacturer": "Bombardier",
+    "count": 1
+   },
+   {
+    "name": "Cessna Citation XLS",
+    "icao": "C56X",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 4,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 44,
+  "heroReg": "VT-TAZ"
+ },
+ {
+  "id": "afcom-holdings",
+  "name": "Afcom Holdings",
+  "legalName": "Afcom Holdings Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#12/2024",
+   "validUntil": "2029-12-11"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Boeing 737-800",
+    "icao": "B738",
+    "manufacturer": "Boeing",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 0,
+  "heroReg": "VT-AFJ"
+ },
+ {
+  "id": "dhillon-aviation",
+  "name": "Dhillon Aviation",
+  "legalName": "Dhillon Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#5/2005",
+   "validUntil": "2028-09-07"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Bell 206 JetRanger",
+    "icao": "B06",
+    "manufacturer": "Bell",
+    "count": 2
+   },
+   {
+    "name": "Bell 412",
+    "icao": "B412",
+    "manufacturer": "Bell",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 3,
+   "B": 0
+  },
+  "seatsTotal": 25,
+  "heroReg": "VT-IQB"
+ },
+ {
+  "id": "eha-aviation",
+  "name": "EHA Aviation",
+  "legalName": "EHA Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2022",
+   "validUntil": "2027-03-31"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   },
+   {
+    "name": "Cessna Citation XLS",
+    "icao": "C56X",
+    "manufacturer": "Cessna",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Global 5000/5500/6000/6500",
+    "icao": "GL5T",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 35,
+  "heroReg": "VT-DIA"
+ },
+ {
+  "id": "fairwinds-aviation",
+  "name": "Fairwinds Aviation",
+  "legalName": "Fairwinds Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2019",
+   "validUntil": "2029-01-10"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "CESSNA T206H",
+    "icao": null,
+    "manufacturer": "Other",
+    "count": 2
+   },
+   {
+    "name": "Cessna 206",
+    "icao": "C206",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 4,
+  "heroReg": null
+ },
+ {
+  "id": "forum-i-aviation",
+  "name": "Forum I Aviation",
+  "legalName": "Forum I Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2006",
+   "validUntil": "2029-03-20"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "Bombardier Challenger 600 series",
+    "icao": "CL60",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 26,
+  "heroReg": "VT-KNB"
+ },
+ {
+  "id": "golden-crane-aviation",
+  "name": "Golden Crane Aviation",
+  "legalName": "Golden Crane Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2023",
+   "validUntil": "2028-03-08"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 2
+   },
+   {
+    "name": "Sikorsky S-76",
+    "icao": "S76",
+    "manufacturer": "Sikorsky",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 3,
+   "B": 0
+  },
+  "seatsTotal": 18,
+  "heroReg": null
+ },
+ {
+  "id": "iic-technologies",
+  "name": "IIC Technologies",
+  "legalName": "IIC Technologies Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2015",
+   "validUntil": "2029-07-09"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Cessna 208 Grand Caravan",
+    "icao": "C208",
+    "manufacturer": "Cessna",
+    "count": 2
+   },
+   {
+    "name": "Cessna 206",
+    "icao": "C206",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 18,
+  "heroReg": "VT-ASU"
+ },
+ {
+  "id": "indiaone-air",
+  "name": "IndiaOne Air",
+  "legalName": "India One Air Private Limited",
+  "category": "scheduled",
+  "website": "https://www.indiaoneair.com",
+  "permit": {
+   "no": "SC-09",
+   "validUntil": "2027-06-23"
+  },
+  "ops": "Passenger",
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Cessna 208 Grand Caravan",
+    "icao": "C208",
+    "manufacturer": "Cessna",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 27,
+  "heroReg": "VT-HJS"
+ },
+ {
+  "id": "jhankar-aviation",
+  "name": "Jhankar Aviation",
+  "legalName": "Jhankar Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#13/2022",
+   "validUntil": "2027-11-10"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Beechcraft King Air C90",
+    "icao": "BE9L",
+    "manufacturer": "Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "BEECHCRAFT 300LW",
+    "icao": "BE30",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 21,
+  "heroReg": "VT-UPA"
+ },
+ {
+  "id": "kestrel-aviation",
+  "name": "Kestrel Aviation",
+  "legalName": "Kestrel Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#14/2008",
+   "validUntil": "2029-05-08"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 2
+   },
+   {
+    "name": "Leonardo AW119 Koala",
+    "icao": "A119",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 3,
+   "B": 0
+  },
+  "seatsTotal": 19,
+  "heroReg": null
+ },
+ {
+  "id": "maharaja-aviation",
+  "name": "Maharaja Aviation",
+  "legalName": "Maharaja Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2015",
+   "validUntil": "2027-08-26"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Robinson R44",
+    "icao": "R44",
+    "manufacturer": "Robinson",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 3,
+   "B": 0
+  },
+  "seatsTotal": 11,
+  "heroReg": null
+ },
+ {
+  "id": "sapphire-airlines",
+  "name": "Sapphire Airlines",
+  "legalName": "Sapphire Airlines Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2022",
+   "validUntil": "2027-04-12"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Leonardo AW169",
+    "icao": "A169",
+    "manufacturer": "Leonardo",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Challenger 300/350",
+    "icao": "CL30",
+    "manufacturer": "Bombardier",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Global 7500",
+    "icao": "GL7T",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 31,
+  "heroReg": null
+ },
+ {
+  "id": "simm-samm-airways",
+  "name": "Simm Samm Airways",
+  "legalName": "Simm Samm Airways Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#14/2009",
+   "validUntil": "2029-04-08"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Sikorsky S-76",
+    "icao": "S76",
+    "manufacturer": "Sikorsky",
+    "count": 2
+   },
+   {
+    "name": "Beechcraft Premier I",
+    "icao": "PRM1",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 24,
+  "heroReg": null
+ },
+ {
+  "id": "target-air-services",
+  "name": "Target Air Services",
+  "legalName": "Target Air Services Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#14/2023",
+   "validUntil": "2028-12-20"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Beechcraft King Air",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "HAWKER 400A XP",
+    "icao": "BE40",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 24,
+  "heroReg": null
+ },
+ {
+  "id": "trans-bharat-aviation",
+  "name": "Trans Bharat Aviation",
+  "legalName": "Trans Bharat Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/1991",
+   "validUntil": "2029-02-27"
+  },
+  "ops": null,
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Bell 407",
+    "icao": "B407",
+    "manufacturer": "Bell",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 3,
+   "B": 0
+  },
+  "seatsTotal": 18,
+  "heroReg": null
+ },
+ {
+  "id": "aerokalinga-aviation",
+  "name": "Aerokalinga Aviation",
+  "legalName": "Aerokalinga Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#17/2025",
+   "validUntil": "2030-10-15"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 21,
+  "heroReg": null
+ },
+ {
+  "id": "aman-aviation-and-aerospace-solutions",
+  "name": "Aman Aviation & Aerospace Solutions",
+  "legalName": "Aman Aviation & Aerospace Solutions Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#10/2012",
+   "validUntil": "2028-09-13"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Robinson R44",
+    "icao": "R44",
+    "manufacturer": "Robinson",
+    "count": 1
+   },
+   {
+    "name": "Airbus Dauphin / H155",
+    "icao": "AS65",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 9,
+  "heroReg": "VT-NRJ"
+ },
+ {
+  "id": "avocet-aviation",
+  "name": "Avocet Aviation",
+  "legalName": "Avocet Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#10/2023",
+   "validUntil": "2028-11-01"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Beechcraft Premier I",
+    "icao": "PRM1",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 12,
+  "heroReg": null
+ },
+ {
+  "id": "bativala-m-bhagvati-flying-charters",
+  "name": "Bativala M Bhagvati Flying Charters",
+  "legalName": "Bativala M Bhagvati Flying Charters LLP",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#05/2023",
+   "validUntil": "2028-05-31"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "CESSNA R172K",
+    "icao": null,
+    "manufacturer": "Other",
+    "count": 1
+   },
+   {
+    "name": "Cessna 172",
+    "icao": "C172",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "carewell-aviation-india",
+  "name": "Carewell Aviation India",
+  "legalName": "Carewell Aviation India Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#11/2023",
+   "validUntil": "2028-11-09"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   },
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 20,
+  "heroReg": null
+ },
+ {
+  "id": "dunes-aviation",
+  "name": "Dunes Aviation",
+  "legalName": "Dunes Aviation Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#08/2024",
+   "validUntil": "2029-10-13"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Cessna Citation CJ series",
+    "icao": "C25B",
+    "manufacturer": "Cessna",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Challenger",
+    "icao": "CL60",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 16,
+  "heroReg": "VT-NDA"
+ },
+ {
+  "id": "empire-aircraft-management-services",
+  "name": "Empire Aircraft Management Services",
+  "legalName": "Empire Aircraft Management Services Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#08/2017",
+   "validUntil": "2027-03-31"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 15,
+  "heroReg": "VT-FLX"
+ },
+ {
+  "id": "flysbs-aviation",
+  "name": "FLYSBS AVIATION",
+  "legalName": "FLYSBS AVIATION LIMITED",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#13/2023",
+   "validUntil": "2028-12-18"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 26,
+  "heroReg": null
+ },
+ {
+  "id": "freedom-charter-services",
+  "name": "Freedom Charter Services",
+  "legalName": "Freedom Charter Services Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2013",
+   "validUntil": "2029-01-28"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": null,
+  "types": [
+   {
+    "name": "HAWKER BEECHCRAFT 900XP",
+    "icao": "H25B",
+    "manufacturer": "Other",
+    "count": 1
+   },
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 22,
+  "heroReg": null
+ },
+ {
+  "id": "gmr-aviation",
+  "name": "GMR Aviation",
+  "legalName": "GMR Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2007",
+   "validUntil": "2028-08-06"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   },
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 22,
+  "heroReg": "VT-BRK"
+ },
+ {
+  "id": "himalyaputra-aviation",
+  "name": "Himalyaputra Aviation",
+  "legalName": "Himalyaputra Aviation Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#11/2012",
+   "validUntil": "2028-10-09"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "AGUSTA 109E",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 13,
+  "heroReg": null
+ },
+ {
+  "id": "hn-safal-aviation-hn",
+  "name": "HN Safal Aviation . HN",
+  "legalName": "HN Safal Aviation Pvt. Ltd. HN",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2019",
+   "validUntil": "2029-10-24"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Gulfstream",
+    "icao": "G150",
+    "manufacturer": "Gulfstream",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 15,
+  "heroReg": null
+ },
+ {
+  "id": "kairamya-aviation",
+  "name": "Kairamya Aviation",
+  "legalName": "Kairamya Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#19/2025",
+   "validUntil": "2029-11-24"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Cessna Citation CJ series",
+    "icao": "C25B",
+    "manufacturer": "Cessna",
+    "count": 1
+   },
+   {
+    "name": "G-150",
+    "icao": "G150",
+    "manufacturer": "Other",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 15,
+  "heroReg": "VT-BIP"
+ },
+ {
+  "id": "kan-aerofoil",
+  "name": "KAN Aerofoil",
+  "legalName": "KAN Aerofoil Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/2024",
+   "validUntil": "2029-10-16"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Bell helicopter",
+    "icao": "B407",
+    "manufacturer": "Bell",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 12,
+  "heroReg": null
+ },
+ {
+  "id": "kelachandra-logistics",
+  "name": "Kelachandra Logistics",
+  "legalName": "Kelachandra Logistics Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2019",
+   "validUntil": "2029-06-13"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Bell 429",
+    "icao": "B429",
+    "manufacturer": "Bell",
+    "count": 1
+   },
+   {
+    "name": "Embraer Phenom 100",
+    "icao": "E50P",
+    "manufacturer": "Embraer",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 9,
+  "heroReg": null
+ },
+ {
+  "id": "kyathi-climate-modification-consultants",
+  "name": "Kyathi Climate Modification Consultants",
+  "legalName": "Kyathi Climate Modification Consultants LLP",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2020",
+   "validUntil": "2030-12-27"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 12,
+  "heroReg": null
+ },
+ {
+  "id": "lakeworkoffice-club",
+  "name": "Lakeworkoffice Club",
+  "legalName": "Lakeworkoffice Club Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#10/2025",
+   "validUntil": "2030-09-09"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 13,
+  "heroReg": null
+ },
+ {
+  "id": "malhotra-helikopters",
+  "name": "Malhotra Helikopters",
+  "legalName": "Malhotra Helikopters Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2023",
+   "validUntil": "2028-01-11"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Bell 206 JetRanger",
+    "icao": "B06",
+    "manufacturer": "Bell",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 11,
+  "heroReg": "VT-RLB"
+ },
+ {
+  "id": "mytri-aviation",
+  "name": "Mytri Aviation",
+  "legalName": "Mytri Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2018",
+   "validUntil": "2028-07-02"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "EMBRAER 135BJ",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   },
+   {
+    "name": "EMBRAER 190-100ECJ (Lineage 1000)",
+    "icao": "E195",
+    "manufacturer": "Embraer",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 32,
+  "heroReg": null
+ },
+ {
+  "id": "navdurga-aviation",
+  "name": "Navdurga Aviation",
+  "legalName": "Navdurga Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#15/2022",
+   "validUntil": "2027-12-27"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Cessna 208 Grand Caravan",
+    "icao": "C208",
+    "manufacturer": "Cessna",
+    "count": 1
+   },
+   {
+    "name": "Cessna Citation XLS",
+    "icao": "C56X",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 16,
+  "heroReg": "VT-CSP"
+ },
+ {
+  "id": "pioneer-flying-academy",
+  "name": "Pioneer Flying Academy",
+  "legalName": "Pioneer Flying Academy Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/2015",
+   "validUntil": "2027-10-13"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Cessna 172",
+    "icao": "C172",
+    "manufacturer": "Cessna",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "quikjet",
+  "name": "Quikjet Cargo",
+  "legalName": "Quikjet Cargo Airlines Pvt. Ltd.",
+  "category": "scheduled",
+  "website": "https://www.quikjet.in",
+  "permit": {
+   "no": "S-34",
+   "validUntil": "2027-12-11"
+  },
+  "ops": "Cargo",
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Boeing 737-800",
+    "icao": "B738",
+    "manufacturer": "Boeing",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 0,
+  "heroReg": "VT-AAZ"
+ },
+ {
+  "id": "reliance-transport-and-travels",
+  "name": "Reliance Transport & Travels",
+  "legalName": "Reliance Transport & Travels Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2000",
+   "validUntil": "2028-09-27"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 23,
+  "heroReg": "VT-AAT"
+ },
+ {
+  "id": "rpsg-resources",
+  "name": "RPSG Resources",
+  "legalName": "RPSG Resources Pvt Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#08/2014",
+   "validUntil": "2028-06-25"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Bombardier Global Express",
+    "icao": "GLEX",
+    "manufacturer": "Bombardier",
+    "count": 1
+   },
+   {
+    "name": "Bombardier Global 7500",
+    "icao": "GL7T",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 29,
+  "heroReg": "VT-SHG"
+ },
+ {
+  "id": "saffron-strokes",
+  "name": "Saffron Strokes",
+  "legalName": "Saffron Strokes Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2024",
+   "validUntil": "2029-02-18"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Beechcraft Premier I",
+    "icao": "PRM1",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 12,
+  "heroReg": null
+ },
+ {
+  "id": "skyjets-international",
+  "name": "SkyJets International",
+  "legalName": "SkyJets International Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#05/2015",
+   "validUntil": "2029-07-02"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Bombardier Challenger 600 series",
+    "icao": "CL60",
+    "manufacturer": "Bombardier",
+    "count": 1
+   },
+   {
+    "name": "Cessna Citation CJ series",
+    "icao": "C25B",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 14,
+  "heroReg": "VT-NAB"
+ },
+ {
+  "id": "sreeji-aviation",
+  "name": "Sreeji Aviation",
+  "legalName": "Sreeji Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2023",
+   "validUntil": "2028-02-21"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 14,
+  "heroReg": null
+ },
+ {
+  "id": "tai-jets",
+  "name": "TAI Jets",
+  "legalName": "TAI Jets Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2025",
+   "validUntil": "2030-06-01"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Embraer Legacy 600/650",
+    "icao": "E35L",
+    "manufacturer": "Embraer",
+    "count": 1
+   },
+   {
+    "name": "Embraer Phenom 100",
+    "icao": "E50P",
+    "manufacturer": "Embraer",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 20,
+  "heroReg": null
+ },
+ {
+  "id": "tara-aviation-services",
+  "name": "Tara Aviation Services",
+  "legalName": "Tara Aviation Services Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2026",
+   "validUntil": "2031-02-11"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   },
+   {
+    "name": "Pilatus PC-12",
+    "icao": "PC12",
+    "manufacturer": "Pilatus",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 16,
+  "heroReg": "VT-TAT"
+ },
+ {
+  "id": "transworld-jets",
+  "name": "Transworld Jets",
+  "legalName": "Transworld Jets Pvt Ltd",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2024",
+   "validUntil": "2029-07-11"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Hawker-4000",
+    "icao": "HA4T",
+    "manufacturer": "Other",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 18,
+  "heroReg": "VT-TWJ"
+ },
+ {
+  "id": "united-helicharters",
+  "name": "United Helicharters",
+  "legalName": "United Helicharters Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2026",
+   "validUntil": "2031-02-19"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 2,
+   "B": 0
+  },
+  "seatsTotal": 13,
+  "heroReg": null
+ },
+ {
+  "id": "vijayanand-travels",
+  "name": "Vijayanand Travels",
+  "legalName": "Vijayanand Travels Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/2023",
+   "validUntil": "2028-09-14"
+  },
+  "ops": null,
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "G-150",
+    "icao": "G150",
+    "manufacturer": "Other",
+    "count": 1
+   },
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 19,
+  "heroReg": "VT-PLC"
+ },
+ {
+  "id": "aone-helicopters",
+  "name": "Aone Helicopters",
+  "legalName": "Aone Helicopters Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2026",
+   "validUntil": "2031-04-15"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Robinson R44",
+    "icao": "R44",
+    "manufacturer": "Robinson",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 3,
+  "heroReg": null
+ },
+ {
+  "id": "aurea-aviation",
+  "name": "Aurea Aviation",
+  "legalName": "Aurea Aviation Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2026",
+   "validUntil": "2031-03-29"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Pilatus PC-12",
+    "icao": "PC12",
+    "manufacturer": "Pilatus",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "avenor-aviation",
+  "name": "Avenor Aviation",
+  "legalName": "Avenor Aviation LLP",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#08/2026",
+   "validUntil": "2031-07-09"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft King Air",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 7,
+  "heroReg": null
+ },
+ {
+  "id": "aviation-division",
+  "name": "Aviation Division",
+  "legalName": "Raymond Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#05/1996",
+   "validUntil": "2029-01-28"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "b-g-shirke-construction-technology",
+  "name": "B.G. Shirke Construction Technology",
+  "legalName": "B.G. Shirke Construction Technology Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#10/2010",
+   "validUntil": "2028-12-21"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Bell helicopter",
+    "icao": null,
+    "manufacturer": "Bell",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "bajaj-aviation",
+  "name": "Bajaj Aviation",
+  "legalName": "Bajaj Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#14/2012",
+   "validUntil": "2028-12-10"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 10,
+  "heroReg": "VT-AYV"
+ },
+ {
+  "id": "baramati-agro",
+  "name": "Baramati Agro",
+  "legalName": "Baramati Agro Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#14/2025",
+   "validUntil": "2031-09-17"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Bell 407",
+    "icao": "B407",
+    "manufacturer": "Bell",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "bluecraft-aviation",
+  "name": "Bluecraft Aviation",
+  "legalName": "Bluecraft Aviation Pvt Ltd",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/2026",
+   "validUntil": "2031-07-15"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Cessna Citation CJ series",
+    "icao": "C25B",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 7,
+  "heroReg": "VT-DOV"
+ },
+ {
+  "id": "dadachanji-aviation",
+  "name": "Dadachanji Aviation",
+  "legalName": "Dadachanji Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#11/2024",
+   "validUntil": "2029-10-29"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "davangere-sugar-company",
+  "name": "Davangere Sugar Company",
+  "legalName": "Davangere Sugar Company Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#4/2012",
+   "validUntil": "2028-04-29"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "eih",
+  "name": "EIH",
+  "legalName": "EIH Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/1996",
+   "validUntil": "2029-08-01"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 9,
+  "heroReg": "VT-OBR"
+ },
+ {
+  "id": "emsos-aviation",
+  "name": "EMSOS Aviation",
+  "legalName": "EMSOS Aviation Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#11/2022",
+   "validUntil": "2027-10-11"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Cessna Citation CJ series",
+    "icao": "C25B",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 7,
+  "heroReg": "VT-ECG"
+ },
+ {
+  "id": "everdeliver-logistics",
+  "name": "Everdeliver Logistics",
+  "legalName": "Everdeliver Logistics Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2025",
+   "validUntil": "2030-01-23"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Pilatus PC-12",
+    "icao": "PC12",
+    "manufacturer": "Pilatus",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": null
+ },
+ {
+  "id": "falcon-aviation-services",
+  "name": "Falcon Aviation Services",
+  "legalName": "Falcon Aviation Services Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2024",
+   "validUntil": "2029-06-24"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Leonardo AW169",
+    "icao": "A169",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "fern-aviation-india",
+  "name": "Fern Aviation India",
+  "legalName": "Fern Aviation India Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#07/2017",
+   "validUntil": "2027-08-21"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 9,
+  "heroReg": "VT-JHP"
+ },
+ {
+  "id": "gsec-aviation",
+  "name": "GSEC Aviation",
+  "legalName": "GSEC Aviation Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#15/2025",
+   "validUntil": "2030-09-21"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Bombardier Challenger 600 series",
+    "icao": "CL60",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 10,
+  "heroReg": null
+ },
+ {
+  "id": "himanad-management-services",
+  "name": "Himanad Management Services",
+  "legalName": "Himanad Management Services",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#16/2025",
+   "validUntil": "2030-09-22"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Leonardo AW169",
+    "icao": "A169",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 7,
+  "heroReg": null
+ },
+ {
+  "id": "hyderabad-airlines",
+  "name": "Hyderabad Airlines",
+  "legalName": "Hyderabad Airlines Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#14/2022",
+   "validUntil": "2027-12-12"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "EC 135P3H",
+    "icao": "EC35",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "indocopters",
+  "name": "Indocopters",
+  "legalName": "Indocopters Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2006",
+   "validUntil": "2028-08-24"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "innxt-aviation",
+  "name": "Innxt Aviation",
+  "legalName": "Innxt Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2021",
+   "validUntil": "2026-10-25"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Airbus H135",
+    "icao": "EC35",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 5,
+  "heroReg": "VT-MHM"
+ },
+ {
+  "id": "irm",
+  "name": "IRM",
+  "legalName": "IRM Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/2014",
+   "validUntil": "2028-07-03"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Gulfstream G550",
+    "icao": "GLF5",
+    "manufacturer": "Gulfstream",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": null
+ },
+ {
+  "id": "jatayu",
+  "name": "Jatayu",
+  "legalName": "Golden Baritone Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#13/2025",
+   "validUntil": "2030-09-14"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Gulfstream G200",
+    "icao": "GALX",
+    "manufacturer": "Gulfstream",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 10,
+  "heroReg": null
+ },
+ {
+  "id": "joyalukkas-india",
+  "name": "Joyalukkas India",
+  "legalName": "Joyalukkas India Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#05/2025",
+   "validUntil": "2030-02-26"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 7,
+  "heroReg": null
+ },
+ {
+  "id": "kainos-aviation",
+  "name": "Kainos Aviation",
+  "legalName": "Kainos Aviation Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2024",
+   "validUntil": "2029-01-04"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Sikorsky S-76",
+    "icao": "S76",
+    "manufacturer": "Sikorsky",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": null
+ },
+ {
+  "id": "kakini-enterprises",
+  "name": "Kakini Enterprises",
+  "legalName": "Kakini Enterprises Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2023",
+   "validUntil": "2028-06-05"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Cessna Citation CJ series",
+    "icao": "C25B",
+    "manufacturer": "Cessna",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": "VT-PSB"
+ },
+ {
+  "id": "khazana-jewellery",
+  "name": "Khazana Jewellery",
+  "legalName": "Khazana Jewellery Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2017",
+   "validUntil": "2029-03-28"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Gulfstream",
+    "icao": "G150",
+    "manufacturer": "Gulfstream",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": null
+ },
+ {
+  "id": "kingscraft-aviation",
+  "name": "Kingscraft Aviation",
+  "legalName": "Kingscraft Aviation Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2026",
+   "validUntil": "2031-01-04"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 7,
+  "heroReg": "VT-KGV"
+ },
+ {
+  "id": "l-and-t-aviation-services",
+  "name": "L & T Aviation Services",
+  "legalName": "L & T Aviation Services Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2010",
+   "validUntil": "2028-11-02"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "HAWKER HS 125 900XP",
+    "icao": "H25B",
+    "manufacturer": "Other",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 9,
+  "heroReg": null
+ },
+ {
+  "id": "lcl-aviation-ecojet",
+  "name": "LCL Aviation . (ECOJET)",
+  "legalName": "LCL Aviation Pvt. Ltd. (ECOJET)",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/2022",
+   "validUntil": "2027-09-27"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft Premier I",
+    "icao": "PRM1",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "lmcs-infra-holdings",
+  "name": "LMCS Infra Holdings",
+  "legalName": "LMCS Infra Holdings Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#05/2016",
+   "validUntil": "2028-10-25"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "EC 135 P2+",
+    "icao": "EC35",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 5,
+  "heroReg": null
+ },
+ {
+  "id": "mab-aviation",
+  "name": "MAB Aviation",
+  "legalName": "MAB Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2016",
+   "validUntil": "2028-12-22"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Learjet",
+    "icao": "LJ45",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": "VT-MAM"
+ },
+ {
+  "id": "mahindra-airways",
+  "name": "Mahindra Airways",
+  "legalName": "Mahindra Airways Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#10/2024",
+   "validUntil": "2029-10-27"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Bombardier Challenger 300/350",
+    "icao": "CL30",
+    "manufacturer": "Bombardier",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 9,
+  "heroReg": null
+ },
+ {
+  "id": "mandke-and-mandke-infrastructure",
+  "name": "Mandke and Mandke Infrastructure",
+  "legalName": "Mandke and Mandke Infrastructure Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2015",
+   "validUntil": "2029-02-12"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Robinson R44",
+    "icao": "R44",
+    "manufacturer": "Robinson",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 4,
+  "heroReg": null
+ },
+ {
+  "id": "media-house-dnd",
+  "name": "Media House DND",
+  "legalName": "Media House DND Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#05/2024",
+   "validUntil": "2029-02-27"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "modifi-aviations",
+  "name": "Modifi Aviations",
+  "legalName": "Modifi Aviations Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2026",
+   "validUntil": "2031-02-10"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 10,
+  "heroReg": "VT-HGL"
+ },
+ {
+  "id": "mspl",
+  "name": "MSPL",
+  "legalName": "MSPL Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2009",
+   "validUntil": "2027-02-11"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "P-180 AVANTI II",
+    "icao": "P180",
+    "manufacturer": "Other",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": null
+ },
+ {
+  "id": "nibe-aeronautics",
+  "name": "NIBE AERONAUTICS",
+  "legalName": "NIBE AERONAUTICS LIMITED",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2025",
+   "validUntil": "2029-05-27"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft Premier I",
+    "icao": "PRM1",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "niraant-aviation",
+  "name": "Niraant Aviation",
+  "legalName": "Niraant Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#12/2025",
+   "validUntil": "2030-09-10"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Bell 429",
+    "icao": "B429",
+    "manufacturer": "Bell",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "oss-air-management",
+  "name": "OSS Air Management",
+  "legalName": "OSS Air Management Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2006",
+   "validUntil": "2029-04-03"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Leonardo AW109",
+    "icao": "A109",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 7,
+  "heroReg": null
+ },
+ {
+  "id": "pilgrimage-aviation",
+  "name": "PILGRIMAGE AVIATION",
+  "legalName": "PILGRIMAGE AVIATION PRIVATE LIMITED",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#08/2025",
+   "validUntil": "2030-06-04"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "pradhaan-air-express",
+  "name": "Pradhaan Air Express",
+  "legalName": "Pradhaan Air Express Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#08/2022",
+   "validUntil": "2027-09-21"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Airbus A320",
+    "icao": "A320",
+    "manufacturer": "Airbus",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 0,
+  "heroReg": "VT-PNS"
+ },
+ {
+  "id": "rajhans-infracon-india",
+  "name": "RAJHANS INFRACON (INDIA)",
+  "legalName": "RAJHANS INFRACON (INDIA)",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2024",
+   "validUntil": "2029-02-08"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 7,
+  "heroReg": null
+ },
+ {
+  "id": "redbird-flight-training-academy",
+  "name": "Redbird Flight Training Academy",
+  "legalName": "Redbird Flight Training Academy Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#10/2022",
+   "validUntil": "2027-10-06"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Tecnam P2006T",
+    "icao": "P06T",
+    "manufacturer": "Tecnam",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 3,
+  "heroReg": null
+ },
+ {
+  "id": "rps-aviation",
+  "name": "RPS Aviation",
+  "legalName": "RPS Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#02/2022",
+   "validUntil": "2027-04-10"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": "VT-TBT"
+ },
+ {
+  "id": "sai-construction",
+  "name": "Sai Construction",
+  "legalName": "Sai Construction Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2025",
+   "validUntil": "2030-02-18"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": "VT-VAP"
+ },
+ {
+  "id": "shraddha-energy-and-infraprojects",
+  "name": "Shraddha Energy and Infraprojects",
+  "legalName": "Shraddha Energy and Infraprojects Private Limited",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#12/2023",
+   "validUntil": "2028-12-06"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 5,
+  "heroReg": null
+ },
+ {
+  "id": "skb-infracons",
+  "name": "SKB Infracons",
+  "legalName": "SKB Infracons Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#05/2007",
+   "validUntil": "2029-06-20"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft King Air",
+    "icao": null,
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "skyblue-aviation-services",
+  "name": "Skyblue Aviation Services",
+  "legalName": "Skyblue Aviation Services Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#13/2024",
+   "validUntil": "2029-12-19"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Dassault Falcon 900",
+    "icao": "F900",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 14,
+  "heroReg": "VT-KSE"
+ },
+ {
+  "id": "skyhop-aviation",
+  "name": "Skyhop Aviation",
+  "legalName": "Skyhop Aviation Private limited",
+  "category": "scheduled",
+  "website": null,
+  "permit": {
+   "no": "SC-11",
+   "validUntil": "2029-04-23"
+  },
+  "ops": "Passenger",
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "DHC-6 Twin Otter",
+    "icao": "DHC6",
+    "manufacturer": "De Havilland Canada",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 18,
+  "heroReg": null
+ },
+ {
+  "id": "smart-wings-aviation",
+  "name": "Smart Wings Aviation",
+  "legalName": "Smart Wings Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/2025",
+   "validUntil": "2030-07-23"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Airbus H130",
+    "icao": "EC30",
+    "manufacturer": "Airbus Helicopters",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "sobha-puravankara-aviation",
+  "name": "Sobha Puravankara Aviation",
+  "legalName": "Sobha Puravankara Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2012",
+   "validUntil": "2028-03-14"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Gulfstream G200",
+    "icao": "GALX",
+    "manufacturer": "Gulfstream",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 9,
+  "heroReg": null
+ },
+ {
+  "id": "sparzana-aviation",
+  "name": "Sparzana Aviation",
+  "legalName": "Sparzana Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#06/2022",
+   "validUntil": "2027-09-08"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": "VT-RFX"
+ },
+ {
+  "id": "steamhouse-india",
+  "name": "Steamhouse India",
+  "legalName": "Steamhouse India Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#18/2025",
+   "validUntil": "2030-10-20"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
+    "manufacturer": "Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 4,
+  "heroReg": null
+ },
+ {
+  "id": "suhan-aviation",
+  "name": "Suhan Aviation",
+  "legalName": "Suhan Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#01/2016",
+   "validUntil": "2028-03-14"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Sikorsky S-76",
+    "icao": "S76",
+    "manufacturer": "Sikorsky",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 6,
+  "heroReg": null
+ },
+ {
+  "id": "taj-air",
+  "name": "Taj Air",
+  "legalName": "Taj Air Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#09/1993",
+   "validUntil": "2028-11-14"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Dassault Falcon 2000",
+    "icao": "F2TH",
+    "manufacturer": "Dassault",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 9,
+  "heroReg": "VT-TDT"
+ },
+ {
+  "id": "universal-airways",
+  "name": "Universal Airways",
+  "legalName": "Universal Airways Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#04/2006",
+   "validUntil": "2028-07-31"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Leonardo AW139",
+    "icao": "A139",
+    "manufacturer": "Leonardo",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 0,
+   "RW": 1,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": "VT-TWO"
+ },
+ {
+  "id": "vimaan-airlines",
+  "name": "Vimaan Airlines",
+  "legalName": "Vimaan Airlines Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#03/2025",
+   "validUntil": "2030-02-03"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Hawker 800/850/900",
+    "icao": "H25B",
+    "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 8,
+  "heroReg": "VT-UYK"
+ },
+ {
+  "id": "wings-aviation",
+  "name": "Wings Aviation",
+  "legalName": "Wings Aviation Pvt. Ltd.",
+  "category": "non-scheduled",
+  "website": null,
+  "permit": {
+   "no": "#05/2026",
+   "validUntil": "2031-03-23"
+  },
+  "ops": null,
+  "fleetCount": 1,
+  "statedCount": 1,
+  "types": [
+   {
+    "name": "Partenavia P.68",
+    "icao": "P68",
+    "manufacturer": "Vulcanair / Partenavia",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 1,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 5,
+  "heroReg": null
+ }
+]

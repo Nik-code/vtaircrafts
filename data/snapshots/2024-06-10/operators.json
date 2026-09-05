@@ -1,0 +1,564 @@
+[
+ {
+  "id": "indigo",
+  "name": "IndiGo",
+  "legalName": "Interglobe Aviation Ltd.",
+  "category": "scheduled",
+  "website": "https://www.goindigo.in",
+  "permit": {
+   "no": "S-19",
+   "validUntil": "2027-08-02"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 356,
+  "statedCount": 358,
+  "types": [
+   {
+    "name": "Airbus A320neo",
+    "icao": "A20N",
+    "manufacturer": "Airbus",
+    "count": 192
+   },
+   {
+    "name": "Airbus A321neo",
+    "icao": "A21N",
+    "manufacturer": "Airbus",
+    "count": 95
+   },
+   {
+    "name": "ATR 72-600",
+    "icao": "AT76",
+    "manufacturer": "ATR",
+    "count": 45
+   },
+   {
+    "name": "Airbus A320",
+    "icao": "A320",
+    "manufacturer": "Airbus",
+    "count": 21
+   },
+   {
+    "name": "Airbus A321",
+    "icao": "A321",
+    "manufacturer": "Airbus",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 356,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 64612,
+  "heroReg": "VT-IAO"
+ },
+ {
+  "id": "air-india",
+  "name": "Air India",
+  "legalName": "Air India Ltd.",
+  "category": "scheduled",
+  "website": "https://www.airindia.com",
+  "permit": {
+   "no": "S-9",
+   "validUntil": "2028-06-30"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 143,
+  "statedCount": 143,
+  "types": [
+   {
+    "name": "Airbus A320neo",
+    "icao": "A20N",
+    "manufacturer": "Airbus",
+    "count": 43
+   },
+   {
+    "name": "Boeing 787-8",
+    "icao": "B788",
+    "manufacturer": "Boeing",
+    "count": 27
+   },
+   {
+    "name": "Boeing 777-300ER",
+    "icao": "B77W",
+    "manufacturer": "Boeing",
+    "count": 18
+   },
+   {
+    "name": "Airbus A319",
+    "icao": "A319",
+    "manufacturer": "Airbus",
+    "count": 14
+   },
+   {
+    "name": "Airbus A321",
+    "icao": "A321",
+    "manufacturer": "Airbus",
+    "count": 13
+   },
+   {
+    "name": "Boeing 777-200LR",
+    "icao": "B772",
+    "manufacturer": "Boeing",
+    "count": 9
+   },
+   {
+    "name": "Airbus A320",
+    "icao": "A320",
+    "manufacturer": "Airbus",
+    "count": 9
+   },
+   {
+    "name": "Airbus A350-900",
+    "icao": "A359",
+    "manufacturer": "Airbus",
+    "count": 6
+   },
+   {
+    "name": "Airbus A321neo",
+    "icao": "A21N",
+    "manufacturer": "Airbus",
+    "count": 4
+   }
+  ],
+  "wings": {
+   "FW": 143,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 30264,
+  "heroReg": "VT-AEM"
+ },
+ {
+  "id": "air-india-express",
+  "name": "Air India Express",
+  "legalName": "AIX Connect Pvt. Ltd.",
+  "category": "scheduled",
+  "website": "https://www.airindiaexpress.com",
+  "permit": {
+   "no": "S-26",
+   "validUntil": "2029-05-06"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 74,
+  "statedCount": 23,
+  "types": [
+   {
+    "name": "Boeing 737-800",
+    "icao": "B738",
+    "manufacturer": "Boeing",
+    "count": 26
+   },
+   {
+    "name": "Airbus A320",
+    "icao": "A320",
+    "manufacturer": "Airbus",
+    "count": 22
+   },
+   {
+    "name": "Boeing 737-8",
+    "icao": "B38M",
+    "manufacturer": "Boeing",
+    "count": 20
+   },
+   {
+    "name": "Airbus A320neo",
+    "icao": "A20N",
+    "manufacturer": "Airbus",
+    "count": 6
+   }
+  ],
+  "wings": {
+   "FW": 74,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 13432,
+  "heroReg": "VT-ATG"
+ },
+ {
+  "id": "vistara",
+  "name": "Vistara",
+  "legalName": "Tata SIA Airlines Ltd.",
+  "category": "scheduled",
+  "website": null,
+  "permit": {
+   "no": "S-27",
+   "validUntil": "2024-12-14"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 70,
+  "statedCount": 70,
+  "types": [
+   {
+    "name": "Airbus A320neo",
+    "icao": "A20N",
+    "manufacturer": "Airbus",
+    "count": 53
+   },
+   {
+    "name": "Airbus A321neo",
+    "icao": "A21N",
+    "manufacturer": "Airbus",
+    "count": 10
+   },
+   {
+    "name": "Boeing 787-9",
+    "icao": "B789",
+    "manufacturer": "Boeing",
+    "count": 7
+   }
+  ],
+  "wings": {
+   "FW": 70,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 12665,
+  "heroReg": "VT-ATV"
+ },
+ {
+  "id": "spicejet",
+  "name": "SpiceJet",
+  "legalName": "Spice Jet Ltd.",
+  "category": "scheduled",
+  "website": "https://www.spicejet.com",
+  "permit": {
+   "no": "S-16",
+   "validUntil": "2028-05-16"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 55,
+  "statedCount": 55,
+  "types": [
+   {
+    "name": "Dash 8 Q400",
+    "icao": "DH8D",
+    "manufacturer": "De Havilland Canada",
+    "count": 23
+   },
+   {
+    "name": "Boeing 737-800",
+    "icao": "B738",
+    "manufacturer": "Boeing",
+    "count": 14
+   },
+   {
+    "name": "Boeing 737-700",
+    "icao": "B737",
+    "manufacturer": "Boeing",
+    "count": 8
+   },
+   {
+    "name": "Boeing 737-8",
+    "icao": "B38M",
+    "manufacturer": "Boeing",
+    "count": 7
+   },
+   {
+    "name": "Boeing 737",
+    "icao": "B737",
+    "manufacturer": "Boeing",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 55,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 7144,
+  "heroReg": "VT-SFB"
+ },
+ {
+  "id": "akasa-air",
+  "name": "Akasa Air",
+  "legalName": "SNV Aviation Pvt. Ltd.",
+  "category": "scheduled",
+  "website": "https://www.akasaair.com",
+  "permit": {
+   "no": "S-33",
+   "validUntil": "2027-07-06"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 24,
+  "statedCount": 24,
+  "types": [
+   {
+    "name": "Boeing 737-8",
+    "icao": "B38M",
+    "manufacturer": "Boeing",
+    "count": 23
+   },
+   {
+    "name": "Boeing 737-8-200",
+    "icao": "B38M",
+    "manufacturer": "Boeing",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 24,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 4544,
+  "heroReg": "VT-YAI"
+ },
+ {
+  "id": "alliance-air",
+  "name": "Alliance Air",
+  "legalName": "Alliance Air Aviation Ltd. (Alliance Air)",
+  "category": "scheduled",
+  "website": "https://www.allianceair.in",
+  "permit": {
+   "no": "S-8",
+   "validUntil": "2028-04-30"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 21,
+  "statedCount": 21,
+  "types": [
+   {
+    "name": "ATR 72-600",
+    "icao": "AT76",
+    "manufacturer": "ATR",
+    "count": 18
+   },
+   {
+    "name": "ATR 42-600",
+    "icao": "AT46",
+    "manufacturer": "ATR",
+    "count": 2
+   },
+   {
+    "name": "DO 228-201",
+    "icao": "D228",
+    "manufacturer": "Other",
+    "count": 1
+   }
+  ],
+  "wings": {
+   "FW": 21,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 1372,
+  "heroReg": "VT-AII"
+ },
+ {
+  "id": "star-air",
+  "name": "Star Air",
+  "legalName": "Ghodawat Enterprises Pvt. Ltd.",
+  "category": "scheduled",
+  "website": "https://www.starair.in",
+  "permit": {
+   "no": "SC-04",
+   "validUntil": "2028-12-31"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 9,
+  "statedCount": 9,
+  "types": [
+   {
+    "name": "Embraer ERJ 145",
+    "icao": "E145",
+    "manufacturer": "Embraer",
+    "count": 5
+   },
+   {
+    "name": "Embraer E170",
+    "icao": "E170",
+    "manufacturer": "Embraer",
+    "count": 4
+   }
+  ],
+  "wings": {
+   "FW": 9,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 554,
+  "heroReg": "VT-GSE"
+ },
+ {
+  "id": "blue-dart-aviation",
+  "name": "Blue Dart Aviation",
+  "legalName": "Blue Dart Aviation Ltd.",
+  "category": "scheduled",
+  "website": "https://www.bluedart.com",
+  "permit": {
+   "no": "S-13",
+   "validUntil": "2027-12-30"
+  },
+  "ops": "Cargo",
+  "fleetCount": 8,
+  "statedCount": 8,
+  "types": [
+   {
+    "name": "Boeing 757",
+    "icao": "B752",
+    "manufacturer": "Boeing",
+    "count": 6
+   },
+   {
+    "name": "Boeing 737-800",
+    "icao": "B738",
+    "manufacturer": "Boeing",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 8,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 0,
+  "heroReg": "VT-BDN"
+ },
+ {
+  "id": "flybig",
+  "name": "FlyBig",
+  "legalName": "Big Charter Pvt. Ltd.",
+  "category": "scheduled",
+  "website": "https://www.flybig.in",
+  "permit": {
+   "no": "SC-07",
+   "validUntil": "2025-12-13"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "DHC-6 Twin Otter",
+    "icao": "DHC6",
+    "manufacturer": "De Havilland Canada",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 57,
+  "heroReg": null
+ },
+ {
+  "id": "gsec-monarch-deccan",
+  "name": "GSEC Monarch & Deccan Charters",
+  "legalName": "GSEC Monarch and Deccan Aviation Pvt.",
+  "category": "scheduled",
+  "website": null,
+  "permit": {
+   "no": "SC-09",
+   "validUntil": "2025-06-23"
+  },
+  "ops": "Pax",
+  "fleetCount": 3,
+  "statedCount": 3,
+  "types": [
+   {
+    "name": "Cessna Grand",
+    "icao": null,
+    "manufacturer": "Other",
+    "count": 3
+   }
+  ],
+  "wings": {
+   "FW": 3,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 27,
+  "heroReg": "VT-HJS"
+ },
+ {
+  "id": "fly91",
+  "name": "Fly91",
+  "legalName": "Just Udo Aviation Pvt.",
+  "category": "scheduled",
+  "website": "https://www.fly91.in",
+  "permit": {
+   "no": "SC-10",
+   "validUntil": "2027-03-05"
+  },
+  "ops": "Pax",
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "ATR 72-600",
+    "icao": "AT76",
+    "manufacturer": "ATR",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 144,
+  "heroReg": "VT-FIC"
+ },
+ {
+  "id": "quikjet",
+  "name": "Quikjet Cargo",
+  "legalName": "Quikjet Cargo Airlines Pvt. Ltd. (Quikjet)",
+  "category": "scheduled",
+  "website": "https://www.quikjet.in",
+  "permit": {
+   "no": "S-34",
+   "validUntil": "2027-12-11"
+  },
+  "ops": "Cargo",
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "Boeing 737-800",
+    "icao": "B738",
+    "manufacturer": "Boeing",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 0,
+  "heroReg": "VT-AAZ"
+ },
+ {
+  "id": "zexus-air",
+  "name": "Zexus Air",
+  "legalName": "Zexus Air Services Private Limited (Zooom)",
+  "category": "scheduled",
+  "website": null,
+  "permit": {
+   "no": "S-32",
+   "validUntil": "2024-09-13"
+  },
+  "ops": "Pax & Cargo",
+  "fleetCount": 2,
+  "statedCount": 2,
+  "types": [
+   {
+    "name": "CRJ-200ER",
+    "icao": null,
+    "manufacturer": "Other",
+    "count": 2
+   }
+  ],
+  "wings": {
+   "FW": 2,
+   "RW": 0,
+   "B": 0
+  },
+  "seatsTotal": 100,
+  "heroReg": null
+ }
+]

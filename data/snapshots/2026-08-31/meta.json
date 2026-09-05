@@ -1,0 +1,52 @@
+{
+ "generatedAt": "2026-09-05T11:24:03.877Z",
+ "snapshot": "2026-08-31",
+ "previous": "2024-06-10",
+ "sources": [
+  {
+   "category": "non-scheduled",
+   "file": "ns-oper.pdf",
+   "asOn": "2026-08-31",
+   "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/nonscheduled/ns-oper.pdf",
+   "sha256": "258318a0036ac695e3b71525b8c38719165c48915f7a875e25d52f6056ad2f4a",
+   "bytes": 646089,
+   "operators": 139,
+   "aircraft": 471
+  },
+  {
+   "category": "scheduled",
+   "file": "sch-oper.pdf",
+   "asOn": "2026-08-31",
+   "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+   "sha256": "9bbd7f469c3c404adac98fe2236e6afe01b21f549707503827906cda9eff7d90",
+   "bytes": 497048,
+   "operators": 12,
+   "aircraft": 835
+  }
+ ],
+ "counts": {
+  "aircraft": 1306,
+  "operators": 150,
+  "scheduled": 835,
+  "nonScheduled": 471,
+  "fixedWing": 1070,
+  "rotary": 225,
+  "balloons": 11,
+  "withHex": 1095,
+  "imagesExact": 258,
+  "imagesOperatorType": 616,
+  "imagesType": 104
+ },
+ "issues": [
+  {
+   "level": "warn",
+   "message": "Count mismatch for Interglobe Aviation Ltd. / A320-251N: stated 112, parsed 110 (pages 5)",
+   "category": "scheduled"
+  },
+  {
+   "level": "warn",
+   "message": "Count mismatch for Interglobe Aviation Ltd. / A321-252NX: stated 160, parsed 140 (pages 6)",
+   "category": "scheduled"
+  }
+ ]
+}

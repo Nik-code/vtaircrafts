@@ -1,0 +1,2872 @@
+{
+ "from": "2024-06-10",
+ "to": "2026-08-31",
+ "scope": [
+  "scheduled"
+ ],
+ "added": [
+  {
+   "reg": "VT-AWA",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B787-9",
+   "type": "Boeing 787-9"
+  },
+  {
+   "reg": "VT-AWB",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B787-9",
+   "type": "Boeing 787-9"
+  },
+  {
+   "reg": "VT-AWC",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B787-9",
+   "type": "Boeing 787-9"
+  },
+  {
+   "reg": "VT-BWA",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWB",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWC",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWD",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWE",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWF",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWG",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWH",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWI",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWJ",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWK",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWL",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWM",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWN",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWO",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWP",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWQ",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWR",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWS",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWT",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWU",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWV",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWW",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BWX",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BXT",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BXU",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BXV",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BXW",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BXX",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-BXY",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-FID",
+   "operator": "Fly91",
+   "operatorId": "fly91",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-FIE",
+   "operator": "Fly91",
+   "operatorId": "fly91",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-FIF",
+   "operator": "Fly91",
+   "operatorId": "fly91",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-FIG",
+   "operator": "Fly91",
+   "operatorId": "fly91",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-GSK",
+   "operator": "Star Air",
+   "operatorId": "star-air",
+   "model": "EMB-170",
+   "type": "Embraer E170"
+  },
+  {
+   "reg": "VT-GSM",
+   "operator": "Star Air",
+   "operatorId": "star-air",
+   "model": "EMB-170",
+   "type": "Embraer E170"
+  },
+  {
+   "reg": "VT-GSO",
+   "operator": "Star Air",
+   "operatorId": "star-air",
+   "model": "EMB-170",
+   "type": "Embraer E170"
+  },
+  {
+   "reg": "VT-GSQ",
+   "operator": "Star Air",
+   "operatorId": "star-air",
+   "model": "EMB-170",
+   "type": "Embraer E170"
+  },
+  {
+   "reg": "VT-IAZ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICB",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICC",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICD",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICF",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICI",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICK",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICL",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICQ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICR",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICS",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICT",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICV",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICW",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICX",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-ICY",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IKP",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-IKQ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-IKS",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-IKT",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IKU",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IOF",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOH",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOI",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOJ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOK",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOL",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-ION",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOQ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOR",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOT",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IOU",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IQZ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IRO",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IRP",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IRQ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IRR",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IRS",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IRV",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IRW",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IRX",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IRY",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IRZ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IWM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IWN",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IWQ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IWT",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IWU",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IWV",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IWX",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-IWY",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-IWZ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-IXD",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXE",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXF",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXH",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXI",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXJ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXK",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXL",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXN",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXO",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXP",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXQ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IXT",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-NCA",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCB",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCC",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCD",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCE",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCF",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCI",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCJ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCK",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCL",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCN",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCP",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCQ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCR",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCS",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCU",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCV",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCW",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCY",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NCZ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHA",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHB",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHC",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHD",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHE",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHF",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHH",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHI",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHJ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHK",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHL",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHN",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHO",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHP",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHR",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NHX",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-252NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NLA",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-253NY",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NLB",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-253NY",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NLC",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-253NY",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NOC",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-251NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NOF",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-251NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NOG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-251NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NOI",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-251NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NOL",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-251NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-NTA",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-NTB",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-PRS",
+   "operator": "IndiaOne Air",
+   "operatorId": "indiaone-air",
+   "model": "Cessna Grand Caravan 208B",
+   "type": "Cessna 208 Grand Caravan"
+  },
+  {
+   "reg": "VT-RIO",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-RNT",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-RTM",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-RTN",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-RTW",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-RTZ",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-SHE",
+   "operator": "Skyhop Aviation",
+   "operatorId": "skyhop-aviation",
+   "model": "Twin Otter DHC-6",
+   "type": "DHC-6 Twin Otter"
+  },
+  {
+   "reg": "VT-YBB",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBC",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBD",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBE",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBF",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBG",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBH",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBI",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBJ",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBK",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBL",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBM",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBN",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBO",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBP",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBQ",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  },
+  {
+   "reg": "VT-YBR",
+   "operator": "Akasa Air",
+   "operatorId": "akasa-air",
+   "model": "B737-8200",
+   "type": "Boeing 737-8-200"
+  }
+ ],
+ "removed": [
+  {
+   "reg": "VT-AEE",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B777-200 LR",
+   "type": "Boeing 777-200LR"
+  },
+  {
+   "reg": "VT-AEF",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B777-200 LR",
+   "type": "Boeing 777-200LR"
+  },
+  {
+   "reg": "VT-AEG",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B777-200 LR",
+   "type": "Boeing 777-200LR"
+  },
+  {
+   "reg": "VT-AEH",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B777-200 LR",
+   "type": "Boeing 777-200LR"
+  },
+  {
+   "reg": "VT-AEI",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B777-200 LR",
+   "type": "Boeing 777-200LR"
+  },
+  {
+   "reg": "VT-ALF",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B777-200 LR",
+   "type": "Boeing 777-200LR"
+  },
+  {
+   "reg": "VT-ALG",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B777-200 LR",
+   "type": "Boeing 777-200LR"
+  },
+  {
+   "reg": "VT-ALH",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B777-200 LR",
+   "type": "Boeing 777-200LR"
+  },
+  {
+   "reg": "VT-AMD",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-ANB",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "B787-8",
+   "type": "Boeing 787-8"
+  },
+  {
+   "reg": "VT-APJ",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-ATB",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-ATF",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-251N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-ATQ",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-BHK",
+   "operator": "FlyBig",
+   "operatorId": "flybig",
+   "model": "DHC-6-400 (Twin Otter)",
+   "type": "DHC-6 Twin Otter"
+  },
+  {
+   "reg": "VT-GSC",
+   "operator": "Star Air",
+   "operatorId": "star-air",
+   "model": "EMB-145LR",
+   "type": "Embraer ERJ 145"
+  },
+  {
+   "reg": "VT-GSF",
+   "operator": "Star Air",
+   "operatorId": "star-air",
+   "model": "EMB-145LR",
+   "type": "Embraer ERJ 145"
+  },
+  {
+   "reg": "VT-GSN",
+   "operator": "Star Air",
+   "operatorId": "star-air",
+   "model": "EMB-145LR",
+   "type": "Embraer ERJ 145"
+  },
+  {
+   "reg": "VT-GSS",
+   "operator": "Star Air",
+   "operatorId": "star-air",
+   "model": "EMB-145LR",
+   "type": "Embraer ERJ 145"
+  },
+  {
+   "reg": "VT-GWH",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-HIT",
+   "operator": "FlyBig",
+   "operatorId": "flybig",
+   "model": "DHC-6-400 (Twin Otter)",
+   "type": "DHC-6 Twin Otter"
+  },
+  {
+   "reg": "VT-HKG",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-HYD",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-IHZ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-232",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-IJA",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJB",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJC",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJD",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJE",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJF",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJH",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJJ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJK",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJL",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJO",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJP",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJR",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJU",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IJW",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IKN",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IMP",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-ITA",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-ITF",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-ITM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IUA",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUB",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUC",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUD",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUE",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUF",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUH",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUI",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUJ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUK",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUL",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IUN",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A321-271NX",
+   "type": "Airbus A321neo"
+  },
+  {
+   "reg": "VT-IVG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVH",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVI",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVJ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVL",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVN",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVO",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVR",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVS",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVT",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVU",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVV",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IVW",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IYM",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IYN",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IYR",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IYT",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IYV",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IYW",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "ATR72-600",
+   "type": "ATR 72-600"
+  },
+  {
+   "reg": "VT-IZA",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZG",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZI",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZJ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZO",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZP",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZQ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZR",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZS",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZT",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZU",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZW",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZX",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZY",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-IZZ",
+   "operator": "IndiGo",
+   "operatorId": "indigo",
+   "model": "A320-271N",
+   "type": "Airbus A320neo"
+  },
+  {
+   "reg": "VT-JPR",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-JRT",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-KHU",
+   "operator": "FlyBig",
+   "operatorId": "flybig",
+   "model": "DHC-6-400 (Twin Otter)",
+   "type": "DHC-6 Twin Otter"
+  },
+  {
+   "reg": "VT-KOC",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-KSS",
+   "operator": "GSEC Monarch & Deccan Charters",
+   "operatorId": "gsec-monarch-deccan",
+   "model": "Cessna Grand",
+   "type": "Cessna Grand"
+  },
+  {
+   "reg": "VT-KTM",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-KUL",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-MAX",
+   "operator": "SpiceJet",
+   "operatorId": "spicejet",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-MLE",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-MXA",
+   "operator": "SpiceJet",
+   "operatorId": "spicejet",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-MXB",
+   "operator": "SpiceJet",
+   "operatorId": "spicejet",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-MXC",
+   "operator": "SpiceJet",
+   "operatorId": "spicejet",
+   "model": "B737-8",
+   "type": "Boeing 737-8"
+  },
+  {
+   "reg": "VT-NAG",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-214",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-PNQ",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-RED",
+   "operator": "Air India Express",
+   "operatorId": "air-india-express",
+   "model": "A320-216",
+   "type": "Airbus A320"
+  },
+  {
+   "reg": "VT-SCB",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A319-112",
+   "type": "Airbus A319"
+  },
+  {
+   "reg": "VT-SCC",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A319-112",
+   "type": "Airbus A319"
+  },
+  {
+   "reg": "VT-SCG",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A319-112",
+   "type": "Airbus A319"
+  },
+  {
+   "reg": "VT-SCJ",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A319-112",
+   "type": "Airbus A319"
+  },
+  {
+   "reg": "VT-SCL",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A319-112",
+   "type": "Airbus A319"
+  },
+  {
+   "reg": "VT-SCN",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A319-112",
+   "type": "Airbus A319"
+  },
+  {
+   "reg": "VT-SCP",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A319-112",
+   "type": "Airbus A319"
+  },
+  {
+   "reg": "VT-SCS",
+   "operator": "Air India",
+   "operatorId": "air-india",
+   "model": "A319-112",
+   "type": "Airbus A319"
+  },
+  {
+   "reg": "VT-SXB",
+   "operator": "SpiceJet",
+   "operatorId": "spicejet",
+   "model": "B737-800",
+   "type": "Boeing 737-800"
+  },
+  {
+   "reg": "VT-SXC",
+   "operator": "SpiceJet",
+   "operatorId": "spicejet",
+   "model": "B737-800",
+   "type": "Boeing 737-800"
+  },
+  {
+   "reg": "VT-TSQ",
+   "operator": "Vistara",
+   "operatorId": "vistara",
+   "model": "B787-9",
+   "type": "Boeing 787-9"
+  },
+  {
+   "reg": "VT-ZOC",
+   "operator": "Zexus Air",
+   "operatorId": "zexus-air",
+   "model": "CRJ-200ER",
+   "type": "CRJ-200ER"
+  },
+  {
+   "reg": "VT-ZOD",
+   "operator": "Zexus Air",
+   "operatorId": "zexus-air",
+   "model": "CRJ-200ER",
+   "type": "CRJ-200ER"
+  }
+ ],
+ "moved": [
+  {
+   "reg": "VT-ATV",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-EXA",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-214"
+  },
+  {
+   "reg": "VT-EXB",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-214"
+  },
+  {
+   "reg": "VT-EXC",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-214"
+  },
+  {
+   "reg": "VT-EXD",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-214"
+  },
+  {
+   "reg": "VT-EXE",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-214"
+  },
+  {
+   "reg": "VT-HJS",
+   "from": "GSEC Monarch & Deccan Charters",
+   "fromId": "gsec-monarch-deccan",
+   "to": "IndiaOne Air",
+   "toId": "indiaone-air",
+   "model": "Cessna Grand Caravan 208B"
+  },
+  {
+   "reg": "VT-RTB",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-RTC",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-RTD",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-RTE",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-RTF",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-RTG",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-RTH",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-RTI",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-RTO",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-RTP",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-RTQ",
+   "from": "Air India",
+   "fromId": "air-india",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNB",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNC",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNE",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNF",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNH",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNI",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNJ",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNK",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNL",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNM",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNN",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNP",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNQ",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNR",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNS",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNU",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNV",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNW",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNX",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNY",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TNZ",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQA",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQB",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQC",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQD",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQE",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQF",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQG",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQH",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQI",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQJ",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQK",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQL",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQM",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQN",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQO",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQP",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQQ",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQR",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQS",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQT",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQU",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQV",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQW",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TQX",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TSD",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "B787-9"
+  },
+  {
+   "reg": "VT-TSE",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "B787-9"
+  },
+  {
+   "reg": "VT-TSH",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "B787-9"
+  },
+  {
+   "reg": "VT-TSN",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "B787-9"
+  },
+  {
+   "reg": "VT-TSO",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "B787-9"
+  },
+  {
+   "reg": "VT-TSP",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "B787-9"
+  },
+  {
+   "reg": "VT-TVA",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TVB",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TVC",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TVD",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TVE",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TVF",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TVG",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TVH",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TVI",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TVJ",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A321-251NX"
+  },
+  {
+   "reg": "VT-TYA",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TYB",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TYC",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TYD",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TYE",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TYF",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India Express",
+   "toId": "air-india-express",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-TYG",
+   "from": "Vistara",
+   "fromId": "vistara",
+   "to": "Air India",
+   "toId": "air-india",
+   "model": "A320-251N"
+  },
+  {
+   "reg": "VT-VKK",
+   "from": "GSEC Monarch & Deccan Charters",
+   "fromId": "gsec-monarch-deccan",
+   "to": "IndiaOne Air",
+   "toId": "indiaone-air",
+   "model": "Cessna Grand Caravan 208B"
+  }
+ ]
+}

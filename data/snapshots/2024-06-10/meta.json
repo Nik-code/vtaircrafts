@@ -1,0 +1,37 @@
+{
+ "generatedAt": "2026-09-05T11:24:03.134Z",
+ "snapshot": "2024-06-10",
+ "previous": null,
+ "sources": [
+  {
+   "category": "scheduled",
+   "file": "sch-oper.pdf",
+   "asOn": "2024-06-10",
+   "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+   "sha256": "b7f5102aafc9f3b4ab20bbc0161f5b0cd743220702cbbd66b6485b4e0ff2fcb6",
+   "bytes": 276571,
+   "operators": 15,
+   "aircraft": 772
+  }
+ ],
+ "counts": {
+  "aircraft": 772,
+  "operators": 14,
+  "scheduled": 772,
+  "nonScheduled": 0,
+  "fixedWing": 772,
+  "rotary": 0,
+  "balloons": 0,
+  "withHex": 738,
+  "imagesExact": 218,
+  "imagesOperatorType": 504,
+  "imagesType": 32
+ },
+ "issues": [
+  {
+   "level": "warn",
+   "message": "Count mismatch for Interglobe Aviation Ltd. / A320-251N: stated 83, parsed 81 (pages 7)",
+   "category": "scheduled"
+  }
+ ]
+}
