@@ -92,7 +92,7 @@ export default function Home() {
           {pickFeatured.map((a) => (
             <Link key={a.reg} href={`/aircraft/${a.reg}`} className="group frame hairline overflow-hidden bg-bg-elev">
               <div className="aspect-[16/9] overflow-hidden">
-                <AircraftPhoto image={a.image} wing={a.wing} alt={`${a.reg} ${a.type.name}`} width={800} className="h-full w-full transition duration-500 group-hover:scale-[1.02]" />
+                <AircraftPhoto image={a.image} wing={a.wing} alt={`${a.reg} ${a.type.name}`} width={1280} className="h-full w-full transition duration-500 group-hover:scale-[1.02]" />
               </div>
               <div className="flex items-center justify-between gap-3 p-3">
                 <div>

@@ -19,9 +19,11 @@ export function DotMatrix({
   showValues?: boolean;
 }) {
   const max = Math.max(1, ...items.map((i) => i.value));
+  // Few columns: keep them compact on the left instead of spreading across the panel.
+  const cols = items.length >= 10 ? `repeat(${items.length}, minmax(0, 1fr))` : `repeat(${items.length}, 64px)`;
   return (
-    <div className="w-full">
-      <div className="grid gap-x-1" style={{ gridTemplateColumns: `repeat(${items.length}, minmax(0, 1fr))` }}>
+    <div className="w-full overflow-x-auto">
+      <div className="grid gap-x-1" style={{ gridTemplateColumns: cols }}>
         {items.map((it, ci) => {
           const lit = Math.max(it.value > 0 ? 1 : 0, Math.round((it.value / max) * rows));
           return (
@@ -43,13 +45,13 @@ export function DotMatrix({
           );
         })}
       </div>
-      <div className="mt-3 grid gap-x-1" style={{ gridTemplateColumns: `repeat(${items.length}, minmax(0, 1fr))` }}>
+      <div className="mt-3 grid gap-x-1" style={{ gridTemplateColumns: cols }}>
         {items.map((it) => (
           <div key={it.label} className="flex min-w-0 flex-col items-center">
             {showValues && <div className="mono text-[11px] text-fg">{it.value}</div>}
             <div
-              className="label mt-1 h-[92px] overflow-hidden text-[9px] leading-none tracking-[0.08em] text-fg-muted"
-              style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
+              className="label mt-1 h-[108px] overflow-hidden whitespace-nowrap text-[9px] leading-none tracking-[0.08em] text-fg-muted"
+              style={{ writingMode: "vertical-rl", transform: "rotate(180deg)", textOverflow: "ellipsis" }}
               title={it.label}
             >
               {it.href ? <a href={it.href} className="hover:text-fg">{it.label}</a> : it.label}

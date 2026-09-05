@@ -12,7 +12,8 @@
     "pipeline:parse": "tsx pipeline/parse.ts",
     "pipeline:images": "tsx pipeline/images.ts",
     "pipeline:build": "tsx pipeline/build.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "pipeline:warm": "tsx pipeline/warm.ts"
   },
   "dependencies": {
     "@fontsource-variable/jetbrains-mono": "^5.3.0",

@@ -25,7 +25,7 @@ export default function OperatorsPage() {
           return (
             <Link key={o.id} href={`/operators/${o.id}`} className="group frame hairline overflow-hidden bg-bg-elev">
               <div className="aspect-[16/9] overflow-hidden">
-                <AircraftPhoto image={h?.image ?? null} wing={h?.wing ?? "FW"} alt={o.name} width={640} className="h-full w-full transition duration-500 group-hover:scale-[1.02]" />
+                <AircraftPhoto image={h?.image ?? null} wing={h?.wing ?? "FW"} alt={o.name} width={1280} className="h-full w-full transition duration-500 group-hover:scale-[1.02]" />
               </div>
               <div className="p-3">
                 <div className="flex items-baseline justify-between gap-2">
