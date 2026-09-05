@@ -45,9 +45,13 @@ export function DotMatrix({
       </div>
       <div className="mt-3 grid gap-x-1" style={{ gridTemplateColumns: `repeat(${items.length}, minmax(0, 1fr))` }}>
         {items.map((it) => (
-          <div key={it.label} className="min-w-0 text-center">
+          <div key={it.label} className="flex min-w-0 flex-col items-center">
             {showValues && <div className="mono text-[11px] text-fg">{it.value}</div>}
-            <div className="label truncate text-[9px] tracking-[0.06em]" title={it.label}>
+            <div
+              className="label mt-1 h-[92px] overflow-hidden text-[9px] leading-none tracking-[0.08em] text-fg-muted"
+              style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
+              title={it.label}
+            >
               {it.href ? <a href={it.href} className="hover:text-fg">{it.label}</a> : it.label}
             </div>
           </div>

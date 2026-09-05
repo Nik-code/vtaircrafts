@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { getIndex, getMeta } from "@/lib/data";
 import { FleetExplorer } from "@/components/FleetExplorer";
 
@@ -16,7 +17,9 @@ export default function FleetPage() {
         </div>
         <div className="mono text-xs text-fg-dim">snapshot {meta.snapshot} · press <kbd className="border border-line px-1">/</kbd> to search</div>
       </div>
-      <FleetExplorer total={total} />
+      <Suspense fallback={<div className="label cursor">loading</div>}>
+        <FleetExplorer total={total} />
+      </Suspense>
     </main>
   );
 }

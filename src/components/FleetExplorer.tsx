@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import type { IndexRecord } from "@/lib/types";
 import { thumb } from "@/lib/format";
 import { Silhouette } from "@/components/AircraftPhoto";
@@ -44,10 +45,6 @@ function writeParams(f: Filters, sort: SortKey, view: View) {
   window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
 }
 
-const subscribeNoop = () => () => {};
-const getSearch = () => window.location.search;
-const getServerSearch = () => "";
-
 function matches(a: IndexRecord, q: string) {
   if (!q) return true;
   const n = q.toUpperCase().replace(/\s+/g, " ").trim();
@@ -90,8 +87,9 @@ function ExplorerSkeleton({ total }: { total: number }) {
 }
 
 function FleetExplorerInner({ data }: { data: IndexRecord[] }) {
-  // Initial state comes from the URL on the client; the server renders the unfiltered view.
-  const search = useSyncExternalStore(subscribeNoop, getSearch, getServerSearch);
+  // Initial state comes from the URL; edits are written back with replaceState.
+  const sp = useSearchParams();
+  const search = sp.toString();
   const urlState = useMemo(() => parseParams(search), [search]);
   const [edited, setEdited] = useState<{ f: Filters; sort: SortKey; view: View } | null>(null);
   const { f, sort, view } = edited ?? urlState;
