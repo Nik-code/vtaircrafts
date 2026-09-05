@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { TopNav } from "@/components/TopNav";
 import { Footer } from "@/components/Footer";
@@ -18,6 +19,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <TopNav />
         <div className="flex-1">{children}</div>
         <Footer />
+        <Script
+          defer
+          src="https://analytics.priyanshnik.com/script.js"
+          data-website-id="873ca215-e9e7-4218-97b6-b8366ceccbdc"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
