@@ -315,9 +315,9 @@
     "count": 2
    },
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 2
    },
    {
@@ -368,9 +368,9 @@
     "count": 7
    },
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 4
    },
    {
@@ -910,9 +910,9 @@
     "count": 3
    },
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 2
    },
    {
@@ -951,9 +951,9 @@
     "count": 4
    },
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 2
    },
    {
@@ -998,9 +998,9 @@
   "statedCount": 9,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 2
    },
    {
@@ -1198,9 +1198,9 @@
     "count": 1
    },
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 1
    }
   ],
@@ -1227,9 +1227,9 @@
   "statedCount": 7,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 4
    },
    {
@@ -1268,9 +1268,9 @@
   "statedCount": 6,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 2
    },
    {
@@ -1637,9 +1637,9 @@
   "statedCount": 5,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 3
    },
    {
@@ -1672,9 +1672,9 @@
   "statedCount": 5,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 5
    }
   ],
@@ -2373,8 +2373,8 @@
     "count": 2
    },
    {
-    "name": "BEECHCRAFT 300LW",
-    "icao": "BE30",
+    "name": "Beechcraft King Air 350",
+    "icao": "B350",
     "manufacturer": "Beechcraft",
     "count": 1
    }
@@ -2402,9 +2402,9 @@
   "statedCount": 3,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 2
    },
    {
@@ -3596,9 +3596,9 @@
   "statedCount": 2,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 1
    },
    {
@@ -3927,9 +3927,9 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 1
    }
   ],
@@ -4188,9 +4188,9 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 1
    }
   ],
@@ -4797,9 +4797,9 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 1
    }
   ],
@@ -4971,9 +4971,9 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Airbus H125 (AS350)",
+    "icao": "AS50",
+    "manufacturer": "Airbus Helicopters",
     "count": 1
    }
   ],
@@ -5174,9 +5174,9 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Beechcraft King Air 350",
-    "icao": "B350",
-    "manufacturer": "Beechcraft",
+    "name": "Piper",
+    "icao": "PA46",
+    "manufacturer": "Piper",
     "count": 1
    }
   ],

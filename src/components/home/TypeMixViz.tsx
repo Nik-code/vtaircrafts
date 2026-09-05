@@ -1,4 +1,4 @@
-import { Silhouette } from "@/components/ui/Silhouette";
+import { Planform } from "./typemix/planforms";
 import { Dimension } from "@/components/ui/Dimension";
 import { fmtInt } from "@/lib/format";
 import type { Wing } from "@/lib/types";
@@ -132,11 +132,9 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
 
         {items.map((item) => {
           const t = tone(item.row.wing, item.highlight);
+          // Solid fills per DESIGN.md: ink for fixed wing, mint for rotary,
+          // signal for the single largest type on the whole sheet.
           const colorCls = t === "signal" ? "text-signal" : t === "mint" ? "text-mint" : "text-ink";
-          // The largest type keeps a light signal tint even off fixed wing;
-          // other fixed-wing silhouettes get a faint paper fill so they read
-          // as solid planforms. Rotary/balloon stay hollow outlines.
-          const fillCls = item.highlight ? styles.fillHighlight : item.row.wing === "FW" ? styles.fillFw : "";
           return (
             <div
               key={item.row.name}
@@ -148,7 +146,7 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
                 height: `${(item.h / vh) * 100}%`,
               }}
             >
-              <Silhouette wing={item.row.wing} className={`h-full w-full ${colorCls} ${fillCls}`} strokeWidth={item.strokeWidth} />
+              <Planform icao={item.row.icao} wing={item.row.wing} className={`h-full w-full ${colorCls}`} strokeWidth={item.strokeWidth} />
             </div>
           );
         })}
@@ -159,11 +157,16 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
           .filter((w) => (wings[w] ?? 0) > 0)
           .map((w) => (
             <span key={w} className="inline-flex items-center gap-2">
-              <Silhouette wing={w} className={`h-4 w-6 shrink-0 ${w === "RW" ? "text-mint" : "text-ink-2"}`} strokeWidth={1.3} />
+              <Planform icao={null} wing={w} className={`h-4 w-6 shrink-0 ${w === "RW" ? "text-mint" : "text-ink-2"}`} strokeWidth={1.3} />
               {fmtInt(wings[w] ?? 0)} {WING_LABEL[w].toLowerCase()}
             </span>
           ))}
       </div>
+
+      {/* Two of the drawn planforms (737-8 and 787-8) trace CC BY-SA Commons
+       * files; DESIGN.md's attribution rule requires this credit line when
+       * any CC BY / CC BY-SA source is used. See docs/SILHOUETTES.md. */}
+      <p className="label label-dim mt-2">Silhouettes: Wikimedia Commons contributors, see docs/SILHOUETTES.md</p>
     </>
   );
 }

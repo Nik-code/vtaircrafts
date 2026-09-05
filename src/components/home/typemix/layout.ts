@@ -1,4 +1,5 @@
 import type { TypeRow } from "../derive";
+import { planformAspect } from "./planforms";
 
 /**
  * Geometry for the "flight line" drawing: the top types parked nose-to-tail on
@@ -54,8 +55,6 @@ export interface FlightLineLayout {
 
 const MIN_W = 90;
 const MAX_W = 260;
-/** height / width, matching Silhouette's own 200x120 viewBox. */
-const ASPECT = 0.6;
 const GAP = 22;
 const MARGIN_X = 20;
 /** Minimum label-footprint clearance between same-shelf neighbours (i, i-2). */
@@ -148,8 +147,11 @@ export function layoutFlightLine(rows: TypeRow[], highlightName: string): Flight
   const ts = rows.map((r) => (span > 0 ? (Math.sqrt(r.count) - sMin) / span : 1));
   const widths = ts.map((t) => MIN_W + t * (MAX_W - MIN_W));
   const strokeWidths = ts.map((t) => round2(STROKE_MIN + t * (STROKE_MAX - STROKE_MIN)));
-  const maxWidth = Math.max(...widths, MIN_W);
-  const maxHeight = maxWidth * ASPECT;
+  // Each type keeps its own drawing's real aspect ratio (span/length for fixed
+  // wing, rotor-diameter/length for rotorcraft) instead of one fixed ratio.
+  const aspects = rows.map((r) => planformAspect(r.icao, r.wing));
+  const heights = widths.map((w, i) => w * aspects[i]);
+  const maxHeight = Math.max(...heights, MIN_W);
 
   const nameLinesByRow = rows.map((r) => wrapName(r.name));
   const footprints = rows.map((r, i) => {
@@ -217,7 +219,7 @@ export function layoutFlightLine(rows: TypeRow[], highlightName: string): Flight
 
   const items: FlightLineItem[] = rows.map((row, i) => {
     const w = widths[i];
-    const h = w * ASPECT;
+    const h = heights[i];
     const y = baseline - h;
     const cx = x[i] + w / 2;
     const calloutRow = calloutRows[i];

@@ -193,7 +193,7 @@ const RULES: Rule[] = [
   { re: /Citation\s*Sovereign|680/i, icao: "C680", manufacturer: "Cessna", family: "Citation", name: "Cessna Citation Sovereign" },
   { re: /Citation\s*Latitude/i, icao: "C68A", manufacturer: "Cessna", family: "Citation", name: "Cessna Citation Latitude" },
   { re: /Citation/i, icao: null, manufacturer: "Cessna", family: "Citation", name: "Cessna Citation" },
-  { re: /King\s*Air\s*(B?)350|B300|350i?/i, icao: "B350", manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air 350" },
+  { re: /King\s*Air\s*B?[\s-]?350|\bB[\s-]?300\b|Beech(?:craft)?\s*300/i, icao: "B350", manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air 350" },
   { re: /King\s*Air\s*(B?)[\s-]?(200|250)|\bB[\s-]?200|\bB[\s-]?250|SKA\s*B?200|KINGAIR\s*B?200/i, icao: "BE20", manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air 200" },
   { re: /King\s*Air\s*C?[\s-]?90|\bC[\s-]?90/i, icao: "BE9L", manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air C90" },
   { re: /King\s*Air/i, icao: null, manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air" },

@@ -490,7 +490,7 @@
   "operator": "Kestrel Aviation",
   "operatorId": "kestrel-aviation-pvt",
   "model": "AS350B3E",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "dgca",
    "file": "ns-oper.pdf",
@@ -508,7 +508,7 @@
   "operator": "Kestrel Aviation",
   "operatorId": "kestrel-aviation-pvt",
   "model": "AS350B3E",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "dgca",
    "file": "ns-oper.pdf",
@@ -958,7 +958,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3 ECUREUIL",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "dgca",
    "file": "ns-oper.pdf",
@@ -1880,7 +1880,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3E",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260819080503.pdf",
@@ -2312,7 +2312,7 @@
   "operator": "Pinnacle Air",
   "operatorId": "pinnacle-air-pvt",
   "model": "AS350B2",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260819080503.pdf",
@@ -3356,7 +3356,7 @@
   "operator": "Steamhouse India",
   "operatorId": "steamhouse-india",
   "model": "PA-46-350P",
-  "type": "Beechcraft King Air 350",
+  "type": "Piper",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260819080503.pdf",
@@ -3464,7 +3464,7 @@
   "operator": "Deccan Charters",
   "operatorId": "deccan-charters",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260819080503.pdf",
@@ -3482,7 +3482,7 @@
   "operator": "United Helicharters",
   "operatorId": "united-helicharters-pvt",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260819080503.pdf",
@@ -4184,7 +4184,7 @@
   "operator": "Heritage Aviation",
   "operatorId": "heritage-aviation",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260819080503.pdf",
@@ -4202,7 +4202,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260819080503.pdf",
@@ -4220,7 +4220,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260819080503.pdf",
@@ -5892,7 +5892,7 @@
   "toOperator": "Jhankar Aviation",
   "toOperatorId": "jhankar-aviation",
   "model": "BEECHCRAFT 300LW",
-  "type": "BEECHCRAFT 300LW",
+  "type": "Beechcraft King Air 350",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260819080503.pdf",
@@ -6219,7 +6219,7 @@
   "operator": "Arrow Aircrafts Sales & Charters",
   "operatorId": "arrow-aircrafts-sales-and-charters",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -6237,7 +6237,7 @@
   "operator": "Arrow Aircrafts Sales & Charters",
   "operatorId": "arrow-aircrafts-sales-and-charters",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -6813,7 +6813,7 @@
   "operator": "Thumby Aviation",
   "operatorId": "thumby-aviation",
   "model": "AS350B3E",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -6849,7 +6849,7 @@
   "operator": "Thumby Aviation",
   "operatorId": "thumby-aviation",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -6957,7 +6957,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -6975,7 +6975,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -6993,7 +6993,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3E",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -7011,7 +7011,7 @@
   "operator": "Heritage Aviation",
   "operatorId": "heritage-aviation",
   "model": "AS350B3E",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -7047,7 +7047,7 @@
   "operator": "Heritage Aviation",
   "operatorId": "heritage-aviation",
   "model": "AS350B3E",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -8073,7 +8073,7 @@
   "operator": "PILGRIMAGE AVIATION",
   "operatorId": "pilgrimage-aviation",
   "model": "AS350B3E",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -8523,7 +8523,7 @@
   "operator": "Chipsan Aviation",
   "operatorId": "chipsan-aviation-pvt",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -8541,7 +8541,7 @@
   "operator": "Chipsan Aviation",
   "operatorId": "chipsan-aviation-pvt",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -8649,7 +8649,7 @@
   "operator": "Rajas Aerosports and Adventures",
   "operatorId": "rajas-aerosports-and-adventures-provate",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -8667,7 +8667,7 @@
   "operator": "Rajas Aerosports and Adventures",
   "operatorId": "rajas-aerosports-and-adventures-provate",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -8685,7 +8685,7 @@
   "operator": "Rajas Aerosports and Adventures",
   "operatorId": "rajas-aerosports-and-adventures-provate",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -8721,7 +8721,7 @@
   "operator": "Rajas Aerosports and Adventures",
   "operatorId": "rajas-aerosports-and-adventures-provate",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -8793,7 +8793,7 @@
   "operator": "Heritage Aviation",
   "operatorId": "heritage-aviation",
   "model": "AS350B3E",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -8865,7 +8865,7 @@
   "operator": "Global Vectra Helicorp",
   "operatorId": "global-vectra-helicorp",
   "model": "AS 350 B3e",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -9063,7 +9063,7 @@
   "operator": "Shraddha Energy and Infraprojects",
   "operatorId": "shraddha-energy-and-infraprojects",
   "model": "AS350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -9801,7 +9801,7 @@
   "operator": "Deccan Charters",
   "operatorId": "deccan-charters",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -10269,7 +10269,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3 ECUREUIL",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -10305,7 +10305,7 @@
   "operator": "Global Vectra Helicorp",
   "operatorId": "global-vectra-helicorp",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -10413,7 +10413,7 @@
   "operator": "Heritage Aviation",
   "operatorId": "heritage-aviation",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -10629,7 +10629,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3 ECUREUIL",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -11151,7 +11151,7 @@
   "operator": "UTair India",
   "operatorId": "utair-india",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -11169,7 +11169,7 @@
   "operator": "UTair India",
   "operatorId": "utair-india",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -11187,7 +11187,7 @@
   "operator": "UTair India",
   "operatorId": "utair-india",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20260128042407.pdf",
@@ -27007,7 +27007,7 @@
   "operator": "Air Heritage",
   "operatorId": "air-heritage",
   "model": "SKA 350",
-  "type": "Beechcraft King Air 350",
+  "type": "SKA 350",
   "source": {
    "kind": "wayback",
    "file": "wayback/scheduled/20230602080644.pdf",
@@ -31403,7 +31403,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3 ECUREUIL",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20191221193732.pdf",
@@ -31565,7 +31565,7 @@
   "operator": "Air Heritage",
   "operatorId": "air-heritage",
   "model": "SKA 350",
-  "type": "Beechcraft King Air 350",
+  "type": "SKA 350",
   "source": {
    "kind": "wayback",
    "file": "wayback/scheduled/20190819092524.pdf",
@@ -31583,7 +31583,7 @@
   "operator": "Deccan Charters",
   "operatorId": "deccan-charters",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20190909133806.pdf",
@@ -31943,7 +31943,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3 ECUREUIL",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20190909133806.pdf",
@@ -40258,7 +40258,7 @@
   "operator": "Summit Aviation",
   "operatorId": "summit-aviation-pvt",
   "model": "ECUREUIL AS350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20181222142350.pdf",
@@ -41134,7 +41134,7 @@
   "operator": "Global Vectra Helicorp",
   "operatorId": "global-vectra-helicorp",
   "model": "AS 350 B3e",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20180711204122.pdf",
@@ -41152,7 +41152,7 @@
   "operator": "Global Vectra Helicorp",
   "operatorId": "global-vectra-helicorp",
   "model": "AS 350 B3e",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20180711204122.pdf",
@@ -42682,7 +42682,7 @@
   "operator": "Global Vectra Helicorp",
   "operatorId": "global-vectra-helicorp",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20180219000935.pdf",
@@ -44662,7 +44662,7 @@
   "operator": "Global Vectra Helicorp",
   "operatorId": "global-vectra-helicorp",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20170722181141.pdf",
@@ -44842,7 +44842,7 @@
   "operator": "Prabhatam Aviation",
   "operatorId": "prabhatam-aviation",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20170722181141.pdf",
@@ -45164,7 +45164,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20170516202447.pdf",
@@ -46352,7 +46352,7 @@
   "operator": "Arrow Aircrafts Sales Charters",
   "operatorId": "arrow-aircrafts-sales-charters",
   "model": "BEECHCRAFT 300LW",
-  "type": "BEECHCRAFT 300LW",
+  "type": "Beechcraft King Air 350",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20170516202447.pdf",
@@ -50979,7 +50979,7 @@
   "operator": "Mesco Aerospace",
   "operatorId": "mesco-aerospace",
   "model": "AS 350 BA (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20160304022813.pdf",
@@ -52162,7 +52162,7 @@
   "operator": "Heritage Aviation",
   "operatorId": "heritage-aviation",
   "model": "AS 350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20150930091014.pdf",
@@ -52737,7 +52737,7 @@
   "operator": "Prabhatam Aviation",
   "operatorId": "prabhatam-aviation",
   "model": "AS350 B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20150616064245.pdf",
@@ -52837,7 +52837,7 @@
   "toOperator": "Himalayan Heli Services",
   "toOperatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20150616064245.pdf",
@@ -53634,7 +53634,7 @@
   "operator": "Simm Samm Airways",
   "operatorId": "simm-samm-airways",
   "model": "Ecureuil AS 350B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20150401024410.pdf",
@@ -53734,7 +53734,7 @@
   "toOperator": "Mesco Aerospace",
   "toOperatorId": "mesco-aerospace",
   "model": "AS 350 BA (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20150401024410.pdf",
@@ -54249,7 +54249,7 @@
   "toOperator": "GVK Project & Technical Services",
   "toOperatorId": "gvk-project-and-technical-services",
   "model": "AS 350 B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20141006082849.pdf",
@@ -62144,7 +62144,7 @@
   "operator": "Davangere Sugar Company",
   "operatorId": "davangere-sugar-company",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20130616012201.pdf",
@@ -63224,7 +63224,7 @@
   "operator": "Prabhatam Aviation",
   "operatorId": "prabhatam-aviation",
   "model": "AS350B3e (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20130616012201.pdf",
@@ -63782,7 +63782,7 @@
   "operator": "UTair India",
   "operatorId": "utair-india",
   "model": "350 B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "350 B3 (H)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20130616012201.pdf",
@@ -64016,7 +64016,7 @@
   "operator": "Global Vectra Helicorp",
   "operatorId": "global-vectra-helicorp",
   "model": "AS 350 B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20130616012201.pdf",
@@ -66470,7 +66470,7 @@
   "toOperator": "Simm Samm Airways",
   "toOperatorId": "simm-samm-airways",
   "model": "Ecureuil AS 350B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20130616012201.pdf",
@@ -77281,7 +77281,7 @@
   "operator": "Prabhatam Aviation",
   "operatorId": "prabhatam-aviation",
   "model": "AS350 B3 Helicopter",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20110721162505.pdf",
@@ -77587,7 +77587,7 @@
   "operator": "Simm Sam Airways",
   "operatorId": "simm-sam-airways",
   "model": "Ecureuil AS 350B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20110721162505.pdf",
@@ -77659,7 +77659,7 @@
   "operator": "UTair India",
   "operatorId": "utair-india",
   "model": "Ecureuil AS-350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20110721162505.pdf",
@@ -77677,7 +77677,7 @@
   "operator": "Indocopters",
   "operatorId": "indocopters-pvt",
   "model": "AS 350 B3 Ecureuil (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20110721162505.pdf",
@@ -85506,7 +85506,7 @@
   "operator": "Summit Aviation",
   "operatorId": "summit-aviation-pvt",
   "model": "AS350B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20101120070251.pdf",
@@ -85596,7 +85596,7 @@
   "operator": "Pawan Hans",
   "operatorId": "pawan-hans",
   "model": "AS 350 B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20101120070251.pdf",
@@ -86244,7 +86244,7 @@
   "operator": "Indocopters",
   "operatorId": "indocopters-pvt",
   "model": "AS 350 B3 Ecureuil (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20101120070251.pdf",
@@ -86564,7 +86564,7 @@
   "toOperator": "Deccan Charters",
   "toOperatorId": "deccan-charters",
   "model": "AS 350 B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20101120070251.pdf",
@@ -89461,7 +89461,7 @@
   "operator": "Global Vectra Helicorp",
   "operatorId": "global-vectra-helicorp",
   "model": "AS 350 B2",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20170404043909.pdf",
@@ -92287,7 +92287,7 @@
   "toOperator": "Indocopters",
   "toOperatorId": "indocopters-pvt",
   "model": "AS 350 B3 Ecureuil (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20170404043909.pdf",
@@ -95384,7 +95384,7 @@
   "operator": "Himalayan Heli Services",
   "operatorId": "himalayan-heli-services-p",
   "model": "AS 350 B3 (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20090619063151.pdf",
@@ -96394,7 +96394,7 @@
   "toOperator": "Air Charter Services",
   "toOperatorId": "air-charter-services",
   "model": "350 VT-ACD",
-  "type": "Beechcraft King Air 350",
+  "type": "350 VT-ACD",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20090619063151.pdf",
@@ -97134,7 +97134,7 @@
   "toOperator": "SAR Aviation Services",
   "toOperatorId": "sar-aviation-services",
   "model": "AS 350 B3 Ecureuil (H)",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20090619063151.pdf",
@@ -97638,7 +97638,7 @@
   "operator": "Global Vectra Helicorp",
   "operatorId": "global-vectra-helicorp",
   "model": "AS 350 B3",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20090410021131.pdf",
@@ -108677,7 +108677,7 @@
   "operator": "Vectra Aviation",
   "operatorId": "vectra-aviation-pvt",
   "model": "AS 350 B3 Ecureuil",
-  "type": "Beechcraft King Air 350",
+  "type": "Airbus H125 (AS350)",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20061013160926.pdf",
@@ -109449,7 +109449,7 @@
   "operator": "Govt. of Jammu & Kashmir. Director, Civil Aviation , Room",
   "operatorId": "govt-of-jammu-and-kashmir-director-civil-aviation-room",
   "model": "B-300.",
-  "type": "B-300.",
+  "type": "Beechcraft King Air 350",
   "source": {
    "kind": "wayback",
    "file": "wayback/non-scheduled/20060922135719.pdf",
