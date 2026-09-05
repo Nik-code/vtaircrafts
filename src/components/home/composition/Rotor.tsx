@@ -1,11 +1,12 @@
 import styles from "./composition.module.css";
-import { Callouts, Patterns } from "./parts";
+import { Callouts } from "./parts";
 import {
   CX,
   CY,
   R_ANN_IN,
   R_ANN_OUT,
   R_OUT,
+  RING_GAP_DEG,
   VB_H,
   VB_W,
   annularSector,
@@ -13,7 +14,6 @@ import {
   layoutCallouts,
   polar,
   rotorBlade,
-  svgFills,
   tickRing,
   type Share,
 } from "./share";
@@ -51,32 +51,33 @@ const SKIDS = [
 ].join(" ");
 
 /**
- * Plan view of a four-blade main rotor over its airframe. The swept disc is
- * drawn as a band divided by operator share of the rotary fleet.
+ * Plan view of a four-blade main rotor over its airframe. The blades are
+ * neutral, turning engineering parts; the rotary fleet share by operator
+ * lives only in the static band around the swept disc.
  */
 export function Rotor({ share }: { share: Share }) {
-  const fills = svgFills(PREFIX);
   const callouts = layoutCallouts(share);
 
   return (
     <svg className={styles.svg} viewBox={`0 0 ${VB_W} ${VB_H}`} role="img" aria-labelledby={`${PREFIX}-t`}>
       <title id={`${PREFIX}-t`}>Main rotor plan view: rotary-wing fleet share by operator</title>
-      <Patterns prefix={PREFIX} />
 
       <g className={styles.zoomRotor}>
         {/* Swept disc boundary and the per-cent scale */}
-        <circle cx={CX} cy={CY} r={R_OUT} fill="none" stroke="var(--rule-2)" strokeWidth="1" strokeDasharray="5 5" />
+        <circle cx={CX} cy={CY} r={R_OUT} fill="none" stroke="var(--rule-2)" strokeWidth="0.7" strokeDasharray="4 5" />
         <path d={tickRing(CX, CY, share.start)} stroke="var(--ink-3)" strokeWidth="0.9" fill="none" />
 
-        {/* Share of the rotary fleet, drawn to scale */}
+        {/* Share of the rotary fleet, drawn to scale. One coloured, static
+            element per operator; a paper gap between arcs reads as discrete
+            wedges instead of a continuous painted ring. */}
         <g>
           {share.segments.map((s) => (
             <path
               key={s.key}
               className={styles.arc}
-              d={annularSector(CX, CY, R_ANN_IN, R_ANN_OUT, s.a0 + 0.3, s.a1 - 0.3)}
-              fill={fills[s.fill]}
-              stroke="var(--ink)"
+              d={annularSector(CX, CY, R_ANN_IN, R_ANN_OUT, s.a0 + RING_GAP_DEG, s.a1 - RING_GAP_DEG)}
+              fill={s.fill}
+              stroke={s.others ? "var(--ink-2)" : "var(--ink)"}
               strokeWidth="0.8"
             />
           ))}

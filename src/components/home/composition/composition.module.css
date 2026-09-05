@@ -81,11 +81,12 @@
   }
 }
 
-/* Hover: the arc, its leader and its name lift together. */
+/* Hover: the arc, its leader, its swatch and its name lift together. */
 .arc,
 .lead,
 .name,
-.dot {
+.dot,
+.swatch {
   transition:
     stroke-width 150ms var(--ease-out),
     stroke 150ms var(--ease-out),
@@ -101,6 +102,11 @@
 .callout:hover .dot {
   stroke: var(--ink);
   fill: var(--ink);
+}
+
+.callout:hover .swatch {
+  stroke: var(--ink);
+  stroke-width: 1.4;
 }
 
 .callout:hover .name {

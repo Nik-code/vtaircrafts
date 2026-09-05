@@ -15,8 +15,7 @@ export const CY = 200;
 export const R_OUT = 126; // nacelle outer lip / swept-disc boundary
 export const R_LIP_IN = 116; // nacelle lip inner edge
 export const R_TICK_OUT = 114; // per-cent scale, outer end of every tick
-export const R_TICK_MIN = 110; // minor tick root (every 2 per cent)
-export const R_TICK_MAJ = 106; // major tick root (every 10 per cent)
+export const R_TICK_MAJ = 106; // tick root (every 10 per cent; minors dropped)
 export const R_ANN_OUT = 104; // share annulus
 export const R_ANN_IN = 90;
 export const R_CASE = 88; // fan case / tip path circle
@@ -25,12 +24,14 @@ export const R_ROOT = 36; // fan blade roots
 export const R_SPIN = 32; // spinner
 
 /** Callout frame. */
-export const R_DOT = R_OUT; // leader starts on the outer boundary
+export const R_DOT = R_ANN_OUT; // leader starts on the share ring, not the outer lip
 export const R_ELBOW = 137;
-export const LEAD_X_L = 130; // leader ends here, text sits to its left
+export const LEAD_X_L = 130; // leader ends here, swatch and text sit to its left
 export const LEAD_X_R = 430;
-export const TEXT_X_L = 124;
-export const TEXT_X_R = 436;
+export const SWATCH = 8; // brand-colour square, drawn just before each name
+export const SWATCH_GAP = 3;
+export const TEXT_X_L = LEAD_X_L - SWATCH_GAP - SWATCH - SWATCH_GAP;
+export const TEXT_X_R = LEAD_X_R + SWATCH_GAP + SWATCH + SWATCH_GAP;
 export const LINE_H = 13;
 export const LABEL_GAP = 12;
 export const LABEL_MIN_Y = 14;
@@ -57,13 +58,12 @@ export function annularSector(cx: number, cy: number, rIn: number, rOut: number,
   return `M ${x0} ${y0} A ${rOut} ${rOut} 0 ${large} 1 ${x1} ${y1} L ${x2} ${y2} A ${rIn} ${rIn} 0 ${large} 0 ${x3} ${y3} Z`;
 }
 
-/** One path holding every tick of the per-cent scale ring. */
-export function tickRing(cx: number, cy: number, start: number, stepPct = 2): string {
+/** One path holding the ten-per-cent major ticks of the scale ring. */
+export function tickRing(cx: number, cy: number, start: number): string {
   const parts: string[] = [];
-  for (let i = 0; i < 100; i += stepPct) {
-    const major = i % 10 === 0;
+  for (let i = 0; i < 100; i += 10) {
     const a = start + i * 3.6;
-    const [x0, y0] = polar(cx, cy, major ? R_TICK_MAJ : R_TICK_MIN, a);
+    const [x0, y0] = polar(cx, cy, R_TICK_MAJ, a);
     const [x1, y1] = polar(cx, cy, R_TICK_OUT, a);
     parts.push(`M ${x0} ${y0} L ${x1} ${y1}`);
   }
@@ -132,7 +132,8 @@ export interface Segment {
   /** Start and end angle in degrees, 0 = three o'clock, increasing clockwise. */
   a0: number;
   a1: number;
-  fill: number;
+  /** Resolved colour: an operator's brand hex, a fallback tint, or the others fill. */
+  fill: string;
   others: boolean;
 }
 
@@ -143,6 +144,39 @@ export interface Share {
   /** Angle at which the first segment starts. */
   start: number;
 }
+
+/**
+ * Brand colours for the named operators, chosen to stay distinguishable on
+ * paper and to keep similar reds apart (Air India darkened, SpiceJet moved to
+ * an orange-red, Air India Express moved to amber). This is the one place
+ * colour comes from something other than the design tokens: the ring segment
+ * is the single coloured, non-moving element per figure, so it carries the
+ * airline identity the tokens-only palette cannot.
+ */
+export const BRAND: Record<string, string> = {
+  indigo: "#0B1F8F",
+  "air-india": "#B7121F",
+  "air-india-express": "#F5A623",
+  spicejet: "#F04E37",
+  "akasa-air": "#6E2C91",
+  "alliance-air": "#2F6DB5",
+  "star-air": "#2C9BD6",
+  "pawan-hans": "#D62828",
+  "global-vectra-helicorp": "#0057A8",
+  "heligo-charters": "#0F8B7A",
+  "thumby-aviation": "#E8891D",
+  "chipsan-aviation": "#7B3FA0",
+  "deccan-charters": "#B8922E",
+};
+
+/** Cycled for a named top-six operator with no assigned brand colour. */
+const FALLBACK_BRAND = ["#4A5568", "#8A93A3", "#0B2E5A"];
+
+/** Everything outside the top six: paper with a hairline ink-2 outline. */
+export const OTHERS_FILL = "var(--paper-3)";
+
+/** Half the desired ~1.5px paper gap between adjacent ring arcs, in degrees. */
+export const RING_GAP_DEG = 0.41;
 
 /**
  * Top six operators of a wing plus one "others" segment. The start angle is
@@ -166,10 +200,12 @@ export function buildShare(operators: Operator[], wing: Wing, total: number): Sh
 
   const segments: Segment[] = [];
   let cum = 0;
+  let fallbackI = 0;
   for (let i = 0; i < top.length; i++) {
     const o = top[i];
     const a0 = start + (cum / total) * 360;
     cum += o.count;
+    const fill = BRAND[o.id] ?? FALLBACK_BRAND[fallbackI++ % FALLBACK_BRAND.length];
     segments.push({
       key: o.id,
       name: o.name,
@@ -177,7 +213,7 @@ export function buildShare(operators: Operator[], wing: Wing, total: number): Sh
       pct: (o.count / total) * 100,
       a0: round2(a0),
       a1: round2(start + (cum / total) * 360),
-      fill: i,
+      fill,
       others: false,
     });
   }
@@ -189,29 +225,11 @@ export function buildShare(operators: Operator[], wing: Wing, total: number): Sh
       pct: (othersCount / total) * 100,
       a0: round2(start + (cum / total) * 360),
       a1: round2(start + 360),
-      fill: TOP_N,
+      fill: OTHERS_FILL,
       others: true,
     });
   }
   return { segments, total, operators: ranked.length, start };
-}
-
-/** Which segment owns each fan blade slot: the segment under the slot centre. */
-export function bladeOwners(share: Share): number[] {
-  const pitch = 360 / FAN_BLADES;
-  const owners: number[] = [];
-  for (let j = 0; j < FAN_BLADES; j++) {
-    const centre = share.start + (j + 0.5) * pitch;
-    let owner = share.segments.length - 1;
-    for (let k = 0; k < share.segments.length; k++) {
-      if (centre >= share.segments[k].a0 && centre < share.segments[k].a1) {
-        owner = k;
-        break;
-      }
-    }
-    owners.push(owner);
-  }
-  return owners;
 }
 
 /* ------------------------------------------------------------------ *
@@ -232,6 +250,10 @@ export interface Callout {
   /** Baseline of the first name line. */
   baseY: number;
   others: boolean;
+  /** Brand swatch: colour and top-left corner, sized SWATCH x SWATCH. */
+  color: string;
+  swatchX: number;
+  swatchY: number;
 }
 
 /** Break a name into lines of at most `max` characters. Words are never cut. */
@@ -308,6 +330,8 @@ export function layoutCallouts(share: Share): Callout[] {
       const leadX = side === "L" ? LEAD_X_L : LEAD_X_R;
       const shelf = side === "L" ? leadX + 12 : leadX - 12;
       const midY = Math.round((b.top + b.height / 2) * 100) / 100;
+      const baseY = Math.round((b.top + LINE_H - 3) * 100) / 100;
+      const swatchX = side === "L" ? LEAD_X_L - SWATCH_GAP - SWATCH : LEAD_X_R + SWATCH_GAP;
       out.push({
         key: b.seg.key,
         lines: b.lines,
@@ -318,36 +342,14 @@ export function layoutCallouts(share: Share): Callout[] {
         dotY: dy,
         textX: side === "L" ? TEXT_X_L : TEXT_X_R,
         anchor: side === "L" ? "end" : "start",
-        baseY: Math.round((b.top + LINE_H - 3) * 100) / 100,
+        baseY,
         others: b.seg.others,
+        color: b.seg.fill,
+        swatchX,
+        swatchY: round2(baseY - SWATCH),
       });
     }
   }
   return out;
 }
 
-/* ------------------------------------------------------------------ *
- * Palette: tokens only. Signal is spent on the largest operator alone. *
- * ------------------------------------------------------------------ */
-
-export function svgFills(prefix: string): string[] {
-  return [
-    "var(--signal)",
-    "var(--ink)",
-    `url(#${prefix}-hatch-ink)`,
-    "var(--blue)",
-    "var(--mint)",
-    `url(#${prefix}-hatch-blue)`,
-    "var(--paper-3)",
-  ];
-}
-
-export const cssFills: string[] = [
-  "var(--signal)",
-  "var(--ink)",
-  "repeating-linear-gradient(135deg, var(--ink) 0 1.2px, var(--paper-2) 1.2px 6px)",
-  "var(--blue)",
-  "var(--mint)",
-  "repeating-linear-gradient(135deg, var(--blue) 0 1.2px, var(--paper-2) 1.2px 6px)",
-  "var(--paper-3)",
-];

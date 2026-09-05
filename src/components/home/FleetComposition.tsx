@@ -4,7 +4,7 @@ import type { Meta, Operator } from "@/lib/types";
 import { JetEngine } from "./composition/JetEngine";
 import { Rotor } from "./composition/Rotor";
 import styles from "./composition/composition.module.css";
-import { buildShare, cssFills, fmtPct, type Share } from "./composition/share";
+import { buildShare, fmtPct, type Share } from "./composition/share";
 
 /** Names and shares for the narrow layout, where the callouts are hidden. */
 function Legend({ share }: { share: Share }) {
@@ -14,8 +14,8 @@ function Legend({ share }: { share: Share }) {
         <li key={s.key} className="label flex items-center gap-1.5">
           <span
             aria-hidden
-            className="inline-block h-2.5 w-2.5 shrink-0 border border-ink"
-            style={{ background: cssFills[s.fill] }}
+            className={`inline-block h-2.5 w-2.5 shrink-0 border ${s.others ? "border-ink-2" : "border-ink"}`}
+            style={{ background: s.fill }}
           />
           <span className={s.others ? "text-ink-2" : "text-ink"}>{s.name}</span>
           <span className="text-ink-3">{fmtPct(s.pct)}</span>

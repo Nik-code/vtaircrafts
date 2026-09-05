@@ -22,12 +22,12 @@ export function Footer() {
               GitHub ↗
             </a>
             <ButtonLink
-              href="https://priyanshnikka.com"
+              href="https://priyanshnik.com"
               tone="ghost"
               external
               className="px-2.5 py-1 text-[10px]"
             >
-              Made by Priyansh Nikka ↗
+              Creator portfolio ↗
             </ButtonLink>
           </div>
         </div>
