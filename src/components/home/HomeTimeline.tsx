@@ -147,11 +147,11 @@ export function HomeTimeline({
   return (
     <div>
       <div className="border-y border-ink">
-        <StripBay label="Movements · newest first" duration="80s" cards={movementCards} />
+        <StripBay label="Movements · newest first" duration="220s" cards={movementCards} />
         <div className="border-t border-rule" />
         <StripBay
           label={`Permits due · next ${horizonMonths} months`}
-          duration="80s"
+          duration="220s"
           reverse
           cards={permitCards}
         />

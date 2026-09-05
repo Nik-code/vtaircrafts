@@ -44,3 +44,4 @@ next-env.d.ts
 data/cache/**/*.log
 data/raw/aircraft.csv
 public/data/
+public/__mobile.html

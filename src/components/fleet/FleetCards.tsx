@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { IndexRecord } from "@/lib/types";
 import { fmtDate, thumb } from "@/lib/format";
 import { Silhouette } from "@/components/ui/Silhouette";
+import { RepresentativeTag } from "@/components/ui/Plate";
 import { Stamp } from "@/components/ui/Stamp";
 import { ROLE_LABEL } from "./indexData";
 
@@ -21,7 +22,7 @@ export function FleetCards({ rows }: { rows: IndexRecord[] }) {
           className="row-hover group flex items-stretch gap-3 border-b border-r border-rule p-2.5"
         >
           <div className="relative aspect-[3/2] w-32 shrink-0 overflow-hidden border border-rule-2 bg-paper-2">
-            {a.i ? (
+            {a.i && (
               // eslint-disable-next-line @next/next/no-img-element
               <img
                 src={thumb(a.i[0], 250)}
@@ -30,7 +31,9 @@ export function FleetCards({ rows }: { rows: IndexRecord[] }) {
                 decoding="async"
                 className="h-full w-full object-cover"
               />
-            ) : (
+            )}
+            {a.i && a.i[1] !== 0 && <RepresentativeTag className="origin-top-left scale-[0.85]" />}
+            {!a.i && (
               <div className="grid-paper grid h-full w-full place-items-center text-ink-3">
                 <Silhouette wing={a.w} className="h-1/2 w-1/2" />
               </div>

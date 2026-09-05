@@ -23,7 +23,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .track {
-    animation: marquee var(--marquee-duration, 80s) linear infinite;
+    animation: marquee var(--marquee-duration, 200s) linear infinite;
   }
   .viewport:hover .track,
   .viewport:focus-within .track {
@@ -53,7 +53,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .svgTrack {
-    animation: marquee var(--marquee-duration, 80s) linear infinite;
+    animation: marquee var(--marquee-duration, 200s) linear infinite;
   }
   .viewport:hover .svgTrack,
   .viewport:focus-within .svgTrack {

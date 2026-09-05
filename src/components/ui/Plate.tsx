@@ -37,16 +37,19 @@ export function Plate({
   return (
     <figure className={`rivets border border-rule-2 bg-paper-2 ${className}`}>
       <span className="rivet-b" />
-      <Wrap href={href} className={`m-[10px] block overflow-hidden border border-rule ${aspect}`}>
+      <Wrap href={href} className={`relative m-[10px] block overflow-hidden border border-rule ${aspect}`}>
         {image ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={thumb(image.src, width)}
-            alt={alt}
-            loading={eager ? "eager" : "lazy"}
-            decoding="async"
-            className="h-full w-full object-cover"
-          />
+          <>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={thumb(image.src, width)}
+              alt={alt}
+              loading={eager ? "eager" : "lazy"}
+              decoding="async"
+              className="h-full w-full object-cover"
+            />
+            {image.tier !== "exact" && <RepresentativeTag />}
+          </>
         ) : (
           <div className="grid-paper grid h-full w-full place-items-center text-ink-3">
             <Silhouette wing={wing} className="h-1/2 w-1/2" />
@@ -61,6 +64,18 @@ export function Plate({
         </figcaption>
       )}
     </figure>
+  );
+}
+
+/** Small stamp over a photo that shows a sibling airframe rather than this registration. */
+export function RepresentativeTag({ className = "" }: { className?: string }) {
+  return (
+    <span
+      className={`stamp pointer-events-none absolute left-1.5 top-1.5 bg-paper/90 px-1 text-[9px] text-caution ${className}`}
+      title="Photo of the same type and livery, not this registration"
+    >
+      Representative
+    </span>
   );
 }
 
