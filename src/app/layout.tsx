@@ -14,7 +14,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className="h-full antialiased">
+    <html lang="en" className="h-full antialiased" data-theme="dark" suppressHydrationWarning>
+      <head>
+        {/* Apply a stored theme before first paint; dark is the default. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var t=localStorage.getItem('vt-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}",
+          }}
+        />
+      </head>
       <body className="flex min-h-full flex-col bg-paper text-ink">
         <TopNav />
         <div className="flex-1">{children}</div>

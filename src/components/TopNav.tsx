@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Logo } from "@/components/Logo";
 import { SearchPalette } from "@/components/search/SearchPalette";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const links = [
   { href: "/fleet", label: "Fleet" },
@@ -26,6 +27,7 @@ export function TopNav() {
         </nav>
         <div className="ml-auto flex shrink-0 items-center gap-3">
           <SearchPalette />
+          <ThemeToggle />
           <a href="https://github.com/Nik-code/vtaircrafts" target="_blank" rel="noreferrer" className="label hidden text-ink-2 hover:text-ink md:inline">GitHub ↗</a>
         </div>
       </div>

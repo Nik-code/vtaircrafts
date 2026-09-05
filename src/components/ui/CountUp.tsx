@@ -49,7 +49,7 @@ export function CountUp({
 
         const tick = (t: number) => {
           const elapsed = t - start;
-          const p = Math.min(1, elapsed / clamped);
+          const p = Math.min(1, Math.max(0, elapsed / clamped)); // rAF timestamps can precede performance.now()
           const eased = 1 - Math.pow(1 - p, 3);
           setN(Math.round(value * eased));
           if (p < 1) raf = requestAnimationFrame(tick);
