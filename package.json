@@ -8,13 +8,14 @@
     "start": "next start",
     "lint": "eslint",
     "predev": "node scripts/copy-data.mjs",
-    "prebuild": "node scripts/copy-data.mjs",
+    "prebuild": "node scripts/copy-data.mjs && tsx scripts/og.ts",
     "pipeline:parse": "tsx pipeline/parse.ts",
     "pipeline:history": "tsx pipeline/history.ts",
     "pipeline:images": "tsx pipeline/images.ts",
     "pipeline:build": "tsx pipeline/build.ts",
     "typecheck": "next typegen && tsc --noEmit",
-    "pipeline:warm": "tsx pipeline/warm.ts"
+    "pipeline:warm": "tsx pipeline/warm.ts",
+    "og": "tsx scripts/og.ts"
   },
   "dependencies": {
     "@fontsource-variable/azeret-mono": "^5.3.0",
@@ -25,6 +26,7 @@
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^22.20.1",
     "@types/react": "^19",

@@ -9,7 +9,20 @@ export const metadata: Metadata = {
   description:
     "Every aircraft on India's scheduled and non-scheduled operator permits, drawn from DGCA's published lists and rebuilt every month.",
   metadataBase: new URL("https://vtaircrafts.in"),
-  openGraph: { siteName: "VT Aircrafts", type: "website" },
+  openGraph: {
+    siteName: "VT Aircrafts",
+    type: "website",
+    url: "https://vtaircrafts.in",
+    title: "VT Aircrafts · India commercial fleet index",
+    description: "Every aircraft on India's scheduled and non-scheduled operator permits, one mark each, rebuilt monthly from DGCA's lists.",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "VT Aircrafts: the Indian commercial fleet, one mark per aircraft" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VT Aircrafts · India commercial fleet index",
+    description: "Every aircraft on India's scheduled and non-scheduled operator permits, one mark each, rebuilt monthly from DGCA's lists.",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
