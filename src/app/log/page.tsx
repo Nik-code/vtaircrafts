@@ -1,32 +1,41 @@
 import type { Metadata } from "next";
-import { getChanges, getMeta } from "@/lib/data";
-import { LogView, type LogEntry } from "@/components/LogView";
+import { getEvents, getSnapshots } from "@/lib/data";
+import { fmtInt } from "@/lib/format";
+import { TitleBlock } from "@/components/ui/TitleBlock";
+import { SnapshotChain } from "@/components/log/SnapshotChain";
+import { LogTimeline } from "@/components/log/LogTimeline";
 
-export const metadata: Metadata = { title: "Log", description: "Every change to the Indian operator fleet lists, snapshot by snapshot." };
+export const metadata: Metadata = {
+  title: "Log",
+  description: "Every registration, deregistration, addition, removal and move recorded across DGCA list snapshots.",
+};
 
 export default function LogPage() {
-  const meta = getMeta();
-  const changes = getChanges();
-  const entries: LogEntry[] = [];
-  for (const s of meta.sources) {
-    entries.push({ at: meta.snapshot, kind: "SNAPSHOT", text: `${s.file} · ${s.aircraft} registrations · ${s.operators} operators · DGCA "updated as on ${s.asOn}" · sha256 ${s.sha256?.slice(0, 12)}` });
-  }
-  if (changes) {
-    for (const c of changes.added) entries.push({ at: changes.to, kind: "ADDED", reg: c.reg, text: `${c.type} · ${c.operator}`, href: `/aircraft/${c.reg}` });
-    for (const c of changes.moved) entries.push({ at: changes.to, kind: "MOVED", reg: c.reg, text: `${c.from} → ${c.to} · ${c.model}`, href: `/aircraft/${c.reg}` });
-    for (const c of changes.removed) entries.push({ at: changes.to, kind: "REMOVED", reg: c.reg, text: `${c.type} · was ${c.operator}` });
-    entries.push({ at: changes.from, kind: "SNAPSHOT", text: `baseline · ${changes.scope.join(", ")} list(s) · ${changes.added.length} added, ${changes.removed.length} removed, ${changes.moved.length} moved by ${changes.to}` });
-  }
-  for (const i of meta.issues) entries.push({ at: meta.snapshot, kind: "NOTE", text: `${i.category}: ${i.message}` });
+  const events = getEvents();
+  const snapshots = getSnapshots();
 
   return (
     <main className="mx-auto max-w-[1400px] px-5 py-8 sm:px-8">
-      <div className="label mb-2">Change log</div>
-      <h1 className="display mb-2 text-4xl sm:text-5xl">{entries.length.toLocaleString("en-IN")} events</h1>
-      <p className="mb-8 max-w-2xl text-sm text-fg-muted">
-        Diffs are computed between DGCA list snapshots. {changes ? <>The current baseline is the scheduled operators list of {changes.from}; non-scheduled history starts with the {meta.snapshot} snapshot.</> : null} Monthly snapshots accumulate here from now on.
+      <TitleBlock
+        sheet="05"
+        title="Movement log"
+        fields={[
+          { label: "Events", value: fmtInt(events.length) },
+          { label: "Snapshots", value: fmtInt(snapshots.length) },
+        ]}
+      />
+
+      <section className="my-8">
+        <SnapshotChain snapshots={snapshots} />
+      </section>
+
+      <LogTimeline events={events} />
+
+      <p className="mt-10 max-w-2xl border-t border-rule pt-6 text-sm leading-relaxed text-ink-2">
+        Diffs are computed between DGCA list snapshots, including Wayback Machine captures of the same pages. When a
+        change is only bracketed between two snapshots, the interval shown is honest about it: the change happened
+        somewhere inside that window. Exact dates are used where DGCA registration reports state one directly.
       </p>
-      <LogView entries={entries} />
     </main>
   );
 }
