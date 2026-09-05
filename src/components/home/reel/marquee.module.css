@@ -29,6 +29,10 @@
   .viewport:focus-within .track {
     animation-play-state: paused;
   }
+  /* Reverse the same loop for a bay that should scroll the opposite way (e.g. HomeTimeline's lower strip bay). */
+  .track.reverse {
+    animation-direction: reverse;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

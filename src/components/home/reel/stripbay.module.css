@@ -1,0 +1,89 @@
+/*
+ * Chrome for the two ATC-strip bays in HomeTimeline: the slotted-rail tick
+ * background behind the scrolling cards, and the flight-progress-strip card
+ * geometry shared by movement and permit cards. `.sb-row` is a single flex
+ * row per marquee segment; `align-items: stretch` (the flex default) is what
+ * makes every card in that row share the tallest card's height without a
+ * grid, per FRONTEND-V2's "flex stretch" guidance.
+ *
+ * Classes here are declared `:global` (plain, unscoped names) rather than the
+ * usual hashed CSS-module identifiers: this component repeats each class
+ * across dozens of duplicated marquee cards, and the home page HTML has a
+ * hard size budget, so short literal class names matter more than scoping.
+ */
+
+:global(.sb-rail) {
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--paper-3) 0,
+    var(--paper-3) 1px,
+    transparent 1px,
+    transparent 40px
+  );
+}
+
+:global(.sb-row) {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  padding: 12px;
+}
+
+:global(.sb-card) {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 280px;
+  min-height: 64px;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  background: var(--paper-2);
+  border: 1px solid var(--rule-2);
+  border-left-width: 4px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 150ms var(--ease-out, ease);
+}
+
+:global(.sb-card:hover),
+:global(.sb-card:focus-visible) {
+  border-color: var(--ink);
+}
+
+:global(.sb-card.sb-ghost) {
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  border-left-width: 1px;
+  border-style: dashed;
+  background: transparent;
+}
+
+/* Card-line layouts: a label/name on the left, a Stamp pinned right. */
+:global(.sb-line) {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+:global(.sb-line-top) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+:global(.sb-sub) {
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--ink-2);
+}
+
+:global(.sb-note) {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--ink-3);
+}

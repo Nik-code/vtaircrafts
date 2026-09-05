@@ -1,0 +1,30 @@
+/*
+ * Taxiway centreline: a dashed rule that drifts slowly, like paint markings
+ * sliding past a taxiing aircraft. Long and gentle, per DESIGN.md motion rules.
+ * References the `drift` keyframes defined globally in src/app/globals.css.
+ */
+.centerline {
+  stroke-dasharray: 10 14;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .centerline {
+    animation: drift 20s linear infinite;
+  }
+}
+
+/*
+ * Silhouette fills. Silhouette itself hard-codes fill="none" as an SVG
+ * presentation attribute on its inner <g>; an author-stylesheet rule that
+ * targets that <g> directly beats a presentation attribute regardless of
+ * specificity, so these classes (applied to Silhouette's own className,
+ * which lands on its root <svg>) reach in and override it. The paths never
+ * set their own fill, so the override cascades to them normally.
+ */
+.fillFw g {
+  fill: var(--paper-3);
+}
+
+.fillHighlight g {
+  fill: var(--signal-soft);
+}
