@@ -57,7 +57,39 @@ function matches(a: IndexRecord, q: string) {
   return n.split(" ").every((tok) => hay.includes(tok));
 }
 
-export function FleetExplorer({ data }: { data: IndexRecord[] }) {
+export function FleetExplorer({ total }: { total: number }) {
+  const [data, setData] = useState<IndexRecord[] | null>(null);
+  const [loadError, setLoadError] = useState<string | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/data/latest/index.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+      .then((j: IndexRecord[]) => { if (!cancelled) setData(j); })
+      .catch((e: Error) => { if (!cancelled) setLoadError(e.message); });
+    return () => { cancelled = true; };
+  }, []);
+  if (loadError) return <div className="mono py-16 text-center text-sm text-red">could not load index: {loadError}</div>;
+  if (!data) return <ExplorerSkeleton total={total} />;
+  return <FleetExplorerInner data={data} />;
+}
+
+function ExplorerSkeleton({ total }: { total: number }) {
+  return (
+    <div className="grid gap-6 lg:grid-cols-[260px_1fr]">
+      <aside className="space-y-5">
+        <div className="frame h-11 border border-line-strong bg-bg-elev" />
+        <div className="label cursor">loading {total.toLocaleString("en-IN")} records</div>
+      </aside>
+      <section className="space-y-2 pt-12">
+        {Array.from({ length: 12 }).map((_, i) => (
+          <div key={i} className="h-8 border-b border-line bg-bg-elev/40" style={{ opacity: 1 - i * 0.07 }} />
+        ))}
+      </section>
+    </div>
+  );
+}
+
+function FleetExplorerInner({ data }: { data: IndexRecord[] }) {
   // Initial state comes from the URL on the client; the server renders the unfiltered view.
   const search = useSyncExternalStore(subscribeNoop, getSearch, getServerSearch);
   const urlState = useMemo(() => parseParams(search), [search]);
