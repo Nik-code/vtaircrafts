@@ -13,7 +13,7 @@
     "pipeline:history": "tsx pipeline/history.ts",
     "pipeline:images": "tsx pipeline/images.ts",
     "pipeline:build": "tsx pipeline/build.ts",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "pipeline:warm": "tsx pipeline/warm.ts"
   },
   "dependencies": {
