@@ -22,9 +22,9 @@ export function StripBay({
   cards: ReactNode;
 }) {
   return (
-    <div className="flex items-stretch">
-      <div className="label flex shrink-0 items-center px-3 text-ink-2">{label}</div>
-      <div className={`${marquee.viewport} sb-rail min-w-0 flex-1 border-l border-rule`}>
+    <div className="flex flex-col items-stretch sm:flex-row">
+      <div className="label flex shrink-0 items-center px-3 py-2 text-ink-2 sm:py-0">{label}</div>
+      <div className={`${marquee.viewport} sb-rail min-w-0 flex-1 border-t border-rule sm:border-l sm:border-t-0`}>
         <div
           className={`${marquee.track} ${reverse ? marquee.reverse : ""}`}
           style={{ "--marquee-duration": duration } as React.CSSProperties}

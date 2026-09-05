@@ -46,8 +46,9 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
         {fmtInt(rows.length)} types on the lists · {fmtInt(drawn.length)} drawn
       </Dimension>
 
+      <div className="mt-8 w-full overflow-x-auto">
       <div
-        className="relative mt-8 w-full"
+        className="relative w-full min-w-[880px]"
         style={{ aspectRatio: `${vw} / ${vh}` }}
         role="img"
         aria-label={`Flight line of the ${drawn.length} most common aircraft types, drawn largest fleet first, out of ${fmtInt(rows.length)} types across ${fmtInt(total)} aircraft on the DGCA lists. ${drawn
@@ -163,6 +164,7 @@ export function TypeMixViz({ rows, total, wings }: { rows: TypeRow[]; total: num
             </div>
           );
         })}
+      </div>
       </div>
 
       <div className="mono mt-4 flex flex-wrap items-center gap-x-6 gap-y-1.5 text-[12px] text-ink-3">

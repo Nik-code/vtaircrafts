@@ -197,7 +197,7 @@ export function apronSvg(groups: ApronGroup[], titleId: string, descId: string) 
 
   const calloutLayer = () => {
     if (callouts.length === 0) return "";
-    let out = `<g font-size='${NAME_SIZE}' letter-spacing='${NAME_TRACK}'>`;
+    let out = `<g class='callouts' font-size='${NAME_SIZE}' letter-spacing='${NAME_TRACK}'>`;
     for (const c of callouts) {
       const baseline = c.shelf === 0 ? SHELF_NEAR_Y : SHELF_FAR_Y;
       const leaderStart = baseline + LEADER_GAP;
@@ -228,6 +228,9 @@ export function apronSvg(groups: ApronGroup[], titleId: string, descId: string) 
     `use{transition:fill 150ms}` +
     `a:hover use{fill:#FF4F00}` +
     `@media (prefers-reduced-motion: reduce){use{transition:none}}` +
+    // Under 640px the chart is scaled to a phone width: the callouts would collide and the
+    // hairline crosses inside rotary marks read as dirt, so both step back.
+    `@media (max-width: 640px){.callouts{display:none}#mr line{display:none}}` +
     `</style>`;
 
   const svg =
