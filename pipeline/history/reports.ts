@@ -23,6 +23,12 @@ export interface ReportRow {
   dateOfDeregistration: string | null;
   /** the date printed in this report's own date column, whatever it means for that report */
   date: string | null;
+  /**
+   * The month the report section covers ("CHANGE TO C OF R IN THE MONTH OF OCTOBER, 2011"),
+   * or the whole report period when a page prints no month. For ownership changes this is
+   * the only dating available: their date column is the aircraft's registration date.
+   */
+  period: { from: string; to: string };
   kind: ReportKind;
   type: string | null;
   yearOfManufacture: number | null;
@@ -187,14 +193,14 @@ export function parseReportDate(text: string): string | null {
 /** "OWNER :- X Add- … LESSOR:- Y … OPERATOR:- Z" -> the three parties. */
 function splitParties(text: string): { owner: string | null; lessor: string | null; operator: string | null } {
   const clean = text.replace(/\s+/g, " ").trim();
-  const marks = [...clean.matchAll(/\b(OWNER|LESSOR|OWNER\/LESSOR|OPERATOR)\s*:?-?\s*:?/gi)];
+  const marks = [...clean.matchAll(/\b(OWNER\/LESSOR|OWNER|LESSOR|OPE[AR]{2}TOR)\s*:?-?\s*:?/gi)];
   if (!marks.length) return { owner: null, lessor: null, operator: trimParty(clean) || null };
   const out: Record<string, string> = {};
   marks.forEach((m, i) => {
     const start = m.index! + m[0].length;
     const end = i + 1 < marks.length ? marks[i + 1].index! : clean.length;
     const value = trimParty(clean.slice(start, end));
-    const label = m[1].toUpperCase();
+    const label = m[1].toUpperCase().replace(/^OPE[AR]{2}TOR$/, "OPERATOR");
     if (label === "OWNER/LESSOR") {
       out.OWNER ??= value;
       out.LESSOR ??= value;
@@ -214,10 +220,39 @@ function cleanType(s: string): string {
 function trimParty(s: string): string {
   return s
     .replace(/\bAdd[-–—:]?\s*[-–—]?.*$/i, "")
-    .replace(/^[\d,\s.:-]+/, "")
+    .replace(/^[\d,\s.:/-]+/, "")
     .replace(/[,\s.:-]+$/, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+const MONTH_RE =
+  /\b(JAN(?:UARY)?|FEB(?:RUARY)?|MAR(?:CH)?|APR(?:IL)?|MAY|JUNE?|JULY?|AUG(?:UST)?|SEP(?:T(?:EMBER)?)?|OCT(?:OBER)?|NOV(?:EMBER)?|DEC(?:EMBER)?)[,.\s]*(\d{4})\b/i;
+const MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+
+/** "IN THE MONTH OF OCTOBER, 2011" -> the calendar month as an inclusive from/to. */
+export function parseSectionMonth(text: string): { from: string; to: string } | null {
+  const m = MONTH_RE.exec(text);
+  if (!m) return null;
+  const mo = MONTHS.indexOf(m[1].slice(0, 3).toUpperCase()) + 1;
+  const y = Number(m[2]);
+  if (!mo || y < 1990 || y > 2100) return null;
+  const last = new Date(Date.UTC(y, mo, 0)).getUTCDate();
+  const mm = String(mo).padStart(2, "0");
+  return { from: `${y}-${mm}-01`, to: `${y}-${mm}-${String(last).padStart(2, "0")}` };
+}
+
+/** Section titles on a page ("CHANGE OF OWNERSHIP October 2009"), with the row they sit on. */
+function sectionTitles(page: Page): Array<{ cy: number; period: { from: string; to: string } }> {
+  const out: Array<{ cy: number; period: { from: string; to: string } }> = [];
+  for (const row of groupRows(page.words, 4)) {
+    if (row.length > 14) continue;
+    const text = joinText(row);
+    if (!/\b(CHANGE|REGISTRATION|OWNERSHIP|C OF R)\b/i.test(text)) continue;
+    const period = parseSectionMonth(text);
+    if (period) out.push({ cy: row[0].cy, period });
+  }
+  return out;
 }
 
 export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
@@ -226,6 +261,8 @@ export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
   const dropped: ReportResult["dropped"] = [];
   let layout: Layout | null = null;
   const url = reportUrl(src.file);
+  // A section's month carries over to the following pages until the next title.
+  let period: { from: string; to: string } = { from: src.from, to: src.to };
 
   for (const page of pages) {
     const blocks = headerBlocks(page);
@@ -236,6 +273,7 @@ export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
       continue;
     }
     const l = layout;
+    const titles = sectionTitles(page);
     // A page can carry several monthly sections; a record never crosses a header block.
     const bands: Band[] = blocks.map((b) => ({
       top: Math.min(...b.map((w) => w.y0)),
@@ -274,6 +312,8 @@ export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
       };
       const reg = normalizeReg(anchors[i].text);
       if (!reg) continue;
+      const title = titles.filter((t) => t.cy < cy).at(-1);
+      if (title) period = title.period;
 
       if (l.kind === "legacy") {
         const date = parseReportDate(text("date"));
@@ -288,6 +328,7 @@ export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
           dateOfRegistration: src.kind === "deregistration" ? null : date,
           dateOfDeregistration: src.kind === "deregistration" ? date : null,
           date,
+          period,
           kind: src.kind,
           type: cleanType(text("type")) || null,
           yearOfManufacture: null,
@@ -309,6 +350,7 @@ export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
           dateOfRegistration: dateReg,
           dateOfDeregistration: dateDereg,
           date,
+          period,
           kind: src.kind,
           type: cleanType(text("type")) || null,
           yearOfManufacture: yearRaw ? Number(yearRaw[0]) : null,

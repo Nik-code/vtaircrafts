@@ -62,12 +62,15 @@ jobs:
           else
             npx tsx pipeline/build.ts ${{ steps.decide.outputs.snapshot }}
           fi
+      - name: Warm Commons thumbnails (best effort)
+        if: steps.decide.outputs.run == 'true'
+        run: npx tsx pipeline/warm.ts || echo "some thumbnails were not warmed"
       - name: Commit snapshot
         if: steps.decide.outputs.run == 'true'
         run: |
           git config user.name "vtaircrafts-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/raw data/parsed data/snapshots data/latest
+          git add data/raw data/parsed data/snapshots data/latest data/cache
           git commit -m "data: DGCA snapshot ${{ steps.decide.outputs.snapshot }}" || echo "nothing to commit"
           git push
       - name: Release

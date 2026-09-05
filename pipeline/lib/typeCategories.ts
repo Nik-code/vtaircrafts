@@ -140,6 +140,7 @@ export const TYPE_CATEGORIES: Record<string, TypeCategory> = {
   "Bell 206 JetRanger": { category: "Category:Bell 206" },
   "Bell 407": { category: "Category:Bell 407" },
   "Bell 412": { category: "Category:Bell 412", deny: /CH-146|Griffon|UH-1|Huey/i },
+  "Bell 427": { category: "Category:Bell 427" },
   "Bell 429": { category: "Category:Bell 429" },
   "Bell helicopter": { category: "Category:Bell 407" }, // VT tails are 407/427/429
   "HAL Dhruv": { category: "Category:HAL Dhruv" },

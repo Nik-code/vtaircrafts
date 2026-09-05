@@ -16,6 +16,8 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { Candidate, CandidateCache, CommonsImage, TypeCandidateCache } from "../images";
+import { canonicalThumbUrl } from "./text";
+import { UNSUITABLE_SUBJECT } from "./photoRules";
 
 export type ImageTier = "exact" | "operator-type" | "type" | "type-world";
 
@@ -120,11 +122,13 @@ interface PoolEntry {
  * adjusted score the losing tiers could offer: variety must never hand an aircraft
  * something worse than the photograph of its own tail.
  */
-function pickSpread(entries: PoolEntry[], seed: string, bonus: number, floor: number): PoolEntry {
+function pickSpread(entries: PoolEntry[], seed: string, bonus: number, floor: number, poolSize = SPREAD_CAP): PoolEntry {
   const best = entries[0].cand.score;
+  // Never spread wider than the number of aircraft that share the pool: a lone aircraft of
+  // its type gets the best photograph, two aircraft the best two, and so on.
   const near = entries
     .filter((e) => e.cand.score >= best - SPREAD && e.cand.score + bonus > floor)
-    .slice(0, SPREAD_CAP);
+    .slice(0, Math.min(SPREAD_CAP, Math.max(1, poolSize)));
   if (!near.length) return entries[0];
   return near[hash(seed) % near.length];
 }
@@ -134,7 +138,7 @@ const TIER_ORDER: ImageTier[] = ["exact", "operator-type", "type", "type-world"]
 function stripScore(c: Candidate): CommonsImage {
   return {
     file: c.file,
-    src: c.src,
+    src: canonicalThumbUrl(c.src),
     width: c.width,
     height: c.height,
     author: c.author,
@@ -161,7 +165,7 @@ export function assignImagesDetailed(
       const legacy = cache[a.reg]?.image;
       list = legacy ? [{ ...legacy, score: BASE_LEGACY_SCORE, flags: ["legacy"] }] : [];
     }
-    const usable = list.filter((c) => c && c.score >= 0).sort((x, y) => y.score - x.score);
+    const usable = list.filter((c) => c && c.score >= 0 && !UNSUITABLE_SUBJECT.test(c.file)).sort((x, y) => y.score - x.score);
     if (usable.length) byReg.set(a.reg, usable);
   }
 
@@ -183,6 +187,15 @@ export function assignImagesDetailed(
   for (const list of byOpType.values()) list.sort((x, y) => y.cand.score - x.cand.score);
   for (const list of byType.values()) list.sort((x, y) => y.cand.score - x.cand.score);
 
+  // How many aircraft draw from each pool: variety only makes sense when more than one does.
+  const opTypeCount = new Map<string, number>();
+  const typeCount = new Map<string, number>();
+  for (const a of aircraft) {
+    const key = `${a.operatorId}|${a.type.name}`;
+    opTypeCount.set(key, (opTypeCount.get(key) ?? 0) + 1);
+    typeCount.set(a.type.name, (typeCount.get(a.type.name) ?? 0) + 1);
+  }
+
   const counts: Record<ImageTier | "none", number> = { exact: 0, "operator-type": 0, type: 0, "type-world": 0, none: 0 };
   const picks = new Map<string, AssignedPick>();
 
@@ -201,7 +214,7 @@ export function assignImagesDetailed(
     if (sameType.length) options.push({ tier: "type", entries: sameType });
 
     const world = (types[a.type.name]?.candidates ?? [])
-      .filter((c) => c && c.score >= 0)
+      .filter((c) => c && c.score >= 0 && !UNSUITABLE_SUBJECT.test(c.file))
       .sort((x, y) => y.score - x.score)
       .map((cand) => ({ cand, ofReg: null, operatorId: null }));
     if (world.length) options.push({ tier: "type-world", entries: world });
@@ -228,8 +241,10 @@ export function assignImagesDetailed(
       ...ranked.filter((o) => TIER_ORDER.indexOf(o.tier) < rank).map((o) => o.top),
       Number.NEGATIVE_INFINITY,
     );
+    const poolSize =
+      winner.tier === "operator-type" ? opTypeCount.get(`${a.operatorId}|${a.type.name}`) ?? 1 : typeCount.get(a.type.name) ?? 1;
     const entry =
-      winner.tier === "exact" ? winner.entries[0] : pickSpread(winner.entries, a.reg, BONUS[winner.tier], floor);
+      winner.tier === "exact" ? winner.entries[0] : pickSpread(winner.entries, a.reg, BONUS[winner.tier], floor, poolSize);
 
     a.image = { ...stripScore(entry.cand), tier: winner.tier, ofReg: entry.ofReg };
     counts[winner.tier]++;

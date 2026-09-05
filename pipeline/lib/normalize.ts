@@ -28,7 +28,7 @@ const OPERATOR_ALIASES: Array<{ match: RegExp; id: string; name: string; legal?:
   { match: /^taj air/i, id: "taj-air", name: "Taj Air" },
   { match: /^reliance commercial dealers/i, id: "reliance-commercial-dealers", name: "Reliance Commercial Dealers" },
   { match: /^poonawalla/i, id: "poonawalla-aviation", name: "Poonawalla Aviation" },
-  { match: /^airports authority of india/i, id: "aai-flight-inspection", name: "AAI Flight Inspection Unit" },
+  { match: /^airports authority (of )?india/i, id: "aai-flight-inspection", name: "AAI Flight Inspection Unit" },
   // Operators that only appear in the historical snapshots, and legal names that were later
   // renamed. Keeping these stable stops a rename reading as a fleet-wide transfer.
   { match: /^air india charters/i, id: "air-india-express", name: "Air India Express", website: "https://www.airindiaexpress.com" },
@@ -45,6 +45,11 @@ const OPERATOR_ALIASES: Array<{ match: RegExp; id: string; name: string; legal?:
   { match: /^indian airlines/i, id: "indian-airlines", name: "Indian Airlines" },
   { match: /^paramount airways/i, id: "paramount-airways", name: "Paramount Airways" },
   { match: /^mdlr/i, id: "mdlr-airlines", name: "MDLR Airlines" },
+  // Older exports let the address run into the name cell; pin the ones that recur.
+  { match: /^gov(ernment|t)\.? of rajasthan/i, id: "government-of-rajasthan", name: "Government of Rajasthan" },
+  { match: /^venture aviation/i, id: "venture-aviation", name: "Venture Aviation" },
+  { match: /^mahindra airways/i, id: "mahindra-airways", name: "Mahindra Airways" },
+  { match: /^m\.?\s?p\.? flying club/i, id: "mp-flying-club", name: "M.P. Flying Club" },
 ];
 
 export interface OperatorIdentity {
@@ -55,13 +60,36 @@ export interface OperatorIdentity {
 }
 
 export function identifyOperator(legalName: string, brandRaw: string | null): OperatorIdentity {
-  const legal = legalName.replace(/\s+/g, " ").replace(/\s*\([^)]*\)\s*$/, "").trim();
+  const legal = cleanLegalName(legalName);
   for (const a of OPERATOR_ALIASES) {
     if (a.match.test(legal)) return { id: a.id, name: a.name, legalName: legal, website: a.website ?? null };
   }
-  const brand = brandRaw?.trim();
-  const name = brand && brand.length > 2 && /[a-z]/i.test(brand) ? titleCaseBrand(brand) : shortenLegal(legal);
+  const brand = cleanBrand(brandRaw);
+  const name = brand ? titleCaseBrand(brand) : shortenLegal(legal);
   return { id: slugify(name), name, legalName: legal, website: null };
+}
+
+/**
+ * The legal name as printed, minus the address that the older exports let run on in the
+ * same cell ("Turbo Aviation Pvt. Ltd. Plot No."): nothing after the legal form is kept.
+ */
+function cleanLegalName(s: string): string {
+  let legal = s.replace(/\s+/g, " ").trim();
+  const form = /^(.*?\b(?:Pvt\.?\s*Ltd|Private\s+Limited|Limited|Ltd|LLP|Inc)\b\.?)/i.exec(legal);
+  if (form) legal = form[1];
+  return legal.replace(/\s*\([^)]*\)\s*$/, "").replace(/[\s,]+$/, "").trim();
+}
+
+/**
+ * A brand line is the "(IndiGo)" under the legal name. When the parenthesis actually closed
+ * a split "(India)" or an address followed, the fragment is not a brand and is dropped.
+ */
+const BRAND_JUNK =
+  /\d|^[a-z]\)|\b(street|road|vihar|nagar|marg|building|tower|floor|estate|plot|sector|p\.?\s?o\.?\s*box|hangar|hanger|airport)\b|[),]$/i;
+function cleanBrand(raw: string | null): string | null {
+  const b = raw?.replace(/\s+/g, " ").trim();
+  if (!b || b.length < 3 || !/[a-z]/i.test(b) || BRAND_JUNK.test(b)) return null;
+  return b;
 }
 
 function titleCaseBrand(s: string) {
@@ -166,8 +194,8 @@ const RULES: Rule[] = [
   { re: /Citation\s*Latitude/i, icao: "C68A", manufacturer: "Cessna", family: "Citation", name: "Cessna Citation Latitude" },
   { re: /Citation/i, icao: null, manufacturer: "Cessna", family: "Citation", name: "Cessna Citation" },
   { re: /King\s*Air\s*(B?)350|B300|350i?/i, icao: "B350", manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air 350" },
-  { re: /King\s*Air\s*(B?)(200|250)|\bB\s?200|\bB250|SKA\s*B?200|KINGAIR\s*B?200/i, icao: "BE20", manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air 200" },
-  { re: /King\s*Air\s*C?90|C90/i, icao: "BE9L", manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air C90" },
+  { re: /King\s*Air\s*(B?)[\s-]?(200|250)|\bB[\s-]?200|\bB[\s-]?250|SKA\s*B?200|KINGAIR\s*B?200/i, icao: "BE20", manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air 200" },
+  { re: /King\s*Air\s*C?[\s-]?90|\bC[\s-]?90/i, icao: "BE9L", manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air C90" },
   { re: /King\s*Air/i, icao: null, manufacturer: "Beechcraft", family: "King Air", name: "Beechcraft King Air" },
   { re: /Pilatus|PC-?12/i, icao: "PC12", manufacturer: "Pilatus", family: "PC-12", name: "Pilatus PC-12" },
   { re: /PC-?24/i, icao: "PC24", manufacturer: "Pilatus", family: "PC-24", name: "Pilatus PC-24" },
@@ -193,12 +221,13 @@ const RULES: Rule[] = [
   { re: /H-?160/i, icao: "H160", manufacturer: "Airbus Helicopters", family: "H160", name: "Airbus H160" },
   { re: /H-?175|EC-?175/i, icao: "EC75", manufacturer: "Airbus Helicopters", family: "H175", name: "Airbus H175" },
   { re: /[AS]{2}[\s-]?365|Dauphin|EC[\s-]?155|H[\s-]?155/i, icao: "AS65", manufacturer: "Airbus Helicopters", family: "Dauphin", name: "Airbus Dauphin (AS365)" },
-  { re: /Bell\s*407/i, icao: "B407", manufacturer: "Bell", family: "Bell 407", name: "Bell 407" },
-  { re: /Bell\s*412/i, icao: "B412", manufacturer: "Bell", family: "Bell 412", name: "Bell 412" },
-  { re: /Bell\s*429/i, icao: "B429", manufacturer: "Bell", family: "Bell 429", name: "Bell 429" },
-  { re: /Bell\s*505/i, icao: "B505", manufacturer: "Bell", family: "Bell 505", name: "Bell 505" },
-  { re: /Bell\s*206|Jet\s*Ranger/i, icao: "B06", manufacturer: "Bell", family: "Bell 206", name: "Bell 206 JetRanger" },
-  { re: /Bell\s*230|Bell\s*430/i, icao: "B430", manufacturer: "Bell", family: "Bell 430", name: "Bell 430" },
+  { re: /Bell[\s-]*407/i, icao: "B407", manufacturer: "Bell", family: "Bell 407", name: "Bell 407" },
+  { re: /Bell[\s-]*412/i, icao: "B412", manufacturer: "Bell", family: "Bell 412", name: "Bell 412" },
+  { re: /Bell[\s-]*429/i, icao: "B429", manufacturer: "Bell", family: "Bell 429", name: "Bell 429" },
+  { re: /Bell[\s-]*505/i, icao: "B505", manufacturer: "Bell", family: "Bell 505", name: "Bell 505" },
+  { re: /Bell[\s-]*206|Jet\s*Ranger/i, icao: "B06", manufacturer: "Bell", family: "Bell 206", name: "Bell 206 JetRanger" },
+  { re: /Bell[\s-]*427/i, icao: "B427", manufacturer: "Bell", family: "Bell 427", name: "Bell 427" },
+  { re: /Bell[\s-]*230|Bell[\s-]*430/i, icao: "B430", manufacturer: "Bell", family: "Bell 430", name: "Bell 430" },
   { re: /Bell/i, icao: null, manufacturer: "Bell", family: "Bell", name: "Bell helicopter" },
   { re: /Robinson|R-?44/i, icao: "R44", manufacturer: "Robinson", family: "R44", name: "Robinson R44" },
   { re: /R-?66/i, icao: "R66", manufacturer: "Robinson", family: "R66", name: "Robinson R66" },
@@ -237,10 +266,11 @@ export function roleFromSeating(seatingRaw: string | null, ops: string | null, m
   const s = `${seatingRaw ?? ""} ${model}`.toLowerCase();
   if (/freighter|cargo/.test(s) && !/\d/.test(seatingRaw ?? "")) return "cargo";
   if (/aerial/.test(s)) return "aerial-work";
-  if (/\d/.test(seatingRaw ?? "")) {
-    if (ops && /cargo/i.test(ops) && /passenger|pax/i.test(ops)) return "passenger";
-    return "passenger";
-  }
+  if (/\d/.test(seatingRaw ?? "")) return "passenger";
+  // No seat count printed (a fifth registration column can displace it): fall back to the
+  // operations the permit allows.
+  if (ops && /passenger|pax/i.test(ops)) return "passenger";
+  if (ops && /cargo/i.test(ops)) return "cargo";
   return "unknown";
 }
 
@@ -252,6 +282,7 @@ const CANON: Record<string, { manufacturer: string; family: string; name: string
   A169: { manufacturer: "Leonardo", family: "AW169", name: "Leonardo AW169" },
   B407: { manufacturer: "Bell", family: "Bell 407", name: "Bell 407" },
   B412: { manufacturer: "Bell", family: "Bell 412", name: "Bell 412" },
+  B427: { manufacturer: "Bell", family: "Bell 427", name: "Bell 427" },
   B429: { manufacturer: "Bell", family: "Bell 429", name: "Bell 429" },
   B505: { manufacturer: "Bell", family: "Bell 505", name: "Bell 505" },
   B06: { manufacturer: "Bell", family: "Bell 206", name: "Bell 206 JetRanger" },

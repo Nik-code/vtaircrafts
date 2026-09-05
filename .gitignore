@@ -40,7 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# pipeline caches (regenerable)
-data/cache/
+# pipeline caches: the Commons lookups are committed so the monthly run reuses them
+data/cache/**/*.log
 data/raw/aircraft.csv
 public/data/

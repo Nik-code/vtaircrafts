@@ -77,6 +77,11 @@ function iso(y: number, m: number, d: number): string | null {
   return `${y}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
 }
 
+/** Canonical Commons thumbnail URL: the upload host, without the API's tracking query. */
+export function canonicalThumbUrl(src: string): string {
+  return src.replace(/^https:\/\/thumb\.wikimedia\.org\//, "https://upload.wikimedia.org/").replace(/\?utm_[^#]*$/, "");
+}
+
 export function slugify(s: string): string {
   return s
     .toLowerCase()

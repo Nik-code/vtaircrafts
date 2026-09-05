@@ -90,7 +90,9 @@ re-parse without touching the network.
 - **Dates.** An event is either exactly dated or interval dated, never guessed. `registered`,
   `deregistered` and `owner-change` carry a `date` straight from a DGCA report. `added`,
   `removed` and `moved` carry `from`/`to`: the two snapshot dates the change happened
-  between. Where a snapshot PDF prints no "as on" date, the Wayback capture date is used
+  between. `owner-change` also carries `from`/`to`: the 2009-2013 ownership reports print
+  each aircraft's registration date rather than the date of the change, so the event is
+  dated to the calendar month of the report section it appears in. Where a snapshot PDF prints no "as on" date, the Wayback capture date is used
   and the parse records a warning.
 - **`firstSeen`** is the earliest snapshot in the whole chain in which a registration
   appears, archived captures included, so it can predate this repo's own first fetch. It
@@ -116,9 +118,13 @@ re-parse without touching the network.
   `role` instead. Some rows read `222/232` for mixed configurations; the first
   number is used.
 - Where DGCA's stated count for a model group disagrees with the registrations it
-  lists, both numbers are kept and the discrepancy is shown on the data page.
-- Photos are hotlinked from Wikimedia Commons and credited per image. Tails
-  without a photo show a labelled representative photo or a silhouette.
+  lists, both numbers are kept and the discrepancy is recorded under `issues` in
+  `meta.json`. It is not shown on the site.
+- Photos are hotlinked from Wikimedia Commons and credited per image. A tail with no
+  photograph of its own shows a labelled representative photo: the same type in the same
+  operator's livery where one exists, else the same type elsewhere. Photographs of military,
+  police or agency aircraft, accidents, seizures, drawings and museum pieces are never used
+  (`pipeline/lib/photoRules.ts`).
 
 ## Contributing
 

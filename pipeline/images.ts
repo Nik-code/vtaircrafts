@@ -19,6 +19,8 @@ import { join } from "node:path";
 import { canonicalizeType, classifyModel, identifyOperator } from "./lib/normalize";
 import { TYPE_CATEGORIES, searchTokens, type TypeCategory } from "./lib/typeCategories";
 import type { ParseResult } from "./lib/types";
+import { canonicalThumbUrl } from "./lib/text";
+import { UNSUITABLE_DESCRIPTION, UNSUITABLE_SUBJECT } from "./lib/photoRules";
 
 const UA = "vtaircrafts.in/0.1 (https://github.com/Nik-code/vtaircrafts; mailto:priyanshnikka@gmail.com)";
 const API = "https://commons.wikimedia.org/w/api.php";
@@ -320,6 +322,8 @@ export function scoreFile(m: FileMeta, ctx: ScoreContext = {}): { score: number;
   const text = `${m.title} ${catText} ${m.description ?? ""}`;
   const titleAndCats = `${m.title} ${catText}`;
   if (BAD_SUBJECT.test(titleAndCats) || BAD_TOKEN.test(m.title) || BAD_PEOPLE.test(titleAndCats)) return null;
+  if (UNSUITABLE_SUBJECT.test(titleAndCats)) return null;
+  if (m.description && UNSUITABLE_DESCRIPTION.test(m.description)) return null;
   if (m.description && BAD_SUBJECT_DESC.test(m.description)) return null;
   if (ctx.type?.deny?.test(text)) return null;
 
@@ -526,7 +530,7 @@ async function fileMeta(files: string[]): Promise<FileMeta[]> {
         mime: ii.mime ?? "",
         width: ii.width ?? 0,
         height: ii.height ?? 0,
-        src: ii.thumburl ?? ii.url,
+        src: canonicalThumbUrl(ii.thumburl ?? ii.url),
         pageUrl: ii.descriptionurl,
         categories: [...cats],
         description: stripHtml(em.ImageDescription?.value),

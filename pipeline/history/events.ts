@@ -336,19 +336,18 @@ export function buildHistory(): HistoryBuild {
       reportsByReg.set(row.reg, list);
       const kind: EventKind =
         row.kind === "registration" ? "registered" : row.kind === "deregistration" ? "deregistered" : "owner-change";
-      const date = row.date;
-      if (!date) continue;
       const src: EventSource = { kind: "report", file: row.source.file, url: row.source.url };
-      const ev: HistoryEvent = {
-        id: eventId(kind, row.reg, date, null, null, src.file),
-        kind,
-        reg: row.reg,
-        date,
-        from: null,
-        to: null,
-        list: null,
-        source: src,
-      };
+      let ev: HistoryEvent;
+      if (kind === "owner-change") {
+        // The ownership reports print the aircraft's registration date, not the date of the
+        // change, so the event is interval-dated to the month of the report section.
+        const { from, to } = row.period ?? { from: report.from, to: report.to };
+        ev = { id: eventId(kind, row.reg, null, from, to, src.file), kind, reg: row.reg, date: null, from, to, list: null, source: src };
+      } else {
+        const date = row.date;
+        if (!date) continue;
+        ev = { id: eventId(kind, row.reg, date, null, null, src.file), kind, reg: row.reg, date, from: null, to: null, list: null, source: src };
+      }
       if (row.type) ev.type = row.type;
       if (row.msn) ev.msn = row.msn;
       if (row.owner) ev.owner = row.owner;
@@ -357,7 +356,10 @@ export function buildHistory(): HistoryBuild {
       events.push(ev);
     }
   }
-  for (const rows of reportsByReg.values()) rows.sort((a, b) => (a.date ?? "").localeCompare(b.date ?? ""));
+  // Chronological per tail: an ownership change sits at the month it happened, not at the
+  // registration date its row happens to print.
+  const rowWhen = (r: ReportRow) => (r.kind === "owner-change" ? r.period?.to ?? r.date ?? "" : r.date ?? "");
+  for (const rows of reportsByReg.values()) rows.sort((a, b) => rowWhen(a).localeCompare(rowWhen(b)));
 
   // Ids must be unique: a handful of report rows are printed twice, and a few describe the
   // same tail on the same day with slightly different lessor wording.
@@ -417,6 +419,12 @@ export function aircraftHistoryFor(
     history.yearOfManufacture = latestReg.yearOfManufacture;
     history.owner = latestReg.owner;
     history.lessor = latestReg.lessor;
+  }
+  // An ownership-change row also prints the registration date; use it when no registration
+  // report covers this tail.
+  if (!history.registeredOn) {
+    const change = rows.filter((r) => r.kind === "owner-change" && r.dateOfRegistration).at(-1);
+    if (change) history.registeredOn = change.dateOfRegistration;
   }
   // The most recent ownership record wins for owner/lessor, registration or change alike.
   const latestParty = rows.filter((r) => r.owner || r.lessor).at(-1);

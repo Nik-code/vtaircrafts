@@ -23,7 +23,7 @@ const UA = "vtaircrafts.in/0.1 (https://github.com/Nik-code/vtaircrafts; mailto:
  * is not warmed: the site never requests it and upload.wikimedia.org would refuse.
  */
 const SIZES = [960, 1280];
-const CONCURRENCY = 4;
+const CONCURRENCY = 2;
 
 const dir = process.argv[2] ? join("data", "snapshots", process.argv[2]) : join("data", "latest");
 const aircraft = JSON.parse(readFileSync(join(dir, "aircraft.json"), "utf8")) as ImageAssignable[];
@@ -42,16 +42,52 @@ for (const a of aircraft) {
 const queue = [...urls];
 let ok = 0;
 let fail = 0;
+const statuses: Record<string, number> = {};
+const failed: string[] = [];
+
+// One global pacer: Wikimedia's thumbnail service throttles bursts from one client, and a
+// throttled request warms nothing. ~3 requests/s across all workers; 429/5xx are retried
+// after the Retry-After the service asks for.
+const MIN_INTERVAL_MS = 350;
+let pacer: Promise<void> = Promise.resolve();
+let lastStart = 0;
+function slot(): Promise<void> {
+  const mine = pacer.then(async () => {
+    const wait = lastStart + MIN_INTERVAL_MS - Date.now();
+    if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+    lastStart = Date.now();
+  });
+  pacer = mine.catch(() => undefined);
+  return mine;
+}
+
+async function warmOne(u: string): Promise<{ status: number; retryAfter: number }> {
+  await slot();
+  const r = await fetch(u, { headers: { "User-Agent": UA } });
+  await r.arrayBuffer();
+  const ra = Number(r.headers.get("retry-after") ?? 0);
+  return { status: r.status, retryAfter: Number.isFinite(ra) && ra > 0 ? ra * 1000 : 5000 };
+}
+
 async function worker() {
   while (queue.length) {
     const u = queue.shift()!;
+    let status = 0;
     try {
-      const r = await fetch(u, { headers: { "User-Agent": UA } });
-      await r.arrayBuffer();
-      if (r.ok) ok++;
-      else fail++;
+      let res = await warmOne(u);
+      for (let attempt = 0; attempt < 3 && (res.status === 429 || res.status >= 500); attempt += 1) {
+        await new Promise((r) => setTimeout(r, res.retryAfter));
+        res = await warmOne(u);
+      }
+      status = res.status;
     } catch {
+      status = 0;
+    }
+    statuses[status] = (statuses[status] ?? 0) + 1;
+    if (status >= 200 && status < 300) ok++;
+    else {
       fail++;
+      failed.push(`${status} ${u}`);
     }
     if ((ok + fail) % 50 === 0) console.log(`  ${ok + fail}/${urls.size}`);
   }
@@ -61,7 +97,9 @@ async function worker() {
 async function main() {
   console.log(`warming ${urls.size} thumbnails`);
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-  console.log(`done: ok=${ok} fail=${fail}`);
+  console.log(`done: ok=${ok} fail=${fail} statuses=${JSON.stringify(statuses)}`);
+  for (const f of failed.slice(0, 10)) console.log(`  ${f}`);
+  if (fail) process.exitCode = 1;
 }
 
 main().catch((e) => {
