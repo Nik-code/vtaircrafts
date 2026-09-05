@@ -9,7 +9,7 @@ const OPERATOR_ALIASES: Array<{ match: RegExp; id: string; name: string; legal?:
   { match: /^blue dart/i, id: "blue-dart-aviation", name: "Blue Dart Aviation", website: "https://www.bluedart.com" },
   { match: /^india one air/i, id: "indiaone-air", name: "IndiaOne Air", website: "https://www.indiaoneair.com" },
   { match: /^ghodawat/i, id: "star-air", name: "Star Air", website: "https://www.starair.in" },
-  { match: /^interglobe/i, id: "indigo", name: "IndiGo", website: "https://www.goindigo.in" },
+  { match: /^inter\s?globe/i, id: "indigo", name: "IndiGo", website: "https://www.goindigo.in" },
   { match: /^just udo/i, id: "fly91", name: "Fly91", website: "https://www.fly91.in" },
   { match: /^quikjet/i, id: "quikjet", name: "Quikjet Cargo", website: "https://www.quikjet.in" },
   { match: /^snv aviation/i, id: "akasa-air", name: "Akasa Air", website: "https://www.akasaair.com" },
@@ -29,6 +29,22 @@ const OPERATOR_ALIASES: Array<{ match: RegExp; id: string; name: string; legal?:
   { match: /^reliance commercial dealers/i, id: "reliance-commercial-dealers", name: "Reliance Commercial Dealers" },
   { match: /^poonawalla/i, id: "poonawalla-aviation", name: "Poonawalla Aviation" },
   { match: /^airports authority of india/i, id: "aai-flight-inspection", name: "AAI Flight Inspection Unit" },
+  // Operators that only appear in the historical snapshots, and legal names that were later
+  // renamed. Keeping these stable stops a rename reading as a fleet-wide transfer.
+  { match: /^air india charters/i, id: "air-india-express", name: "Air India Express", website: "https://www.airindiaexpress.com" },
+  { match: /^(m\/s\s+)?airline allied/i, id: "alliance-air", name: "Alliance Air", website: "https://www.allianceair.in" },
+  { match: /^go\s?(airlines|first)/i, id: "go-first", name: "Go First" },
+  { match: /^air ?asia/i, id: "airasia-india", name: "AirAsia India" },
+  { match: /^jet airways/i, id: "jet-airways", name: "Jet Airways" },
+  { match: /^jet ?lite/i, id: "jetlite", name: "JetLite" },
+  { match: /^kingfisher/i, id: "kingfisher-airlines", name: "Kingfisher Airlines" },
+  { match: /^deccan cargo/i, id: "deccan-cargo", name: "Deccan Cargo & Express Logistics" },
+  { match: /^air pegasus/i, id: "air-pegasus", name: "Air Pegasus" },
+  { match: /^turbo (megha|aviation)/i, id: "trujet", name: "TruJet" },
+  { match: /^national aviation company of india/i, id: "air-india", name: "Air India", website: "https://www.airindia.com" },
+  { match: /^indian airlines/i, id: "indian-airlines", name: "Indian Airlines" },
+  { match: /^paramount airways/i, id: "paramount-airways", name: "Paramount Airways" },
+  { match: /^mdlr/i, id: "mdlr-airlines", name: "MDLR Airlines" },
 ];
 
 export interface OperatorIdentity {
@@ -44,7 +60,7 @@ export function identifyOperator(legalName: string, brandRaw: string | null): Op
     if (a.match.test(legal)) return { id: a.id, name: a.name, legalName: legal, website: a.website ?? null };
   }
   const brand = brandRaw?.trim();
-  const name = brand && brand.length > 2 ? titleCaseBrand(brand) : shortenLegal(legal);
+  const name = brand && brand.length > 2 && /[a-z]/i.test(brand) ? titleCaseBrand(brand) : shortenLegal(legal);
   return { id: slugify(name), name, legalName: legal, website: null };
 }
 

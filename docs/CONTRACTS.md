@@ -40,6 +40,12 @@ interface Event {
 Sorted newest first by `date ?? to`. A `snapshot` event has `reg: null` and
 carries `note` with counts.
 
+Exactly one dating scheme per event, never both: `registered` / `deregistered` /
+`owner-change` come from a DGCA report and always carry `date` (with `from`/`to` null);
+`added` / `removed` / `moved` are inferred from consecutive snapshots of one list and
+always carry `from`/`to` (with `date` null). Render an interval event as "between
+`from` and `to`", never as a point in time. `list` is null on report events.
+
 ## snapshots.json: `SnapshotInfo[]`
 
 ```ts
@@ -53,6 +59,13 @@ interface SnapshotInfo {
   operators: number;
 }
 ```
+
+## aircraft.csv
+
+The same records, flat. Column order is stable and new columns are appended, never
+inserted: `reg, hex, operator, operator_legal, category, permit_no, permit_valid_until,
+model, type_icao, type_manufacturer, type_name, wing, seats, seats_raw, role, source_file,
+source_as_on, first_seen, registered_on, msn, year_of_manufacture, owner, lessor`.
 
 ## meta.json
 

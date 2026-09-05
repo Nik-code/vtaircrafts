@@ -10,6 +10,7 @@
     "predev": "node scripts/copy-data.mjs",
     "prebuild": "node scripts/copy-data.mjs",
     "pipeline:parse": "tsx pipeline/parse.ts",
+    "pipeline:history": "tsx pipeline/history.ts",
     "pipeline:images": "tsx pipeline/images.ts",
     "pipeline:build": "tsx pipeline/build.ts",
     "typecheck": "tsc --noEmit",

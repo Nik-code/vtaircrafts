@@ -43,6 +43,11 @@ jobs:
             echo "snapshot=$SNAP" >> "$GITHUB_OUTPUT"
             echo "previous=$PREV" >> "$GITHUB_OUTPUT"
           fi
+      # pipeline/history.ts is NOT run here. The archived captures and the DGCA registration
+      # reports are static and committed, so the event log only needs the new snapshot to be
+      # parsed: build.ts reads data/parsed/history plus data/parsed/<snapshot> and appends
+      # this month to the chain. Run `npm run pipeline:history` by hand when new archived
+      # material appears.
       - name: Parse
         if: steps.decide.outputs.run == 'true'
         run: npx tsx pipeline/parse.ts data/raw/${{ steps.decide.outputs.snapshot }}
@@ -71,6 +76,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TAG="snapshot-${{ steps.decide.outputs.snapshot }}"
-          gh release create "$TAG" data/latest/aircraft.json data/latest/aircraft.csv data/latest/operators.json data/latest/meta.json data/latest/changes.json \
+          gh release create "$TAG" data/latest/aircraft.json data/latest/aircraft.csv data/latest/operators.json data/latest/meta.json data/latest/changes.json data/latest/events.json data/latest/snapshots.json \
             --title "DGCA snapshot ${{ steps.decide.outputs.snapshot }}" \
             --notes "Dataset rebuilt from DGCA operator lists updated as on ${{ steps.decide.outputs.snapshot }}. CC BY 4.0." || echo "release exists"

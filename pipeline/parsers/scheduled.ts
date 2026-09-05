@@ -1,6 +1,6 @@
 import { groupRows, joinText, type Page, type Word } from "../lib/bbox";
 import { removeRecurringOverlay } from "../lib/overlay";
-import { cleanModel, normalizeReg, parseDmy, REG_PREFIX_ONLY, REG_SUFFIX_ONLY } from "../lib/text";
+import { cleanModel, isRegPrefix, isRegSuffix, normalizeReg, parseAsOn, parseDmy, regSuffix } from "../lib/text";
 import type { Issue, ParseResult, RawAircraft, RawOperator } from "../lib/types";
 
 interface Cols {
@@ -17,27 +17,52 @@ interface Cols {
   seatX0: number;
 }
 
-function findHeader(words: Word[], re: RegExp, yMax = 140): Word | undefined {
+/**
+ * Column headers only ever sit above the first row that carries a registration, so that
+ * row bounds the search. Layouts from 2011-2017 push the header as low as y=160, which a
+ * fixed cut-off would miss.
+ */
+function headerZone(page: Page): number {
+  let firstReg = Infinity;
+  for (const w of page.words) if (normalizeReg(w.text)) firstReg = Math.min(firstReg, w.cy);
+  return Number.isFinite(firstReg) ? firstReg - 4 : 140;
+}
+
+function findHeader(words: Word[], re: RegExp, yMax: number): Word | undefined {
   return words.find((w) => w.cy < yMax && re.test(w.text));
 }
 
 function detectCols(page: Page, prev: Cols | null): Cols | null {
   const w = page.words;
-  const model = findHeader(w, /^Model$/i);
-  const nos = findHeader(w, /^NOs\.?$/i);
-  const seating = findHeader(w, /^Seating$/i);
-  const operator = findHeader(w, /^OPERATOR['\u2019]S/i);
-  const sHeader = findHeader(w, /^S\.$/);
-  const manager = findHeader(w, /^(ACCOUNTABLE|Accountable)$/);
-  const aoc = findHeader(w, /^AOC$/i);
-  const valid = findHeader(w, /^Valid$/i);
-  if (!model || !nos || !seating || !aoc || !valid) return prev;
-  const headerBottom = Math.max(...w.filter((x) => x.cy < seating.cy + 20 && x.cy >= seating.cy - 2).map((x) => x.y1));
+  const yMax = headerZone(page);
+  // "Valid (upto)" appears in every layout and only in the header band, so it anchors the
+  // search. Without a floor, the pre-2018 title "LIST OF SCHEDULED OPERATOR'S PERMIT
+  // HOLDERS" would be mistaken for the operator column header.
+  const valid = findHeader(w, /^Valid$/i, yMax);
+  // Some pre-2018 exports print the header on page 1 only; keep the previous geometry but
+  // start the body at the top of the page.
+  if (!valid) return prev && { ...prev, bodyY0: 0 };
+  const yMin = valid.cy - 10;
+  const find = (re: RegExp) => w.find((x) => x.cy < yMax && x.cy > yMin && re.test(x.text));
+  // Header wording by era: "Model"/"NOs."/"Seating"/"AOC" since 2017, and
+  // "Aircraft Type"/"A/c No."/"Seat Cap."/"SOP No." before that. Column order is the same.
+  const model = find(/^Model$/i) ?? find(/^Aircraf?t?$/);
+  const nos = find(/^NOs\.?$/i) ?? find(/^A\/c$/i);
+  const seating = find(/^Seating$/i) ?? find(/^Seat\.?$/i);
+  const operator = find(/^OPERATOR['\u2019]?S?[,.]?$/i) ?? find(/^Name$/i);
+  const sHeader = find(/^S\.$/) ?? find(/^S\.No?\.?$/i);
+  const aoc = find(/^AOC$/i) ?? find(/^AOC\/AOP$/i) ?? find(/^AOP$/i) ?? find(/^SOP$/i);
+  if (!model || !nos || !seating || !aoc) return prev;
+  // Right edge of the operator-name column: the next column header, whichever exists.
+  const nextToName = find(/^ACCOUNTABLE?$/i) ?? find(/^Tel[./]/i) ?? aoc;
+  const headerBottom = Math.max(
+    ...w.filter((x) => x.cy < Math.min(seating.cy + 20, yMax) && x.cy >= seating.cy - 2).map((x) => x.y1),
+  );
   return {
     bodyY0: headerBottom + 3,
     snoX1: (sHeader?.x0 ?? 21) + 18,
     opX0: (operator?.x0 ?? 60) - 20,
-    opX1: (manager?.x0 ?? 150) - 4,
+    opX1: nextToName.x0 - 4,
     aocX0: aoc.x0 - 10,
     aocX1: valid.x0 - 6,
     validX0: valid.x0 - 6,
@@ -48,8 +73,26 @@ function detectCols(page: Page, prev: Cols | null): Cols | null {
   };
 }
 
+/** "1." and "1" are both used for the operator serial. */
+function serialValue(text: string, max: number): number | null {
+  const m = /^(\d{1,3})\.?$/.exec(text);
+  if (!m) return null;
+  const n = Number(m[1]);
+  return n >= 1 && n <= max ? n : null;
+}
+
 function mid(w: Word) {
   return (w.x0 + w.x1) / 2;
+}
+
+const NAME_SUFFIX = /(Ltd\.?|Limited|LLP|Inc\.?|Corporation|Corp\.?|Pvt\.? Ltd\.?)[,.]?\s*$/i;
+
+/** The 2011-2013 exports sometimes run two tails into one token: "VT-AXD,VT-AXE,". */
+function expandRegs(text: string): string[] {
+  const single = normalizeReg(text);
+  if (single) return [single];
+  const all = text.toUpperCase().match(/VT-?[A-Z]{3}/g);
+  return all && all.length > 1 ? all.map((t) => normalizeReg(t)!).filter(Boolean) : [];
 }
 
 interface ModelBlock {
@@ -72,13 +115,8 @@ export function parseScheduled(rawPages: Page[]): ParseResult {
     issues.push({ level: "warn", message: `Stripped recurring header overlay (${overlay.length} words): ${joinText(overlay)}` });
   }
 
-  let asOn: string | null = null;
-  for (const w of pages[0]?.words ?? []) {
-    if (w.cy < 100) {
-      const d = parseDmy(w.text);
-      if (d) asOn = d;
-    }
-  }
+  const head = (pages[0]?.words ?? []).filter((w) => w.cy < 135).map((w) => w.text).join(" ");
+  const asOn = parseAsOn(head);
 
   const operators: RawOperator[] = [];
   const blocks: ModelBlock[] = [];
@@ -97,10 +135,13 @@ export function parseScheduled(rawPages: Page[]): ParseResult {
     const body = page.words.filter((w) => w.cy > c.bodyY0);
     const rows = groupRows(body);
     const pendingPrefixes: Word[] = [];
+    // Registrations printed above their model row (the pre-2018 exports do this when a
+    // model group's count cell is vertically centred). They join the operator's next block.
+    let orphanRegs: string[] = [];
     let lastHeaderRowCy = -1;
 
     for (const row of rows) {
-      const sno = row.find((w) => w.x1 <= c.snoX1 && /^\d{1,2}$/.test(w.text));
+      const sno = row.find((w) => w.x1 <= c.snoX1 && serialValue(w.text, 99) != null);
       const opWords = row.filter((w) => mid(w) >= c.opX0 && mid(w) < c.opX1 && w !== sno);
       const aocWords = row.filter((w) => mid(w) >= c.aocX0 && mid(w) < c.aocX1);
       const validWords = row.filter((w) => mid(w) >= c.validX0 && mid(w) < c.modelX0);
@@ -109,14 +150,19 @@ export function parseScheduled(rawPages: Page[]): ParseResult {
       const rightWords = row.filter((w) => mid(w) >= c.regX0);
 
       if (sno) {
-        const seq = Number(sno.text);
+        const seq = serialValue(sno.text, 99)!;
         if (seq > maxSeq) {
           let name = joinText(opWords);
-          const next = rows[rows.indexOf(row) + 1];
-          if (next && !/(Ltd\.?|Limited|LLP|Inc\.?)\s*$/i.test(name)) {
-            const nextOp = next.filter((w) => mid(w) >= c.opX0 && mid(w) < c.opX1);
+          // Wrapped name: keep pulling short label-only lines until the legal form appears,
+          // so the same operator is spelled the same way in every snapshot.
+          const ri = rows.indexOf(row);
+          for (let k = 1; k <= 3 && !NAME_SUFFIX.test(name) && !/,\s*$/.test(name); k += 1) {
+            const next = rows[ri + k];
+            if (!next) break;
+            const nextOp = next.filter((w) => mid(w) >= c.opX0 && mid(w) < c.opX1 && w !== sno);
             const t = joinText(nextOp);
-            if (t && nextOp.length <= 5 && !/\d|,/.test(t) && !/^\(/.test(t)) name = `${name} ${t}`;
+            if (!t || nextOp.length > 5 || /\d/.test(t) || /^\(/.test(t)) break;
+            name = `${name} ${t}`;
           }
           current = {
             seq,
@@ -134,6 +180,10 @@ export function parseScheduled(rawPages: Page[]): ParseResult {
           maxSeq = seq;
           lastHeaderRowCy = row[0].cy;
           block = null;
+          if (orphanRegs.length) {
+            issues.push({ level: "error", message: `${orphanRegs.length} registration(s) with no model row: ${orphanRegs.join(", ")}`, page: page.index });
+            orphanRegs = [];
+          }
         } else {
           issues.push({
             level: "warn",
@@ -168,6 +218,10 @@ export function parseScheduled(rawPages: Page[]): ParseResult {
           page: page.index,
           cy: row[0].cy,
         };
+        if (orphanRegs.length) {
+          block.regs.push(...orphanRegs);
+          orphanRegs = [];
+        }
         blocks.push(block);
       } else if (block && modelWords.length && row[0].cy - block.cy < 16 && block.page === page.index) {
         block.modelWords.push(...modelWords);
@@ -176,29 +230,32 @@ export function parseScheduled(rawPages: Page[]): ParseResult {
 
       // registrations (and fragments) anywhere right of the NOs column
       for (const w of rightWords) {
-        if (mid(w) >= c.seatX0 && !/^VT/i.test(w.text) && !REG_SUFFIX_ONLY.test(w.text)) continue;
-        const reg = normalizeReg(w.text);
-        if (reg) {
-          if (!block) {
-            issues.push({ level: "error", message: `Registration ${reg} before any model row`, page: page.index });
-            continue;
-          }
-          block.regs.push(reg);
+        if (mid(w) >= c.seatX0 && !/^VT/i.test(w.text) && !isRegSuffix(w.text)) continue;
+        const regs = expandRegs(w.text);
+        if (regs.length) {
+          if (block) block.regs.push(...regs);
+          else orphanRegs.push(...regs);
           continue;
         }
-        if (REG_PREFIX_ONLY.test(w.text)) {
+        if (isRegPrefix(w.text)) {
           pendingPrefixes.push(w);
           continue;
         }
-        if (REG_SUFFIX_ONLY.test(w.text) && mid(w) < c.seatX0 && pendingPrefixes.length && block) {
+        if (isRegSuffix(w.text) && mid(w) < c.seatX0 && pendingPrefixes.length) {
           pendingPrefixes.shift();
-          block.regs.push(`VT-${w.text}`);
-          issues.push({ level: "warn", message: `Re-joined split registration VT-${w.text}`, page: page.index });
+          const joined = `VT-${regSuffix(w.text)}`;
+          if (block) block.regs.push(joined);
+          else orphanRegs.push(joined);
+          issues.push({ level: "warn", message: `Re-joined split registration ${joined}`, page: page.index });
         }
       }
     }
     if (pendingPrefixes.length) {
       issues.push({ level: "error", message: `${pendingPrefixes.length} unmatched "VT-" fragment(s)`, page: page.index });
+    }
+    if (orphanRegs.length) {
+      issues.push({ level: "error", message: `${orphanRegs.length} registration(s) with no model row: ${orphanRegs.join(", ")}`, page: page.index });
+      orphanRegs = [];
     }
   }
 

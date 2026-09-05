@@ -1,6 +1,6 @@
 import { groupRows, joinText, type Page, type Word } from "../lib/bbox";
 import { removeRecurringOverlay } from "../lib/overlay";
-import { cleanModel, normalizeReg, parseDmy, REG_PREFIX_ONLY, REG_SUFFIX_ONLY } from "../lib/text";
+import { cleanModel, isRegPrefix, isRegSuffix, normalizeReg, parseAsOn, parseDmy, regSuffix } from "../lib/text";
 import type { Issue, ParseResult, RawAircraft, RawOperator, Wing } from "../lib/types";
 
 interface Cols {
@@ -19,56 +19,131 @@ interface Cols {
   typeX0: number;
   typeX1: number;
   modelX0: number;
+  modelX1: number;
   regX0: number;
   seatX0: number;
 }
 
-function findHeader(words: Word[], re: RegExp, yMax = 145): Word | undefined {
-  return words.find((w) => w.cy < yMax && re.test(w.text));
+/**
+ * Column headers only ever sit above the first row that carries a registration, so that
+ * row bounds the search. Layouts from 2011-2017 push the header as low as y=200, which a
+ * fixed cut-off would miss.
+ */
+function headerZone(page: Page): number {
+  let firstReg = Infinity;
+  for (const w of page.words) if (normalizeReg(w.text)) firstReg = Math.min(firstReg, w.cy);
+  return Number.isFinite(firstReg) ? firstReg - 4 : 145;
 }
 
 function detectCols(page: Page, prev: Cols | null): Cols | null {
   const w = page.words;
-  const operator = findHeader(w, /^OPERATOR['\u2019]S/i);
-  const sHeader = findHeader(w, /^S\.$/);
-  const contact = findHeader(w, /^CONTACT$/i);
-  const aop = findHeader(w, /^AOP$/i);
-  const valid = findHeader(w, /^Valid$/i);
-  const no = findHeader(w, /^No\.$/);
-  const fleet = findHeader(w, /^Fleet$/i);
-  const type = w.find((word) => word.cy < 145 && word.text === "Type");
-  const model = findHeader(w, /^Model$/i);
-  const registration = findHeader(w, /^Registration$/i);
-  const seating = findHeader(w, /^Seating$/i);
-  if (!model || !registration || !seating || !aop || !valid || !no || !fleet) return prev;
-  const typeX0 = (type?.x0 ?? fleet.x1 + 20) - 30;
-  const headerBottom = Math.max(...w.filter((x) => x.cy < seating.cy + 40 && x.cy >= seating.cy - 2 && x.x0 > 380).map((x) => x.y1));
+  const yMax = headerZone(page);
+  // "Valid (Upto)" appears in every layout and only in the header band, so it anchors the
+  // search downwards; without a floor the pre-2018 title "LIST OF NON-SCHEDULED
+  // OPERATOR'S PERMIT HOLDERS" would be mistaken for the operator column header.
+  const valid = w.find((x) => x.cy < yMax && /^Valid$/i.test(x.text));
+  // Some pre-2018 exports print the header on page 1 only; keep the previous geometry but
+  // start the body at the top of the page.
+  if (!valid) return prev && { ...prev, bodyY0: 0 };
+  const yMin = valid.cy - 12;
+  const find = (re: RegExp) => w.find((x) => x.cy < yMax && x.cy > yMin && re.test(x.text));
+
+  const operator = find(/^OPERATOR['\u2019]?S?[,.]?$/i) ?? find(/^Name$/i);
+  const sHeader = find(/^S\.$/) ?? find(/^S\.No\.?$/i) ?? find(/^S\.N\.?$/i);
+  const contact = find(/^CONTACT$/i) ?? find(/^Tel[./]/i);
+  const manager = find(/^ACCOUNTABLE?$/i);
+  const aop = find(/^AOP$/i) ?? find(/^AOC\/AOP$/i) ?? find(/^NSOP$/i) ?? find(/^AOC$/i);
+  const seating = find(/^Seating$/i) ?? find(/^Seat\.?$/i);
+  const registration = find(/^Registration$/i) ?? find(/^Regn\.?$/i) ?? find(/^Reg\.$/i);
+  const model = find(/^Model$/i);
+  const fleet = find(/^Fleet$/i);
+  const type = find(/^Type$/);
+  const issueDate = find(/^Dt\.$/i);
+  // "A/c No." is the pre-2017 count column, printed to the RIGHT of the aircraft type.
+  const legacyCount = find(/^A\/c$/i);
+  const no = legacyCount
+    ?? w.find((x) => x.cy < yMax && x.cy > yMin && /^No['\u2019]?s?\.?$/i.test(x.text) && x.x0 > valid.x0);
+  if (!registration || !seating || !aop || !no) return prev;
+  const aopX1 = Math.min(valid.x0, issueDate?.x0 ?? Infinity) - 6;
+
+  if (legacyCount && !model) {
+    // 2011-2016: S.N | Name | [Accountable] | Tel/Fax | NSOP | Dt. of Issue | Valid upto |
+    //            Aircraft Type (model text) | A/c No. | Reg. No. | Seat Cap.
+    const aircraft = find(/^Aircraf?t?$/);
+    if (!aircraft) return prev;
+    const modelX0 = aircraft.x0 - 30;
+    const countX0 = legacyCount.x0 - 10;
+    const regX0 = registration.x0 - 14;
+    const headerBottom = Math.max(
+      ...w.filter((x) => x.cy < yMax && x.cy >= valid.cy - 2 && x.x0 > modelX0 - 40).map((x) => x.y1),
+    );
+    return {
+      bodyY0: headerBottom + 3,
+      // The serial column runs right up to the name column: "10." is wider than the
+      // "S." header it sits under.
+      snoX1: (operator?.x0 ?? (sHeader?.x0 ?? 29) + 45) - 6,
+      opX0: (operator?.x0 ?? 70) - 6,
+      opX1: (manager?.x0 ?? contact?.x0 ?? 250) - 6,
+      aopX0: aop.x0 - 8,
+      aopX1,
+      validX0: valid.x0 - 6,
+      validX1: modelX0,
+      countX0,
+      countX1: regX0,
+      fleetX0: -1,
+      fleetX1: -1,
+      typeX0: -1,
+      typeX1: -1,
+      modelX0,
+      modelX1: countX0,
+      regX0,
+      seatX0: seating.x0 - 14,
+    };
+  }
+
+  if (!model) return prev;
+  // "Fleet" only exists in some 2026 exports; without it the type column starts where the
+  // count column ends.
+  const typeX0 = (type?.x0 ?? (fleet ? fleet.x1 + 20 : model.x0 - 60)) - 30;
+  const fleetX0 = fleet ? fleet.x0 - 6 : typeX0;
+  const headerBottom = Math.max(
+    ...w.filter((x) => x.cy < Math.min(seating.cy + 40, yMax) && x.cy >= seating.cy - 2 && x.x0 > 380).map((x) => x.y1),
+  );
   return {
     bodyY0: headerBottom + 3,
     snoX1: (sHeader?.x0 ?? 57) + 18,
     opX0: (operator?.x0 ?? 100) - 30,
-    opX1: (contact?.x0 ?? 210) - 26,
+    opX1: (manager?.x0 ?? contact?.x0 ?? 210) - 26,
     aopX0: aop.x0 - 8,
-    aopX1: valid.x0 - 6,
+    aopX1,
     validX0: valid.x0 - 6,
     validX1: no.x0 - 10,
     countX0: no.x0 - 10,
-    countX1: fleet.x0 - 6,
-    fleetX0: fleet.x0 - 6,
+    countX1: fleetX0,
+    fleetX0,
     fleetX1: typeX0,
     typeX0,
     typeX1: model.x0 - 42,
     modelX0: model.x0 - 42,
+    modelX1: registration.x0 - 12,
     regX0: registration.x0 - 12,
     seatX0: seating.x0 - 14,
   };
+}
+
+/** "1." and "1" are both used for the operator serial. */
+function serialValue(text: string, max: number): number | null {
+  const m = /^(\d{1,3})\.?$/.exec(text);
+  if (!m) return null;
+  const n = Number(m[1]);
+  return n >= 1 && n <= max ? n : null;
 }
 
 function mid(w: Word) {
   return (w.x0 + w.x1) / 2;
 }
 
-const NAME_SUFFIX = /(Ltd\.?|Limited|LLP|Inc\.?|Authority of India|Company|Corporation|Corp\.?|Trust|Society|Services|Pvt\.? Ltd\.?|\(India\))\s*$/i;
+const NAME_SUFFIX = /(Ltd\.?|Limited|LLP|Inc\.?|Authority of India|Company|Corporation|Corp\.?|Trust|Society|Services|Pvt\.? Ltd\.?|\(India\))[,.]?\s*$/i;
 
 interface PendingAircraft {
   op: RawOperator;
@@ -88,13 +163,8 @@ export function parseNonScheduled(rawPages: Page[]): ParseResult {
   if (overlay.length) {
     issues.push({ level: "warn", message: `Stripped recurring header overlay (${overlay.length} words): ${joinText(overlay)}` });
   }
-  let asOn: string | null = null;
-  for (const w of pages[0]?.words ?? []) {
-    if (w.cy < 100) {
-      const d = parseDmy(w.text);
-      if (d) asOn = d;
-    }
-  }
+  const head = (pages[0]?.words ?? []).filter((w) => w.cy < 135).map((w) => w.text).join(" ");
+  const asOn = parseAsOn(head);
 
   const operators: RawOperator[] = [];
   const pending: PendingAircraft[] = [];
@@ -116,27 +186,33 @@ export function parseNonScheduled(rawPages: Page[]): ParseResult {
     let headerRowIdx = -1;
 
     rows.forEach((row, ri) => {
-      const snos = row.filter((w) => w.x1 <= c.snoX1 && /^\d{1,3}$/.test(w.text));
-      const opWords = row.filter((w) => mid(w) >= c.opX0 && mid(w) < c.opX1);
+      const snos = row.filter((w) => w.x1 <= c.snoX1 && serialValue(w.text, 999) != null);
+      const opWords = row.filter((w) => mid(w) >= c.opX0 && mid(w) < c.opX1 && w.x1 > c.snoX1);
       const aopWords = row.filter((w) => mid(w) >= c.aopX0 && mid(w) < c.aopX1);
       const validWords = row.filter((w) => mid(w) >= c.validX0 && mid(w) < c.validX1);
       const countWord = row.find((w) => mid(w) >= c.countX0 && mid(w) < c.countX1 && /^\d{1,3}$/.test(w.text));
       const fleetWord = row.find((w) => mid(w) >= c.fleetX0 && mid(w) < c.fleetX1 && /^(FW|RW|B|MF|HAB|MIX)$/i.test(w.text));
       const typeWord = row.find((w) => mid(w) >= c.typeX0 && mid(w) < c.typeX1 && /^(FW|RW|B)$/.test(w.text));
-      const modelWords = row.filter((w) => mid(w) >= c.modelX0 && mid(w) < c.regX0);
+      const modelWords = row.filter((w) => mid(w) >= c.modelX0 && mid(w) < c.modelX1);
       const regWords = row.filter((w) => mid(w) >= c.regX0 && mid(w) < c.seatX0);
       const seatWords = row.filter((w) => mid(w) >= c.seatX0);
 
       if (snos.length) {
-        const seq = Math.max(...snos.map((w) => Number(w.text)));
+        const seq = Math.max(...snos.map((w) => serialValue(w.text, 999)!));
         if (seq > maxSeq) {
           let name = joinText(opWords);
-          // wrapped name: pull one more short line if the name has no company suffix yet
-          const next = rows[ri + 1];
-          if (next && !NAME_SUFFIX.test(name)) {
-            const nextOp = next.filter((w) => mid(w) >= c.opX0 && mid(w) < c.opX1);
+          // Wrapped name: keep pulling short label-only lines until the legal form appears.
+          // Without this the same operator reads as "Arrow Aircrafts Sales" in one snapshot
+          // and "Arrow Aircrafts Sales & Charters Pvt. Ltd." in the next, which would look
+          // like the fleet moving between two companies.
+          // A trailing comma means the address has started, so the name is complete.
+          for (let k = 1; k <= 3 && !NAME_SUFFIX.test(name) && !/,\s*$/.test(name); k += 1) {
+            const next = rows[ri + k];
+            if (!next) break;
+            const nextOp = next.filter((w) => mid(w) >= c.opX0 && mid(w) < c.opX1 && w.x1 > c.snoX1);
             const t = joinText(nextOp);
-            if (t && nextOp.length <= 4 && !/\d|,/.test(t) && !/^\(/.test(t)) name = `${name} ${t}`;
+            if (!t || nextOp.length > 4 || /\d/.test(t) || /^\(/.test(t)) break;
+            name = `${name} ${t}`;
           }
           name = name.replace(/\s*(Tel|Fax|E-?mail|Mob)\b.*$/i, "").replace(/[\s:,]+$/, "").trim();
           current = {
@@ -161,6 +237,11 @@ export function parseNonScheduled(rawPages: Page[]): ParseResult {
       } else if (current && headerRowIdx >= 0 && ri - headerRowIdx <= 2) {
         const t = joinText(opWords);
         if (/^\(/.test(t)) current.brandRaw = current.brandRaw ?? t.replace(/^\(|\)$/g, "").trim();
+      } else if (current && !current.name && opWords.length && page.index > current.firstPage) {
+        // The row was split by a page break: the serial and permit sit at the foot of one
+        // page and the operator name at the head of the next.
+        const t = joinText(opWords).replace(/\s*(Tel|Fax|E-?mail|Mob)\b.*$/i, "").replace(/[\s:,]+$/, "").trim();
+        if (t && !/^\(/.test(t) && !/\d/.test(t)) current.name = t;
       }
       if (!current) return;
 
@@ -169,11 +250,11 @@ export function parseNonScheduled(rawPages: Page[]): ParseResult {
       for (const w of regWords) {
         const reg = normalizeReg(w.text);
         if (reg) regsHere.push(reg);
-        else if (REG_PREFIX_ONLY.test(w.text)) pendingPrefixes.push(w);
-        else if (REG_SUFFIX_ONLY.test(w.text) && pendingPrefixes.length) {
+        else if (isRegPrefix(w.text)) pendingPrefixes.push(w);
+        else if (isRegSuffix(w.text) && pendingPrefixes.length) {
           pendingPrefixes.shift();
-          regsHere.push(`VT-${w.text}`);
-          issues.push({ level: "warn", message: `Re-joined split registration VT-${w.text}`, page: page.index });
+          regsHere.push(`VT-${regSuffix(w.text)}`);
+          issues.push({ level: "warn", message: `Re-joined split registration VT-${regSuffix(w.text)}`, page: page.index });
         }
       }
 
@@ -239,7 +320,7 @@ export function parseNonScheduled(rawPages: Page[]): ParseResult {
       validUntil: p.op.validUntil,
       model: cleanModel(joinText(p.modelWords)),
       seatingRaw: p.seatingRaw,
-      wing: p.wing,
+      wing: p.wing ?? (/\(\s*H\s*\)/i.test(joinText(p.modelWords)) ? "RW" : null),
       ops: null,
       page: p.page,
     });
