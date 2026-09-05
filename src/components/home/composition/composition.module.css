@@ -1,0 +1,108 @@
+/* Figures 02 and 03 of the summary sheet. Geometry constants live in share.ts;
+   the transform origins below are that file's CX / CY. */
+
+.figure {
+  width: 100%;
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+.svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+/* Callouts are drawn at 11px in user units, so they are only legible once the
+   figure is close to its full width. Below that the drawing zooms into the
+   space the callouts leave behind and the names move to the legend row. */
+.callouts {
+  display: none;
+}
+
+.zoomFan,
+.zoomRotor {
+  transform-box: view-box;
+  transform-origin: 280px 200px;
+}
+
+.zoomFan {
+  transform: scale(1.5);
+}
+
+.zoomRotor {
+  transform: scale(1.35);
+}
+
+.legend {
+  display: flex;
+}
+
+@media (min-width: 560px) {
+  .callouts {
+    display: block;
+  }
+
+  .zoomFan,
+  .zoomRotor {
+    transform: none;
+  }
+
+  .legend {
+    display: none;
+  }
+}
+
+/* One slow turn. The share annulus and every callout stay put; only the
+   blades inside move, so nothing a reader is measuring ever shifts. */
+.fan,
+.rotor {
+  transform-box: view-box;
+  transform-origin: 280px 200px;
+}
+
+@keyframes turn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fan {
+    animation: turn 40s linear infinite;
+  }
+
+  .rotor {
+    animation: turn 60s linear infinite;
+  }
+}
+
+/* Hover: the arc, its leader and its name lift together. */
+.arc,
+.lead,
+.name,
+.dot {
+  transition:
+    stroke-width 150ms var(--ease-out),
+    stroke 150ms var(--ease-out),
+    fill 150ms var(--ease-out);
+}
+
+.callout:hover .arc {
+  stroke: var(--ink);
+  stroke-width: 2.4;
+}
+
+.callout:hover .lead,
+.callout:hover .dot {
+  stroke: var(--ink);
+  fill: var(--ink);
+}
+
+.callout:hover .name {
+  fill: var(--ink);
+}

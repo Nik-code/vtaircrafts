@@ -193,10 +193,17 @@ function Palette({ onClose }: { onClose: () => void }) {
       <div
         className="absolute -inset-4 bg-ink/25"
         style={{ animation: "rise 150ms var(--ease-out) both" }}
-        onMouseDown={onClose}
         aria-hidden
       />
-      <div className="absolute inset-0 flex items-start justify-center overflow-y-auto p-4 pt-[8vh]" role="presentation">
+      <div
+        className="absolute inset-0 flex items-start justify-center overflow-y-auto p-4 pt-[8vh]"
+        role="presentation"
+        onMouseDown={(e) => {
+          // Only the backdrop itself should close the palette; clicks that
+          // bubble up from the dialog (or anything inside it) must not.
+          if (e.target === e.currentTarget) onClose();
+        }}
+      >
         <div
           ref={panelRef}
           role="dialog"

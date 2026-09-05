@@ -14,21 +14,23 @@ export default function FleetPage() {
   const total = getIndex().length;
   const meta = getMeta();
   return (
-    <main className="mx-auto max-w-[1440px] px-4 py-6 sm:px-6">
-      <TitleBlock
-        sheet="02"
-        title="Fleet index"
-        fields={[
-          { label: "Rev", value: fmtDate(meta.snapshot) },
-          { label: "Count", value: fmtInt(total) },
-        ]}
-      />
-      <p className="mt-3 max-w-[62ch] text-sm text-ink-2">
-        Every aircraft on the DGCA scheduled and non-scheduled operator lists. Tick the checklist to
-        narrow the set; the address bar keeps your selection, so a filtered view can be shared.
-      </p>
+    <main className="max-w-none py-6">
+      <div className="px-4 sm:px-6">
+        <TitleBlock
+          sheet="02"
+          title="Fleet index"
+          fields={[
+            { label: "Rev", value: fmtDate(meta.snapshot) },
+            { label: "Count", value: fmtInt(total) },
+          ]}
+        />
+        <p className="mt-3 max-w-[62ch] text-sm text-ink-2">
+          Every aircraft on the DGCA scheduled and non-scheduled operator lists. Tick the checklist to
+          narrow the set; the address bar keeps your selection, so a filtered view can be shared.
+        </p>
+      </div>
       <div className="mt-6">
-        <Suspense fallback={<div className="label">Loading the checklist</div>}>
+        <Suspense fallback={<div className="label px-4 sm:px-6">Loading the checklist</div>}>
           <FleetExplorer total={total} />
         </Suspense>
       </div>

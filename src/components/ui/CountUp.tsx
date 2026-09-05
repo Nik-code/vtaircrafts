@@ -1,35 +1,78 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-/** Counts from 0 to value once when first visible. Respects reduced motion. */
-export function CountUp({ value, duration = 700, className = "", format }: { value: number; duration?: number; className?: string; format?: (n: number) => string }) {
+/**
+ * Counts up from 0 to `value` once, the first time the element scrolls into
+ * view. The initial (and no-JS) render is always the final formatted value,
+ * so a background tab or a client that never runs the effect still reads
+ * correctly. Progress is computed from elapsed time rather than frame count,
+ * so a single rAF callback after a throttled/paused background tab lands on
+ * (or past) the exact value instead of stalling partway through.
+ */
+export function CountUp({
+  value,
+  duration = 700,
+  className = "",
+  format,
+}: {
+  value: number;
+  duration?: number;
+  className?: string;
+  format?: (n: number) => string;
+}) {
   const [n, setN] = useState(value);
   const ref = useRef<HTMLSpanElement>(null);
-  const done = useRef(false);
+  const started = useRef(false);
+
   useEffect(() => {
     const el = ref.current;
-    if (!el || done.current) return;
+    if (!el) return;
+    // Re-mounted after the run (Fast Refresh keeps refs and state): settle, never re-animate.
+    if (started.current) {
+      setN(value);
+      return;
+    }
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const io = new IntersectionObserver((entries) => {
-      if (!entries[0].isIntersecting || done.current) return;
-      done.current = true;
-      const start = performance.now();
-      let finished = false;
-      const tick = (t: number) => {
-        if (finished) return;
-        const p = Math.min(1, Math.max(0, (t - start) / duration));
-        const eased = 1 - Math.pow(1 - p, 3);
-        setN(Math.round(value * eased));
-        if (p < 1) requestAnimationFrame(tick);
-        else finished = true;
-      };
-      setN(0);
-      requestAnimationFrame(tick);
-      // rAF is paused in background tabs; guarantee the final value regardless.
-      window.setTimeout(() => { finished = true; setN(value); }, duration + 150);
-    }, { threshold: 0.4 });
+
+    const clamped = Math.min(900, Math.max(600, duration));
+    let raf = 0;
+    let timeout = 0;
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (!entries[0].isIntersecting || started.current) return;
+        started.current = true;
+        io.disconnect();
+
+        const start = performance.now();
+        setN(0);
+
+        const tick = (t: number) => {
+          const elapsed = t - start;
+          const p = Math.min(1, elapsed / clamped);
+          const eased = 1 - Math.pow(1 - p, 3);
+          setN(Math.round(value * eased));
+          if (p < 1) raf = requestAnimationFrame(tick);
+        };
+        raf = requestAnimationFrame(tick);
+
+        // Belt-and-braces: if rAF stays paused (backgrounded tab) long past
+        // the animation window, force the exact final value regardless.
+        timeout = window.setTimeout(() => setN(value), clamped + 200);
+      },
+      { threshold: 0.4 },
+    );
     io.observe(el);
-    return () => io.disconnect();
+    return () => {
+      io.disconnect();
+      cancelAnimationFrame(raf);
+      window.clearTimeout(timeout);
+    };
   }, [value, duration]);
-  return <span ref={ref} className={className}>{format ? format(n) : n.toLocaleString("en-IN")}</span>;
+
+  return (
+    <span ref={ref} className={className}>
+      {format ? format(n) : n.toLocaleString("en-IN")}
+    </span>
+  );
 }

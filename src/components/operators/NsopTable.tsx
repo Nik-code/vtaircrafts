@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { fmtDate } from "@/lib/format";
+import { fmtDate, fmtInt } from "@/lib/format";
 import { Silhouette } from "@/components/ui/Silhouette";
+import { Pager } from "./Pager";
 
 export interface NsopRow {
   id: string;
@@ -17,6 +18,7 @@ export interface NsopRow {
 }
 
 type Key = "name" | "fleet" | "valid";
+const PAGE_SIZE = 50;
 const COLS =
   "grid-cols-[minmax(0,1fr)_6.5rem_3rem] md:grid-cols-[minmax(0,1fr)_5.5rem_6.5rem_3.25rem] lg:grid-cols-[minmax(0,2fr)_5.5rem_6.5rem_9rem_3.25rem]";
 const CELL = "grid items-center gap-2 px-3 sm:gap-3";
@@ -32,6 +34,7 @@ const HEADERS: Array<{ key: Key | null; label: string; className?: string }> = [
 /** Dense non-scheduled list, sortable by name, valid-to date or fleet size. */
 export function NsopTable({ rows }: { rows: NsopRow[] }) {
   const [sort, setSort] = useState<{ key: Key; desc: boolean }>({ key: "name", desc: false });
+  const [page, setPage] = useState(1);
 
   const sorted = useMemo(() => {
     const dir = sort.desc ? -1 : 1;
@@ -44,11 +47,24 @@ export function NsopTable({ rows }: { rows: NsopRow[] }) {
     return out;
   }, [rows, sort]);
 
-  const toggle = (key: Key) =>
+  const pageCount = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
+  const clampedPage = Math.min(page, pageCount);
+  const paged = sorted.slice((clampedPage - 1) * PAGE_SIZE, clampedPage * PAGE_SIZE);
+
+  const toggle = (key: Key) => {
     setSort((s) => (s.key === key ? { key, desc: !s.desc } : { key, desc: key === "fleet" }));
+    setPage(1);
+  };
 
   return (
-    <div className="border border-rule">
+    <div>
+      <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+        <span className="mono text-[11px] text-ink-2">
+          {fmtInt(rows.length)} permits · page {clampedPage} of {pageCount}
+        </span>
+        <Pager page={clampedPage} pageCount={pageCount} onChange={setPage} />
+      </div>
+      <div className="border border-rule">
       <div className={`label z-20 border-b border-ink bg-paper py-1.5 sm:sticky sm:top-[49px] ${CELL} ${COLS}`}>
         {HEADERS.map((h) =>
           h.key ? (
@@ -71,7 +87,7 @@ export function NsopTable({ rows }: { rows: NsopRow[] }) {
           ),
         )}
       </div>
-      {sorted.map((o, i) => (
+      {paged.map((o, i) => (
         <Link
           key={o.id}
           href={`/operators/${o.id}`}
@@ -91,6 +107,10 @@ export function NsopTable({ rows }: { rows: NsopRow[] }) {
           <span className="mono text-right text-[12px] text-ink">{o.fleet}</span>
         </Link>
       ))}
+      </div>
+      <div className="mt-3 flex justify-center">
+        <Pager page={clampedPage} pageCount={pageCount} onChange={setPage} />
+      </div>
     </div>
   );
 }

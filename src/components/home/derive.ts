@@ -1,5 +1,5 @@
 import { getAircraft, getEvents, getMeta, getOperators } from "@/lib/data";
-import type { Aircraft, Event, Operator } from "@/lib/types";
+import type { Aircraft, Event, Operator, Wing } from "@/lib/types";
 import type { ApronGroup } from "./apron";
 
 /** Aircraft of one operator, in registration order. */
@@ -36,18 +36,30 @@ export interface TypeRow {
   name: string;
   icao: string | null;
   manufacturer: string;
+  /** The wing category most of this type's airframes are registered under. */
+  wing: Wing;
   count: number;
 }
 
 /** Types largest first. */
 export function typeRows(): TypeRow[] {
-  const m = new Map<string, TypeRow>();
+  const m = new Map<string, { name: string; icao: string | null; manufacturer: string; count: number; wingCounts: Record<Wing, number> }>();
   for (const a of getAircraft()) {
-    const row = m.get(a.type.name);
-    if (row) row.count += 1;
-    else m.set(a.type.name, { name: a.type.name, icao: a.type.icao, manufacturer: a.type.manufacturer, count: 1 });
+    let row = m.get(a.type.name);
+    if (!row) {
+      row = { name: a.type.name, icao: a.type.icao, manufacturer: a.type.manufacturer, count: 0, wingCounts: { FW: 0, RW: 0, B: 0 } };
+      m.set(a.type.name, row);
+    }
+    row.count += 1;
+    row.wingCounts[a.wing] += 1;
   }
-  return [...m.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+  const WING_ORDER: Wing[] = ["FW", "RW", "B"];
+  return [...m.values()]
+    .map((r) => {
+      const wing = WING_ORDER.reduce((best, w) => (r.wingCounts[w] > r.wingCounts[best] ? w : best), WING_ORDER[0]);
+      return { name: r.name, icao: r.icao, manufacturer: r.manufacturer, wing, count: r.count };
+    })
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 }
 
 /** Distinct type names on the lists. */

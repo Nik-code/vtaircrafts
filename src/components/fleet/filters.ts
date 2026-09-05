@@ -1,8 +1,8 @@
 import type { IndexRecord } from "@/lib/types";
 import { CATEGORY_LABEL, ROLE_LABEL, WING_LABEL } from "./indexData";
 
-export type SortKey = "reg" | "operator" | "type" | "seats" | "first";
-export type ViewKey = "table" | "plates";
+export type SortKey = "reg" | "operator" | "type" | "seats" | "seatsAsc" | "first" | "firstOldest";
+export type ViewKey = "cards" | "plates" | "table";
 
 export const LIST_KEYS = ["c", "w", "o", "mf", "t", "ro", "y"] as const;
 export type ListKey = (typeof LIST_KEYS)[number];
@@ -14,19 +14,23 @@ export interface FleetState {
   smax: number | null;
   sort: SortKey;
   view: ViewKey;
+  /** 1-indexed. */
+  page: number;
 }
 
 export const EMPTY_LISTS: Record<ListKey, string[]> = { c: [], w: [], o: [], mf: [], t: [], ro: [], y: [] };
 
-const SORTS: SortKey[] = ["reg", "operator", "type", "seats", "first"];
-const VIEWS: ViewKey[] = ["table", "plates"];
+const SORTS: SortKey[] = ["reg", "operator", "type", "seats", "seatsAsc", "first", "firstOldest"];
+const VIEWS: ViewKey[] = ["cards", "plates", "table"];
 
 export const SORT_LABEL: Record<SortKey, string> = {
   reg: "Registration",
   operator: "Operator",
   type: "Type",
   seats: "Seats, high to low",
+  seatsAsc: "Seats, low to high",
   first: "Newest on list",
+  firstOldest: "Oldest on list",
 };
 
 export const GROUP_LABEL: Record<ListKey, string> = {
@@ -74,13 +78,15 @@ export function parseFleetState(search: string): FleetState {
   };
   const sort = p.get("sort") as SortKey | null;
   const view = p.get("view") as ViewKey | null;
+  const page = num("p");
   return {
     q: p.get("q") ?? "",
     lists,
     smin: num("smin"),
     smax: num("smax"),
     sort: sort && SORTS.includes(sort) ? sort : "reg",
-    view: view && VIEWS.includes(view) ? view : "table",
+    view: view && VIEWS.includes(view) ? view : "cards",
+    page: page && page > 0 ? page : 1,
   };
 }
 
@@ -91,7 +97,8 @@ export function serializeFleetState(s: FleetState): string {
   if (s.smin != null) p.set("smin", String(s.smin));
   if (s.smax != null) p.set("smax", String(s.smax));
   if (s.sort !== "reg") p.set("sort", s.sort);
-  if (s.view !== "table") p.set("view", s.view);
+  if (s.view !== "cards") p.set("view", s.view);
+  if (s.page > 1) p.set("p", String(s.page));
   return p.toString();
 }
 
@@ -149,7 +156,9 @@ const COMPARATORS: Record<SortKey, (x: IndexRecord, y: IndexRecord) => number> =
   operator: (x, y) => x.on.localeCompare(y.on) || x.r.localeCompare(y.r),
   type: (x, y) => x.t.localeCompare(y.t) || x.r.localeCompare(y.r),
   seats: (x, y) => (y.s ?? -1) - (x.s ?? -1) || x.r.localeCompare(y.r),
+  seatsAsc: (x, y) => (x.s ?? Infinity) - (y.s ?? Infinity) || x.r.localeCompare(y.r),
   first: (x, y) => y.f.localeCompare(x.f) || x.r.localeCompare(y.r),
+  firstOldest: (x, y) => x.f.localeCompare(y.f) || x.r.localeCompare(y.r),
 };
 
 const FIXED_ORDER: Partial<Record<ListKey, string[]>> = {

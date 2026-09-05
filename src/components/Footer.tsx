@@ -1,38 +1,39 @@
 import Link from "next/link";
 import { getMeta } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
+import { ButtonLink } from "@/components/ui/Button";
 
-/** Drawing title block. Sits at the bottom of every sheet. */
+/** Thin drawing title block. One row, wraps on mobile. */
 export function Footer() {
   const meta = getMeta();
-  const cells: Array<[string, React.ReactNode]> = [
-    ["Drawn from", "DGCA operator lists"],
-    ["Rev", fmtDate(meta.snapshot)],
-    ["Generated", fmtDate(meta.generatedAt.slice(0, 10))],
-    ["Licence", "Code MIT · Data CC BY 4.0"],
-    ["Photos", "Wikimedia Commons, credited per image"],
-  ];
+  const rev = fmtDate(meta.snapshot);
+
   return (
-    <footer className="mt-20 border-t border-ink">
+    <footer className="border-t border-ink">
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6">
-        <div className="grid grid-cols-2 divide-x divide-y divide-ink border-x border-b border-ink md:grid-cols-5 md:divide-y-0">
-          {cells.map(([k, v]) => (
-            <div key={k} className="px-3 py-3">
-              <div className="label label-dim">{k}</div>
-              <div className="mono mt-1 text-xs">{v}</div>
-            </div>
-          ))}
-        </div>
-        <div className="flex flex-wrap items-center justify-between gap-3 py-4 text-xs text-ink-2">
-          <p className="max-w-2xl">
-            An independent index, not the Indian civil aircraft register. Source material © Directorate General of Civil
-            Aviation, reproduced with acknowledgement. Not for operational or legal use.
+        <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 py-4">
+          <p className="mono text-[11px] text-ink-2">
+            Drawn from DGCA operator lists · Rev {rev} · Code MIT · Data CC BY 4.0 · Photos Wikimedia Commons,
+            credited per image
           </p>
-          <div className="flex gap-4">
-            <Link href="/data" className="label hover:text-ink">Data & method</Link>
-            <a href="https://github.com/Nik-code/vtaircrafts" target="_blank" rel="noreferrer" className="label hover:text-ink">GitHub ↗</a>
+          <div className="flex items-center gap-4">
+            <Link href="/data" className="label hover:text-ink">Data &amp; method</Link>
+            <a href="https://github.com/Nik-code/vtaircrafts" target="_blank" rel="noreferrer" className="label hover:text-ink">
+              GitHub ↗
+            </a>
+            <ButtonLink
+              href="https://priyanshnikka.com"
+              tone="ghost"
+              external
+              className="px-2.5 py-1 text-[10px]"
+            >
+              Made by Priyansh Nikka ↗
+            </ButtonLink>
           </div>
         </div>
+        <p className="pb-3 text-[11px] text-ink-3">
+          An independent index, not the Indian civil aircraft register. Not for operational or legal use.
+        </p>
       </div>
     </footer>
   );
