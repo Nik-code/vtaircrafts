@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { AircraftImage, Wing } from "@/lib/types";
 import { thumb } from "@/lib/format";
 import { Silhouette } from "./Silhouette";
@@ -18,6 +19,7 @@ export function Plate({
   eager = false,
   className = "",
   hideCredit = false,
+  href,
 }: {
   image: AircraftImage | null;
   wing: Wing;
@@ -29,11 +31,13 @@ export function Plate({
   eager?: boolean;
   className?: string;
   hideCredit?: boolean;
+  /** Links the image (not the caption, which carries its own credit anchor). Never wrap a Plate in <Link>. */
+  href?: string;
 }) {
   return (
     <figure className={`rivets border border-rule-2 bg-paper-2 ${className}`}>
       <span className="rivet-b" />
-      <div className={`m-[10px] overflow-hidden border border-rule ${aspect}`}>
+      <Wrap href={href} className={`m-[10px] block overflow-hidden border border-rule ${aspect}`}>
         {image ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
@@ -48,7 +52,7 @@ export function Plate({
             <Silhouette wing={wing} className="h-1/2 w-1/2" />
           </div>
         )}
-      </div>
+      </Wrap>
       {(fig || caption || (image && !hideCredit)) && (
         <figcaption className="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-[10px] pb-2 pt-0">
           {fig && <span className="label">Fig. {fig}</span>}
@@ -58,6 +62,11 @@ export function Plate({
       )}
     </figure>
   );
+}
+
+function Wrap({ href, className, children }: { href?: string; className: string; children: React.ReactNode }) {
+  if (href) return <Link href={href} className={className}>{children}</Link>;
+  return <div className={className}>{children}</div>;
 }
 
 export function Credit({ image, className = "" }: { image: AircraftImage; className?: string }) {

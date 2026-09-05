@@ -18,7 +18,7 @@ export function FleetPlates({ rows }: { rows: IndexRecord[] }) {
             image={plateImage(a.i)}
             wing={a.w}
             alt={`${a.r}, ${a.t}, ${a.on}`}
-            width={1280}
+            width={960}
             aspect="aspect-[16/10]"
             hideCredit
             className={`h-full transition-colors duration-150 group-hover:border-ink ${i === 0 ? "rise" : i < 6 ? `rise rise-${i}` : ""}`}

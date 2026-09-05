@@ -15,7 +15,7 @@ export function CountUp({ value, duration = 700, className = "", format }: { val
       done.current = true;
       const start = performance.now();
       const tick = (t: number) => {
-        const p = Math.min(1, (t - start) / duration);
+        const p = Math.min(1, Math.max(0, (t - start) / duration));
         const eased = 1 - Math.pow(1 - p, 3);
         setN(Math.round(value * eased));
         if (p < 1) requestAnimationFrame(tick);

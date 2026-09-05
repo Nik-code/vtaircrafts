@@ -70,6 +70,7 @@ body {
   color: var(--paper);
 }
 
+@layer components {
 /* ---------- Type utilities ---------- */
 .display {
   font-family: var(--font-display);
@@ -226,6 +227,8 @@ body {
   scrollbar-color: var(--rule-2) transparent;
 }
 input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+}
 
 /* ---------- Motion ---------- */
 @media (prefers-reduced-motion: no-preference) {

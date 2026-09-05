@@ -8,9 +8,20 @@ export function fmtInt(n: number) {
   return n.toLocaleString("en-IN");
 }
 
-/** Commons thumb URLs are path based: swap the requested width. */
+/**
+ * Wikimedia only renders thumbnails at fixed steps (verified Sep 2026: 120, 250, 330,
+ * 500, 960, 1280, 1920); any other width returns HTTP 400. Snap up to the nearest
+ * allowed step. Unscaled originals (no "/NNNpx-" segment) are returned unchanged.
+ */
+export const THUMB_STEPS = [120, 250, 330, 500, 960, 1280, 1920] as const;
+
+export function thumbWidth(width: number): number {
+  return THUMB_STEPS.find((s) => s >= width) ?? THUMB_STEPS[THUMB_STEPS.length - 1];
+}
+
 export function thumb(src: string, width: number) {
-  return src.replace(/\/(\d+)px-/, `/${width}px-`);
+  if (!/\/(\d+)px-/.test(src)) return src;
+  return src.replace(/\/(\d+)px-/, `/${thumbWidth(width)}px-`).replace(/\?utm_[^#]*$/, "");
 }
 
 export function daysUntil(iso: string | null | undefined) {

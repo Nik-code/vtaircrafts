@@ -9,7 +9,7 @@ export function Dimension({ children, className = "", tone = "ink" }: { children
       <span className={`relative h-px flex-1 ${line}`}>
         <span className={`absolute left-0 top-1/2 h-2.5 w-px -translate-y-1/2 ${line}`} />
       </span>
-      <span className="label shrink-0" style={{ color: "inherit" }}>{children}</span>
+      <span className="label min-w-0 shrink text-center" style={{ color: "inherit" }}>{children}</span>
       <span className={`relative h-px flex-1 ${line}`}>
         <span className={`absolute right-0 top-1/2 h-2.5 w-px -translate-y-1/2 ${line}`} />
       </span>
