@@ -16,5 +16,662 @@
   "sha256": "9bbd7f469c3c404adac98fe2236e6afe01b21f549707503827906cda9eff7d90",
   "aircraft": 835,
   "operators": 12
+ },
+ {
+  "date": "2026-05-31",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/nonscheduled/ns-oper.pdf",
+  "sha256": "eaa1bc50ec2c73fd6e445e651b3775243c5cfbee6328b53b0871e3d83a4203e6",
+  "aircraft": 460,
+  "operators": 137
+ },
+ {
+  "date": "2026-05-31",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+  "sha256": "fb042b6cab544d942245ee7b0494c17301b41df42637f7bd893b2b309cd95550",
+  "aircraft": 849,
+  "operators": 12
+ },
+ {
+  "date": "2025-09-30",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/nonscheduled/ns-oper.pdf",
+  "sha256": "6b0118313bfb4fb37cd54298b48caa336a698199c1c0125b82e44489f9037777",
+  "aircraft": 445,
+  "operators": 133
+ },
+ {
+  "date": "2025-06-30",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+  "sha256": "5bb9cd7bdf91e57902471bb983a21501e4574cde41be818749d7f76849808423",
+  "aircraft": 835,
+  "operators": 12
+ },
+ {
+  "date": "2025-04-30",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+  "sha256": "bd1d5619955ae1f5d0724fbad646bdc2382ac14d645baf0018fb38c486383a64",
+  "aircraft": 830,
+  "operators": 12
+ },
+ {
+  "date": "2024-11-15",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+  "sha256": "1d942bca65e8ba99e26e94ce2bdf71b2041c85a6804dc03e1d4b0790a8486e7d",
+  "aircraft": 817,
+  "operators": 12
+ },
+ {
+  "date": "2024-06-10",
+  "list": "scheduled",
+  "source": "dgca",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+  "sha256": "b7f5102aafc9f3b4ab20bbc0161f5b0cd743220702cbbd66b6485b4e0ff2fcb6",
+  "aircraft": 772,
+  "operators": 15
+ },
+ {
+  "date": "2023-06-15",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+  "sha256": "78e00e44f4f702dde4581b580efaed639255dd6d3d874aa605dc43c96a823131",
+  "aircraft": 724,
+  "operators": 16
+ },
+ {
+  "date": "2023-01-31",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+  "sha256": "1d35db7c5010aee64925e12d3241ac83260192a71fd26ed467e17d2911534ccc",
+  "aircraft": 716,
+  "operators": 17
+ },
+ {
+  "date": "2019-09-30",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "c6887c695d8ec424f6df820c849060dc61970dccd2f4f40b2afeddff94e339e8",
+  "aircraft": 318,
+  "operators": 99
+ },
+ {
+  "date": "2019-09-30",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "677f1021e8abb37c94b7db890a2e1de75920f16efabc4fad699a6e242db6b8b7",
+  "aircraft": 655,
+  "operators": 18
+ },
+ {
+  "date": "2019-07-15",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "46975b18461169d7f5ff4f1c43bb1ff775e249d6c47fe06303af4a72ed73c38d",
+  "aircraft": 319,
+  "operators": 99
+ },
+ {
+  "date": "2019-07-15",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "766b2874fee33a477ffbf97673dab74aad090294943ae5b89a0d985af698c358",
+  "aircraft": 642,
+  "operators": 18
+ },
+ {
+  "date": "2019-03-31",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "9e0a0bceca73696e055b4abf9eb4fcc3087667d69118a63794855c5a5f0943b5",
+  "aircraft": 317,
+  "operators": 98
+ },
+ {
+  "date": "2018-10-31",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "a6a30b9c8a47418159e17b5c88e651d2543085d1608ea2bf689d2612cdd45e4f",
+  "aircraft": 336,
+  "operators": 106
+ },
+ {
+  "date": "2018-10-31",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "62dfcd23936e6bddd62171cb9ff012bcb225b72ee2fce61a284285385a290924",
+  "aircraft": 649,
+  "operators": 14
+ },
+ {
+  "date": "2018-05-01",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "834367e4294e1088872ed1d9e3a1d018500887b22afa0a6916be9da41afe316f",
+  "aircraft": 353,
+  "operators": 111
+ },
+ {
+  "date": "2018-05-01",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "86a40511d08542c80b56caa5d9a0c4dead010d13f14bd5081f48f19a46088886",
+  "aircraft": 593,
+  "operators": 15
+ },
+ {
+  "date": "2018-02-01",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "8b4025205acc8e62e2ebc15773a690bb6dd0bac2dcb1278f4a4d7ff54ebdba20",
+  "aircraft": 354,
+  "operators": 111
+ },
+ {
+  "date": "2018-02-01",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "6c45f9f797dcd8f07fa818fe76984262c057be31a3abfd9129f0f6c69b5c0ba0",
+  "aircraft": 567,
+  "operators": 14
+ },
+ {
+  "date": "2017-09-26",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/ns-oper.pdf",
+  "sha256": "9e651624649d920f1a3b4eb56027dff4669b6f8e999f9d1c0e81437cd1f1b12e",
+  "aircraft": 348,
+  "operators": 112
+ },
+ {
+  "date": "2017-09-26",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "a84d7086e0d69e4311889216535acb229e3a1f800a41714db6083973a4d7b2ef",
+  "aircraft": 538,
+  "operators": 14
+ },
+ {
+  "date": "2017-07-20",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "0d0d35caa8481d442dfa06902a8c98f867a7f7c7ce1fd8d3e33a01ed998245ff",
+  "aircraft": 349,
+  "operators": 112
+ },
+ {
+  "date": "2017-07-20",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "07f31baa37f5692d2ff52435a03d199172c807378da7658c0f9d3c67f5ca257a",
+  "aircraft": 508,
+  "operators": 14
+ },
+ {
+  "date": "2017-03-07",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/ns-oper.pdf",
+  "sha256": "d0abc796c54d561e0afa68cd884aa3916f22d531f51cce3b072d26412ba372a9",
+  "aircraft": 350,
+  "operators": 116
+ },
+ {
+  "date": "2017-03-07",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "5b149faaecfc1e417633309da6dd67baafc1b37c5177c1f590e8ad3c735af5e2",
+  "aircraft": 491,
+  "operators": 16
+ },
+ {
+  "date": "2016-10-10",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "f031603349b0c7735f796df0411b8cc6476b59fb64ac1b44f11bd475f8c25959",
+  "aircraft": 349,
+  "operators": 117
+ },
+ {
+  "date": "2016-02-10",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/ns-oper.pdf",
+  "sha256": "84b8276521e13115fa220c3de4c87cdd10f8a4b2b12aa5429138047eda960a0b",
+  "aircraft": 339,
+  "operators": 109
+ },
+ {
+  "date": "2016-02-10",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+  "sha256": "2a48ac23e73aa94a42140d0178e858bf4b7bf79db72d4ce4d028a638b325799a",
+  "aircraft": 438,
+  "operators": 15
+ },
+ {
+  "date": "2015-09-01",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "5167600b6212c78ffecb6854f18034f1593111fea5a60bc327016d85db7aef29",
+  "aircraft": 355,
+  "operators": 124
+ },
+ {
+  "date": "2015-06-09",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/ns-oper.pdf",
+  "sha256": "40bf00dcb7e0e3d3547f8c75b446df3753ed2c7a85a3832b81d5cc2ea0d82ecb",
+  "aircraft": 341,
+  "operators": 118
+ },
+ {
+  "date": "2015-03-26",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "fefd8d9988645397a19ce418f701f7dee98f025f6bf7ea68e72cf60a1adfe9be",
+  "aircraft": 346,
+  "operators": 112
+ },
+ {
+  "date": "2014-08-07",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/ns-oper.pdf",
+  "sha256": "8c707a78cccc2d6ae7dd1212c234b27b8a15c1d417935d706095979e8ea78744",
+  "aircraft": 353,
+  "operators": 118
+ },
+ {
+  "date": "2014-06-12",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "2486c167b0415faed256102d2672f56eee87caf73ae14b23d8939dd14e68ea9a",
+  "aircraft": 365,
+  "operators": 125
+ },
+ {
+  "date": "2014-06-12",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "9ba5540c9e6bb4f7f2b05d749844fa9a913a4c144836cea68a443441cf435639",
+  "aircraft": 409,
+  "operators": 11
+ },
+ {
+  "date": "2013-12-05",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/ns-oper.pdf",
+  "sha256": "699ba0c8bc9d87934586f544c6882a9b14fc79bc522800fd136b5e14ee74838f",
+  "aircraft": 355,
+  "operators": 119
+ },
+ {
+  "date": "2013-12-05",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+  "sha256": "0a0cbfb2e0879866781c67e0f86c10cd370384017380e91b70a8171f3cfaa8b6",
+  "aircraft": 402,
+  "operators": 11
+ },
+ {
+  "date": "2013-09-04",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "51bdd52bff7f2fc5e53b64f1995bd590fa03e8bb0ab6b165cd942a0399328bc3",
+  "aircraft": 396,
+  "operators": 10
+ },
+ {
+  "date": "2013-07-25",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "cca09a41ef5306e5dd085b25fb37243d96e66e476fef59971eec89f87d5db867",
+  "aircraft": 364,
+  "operators": 116
+ },
+ {
+  "date": "2013-05-02",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "b746e39e47c62e87d97335d35cbf057dedac81670cfc9f03bc0397987c477570",
+  "aircraft": 390,
+  "operators": 143
+ },
+ {
+  "date": "2013-05-02",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "38e16d9d42ce33023bc57a84a2b51f09625f782512563179a4b1600dd8da229c",
+  "aircraft": 429,
+  "operators": 13
+ },
+ {
+  "date": "2012-03-01",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "01f046b924fc450c184a7c136b7039b2cfda2a1d0cfa9c014faad66136a2c406",
+  "aircraft": 440,
+  "operators": 12
+ },
+ {
+  "date": "2011-11-16",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/ns-oper.pdf",
+  "sha256": "0e9cb1b44deeb0c18a13d3fe83e1aee323c47476894dd6a7669f03f011891190",
+  "aircraft": 386,
+  "operators": 130
+ },
+ {
+  "date": "2011-11-16",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+  "sha256": "a440b93c172157ac1d1d9948833075c18cbc1e673e08d714e4a2915ce20df213",
+  "aircraft": 437,
+  "operators": 11
+ },
+ {
+  "date": "2011-09-30",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/ns-oper.pdf",
+  "sha256": "48b9e040aa524c3778b839abe7beb55a9c7c0b420de746f81080f3bd5e13f73e",
+  "aircraft": 379,
+  "operators": 127
+ },
+ {
+  "date": "2011-09-30",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+  "sha256": "4fba59187127b1e5799b9ac471f905abd1cdb9910406090b67557e07321f3110",
+  "aircraft": 431,
+  "operators": 11
+ },
+ {
+  "date": "2011-07-15",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/ns-oper.pdf",
+  "sha256": "785a06661926ee442841f8f6d3f8675b4468a22abe61b71d8ca845773770a3fd",
+  "aircraft": 383,
+  "operators": 132
+ },
+ {
+  "date": "2011-07-15",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.gov.in/nsoper/sch-oper.pdf",
+  "sha256": "d575f9876ff87a521d5cdba308841e9ebc7fcc71170e1b270ff81baa22db06ed",
+  "aircraft": 429,
+  "operators": 11
+ },
+ {
+  "date": "2010-10-07",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "594c6351e0b60012d2d89f3b0dab3a1525df37e5c4f9edd149b40550819a37f2",
+  "aircraft": 343,
+  "operators": 86
+ },
+ {
+  "date": "2010-10-07",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "74096962708c8cf09dbd4577efc81141cb1fe896030fadda5756e393dbc3a114",
+  "aircraft": 417,
+  "operators": 15
+ },
+ {
+  "date": "2010-06-30",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/operator/ns-oper.pdf",
+  "sha256": "ebb82f5327c4a752af588a76d22e27eebc383801de25b44f55d8e1dcf9009ad4",
+  "aircraft": 333,
+  "operators": 90
+ },
+ {
+  "date": "2010-06-30",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "6a10f35d234a6ea8576f5c5281f50d5199e99a081ecdbc40f6b314cbb171ebf3",
+  "aircraft": 417,
+  "operators": 14
+ },
+ {
+  "date": "2009-04-30",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "0b247cf9654e50da9f458443abd0455df1b699014c30f69047067588920dc9d6",
+  "aircraft": 291,
+  "operators": 94
+ },
+ {
+  "date": "2009-04-30",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "64b099ebf1c50c97ecfa0ddbee469a81ec92783208fc34d0041521d0dfbf7325",
+  "aircraft": 405,
+  "operators": 14
+ },
+ {
+  "date": "2009-01-20",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "601d351ae6d5849a829cd209c40c1601a9c54e5b57ecf9a2d2c88d0e7244914a",
+  "aircraft": 260,
+  "operators": 92
+ },
+ {
+  "date": "2009-01-20",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "3eafee1f2d4b2d911a1ebde6a4cd67e54256642a4dda0b9cd57817750dfb78a5",
+  "aircraft": 410,
+  "operators": 15
+ },
+ {
+  "date": "2008-05-29",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "6f9c4bdce7ea996355dca91e3dd523319146a378ee4071a45dda851eee339066",
+  "aircraft": 391,
+  "operators": 15
+ },
+ {
+  "date": "2008-01-31",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "241500d82c1988cb427e47aad50c08120c91594c998ccf6e7af6f51e650bd235",
+  "aircraft": 379,
+  "operators": 14
+ },
+ {
+  "date": "2007-11-13",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "f2ac963bd2ab0fe67e130ae75080749be65bdab908e36018ea7803d67ff654ea",
+  "aircraft": 343,
+  "operators": 14
+ },
+ {
+  "date": "2007-09-26",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "0f247900379d78522e101b14150608314c58f7af4dd9f34c675f751e3e605c9e",
+  "aircraft": 323,
+  "operators": 14
+ },
+ {
+  "date": "2007-05-14",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "4f4db41af9f2cd463c722089ba44ec50f155e407190f897dae26896d53faab25",
+  "aircraft": 184,
+  "operators": 59
+ },
+ {
+  "date": "2007-05-10",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "ac8fc6ed5885e8da1f93c39704fc4da35a6ba721fa84209588bdbbc9dbd2e6b5",
+  "aircraft": 321,
+  "operators": 13
+ },
+ {
+  "date": "2007-01-11",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "6db7eee57df4f841cae29c31421af9346055f27274204ccb527c495f08dd722b",
+  "aircraft": 175,
+  "operators": 56
+ },
+ {
+  "date": "2006-11-30",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "f87168bda74d8e4b1e782859fb4b2263c1ed7954f53c1602b78835045ad2b0f2",
+  "aircraft": 170,
+  "operators": 55
+ },
+ {
+  "date": "2006-10-13",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "b7bdacf989f94a452342665c7c31a02cae0d562c7b2cbbf0639c6652a648b7d2",
+  "aircraft": 164,
+  "operators": 51
+ },
+ {
+  "date": "2006-09-01",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "a64f5732b452b0f46becc282302d45ae0c4c627a8382b6f4bfedda115977e313",
+  "aircraft": 273,
+  "operators": 13
+ },
+ {
+  "date": "2006-08-04",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "ce435ccc8df7bff8a13e7365e16c8a2d7bdf76a548d2b73a4739e423e55048b0",
+  "aircraft": 157,
+  "operators": 48
+ },
+ {
+  "date": "2006-04-30",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "fa966f1a8babfdda852c66971625ef0b82b0461e50641be762b2ac8e9baec33b",
+  "aircraft": 277,
+  "operators": 13
+ },
+ {
+  "date": "2006-01-20",
+  "list": "non-scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/ns-oper.pdf",
+  "sha256": "fd921a2b5ccb9786627a268271414661e17cd122d20c772c20fe8937f21c15a2",
+  "aircraft": 146,
+  "operators": 44
+ },
+ {
+  "date": "2006-01-20",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "239edae05586a6825f26f60a1a95657ee69983c9a032bdd451957975be38e554",
+  "aircraft": 236,
+  "operators": 12
+ },
+ {
+  "date": "2006-01-03",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "6fae48d8bc6a847934b3bc64b38309c9aa5b14f6f599fb7a968a7d590505c212",
+  "aircraft": 231,
+  "operators": 12
+ },
+ {
+  "date": "2005-05-26",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "482302b292e61b473430686c3cbbbd27707ba3654f27276ed12a03cec9bdd032",
+  "aircraft": 202,
+  "operators": 10
+ },
+ {
+  "date": "2005-03-30",
+  "list": "scheduled",
+  "source": "wayback",
+  "url": "http://dgca.nic.in/nsoper/sch-oper.pdf",
+  "sha256": "3747ced760f7b6ab9070ec2b3824a41b24f2f4310006bc5700daf8c823fd780b",
+  "aircraft": 180,
+  "operators": 7
  }
 ]

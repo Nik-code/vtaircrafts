@@ -174,7 +174,7 @@
    "B": 0
   },
   "seatsTotal": 13432,
-  "heroReg": "VT-ATG"
+  "heroReg": "VT-AXJ"
  },
  {
   "id": "vistara",
@@ -215,7 +215,7 @@
    "B": 0
   },
   "seatsTotal": 12665,
-  "heroReg": "VT-ATV"
+  "heroReg": "VT-TNQ"
  },
  {
   "id": "spicejet",
@@ -326,15 +326,15 @@
     "count": 18
    },
    {
-    "name": "ATR 42-600",
+    "name": "ATR 42",
     "icao": "AT46",
     "manufacturer": "ATR",
     "count": 2
    },
    {
-    "name": "DO 228-201",
+    "name": "Dornier 228",
     "icao": "D228",
-    "manufacturer": "Other",
+    "manufacturer": "Dornier / HAL",
     "count": 1
    }
   ],
@@ -344,7 +344,7 @@
    "B": 0
   },
   "seatsTotal": 1372,
-  "heroReg": "VT-AII"
+  "heroReg": "VT-AIV"
  },
  {
   "id": "star-air",
@@ -443,12 +443,12 @@
    "B": 0
   },
   "seatsTotal": 57,
-  "heroReg": null
+  "heroReg": "VT-BHK"
  },
  {
   "id": "gsec-monarch-deccan",
   "name": "GSEC Monarch & Deccan Charters",
-  "legalName": "GSEC Monarch and Deccan Aviation Pvt.",
+  "legalName": "GSEC Monarch and Deccan Aviation Pvt. Ltd.",
   "category": "scheduled",
   "website": null,
   "permit": {
@@ -460,10 +460,16 @@
   "statedCount": 3,
   "types": [
    {
+    "name": "Cessna 208 Grand Caravan",
+    "icao": "C208",
+    "manufacturer": "Cessna",
+    "count": 2
+   },
+   {
     "name": "Cessna Grand",
     "icao": null,
     "manufacturer": "Other",
-    "count": 3
+    "count": 1
    }
   ],
   "wings": {

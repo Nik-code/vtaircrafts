@@ -186,7 +186,7 @@
    "B": 0
   },
   "seatsTotal": 19336,
-  "heroReg": "VT-ATG"
+  "heroReg": "VT-AXJ"
  },
  {
   "id": "spicejet",
@@ -291,10 +291,10 @@
   "statedCount": 36,
   "types": [
    {
-    "name": "Airbus Dauphin / H155",
+    "name": "Airbus Dauphin (AS365)",
     "icao": "AS65",
     "manufacturer": "Airbus Helicopters",
-    "count": 20
+    "count": 23
    },
    {
     "name": "Sikorsky S-76",
@@ -306,12 +306,6 @@
     "name": "Bell 407",
     "icao": "B407",
     "manufacturer": "Bell",
-    "count": 3
-   },
-   {
-    "name": "SA 365N",
-    "icao": null,
-    "manufacturer": "Other helicopter",
     "count": 3
    },
    {
@@ -380,16 +374,10 @@
     "count": 4
    },
    {
-    "name": "AW 139",
-    "icao": "A139",
-    "manufacturer": "Leonardo",
-    "count": 1
-   },
-   {
     "name": "Leonardo AW139",
     "icao": "A139",
     "manufacturer": "Leonardo",
-    "count": 1
+    "count": 2
    }
   ],
   "wings": {
@@ -398,7 +386,7 @@
    "B": 0
   },
   "seatsTotal": 279,
-  "heroReg": "VT-RRE"
+  "heroReg": "VT-AZS"
  },
  {
   "id": "alliance-air",
@@ -421,15 +409,15 @@
     "count": 18
    },
    {
-    "name": "ATR 42-600",
+    "name": "ATR 42",
     "icao": "AT46",
     "manufacturer": "ATR",
     "count": 2
    },
    {
-    "name": "DO 228-201 (UPGRADED)",
+    "name": "Dornier 228",
     "icao": "D228",
-    "manufacturer": "Other",
+    "manufacturer": "Dornier / HAL",
     "count": 1
    }
   ],
@@ -439,7 +427,7 @@
    "B": 0
   },
   "seatsTotal": 1372,
-  "heroReg": "VT-AII"
+  "heroReg": "VT-AIV"
  },
  {
   "id": "vsr-ventures",
@@ -456,7 +444,7 @@
   "statedCount": 17,
   "types": [
    {
-    "name": "Learjet",
+    "name": "Learjet 40/45",
     "icao": "LJ45",
     "manufacturer": "Bombardier",
     "count": 7
@@ -486,7 +474,7 @@
    "B": 0
   },
   "seatsTotal": 165,
-  "heroReg": "VT-DBL"
+  "heroReg": "VT-TRI"
  },
  {
   "id": "heligo-charters",
@@ -521,9 +509,9 @@
     "count": 3
    },
    {
-    "name": "AS 365 N3",
-    "icao": null,
-    "manufacturer": "Other helicopter",
+    "name": "Airbus Dauphin (AS365)",
+    "icao": "AS65",
+    "manufacturer": "Airbus Helicopters",
     "count": 2
    }
   ],
@@ -592,13 +580,13 @@
     "count": 1
    },
    {
-    "name": "AS 365 N3",
-    "icao": null,
-    "manufacturer": "Other helicopter",
+    "name": "Airbus Dauphin (AS365)",
+    "icao": "AS65",
+    "manufacturer": "Airbus Helicopters",
     "count": 1
    },
    {
-    "name": "EMBRAER 135ER",
+    "name": "Embraer ERJ 135",
     "icao": "E135",
     "manufacturer": "Embraer",
     "count": 1
@@ -610,7 +598,7 @@
     "count": 1
    },
    {
-    "name": "EMBRAER ERJ 170-200 LR",
+    "name": "Embraer E170",
     "icao": "E170",
     "manufacturer": "Embraer",
     "count": 1
@@ -781,9 +769,9 @@
     "count": 1
    },
    {
-    "name": "CESSNA T206H",
-    "icao": "T206",
-    "manufacturer": "Other",
+    "name": "Cessna 206 Stationair",
+    "icao": "C206",
+    "manufacturer": "Cessna",
     "count": 1
    },
    {
@@ -799,7 +787,7 @@
    "B": 0
   },
   "seatsTotal": 80,
-  "heroReg": "VT-HUH"
+  "heroReg": "VT-BMS"
  },
  {
   "id": "jet-serve-aviation",
@@ -893,7 +881,7 @@
    "B": 0
   },
   "seatsTotal": 89,
-  "heroReg": "VT-AGL"
+  "heroReg": "VT-AFL"
  },
  {
   "id": "thumby-aviation",
@@ -940,7 +928,7 @@
    "B": 0
   },
   "seatsTotal": 83,
-  "heroReg": null
+  "heroReg": "VT-ASL"
  },
  {
   "id": "chipsan-aviation",
@@ -1028,8 +1016,8 @@
     "count": 1
    },
    {
-    "name": "Airbus H125 (AS350)",
-    "icao": "AS50",
+    "name": "Airbus AS355 Ecureuil 2",
+    "icao": "AS55",
     "manufacturer": "Airbus Helicopters",
     "count": 1
    },
@@ -1087,7 +1075,7 @@
    "B": 9
   },
   "seatsTotal": 96,
-  "heroReg": null
+  "heroReg": "VT-BIG"
  },
  {
   "id": "blue-dart-aviation",
@@ -1263,12 +1251,12 @@
    "B": 2
   },
   "seatsTotal": 43,
-  "heroReg": "VT-RJL"
+  "heroReg": "VT-RAG"
  },
  {
   "id": "arrow-aircrafts-sales-and-charters",
   "name": "Arrow Aircrafts Sales & Charters",
-  "legalName": "Arrow Aircrafts Sales & Charters",
+  "legalName": "Arrow Aircrafts Sales & Charters Pvt. Ltd.",
   "category": "non-scheduled",
   "website": null,
   "permit": {
@@ -1316,7 +1304,7 @@
    "B": 0
   },
   "seatsTotal": 43,
-  "heroReg": null
+  "heroReg": "VT-ASC"
  },
  {
   "id": "aryan-aviation",
@@ -1333,9 +1321,9 @@
   "statedCount": 6,
   "types": [
    {
-    "name": "STEMME S6RT",
-    "icao": null,
-    "manufacturer": "Other",
+    "name": "Stemme S6",
+    "icao": "S6",
+    "manufacturer": "Stemme",
     "count": 2
    },
    {
@@ -1345,13 +1333,13 @@
     "count": 2
    },
    {
-    "name": "EUROCOPTER AS355N",
-    "icao": null,
-    "manufacturer": "Other helicopter",
+    "name": "Airbus AS355 Ecureuil 2",
+    "icao": "AS55",
+    "manufacturer": "Airbus Helicopters",
     "count": 1
    },
    {
-    "name": "Airbus Dauphin / H155",
+    "name": "Airbus Dauphin (AS365)",
     "icao": "AS65",
     "manufacturer": "Airbus Helicopters",
     "count": 1
@@ -1363,7 +1351,7 @@
    "B": 0
   },
   "seatsTotal": 26,
-  "heroReg": "VT-SIM"
+  "heroReg": "VT-ARB"
  },
  {
   "id": "fly91",
@@ -1415,7 +1403,7 @@
     "count": 2
    },
    {
-    "name": "Embraer ERJ 135 / Legacy",
+    "name": "Embraer ERJ 135",
     "icao": "E135",
     "manufacturer": "Embraer",
     "count": 1
@@ -1427,7 +1415,7 @@
     "count": 1
    },
    {
-    "name": "GRAND AGUSTA 109S",
+    "name": "Leonardo AW109",
     "icao": "A109",
     "manufacturer": "Leonardo",
     "count": 1
@@ -1542,9 +1530,9 @@
   "heroReg": "VT-BSL"
  },
  {
-  "id": "aviation-connectivity-and-infrastructure-developers-pvt",
-  "name": "Aviation Connectivity & Infrastructure Developers Pvt",
-  "legalName": "Aviation Connectivity & Infrastructure Developers Pvt.",
+  "id": "aviation-connectivity-and-infrastructure-developers",
+  "name": "Aviation Connectivity & Infrastructure Developers",
+  "legalName": "Aviation Connectivity & Infrastructure Developers Pvt. Ltd.",
   "category": "non-scheduled",
   "website": null,
   "permit": {
@@ -1568,7 +1556,7 @@
    "B": 0
   },
   "seatsTotal": 15,
-  "heroReg": null
+  "heroReg": "VT-FCA"
  },
  {
   "id": "charlie-foxtrot-aviation-service",
@@ -1597,7 +1585,7 @@
    "B": 0
   },
   "seatsTotal": 51,
-  "heroReg": null
+  "heroReg": "VT-CVA"
  },
  {
   "id": "flaps-aviation",
@@ -1617,7 +1605,13 @@
     "name": "Beechcraft King Air",
     "icao": null,
     "manufacturer": "Beechcraft",
-    "count": 4
+    "count": 2
+   },
+   {
+    "name": "Beechcraft King Air 200",
+    "icao": "BE20",
+    "manufacturer": "Beechcraft",
+    "count": 2
    },
    {
     "name": "Beechcraft King Air C90",
@@ -1632,7 +1626,7 @@
    "B": 0
   },
   "seatsTotal": 37,
-  "heroReg": "VT-RSL"
+  "heroReg": "VT-LKK"
  },
  {
   "id": "heritage-aviation",
@@ -1667,7 +1661,7 @@
    "B": 0
   },
   "seatsTotal": 32,
-  "heroReg": null
+  "heroReg": "VT-HIX"
  },
  {
   "id": "himalayan-heli-services",
@@ -1696,7 +1690,7 @@
    "B": 0
   },
   "seatsTotal": 29,
-  "heroReg": null
+  "heroReg": "VT-BKJ"
  },
  {
   "id": "shivan-aadithya-air-services",
@@ -1737,7 +1731,7 @@
    "B": 0
   },
   "seatsTotal": 32,
-  "heroReg": null
+  "heroReg": "VT-BGM"
  },
  {
   "id": "sky-one-airways",
@@ -1801,7 +1795,7 @@
    "B": 0
   },
   "seatsTotal": 25,
-  "heroReg": null
+  "heroReg": "VT-CNS"
  },
  {
   "id": "property-ventures-india",
@@ -1936,7 +1930,7 @@
    "B": 0
   },
   "seatsTotal": 26,
-  "heroReg": "VT-RSG"
+  "heroReg": "VT-ELX"
  },
  {
   "id": "span-air",
@@ -1953,21 +1947,27 @@
   "statedCount": 4,
   "types": [
    {
-    "name": "Bell helicopter",
-    "icao": "B429",
-    "manufacturer": "Bell",
-    "count": 2
-   },
-   {
-    "name": "B 200 GT",
+    "name": "Beechcraft King Air 200",
     "icao": "BE20",
     "manufacturer": "Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Bell 429",
+    "icao": "B429",
+    "manufacturer": "Bell",
     "count": 1
    },
    {
     "name": "Hawker 800/850/900",
     "icao": "H25B",
     "manufacturer": "Hawker Beechcraft",
+    "count": 1
+   },
+   {
+    "name": "Bell helicopter",
+    "icao": null,
+    "manufacturer": "Bell",
     "count": 1
    }
   ],
@@ -1977,7 +1977,7 @@
    "B": 0
   },
   "seatsTotal": 29,
-  "heroReg": "VT-PRY"
+  "heroReg": "VT-JSH"
  },
  {
   "id": "syandan-aviation",
@@ -2012,7 +2012,7 @@
    "B": 0
   },
   "seatsTotal": 28,
-  "heroReg": null
+  "heroReg": "VT-HAX"
  },
  {
   "id": "ventura-airconnect",
@@ -2158,7 +2158,7 @@
    "B": 0
   },
   "seatsTotal": 25,
-  "heroReg": "VT-IQB"
+  "heroReg": "VT-HKL"
  },
  {
   "id": "eha-aviation",
@@ -2216,16 +2216,10 @@
   "statedCount": 3,
   "types": [
    {
-    "name": "CESSNA T206H",
-    "icao": null,
-    "manufacturer": "Other",
-    "count": 2
-   },
-   {
-    "name": "Cessna 206",
+    "name": "Cessna 206 Stationair",
     "icao": "C206",
     "manufacturer": "Cessna",
-    "count": 1
+    "count": 3
    }
   ],
   "wings": {
@@ -2234,7 +2228,7 @@
    "B": 0
   },
   "seatsTotal": 4,
-  "heroReg": null
+  "heroReg": "VT-GIC"
  },
  {
   "id": "forum-i-aviation",
@@ -2304,7 +2298,7 @@
    "B": 0
   },
   "seatsTotal": 18,
-  "heroReg": null
+  "heroReg": "VT-GDC"
  },
  {
   "id": "iic-technologies",
@@ -2327,7 +2321,7 @@
     "count": 2
    },
    {
-    "name": "Cessna 206",
+    "name": "Cessna 206 Stationair",
     "icao": "C206",
     "manufacturer": "Cessna",
     "count": 1
@@ -2438,7 +2432,7 @@
    "B": 0
   },
   "seatsTotal": 19,
-  "heroReg": null
+  "heroReg": "VT-CLN"
  },
  {
   "id": "maharaja-aviation",
@@ -2467,7 +2461,7 @@
    "B": 0
   },
   "seatsTotal": 11,
-  "heroReg": null
+  "heroReg": "VT-MAL"
  },
  {
   "id": "sapphire-airlines",
@@ -2508,7 +2502,7 @@
    "B": 0
   },
   "seatsTotal": 31,
-  "heroReg": null
+  "heroReg": "VT-JSD"
  },
  {
   "id": "simm-samm-airways",
@@ -2543,7 +2537,7 @@
    "B": 0
   },
   "seatsTotal": 24,
-  "heroReg": null
+  "heroReg": "VT-ASO"
  },
  {
   "id": "target-air-services",
@@ -2560,7 +2554,7 @@
   "statedCount": 3,
   "types": [
    {
-    "name": "Beechcraft King Air",
+    "name": "Beechcraft King Air 200",
     "icao": "BE20",
     "manufacturer": "Beechcraft",
     "count": 1
@@ -2584,7 +2578,7 @@
    "B": 0
   },
   "seatsTotal": 24,
-  "heroReg": null
+  "heroReg": "VT-ACD"
  },
  {
   "id": "trans-bharat-aviation",
@@ -2613,7 +2607,7 @@
    "B": 0
   },
   "seatsTotal": 18,
-  "heroReg": null
+  "heroReg": "VT-JIB"
  },
  {
   "id": "aerokalinga-aviation",
@@ -2648,7 +2642,7 @@
    "B": 0
   },
   "seatsTotal": 21,
-  "heroReg": null
+  "heroReg": "VT-OXL"
  },
  {
   "id": "aman-aviation-and-aerospace-solutions",
@@ -2671,7 +2665,7 @@
     "count": 1
    },
    {
-    "name": "Airbus Dauphin / H155",
+    "name": "Airbus Dauphin (AS365)",
     "icao": "AS65",
     "manufacturer": "Airbus Helicopters",
     "count": 1
@@ -2683,7 +2677,7 @@
    "B": 0
   },
   "seatsTotal": 9,
-  "heroReg": "VT-NRJ"
+  "heroReg": "VT-CNJ"
  },
  {
   "id": "avocet-aviation",
@@ -2712,7 +2706,7 @@
    "B": 0
   },
   "seatsTotal": 12,
-  "heroReg": null
+  "heroReg": "VT-BBN"
  },
  {
   "id": "bativala-m-bhagvati-flying-charters",
@@ -2729,16 +2723,10 @@
   "statedCount": 2,
   "types": [
    {
-    "name": "CESSNA R172K",
-    "icao": null,
-    "manufacturer": "Other",
-    "count": 1
-   },
-   {
     "name": "Cessna 172",
     "icao": "C172",
     "manufacturer": "Cessna",
-    "count": 1
+    "count": 2
    }
   ],
   "wings": {
@@ -2747,7 +2735,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-GEM"
  },
  {
   "id": "carewell-aviation-india",
@@ -2782,7 +2770,7 @@
    "B": 0
   },
   "seatsTotal": 20,
-  "heroReg": null
+  "heroReg": "VT-GIM"
  },
  {
   "id": "dunes-aviation",
@@ -2805,7 +2793,7 @@
     "count": 1
    },
    {
-    "name": "Bombardier Challenger",
+    "name": "Bombardier Challenger 600 series",
     "icao": "CL60",
     "manufacturer": "Bombardier",
     "count": 1
@@ -2881,7 +2869,7 @@
    "B": 0
   },
   "seatsTotal": 26,
-  "heroReg": null
+  "heroReg": "VT-GPS"
  },
  {
   "id": "freedom-charter-services",
@@ -2898,9 +2886,9 @@
   "statedCount": null,
   "types": [
    {
-    "name": "HAWKER BEECHCRAFT 900XP",
+    "name": "Hawker 800/850/900",
     "icao": "H25B",
-    "manufacturer": "Other",
+    "manufacturer": "Hawker Beechcraft",
     "count": 1
    },
    {
@@ -2916,7 +2904,7 @@
    "B": 0
   },
   "seatsTotal": 22,
-  "heroReg": null
+  "heroReg": "VT-AJM"
  },
  {
   "id": "gmr-aviation",
@@ -2974,7 +2962,7 @@
     "count": 1
    },
    {
-    "name": "AGUSTA 109E",
+    "name": "Leonardo AW109",
     "icao": "A109",
     "manufacturer": "Leonardo",
     "count": 1
@@ -2986,7 +2974,7 @@
    "B": 0
   },
   "seatsTotal": 13,
-  "heroReg": null
+  "heroReg": "VT-JIT"
  },
  {
   "id": "hn-safal-aviation-hn",
@@ -3003,7 +2991,7 @@
   "statedCount": 2,
   "types": [
    {
-    "name": "Gulfstream",
+    "name": "Gulfstream G150",
     "icao": "G150",
     "manufacturer": "Gulfstream",
     "count": 2
@@ -3015,7 +3003,7 @@
    "B": 0
   },
   "seatsTotal": 15,
-  "heroReg": null
+  "heroReg": "VT-GKB"
  },
  {
   "id": "kairamya-aviation",
@@ -3038,9 +3026,9 @@
     "count": 1
    },
    {
-    "name": "G-150",
+    "name": "Gulfstream G150",
     "icao": "G150",
-    "manufacturer": "Other",
+    "manufacturer": "Gulfstream",
     "count": 1
    }
   ],
@@ -3050,7 +3038,7 @@
    "B": 0
   },
   "seatsTotal": 15,
-  "heroReg": "VT-BIP"
+  "heroReg": "VT-AST"
  },
  {
   "id": "kan-aerofoil",
@@ -3067,10 +3055,16 @@
   "statedCount": 2,
   "types": [
    {
-    "name": "Bell helicopter",
+    "name": "Bell 407",
     "icao": "B407",
     "manufacturer": "Bell",
-    "count": 2
+    "count": 1
+   },
+   {
+    "name": "Bell helicopter",
+    "icao": null,
+    "manufacturer": "Bell",
+    "count": 1
    }
   ],
   "wings": {
@@ -3079,7 +3073,7 @@
    "B": 0
   },
   "seatsTotal": 12,
-  "heroReg": null
+  "heroReg": "VT-NJP"
  },
  {
   "id": "kelachandra-logistics",
@@ -3114,7 +3108,7 @@
    "B": 0
   },
   "seatsTotal": 9,
-  "heroReg": null
+  "heroReg": "VT-AVS"
  },
  {
   "id": "kyathi-climate-modification-consultants",
@@ -3149,7 +3143,7 @@
    "B": 0
   },
   "seatsTotal": 12,
-  "heroReg": null
+  "heroReg": "VT-AUS"
  },
  {
   "id": "lakeworkoffice-club",
@@ -3178,7 +3172,7 @@
    "B": 0
   },
   "seatsTotal": 13,
-  "heroReg": null
+  "heroReg": "VT-JPA"
  },
  {
   "id": "malhotra-helikopters",
@@ -3207,7 +3201,7 @@
    "B": 0
   },
   "seatsTotal": 11,
-  "heroReg": "VT-RLB"
+  "heroReg": "VT-JVS"
  },
  {
   "id": "mytri-aviation",
@@ -3224,7 +3218,7 @@
   "statedCount": 2,
   "types": [
    {
-    "name": "EMBRAER 135BJ",
+    "name": "Embraer Legacy 600/650",
     "icao": "E35L",
     "manufacturer": "Embraer",
     "count": 1
@@ -3242,7 +3236,7 @@
    "B": 0
   },
   "seatsTotal": 32,
-  "heroReg": null
+  "heroReg": "VT-PRM"
  },
  {
   "id": "navdurga-aviation",
@@ -3306,7 +3300,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-AGH"
  },
  {
   "id": "quikjet",
@@ -3405,7 +3399,7 @@
    "B": 0
   },
   "seatsTotal": 29,
-  "heroReg": "VT-SHG"
+  "heroReg": "VT-MIR"
  },
  {
   "id": "saffron-strokes",
@@ -3434,7 +3428,7 @@
    "B": 0
   },
   "seatsTotal": 12,
-  "heroReg": null
+  "heroReg": "VT-PMO"
  },
  {
   "id": "skyjets-international",
@@ -3469,7 +3463,7 @@
    "B": 0
   },
   "seatsTotal": 14,
-  "heroReg": "VT-NAB"
+  "heroReg": "VT-AUV"
  },
  {
   "id": "sreeji-aviation",
@@ -3498,7 +3492,7 @@
    "B": 0
   },
   "seatsTotal": 14,
-  "heroReg": null
+  "heroReg": "VT-LMW"
  },
  {
   "id": "tai-jets",
@@ -3533,7 +3527,7 @@
    "B": 0
   },
   "seatsTotal": 20,
-  "heroReg": null
+  "heroReg": "VT-KJK"
  },
  {
   "id": "tara-aviation-services",
@@ -3585,9 +3579,9 @@
   "statedCount": 2,
   "types": [
    {
-    "name": "Hawker-4000",
+    "name": "Hawker 4000",
     "icao": "HA4T",
-    "manufacturer": "Other",
+    "manufacturer": "Hawker Beechcraft",
     "count": 1
    },
    {
@@ -3603,7 +3597,7 @@
    "B": 0
   },
   "seatsTotal": 18,
-  "heroReg": "VT-TWJ"
+  "heroReg": "VT-KVR"
  },
  {
   "id": "united-helicharters",
@@ -3638,7 +3632,7 @@
    "B": 0
   },
   "seatsTotal": 13,
-  "heroReg": null
+  "heroReg": "VT-HEX"
  },
  {
   "id": "vijayanand-travels",
@@ -3655,9 +3649,9 @@
   "statedCount": 2,
   "types": [
    {
-    "name": "G-150",
+    "name": "Gulfstream G150",
     "icao": "G150",
-    "manufacturer": "Other",
+    "manufacturer": "Gulfstream",
     "count": 1
    },
    {
@@ -3702,7 +3696,7 @@
    "B": 0
   },
   "seatsTotal": 3,
-  "heroReg": null
+  "heroReg": "VT-BOS"
  },
  {
   "id": "aurea-aviation",
@@ -3731,7 +3725,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-ACG"
  },
  {
   "id": "avenor-aviation",
@@ -3748,7 +3742,7 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Beechcraft King Air",
+    "name": "Beechcraft King Air 200",
     "icao": "BE20",
     "manufacturer": "Beechcraft",
     "count": 1
@@ -3760,7 +3754,7 @@
    "B": 0
   },
   "seatsTotal": 7,
-  "heroReg": null
+  "heroReg": "VT-RJA"
  },
  {
   "id": "aviation-division",
@@ -3789,7 +3783,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-GHS"
  },
  {
   "id": "b-g-shirke-construction-technology",
@@ -3818,7 +3812,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-PBS"
  },
  {
   "id": "bajaj-aviation",
@@ -3876,7 +3870,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-RRP"
  },
  {
   "id": "bluecraft-aviation",
@@ -3934,7 +3928,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-KPR"
  },
  {
   "id": "davangere-sugar-company",
@@ -3963,7 +3957,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-DVG"
  },
  {
   "id": "eih",
@@ -4050,7 +4044,7 @@
    "B": 0
   },
   "seatsTotal": 8,
-  "heroReg": null
+  "heroReg": "VT-SKJ"
  },
  {
   "id": "falcon-aviation-services",
@@ -4079,7 +4073,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-DBJ"
  },
  {
   "id": "fern-aviation-india",
@@ -4137,7 +4131,7 @@
    "B": 0
   },
   "seatsTotal": 10,
-  "heroReg": null
+  "heroReg": "VT-APL"
  },
  {
   "id": "himanad-management-services",
@@ -4166,7 +4160,7 @@
    "B": 0
   },
   "seatsTotal": 7,
-  "heroReg": null
+  "heroReg": "VT-HAB"
  },
  {
   "id": "hyderabad-airlines",
@@ -4183,7 +4177,7 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "EC 135P3H",
+    "name": "Airbus H135",
     "icao": "EC35",
     "manufacturer": "Airbus Helicopters",
     "count": 1
@@ -4195,7 +4189,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-BHH"
  },
  {
   "id": "indocopters",
@@ -4224,7 +4218,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-VAD"
  },
  {
   "id": "innxt-aviation",
@@ -4282,7 +4276,7 @@
    "B": 0
   },
   "seatsTotal": 8,
-  "heroReg": null
+  "heroReg": "VT-RIM"
  },
  {
   "id": "jatayu",
@@ -4311,7 +4305,7 @@
    "B": 0
   },
   "seatsTotal": 10,
-  "heroReg": null
+  "heroReg": "VT-PCR"
  },
  {
   "id": "joyalukkas-india",
@@ -4340,7 +4334,7 @@
    "B": 0
   },
   "seatsTotal": 7,
-  "heroReg": null
+  "heroReg": "VT-JJL"
  },
  {
   "id": "kainos-aviation",
@@ -4369,7 +4363,7 @@
    "B": 0
   },
   "seatsTotal": 8,
-  "heroReg": null
+  "heroReg": "VT-KHA"
  },
  {
   "id": "kakini-enterprises",
@@ -4415,7 +4409,7 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Gulfstream",
+    "name": "Gulfstream G150",
     "icao": "G150",
     "manufacturer": "Gulfstream",
     "count": 1
@@ -4427,7 +4421,7 @@
    "B": 0
   },
   "seatsTotal": 8,
-  "heroReg": null
+  "heroReg": "VT-KZN"
  },
  {
   "id": "kingscraft-aviation",
@@ -4473,9 +4467,9 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "HAWKER HS 125 900XP",
+    "name": "Hawker 800/850/900",
     "icao": "H25B",
-    "manufacturer": "Other",
+    "manufacturer": "Hawker Beechcraft",
     "count": 1
    }
   ],
@@ -4485,7 +4479,7 @@
    "B": 0
   },
   "seatsTotal": 9,
-  "heroReg": null
+  "heroReg": "VT-LTC"
  },
  {
   "id": "lcl-aviation",
@@ -4514,7 +4508,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-ANF"
  },
  {
   "id": "lmcs-infra-holdings",
@@ -4531,7 +4525,7 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "EC 135 P2+",
+    "name": "Airbus H135",
     "icao": "EC35",
     "manufacturer": "Airbus Helicopters",
     "count": 1
@@ -4543,7 +4537,7 @@
    "B": 0
   },
   "seatsTotal": 5,
-  "heroReg": null
+  "heroReg": "VT-PEC"
  },
  {
   "id": "mab-aviation",
@@ -4560,7 +4554,7 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "Learjet",
+    "name": "Learjet 40/45",
     "icao": "LJ45",
     "manufacturer": "Bombardier",
     "count": 1
@@ -4601,7 +4595,7 @@
    "B": 0
   },
   "seatsTotal": 9,
-  "heroReg": null
+  "heroReg": "VT-MAY"
  },
  {
   "id": "mandke-and-mandke-infrastructure",
@@ -4630,7 +4624,7 @@
    "B": 0
   },
   "seatsTotal": 4,
-  "heroReg": null
+  "heroReg": "VT-MAN"
  },
  {
   "id": "media-house-dnd",
@@ -4659,7 +4653,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-MNK"
  },
  {
   "id": "modifi-aviations",
@@ -4705,9 +4699,9 @@
   "statedCount": 1,
   "types": [
    {
-    "name": "P-180 AVANTI II",
+    "name": "Piaggio P.180 Avanti",
     "icao": "P180",
-    "manufacturer": "Other",
+    "manufacturer": "Piaggio",
     "count": 1
    }
   ],
@@ -4717,7 +4711,7 @@
    "B": 0
   },
   "seatsTotal": 8,
-  "heroReg": null
+  "heroReg": "VT-SNB"
  },
  {
   "id": "nibe-aeronautics",
@@ -4746,7 +4740,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-VRL"
  },
  {
   "id": "niraant-aviation",
@@ -4775,7 +4769,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-KTK"
  },
  {
   "id": "oss-air-management",
@@ -4804,7 +4798,7 @@
    "B": 0
   },
   "seatsTotal": 7,
-  "heroReg": null
+  "heroReg": "VT-OSH"
  },
  {
   "id": "pilgrimage-aviation",
@@ -4833,7 +4827,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-NSS"
  },
  {
   "id": "pradhaan-air-express",
@@ -4891,7 +4885,7 @@
    "B": 0
   },
   "seatsTotal": 7,
-  "heroReg": null
+  "heroReg": "VT-DJB"
  },
  {
   "id": "redbird-flight-training-academy",
@@ -4920,7 +4914,7 @@
    "B": 0
   },
   "seatsTotal": 3,
-  "heroReg": null
+  "heroReg": "VT-RBB"
  },
  {
   "id": "rps-aviation",
@@ -5007,7 +5001,7 @@
    "B": 0
   },
   "seatsTotal": 5,
-  "heroReg": null
+  "heroReg": "VT-SBJ"
  },
  {
   "id": "skb-infracons",
@@ -5036,7 +5030,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-HYA"
  },
  {
   "id": "skyblue-aviation-services",
@@ -5094,7 +5088,7 @@
    "B": 0
   },
   "seatsTotal": 18,
-  "heroReg": null
+  "heroReg": "VT-SHE"
  },
  {
   "id": "smart-wings-aviation",
@@ -5123,7 +5117,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-RPB"
  },
  {
   "id": "sobha-puravankara-aviation",
@@ -5152,7 +5146,7 @@
    "B": 0
   },
   "seatsTotal": 9,
-  "heroReg": null
+  "heroReg": "VT-SNP"
  },
  {
   "id": "sparzana-aviation",
@@ -5210,7 +5204,7 @@
    "B": 0
   },
   "seatsTotal": 4,
-  "heroReg": null
+  "heroReg": "VT-SHL"
  },
  {
   "id": "suhan-aviation",
@@ -5239,7 +5233,7 @@
    "B": 0
   },
   "seatsTotal": 6,
-  "heroReg": null
+  "heroReg": "VT-DBH"
  },
  {
   "id": "taj-air",
@@ -5355,6 +5349,6 @@
    "B": 0
   },
   "seatsTotal": 5,
-  "heroReg": null
+  "heroReg": "VT-TLC"
  }
 ]
