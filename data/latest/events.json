@@ -1,0 +1,7247 @@
+[
+ {
+  "id": "added|VT-AWA|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-AWA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B787-9",
+  "type": "Boeing 787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-AWB|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-AWB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B787-9",
+  "type": "Boeing 787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-AWC|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-AWC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B787-9",
+  "type": "Boeing 787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWA|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWB|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWC|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWD|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWE|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWF|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWG|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWH|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWI|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWJ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWK|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWL|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWM|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWN|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWO|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWP|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWR|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWS|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWT|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWU|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWV|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWW|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BWX|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BWX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BXT|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BXT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BXU|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BXU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BXV|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BXV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BXW|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BXW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BXX|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BXX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-BXY|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-BXY",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-FID|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-FID",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Fly91",
+  "operatorId": "fly91",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-FIE|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-FIE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Fly91",
+  "operatorId": "fly91",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-FIF|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-FIF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Fly91",
+  "operatorId": "fly91",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-FIG|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-FIG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Fly91",
+  "operatorId": "fly91",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-GSK|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-GSK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Star Air",
+  "operatorId": "star-air",
+  "model": "EMB-170",
+  "type": "Embraer E170",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-GSM|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-GSM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Star Air",
+  "operatorId": "star-air",
+  "model": "EMB-170",
+  "type": "Embraer E170",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-GSO|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-GSO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Star Air",
+  "operatorId": "star-air",
+  "model": "EMB-170",
+  "type": "Embraer E170",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-GSQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-GSQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Star Air",
+  "operatorId": "star-air",
+  "model": "EMB-170",
+  "type": "Embraer E170",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IAZ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IAZ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICB|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICC|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICD|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICF|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICG|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICI|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICK|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICL|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICM|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICR|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICS|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICT|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICV|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICW|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICX|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ICY|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ICY",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IKP|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IKP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IKQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IKQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IKS|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IKS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IKT|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IKT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IKU|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IKU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOF|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOG|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOH|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOI|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOJ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOK|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOL|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOM|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-ION|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-ION",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOR|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOT|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IOU|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IOU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IQZ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IQZ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRO|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRP|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRR|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRS|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRV|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRW|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRX|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRY|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRY",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IRZ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IRZ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IWM|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IWM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IWN|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IWN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IWQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IWQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IWT|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IWT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IWU|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IWU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IWV|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IWV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IWX|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IWX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IWY|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IWY",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IWZ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IWZ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXD|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXE|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXF|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXG|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXH|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXI|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXJ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXK|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXL|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXM|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXN|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXO|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXP|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-IXT|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-IXT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCA|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCB|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCC|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCD|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCE|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCF|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCG|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCI|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCJ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCK|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCL|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCN|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCP|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCR|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCS|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCU|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCV|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCW|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCY|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCY",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NCZ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NCZ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHA|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHB|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHC|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHD|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHE|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHF|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHG|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHH|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHI|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHJ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHK|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHL|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHM|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHN|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHO|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHP|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHR|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NHX|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NHX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-252NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NLA|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NLA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-253NY",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NLB|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NLB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-253NY",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NLC|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NLC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-253NY",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NOC|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NOC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-251NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NOF|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NOF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-251NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NOG|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NOG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-251NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NOI|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NOI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-251NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NOL|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NOL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-251NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NTA|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NTA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-NTB|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-NTB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-PRS|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-PRS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiaOne Air",
+  "operatorId": "indiaone-air",
+  "model": "Cessna Grand Caravan 208B",
+  "type": "Cessna 208 Grand Caravan",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-RIO|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-RIO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-RNT|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-RNT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-RTM|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-RTM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-RTN|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-RTN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-RTW|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-RTW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-RTZ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-RTZ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-SHE|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-SHE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Skyhop Aviation",
+  "operatorId": "skyhop-aviation",
+  "model": "Twin Otter DHC-6",
+  "type": "DHC-6 Twin Otter",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBB|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBC|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBD|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBE|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBF|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBG|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBH|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBI|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBJ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBK|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBL|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBM|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBN|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBO|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBP|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBQ|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "added|VT-YBR|2024-06-10|2026-08-31",
+  "kind": "added",
+  "reg": "VT-YBR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Akasa Air",
+  "operatorId": "akasa-air",
+  "model": "B737-8200",
+  "type": "Boeing 737-8-200",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-AEE|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-AEE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B777-200 LR",
+  "type": "Boeing 777-200LR",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-AEF|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-AEF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B777-200 LR",
+  "type": "Boeing 777-200LR",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-AEG|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-AEG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B777-200 LR",
+  "type": "Boeing 777-200LR",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-AEH|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-AEH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B777-200 LR",
+  "type": "Boeing 777-200LR",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-AEI|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-AEI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B777-200 LR",
+  "type": "Boeing 777-200LR",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ALF|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ALF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B777-200 LR",
+  "type": "Boeing 777-200LR",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ALG|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ALG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B777-200 LR",
+  "type": "Boeing 777-200LR",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ALH|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ALH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B777-200 LR",
+  "type": "Boeing 777-200LR",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-AMD|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-AMD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ANB|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ANB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "B787-8",
+  "type": "Boeing 787-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-APJ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-APJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ATB|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ATB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ATF|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ATF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-251N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ATQ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ATQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-BHK|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-BHK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "FlyBig",
+  "operatorId": "flybig",
+  "model": "DHC-6-400 (Twin Otter)",
+  "type": "DHC-6 Twin Otter",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-GSC|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-GSC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Star Air",
+  "operatorId": "star-air",
+  "model": "EMB-145LR",
+  "type": "Embraer ERJ 145",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-GSF|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-GSF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Star Air",
+  "operatorId": "star-air",
+  "model": "EMB-145LR",
+  "type": "Embraer ERJ 145",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-GSN|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-GSN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Star Air",
+  "operatorId": "star-air",
+  "model": "EMB-145LR",
+  "type": "Embraer ERJ 145",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-GSS|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-GSS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Star Air",
+  "operatorId": "star-air",
+  "model": "EMB-145LR",
+  "type": "Embraer ERJ 145",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-GWH|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-GWH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-HIT|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-HIT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "FlyBig",
+  "operatorId": "flybig",
+  "model": "DHC-6-400 (Twin Otter)",
+  "type": "DHC-6 Twin Otter",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-HKG|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-HKG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-HYD|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-HYD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IHZ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IHZ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-232",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJA|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJB|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJC|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJD|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJE|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJF|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJG|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJH|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJJ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJK|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJL|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJM|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJO|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJP|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJR|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJU|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IJW|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IJW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IKN|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IKN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IMP|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IMP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ITA|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ITA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ITF|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ITF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ITM|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ITM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUA|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUB|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUC|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUD|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUE|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUF|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUG|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUH|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUI|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUJ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUK|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUL|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUM|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IUN|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IUN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A321-271NX",
+  "type": "Airbus A321neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVG|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVH|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVI|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVJ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVL|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVM|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVN|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVO|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVR|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVS|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVT|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVU|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVV|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IVW|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IVW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IYM|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IYM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IYN|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IYN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IYR|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IYR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IYT|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IYT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IYV|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IYV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IYW|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IYW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "ATR72-600",
+  "type": "ATR 72-600",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZA|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZG|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZI|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZJ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZO|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZP|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZQ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZR|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZS|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZT|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZU|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZW|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZX|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZY|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZY",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-IZZ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-IZZ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "IndiGo",
+  "operatorId": "indigo",
+  "model": "A320-271N",
+  "type": "Airbus A320neo",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-JPR|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-JPR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-JRT|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-JRT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-KHU|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-KHU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "FlyBig",
+  "operatorId": "flybig",
+  "model": "DHC-6-400 (Twin Otter)",
+  "type": "DHC-6 Twin Otter",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-KOC|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-KOC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-KSS|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-KSS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "GSEC Monarch & Deccan Charters",
+  "operatorId": "gsec-monarch-deccan",
+  "model": "Cessna Grand",
+  "type": "Cessna Grand",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-KTM|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-KTM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-KUL|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-KUL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-MAX|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-MAX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "SpiceJet",
+  "operatorId": "spicejet",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-MLE|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-MLE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-MXA|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-MXA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "SpiceJet",
+  "operatorId": "spicejet",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-MXB|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-MXB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "SpiceJet",
+  "operatorId": "spicejet",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-MXC|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-MXC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "SpiceJet",
+  "operatorId": "spicejet",
+  "model": "B737-8",
+  "type": "Boeing 737-8",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-NAG|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-NAG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-214",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-PNQ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-PNQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-RED|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-RED",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India Express",
+  "operatorId": "air-india-express",
+  "model": "A320-216",
+  "type": "Airbus A320",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SCB|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SCB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A319-112",
+  "type": "Airbus A319",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SCC|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SCC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A319-112",
+  "type": "Airbus A319",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SCG|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SCG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A319-112",
+  "type": "Airbus A319",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SCJ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SCJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A319-112",
+  "type": "Airbus A319",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SCL|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SCL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A319-112",
+  "type": "Airbus A319",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SCN|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SCN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A319-112",
+  "type": "Airbus A319",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SCP|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SCP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A319-112",
+  "type": "Airbus A319",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SCS|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SCS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Air India",
+  "operatorId": "air-india",
+  "model": "A319-112",
+  "type": "Airbus A319",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SXB|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SXB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "SpiceJet",
+  "operatorId": "spicejet",
+  "model": "B737-800",
+  "type": "Boeing 737-800",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-SXC|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-SXC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "SpiceJet",
+  "operatorId": "spicejet",
+  "model": "B737-800",
+  "type": "Boeing 737-800",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-TSQ|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-TSQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Vistara",
+  "operatorId": "vistara",
+  "model": "B787-9",
+  "type": "Boeing 787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ZOC|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ZOC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Zexus Air",
+  "operatorId": "zexus-air",
+  "model": "CRJ-200ER",
+  "type": "CRJ-200ER",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "removed|VT-ZOD|2024-06-10|2026-08-31",
+  "kind": "removed",
+  "reg": "VT-ZOD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "operator": "Zexus Air",
+  "operatorId": "zexus-air",
+  "model": "CRJ-200ER",
+  "type": "CRJ-200ER",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-ATV|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-ATV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-EXA|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-EXA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-214",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-EXB|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-EXB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-214",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-EXC|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-EXC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-214",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-EXD|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-EXD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-214",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-EXE|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-EXE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-214",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-HJS|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-HJS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "GSEC Monarch & Deccan Charters",
+  "fromOperatorId": "gsec-monarch-deccan",
+  "toOperator": "IndiaOne Air",
+  "toOperatorId": "indiaone-air",
+  "model": "Cessna Grand Caravan 208B",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTB|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTC|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTD|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTE|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTF|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTG|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTH|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTI|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTO|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTP|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-RTQ|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-RTQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Air India",
+  "fromOperatorId": "air-india",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNB|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNC|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNE|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNF|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNH|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNI|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNJ|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNK|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNL|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNM|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNN|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNP|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNQ|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNR|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNS|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNU|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNV|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNW|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNX|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNY|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNY",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TNZ|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TNZ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQA|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQB|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQC|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQD|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQE|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQF|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQG|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQH|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQI|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQJ|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQK|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQL|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQL",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQM|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQM",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQN|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQO|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQP|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQQ|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQQ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQR|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQR",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQS|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQS",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQT|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQT",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQU|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQU",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQV|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQV",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQW|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQW",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TQX|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TQX",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TSD|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TSD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "B787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TSE|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TSE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "B787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TSH|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TSH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "B787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TSN|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TSN",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "B787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TSO|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TSO",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "B787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TSP|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TSP",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "B787-9",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVA|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVB|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVC|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVD|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVE|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVF|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVG|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVH|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVH",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVI|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVI",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TVJ|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TVJ",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A321-251NX",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TYA|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TYA",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TYB|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TYB",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TYC|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TYC",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TYD|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TYD",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TYE|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TYE",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TYF|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TYF",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India Express",
+  "toOperatorId": "air-india-express",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-TYG|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-TYG",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "Vistara",
+  "fromOperatorId": "vistara",
+  "toOperator": "Air India",
+  "toOperatorId": "air-india",
+  "model": "A320-251N",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "moved|VT-VKK|2024-06-10|2026-08-31",
+  "kind": "moved",
+  "reg": "VT-VKK",
+  "date": null,
+  "from": "2024-06-10",
+  "to": "2026-08-31",
+  "list": "scheduled",
+  "fromOperator": "GSEC Monarch & Deccan Charters",
+  "fromOperatorId": "gsec-monarch-deccan",
+  "toOperator": "IndiaOne Air",
+  "toOperatorId": "indiaone-air",
+  "model": "Cessna Grand Caravan 208B",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": null
+  }
+ },
+ {
+  "id": "snapshot|ns-oper.pdf|2026-08-31",
+  "kind": "snapshot",
+  "reg": null,
+  "date": "2026-08-31",
+  "from": null,
+  "to": null,
+  "list": "non-scheduled",
+  "source": {
+   "kind": "dgca",
+   "file": "ns-oper.pdf",
+   "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/nonscheduled/ns-oper.pdf"
+  },
+  "note": "471 aircraft, 139 operators"
+ },
+ {
+  "id": "snapshot|sch-oper.pdf|2026-08-31",
+  "kind": "snapshot",
+  "reg": null,
+  "date": "2026-08-31",
+  "from": null,
+  "to": null,
+  "list": "scheduled",
+  "source": {
+   "kind": "dgca",
+   "file": "sch-oper.pdf",
+   "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf"
+  },
+  "note": "835 aircraft, 12 operators"
+ }
+]

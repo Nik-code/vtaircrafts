@@ -8,9 +8,10 @@ import { loadHexDatabase } from "./lib/enrich";
 import { parseSeats } from "./lib/text";
 import type { ParseResult } from "./lib/types";
 import type { CommonsImage } from "./images";
+import { assignImages, type ImageCache } from "./lib/assignImages";
 
 export type Wing = "FW" | "RW" | "B";
-export type ImageTier = "exact" | "operator-type" | "type";
+export type ImageTier = "exact" | "operator-type" | "type" | "type-world";
 
 export interface Aircraft {
   reg: string;
@@ -26,7 +27,7 @@ export interface Aircraft {
   seats: number | null;
   seatsRaw: string | null;
   role: "passenger" | "cargo" | "aerial-work" | "mixed" | "unknown";
-  image: (CommonsImage & { tier: ImageTier; ofReg: string }) | null;
+  image: (CommonsImage & { tier: ImageTier; ofReg: string | null }) | null;
   source: { file: string; asOn: string; page: number };
   firstSeen: string;
 }
@@ -66,7 +67,7 @@ const sha = (p: string) => createHash("sha256").update(readFileSync(p)).digest("
 async function main() {
   const hexDb = await loadHexDatabase(join("data", "raw", "aircraft.csv.gz"));
   const cachePath = join("data", "cache", "commons", "exact.json");
-  const imageCache: Record<string, { image: CommonsImage | null }> = existsSync(cachePath)
+  const imageCache: Record<string, { checkedAt: string; image: CommonsImage | null; category: boolean }> = existsSync(cachePath)
     ? JSON.parse(readFileSync(cachePath, "utf8"))
     : {};
 
@@ -150,36 +151,9 @@ async function main() {
   }
   aircraft.sort((x, y) => x.reg.localeCompare(y.reg));
 
-  // Images: exact, then same operator + type, then same type anywhere in India.
-  const exact = new Map<string, CommonsImage>();
-  for (const a of aircraft) {
-    const img = imageCache[a.reg]?.image;
-    if (img) exact.set(a.reg, img);
-  }
-  const byOpType = new Map<string, string[]>();
-  const byType = new Map<string, string[]>();
-  for (const [reg] of exact) {
-    const a = aircraft.find((x) => x.reg === reg)!;
-    const k1 = `${a.operatorId}|${a.type.name}`;
-    byOpType.set(k1, [...(byOpType.get(k1) ?? []), reg]);
-    byType.set(a.type.name, [...(byType.get(a.type.name) ?? []), reg]);
-  }
-  const pick = (regs: string[] | undefined, seed: string) => {
-    if (!regs?.length) return null;
-    let h = 0;
-    for (const ch of seed) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-    return regs[h % regs.length];
-  };
-  let nExact = 0, nOpType = 0, nType = 0;
-  for (const a of aircraft) {
-    if (exact.has(a.reg)) { a.image = { ...exact.get(a.reg)!, tier: "exact", ofReg: a.reg }; nExact++; continue; }
-    const r1 = pick(byOpType.get(`${a.operatorId}|${a.type.name}`), a.reg);
-    if (r1) { a.image = { ...exact.get(r1)!, tier: "operator-type", ofReg: r1 }; nOpType++; continue; }
-    if (a.type.name !== a.model) {
-      const r2 = pick(byType.get(a.type.name), a.reg);
-      if (r2) { a.image = { ...exact.get(r2)!, tier: "type", ofReg: r2 }; nType++; continue; }
-    }
-  }
+  // Images: every aircraft gets a photograph (see pipeline/lib/assignImages.ts).
+  const imageCounts = assignImages(aircraft, imageCache as ImageCache);
+  console.error(`images: ${JSON.stringify(imageCounts)}`);
   for (const op of operators.values()) {
     op.types.sort((x, y) => y.count - x.count);
     const hero = aircraft.find((a) => a.operatorId === op.id && a.image?.tier === "exact") ?? aircraft.find((a) => a.operatorId === op.id && a.image);
@@ -239,9 +213,6 @@ async function main() {
       rotary: aircraft.filter((a) => a.wing === "RW").length,
       balloons: aircraft.filter((a) => a.wing === "B").length,
       withHex: aircraft.filter((a) => a.hex).length,
-      imagesExact: nExact,
-      imagesOperatorType: nOpType,
-      imagesType: nType,
     },
     issues,
   };
@@ -264,6 +235,19 @@ async function main() {
   writeFileSync(join(outDir, "index.json"), JSON.stringify(index));
   writeFileSync(join(outDir, "aircraft.csv"), csv);
   if (changes) writeFileSync(join(outDir, "changes.json"), JSON.stringify(changes, null, 1));
+  // Interim events/snapshots (replaced by pipeline/history): interval-dated diffs only.
+  if (!existsSync(join(outDir, "events.json"))) {
+    const ev: unknown[] = [];
+    const src = (cat: string) => ({ kind: "dgca", file: cat === "scheduled" ? "sch-oper.pdf" : "ns-oper.pdf", url: null });
+    if (changes) {
+      for (const c of changes.added) ev.push({ id: `added|${c.reg}|${changes.from}|${changes.to}`, kind: "added", reg: c.reg, date: null, from: changes.from, to: changes.to, list: "scheduled", operator: c.operator, operatorId: c.operatorId, model: c.model, type: c.type, source: src("scheduled") });
+      for (const c of changes.removed) ev.push({ id: `removed|${c.reg}|${changes.from}|${changes.to}`, kind: "removed", reg: c.reg, date: null, from: changes.from, to: changes.to, list: "scheduled", operator: c.operator, operatorId: c.operatorId, model: c.model, type: c.type, source: src("scheduled") });
+      for (const c of changes.moved) ev.push({ id: `moved|${c.reg}|${changes.from}|${changes.to}`, kind: "moved", reg: c.reg, date: null, from: changes.from, to: changes.to, list: "scheduled", fromOperator: c.from, fromOperatorId: c.fromId, toOperator: c.to, toOperatorId: c.toId, model: c.model, source: src("scheduled") });
+    }
+    for (const s of sources) ev.push({ id: `snapshot|${s.file}|${snapshot}`, kind: "snapshot", reg: null, date: snapshot, from: null, to: null, list: s.category, source: { kind: "dgca", file: s.file, url: s.url }, note: `${s.aircraft} aircraft, ${s.operators} operators` });
+    writeFileSync(join(outDir, "events.json"), JSON.stringify(ev, null, 1));
+    writeFileSync(join(outDir, "snapshots.json"), JSON.stringify(sources.map((s) => ({ date: s.asOn ?? snapshot, list: s.category, source: "dgca", url: s.url, sha256: s.sha256, aircraft: s.aircraft, operators: s.operators })), null, 1));
+  }
 
   const latest = join("data", "latest");
   mkdirSync(latest, { recursive: true });

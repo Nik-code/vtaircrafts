@@ -1,6 +1,6 @@
 export type Wing = "FW" | "RW" | "B";
 export type Category = "scheduled" | "non-scheduled";
-export type ImageTier = "exact" | "operator-type" | "type";
+export type ImageTier = "exact" | "operator-type" | "type" | "type-world";
 
 export interface AircraftImage {
   file: string;
@@ -13,7 +13,7 @@ export interface AircraftImage {
   pageUrl: string;
   date: string | null;
   tier: ImageTier;
-  ofReg: string;
+  ofReg: string | null;
 }
 
 export interface Aircraft {
@@ -33,6 +33,52 @@ export interface Aircraft {
   image: AircraftImage | null;
   source: { file: string; asOn: string; page: number };
   firstSeen: string;
+  history?: AircraftHistory;
+}
+
+export interface AircraftHistory {
+  firstSnapshot: string;
+  registeredOn: string | null;
+  deregisteredOn: string | null;
+  msn: string | null;
+  yearOfManufacture: number | null;
+  owner: string | null;
+  lessor: string | null;
+}
+
+export type EventKind = "registered" | "deregistered" | "owner-change" | "added" | "removed" | "moved" | "snapshot";
+
+export interface Event {
+  id: string;
+  kind: EventKind;
+  reg: string | null;
+  date: string | null;
+  from: string | null;
+  to: string | null;
+  list: Category | null;
+  operator?: string;
+  operatorId?: string;
+  fromOperator?: string;
+  fromOperatorId?: string;
+  toOperator?: string;
+  toOperatorId?: string;
+  model?: string;
+  type?: string;
+  msn?: string;
+  owner?: string;
+  lessor?: string;
+  source: { kind: "dgca" | "wayback" | "report"; file: string; url: string | null };
+  note?: string;
+}
+
+export interface SnapshotInfo {
+  date: string;
+  list: Category;
+  source: "dgca" | "wayback";
+  url: string | null;
+  sha256: string;
+  aircraft: number;
+  operators: number;
 }
 
 export interface Operator {

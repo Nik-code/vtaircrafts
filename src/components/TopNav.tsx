@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SearchPalette } from "@/components/search/SearchPalette";
 
 const links = [
   { href: "/fleet", label: "Fleet" },
@@ -9,34 +10,29 @@ const links = [
 
 export function TopNav() {
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-bg/85 backdrop-blur">
-      <div className="mx-auto flex h-14 max-w-[1400px] items-center gap-6 px-5 sm:px-8">
-        <Link href="/" className="flex items-center gap-3">
-          <span className="grid h-7 w-7 place-items-center bg-accent text-[11px] font-bold text-black mono">VT</span>
-          <span className="display text-[17px] tracking-tight">
-            aircrafts<span className="text-fg-dim">.in</span>
-          </span>
+    <header className="sticky top-0 z-40 border-b border-ink bg-paper/95 backdrop-blur-sm">
+      <div className="mx-auto flex h-12 max-w-[1440px] items-stretch px-4 sm:px-6">
+        <Link href="/" className="flex items-center gap-3 border-r border-ink pr-4">
+          <span className="stencil text-[19px] leading-none">VT<span className="text-signal">·</span>AIRCRAFTS</span>
+          <span className="label hidden md:inline">India commercial fleet index</span>
         </Link>
-        <nav className="ml-auto flex items-center gap-1 sm:gap-2">
+        <nav className="ml-2 hidden items-stretch sm:flex">
           {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className="label rounded-sm px-2.5 py-1.5 text-fg-muted transition hover:bg-bg-panel hover:text-fg"
-            >
+            <Link key={l.href} href={l.href} className="label flex items-center border-r border-rule px-4 text-ink-2 transition-colors hover:bg-paper-2 hover:text-ink">
               {l.label}
             </Link>
           ))}
-          <a
-            href="https://github.com/Nik-code/vtaircrafts"
-            target="_blank"
-            rel="noreferrer"
-            className="label hidden rounded-sm border border-line px-2.5 py-1.5 text-fg-muted transition hover:border-line-strong hover:text-fg sm:inline-block"
-          >
-            GitHub ↗
-          </a>
         </nav>
+        <div className="ml-auto flex items-center gap-3">
+          <SearchPalette />
+          <a href="https://github.com/Nik-code/vtaircrafts" target="_blank" rel="noreferrer" className="label hidden text-ink-2 hover:text-ink md:inline">GitHub ↗</a>
+        </div>
       </div>
+      <nav className="flex border-t border-rule sm:hidden">
+        {links.map((l) => (
+          <Link key={l.href} href={l.href} className="label flex flex-1 items-center justify-center border-r border-rule py-2 last:border-r-0">{l.label}</Link>
+        ))}
+      </nav>
     </header>
   );
 }

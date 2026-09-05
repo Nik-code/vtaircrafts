@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T11:27:25.552Z",
+ "generatedAt": "2026-09-05T11:56:44.759Z",
  "snapshot": "2024-06-10",
  "previous": null,
  "sources": [
@@ -22,10 +22,7 @@
   "fixedWing": 772,
   "rotary": 0,
   "balloons": 0,
-  "withHex": 738,
-  "imagesExact": 218,
-  "imagesOperatorType": 504,
-  "imagesType": 32
+  "withHex": 738
  },
  "issues": [
   {

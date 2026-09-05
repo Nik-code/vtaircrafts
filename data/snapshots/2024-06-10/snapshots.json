@@ -1,0 +1,11 @@
+[
+ {
+  "date": "2024-06-10",
+  "list": "scheduled",
+  "source": "dgca",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+  "sha256": "b7f5102aafc9f3b4ab20bbc0161f5b0cd743220702cbbd66b6485b4e0ff2fcb6",
+  "aircraft": 772,
+  "operators": 15
+ }
+]

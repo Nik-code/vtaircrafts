@@ -1,0 +1,20 @@
+[
+ {
+  "date": "2026-08-31",
+  "list": "non-scheduled",
+  "source": "dgca",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/nonscheduled/ns-oper.pdf",
+  "sha256": "258318a0036ac695e3b71525b8c38719165c48915f7a875e25d52f6056ad2f4a",
+  "aircraft": 471,
+  "operators": 139
+ },
+ {
+  "date": "2026-08-31",
+  "list": "scheduled",
+  "source": "dgca",
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf",
+  "sha256": "9bbd7f469c3c404adac98fe2236e6afe01b21f549707503827906cda9eff7d90",
+  "aircraft": 835,
+  "operators": 12
+ }
+]
