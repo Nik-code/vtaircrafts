@@ -8,7 +8,7 @@ function read<T>(name: string): T {
   return JSON.parse(readFileSync(join(LATEST, name), "utf8")) as T;
 }
 
-let cache: { aircraft?: Aircraft[]; operators?: Operator[]; meta?: Meta; changes?: Changes | null; index?: IndexRecord[] } = {};
+const cache: { aircraft?: Aircraft[]; operators?: Operator[]; meta?: Meta; changes?: Changes | null; index?: IndexRecord[] } = {};
 
 export function getAircraft(): Aircraft[] {
   return (cache.aircraft ??= read<Aircraft[]>("aircraft.json"));

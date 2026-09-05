@@ -23,7 +23,10 @@ type Cache = Record<string, { checkedAt: string; image: CommonsImage | null; cat
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-async function api(params: Record<string, string>): Promise<any> {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+type Json = any;
+
+async function api(params: Record<string, string>): Promise<Json> {
   const url = `${API}?${new URLSearchParams({ format: "json", formatversion: "2", ...params })}`;
   for (let attempt = 0; attempt < 4; attempt++) {
     const res = await fetch(url, { headers: { "User-Agent": UA, "Api-User-Agent": UA } });
@@ -72,7 +75,7 @@ async function pickFile(reg: string): Promise<string | null> {
     action: "query", list: "categorymembers", cmtitle: `Category:${reg} (aircraft)`,
     cmtype: "file", cmlimit: "50", cmsort: "timestamp", cmdir: "desc",
   });
-  const files: string[] = (j.query?.categorymembers ?? []).map((m: any) => m.title as string);
+  const files: string[] = (j.query?.categorymembers ?? []).map((m: { title: string }) => m.title);
   const good = files.filter((f) => !BAD_FILE.test(f));
   return good[0] ?? files[0] ?? null;
 }

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import type { IndexRecord } from "@/lib/types";
 import { thumb } from "@/lib/format";
 import { Silhouette } from "@/components/AircraftPhoto";
@@ -23,9 +23,8 @@ interface Filters {
 const EMPTY: Filters = { q: "", o: [], c: [], w: [], mf: [], t: [], ro: [], img: false };
 const PAGE = 90;
 
-function readParams(): { f: Filters; sort: SortKey; view: View } {
-  if (typeof window === "undefined") return { f: EMPTY, sort: "reg", view: "log" };
-  const p = new URLSearchParams(window.location.search);
+function parseParams(search: string): { f: Filters; sort: SortKey; view: View } {
+  const p = new URLSearchParams(search);
   const list = (k: string) => (p.get(k) ? p.get(k)!.split(",").filter(Boolean) : []);
   return {
     f: { q: p.get("q") ?? "", o: list("o"), c: list("c"), w: list("w"), mf: list("mf"), t: list("t"), ro: list("ro"), img: p.get("img") === "1" },
@@ -45,6 +44,10 @@ function writeParams(f: Filters, sort: SortKey, view: View) {
   window.history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
 }
 
+const subscribeNoop = () => () => {};
+const getSearch = () => window.location.search;
+const getServerSearch = () => "";
+
 function matches(a: IndexRecord, q: string) {
   if (!q) return true;
   const n = q.toUpperCase().replace(/\s+/g, " ").trim();
@@ -55,23 +58,34 @@ function matches(a: IndexRecord, q: string) {
 }
 
 export function FleetExplorer({ data }: { data: IndexRecord[] }) {
-  const [f, setF] = useState<Filters>(EMPTY);
-  const [sort, setSort] = useState<SortKey>("reg");
-  const [view, setView] = useState<View>("log");
-  const [limit, setLimit] = useState(PAGE);
-  const [ready, setReady] = useState(false);
-  const inputRef = useRef<HTMLInputElement>(null);
+  // Initial state comes from the URL on the client; the server renders the unfiltered view.
+  const search = useSyncExternalStore(subscribeNoop, getSearch, getServerSearch);
+  const urlState = useMemo(() => parseParams(search), [search]);
+  const [edited, setEdited] = useState<{ f: Filters; sort: SortKey; view: View } | null>(null);
+  const { f, sort, view } = edited ?? urlState;
+  const update = (patch: Partial<{ f: Filters; sort: SortKey; view: View }>) => {
+    const next = { f, sort, view, ...patch };
+    setEdited(next);
+    writeParams(next.f, next.sort, next.view);
+  };
+  const setF = (fn: (s: Filters) => Filters) => update({ f: fn(f) });
+  const setSort = (v: SortKey) => update({ sort: v });
+  const setView = (v: View) => update({ view: v });
 
+  // Paging resets whenever the filter signature changes, without an effect.
+  const sig = JSON.stringify([f, sort]);
+  const [paging, setPaging] = useState({ sig, limit: PAGE });
+  const limit = paging.sig === sig ? paging.limit : PAGE;
+  const setLimit = (fn: (l: number) => number) => setPaging({ sig, limit: fn(limit) });
+
+  const inputRef = useRef<HTMLInputElement>(null);
   useEffect(() => {
-    const s = readParams();
-    setF(s.f); setSort(s.sort); setView(s.view); setReady(true);
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "/" && document.activeElement?.tagName !== "INPUT") { e.preventDefault(); inputRef.current?.focus(); }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, []);
-  useEffect(() => { if (ready) { writeParams(f, sort, view); setLimit(PAGE); } }, [f, sort, view, ready]);
 
   const filtered = useMemo(() => {
     const out = data.filter((a) =>
@@ -133,7 +147,7 @@ export function FleetExplorer({ data }: { data: IndexRecord[] }) {
         <div className="flex items-center justify-between">
           <div className="label">{filtered.length.toLocaleString("en-IN")} results</div>
           {active > 0 && (
-            <button onClick={() => setF(EMPTY)} className="label text-accent hover:underline">clear {active}</button>
+            <button onClick={() => setF(() => EMPTY)} className="label text-accent hover:underline">clear {active}</button>
           )}
         </div>
         <FacetGroup title="Category" items={facets.c} selected={f.c} onToggle={(v) => toggle("c", v)} />

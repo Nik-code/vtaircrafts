@@ -1,6 +1,6 @@
 /**
- * Dot-matrix bar chart: one column per item, dots lit from the bottom.
- * Pure SVG so it stays crisp and needs no client JS.
+ * Dot-matrix bar chart: one column per item, square dots lit from the bottom.
+ * CSS grid so dots stay square at any width and need no client JS.
  */
 export interface DotMatrixItem {
   label: string;
@@ -11,49 +11,43 @@ export interface DotMatrixItem {
 
 export function DotMatrix({
   items,
-  rows = 22,
-  dot = 6,
-  gap = 4,
+  rows = 20,
   showValues = true,
 }: {
   items: DotMatrixItem[];
   rows?: number;
-  dot?: number;
-  gap?: number;
   showValues?: boolean;
 }) {
   const max = Math.max(1, ...items.map((i) => i.value));
-  const step = dot + gap;
-  const cols = items.length;
-  const w = cols * step - gap;
-  const h = rows * step - gap;
   return (
     <div className="w-full">
-      <svg viewBox={`0 0 ${w} ${h}`} className="block h-auto w-full" preserveAspectRatio="none" style={{ maxHeight: 260 }}>
+      <div className="grid gap-x-1" style={{ gridTemplateColumns: `repeat(${items.length}, minmax(0, 1fr))` }}>
         {items.map((it, ci) => {
           const lit = Math.max(it.value > 0 ? 1 : 0, Math.round((it.value / max) * rows));
-          return Array.from({ length: rows }).map((_, ri) => {
-            const on = ri >= rows - lit;
-            return (
-              <rect
-                key={`${ci}-${ri}`}
-                x={ci * step}
-                y={ri * step}
-                width={dot}
-                height={dot}
-                rx={1}
-                fill={on ? (it.accent ? "var(--teal)" : "var(--accent)") : "var(--grid-dot)"}
-                opacity={on ? 0.92 - (rows - 1 - ri) * 0.012 : 1}
-              />
-            );
-          });
+          return (
+            <div key={ci} className="flex flex-col items-center gap-[3px]">
+              {Array.from({ length: rows }).map((_, ri) => {
+                const on = ri >= rows - lit;
+                return (
+                  <span
+                    key={ri}
+                    className="block h-[7px] w-[7px] rounded-[1px] sm:h-2 sm:w-2"
+                    style={{
+                      background: on ? (it.accent ? "var(--teal)" : "var(--accent)") : "var(--grid-dot)",
+                      opacity: on ? 0.95 - (rows - 1 - ri) * 0.015 : 1,
+                    }}
+                  />
+                );
+              })}
+            </div>
+          );
         })}
-      </svg>
-      <div className="mt-3 grid" style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}>
+      </div>
+      <div className="mt-3 grid gap-x-1" style={{ gridTemplateColumns: `repeat(${items.length}, minmax(0, 1fr))` }}>
         {items.map((it) => (
-          <div key={it.label} className="min-w-0 px-0.5 text-center">
+          <div key={it.label} className="min-w-0 text-center">
             {showValues && <div className="mono text-[11px] text-fg">{it.value}</div>}
-            <div className="label truncate text-[9px] tracking-[0.08em]" title={it.label}>
+            <div className="label truncate text-[9px] tracking-[0.06em]" title={it.label}>
               {it.href ? <a href={it.href} className="hover:text-fg">{it.label}</a> : it.label}
             </div>
           </div>

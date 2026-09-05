@@ -187,7 +187,9 @@ async function main() {
   }
 
   // Changes vs previous snapshot (only for categories present in both)
-  let changes: any = null;
+  interface ChangeRow { reg: string; operator: string; operatorId: string; model: string; type: string }
+  interface MoveRow { reg: string; from: string; fromId: string; to: string; toId: string; model: string }
+  let changes: { from: string; to: string; scope: string[]; added: ChangeRow[]; removed: ChangeRow[]; moved: MoveRow[] } | null = null;
   if (previous) {
     const prevFile = join("data", "snapshots", previous, "aircraft.json");
     if (existsSync(prevFile)) {
