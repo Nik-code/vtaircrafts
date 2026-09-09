@@ -3,7 +3,7 @@ import { getAircraft, getMeta, getOperators } from "@/lib/data";
 import { fmtDate, fmtInt } from "@/lib/format";
 import { NsopTable, type NsopRow } from "@/components/operators/NsopTable";
 import { OperatorCard } from "@/components/operators/OperatorCard";
-import { TitleBlock } from "@/components/ui/TitleBlock";
+import { Container, PageHeader, SectionHeader } from "@/components/ui/Container";
 
 export const metadata: Metadata = {
   title: "Operators",
@@ -16,9 +16,7 @@ export default function OperatorsPage() {
   const meta = getMeta();
   const heroFor = (reg: string | null) => (reg ? aircraft.find((a) => a.reg === reg) ?? null : null);
 
-  const scheduled = operators
-    .filter((o) => o.category === "scheduled")
-    .sort((a, b) => b.fleetCount - a.fleetCount);
+  const scheduled = operators.filter((o) => o.category === "scheduled").sort((a, b) => b.fleetCount - a.fleetCount);
   const nonScheduled = operators.filter((o) => o.category === "non-scheduled");
   const schedFleet = scheduled.reduce((n, o) => n + o.fleetCount, 0);
   const nsopFleet = nonScheduled.reduce((n, o) => n + o.fleetCount, 0);
@@ -36,49 +34,30 @@ export default function OperatorsPage() {
   }));
 
   return (
-    <main className="mx-auto max-w-[1440px] px-4 py-6 sm:px-6">
-      <TitleBlock
-        sheet="03"
-        title="Operators"
-        fields={[
-          { label: "Rev", value: fmtDate(meta.snapshot) },
-          { label: "Permits", value: fmtInt(operators.length) },
-        ]}
-      />
-      <p className="mt-3 max-w-[62ch] text-sm text-ink-2">
-        Every holder of a DGCA scheduled or non-scheduled operator permit, with the fleet recorded
-        against it on the {fmtDate(meta.snapshot)} list.
-      </p>
+    <main className="py-10 sm:py-14">
+      <Container>
+        <PageHeader
+          eyebrow={`${fmtInt(operators.length)} permit holders · as on ${fmtDate(meta.snapshot)}`}
+          title="Operators"
+          lede="Every holder of a DGCA scheduled or non-scheduled operator permit, with the fleet recorded against it."
+        />
 
-      <section className="mt-8">
-        <div className="flex flex-wrap items-baseline gap-3 border-b border-ink pb-2">
-          <span aria-hidden className="h-1.5 w-1.5 bg-signal" />
-          <h2 className="stencil text-lg">Scheduled</h2>
-          <span className="mono ml-auto text-[11px] text-ink-2">
-            {scheduled.length} permits · {fmtInt(schedFleet)} aircraft
-          </span>
-        </div>
-        <div className="mt-5 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
-          {scheduled.map((o, i) => (
-            <OperatorCard key={o.id} operator={o} hero={heroFor(o.heroReg)} index={i} />
-          ))}
-        </div>
-      </section>
+        <section className="mt-14">
+          <SectionHeader title="Scheduled" meta={`${scheduled.length} airlines · ${fmtInt(schedFleet)} aircraft`} />
+          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {scheduled.map((o) => (
+              <li key={o.id} className="min-w-0">
+                <OperatorCard operator={o} hero={heroFor(o.heroReg)} />
+              </li>
+            ))}
+          </ul>
+        </section>
 
-      <div className="threshold my-10" aria-hidden />
-
-      <section>
-        <div className="flex flex-wrap items-baseline gap-3 border-b border-ink pb-2">
-          <span aria-hidden className="h-1.5 w-1.5 bg-mint" />
-          <h2 className="stencil text-lg">Non-scheduled</h2>
-          <span className="mono ml-auto text-[11px] text-ink-2">
-            {nonScheduled.length} permits · {fmtInt(nsopFleet)} aircraft
-          </span>
-        </div>
-        <div className="mt-5">
+        <section className="mt-20">
+          <SectionHeader title="Non-scheduled" meta={`${nonScheduled.length} operators · ${fmtInt(nsopFleet)} aircraft`} />
           <NsopTable rows={rows} />
-        </div>
-      </section>
+        </section>
+      </Container>
     </main>
   );
 }

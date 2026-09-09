@@ -1,272 +1,293 @@
 @import "tailwindcss";
-@import "@fontsource/barlow/400.css";
-@import "@fontsource/barlow/500.css";
-@import "@fontsource/barlow/600.css";
-@import "@fontsource/barlow-condensed/500.css";
-@import "@fontsource/barlow-condensed/600.css";
-@import "@fontsource/barlow-condensed/700.css";
-@import "@fontsource-variable/azeret-mono";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/jetbrains-mono";
 
+/* ------------------------------------------------------------------
+   Tokens. Dark is the default; light is the same system with the
+   roles swapped. Every text colour clears WCAG AA on its background.
+   ------------------------------------------------------------------ */
 :root {
-  color-scheme: light;
-  --paper: #f3f0e8;
-  --paper-2: #eae6da;
-  --paper-3: #dfd9ca;
-  --ink: #12213a;
-  --ink-2: #4a5568;
-  --ink-3: #8a93a3;
-  --rule: #cfc9ba;
-  --rule-2: #a79f90;
-  --blue: #0b2e5a;
-  --blue-2: #0e3a70;
-  --blue-line: rgba(255, 255, 255, 0.22);
-  --blue-line-2: rgba(255, 255, 255, 0.5);
-  --signal: #ff4f00;
-  --signal-soft: rgba(255, 79, 0, 0.12);
-  --mint: #0f8b7a;
-  --mint-soft: rgba(15, 139, 122, 0.12);
-  --caution: #b4461e;
+  color-scheme: dark;
+  --bg: #0c0c0d;
+  --bg-2: #151517;
+  --bg-3: #1f1f22;
+  --fg: #f4f2ed;
+  --fg-2: #b5b2aa;
+  --fg-3: #8b8881;
+  --line: #262629;
+  --line-2: #38383d;
+  --accent: #ff6b2c;
+  --accent-fg: #0c0c0d;
+  --accent-soft: rgba(255, 107, 44, 0.14);
+  --teal: #5fcdb4;
+  --teal-soft: rgba(95, 205, 180, 0.14);
+  --danger: #f08a6a;
+  --danger-soft: rgba(240, 138, 106, 0.14);
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
-  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
 }
 
-/* Night sheet: the same drawing on dark drafting film. Paper and ink swap roles, the
-   blueprint panel lifts a step so it still reads as a panel, signal stays signal. */
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --paper: #0d1321;
-  --paper-2: #131a2a;
-  --paper-3: #1b2435;
-  --ink: #ece7da;
-  --ink-2: #b9b3a4;
-  --ink-3: #7f8899;
-  --rule: #263043;
-  --rule-2: #3a4557;
-  --blue: #12376a;
-  --blue-2: #17427e;
-  --blue-line: rgba(255, 255, 255, 0.2);
-  --blue-line-2: rgba(255, 255, 255, 0.45);
-  --signal: #ff5a10;
-  --signal-soft: rgba(255, 90, 16, 0.16);
-  --mint: #3fb7a4;
-  --mint-soft: rgba(63, 183, 164, 0.16);
-  --caution: #e0784c;
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f6f4ef;
+  --bg-2: #ffffff;
+  --bg-3: #ebe8e0;
+  --fg: #151518;
+  --fg-2: #52525a;
+  --fg-3: #75757d;
+  --line: #e3e0d7;
+  --line-2: #cfcbc1;
+  --accent: #e2500c;
+  --accent-fg: #ffffff;
+  --accent-soft: rgba(226, 80, 12, 0.12);
+  --teal: #0f8f77;
+  --teal-soft: rgba(15, 143, 119, 0.12);
+  --danger: #c8482a;
+  --danger-soft: rgba(200, 72, 42, 0.12);
 }
 
 @theme inline {
-  --color-paper: var(--paper);
-  --color-paper-2: var(--paper-2);
-  --color-paper-3: var(--paper-3);
-  --color-ink: var(--ink);
-  --color-ink-2: var(--ink-2);
-  --color-ink-3: var(--ink-3);
-  --color-rule: var(--rule);
-  --color-rule-2: var(--rule-2);
-  --color-blue: var(--blue);
-  --color-blue-2: var(--blue-2);
-  --color-signal: var(--signal);
-  --color-signal-soft: var(--signal-soft);
-  --color-mint: var(--mint);
-  --color-mint-soft: var(--mint-soft);
-  --color-caution: var(--caution);
-  --font-display: "Barlow Condensed", "Barlow", system-ui, sans-serif;
-  --font-sans: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-mono: "Azeret Mono Variable", "Azeret Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-bg-3: var(--bg-3);
+  --color-fg: var(--fg);
+  --color-fg-2: var(--fg-2);
+  --color-fg-3: var(--fg-3);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-soft: var(--accent-soft);
+  --color-teal: var(--teal);
+  --color-teal-soft: var(--teal-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --font-sans: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
 }
 
 html {
-  background: var(--paper);
+  background: var(--bg);
 }
 
 body {
-  background: var(--paper);
-  color: var(--ink);
+  background: var(--bg);
+  color: var(--fg);
   font-family: var(--font-sans);
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  font-feature-settings: "cv11", "ss01", "ss03";
 }
 
 ::selection {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--accent);
+  color: var(--accent-fg);
 }
 
 @layer components {
-/* ---------- Type utilities ---------- */
-.display {
-  font-family: var(--font-display);
-  font-weight: 600;
-  line-height: 0.95;
-  letter-spacing: -0.01em;
-}
-.display-num {
-  font-family: var(--font-display);
-  font-weight: 700;
-  line-height: 0.9;
-  letter-spacing: -0.03em;
-  font-variant-numeric: tabular-nums;
-}
-.stencil {
-  font-family: var(--font-display);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-.mono {
-  font-family: var(--font-mono);
-  font-variant-numeric: tabular-nums;
-  font-feature-settings: "zero";
-}
-.label {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  line-height: 1.3;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--ink-2);
-}
-.label-dim {
-  color: var(--ink-3);
+  /* ---------- Type ---------- */
+  .display {
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 0.95;
+    font-variant-numeric: tabular-nums;
+  }
+  .h1 {
+    font-size: clamp(2rem, 6vw, 3.25rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+  }
+  .h2 {
+    font-size: clamp(1.5rem, 3.6vw, 2rem);
+    font-weight: 650;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+  .h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  .eyebrow {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--fg-3);
+  }
+  .lede {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--fg-2);
+  }
+  .mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "zero";
+    letter-spacing: 0;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- Surfaces ---------- */
+  .card {
+    background: var(--bg-2);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+  }
+  .card-hover {
+    transition: border-color 160ms var(--ease-out), background-color 160ms var(--ease-out);
+  }
+  .card-hover:hover {
+    border-color: var(--line-2);
+    background: var(--bg-3);
+  }
+  .row {
+    transition: background-color 120ms var(--ease-out);
+  }
+  .row:hover {
+    background: var(--bg-2);
+  }
+
+  /* ---------- Controls ---------- */
+  .field {
+    background: var(--bg-2);
+    border: 1px solid var(--line-2);
+    border-radius: var(--radius-sm);
+    color: var(--fg);
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    padding: 0.625rem 0.875rem;
+    width: 100%;
+    transition: border-color 120ms var(--ease-out);
+  }
+  .field::placeholder {
+    color: var(--fg-3);
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--fg);
+  }
+  select.field {
+    appearance: none;
+    padding-right: 2.25rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none' stroke='%23888' stroke-width='1.5'%3E%3Cpath d='M2.5 4.5 6 8l3.5-3.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.875rem center;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0 1.125rem;
+    border-radius: 999px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    transition: background-color 140ms var(--ease-out), border-color 140ms var(--ease-out), color 140ms var(--ease-out);
+  }
+  .btn-primary {
+    background: var(--fg);
+    color: var(--bg);
+  }
+  .btn-primary:hover {
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  .btn-secondary {
+    background: transparent;
+    border-color: var(--line-2);
+    color: var(--fg);
+  }
+  .btn-secondary:hover {
+    border-color: var(--fg);
+  }
+  .btn-sm {
+    min-height: 2.25rem;
+    padding: 0 0.875rem;
+    font-size: 0.875rem;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    min-height: 2rem;
+    padding: 0 0.75rem;
+    border-radius: 999px;
+    border: 1px solid var(--line-2);
+    font-size: 0.875rem;
+    color: var(--fg-2);
+    white-space: nowrap;
+    transition: border-color 120ms var(--ease-out), color 120ms var(--ease-out), background-color 120ms var(--ease-out);
+  }
+  .chip:hover {
+    border-color: var(--fg);
+    color: var(--fg);
+  }
+  .chip-on {
+    background: var(--fg);
+    border-color: var(--fg);
+    color: var(--bg);
+  }
+  .chip-on:hover {
+    color: var(--bg);
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  /* ---------- Misc ---------- */
+  .hairline {
+    border-top: 1px solid var(--line);
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-2) transparent;
+  }
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
 }
 
-/* ---------- Sheet & rules ---------- */
-.sheet {
-  position: relative;
-  border: 1px solid var(--ink);
-}
-.sheet::before,
-.sheet::after {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  pointer-events: none;
-  background:
-    linear-gradient(var(--ink), var(--ink)) center/1px 100% no-repeat,
-    linear-gradient(var(--ink), var(--ink)) center/100% 1px no-repeat;
-}
-.sheet::before { top: -7px; left: -7px; }
-.sheet::after { bottom: -7px; right: -7px; }
-
-.rule-h {
-  border-top: 1px solid var(--rule);
-}
-.rule-strong {
-  border-top: 1px solid var(--ink);
-}
-.grid-paper {
-  background-image:
-    linear-gradient(to right, rgba(18, 33, 58, 0.06) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(18, 33, 58, 0.06) 1px, transparent 1px);
-  background-size: 8px 8px;
-}
-.grid-paper-lg {
-  background-image:
-    linear-gradient(to right, rgba(18, 33, 58, 0.09) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(18, 33, 58, 0.09) 1px, transparent 1px);
-  background-size: 32px 32px;
-}
-.blueprint {
-  background: var(--blue);
-  color: #f3f0e8;
-  background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.07) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
-  background-size: 24px 24px;
-}
-.blueprint .label { color: rgba(243, 240, 232, 0.7); }
-
-/* Runway threshold stripes as a divider */
-.threshold {
-  height: 10px;
-  background: repeating-linear-gradient(to right, var(--ink) 0 18px, transparent 18px 30px);
-  opacity: 0.85;
-}
-
-/* Rivets on plates */
-.rivets {
-  position: relative;
-}
-.rivets::before,
-.rivets::after,
-.rivets > .rivet-b::before,
-.rivets > .rivet-b::after {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--rule-2);
-  box-shadow: inset 0 0 0 1px rgba(18, 33, 58, 0.35);
-}
-.rivets::before { top: 6px; left: 6px; }
-.rivets::after { top: 6px; right: 6px; }
-.rivets > .rivet-b::before { bottom: 6px; left: 6px; }
-.rivets > .rivet-b::after { bottom: 6px; right: 6px; }
-
-/* Hatch fills via CSS for simple bars */
-.hatch-ink {
-  background: repeating-linear-gradient(135deg, var(--ink) 0 1px, transparent 1px 5px);
-}
-.hatch-mint {
-  background: repeating-linear-gradient(135deg, var(--mint) 0 1px, transparent 1px 5px);
-}
-.hatch-signal {
-  background: repeating-linear-gradient(135deg, var(--signal) 0 1.5px, transparent 1.5px 5px);
-}
-
-/* Stamp */
-.stamp {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  border: 1px solid currentColor;
-  padding: 2px 6px 1px;
-  line-height: 1.3;
-  border-radius: 1px;
-  white-space: nowrap;
-}
-
-/* Table rows */
-.row-hover {
-  transition: background-color 120ms var(--ease-out);
-}
-.row-hover:hover {
-  background: var(--paper-2);
-}
-
-/* Focus */
-:focus-visible {
-  outline: 2px solid var(--signal);
-  outline-offset: 2px;
-}
-
-/* Scrollbars */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--rule-2) transparent;
-}
-input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
-
-}
-
-/* ---------- Motion ---------- */
 @media (prefers-reduced-motion: no-preference) {
   @keyframes rise {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: none; }
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
   }
-  @keyframes drift {
-    to { stroke-dashoffset: -400; }
+  .rise {
+    animation: rise 320ms var(--ease-out) both;
   }
-  .rise { animation: rise 500ms var(--ease-out) both; }
-  .rise-1 { animation-delay: 60ms; }
-  .rise-2 { animation-delay: 120ms; }
-  .rise-3 { animation-delay: 180ms; }
-  .rise-4 { animation-delay: 240ms; }
-  .rise-5 { animation-delay: 300ms; }
-  .streamline { animation: drift 14s linear infinite; }
 }

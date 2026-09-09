@@ -8,16 +8,17 @@ export interface ChecklistItem {
   selected: boolean;
 }
 
-/** Square drafting tick box: hairline when empty, solid ink with a check when set. */
 export function TickBox({ on }: { on: boolean }) {
   return (
     <span
       aria-hidden
-      className={`grid h-3.5 w-3.5 shrink-0 place-items-center border transition-colors duration-150 ${on ? "border-ink bg-ink" : "border-rule-2 bg-paper"}`}
+      className={`grid h-[18px] w-[18px] shrink-0 place-items-center rounded-[5px] border transition-colors ${
+        on ? "border-fg bg-fg" : "border-line-2 bg-transparent"
+      }`}
     >
       {on && (
-        <svg viewBox="0 0 10 10" className="h-2.5 w-2.5 text-paper" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M1.4 5.2 3.9 7.7 8.6 2.4" />
+        <svg viewBox="0 0 10 10" className="h-3 w-3 text-bg" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M1.8 5.2 4.1 7.5 8.4 2.6" />
         </svg>
       )}
     </span>
@@ -25,16 +26,15 @@ export function TickBox({ on }: { on: boolean }) {
 }
 
 /**
- * One filter group of the checklist column: a labelled list of tick boxes with
- * right-aligned counts. Long groups collapse to `initial` rows behind a "show all"
- * that reveals a scrollable list with an inline filter box.
+ * One filter group: a titled list of tick rows with counts. Long groups show
+ * `initial` rows and reveal the rest behind "Show all", with an inline finder.
  */
 export function Checklist({
   title,
   items,
   onToggle,
   initial = 8,
-  filterPlaceholder = "Filter",
+  filterPlaceholder = "Find",
 }: {
   title: string;
   items: ChecklistItem[];
@@ -53,11 +53,10 @@ export function Checklist({
   const shown = open ? filtered : items.slice(0, initial);
 
   return (
-    <section className="border-t border-rule pt-3">
-      <h3 className="label mb-2 flex items-center gap-2">
-        <span aria-hidden className={`h-1.5 w-1.5 ${activeCount ? "bg-signal" : "bg-rule-2"}`} />
+    <section>
+      <h3 className="mb-2 flex items-baseline justify-between text-[13px] font-medium uppercase tracking-[0.02em] text-fg-3">
         {title}
-        {activeCount > 0 && <span className="mono ml-auto text-[10px] text-signal">{activeCount} set</span>}
+        {activeCount > 0 && <span className="normal-case tracking-normal text-accent">{activeCount} selected</span>}
       </h3>
 
       {open && overflow && (
@@ -66,36 +65,38 @@ export function Checklist({
           value={needle}
           onChange={(e) => setNeedle(e.target.value)}
           placeholder={filterPlaceholder}
-          aria-label={`Filter ${title.toLowerCase()} options`}
-          className="mono mb-2 w-full border border-rule bg-paper px-2 py-1 text-[11px] placeholder:text-ink-3 focus:border-ink focus:outline-none"
+          aria-label={`${filterPlaceholder} in ${title.toLowerCase()}`}
+          className="field mb-2 py-2 text-[14px]"
           spellCheck={false}
           autoComplete="off"
         />
       )}
 
-      <ul className={open && overflow ? "max-h-64 space-y-px overflow-y-auto pr-1" : "space-y-px"}>
+      <ul className={open && overflow ? "max-h-72 overflow-y-auto pr-1" : ""}>
         {shown.map((it) => (
           <li key={it.value}>
             <button
               type="button"
               aria-pressed={it.selected}
               onClick={() => onToggle(it.value)}
-              className={`flex w-full items-center gap-2 py-[3px] pr-1 text-left text-[13px] leading-tight transition-colors duration-150 ${it.selected ? "text-ink" : "text-ink-2 hover:text-ink"}`}
+              className={`-mx-2 flex w-[calc(100%+1rem)] items-center gap-3 rounded-[var(--radius-sm)] px-2 py-2 text-left text-[15px] leading-tight transition-colors hover:bg-bg-2 ${
+                it.selected ? "text-fg" : "text-fg-2"
+              }`}
             >
               <TickBox on={it.selected} />
               <span className="min-w-0 flex-1 truncate" title={it.label}>{it.label}</span>
-              <span className={`mono text-[11px] tabular-nums ${it.selected ? "text-ink" : "text-ink-3"}`}>{it.count.toLocaleString("en-IN")}</span>
+              <span className={`num text-[13px] ${it.selected ? "text-fg" : "text-fg-3"}`}>{it.count.toLocaleString("en-IN")}</span>
             </button>
           </li>
         ))}
-        {open && filtered.length === 0 && <li className="py-1 text-[12px] text-ink-3">No match</li>}
+        {open && filtered.length === 0 && <li className="py-1 text-[14px] text-fg-3">No match</li>}
       </ul>
 
       {overflow && (
         <button
           type="button"
           onClick={() => { setOpen((o) => !o); setNeedle(""); }}
-          className="label label-dim mt-1.5 underline-offset-2 hover:underline"
+          className="mt-1.5 text-[14px] text-fg-2 underline decoration-line-2 underline-offset-4 hover:text-fg"
         >
           {open ? "Show fewer" : `Show all ${items.length}`}
         </button>

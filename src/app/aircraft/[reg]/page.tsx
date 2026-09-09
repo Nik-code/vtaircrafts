@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAircraft, getAircraftByReg, getEvents, getOperator } from "@/lib/data";
-import { Plate } from "@/components/ui/Plate";
+import { Container } from "@/components/ui/Container";
+import { Photo, PhotoCredit } from "@/components/ui/Photo";
 import { Placard } from "@/components/aircraft/Placard";
 import { HistoryTimeline } from "@/components/aircraft/HistoryTimeline";
 import { Siblings } from "@/components/aircraft/Siblings";
+import { ListBadge } from "@/components/ui/Badge";
 
 export function generateStaticParams() {
   return getAircraft().map((a) => ({ reg: a.reg }));
@@ -31,31 +33,35 @@ export default async function AircraftPage({ params }: PageProps<"/aircraft/[reg
   const events = getEvents();
 
   return (
-    <main className="mx-auto max-w-[1400px] px-5 py-8 sm:px-8">
-      <div className="label mb-5 flex flex-wrap items-center gap-2">
-        <Link href="/fleet" className="text-ink-2 hover:text-ink">Fleet</Link>
-        <span className="text-ink-3">/</span>
-        <Link href={`/operators/${a.operatorId}`} className="text-ink-2 hover:text-ink">{a.operator}</Link>
-        <span className="text-ink-3">/</span>
-        <span className="text-ink">{a.reg}</span>
-      </div>
+    <main className="py-10 sm:py-14">
+      <Container>
+        <nav className="mb-6 flex flex-wrap items-center gap-2 text-[14px] text-fg-3" aria-label="Breadcrumb">
+          <Link href="/fleet" className="hover:text-fg">Fleet</Link>
+          <span aria-hidden>/</span>
+          <Link href={`/operators/${a.operatorId}`} className="hover:text-fg">{a.operator}</Link>
+        </nav>
 
-      <article className="sheet grid gap-6 p-4 sm:p-6 lg:grid-cols-[1.3fr_1fr] lg:gap-8">
-        <Plate
-          image={a.image}
-          wing={a.wing}
-          alt={`${a.reg} ${a.type.name}`}
-          fig="01"
-          caption={`${a.type.name} · ${a.operator}`}
-          width={1280}
-          eager
-        />
-        <Placard a={a} />
-      </article>
+        <header>
+          <div className="flex flex-wrap items-center gap-3">
+            <h1 className="display mono text-[clamp(40px,10vw,72px)] font-bold tracking-[-0.03em]">{a.reg}</h1>
+            <ListBadge scheduled={a.category === "scheduled"} className="mt-2" />
+          </div>
+          <p className="mt-3 text-[clamp(18px,2.5vw,24px)] leading-snug text-fg-2">
+            {a.type.name} · <Link href={`/operators/${a.operatorId}`} className="text-fg underline decoration-line-2 underline-offset-4 hover:decoration-fg">{a.operator}</Link>
+          </p>
+        </header>
 
-      <HistoryTimeline aircraft={a} events={events} />
+        <div className="mt-10 grid gap-10 lg:grid-cols-[1.25fr_1fr] lg:gap-14">
+          <div>
+            <Photo image={a.image} wing={a.wing} alt={`${a.reg} ${a.type.name}`} width={1280} eager />
+            {a.image && <PhotoCredit image={a.image} className="mt-3" />}
+          </div>
+          <Placard a={a} />
+        </div>
 
-      <Siblings aircraft={a} operatorName={op?.name ?? a.operator} siblings={siblings} />
+        <HistoryTimeline aircraft={a} events={events} />
+        <Siblings aircraft={a} operatorName={op?.name ?? a.operator} siblings={siblings} />
+      </Container>
     </main>
   );
 }

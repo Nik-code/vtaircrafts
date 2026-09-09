@@ -1,85 +1,86 @@
-# vtaircrafts.in design language: "Flight Test Sheet"
+# vtaircrafts.in design language
 
-The site reads like an engineering drawing set for the Indian commercial fleet: a
-paper sheet with a title block, dimension lines, hatched bars, riveted photo
-plates, and stencil numerals. Precise, calm, a little obsessive. Nothing glows.
-Nothing is "cyber". This is drafting-room craft applied to a public dataset.
+A plain, readable reference site. The data is the design: big numbers, clear
+lists, good photographs, and nothing decorative competing with them. Mobile
+first; every layout is built for a 390px screen and then given room on desktop.
+
+This replaced the earlier "flight test sheet" language (title blocks, rivets,
+hatching, dimension lines, tiny tracked mono labels) in September 2026 after
+readers found it busy, small and low-contrast.
 
 ## Principles
 
-1. **Paper, ink, one signal colour.** Warm paper ground, deep ink, flight-test
-   orange used only for the thing that matters on the screen (one accent per view).
-2. **Everything is annotated.** Numbers carry units and sources. Sections carry
-   sheet numbers. Photos carry figure numbers and credits. Labels never truncate;
-   if a name does not fit, the layout changes, not the name.
-3. **Aerodynamic geometry, engineered motion.** Streamlines, airfoil sections and
-   plan-view silhouettes are the decorative vocabulary. Motion is short (150 to
-   400ms), eased like a damped control surface, and disabled under
-   prefers-reduced-motion.
-4. **Data density with air.** Dense tables are fine; cramped ones are not. 8px
-   grid, generous section spacing, thin rules instead of boxes wherever possible.
-5. **Every aircraft has a photograph.** The UI never counts, mentions or apologises
-   for image coverage. A representative photo is simply the photo; a small
-   "representative" note under it is the only acknowledgement.
+1. **Readable before clever.** Body text is 16px, secondary text never smaller
+   than 13px, and every text colour clears WCAG AA on its background. No
+   uppercase tracked micro-labels; the one eyebrow style is 13px and used once
+   per page.
+2. **One accent.** Orange marks arrivals, active states and the nose light on the
+   logo. Teal is reserved for non-scheduled. Everything else is grey scale.
+3. **Whitespace does the structuring.** Sections are separated by a hairline and
+   64 to 80px of space, not by boxes. Cards are used only where a thing is
+   clickable as a whole (fleet cards, operator cards, tables).
+4. **Lists, not charts.** Proportions are shown as a name, a number and a thin
+   bar. No custom SVG visualisations on the home page.
+5. **Every aircraft has a photograph.** A silhouette stands in quietly when there
+   is none. A representative photo is noted in the credit line, never with a
+   stamp on the image.
 
 ## Tokens (see `src/app/globals.css`)
 
-| Token | Value | Use |
-|---|---|---|
-| `--paper` | `#F3F0E8` | page ground |
-| `--paper-2` | `#EAE6DA` | panels, table stripes |
-| `--paper-3` | `#DFD9CA` | pressed states, hatch background |
-| `--ink` | `#12213A` | text, rules, primary marks |
-| `--ink-2` | `#4A5568` | secondary text |
-| `--ink-3` | `#8A93A3` | dim text, disabled |
-| `--rule` | `#CFC9BA` | hairlines |
-| `--rule-2` | `#A79F90` | stronger rules, borders on plates |
-| `--blue` | `#0B2E5A` | blueprint panel ground |
-| `--blue-line` | `rgba(255,255,255,0.22)` | lines on blueprint |
-| `--signal` | `#FF4F00` | the accent; markers, active states, key number |
-| `--mint` | `#0F8B7A` | non-scheduled / secondary status |
-| `--caution` | `#B4461E` | removals, expiries |
+Dark is the default; light swaps the same roles.
 
-Type: **Barlow Condensed** (`.display`) for headings and big numerals, uppercase
-with `letter-spacing: 0.02em` for headings and tight tracking for numerals;
-**Barlow** for body; **Azeret Mono** (`.mono`, `.label`) for data, labels and
-codes. Labels are uppercase, 11px, `letter-spacing: 0.14em`.
+| Token | Dark | Light | Use |
+|---|---|---|---|
+| `--bg` | `#0c0c0d` | `#f6f4ef` | page |
+| `--bg-2` | `#151517` | `#ffffff` | cards, inputs, row hover |
+| `--bg-3` | `#1f1f22` | `#ebe8e0` | hover on cards, badges, bar track |
+| `--fg` | `#f4f2ed` | `#151518` | primary text |
+| `--fg-2` | `#b5b2aa` | `#52525a` | secondary text |
+| `--fg-3` | `#8b8881` | `#75757d` | tertiary text, labels |
+| `--line` | `#262629` | `#e3e0d7` | hairlines |
+| `--line-2` | `#38383d` | `#cfcbc1` | input and chip borders |
+| `--accent` | `#ff6b2c` | `#e2500c` | arrivals, active, links on hover |
+| `--teal` | `#5fcdb4` | `#0f8f77` | non-scheduled |
+| `--danger` | `#f08a6a` | `#c8482a` | removals, expiring permits |
 
-## Motifs and where they live
+Type: **Inter Variable** for everything, with `cv11 ss01 ss03` for the
+single-storey a and open forms. **JetBrains Mono Variable** (`.mono`) only for
+registrations, hex codes, permit numbers and file names. Headings use
+`.h1` / `.h2` / `.h3`; the big count uses `.display` at `clamp(88px, 22vw, 200px)`.
 
-- **Sheet frame**: the page content sits inside a 1px ink border with a title
-  block at the bottom (the footer). Corners get a tiny cross-hair tick.
-- **Title block** (`TitleBlock`): section headers with fields: SHEET, TITLE, REV
-  (snapshot date), SOURCE. Used at the top of every page and major section.
-- **Dimension line** (`Dimension`): a horizontal line with end ticks and a centred
-  value, used to annotate charts and hero numbers ("1,306 AIRCRAFT").
-- **Hatch** (`HatchDefs`, `HatchBar`): 45° hatching for bars and area fills.
-  Scheduled = ink hatch; non-scheduled = mint hatch; highlight = signal solid.
-- **Plate** (`Plate`): a photo inside a 1px `--rule-2` border with four rivet dots
-  and a caption "FIG. 12  VT-ANA  Boeing 787-8  ·  Photo D. Kirk, CC BY 4.0".
-- **Stamp** (`Stamp`): rubber-stamp style tag for categories: SCHEDULED, NSOP,
-  ROTARY, CARGO, REPRESENTATIVE, EXPIRING.
-- **Streamlines** (`Streamlines`): SVG curves flowing around an airfoil, gently
-  animated; used on the blueprint hero panel and as faint page background on
-  section breaks.
-- **Runway stripes**: threshold-stripe divider (`.threshold`) between major
-  sections.
-- **Silhouettes** (`Silhouette`): plan-view fixed-wing, rotary and balloon
-  outlines, used as the placeholder inside a plate and as tiny glyphs in charts.
+Radii: 8px controls, 12px cards and photos, pills for buttons, chips and badges.
+
+## Components (`src/components/ui`)
+
+- `Container` (1120px, or 1400px `wide` for the fleet), `PageHeader`,
+  `SectionHeader`.
+- `Badge` and `ListBadge` (Scheduled / Non-scheduled).
+- `Button` / `ButtonLink`: primary (solid) and secondary (outline), pill shaped,
+  44px tall for touch.
+- `Photo` and `PhotoCredit`: rounded frame, silhouette fallback, one-line credit.
+- `Bar`: thin proportional bar on a `--bg-3` track.
+- `Field`: label over value, the building block of every fact list.
+- Chips (`.chip`, `.chip-on`) for filters and sibling registrations.
+
+## Layout rules
+
+- Nav: 56px bar with logo, inline links on desktop, and a 44px tab row of the
+  four sections under it on mobile. Search and theme toggle are icon buttons.
+- Fleet filters live in a sticky 280px rail on desktop and a bottom sheet on
+  mobile, with a "Show N aircraft" button to close it.
+- Tables collapse columns by breakpoint rather than shrinking text; on the
+  narrowest screens the operator folds under the type.
+- Grid items carry `min-w-0` so truncated text never widens the page.
 
 ## Motion
 
-- Numbers count up on first view (`CountUp`), 600ms, ease-out, once.
-- Plates fade and rise 8px on enter (CSS `animation: rise`), staggered by index
-  up to 6 items.
-- Streamlines: dash-offset drift, 12s linear loop, opacity 0.35.
-- Hover on rows: background to `--paper-2`, 120ms. Hover on plates: border to
-  `--ink`, caption underline. No scale transforms larger than 1.01.
-- All animation wrapped in `@media (prefers-reduced-motion: no-preference)`.
+- Numbers count up once on first view (`CountUp`), 600 to 900ms.
+- Rows and cards change background on hover in 120 to 160ms.
+- The search palette rises 6px on open. Nothing else moves.
+- All of it is inside `@media (prefers-reduced-motion: no-preference)`.
 
 ## Words
 
-Sentence case for prose, uppercase only for labels and stencil headings. No
-exclamation marks. Numbers use Indian grouping (1,306). Dates as `31 Aug 2026`.
-Say "DGCA list" not "register". Say "representative photo" when a photo is of a
-sibling airframe. Never mention how many aircraft have photos.
+Sentence case everywhere. Say "DGCA list" not "register". Say "representative
+photo" when a photo is of a sibling airframe. Never mention how many aircraft
+have photos. Dates as `31 Aug 2026`, numbers with Indian grouping.

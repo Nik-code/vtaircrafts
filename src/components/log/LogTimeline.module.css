@@ -1,9 +1,0 @@
-@media (prefers-reduced-motion: no-preference) {
-  @keyframes skeletonPulse {
-    0%, 100% { opacity: 0.5; }
-    50% { opacity: 0.9; }
-  }
-  .skeletonBar {
-    animation: skeletonPulse 1.6s ease-in-out infinite;
-  }
-}

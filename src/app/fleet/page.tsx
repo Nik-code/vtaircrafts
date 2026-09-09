@@ -3,10 +3,10 @@ import { Suspense } from "react";
 import { getIndex, getMeta } from "@/lib/data";
 import { fmtDate, fmtInt } from "@/lib/format";
 import { FleetExplorer } from "@/components/fleet/FleetExplorer";
-import { TitleBlock } from "@/components/ui/TitleBlock";
+import { Container, PageHeader } from "@/components/ui/Container";
 
 export const metadata: Metadata = {
-  title: "Fleet index",
+  title: "Fleet",
   description: "Search and filter every aircraft on an Indian scheduled or non-scheduled operator permit.",
 };
 
@@ -14,23 +14,16 @@ export default function FleetPage() {
   const total = getIndex().length;
   const meta = getMeta();
   return (
-    <main className="max-w-none py-6">
-      <div className="px-4 sm:px-6">
-        <TitleBlock
-          sheet="02"
-          title="Fleet index"
-          fields={[
-            { label: "Rev", value: fmtDate(meta.snapshot) },
-            { label: "Count", value: fmtInt(total) },
-          ]}
+    <main className="py-10 sm:py-14">
+      <Container wide>
+        <PageHeader
+          eyebrow={`${fmtInt(total)} aircraft · as on ${fmtDate(meta.snapshot)}`}
+          title="Fleet"
+          lede="Every aircraft on the DGCA scheduled and non-scheduled operator lists. Filters live in the address bar, so a view can be shared."
         />
-        <p className="mt-3 max-w-[62ch] text-sm text-ink-2">
-          Every aircraft on the DGCA scheduled and non-scheduled operator lists. Tick the checklist to
-          narrow the set; the address bar keeps your selection, so a filtered view can be shared.
-        </p>
-      </div>
-      <div className="mt-6">
-        <Suspense fallback={<div className="label px-4 sm:px-6">Loading the checklist</div>}>
+      </Container>
+      <div className="mt-10">
+        <Suspense fallback={<Container wide><p className="text-fg-3">Loading the index…</p></Container>}>
           <FleetExplorer total={total} />
         </Suspense>
       </div>

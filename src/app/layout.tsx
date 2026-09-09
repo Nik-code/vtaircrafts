@@ -37,7 +37,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           }}
         />
       </head>
-      <body className="flex min-h-full flex-col bg-paper text-ink">
+      <body className="flex min-h-full flex-col bg-bg text-fg">
         <TopNav />
         <div className="flex-1">{children}</div>
         <Footer />

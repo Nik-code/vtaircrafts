@@ -5,7 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { IndexRecord } from "@/lib/types";
 import { loadIndex } from "@/components/fleet/indexData";
-import { Stamp } from "@/components/ui/Stamp";
+import { ListBadge, Badge } from "@/components/ui/Badge";
 import { pushRecent, rank, readRecent } from "./rank";
 
 const MAX_AIRCRAFT = 8;
@@ -40,11 +40,11 @@ export function SearchPalette() {
         onClick={() => setOpen(true)}
         aria-haspopup="dialog"
         aria-keyshortcuts="Meta+K Control+K"
-        className="group flex h-7 items-center gap-2 border border-rule-2 bg-paper px-2 text-left transition-colors duration-150 hover:border-ink"
+        className="flex h-10 items-center gap-2 rounded-full px-3 text-fg-2 transition-colors hover:bg-bg-3 hover:text-fg sm:border sm:border-line-2 sm:pr-2.5"
       >
-        <SearchGlyph className="h-3 w-3 shrink-0 text-ink-3 transition-colors duration-150 group-hover:text-ink" />
-        <span className="label label-dim">Search</span>
-        <kbd className="mono ml-4 hidden text-[10px] leading-none text-ink-3 sm:inline">⌘K</kbd>
+        <SearchGlyph className="h-4 w-4 shrink-0" />
+        <span className="hidden text-[14px] sm:inline">Search</span>
+        <kbd className="mono ml-3 hidden rounded bg-bg-3 px-1.5 py-0.5 text-[11px] text-fg-3 sm:inline">⌘K</kbd>
       </button>
       {open && <Palette onClose={() => setOpen(false)} />}
     </>
@@ -191,7 +191,7 @@ function Palette({ onClose }: { onClose: () => void }) {
   return createPortal(
     <div className="fixed inset-0 z-50" role="presentation">
       <div
-        className="absolute -inset-4 bg-ink/25"
+        className="absolute -inset-4 bg-black/60"
         style={{ animation: "rise 150ms var(--ease-out) both" }}
         aria-hidden
       />
@@ -210,12 +210,11 @@ function Palette({ onClose }: { onClose: () => void }) {
           aria-modal="true"
           aria-label="Search the fleet index"
           onKeyDown={onKeyDown}
-          className="rivets relative w-full max-w-[680px] border border-ink bg-paper shadow-[0_18px_40px_-24px_rgba(18,33,58,0.5)]"
+          className="card relative w-full max-w-[640px] overflow-hidden shadow-[0_24px_60px_-20px_rgba(0,0,0,0.6)]"
           style={{ animation: "rise 150ms var(--ease-out) both" }}
         >
-          <span className="rivet-b" />
-          <div className="flex items-center gap-3 border-b border-ink px-4 py-3">
-            <span className="mono text-signal" aria-hidden>›</span>
+          <div className="flex items-center gap-3 border-b border-line px-4 py-3">
+            <SearchGlyph className="h-4 w-4 shrink-0 text-fg-3" />
             <input
               ref={inputRef}
               type="text"
@@ -227,14 +226,14 @@ function Palette({ onClose }: { onClose: () => void }) {
               value={query}
               onChange={(e) => { setQuery(e.target.value); setActive(0); }}
               placeholder="Registration, hex, operator, type"
-              className="mono w-full bg-transparent text-sm placeholder:text-ink-3 focus:outline-none"
+              className="w-full bg-transparent py-1 text-[17px] placeholder:text-fg-3 focus:outline-none"
               autoComplete="off"
               spellCheck={false}
             />
-            <button type="button" onClick={onClose} className="label label-dim shrink-0 underline-offset-2 hover:underline">Esc</button>
+            <button type="button" onClick={onClose} className="mono shrink-0 rounded bg-bg-3 px-1.5 py-0.5 text-[11px] text-fg-3 hover:text-fg">esc</button>
           </div>
 
-          <div ref={listRef} id="search-results" role="listbox" aria-label="Search results" className="max-h-[58vh] overflow-y-auto">
+          <div ref={listRef} id="search-results" role="listbox" aria-label="Search results" className="max-h-[60vh] overflow-y-auto py-1">
             {failed && <Note>The index could not be loaded. Try the fleet page.</Note>}
             {!failed && !data && query.trim() && <Note>Loading the index…</Note>}
             {!failed && !query.trim() && rows.length === 0 && (
@@ -243,8 +242,7 @@ function Palette({ onClose }: { onClose: () => void }) {
             {!failed && query.trim() && data && rows.length === 0 && <Note>Nothing matches “{query.trim()}”.</Note>}
             {groups.map((group) => (
               <div key={group.name} role="group" aria-label={group.name}>
-                <div className="label sticky top-0 z-10 flex items-center gap-2 border-b border-rule bg-paper-2 px-3 py-1">
-                  <span className="h-1.5 w-1.5 bg-ink-3" aria-hidden />
+                <div className="sticky top-0 z-10 bg-bg-2 px-4 pb-1 pt-3 text-[12px] font-medium uppercase tracking-[0.02em] text-fg-3">
                   {group.name}
                 </div>
                 {group.rows.map((row) => {
@@ -263,10 +261,10 @@ function Palette({ onClose }: { onClose: () => void }) {
             ))}
           </div>
 
-          <div className="label flex items-center justify-between border-t border-rule px-3 py-1.5">
-            <span className="hidden sm:inline">↑↓ move · ↵ open · esc close</span>
-            <span className="sm:hidden">↵ open</span>
-            <span className="label-dim">{query.trim() && data ? `${rows.length} shown` : "Global search"}</span>
+          <div className="flex items-center justify-between border-t border-line px-4 py-2 text-[12px] text-fg-3">
+            <span className="hidden sm:inline">↑↓ to move · ↵ to open · esc to close</span>
+            <span className="sm:hidden">↵ to open</span>
+            <span>{query.trim() && data ? `${rows.length} results` : ""}</span>
           </div>
         </div>
       </div>
@@ -276,19 +274,19 @@ function Palette({ onClose }: { onClose: () => void }) {
 }
 
 function Note({ children }: { children: React.ReactNode }) {
-  return <p className="px-4 py-6 text-[13px] text-ink-2">{children}</p>;
+  return <p className="px-4 py-8 text-[15px] text-fg-2">{children}</p>;
 }
 
 function PaletteRow({ row, on, onHover, onSelect }: { row: Row; on: boolean; onHover: () => void; onSelect: () => void }) {
-  const shared = `flex w-full items-center gap-3 px-3 py-2 text-left transition-colors duration-150 ${on ? "bg-paper-2" : "bg-transparent"}`;
-  const marker = <span aria-hidden className={`h-3.5 w-[2px] shrink-0 ${on ? "bg-signal" : "bg-transparent"}`} />;
+  const shared = `mx-1 flex w-[calc(100%-0.5rem)] items-center gap-3 rounded-[var(--radius-sm)] px-3 py-2.5 text-left transition-colors ${on ? "bg-bg-3" : "bg-transparent"}`;
+  const marker = null;
 
   if (row.kind === "recent") {
     return (
       <button type="button" id={`search-row-${row.key}`} role="option" aria-selected={on} data-active={on} tabIndex={-1} onMouseMove={onHover} onFocus={onHover} onClick={onSelect} className={shared}>
         {marker}
-        <span className="mono text-ink-3" aria-hidden>↺</span>
-        <span className="min-w-0 flex-1 truncate text-[13px]">{row.value}</span>
+        <span className="text-fg-3" aria-hidden>↺</span>
+        <span className="min-w-0 flex-1 truncate text-[15px]">{row.value}</span>
       </button>
     );
   }
@@ -296,24 +294,24 @@ function PaletteRow({ row, on, onHover, onSelect }: { row: Row; on: boolean; onH
   const content =
     row.kind === "aircraft" ? (
       <>
-        <span className="mono w-[5.25rem] shrink-0 text-[13px]">{row.rec.r}</span>
-        <span className="min-w-0 flex-1 truncate text-[13px]">{row.rec.t}</span>
-        <span className="hidden min-w-0 flex-1 truncate text-[13px] text-ink-2 sm:block">{row.rec.on}</span>
-        <Stamp tone={row.rec.c === "S" ? "ink" : "mint"}>{row.rec.c === "S" ? "Sch" : "Nsop"}</Stamp>
+        <span className="mono w-[5.5rem] shrink-0 text-[15px] font-medium">{row.rec.r}</span>
+        <span className="min-w-0 flex-1 truncate text-[15px]">{row.rec.t}</span>
+        <span className="hidden min-w-0 flex-1 truncate text-[15px] text-fg-2 sm:block">{row.rec.on}</span>
+        <ListBadge scheduled={row.rec.c === "S"} short />
       </>
     ) : row.kind === "operator" ? (
       <>
-        <span className="min-w-0 flex-1 truncate text-[13px]">{row.name}</span>
-        <span className="mono text-[11px] text-ink-3">{row.count.toLocaleString("en-IN")} aircraft</span>
+        <span className="min-w-0 flex-1 truncate text-[15px]">{row.name}</span>
+        <span className="num text-[13px] text-fg-3">{row.count.toLocaleString("en-IN")} aircraft</span>
       </>
     ) : row.kind === "type" ? (
       <>
-        <span className="min-w-0 flex-1 truncate text-[13px]">{row.name}</span>
-        {row.icao && <Stamp tone="dim">{row.icao}</Stamp>}
-        <span className="mono text-[11px] text-ink-3">{row.count.toLocaleString("en-IN")}</span>
+        <span className="min-w-0 flex-1 truncate text-[15px]">{row.name}</span>
+        {row.icao && <Badge>{row.icao}</Badge>}
+        <span className="num text-[13px] text-fg-3">{row.count.toLocaleString("en-IN")}</span>
       </>
     ) : (
-      <span className="min-w-0 flex-1 truncate text-[13px] text-ink-2">{row.label}</span>
+      <span className="min-w-0 flex-1 truncate text-[15px] text-fg-2">{row.label}</span>
     );
 
   return (
@@ -337,9 +335,9 @@ function PaletteRow({ row, on, onHover, onSelect }: { row: Row; on: boolean; onH
 
 function SearchGlyph({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 12 12" className={className} aria-hidden fill="none" stroke="currentColor" strokeWidth="1.3">
-      <circle cx="5" cy="5" r="3.6" />
-      <path d="M7.8 7.8 11 11" strokeLinecap="round" />
+    <svg viewBox="0 0 16 16" className={className} aria-hidden fill="none" stroke="currentColor" strokeWidth="1.6">
+      <circle cx="7" cy="7" r="4.5" />
+      <path d="M10.5 10.5 14 14" strokeLinecap="round" />
     </svg>
   );
 }

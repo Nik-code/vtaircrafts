@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { statSync } from "node:fs";
 import { join } from "node:path";
 import { getMeta } from "@/lib/data";
-import { fmtDate } from "@/lib/format";
-import { TitleBlock } from "@/components/ui/TitleBlock";
+import { fmtDate, fmtInt } from "@/lib/format";
+import { Container, PageHeader, SectionHeader } from "@/components/ui/Container";
 
 export const metadata: Metadata = {
-  title: "Data & method",
+  title: "Data and method",
   description: "Download the dataset and read how it is built, snapshot by snapshot.",
 };
 
@@ -79,106 +79,101 @@ export default function DataPage() {
   const meta = getMeta();
 
   return (
-    <main className="mx-auto max-w-[1000px] px-5 py-8 sm:px-8">
-      <TitleBlock sheet="06" title="Data & method" fields={[{ label: "Snapshot", value: fmtDate(meta.snapshot) }]} />
+    <main className="py-10 sm:py-14">
+      <Container className="max-w-[880px]!">
+        <PageHeader
+          eyebrow={`Snapshot ${fmtDate(meta.snapshot)}`}
+          title="Data and method"
+          lede="The whole dataset is downloadable, versioned, and licensed CC BY 4.0. Here is what is in it and how it is built."
+        />
 
-      <section className="mt-10">
-        <h2 className="label mb-4">Downloads</h2>
-        <div className="border-t border-rule-2">
-          {FILES.map((f) => (
-            <a
-              key={f.name}
-              href={`/data/latest/${f.name}`}
-              download
-              className="row-hover grid grid-cols-1 gap-1 border-b border-rule-2 px-2 py-3 sm:grid-cols-[10rem_1fr_5rem_11rem] sm:items-baseline sm:gap-3"
-            >
-              <span className="mono text-sm text-ink">{f.name}</span>
-              <span className="text-sm text-ink-2">{f.desc}</span>
-              <span className="mono text-xs text-ink-3">{fileSize(f.name)}</span>
-              <span className="mono text-xs text-ink-3">/data/latest/{f.name}</span>
-            </a>
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-10 border-t border-rule pt-10">
-        <h2 className="label mb-4">Schema</h2>
-        <div className="mb-2 text-sm text-ink-2">aircraft.json</div>
-        <dl className="mb-8 grid grid-cols-1 gap-x-6 gap-y-2 border-t border-rule pt-3 sm:grid-cols-[12rem_1fr]">
-          {AIRCRAFT_FIELDS.map(([field, meaning]) => (
-            <div key={field} className="contents">
-              <dt className="mono text-xs text-ink">{field}</dt>
-              <dd className="mb-2 text-sm text-ink-2 sm:mb-0">{meaning}</dd>
-            </div>
-          ))}
-        </dl>
-        <div className="mb-2 text-sm text-ink-2">events.json</div>
-        <dl className="grid grid-cols-1 gap-x-6 gap-y-2 border-t border-rule pt-3 sm:grid-cols-[12rem_1fr]">
-          {EVENT_FIELDS.map(([field, meaning]) => (
-            <div key={field} className="contents">
-              <dt className="mono text-xs text-ink">{field}</dt>
-              <dd className="mb-2 text-sm text-ink-2 sm:mb-0">{meaning}</dd>
-            </div>
-          ))}
-        </dl>
-      </section>
-
-      <section className="mt-10 border-t border-rule pt-10">
-        <h2 className="label mb-4">Method</h2>
-        <ol className="space-y-3">
-          {METHOD_STEPS.map((step, i) => (
-            <li key={step} className="grid grid-cols-[1.75rem_1fr] gap-3 text-sm leading-relaxed text-ink-2">
-              <span className="mono text-ink-3">{String(i + 1).padStart(2, "0")}</span>
-              <span>{step}</span>
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      <section className="mt-10 border-t border-rule pt-10">
-        <h2 className="label mb-4">Sources</h2>
-        <div className="border-t border-rule-2">
-          {meta.sources.map((s) => (
-            <div key={s.file} className="border-b border-rule-2 px-2 py-3">
-              <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <a href={s.url} target="_blank" rel="noreferrer" className="mono text-sm text-ink hover:text-signal">
-                  {s.file} ↗
+        <section className="mt-14">
+          <SectionHeader title="Downloads" />
+          <ul className="card divide-y divide-line overflow-hidden">
+            {FILES.map((f) => (
+              <li key={f.name}>
+                <a href={`/data/latest/${f.name}`} download className="row flex flex-col gap-1 px-5 py-4 sm:flex-row sm:items-baseline sm:gap-6">
+                  <span className="mono w-40 shrink-0 text-[15px] font-medium text-fg">{f.name}</span>
+                  <span className="flex-1 text-[15px] text-fg-2">{f.desc}</span>
+                  <span className="num shrink-0 text-[13px] text-fg-3">{fileSize(f.name)}</span>
                 </a>
-                <span className="mono text-xs text-ink-3">
-                  as on {fmtDate(s.asOn)} · {s.aircraft} aircraft · {s.operators} operators
-                </span>
-              </div>
-              {s.sha256 && <div className="mono mt-1 break-all text-[11px] text-ink-3">sha256 {s.sha256}</div>}
-            </div>
-          ))}
-        </div>
-      </section>
+              </li>
+            ))}
+          </ul>
+        </section>
 
-      <section className="mt-10 border-t border-rule pt-10">
-        <h2 className="label mb-4">Coverage and limits</h2>
-        <p className="max-w-2xl text-sm leading-relaxed text-ink-2">
-          This covers scheduled and non-scheduled operator permits only: no privately owned aircraft, flying training
-          fleets, or state government aircraft. DGCA has not published a full register extract since 2019, so this
-          index is built from operator permit lists instead, cross-checked against Wayback Machine captures where an
-          exact date is needed.
-        </p>
-      </section>
+        <section className="mt-16">
+          <SectionHeader title="Schema" />
+          <Schema name="aircraft.json" fields={AIRCRAFT_FIELDS} />
+          <Schema name="events.json" fields={EVENT_FIELDS} className="mt-10" />
+        </section>
 
-      <section className="mt-10 border-t border-rule pt-10 pb-4">
-        <h2 className="label mb-4">Licences</h2>
-        <div className="max-w-2xl space-y-3 text-sm leading-relaxed text-ink-2">
-          <p>
-            Source material is © Directorate General of Civil Aviation, reproduced with acknowledgement under the
-            DGCA website policy.
+        <section className="mt-16">
+          <SectionHeader title="Method" />
+          <ol className="space-y-4">
+            {METHOD_STEPS.map((step, i) => (
+              <li key={step} className="flex gap-4 text-[16px] leading-relaxed text-fg-2">
+                <span className="num w-6 shrink-0 font-medium text-fg">{i + 1}</span>
+                <span>{step}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        <section className="mt-16">
+          <SectionHeader title="Sources" />
+          <ul className="space-y-5">
+            {meta.sources.map((s) => (
+              <li key={s.file}>
+                <a href={s.url} target="_blank" rel="noreferrer" className="mono text-[15px] font-medium text-fg underline decoration-line-2 underline-offset-4 hover:decoration-fg">
+                  {s.file}
+                </a>
+                <p className="mt-1 text-[14px] text-fg-2">
+                  {s.category === "scheduled" ? "Scheduled operators" : "Non-scheduled operators"} · as on {fmtDate(s.asOn)} · {fmtInt(s.aircraft)} aircraft · {s.operators} operators
+                </p>
+                {s.sha256 && <p className="mono mt-1 break-all text-[12px] text-fg-3">sha256 {s.sha256}</p>}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mt-16">
+          <SectionHeader title="Coverage and limits" />
+          <p className="max-w-[64ch] text-[16px] leading-relaxed text-fg-2">
+            This covers scheduled and non-scheduled operator permits only: no privately owned aircraft, flying training fleets, or
+            state government aircraft. DGCA has not published a full register extract since 2019, so this index is built from
+            operator permit lists instead, cross-checked against Wayback Machine captures where an exact date is needed.
           </p>
-          <p>
-            The compiled dataset is released under CC BY 4.0. Suggested citation: &ldquo;vtaircrafts.in, from DGCA
-            operator lists&rdquo;. Code is MIT licensed. Photographs keep their individual Creative Commons licences
-            and photographer credits, shown with every image.
-          </p>
-          <p>This is an independent, unofficial index. It is not the Indian civil aircraft register and must not be used for operational or legal purposes.</p>
-        </div>
-      </section>
+        </section>
+
+        <section className="mt-16">
+          <SectionHeader title="Licences" />
+          <div className="max-w-[64ch] space-y-4 text-[16px] leading-relaxed text-fg-2">
+            <p>Source material is © Directorate General of Civil Aviation, reproduced with acknowledgement under the DGCA website policy.</p>
+            <p>
+              The compiled dataset is released under CC BY 4.0. Suggested citation: &ldquo;vtaircrafts.in, from DGCA operator lists&rdquo;. Code is
+              MIT licensed. Photographs keep their individual Creative Commons licences and photographer credits, shown with every image.
+            </p>
+            <p>This is an independent, unofficial index. It is not the Indian civil aircraft register and must not be used for operational or legal purposes.</p>
+          </div>
+        </section>
+      </Container>
     </main>
+  );
+}
+
+function Schema({ name, fields, className = "" }: { name: string; fields: Array<[string, string]>; className?: string }) {
+  return (
+    <div className={className}>
+      <h3 className="mono mb-3 text-[15px] font-medium">{name}</h3>
+      <dl className="divide-y divide-line">
+        {fields.map(([field, meaning]) => (
+          <div key={field} className="grid gap-1 py-3 sm:grid-cols-[14rem_1fr] sm:gap-6">
+            <dt className="mono text-[14px] text-fg">{field}</dt>
+            <dd className="text-[15px] text-fg-2">{meaning}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
   );
 }

@@ -1,21 +1,20 @@
 import type { Event, EventKind } from "@/lib/types";
-import type { StampTone } from "@/components/ui/Stamp";
+import type { BadgeTone } from "@/components/ui/Badge";
 
 /** Local kind used for the synthetic "first seen" anchor entry on the aircraft timeline. */
 export type TimelineKind = EventKind | "first-seen";
 
-/** Stamp tone per event kind, per DESIGN.md: signal for arrivals, caution for departures, ink for transfers. */
-export function eventTone(kind: TimelineKind): StampTone {
-  if (kind === "registered" || kind === "added") return "signal";
-  if (kind === "deregistered" || kind === "removed") return "caution";
-  if (kind === "moved" || kind === "owner-change") return "ink";
-  if (kind === "snapshot") return "dim";
-  return "dim"; // first-seen
+/** Badge tone per event kind: accent for arrivals, danger for departures, neutral for the rest. */
+export function eventTone(kind: TimelineKind): BadgeTone {
+  if (kind === "registered" || kind === "added") return "accent";
+  if (kind === "deregistered" || kind === "removed") return "danger";
+  return "neutral";
 }
 
 export function eventLabel(kind: TimelineKind): string {
   if (kind === "first-seen") return "First seen";
-  return kind.replace("-", " ");
+  if (kind === "owner-change") return "Owner change";
+  return kind.charAt(0).toUpperCase() + kind.slice(1);
 }
 
 /** One sentence of prose describing an event, sentence case, no trailing surprises. */

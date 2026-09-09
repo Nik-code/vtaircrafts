@@ -3,13 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAircraft, getChanges, getOperator, getOperators } from "@/lib/data";
 import { fmtDate, fmtInt } from "@/lib/format";
-import { Dimension } from "@/components/ui/Dimension";
-import { HatchBar } from "@/components/ui/Hatch";
-import { Plate } from "@/components/ui/Plate";
-import { Silhouette } from "@/components/ui/Silhouette";
-import { Stamp } from "@/components/ui/Stamp";
-import { TitleBlock } from "@/components/ui/TitleBlock";
-import type { Wing } from "@/lib/types";
+import { Bar } from "@/components/ui/Bar";
+import { Badge, ListBadge } from "@/components/ui/Badge";
+import { Container, SectionHeader } from "@/components/ui/Container";
+import { Field } from "@/components/ui/Field";
+import { Photo, PhotoCredit } from "@/components/ui/Photo";
+import { daysUntil } from "@/lib/format";
 
 export function generateStaticParams() {
   return getOperators().map((o) => ({ id: o.id }));
@@ -38,141 +37,133 @@ export default async function OperatorPage({ params }: PageProps<"/operators/[id
     ...t,
     regs: fleet.filter((a) => a.type.name === t.name).sort((x, y) => x.reg.localeCompare(y.reg)),
   }));
+  const left = daysUntil(operator.permit.validUntil);
+  const expiring = left != null && left <= 180;
+  const wings = [
+    operator.wings.FW && `${fmtInt(operator.wings.FW)} fixed wing`,
+    operator.wings.RW && `${fmtInt(operator.wings.RW)} rotary wing`,
+    operator.wings.B && `${fmtInt(operator.wings.B)} balloon`,
+  ].filter(Boolean);
 
   return (
-    <main className="mx-auto max-w-[1440px] px-4 py-6 sm:px-6">
-      <nav className="label mb-3 flex items-center gap-2">
-        <Link href="/operators" className="underline-offset-2 hover:underline">Operators</Link>
-        <span aria-hidden>/</span>
-        <span>{scheduled ? "Scheduled" : "Non-scheduled"}</span>
-      </nav>
+    <main className="py-10 sm:py-14">
+      <Container>
+        <nav className="mb-6 flex flex-wrap items-center gap-2 text-[14px] text-fg-3" aria-label="Breadcrumb">
+          <Link href="/operators" className="hover:text-fg">Operators</Link>
+          <span aria-hidden>/</span>
+          <span>{scheduled ? "Scheduled" : "Non-scheduled"}</span>
+        </nav>
 
-      <TitleBlock
-        sheet="04"
-        title={operator.name}
-        fields={[
-          { label: "Permit", value: operator.permit.no ?? "—" },
-          { label: "Valid to", value: fmtDate(operator.permit.validUntil) },
-          { label: "List", value: scheduled ? "Scheduled" : "Non-scheduled" },
-        ]}
-      />
-
-      <section className="mt-6 grid gap-8 lg:grid-cols-[1fr_1.15fr]">
-        <div>
-          <div className="flex flex-wrap items-center gap-2">
-            <Stamp tone={scheduled ? "ink" : "mint"}>{scheduled ? "Scheduled" : "Non-scheduled"}</Stamp>
-            {operator.ops && <Stamp tone="dim">{operator.ops}</Stamp>}
+        <header>
+          <div className="flex flex-wrap items-center gap-3">
+            <h1 className="h1">{operator.name}</h1>
+            <ListBadge scheduled={scheduled} className="mt-1" />
           </div>
-          <p className="mt-3 text-sm text-ink-2">{operator.legalName}</p>
-          {operator.website && (
-            <a href={operator.website} target="_blank" rel="noreferrer" className="mono mt-1 inline-block text-xs text-ink-3 underline-offset-2 hover:text-ink hover:underline">
-              {operator.website.replace(/^https?:\/\//, "")} ↗
-            </a>
-          )}
+          <p className="mt-3 text-[17px] text-fg-2">
+            {operator.legalName}
+            {operator.website && (
+              <>
+                {" · "}
+                <a href={operator.website} target="_blank" rel="noreferrer" className="underline decoration-line-2 underline-offset-4 hover:text-fg">
+                  {operator.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}
+                </a>
+              </>
+            )}
+          </p>
+        </header>
 
-          <div className="mt-7 grid grid-cols-2 gap-x-8 gap-y-6">
-            <Stat label="Aircraft" tone="signal" value={fmtInt(operator.fleetCount)} />
-            <Stat label="Seats on the list" value={fmtInt(operator.seatsTotal)} />
-            <Stat label="Types" value={fmtInt(operator.types.length)} />
+        <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_1.15fr] lg:gap-14">
+          <div>
+            <div className="grid grid-cols-2 gap-6">
+              <div>
+                <p className="text-[14px] font-medium text-fg-3">Aircraft</p>
+                <p className="display mt-1 text-[48px]">{fmtInt(operator.fleetCount)}</p>
+              </div>
+              <div>
+                <p className="text-[14px] font-medium text-fg-3">Types</p>
+                <p className="display mt-1 text-[48px]">{fmtInt(operator.types.length)}</p>
+              </div>
+            </div>
+            <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-6">
+              <Field label="Permit">
+                <span className="mono">{operator.permit.no ?? "—"}</span>
+              </Field>
+              <Field label="Valid until">
+                {fmtDate(operator.permit.validUntil)}
+                {expiring && <Badge tone="danger" className="ml-2">Expiring</Badge>}
+              </Field>
+              {operator.ops && <Field label="Operations">{operator.ops}</Field>}
+              <Field label="Airframes">{wings.join(", ")}</Field>
+              {operator.seatsTotal > 0 && <Field label="Seats on the list">{fmtInt(operator.seatsTotal)}</Field>}
+              {operator.statedCount != null && operator.statedCount !== operator.fleetCount && (
+                <Field label="Stated by DGCA">{fmtInt(operator.statedCount)} aircraft</Field>
+              )}
+            </dl>
+          </div>
+
+          {hero && (
             <div>
-              <Dimension>Airframes</Dimension>
-              <ul className="mt-2 space-y-1.5">
-                {(["FW", "RW", "B"] as Wing[])
-                  .filter((w) => operator.wings[w] > 0)
-                  .map((w) => (
-                    <li key={w} className="flex items-center gap-2">
-                      <Silhouette wing={w} className="h-5 w-9 shrink-0 text-ink-3" strokeWidth={2.2} />
-                      <span className="display-num text-xl">{operator.wings[w]}</span>
-                      <span className="label label-dim">{w === "FW" ? "Fixed" : w === "RW" ? "Rotary" : "Balloon"}</span>
+              <Link href={`/aircraft/${hero.reg}`} className="group block">
+                <Photo image={hero.image} wing={hero.wing} alt={`${hero.reg}, ${hero.type.name}, ${operator.name}`} width={1280} aspect="aspect-[16/10]" eager className="transition-opacity group-hover:opacity-90" />
+                <p className="mt-3 text-[15px] text-fg-2">
+                  <span className="mono font-medium text-fg">{hero.reg}</span> · {hero.type.name}
+                </p>
+              </Link>
+              {hero.image && <PhotoCredit image={hero.image} className="mt-1" />}
+            </div>
+          )}
+        </div>
+
+        <section className="mt-16">
+          <SectionHeader title="Type mix" />
+          <ul className="grid gap-x-10 gap-y-5 sm:grid-cols-2">
+            {operator.types.map((t) => (
+              <li key={t.name}>
+                <div className="flex items-baseline justify-between gap-3">
+                  <span className="flex min-w-0 items-baseline gap-2">
+                    <span className="truncate text-[15px]">{t.name}</span>
+                    {t.icao && <span className="mono text-[13px] text-fg-3">{t.icao}</span>}
+                  </span>
+                  <span className="num text-[15px] font-medium">{fmtInt(t.count)}</span>
+                </div>
+                <Bar ratio={t.count / maxType} tone={scheduled ? "fg" : "teal"} className="mt-2" />
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mt-16">
+          <SectionHeader
+            title="Fleet"
+            meta={`${fmtInt(fleet.length)} registrations`}
+            action={
+              <Link href={`/fleet?o=${operator.id}`} className="text-[15px] text-fg-2 underline decoration-line-2 underline-offset-4 hover:text-fg">
+                Open in the fleet
+              </Link>
+            }
+          />
+          <div className="space-y-8">
+            {byType.map((t) => (
+              <div key={t.name}>
+                <h3 className="mb-3 flex items-baseline gap-2 text-[15px] font-medium">
+                  {t.name}
+                  <span className="num text-fg-3">{fmtInt(t.count)}</span>
+                </h3>
+                <ul className="flex flex-wrap gap-2">
+                  {t.regs.map((a) => (
+                    <li key={a.reg}>
+                      <Link href={`/aircraft/${a.reg}`} className="chip mono">
+                        {a.reg}
+                        {added.has(a.reg) && <span className="text-accent" title="Added on the latest list">new</span>}
+                      </Link>
                     </li>
                   ))}
-              </ul>
-            </div>
+                </ul>
+              </div>
+            ))}
           </div>
-        </div>
-
-        <div>
-          {hero ? (
-            <Plate
-              image={hero.image}
-              wing={hero.wing}
-              alt={`${hero.reg}, ${hero.type.name}, ${operator.name}`}
-              width={1280}
-              aspect="aspect-[16/9]"
-              eager
-              fig="01"
-              caption={
-                <Link href={`/aircraft/${hero.reg}`} className="mono text-[13px] underline-offset-2 hover:underline">
-                  {hero.reg} · {hero.type.name}
-                </Link>
-              }
-            />
-          ) : null}
-        </div>
-      </section>
-
-      <section className="mt-12">
-        <div className="flex flex-wrap items-baseline gap-3 border-b border-ink pb-2">
-          <span aria-hidden className="h-1.5 w-1.5 bg-signal" />
-          <h2 className="stencil text-lg">Type mix</h2>
-          <span className="mono ml-auto text-[11px] text-ink-2">{operator.types.length} types</span>
-        </div>
-        <ul className="mt-4 space-y-3">
-          {operator.types.map((t) => (
-            <li key={t.name}>
-              <div className="flex items-baseline gap-2">
-                <span className="min-w-0 truncate text-sm">{t.name}</span>
-                {t.icao && <Stamp tone="dim">{t.icao}</Stamp>}
-                <span className="mono ml-auto text-[12px]">{fmtInt(t.count)}</span>
-              </div>
-              <HatchBar ratio={t.count / maxType} tone={scheduled ? "ink" : "mint"} height={12} className="mt-1.5" />
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section className="mt-12">
-        <div className="flex flex-wrap items-baseline gap-3 border-b border-ink pb-2">
-          <span aria-hidden className="h-1.5 w-1.5 bg-rule-2" />
-          <h2 className="stencil text-lg">Fleet</h2>
-          <span className="mono ml-auto text-[11px] text-ink-2">{fmtInt(fleet.length)} registrations</span>
-        </div>
-        <div className="mt-5 space-y-7">
-          {byType.map((t) => (
-            <div key={t.name}>
-              <div className="mb-2 flex items-baseline gap-2 border-b border-rule pb-1.5">
-                <h3 className="text-[15px]">{t.name}</h3>
-                {t.icao && <Stamp tone="dim">{t.icao}</Stamp>}
-                <span className="mono ml-auto text-[11px] text-ink-3">{fmtInt(t.count)}</span>
-              </div>
-              <ul className="flex flex-wrap gap-1.5">
-                {t.regs.map((a) => (
-                  <li key={a.reg}>
-                    <Link
-                      href={`/aircraft/${a.reg}`}
-                      className={`mono inline-flex items-center gap-1 border px-2 py-1 text-[12px] transition-colors duration-150 hover:border-signal hover:text-signal ${
-                        a.image?.tier === "exact" ? "border-ink text-ink" : "border-rule text-ink-2"
-                      }`}
-                    >
-                      {a.reg}
-                      {added.has(a.reg) && <span className="text-signal" title="Added on the latest list">+</span>}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </section>
+        </section>
+      </Container>
     </main>
-  );
-}
-
-function Stat({ label, value, tone = "ink" }: { label: string; value: string; tone?: "ink" | "signal" }) {
-  return (
-    <div>
-      <Dimension tone={tone}>{label}</Dimension>
-      <div className={`display-num mt-2 text-4xl sm:text-5xl ${tone === "signal" ? "text-signal" : ""}`}>{value}</div>
-    </div>
   );
 }
