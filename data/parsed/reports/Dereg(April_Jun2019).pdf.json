@@ -1,0 +1,2455 @@
+{
+ "file": "Dereg(April_Jun2019).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+ "from": "2019-04-01",
+ "to": "2019-06-30",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-JGA",
+   "msn": "30410",
+   "dateOfRegistration": "2002-11-18",
+   "dateOfDeregistration": "2019-04-23",
+   "date": "2019-04-23",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-900",
+   "yearOfManufacture": 2002,
+   "owner": "KLAATU AIRCRAFT LEASING (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ABB",
+   "msn": "392",
+   "dateOfRegistration": "2002-12-24",
+   "dateOfDeregistration": "2019-06-18",
+   "date": "2019-06-18",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 42-320",
+   "yearOfManufacture": 1995,
+   "owner": "ACIA AERO LEASING (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIRLINE ALLIED SERVICES LIMITED",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JGC",
+   "msn": "30412",
+   "dateOfRegistration": "2003-05-09",
+   "dateOfDeregistration": "2019-04-23",
+   "date": "2019-04-23",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-900",
+   "yearOfManufacture": 2003,
+   "owner": "KLAATU AIRCRAFT LEASING (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LT ANDHERI (EAST), MUMBAID",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JGF",
+   "msn": "29639",
+   "dateOfRegistration": "2005-05-04",
+   "dateOfDeregistration": "2019-04-04",
+   "date": "2019-04-04",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2005,
+   "owner": "FIRST STAR SPEIR AVIATION 1 LIMITED DUBLIN 2, IRELAND WELLS FARGO",
+   "lessor": "SAME AS OWNER AIRSPEED",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JGG",
+   "msn": "29668",
+   "dateOfRegistration": "2005-05-11",
+   "dateOfDeregistration": "2019-04-11",
+   "date": "2019-04-11",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2005,
+   "owner": "BANK NORTHWEST, NATIONAL ASSOCIATION LAKE CITY, UT 84111, USA",
+   "lessor": "IRELAND LEASING 16 LTD SHANNON, CO.CLARE, IRELAND",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SIZ",
+   "msn": "33025",
+   "dateOfRegistration": "2005-01-06",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-700",
+   "yearOfManufacture": 2005,
+   "owner": "WELLS FARGO BANK NORTH WEST NATIONAL ASSOCIATION C/O LAKE CITY, UT 84111, USA",
+   "lessor": "WELLS FARGO BANK NORTH WEST USA",
+   "operator": "JET LITE (INDIA) LIMITED ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SJA",
+   "msn": "33026",
+   "dateOfRegistration": "2005-06-09",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-700",
+   "yearOfManufacture": 2005,
+   "owner": "SAPPHIRE LEASING I (AOE 6) LIMITED SHANNON, CO. CLAIRE, IRELAND CELESTIAL",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET LITE (INDIA) LIMITED ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JGK",
+   "msn": "32579",
+   "dateOfRegistration": "2005-06-27",
+   "dateOfDeregistration": "2019-04-18",
+   "date": "2019-04-18",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2001,
+   "owner": "AVIATION TRADING 1 LTD,AVIATION HOUSE COUNTRY",
+   "lessor": "CELESTIAL AVIATION TRADING 1 LTD,AVIATI ON HOUSE IRELAND",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JGJ",
+   "msn": "32578",
+   "dateOfRegistration": "2005-06-29",
+   "dateOfDeregistration": "2019-06-03",
+   "date": "2019-06-03",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2001,
+   "owner": "CLARE,IRELAND CELESTIAL AVIATION TRADING 1",
+   "lessor": "CELESTIAL AVIATION TRADING 1",
+   "operator": "JET LITE (INDIA) LIMITED ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ABG",
+   "msn": "25871 6",
+   "dateOfRegistration": "2005-07-07",
+   "dateOfDeregistration": "2019-05-31",
+   "date": "2019-05-31",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "HAWKER800 XP",
+   "yearOfManufacture": 2005,
+   "owner": "LTD,AVIATION HOUSE COUNTRY CLARE,IRELAND ABG RESOURCE PVT LTD MUMBAI-400004",
+   "lessor": "LTD,AVIATI ON HOUSE IRELAND SAME AS OWNER",
+   "operator": "ABG RESOURCE PVT LTD MATHEW ROAD MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SPF",
+   "msn": "34896",
+   "dateOfRegistration": "2006-02-13",
+   "dateOfDeregistration": "2019-06-28",
+   "date": "2019-06-28",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "THUNDERBOLT II LEASING 2 LIMITED DUBLIN 2 IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "SPICEJET LIMITED HARYANA, INDIA",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JGP",
+   "msn": "34798",
+   "dateOfRegistration": "2006-04-20",
+   "dateOfDeregistration": "2019-04-09",
+   "date": "2019-04-09",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "MARDAL AVIATION LIMITED DUBLIN 2 IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SJI",
+   "msn": "34399",
+   "dateOfRegistration": "2006-08-29",
+   "dateOfDeregistration": "2019-04-26",
+   "date": "2019-04-26",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8K9",
+   "yearOfManufacture": 2006,
+   "owner": "TWC AVIATION CAPITAL LIMITED DUBLIN 4 IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET LITE (INDIA) LIMITED ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JGQ",
+   "msn": "34797",
+   "dateOfRegistration": "2006-09-04",
+   "dateOfDeregistration": "2019-04-09",
+   "date": "2019-04-09",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "CROLLY AVIATION LIMITED DUBLIN 2 IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JGR",
+   "msn": "34799",
+   "dateOfRegistration": "2006-09-19",
+   "dateOfDeregistration": "2019-04-23",
+   "date": "2019-04-23",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "DELAWARE AIRCRAFT HIRE 2006 LLC WILMINGTON DELAWARE 19890- 0001",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SJJ",
+   "msn": "34400",
+   "dateOfRegistration": "2006-09-25",
+   "dateOfDeregistration": "2019-04-26",
+   "date": "2019-04-26",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "TWC AVIATION CAPITAL LIMITED DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET LITE (INDIA) LIMITED ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JGS",
+   "msn": "34800",
+   "dateOfRegistration": "2006-10-30",
+   "dateOfDeregistration": "2019-04-23",
+   "date": "2019-04-23",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "DELAWARE AIRCRAFT HIRE 2006 LLC WILMINGTON DELAWARE 19890- 0001",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JGT",
+   "msn": "34801",
+   "dateOfRegistration": "2006-12-19",
+   "dateOfDeregistration": "2019-04-24",
+   "date": "2019-04-24",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "ALTERNA AIRCRAFT V B LIMITED DUBLIN 3 IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JGU",
+   "msn": "34802",
+   "dateOfRegistration": "2007-02-09",
+   "dateOfDeregistration": "2019-04-24",
+   "date": "2019-04-24",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-85R",
+   "yearOfManufacture": 2007,
+   "owner": "IRISH ALTERNA AIRCRAFT V B LTD",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JGV",
+   "msn": "34803",
+   "dateOfRegistration": "2007-03-19",
+   "dateOfDeregistration": "2019-04-24",
+   "date": "2019-04-24",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2007,
+   "owner": "DUBLIN 3 IRELAND IRISH SASOF III (A 19) AVIATION IRELAND DAC",
+   "lessor": "SAME AS OWNER",
+   "operator": "ANDHERI (EAST), MUMBAI JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JGW",
+   "msn": "34804",
+   "dateOfRegistration": "2007-06-29",
+   "dateOfDeregistration": "2019-04-24",
+   "date": "2019-04-24",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2007,
+   "owner": "SASOF III (A 19) AVIATION IRELAND DAC DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-SKM",
+   "msn": "LJ- 1810",
+   "dateOfRegistration": "2007-07-12",
+   "dateOfDeregistration": "2019-06-18",
+   "date": "2019-06-18",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BEECH KING AIR C-90",
+   "yearOfManufacture": 2006,
+   "owner": "BELLARY IRON ORES PVT LTD ALLIPUR, BELLARY- 583105",
+   "lessor": "SAME AS OWNER",
+   "operator": "BELLARY IRON ORES PVT LTD ALLIPUR, BELLARY-583105",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JGX",
+   "msn": "34805",
+   "dateOfRegistration": "2007-08-31",
+   "dateOfDeregistration": "2019-04-25",
+   "date": "2019-04-25",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-75R",
+   "yearOfManufacture": 2007,
+   "owner": "ECHELON IRELAND MADISON ONE LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JGY",
+   "msn": "34806",
+   "dateOfRegistration": "2007-10-15",
+   "dateOfDeregistration": "2019-04-25",
+   "date": "2019-04-25",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-75R",
+   "yearOfManufacture": 2007,
+   "owner": "ECHELON IRELAND MADISON ONE LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JBD",
+   "msn": null,
+   "dateOfRegistration": "2007-11-22",
+   "dateOfDeregistration": "2019-04-23",
+   "date": "2019-04-23",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "SMBC AVIATION CAPITAL LIMITED IFSC HOUSE, IFSC DUBLIN 1 IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JEH",
+   "msn": "35166",
+   "dateOfRegistration": "2007-12-03",
+   "dateOfDeregistration": "2019-05-17",
+   "date": "2019-05-17",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 777-337 ER",
+   "yearOfManufacture": 2007,
+   "owner": "JIHB LTD DUBLIN 1 IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JCJ",
+   "msn": "771",
+   "dateOfRegistration": "2007-12-10",
+   "dateOfDeregistration": "2019-05-15",
+   "date": "2019-05-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2007,
+   "owner": "CONSTELLATION AIRCRAFT LEASING LIMITED SHANNON, CO. CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JCK",
+   "msn": "775",
+   "dateOfRegistration": "2007-12-31",
+   "dateOfDeregistration": "2019-05-15",
+   "date": "2019-05-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2007,
+   "owner": "CONSTELLATION AIRCRAFT LEASING LIMITED SHANNON, CO. CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JBC",
+   "msn": "36847",
+   "dateOfRegistration": "2007-12-14",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2007,
+   "owner": "BANK OF UTAH (AS OWNER TRUSTEE) LAKE CITY, UT 84111, USA",
+   "lessor": "ACG CAPITAL PARTNERS",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JEK",
+   "msn": "35165",
+   "dateOfRegistration": "2008-02-18",
+   "dateOfDeregistration": "2019-04-25",
+   "date": "2019-04-25",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 777-337 ER",
+   "yearOfManufacture": 2008,
+   "owner": "JIHB TWO LIMITED DUBLIN 1, IRELAND",
+   "lessor": "IRELAND V LTD SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JBE",
+   "msn": "35106",
+   "dateOfRegistration": "2008-02-29",
+   "dateOfDeregistration": "2019-04-23",
+   "date": "2019-04-23",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-85R",
+   "yearOfManufacture": 2008,
+   "owner": "KLAATU AIRCRAFT LEASING (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JBF",
+   "msn": "35082",
+   "dateOfRegistration": "2008-03-31",
+   "dateOfDeregistration": "2019-04-23",
+   "date": "2019-04-23",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-85R",
+   "yearOfManufacture": 2008,
+   "owner": "AIRCRAFT MSN 35082 LLC DELAWARE 19904, USA",
+   "lessor": "DOLPHIN LEASING (IRELAND) LIMITED",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JCL",
+   "msn": "791",
+   "dateOfRegistration": "2008-05-30",
+   "dateOfDeregistration": "2019-05-15",
+   "date": "2019-05-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2008,
+   "owner": "CONSTELLATION AIRCRAFT LEASING LIMITED SHANNON, CO. CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JCM",
+   "msn": "793",
+   "dateOfRegistration": "2008-06-10",
+   "dateOfDeregistration": "2019-05-27",
+   "date": "2019-05-27",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2008,
+   "owner": "CONSTELLATION AIRCRAFT LEASING LIMITED. SHANNON, CO. CLARE, IRELAND WELLS FARGO",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JWP",
+   "msn": "947",
+   "dateOfRegistration": "2008-09-24",
+   "dateOfDeregistration": "2019-04-26",
+   "date": "2019-04-26",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-202",
+   "yearOfManufacture": 2008,
+   "owner": "TRUST COMPANY, NATIONAL ASOCIATION , UTAH 84111,UNITED STATES OF",
+   "lessor": "GAFS-IT LIMITED",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JCN",
+   "msn": "825",
+   "dateOfRegistration": "2008-10-16",
+   "dateOfDeregistration": "2019-05-15",
+   "date": "2019-05-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2008,
+   "owner": "AMERICA CONSTELLATION AIRCRAFT LEASING LIMITED",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JCP",
+   "msn": "841",
+   "dateOfRegistration": "2008-12-22",
+   "dateOfDeregistration": "2019-05-15",
+   "date": "2019-05-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2008,
+   "owner": "CONSTELLATION AIRCRAFT LEASING LIMITED SHANNON, CO. CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JCQ",
+   "msn": "843",
+   "dateOfRegistration": "2008-12-29",
+   "dateOfDeregistration": "2019-05-15",
+   "date": "2019-05-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2008,
+   "owner": "CONSTELLATION AIRCRAFT LEASING LIMITED SHANNON, CO. CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JWQ",
+   "msn": "956",
+   "dateOfRegistration": "2008-12-26",
+   "dateOfDeregistration": "2019-04-26",
+   "date": "2019-04-26",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-202",
+   "yearOfManufacture": 2008,
+   "owner": "WELLS FARGO TRUST COMPANY, NATIONAL ASOCIATION ,UNITED STATES OF AMERICA",
+   "lessor": "GAFS-IE LIMITED",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-WAI",
+   "msn": "3798",
+   "dateOfRegistration": "2009-03-02",
+   "dateOfDeregistration": "2019-04-16",
+   "date": "2019-04-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": 2009,
+   "owner": "CELESTIAL AVIATION TRADING 2 LIMITED CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA) LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-WAJ",
+   "msn": "3827",
+   "dateOfRegistration": "2009-03-20",
+   "dateOfDeregistration": "2019-06-11",
+   "date": "2019-06-11",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": 2009,
+   "owner": "CELESTIAL ECA TRADING 2 LIMITED CLARE, IRELAND",
+   "lessor": "SAME AS OWNER ACG",
+   "operator": "GO AIRLINES (INDIA) LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JBJ",
+   "msn": "36551",
+   "dateOfRegistration": "2009-07-24",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2009,
+   "owner": "SAN CLEMENTE LEASING LLC WELMINGTON DE 19801 USA",
+   "lessor": "ACQUISITI ON IRELAND V LTD DUNLINE1 IRELAND",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JBK",
+   "msn": "36553",
+   "dateOfRegistration": "2009-10-29",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2009,
+   "owner": "SHELL MAKER LEASING LLC DE 19801 ,USA",
+   "lessor": "ACG ACQUISITI ON IRELAND V LTD DUBLIN 1, IRELAND",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JBQ",
+   "msn": "36694",
+   "dateOfRegistration": "2010-05-11",
+   "dateOfDeregistration": "2019-04-22",
+   "date": "2019-04-22",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2010,
+   "owner": "AWAS 36694 IRELAND LTD DUBLIN 2 IRELAND",
+   "lessor": "WILMINGT ON TRUST COMPANY DELAWARE 19890-",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JBR",
+   "msn": "36695",
+   "dateOfRegistration": "2010-05-21",
+   "dateOfDeregistration": "2019-04-22",
+   "date": "2019-04-22",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2010,
+   "owner": "AWAS 36694 IRELAND LTD DUBLIN 2 IRELAND",
+   "lessor": "1605 USA SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-GPL",
+   "msn": "5133",
+   "dateOfRegistration": "2010-10-04",
+   "dateOfDeregistration": "2019-05-17",
+   "date": "2019-05-17",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ENSTROM 480B",
+   "yearOfManufacture": 2010,
+   "owner": "ORISSA STEVEDORES LTD. CUTTACK,ORISSA",
+   "lessor": "SAME AS OWNER",
+   "operator": "ORISSA STEVEDORES LTD. CUTTACK,ORISSA",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JBS",
+   "msn": "36698",
+   "dateOfRegistration": "2010-10-13",
+   "dateOfDeregistration": "2019-04-22",
+   "date": "2019-04-22",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2010,
+   "owner": "AWAS 36694 IRELAND LTD DUBLIN 2 IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JCR",
+   "msn": "919",
+   "dateOfRegistration": "2010-11-01",
+   "dateOfDeregistration": "2019-05-17",
+   "date": "2019-05-17",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2010,
+   "owner": "INJET LEASING COMPANY LIMITED DUBLIN 1, IRELAND",
+   "lessor": "INVESTEC INTERNATI ONAL LTD",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JCT",
+   "msn": "924",
+   "dateOfRegistration": "2010-10-29",
+   "dateOfDeregistration": "2019-05-16",
+   "date": "2019-05-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2010,
+   "owner": "INJET LEASING COMPANY LIMITED DUBLIN 1, IRELAND",
+   "lessor": "INVESTEC INTERNATI ONAL LTD DUBLIN 2, IRELAND",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JCU",
+   "msn": "928",
+   "dateOfRegistration": "2010-11-18",
+   "dateOfDeregistration": "2019-05-16",
+   "date": "2019-05-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2010,
+   "owner": "INJET LEASING COMPANY LIMITED DUBLIN 1, IRELAND",
+   "lessor": "INVESTEC INTERNATI ONAL LTD DUBLIN 2, IRELAND",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JCV",
+   "msn": "932",
+   "dateOfRegistration": "2010-12-03",
+   "dateOfDeregistration": "2019-05-16",
+   "date": "2019-05-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2010,
+   "owner": "INJET LEASING COMPANY LIMITED DUBLIN 1, IRELAND",
+   "lessor": "INVESTEC INTERNATI ONAL LTD DUBLIN 2, IRELAND",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JLE",
+   "msn": "33555",
+   "dateOfRegistration": "2010-12-06",
+   "dateOfDeregistration": "2019-04-22",
+   "date": "2019-04-22",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AS",
+   "yearOfManufacture": 2004,
+   "owner": "AS AIR LEASE 41 (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET LITE (INDIA) LIMITED ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JLF",
+   "msn": "33556",
+   "dateOfRegistration": "2010-12-14",
+   "dateOfDeregistration": "2019-04-22",
+   "date": "2019-04-22",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AS",
+   "yearOfManufacture": 2003,
+   "owner": "AS AIR LEASE 41 (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET LITE (INDIA) LIMITED ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JCW",
+   "msn": "933",
+   "dateOfRegistration": "2010-12-16",
+   "dateOfDeregistration": "2019-05-16",
+   "date": "2019-05-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2010,
+   "owner": "INJET LEASING COMPANY LIMITED DUBLIN 1, IRELAND",
+   "lessor": "INVESTEC INTERNATI ONAL LTD",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JBU",
+   "msn": "36825",
+   "dateOfRegistration": "2011-09-09",
+   "dateOfDeregistration": "2019-05-09",
+   "date": "2019-05-09",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-86N",
+   "yearOfManufacture": 2011,
+   "owner": "PEMBROKE AIRCRAFT LEASING 3 LTD DUBLIN 2, IRELAND.",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JBW",
+   "msn": "37960",
+   "dateOfRegistration": "2011-10-21",
+   "dateOfDeregistration": "2019-05-14",
+   "date": "2019-05-14",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2011,
+   "owner": "SAROJA AVIATION LIMITED SHANNON COUNTRY CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JBV",
+   "msn": "36827",
+   "dateOfRegistration": "2011-11-14",
+   "dateOfDeregistration": "2019-05-09",
+   "date": "2019-05-09",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2011,
+   "owner": "PEMBROKE AIRCRAFT LEASING 11 LTD DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JBX",
+   "msn": "37961",
+   "dateOfRegistration": "2011-11-21",
+   "dateOfDeregistration": "2019-05-09",
+   "date": "2019-05-09",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2011,
+   "owner": "WINGS AVIATION 37961 LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JLH",
+   "msn": "35223",
+   "dateOfRegistration": "2011-12-19",
+   "dateOfDeregistration": "2019-05-20",
+   "date": "2019-05-20",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-96NER",
+   "yearOfManufacture": 2008,
+   "owner": "CELESTIAL AVIATION TRADING 5 LIMITED.",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JLJ",
+   "msn": "35225",
+   "dateOfRegistration": "2011-12-22",
+   "dateOfDeregistration": "2019-06-06",
+   "date": "2019-06-06",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-96NER",
+   "yearOfManufacture": 2008,
+   "owner": "CELESTIAL AVIATION TRADING 47 LTD. SHANNON COUNTY CLARE IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JBY",
+   "msn": "35227",
+   "dateOfRegistration": "2012-03-20",
+   "dateOfDeregistration": "2019-05-20",
+   "date": "2019-05-20",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-900ER",
+   "yearOfManufacture": 2008,
+   "owner": "CELESTIAL AVAITION TRADING 68 LIMITED SHANNON COUNTY CLARE IRELAND",
+   "lessor": "CELESTIAL AVAITION TRADING 68 LIMITED SHANNON COUNTY CLARE",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-NAT",
+   "msn": "536- 2010",
+   "dateOfRegistration": "2012-02-27",
+   "dateOfDeregistration": "2019-04-11",
+   "date": "2019-04-11",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "American champion 8GCBC",
+   "yearOfManufacture": 2010,
+   "owner": "FLY HIGH AIRWAYS PVT LTD, AMRITSAR AMRITSAR, PUNJAB",
+   "lessor": "IRELAND SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JBZ",
+   "msn": "36539",
+   "dateOfRegistration": "2012-05-25",
+   "dateOfDeregistration": "2019-05-15",
+   "date": "2019-05-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-900ER",
+   "yearOfManufacture": 2008,
+   "owner": "CELESTIAL AVIATION TRADING 49 LTD SHANNON COUNTY CLARE IRELAND",
+   "lessor": "CELESTIAL AVIATION TRADING 49 LTD IRELAND",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JFA",
+   "msn": "38029",
+   "dateOfRegistration": "2012-07-18",
+   "dateOfDeregistration": "2019-04-09",
+   "date": "2019-04-09",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2012,
+   "owner": "KORNERSTONE AIRLEASE (NO. 1) LIMITED BOOTERSTOWN, CO. DUBLIN, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JFB",
+   "msn": "39401",
+   "dateOfRegistration": "2012-08-01",
+   "dateOfDeregistration": "2019-05-10",
+   "date": "2019-05-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2012,
+   "owner": "CELESTIAL AVIATION TRADING 62 LTD SHANNON COUNTY CLARE , IRELAND",
+   "lessor": "CELESTIAL AVIATION TRADING 62 LTD",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JFC",
+   "msn": "38030",
+   "dateOfRegistration": "2012-08-08",
+   "dateOfDeregistration": "2019-05-10",
+   "date": "2019-05-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2012,
+   "owner": "CELESTIAL AVIATION TRADING 62 LTD SHANNON COUNTY CLARE , IRELAND",
+   "lessor": "CELESTIAL AVIATION TRADING 62 LTD",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JFD",
+   "msn": "39051",
+   "dateOfRegistration": "2012-10-31",
+   "dateOfDeregistration": "2019-04-16",
+   "date": "2019-04-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2012,
+   "owner": "JET AIR 13 LIMITED SHANNON, CO.CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JCX",
+   "msn": "1056",
+   "dateOfRegistration": "2012-11-30",
+   "dateOfDeregistration": "2019-05-08",
+   "date": "2019-05-08",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2012,
+   "owner": "CELESTIAL AVIATION TRADING 27 LTD SHANNON, CO.CLARE, IRELAND",
+   "lessor": "CELESTIAL AVIATION TRADING 27 LTD",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JFE",
+   "msn": "39053",
+   "dateOfRegistration": "2012-12-04",
+   "dateOfDeregistration": "2019-05-25",
+   "date": "2019-05-25",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2005,
+   "owner": "TULSHYAN AVIATION LIMITED SANNON CLARE IRELAND COMPANY, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JWS",
+   "msn": "1361",
+   "dateOfRegistration": "2012-12-13",
+   "dateOfDeregistration": "2019-04-16",
+   "date": "2019-04-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-300",
+   "yearOfManufacture": 2012,
+   "owner": "APTREE AVIATION TRADING 5 CO. LTD DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JWR",
+   "msn": "1351",
+   "dateOfRegistration": "2012-12-18",
+   "dateOfDeregistration": "2019-04-30",
+   "date": "2019-04-30",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-302",
+   "yearOfManufacture": 2012,
+   "owner": "CELESTIAL AVIATION TRADING 4 LTD. SHANNON, CO. CLARE IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JWT",
+   "msn": "1370",
+   "dateOfRegistration": "2013-01-31",
+   "dateOfDeregistration": "2019-04-16",
+   "date": "2019-04-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-302",
+   "yearOfManufacture": 2012,
+   "owner": "APTREE AVIATION TRADING 5 CO. LTD. DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JDC",
+   "msn": "772",
+   "dateOfRegistration": "2013-02-12",
+   "dateOfDeregistration": "2019-05-16",
+   "date": "2019-05-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2007,
+   "owner": "INV JET LEASING LIMITED DUBLIN 2, IRELAND.",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JFF",
+   "msn": "39055",
+   "dateOfRegistration": "2013-02-22",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "ACG AIRCRAFT LEASING IRELAND LIMITED BALLSBRIDGE, DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JWU",
+   "msn": "1391",
+   "dateOfRegistration": "2013-03-08",
+   "dateOfDeregistration": "2019-04-30",
+   "date": "2019-04-30",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-302",
+   "yearOfManufacture": 2013,
+   "owner": "CELESTIAL AVIATION TRADING 52 LTD.",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-JDD",
+   "msn": "758",
+   "dateOfRegistration": "2013-03-05",
+   "dateOfDeregistration": "2019-05-10",
+   "date": "2019-05-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72- 212A",
+   "yearOfManufacture": 2007,
+   "owner": "SHANNON, CO. CLARE IRELAND INV JET LEASING LIMITED DUBLIN 2, IRELAND.",
+   "lessor": "SAME AS OWNER",
+   "operator": "ANDHERI (EAST), MUMBAI JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFG",
+   "msn": "39057",
+   "dateOfRegistration": "2013-04-26",
+   "dateOfDeregistration": "2019-05-16",
+   "date": "2019-05-16",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "BOC AVIATION (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFH",
+   "msn": "39058",
+   "dateOfRegistration": "2013-05-21",
+   "dateOfDeregistration": "2019-05-03",
+   "date": "2019-05-03",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "BOC AVIATION (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JEQ",
+   "msn": "35161",
+   "dateOfRegistration": "2013-06-04",
+   "dateOfDeregistration": "2019-05-15",
+   "date": "2019-05-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "B777-35RER",
+   "yearOfManufacture": 2008,
+   "owner": "BISHOPSGATE AIRCRAFT 2008 LTD DESIGNATED ACTIVITY COMPANY (DAC) DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFJ",
+   "msn": "39059",
+   "dateOfRegistration": "2013-06-12",
+   "dateOfDeregistration": "2019-04-10",
+   "date": "2019-04-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "ALLENWOOD AIRCRAFT LEASING LIMITED. DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFK",
+   "msn": "39060",
+   "dateOfRegistration": "2013-07-03",
+   "dateOfDeregistration": "2019-04-10",
+   "date": "2019-04-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "BALLYHAUNIS AIRCRAFT LEASING LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFL",
+   "msn": "39061",
+   "dateOfRegistration": "2013-08-23",
+   "dateOfDeregistration": "2019-05-03",
+   "date": "2019-05-03",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "BOC AVIATION (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFM",
+   "msn": "39067",
+   "dateOfRegistration": "2013-09-13",
+   "dateOfDeregistration": "2019-04-10",
+   "date": "2019-04-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "CARLOW AIRCRAFT LEASING LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFN",
+   "msn": "39062",
+   "dateOfRegistration": "2013-10-15",
+   "dateOfDeregistration": "2019-05-08",
+   "date": "2019-05-08",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "BOC AVIATION (IRELAND) LIMITED DUBLIN 2, REPUBLIC OF IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFP",
+   "msn": "39068",
+   "dateOfRegistration": "2013-11-21",
+   "dateOfDeregistration": "2019-04-10",
+   "date": "2019-04-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "DUNGARVAN AIRCRAFT LEASING LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFQ",
+   "msn": "39063",
+   "dateOfRegistration": "2013-12-17",
+   "dateOfDeregistration": "2019-04-10",
+   "date": "2019-04-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2013,
+   "owner": "ELPHIN AIRCRAFT LEASING LIMITED",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-JFR",
+   "msn": "39064",
+   "dateOfRegistration": "2014-02-17",
+   "dateOfDeregistration": "2019-05-08",
+   "date": "2019-05-08",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2014,
+   "owner": "DUBLIN 2, IRELAND BOC AVIATION (IRELAND) LIMITED DUBLIN 2, REPUBLIC OF IRELAND",
+   "lessor": null,
+   "operator": "ANDHERI (EAST), MUMBAI JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JFS",
+   "msn": "39065",
+   "dateOfRegistration": "2014-04-30",
+   "dateOfDeregistration": "2019-05-14",
+   "date": "2019-05-14",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2014,
+   "owner": "ALAFCO AIRCRAFT LEASING EIGHT LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JFT",
+   "msn": "39066",
+   "dateOfRegistration": "2014-06-04",
+   "dateOfDeregistration": "2019-05-14",
+   "date": "2019-05-14",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8AL",
+   "yearOfManufacture": 2014,
+   "owner": "ALAFCO AIRCRAFT LEASING EIGHT LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER AVOLON",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JFW",
+   "msn": "42799",
+   "dateOfRegistration": "2014-07-23",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-85R",
+   "yearOfManufacture": 2014,
+   "owner": "CHATSWORTH AVIATION LTD DUBLIN2, IRELAND",
+   "lessor": "AEROSPAC E (IRELAND) LTD DUBLIN 4,",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JFX",
+   "msn": "42800",
+   "dateOfRegistration": "2014-08-27",
+   "dateOfDeregistration": "2019-04-09",
+   "date": "2019-04-09",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-85R",
+   "yearOfManufacture": 2014,
+   "owner": "ORIX AVIATION SYSTEM LIMITED CO. DUBLIN, IRELAND",
+   "lessor": "IRELAND SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JFY",
+   "msn": "42804",
+   "dateOfRegistration": "2014-09-10",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-85R",
+   "yearOfManufacture": 2014,
+   "owner": "JADE AVIATION (IRELAND) AOE 2 LIMITED DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JFZ",
+   "msn": "39069",
+   "dateOfRegistration": "2014-10-22",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-85R",
+   "yearOfManufacture": 2014,
+   "owner": "FLY AIRCRAFT HOLDINGS SEVENTEEN LIMITED DUBLINE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JTA",
+   "msn": "42805",
+   "dateOfRegistration": "2014-11-25",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-85R",
+   "yearOfManufacture": 2014,
+   "owner": "FLY AIRCRAFT HOLDINGS EIGHTEEN LIMITED DUBLINE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JTB",
+   "msn": "39070",
+   "dateOfRegistration": "2014-12-16",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-85R",
+   "yearOfManufacture": 2014,
+   "owner": "FLY AIRCRAFT HOLDINGS SEVENTEEN LIMITED DUBLINE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-JTC",
+   "msn": "29685",
+   "dateOfRegistration": "2015-12-18",
+   "dateOfDeregistration": "2019-04-15",
+   "date": "2019-04-15",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8BK",
+   "yearOfManufacture": 2007,
+   "owner": "CIT GROUP FINANCE (IRELAND)",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-IDU",
+   "msn": "2457",
+   "dateOfRegistration": "2016-06-07",
+   "dateOfDeregistration": "2019-06-25",
+   "date": "2019-06-25",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320-232",
+   "yearOfManufacture": 2005,
+   "owner": "DUBLINE 2, IRELAND AWAS 2457 LLC NEW YORK NY 10036,USA",
+   "lessor": "AWAS IRELAND LEASING FOUR LIMITED DUBLIN 2,",
+   "operator": "ANDHERI (EAST), MUMBAI INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI-",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JEX",
+   "msn": "35163",
+   "dateOfRegistration": "2016-12-13",
+   "dateOfDeregistration": "2019-05-17",
+   "date": "2019-05-17",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "B777-35 RER",
+   "yearOfManufacture": 2007,
+   "owner": "JIHB LIMITED DUBLIN 1, IRELAND",
+   "lessor": "IRELAND SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JTE",
+   "msn": "37743",
+   "dateOfRegistration": "2017-05-19",
+   "dateOfDeregistration": "2019-04-11",
+   "date": "2019-04-11",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-86J",
+   "yearOfManufacture": 2009,
+   "owner": "SMBC AVIATION CAPITAL LIMITED DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-GOT",
+   "msn": "3063",
+   "dateOfRegistration": "2017-07-12",
+   "dateOfDeregistration": "2019-05-10",
+   "date": "2019-05-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": 2007,
+   "owner": "GASL LEASING IRELAND NO. 1 LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA) LIMITED INDUSTRIAL AREA, NEW DELHI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JTF",
+   "msn": "36813",
+   "dateOfRegistration": "2017-10-26",
+   "dateOfDeregistration": "2019-04-09",
+   "date": "2019-04-09",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-86N",
+   "yearOfManufacture": 2009,
+   "owner": "GY AVIATION LEASE 1702 CO. LIMITED DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JTM",
+   "msn": "37746",
+   "dateOfRegistration": "2017-12-22",
+   "dateOfDeregistration": "2019-04-11",
+   "date": "2019-04-11",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-86J",
+   "yearOfManufacture": 2009,
+   "owner": "SMBC AVIATION CAPITAL LIMITED DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JTG",
+   "msn": "36815",
+   "dateOfRegistration": "2018-01-05",
+   "dateOfDeregistration": "2019-04-09",
+   "date": "2019-04-09",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-86N",
+   "yearOfManufacture": 2009,
+   "owner": "GY AVIATION LEASE 1702 CO. LIMITED DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JTL",
+   "msn": "37745",
+   "dateOfRegistration": "2018-01-12",
+   "dateOfDeregistration": "2019-04-11",
+   "date": "2019-04-11",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-86J",
+   "yearOfManufacture": 2009,
+   "owner": "SMBC AVIATION CAPITAL LIMITED DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JTN",
+   "msn": "40236",
+   "dateOfRegistration": "2018-02-07",
+   "dateOfDeregistration": "2019-04-22",
+   "date": "2019-04-22",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8KN",
+   "yearOfManufacture": 2009,
+   "owner": "AWAS 40236 IRELAND LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JXA",
+   "msn": "44861",
+   "dateOfRegistration": "2018-06-19",
+   "dateOfDeregistration": "2019-05-10",
+   "date": "2019-05-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "CELESTIAL AVIATION TRADING 11 LIMITED",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-JXB",
+   "msn": "60703",
+   "dateOfRegistration": "2018-07-03",
+   "dateOfDeregistration": "2019-05-10",
+   "date": "2019-05-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "COUNTRY CLARE, IRELAND CELESTIAL AVIATION TRADING 11 LIMITED COUNTRY CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-JXC",
+   "msn": "44862",
+   "dateOfRegistration": "2018-08-24",
+   "dateOfDeregistration": "2019-05-10",
+   "date": "2019-05-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "CELESTIAL AVIATION TRADING 11 LIMITED COUNTRY CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-JXD",
+   "msn": "43558",
+   "dateOfRegistration": "2018-08-31",
+   "dateOfDeregistration": "2019-05-10",
+   "date": "2019-05-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "CELESTIAL AVIATION TRADING 11 LIMITED COUNTRY CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-JXE",
+   "msn": "44863",
+   "dateOfRegistration": "2018-09-25",
+   "dateOfDeregistration": "2019-05-10",
+   "date": "2019-05-10",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SMBC AVIATION CAPITAL LIMITED DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "JET AIRWAYS (INDIA) LTD ANDHERI (EAST), MUMBAI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-IKF",
+   "msn": "4314",
+   "dateOfRegistration": "2018-11-19",
+   "dateOfDeregistration": "2019-05-14",
+   "date": "2019-05-14",
+   "period": {
+    "from": "2019-04-01",
+    "to": "2019-06-30"
+   },
+   "kind": "deregistration",
+   "type": "A320-214",
+   "yearOfManufacture": 2010,
+   "owner": "CELESTIAL AVIATION TRADING 8 LIMITED COUNTRY CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Dereg(April_Jun2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(April_Jun2019).pdf",
+    "page": 12
+   }
+  }
+ ],
+ "dropped": []
+}

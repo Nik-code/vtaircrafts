@@ -1,0 +1,409 @@
+{
+ "file": "Reg(Jan_Mar2020).pdf",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+ "from": "2020-01-01",
+ "to": "2020-03-31",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-GSF",
+   "msn": "14500871",
+   "dateOfRegistration": "2020-01-01",
+   "dateOfDeregistration": null,
+   "date": "2020-01-01",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "EMBRAER EMB-145LR",
+   "yearOfManufacture": 2004,
+   "owner": "GHODAWAT ENTERPRISES PRIVATE LIMITED BANGALORE- 560082, KARNATAKA",
+   "lessor": "SAME AS OWNER",
+   "operator": "GHODAWAT ENTERPRISES PRIVATE LIMITED BANGALORE- 560082, KARNATAKA",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RBD",
+   "msn": "1120",
+   "dateOfRegistration": "2020-01-28",
+   "dateOfDeregistration": null,
+   "date": "2020-01-28",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2008JC",
+   "yearOfManufacture": 2019,
+   "owner": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED NEW DELHI, SOUTH DELHI,",
+   "lessor": "SAME AS OWNER",
+   "operator": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED NEW DELHI, SOUTH DELHI,",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RBC",
+   "msn": "1119",
+   "dateOfRegistration": "2020-01-28",
+   "dateOfDeregistration": null,
+   "date": "2020-01-28",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2008JC",
+   "yearOfManufacture": 2019,
+   "owner": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED NEW DELHI, SOUTH DELHI,",
+   "lessor": "SAME AS OWNER",
+   "operator": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED NEW DELHI, SOUTH DELHI,",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RBB",
+   "msn": "298",
+   "dateOfRegistration": "2020-02-13",
+   "dateOfDeregistration": null,
+   "date": "2020-02-13",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2006T",
+   "yearOfManufacture": 2019,
+   "owner": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED NEW DELHI, SOUTH DELHI,",
+   "lessor": "SAME AS OWNER",
+   "operator": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED NEW DELHI, SOUTH DELHI,",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RBE",
+   "msn": "1155",
+   "dateOfRegistration": "2020-02-13",
+   "dateOfDeregistration": null,
+   "date": "2020-02-13",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2008JC",
+   "yearOfManufacture": 2019,
+   "owner": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED NEW DELHI, SOUTH DELHI,",
+   "lessor": "SAME AS OWNER",
+   "operator": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED NEW DELHI, SOUTH DELHI,",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IJG",
+   "msn": "8987",
+   "dateOfRegistration": "2020-02-28",
+   "dateOfDeregistration": null,
+   "date": "2020-02-28",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A321-271N",
+   "yearOfManufacture": 2020,
+   "owner": "PURPLE SUNBIRD LEASING LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED NEW DELHI JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IUK",
+   "msn": "9063",
+   "dateOfRegistration": "2020-02-14",
+   "dateOfDeregistration": null,
+   "date": "2020-02-14",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A321-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "GY AVIATION LEASE 1905 CO., LIMITED DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IUM",
+   "msn": "9112",
+   "dateOfRegistration": "2020-02-18",
+   "dateOfDeregistration": null,
+   "date": "2020-02-18",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A321-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "GY AVIATION LEASE 1905 CO., LIMITED DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SNM",
+   "msn": "1132",
+   "dateOfRegistration": "2020-02-25",
+   "dateOfDeregistration": null,
+   "date": "2020-02-25",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "P2008 JC",
+   "yearOfManufacture": 2019,
+   "owner": "THE GUJARAT FLYING CLUB HARNI ROAD, VADODARA-",
+   "lessor": "SAME AS OWNER",
+   "operator": "THE GUJARAT FLYING CLUB HARNI ROAD, VADODARA-",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-HLQ",
+   "msn": "20300",
+   "dateOfRegistration": "2020-02-18",
+   "dateOfDeregistration": null,
+   "date": "2020-02-18",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "MBB-BK117- D-2(H-145)",
+   "yearOfManufacture": 2020,
+   "owner": "VERTICAL AVIATION NO.2 LIMITED DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "HELIGO CHARTERS PVT. LTD MUMBAI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IJX",
+   "msn": "9559",
+   "dateOfRegistration": "2020-03-05",
+   "dateOfDeregistration": null,
+   "date": "2020-03-05",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2020,
+   "owner": "BLUESKY 30 LEASING COMPANY LIMITED DUBLIN2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TSD",
+   "msn": "66526",
+   "dateOfRegistration": "2020-02-27",
+   "dateOfDeregistration": null,
+   "date": "2020-02-27",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "BOEING B 787-9",
+   "yearOfManufacture": 2020,
+   "owner": "GYRFALCON TRADING (IRELAND) LIMITED DUBLIN2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IJW",
+   "msn": "9385",
+   "dateOfRegistration": "2020-03-05",
+   "dateOfDeregistration": null,
+   "date": "2020-03-05",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2020,
+   "owner": "AERDRAGON CRYSTAL NO.4 LEASING LIMITED CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IJY",
+   "msn": "9562",
+   "dateOfRegistration": "2020-03-06",
+   "dateOfDeregistration": null,
+   "date": "2020-03-06",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2020,
+   "owner": "CAVIC 17 DESIGNATED ACTIVITY COMPANY DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-VNS",
+   "msn": "6178",
+   "dateOfRegistration": "2020-02-21",
+   "dateOfDeregistration": null,
+   "date": "2020-02-21",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-216",
+   "yearOfManufacture": 2014,
+   "owner": "CIT AEROSPACE INTERNATIONAL DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIR ASIA (INDIA) LIMITED DEVENAHALLI, BENGALURU",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-PRY",
+   "msn": "HA-0177",
+   "dateOfRegistration": "2020-03-02",
+   "dateOfDeregistration": null,
+   "date": "2020-03-02",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "HAWKER 900XP",
+   "yearOfManufacture": 2011,
+   "owner": "SPAN AIR PVT. LTD NEW DELHI",
+   "lessor": "SAME AS OWNER",
+   "operator": "SPAN AIR PVT. LTD NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-TNY",
+   "msn": "10019",
+   "dateOfRegistration": "2020-03-17",
+   "dateOfDeregistration": null,
+   "date": "2020-03-17",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-251",
+   "yearOfManufacture": 2020,
+   "owner": "CELESTIAL AVIATION TRADING 69 LIMITED SHANNON COUNTY CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IUN",
+   "msn": "9151",
+   "dateOfRegistration": "2020-03-12",
+   "dateOfDeregistration": null,
+   "date": "2020-03-12",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A321-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "GY AVIATION LEASE 1907 CO., LIMITED DUBLIN1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Mar2020).pdf",
+    "page": 3
+   }
+  }
+ ],
+ "dropped": []
+}

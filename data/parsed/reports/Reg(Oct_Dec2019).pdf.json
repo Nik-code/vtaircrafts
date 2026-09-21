@@ -1,0 +1,1091 @@
+{
+ "file": "Reg(Oct_Dec2019).pdf",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+ "from": "2019-10-01",
+ "to": "2019-12-31",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "top",
+ "rows": [
+  {
+   "reg": "VT-WGU",
+   "msn": "8445",
+   "dateOfRegistration": "2019-12-11",
+   "dateOfDeregistration": null,
+   "date": "2019-12-11",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "FLIP NO.235 CO. LTD 7-2, MARUNOUCHI 2- CHOME, CHIYODA-KU, TOKYO, JAPAN",
+   "lessor": "SKY HIGH XC LEASING COMPANY LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "operator": "GO AIRLINES (INDIA) LTD. C/O BRITANNIA INDUSTRIES LIMITED, A-33, LAWRENCE ROAD, INDUSTRIAL AREA, NEW DELHI-110035",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-BOM",
+   "msn": "5007",
+   "dateOfRegistration": "2019-10-04",
+   "dateOfDeregistration": null,
+   "date": "2019-10-04",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": 2012,
+   "owner": "AWAS 5007 IRELAND LIMITED 70 SIR JOHN ROGERSON'S QUAY, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIR ASIA (INDIA) LIMITED GROUND FLOOR, ALPHA 3 BUILDING, KEMPEGOWDA INTERNATIONAL AIRPORT, DEVANAHALLI, BANGALORE- 560300",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SFF",
+   "msn": "30474",
+   "dateOfRegistration": "2019-10-01",
+   "dateOfDeregistration": null,
+   "date": "2019-10-01",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 800F",
+   "yearOfManufacture": 2000,
+   "owner": "BANK OF UTAH TRUSTEE 50 SOUTH 200 EAST, SUITE 110, SALT LAKE CITY, UTAH 84111",
+   "lessor": "NGF ALPHA LIMITED RIVERSIDE ONE, SIR JOHN ROGERSO N'S QUAY, DUBLIN2, IRELAND",
+   "operator": "SPICEJET LIMITED 319, UDYOG VIHAR, PHASE- IV, GURGAON- 122016,HARYA NA, INDIA",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-WJJ",
+   "msn": "8785",
+   "dateOfRegistration": "2019-10-01",
+   "dateOfDeregistration": null,
+   "date": "2019-10-01",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BLUESKY 31 LEASING COMPANY LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR,",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA) LTD. C/O BRITANNIA INDUSTRIES LIMITED, A-33, LAWRENCE ROAD, INDUSTRIAL",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-WJL",
+   "msn": "9200",
+   "dateOfRegistration": "2019-10-01",
+   "dateOfDeregistration": null,
+   "date": "2019-10-01",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BLUESKY 31 LEASING COMPANY LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA) LTD. C/O BRITANNIA INDUSTRIES LIMITED, A-33, LAWRENCE ROAD, INDUSTRIAL AREA, NEW DELHI-110035",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-PRM",
+   "msn": "19000571",
+   "dateOfRegistration": "2019-10-01",
+   "dateOfDeregistration": null,
+   "date": "2019-10-01",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "EMBRAER ERJ190-100 ECJ (LINWAGE 1000)",
+   "yearOfManufacture": 2013,
+   "owner": "MYTRI AVIATION PRIVATE LIMITED S-2, T.I.E., BALANAGAR, HYDERABAD- 500037, TELANGANA",
+   "lessor": "SAME AS OWNER",
+   "operator": "MYTRI AVIATION PRIVATE LIMITED S-2, T.I.E., BALANAGAR, HYDERABAD- 500037, TELANGANA",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IUH",
+   "msn": "8968",
+   "dateOfRegistration": "2019-10-10",
+   "dateOfDeregistration": null,
+   "date": "2019-10-10",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A321-271NX",
+   "yearOfManufacture": 2019,
+   "owner": "GY AVIATION LEASE 1901 CO., LIMITED FOURTH FLOOR, 3 GEORGE'S DOCK, IFSC DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IYW",
+   "msn": "1550",
+   "dateOfRegistration": "2019-10-11",
+   "dateOfDeregistration": null,
+   "date": "2019-10-11",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2019,
+   "owner": "SANDYCOVE AIRCRAFT LEASING LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-GOV",
+   "msn": "20256",
+   "dateOfRegistration": "2019-10-24",
+   "dateOfDeregistration": null,
+   "date": "2019-10-24",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "MBB-BK117 D-2(H145)",
+   "yearOfManufacture": 2019,
+   "owner": "GOVERNMENT OF MAHARASHTRA GOVERNMENT OF MAHARASHTRA THE DIRECTOR OF AVIATION, HANGAR NO.06 JUHU",
+   "lessor": "SAME AS OWNER",
+   "operator": "GOVERNMENT OF MAHARASHTRA GOVERNMENT OF MAHARASHTRA THE DIRECTOR OF AVIATION,",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TNP",
+   "msn": "9203",
+   "dateOfRegistration": "2019-10-24",
+   "dateOfDeregistration": null,
+   "date": "2019-10-24",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-251N",
+   "yearOfManufacture": 2019,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED FOURTH FLOOR, 3 GEORGE'S DOCK, IFSC, DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD JEEVAN BHARTI, TOWER 1, 10TH FLOOR, 124 CONNAUGHT CIRCUS, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-TNQ",
+   "msn": "9277",
+   "dateOfRegistration": "2019-10-23",
+   "dateOfDeregistration": null,
+   "date": "2019-10-23",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-251N",
+   "yearOfManufacture": 2019,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED FOURTH FLOOR, 3 GEORGE'S DOCK, IFSC, DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD JEEVAN BHARTI, TOWER 1, 10TH FLOOR, 124 CONNAUGHT CIRCUS, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-WJN",
+   "msn": "9264",
+   "dateOfRegistration": "2019-10-29",
+   "dateOfDeregistration": null,
+   "date": "2019-10-29",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "STAR RISING AVIATION 13 LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA) LTD C/O BRITANNIA INDUSTRIES LIMITED, A-33, LAWRENCE ROAD, INDUSTRIAL AREA, NEW DELHI-110035",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-KTM",
+   "msn": "5716",
+   "dateOfRegistration": "2019-10-17",
+   "dateOfDeregistration": null,
+   "date": "2019-10-17",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": 2013,
+   "owner": "ACG AIRCRAFT LEASING IRELAND LIMITED ALEXANDRA HOUSE, THE SWEEPSTAKES, BALLSBRIDGE, DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIR ASIA (INDIA) LIMITED GROUND FLOOR, ALPHA 3 BUILDING, KEMPEGOWDA INTERNATIONAL AIRPORT, DEVENAHALLI, BENGALURU- 560300",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IJO",
+   "msn": "9118",
+   "dateOfRegistration": "2019-10-25",
+   "dateOfDeregistration": null,
+   "date": "2019-10-25",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "IAS IND 1 LIMITED 32 MOLESWORTH STREET DUBLIN 2,",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IJT",
+   "msn": "9283",
+   "dateOfRegistration": "2019-10-30",
+   "dateOfDeregistration": null,
+   "date": "2019-10-30",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "CAVIC 17 DESIGNATED ACTIVITY COMPANY 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-TNR",
+   "msn": "9296",
+   "dateOfRegistration": "2019-10-28",
+   "dateOfDeregistration": null,
+   "date": "2019-10-28",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-251N",
+   "yearOfManufacture": 2019,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED FOURTH FLOOR, 3 GEORGE'S DOCK, IFSC, DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD JEEVAN BHARTI, TOWER 1, 10TH FLOOR, 124 CONNAUGHT CIRCUS, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-TFA",
+   "msn": "57369",
+   "dateOfRegistration": "2019-10-31",
+   "dateOfDeregistration": null,
+   "date": "2019-10-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 429",
+   "yearOfManufacture": 2019,
+   "owner": "TATA STEEL LTD TATA STEEL BONBAY HOUSE, HOMI MODY STREET, MUBAI- 400001",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA STEEL LTD JEEVAN BHARTI, TOWER 1, 10TH FLOOR, 124 CONNAUGHT CIRCUS, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IYT",
+   "msn": "1544",
+   "dateOfRegistration": "2019-11-07",
+   "dateOfDeregistration": null,
+   "date": "2019-11-07",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2019,
+   "owner": "SANDYCOVE AIRCRAFT LEASING LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-TNL",
+   "msn": "9153",
+   "dateOfRegistration": "2019-11-07",
+   "dateOfDeregistration": null,
+   "date": "2019-11-07",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-251N",
+   "yearOfManufacture": 2019,
+   "owner": "WILMINGTON TRUST SP",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-AMD",
+   "msn": "4887",
+   "dateOfRegistration": "2019-11-06",
+   "dateOfDeregistration": null,
+   "date": "2019-11-06",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": 2011,
+   "owner": "ACG AIRCRAFT LEASING IRELAND LIMITED ALEXANDRA HOUSE, THE SWEEPSTAKES, BALLSBRIDGE, DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIR ASIA (INDIA) LIMITED GROUND FLOOR, ALPHA 3 BUILDING, KEMPEGOWDA INTERNATIONAL AIRPORT, DEVENAHALLI, BENGALURU- 560300",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-TNM",
+   "msn": "9170",
+   "dateOfRegistration": "2019-11-29",
+   "dateOfDeregistration": null,
+   "date": "2019-11-29",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS 320- 251N",
+   "yearOfManufacture": 2019,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED FOURTH FLOOR, 3 GEORGE'S DOCK, IFSC, DUBLIN 1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD JEEVAN BHARTI, TOWER 1, 10TH FLOOR, 124 CONNAUGHT CIRCUS, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-NAG",
+   "msn": "3750",
+   "dateOfRegistration": "2019-11-19",
+   "dateOfDeregistration": null,
+   "date": "2019-11-19",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": 2009,
+   "owner": "KLAATU AIRCRAFT LEASING IRELAND LIMITED 8 FITZWILLIAM PLACE, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIR ASIA (INDIA) LIMITED GROUND FLOOR, ALPHA 3 BUILDING, KEMPEGOWDA INTERNATIONAL AIRPORT, DEVENAHALLI, BENGALURU- 560300",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ATQ",
+   "msn": "5430",
+   "dateOfRegistration": "2019-11-14",
+   "dateOfDeregistration": null,
+   "date": "2019-11-14",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-216",
+   "yearOfManufacture": 2012,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIR ASIA (INDIA) LIMITED GROUND FLOOR, ALPHA 3 BUILDING,",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-WJP",
+   "msn": "9358",
+   "dateOfRegistration": "2019-12-11",
+   "dateOfDeregistration": null,
+   "date": "2019-12-11",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "STAR RISING AVIATION 13 LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA) LTD C/O BRITANNIA INDUSTRIES LIMITED, A-33, LAWRENCE ROAD, INDUSTRIAL AREA, NEW DELHI-110035",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-IJL",
+   "msn": "9079",
+   "dateOfRegistration": "2019-11-26",
+   "dateOfDeregistration": null,
+   "date": "2019-11-26",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BANC OF AMERICA LEASING IRELAND CO. LIMITED 2 APRK PLACE, HATCH ST.,DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-IJR",
+   "msn": "9213",
+   "dateOfRegistration": "2019-12-18",
+   "dateOfDeregistration": null,
+   "date": "2019-12-18",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "IAS IND 1 LIMITED 32 MOLESWORTH STREET DUBLIN 2, IRELAND DO2 Y512 IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-GHP",
+   "msn": "1197",
+   "dateOfRegistration": "2019-12-31",
+   "dateOfDeregistration": null,
+   "date": "2019-12-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "CLIPPER, POWER HANG GLIDER",
+   "yearOfManufacture": 2008,
+   "owner": "GANGADHAR SHETTY H.NO. 39, POST KAIKANI N.K. DISTRICT, KARNATAKA- 581350",
+   "lessor": "SAME AS OWNER",
+   "operator": "GANGADHAR SHETTY H.NO. 39, POST KAIKANI N.K. DISTRICT, KARNATAKA- 581350",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-TNU",
+   "msn": "9367",
+   "dateOfRegistration": "2019-11-28",
+   "dateOfDeregistration": null,
+   "date": "2019-11-28",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-251N",
+   "yearOfManufacture": 2019,
+   "owner": "CELESTIAL AVIATION TRADING 62 LIMITED AVIATION HOUSE, SHANNON, COUNTY CLARE, IRELAND. V14AN29",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD JEEVAN BHARTI, TOWER 1, 10TH FLOOR, 124 CONNAUGHT CIRCUS, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-WJQ",
+   "msn": "9375",
+   "dateOfRegistration": "2019-11-29",
+   "dateOfDeregistration": null,
+   "date": "2019-11-29",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "STAR RISING AVIATION 13 LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA ) LIMITED C/O BRITANNIA INDUSTRIES LIMITED, A-33, LAWRENCE ROAD INDUSTRIAL AREA, NEW DELHI-110035",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-TNV",
+   "msn": "9381",
+   "dateOfRegistration": "2019-12-05",
+   "dateOfDeregistration": null,
+   "date": "2019-12-05",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-251N",
+   "yearOfManufacture": 2019,
+   "owner": "CELESTIAL AVIATION TRADING 62 LIMITED AVIATION HOUSE, SHANNON, COUNTY CLARE, IRELAND. V14AN29",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD JEEVAN BHARTI, TOWER 1, 10TH FLOOR, 124 CONNAUGHT CIRCUS, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-IUL",
+   "msn": "9106",
+   "dateOfRegistration": "2019-12-17",
+   "dateOfDeregistration": null,
+   "date": "2019-12-17",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A321-271NX",
+   "yearOfManufacture": 2019,
+   "owner": "GY AVIATION LEASE 1902 CO., LIMITED FOURTH FLOOR, 3 GEORGE'S DOCK, IFSC, DUBLIN 1,IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-IUF",
+   "msn": "8989",
+   "dateOfRegistration": "2019-12-18",
+   "dateOfDeregistration": null,
+   "date": "2019-12-18",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A321-271NX",
+   "yearOfManufacture": 2019,
+   "owner": "GY AVIATION LEASE 1902 CO., LIMITED FOURTH FLOOR, 3 GEORGE'S DOCK, IFSC, DUBLIN 1,IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-GOG",
+   "msn": "6143",
+   "dateOfRegistration": "2019-12-06",
+   "dateOfDeregistration": null,
+   "date": "2019-12-06",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "CL-600- 2B16(CHALL ENGER 604 VARIANT)",
+   "yearOfManufacture": 2019,
+   "owner": "GOVERNMENT OF GUJARAT, C/O GUJARAT STATE AVIATION INFRASTRUCTURE COMPANY LIMITED, S.V.P.I AIRPORT AHMEDABAD- 380004",
+   "lessor": "SAME AS OWNER",
+   "operator": "GOVERNMENT OF GUJARAT, C/O GUJARAT STATE AVIATION INFRASTRUCTU RE COMPANY LIMITED, S.V.P.I AIRPORT AHMEDABAD- 380004",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-TNS",
+   "msn": "9363",
+   "dateOfRegistration": "2019-12-23",
+   "dateOfDeregistration": null,
+   "date": "2019-12-23",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-251N",
+   "yearOfManufacture": 2019,
+   "owner": "CELESTIAL AVIATION TRADING 62 LIMITED AVIATION HOUSE, SHANNON, COUNTY CLARE, IRELAND. V14AN29",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD JEEVAN BHARTI, TOWER 1, 10TH FLOOR, 124 CONNAUGHT CIRCUS, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-TNW",
+   "msn": "9421",
+   "dateOfRegistration": "2019-12-18",
+   "dateOfDeregistration": null,
+   "date": "2019-12-18",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-251N",
+   "yearOfManufacture": 2019,
+   "owner": "CELESTIAL TRADING 62 LIMITED AVIATION HOUSE, SHANNON, COUNTY CLARE, IRELAND. V14AN29",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LTD JEEVAN BHARTI, TOWER 1, 10TH FLOOR, 124 CONNAUGHT CIRCUS, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-WJR",
+   "msn": "9388",
+   "dateOfRegistration": "2019-12-26",
+   "dateOfDeregistration": null,
+   "date": "2019-12-26",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "STAR RISING AVIATION 13 LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA ) LIMITED C/O BRITANNIA INDUSTRIES LIMITED, A-33, LAWRENCE ROAD INDUSTRIAL AREA, NEW DELHI-110035",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-HKG",
+   "msn": "4936",
+   "dateOfRegistration": "2019-12-16",
+   "dateOfDeregistration": null,
+   "date": "2019-12-16",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": 2011,
+   "owner": "ACG AIRCRAFT LEASING IRELAND LIMITED ALEXANDRA HOUSE, THE SWEEPSTAKES, BALLSBRIDGE, DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIRASIA (INDIA) LIMITED GROUND FLOOR, ALPHA 3 BUILDING, KEMPEGOWDA INTERNATIONAL AIRPORT, DEVENAHALLI, BENGALURU- 560300",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-IUJ",
+   "msn": "9042",
+   "dateOfRegistration": "2019-12-18",
+   "dateOfDeregistration": null,
+   "date": "2019-12-18",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A321-271NX",
+   "yearOfManufacture": 2019,
+   "owner": "GY AVIATION LEASE 1902 CO., LIMITED FOURTH FLOOR, 3 GEORGE'S DOCK, IFSC, DUBLIN 1,IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-TMN",
+   "msn": "843",
+   "dateOfRegistration": "2019-12-23",
+   "dateOfDeregistration": null,
+   "date": "2019-12-23",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72- 212A(500)",
+   "yearOfManufacture": 2008,
+   "owner": "CONSTELLATION AIRCRAFT LEASING LIMITED BLOCK-1, SHANNON BUSINESS PARK, SHANNON, CO CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TURBO MEGHA AIRWAYS PVT. LTD. S-1, PHASE-1 TIE, BALANAGAR HYDERABABD- 500037, TELANGANA",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-IJU",
+   "msn": "9215",
+   "dateOfRegistration": "2019-12-20",
+   "dateOfDeregistration": null,
+   "date": "2019-12-20",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BLUESKT 30 LEASING COMPANY LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-SFG",
+   "msn": "30475",
+   "dateOfRegistration": "2019-12-20",
+   "dateOfDeregistration": null,
+   "date": "2019-12-20",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 800F",
+   "yearOfManufacture": 2000,
+   "owner": "BANK OF UTAH 50 SOUTH 200 EAST, SUITE 110, SALT LAKE CITY, UTAH 84111, USA",
+   "lessor": "SAME AS OWNER",
+   "operator": "SPICEJET LIMITED 319, UDYOG VIHAR, PHASE- IV, GURGAON- 122016,HARYA NA, INDIA",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-FPA",
+   "msn": "14501237",
+   "dateOfRegistration": "2019-12-23",
+   "dateOfDeregistration": null,
+   "date": "2019-12-23",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "EMB-135BJ (LEGACY 650E)",
+   "yearOfManufacture": 2019,
+   "owner": "JAYA HIND INDUSTRIES LIMITED MUMBAI-PUNE ROAD, AKURDI, PUNE-411035",
+   "lessor": "SAME AS OWNER",
+   "operator": "JAYA HIND INDUSTRIES LIMITED MUMBAI-PUNE ROAD, AKURDI, PUNE-411035",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-IYU",
+   "msn": "1545",
+   "dateOfRegistration": "2019-12-31",
+   "dateOfDeregistration": null,
+   "date": "2019-12-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2019,
+   "owner": "LIMERICK AIRCRAFT LEASING LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-IYX",
+   "msn": "1552",
+   "dateOfRegistration": "2019-12-31",
+   "dateOfDeregistration": null,
+   "date": "2019-12-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2019,
+   "owner": "LIMERICK AIRCRAFT LEASING LIMITED 2 GRAND CANAL SQUARE, GRAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-IJV",
+   "msn": "9391",
+   "dateOfRegistration": "2019-12-31",
+   "dateOfDeregistration": null,
+   "date": "2019-12-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BLUESKY 30 LEASING COMPANY LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-IZV",
+   "msn": "8864",
+   "dateOfRegistration": "2019-12-31",
+   "dateOfDeregistration": null,
+   "date": "2019-12-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BLUESKY 30 LEASING COMPANY LIMITED 2 GRAND CANAL SQUARE, GRAND CANAL HARBOUR, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED CENTRAL WING, GROUND FLOOR, THAPAR HOUSE, 124 JANPATH, NEW DELHI-110001",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-MLE",
+   "msn": "3306",
+   "dateOfRegistration": "2019-12-31",
+   "dateOfDeregistration": null,
+   "date": "2019-12-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": 2007,
+   "owner": "KLAATU AIRCRAFT LEASING IRELAND LIMITED 8 FITZWILLIAM PLACE, DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIRASIA (INDIA) LIMITED GROUND FLOOR, ALPHA 3 BUILDING, KEMPEGOWDA INTERNATIONAL AIRPORT, DEVENAHALLI, BENGALURU- 560300",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-ASC",
+   "msn": "8757",
+   "dateOfRegistration": "2019-12-31",
+   "dateOfDeregistration": null,
+   "date": "2019-12-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3",
+   "yearOfManufacture": 2019,
+   "owner": "HELIWISS IBERICA SA HANGER NO-4 (LADO NORTE), AEROPUERTO DE SABADELL 08205 SAPADELL, BARCELONA, SPAIN",
+   "lessor": "SAME AS OWNER",
+   "operator": "ARROW AIRCRAFT SALES & CHARTERS PVT. LTD 503, G+5 BUILDING, OPP. TERMINAL-1C, DOMESTIC",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-WJO",
+   "msn": "9332",
+   "dateOfRegistration": "2019-12-30",
+   "dateOfDeregistration": null,
+   "date": "2019-12-30",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BOC AVIATION (IRELAND) LIMITED RIVERSIDE ONE, SIR JOHN ROGERSON'S QUAY, DUBLIN 2, D02 X 576, REPUBLIC OF IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA ) LIMITED C/O BRITANNIA INDUSTRIES LIMITED, A-33, LAWRENCE ROAD INDUSTRIAL AREA, NEW DELHI-110035",
+   "source": {
+    "file": "Reg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Oct_Dec2019).pdf",
+    "page": 12
+   }
+  }
+ ],
+ "dropped": []
+}

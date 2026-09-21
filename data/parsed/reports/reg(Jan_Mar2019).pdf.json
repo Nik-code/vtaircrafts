@@ -5,6 +5,8 @@
  "from": "2019-01-01",
  "to": "2019-03-31",
  "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
  "rows": [
   {
    "reg": "VT-EXN",
@@ -327,8 +329,8 @@
    "kind": "registration",
    "type": "A320-232",
    "yearOfManufacture": 2003,
-   "owner": "Sapphire Leasing (Aoe 2) Limited Shannon, Co. Clare, V14ev57, Ireland",
-   "lessor": "I Same As Owner",
+   "owner": "Sapphire Leasing I (Aoe 2) Limited Shannon, Co. Clare, V14ev57, Ireland",
+   "lessor": "Same As Owner",
    "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
    "source": {
     "file": "reg(Jan_Mar2019).pdf",

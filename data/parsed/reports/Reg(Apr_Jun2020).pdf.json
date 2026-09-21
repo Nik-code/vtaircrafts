@@ -1,0 +1,255 @@
+{
+ "file": "Reg(Apr_Jun2020).pdf",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+ "from": "2020-04-01",
+ "to": "2020-06-30",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-DSB",
+   "msn": "1106",
+   "dateOfRegistration": "2020-05-22",
+   "dateOfDeregistration": null,
+   "date": "2020-05-22",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "P2008 JC",
+   "yearOfManufacture": 2018,
+   "owner": "THE GUJARAT FLYING CLUB VADODARA",
+   "lessor": "SAME AS OWNER",
+   "operator": "THE GUJARAT FLYING CLUB VADODARA",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IUI",
+   "msn": "8992",
+   "dateOfRegistration": "2020-05-04",
+   "dateOfDeregistration": null,
+   "date": "2020-05-04",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "GY AVIATION LEASE 1903 CO., LIMITED DUBLIN1, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IUV",
+   "msn": "9396",
+   "dateOfRegistration": "2020-06-03",
+   "dateOfDeregistration": null,
+   "date": "2020-06-03",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A321-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "DYNAM AVIATION IRELAND THREE LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-GSL",
+   "msn": "18283089",
+   "dateOfRegistration": "2020-04-13",
+   "dateOfDeregistration": null,
+   "date": "2020-04-13",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "CESSNA 182T",
+   "yearOfManufacture": 2019,
+   "owner": "VENTURA AIRCONNECT LIMITED SURAT-395007, GUJARAT",
+   "lessor": "SAME AS OWNER",
+   "operator": "VENTURA AIRCONNECT LIMITED SURAT-395007, GUJARAT AVIATION",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ATC",
+   "msn": "303",
+   "dateOfRegistration": "2020-05-14",
+   "dateOfDeregistration": null,
+   "date": "2020-05-14",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "TECHNAM P2006T",
+   "yearOfManufacture": 2020,
+   "owner": "AVIATION CONNECTIVITY & INFRASTRUCTURE DEVELOPMENT PVT. LTD. GURGAON, HARYANA-",
+   "lessor": "SAME AS OWNER",
+   "operator": "CONNECTIVITY & INFRASTRUCTU RE DEVELOPMENT PVT. LTD. GURGAON,",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ISA",
+   "msn": "10073",
+   "dateOfRegistration": "2020-05-05",
+   "dateOfDeregistration": null,
+   "date": "2020-05-05",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2020,
+   "owner": "PEMBROKE AIRCRAFT LEASING 4 LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "HARYANA- INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IJN",
+   "msn": "9094",
+   "dateOfRegistration": "2020-05-05",
+   "dateOfDeregistration": null,
+   "date": "2020-05-05",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2020,
+   "owner": "CAVIC 1 DESIGNATED ACTIVITY COMPANY DUBLIN 1, IRELAND.",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IUO",
+   "msn": "9285",
+   "dateOfRegistration": "2020-05-14",
+   "dateOfDeregistration": null,
+   "date": "2020-05-14",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "AERDRAGON CRYSTAL NO. 1 LEASING LIMITED SHANNON, CO. C889ki LARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IUQ",
+   "msn": "9299",
+   "dateOfRegistration": "2020-05-19",
+   "dateOfDeregistration": null,
+   "date": "2020-05-19",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "SATO AVIATION IRELAND LIMITED DUBLIN 2, IRELAND,",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ISK",
+   "msn": "9461",
+   "dateOfRegistration": "2020-05-28",
+   "dateOfDeregistration": null,
+   "date": "2020-05-28",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2020,
+   "owner": "PEMBROKE AIRCRAFT LEASING 4 LIMITED DUBLIN 2, IRELAND,",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IJQ",
+   "msn": "9212",
+   "dateOfRegistration": "2020-05-29",
+   "dateOfDeregistration": null,
+   "date": "2020-05-29",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-271N",
+   "yearOfManufacture": 2020,
+   "owner": "PEMBROKE AIRCRAFT LEASING 4 LIMITED DUBLIN 2, IRELAND,",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Apr_Jun2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Apr_Jun2020).pdf",
+    "page": 2
+   }
+  }
+ ],
+ "dropped": []
+}

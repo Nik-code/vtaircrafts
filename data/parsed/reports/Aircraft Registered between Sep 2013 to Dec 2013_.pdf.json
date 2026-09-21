@@ -1,0 +1,299 @@
+{
+ "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+ "from": "2013-09-01",
+ "to": "2013-12-31",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-ERX",
+   "msn": "31-70",
+   "dateOfRegistration": "2013-09-26",
+   "dateOfDeregistration": null,
+   "date": "2013-09-26",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-31-310 NAVAJO",
+   "yearOfManufacture": 1965,
+   "owner": "ELECTRATEK CORPORATION",
+   "lessor": "-",
+   "operator": "ELECTRATEK CORPORATION",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-BSG",
+   "msn": "7673",
+   "dateOfRegistration": "2013-10-04",
+   "dateOfDeregistration": null,
+   "date": "2013-10-04",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3",
+   "yearOfManufacture": 2013,
+   "owner": "HIMALAYAN HELI SERVICES PVT LTD",
+   "lessor": "-",
+   "operator": "HIMALAYAN HELI SERVICES PVT LTD",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TAA",
+   "msn": "NC 398 07",
+   "dateOfRegistration": "2013-10-04",
+   "dateOfDeregistration": null,
+   "date": "2013-10-04",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "P68 OBSERVER - 2",
+   "yearOfManufacture": 1994,
+   "owner": "M/S MIDEAST INTEGRATED STEELS LTD",
+   "lessor": "-",
+   "operator": "M/S MIDEAST INTEGRATED STEELS LTD",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-EUE",
+   "msn": "15279927",
+   "dateOfRegistration": "2013-10-09",
+   "dateOfDeregistration": null,
+   "date": "2013-10-09",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": 1978,
+   "owner": "THE MADHYA PRADESH FLYING CLUB LTD",
+   "lessor": "-",
+   "operator": "THE MADHYA PRADESH FLYING CLUB LTD",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SZI",
+   "msn": "37364",
+   "dateOfRegistration": "2013-10-14",
+   "dateOfDeregistration": null,
+   "date": "2013-10-14",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2013,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "SPICEJET LTD",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IFV",
+   "msn": "5829",
+   "dateOfRegistration": "2013-10-25",
+   "dateOfDeregistration": null,
+   "date": "2013-10-25",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2013,
+   "owner": "UNICORN LEASING LIMITED",
+   "lessor": "UNICORN LEASING LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RKI",
+   "msn": "172S10590",
+   "dateOfRegistration": "2013-11-07",
+   "dateOfDeregistration": null,
+   "date": "2013-11-07",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172S",
+   "yearOfManufacture": 2007,
+   "owner": "R K INDUSTRIES IV",
+   "lessor": "R K INDUSTRIES IV",
+   "operator": "M/S KUNAL AIR CHARTER PVT. LTD.",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TEE",
+   "msn": "17281490",
+   "dateOfRegistration": "2013-11-19",
+   "dateOfDeregistration": null,
+   "date": "2013-11-19",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2007,
+   "owner": "TOUCHWOOD ENTERTAINMENT LTD",
+   "lessor": "-",
+   "operator": "TOUCHWOOD ENTERTAINMENT LTD",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IMA",
+   "msn": "23025",
+   "dateOfRegistration": "2013-11-20",
+   "dateOfDeregistration": null,
+   "date": "2013-11-20",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 230",
+   "yearOfManufacture": 1994,
+   "owner": "KIAAN AIRWAYS PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "KIAAN AIRWAYS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-HRB",
+   "msn": "17281347",
+   "dateOfRegistration": "2013-12-27",
+   "dateOfDeregistration": null,
+   "date": "2013-12-27",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2006,
+   "owner": "GOVERNMENT OF HARYA -",
+   "lessor": "GOVERNMENT OF HARYA -",
+   "operator": "HARYA - INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-HRC",
+   "msn": "17281342",
+   "dateOfRegistration": "2013-12-27",
+   "dateOfDeregistration": null,
+   "date": "2013-12-27",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2006,
+   "owner": "GOVERNMENT OF HARYA -",
+   "lessor": "GOVERNMENT OF HARYA -",
+   "operator": "HARYA - INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-PBA",
+   "msn": "15285981",
+   "dateOfRegistration": "2013-12-31",
+   "dateOfDeregistration": null,
+   "date": "2013-12-31",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": 1984,
+   "owner": "BLUE RAY AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "BLUE RAY AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JSN",
+   "msn": "172S9106",
+   "dateOfRegistration": "2013-12-31",
+   "dateOfDeregistration": null,
+   "date": "2013-12-31",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172S",
+   "yearOfManufacture": 2002,
+   "owner": "BLUE RAY AVIATION PVT. LTD",
+   "lessor": "BLUE RAY AVIATION PVT. LTD",
+   "operator": "BLUE RAY AVIATION PVT. LTD",
+   "source": {
+    "file": "Aircraft Registered between Sep 2013 to Dec 2013_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20between%20Sep%202013%20to%20Dec%202013_.pdf",
+    "page": 1
+   }
+  }
+ ],
+ "dropped": []
+}

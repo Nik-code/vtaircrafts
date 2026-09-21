@@ -1,0 +1,607 @@
+{
+ "file": "reg(July_Sept2019).pdf",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+ "from": "2019-07-01",
+ "to": "2019-09-30",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-TGE",
+   "msn": "39061",
+   "dateOfRegistration": "2019-07-01",
+   "dateOfDeregistration": null,
+   "date": "2019-07-01",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 800",
+   "yearOfManufacture": 2013,
+   "owner": "Boc Aviation (Ireland) Limited Dublin 2, Republic Of Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Tata Sia Airlines Limited 124 Connaught Circus, New Delhi- 110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-WJI",
+   "msn": "8757",
+   "dateOfRegistration": "2019-07-12",
+   "dateOfDeregistration": null,
+   "date": "2019-07-12",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "Sky High Xc Leasing Company Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Go Airlines (India) Limited Lawrence Road Industrial Area, New Delhi-110035",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SYZ",
+   "msn": "34803",
+   "dateOfRegistration": "2019-08-13",
+   "dateOfDeregistration": null,
+   "date": "2019-08-13",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 800",
+   "yearOfManufacture": 2007,
+   "owner": "Sasof III (A19) Aviation Ireland Dac Dublin 4, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Spicejet Limited Gurgaon- 122016,Haryana, India",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SQJ",
+   "msn": "4599",
+   "dateOfRegistration": "2019-07-26",
+   "dateOfDeregistration": null,
+   "date": "2019-07-26",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "DHC-8-402",
+   "yearOfManufacture": 2019,
+   "owner": "Wilmington Trust Sp Services (Dublin) Limited Dublin 1, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Spicejet Limited Gurgaon- 122016,Haryana, India",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SXE",
+   "msn": "34802",
+   "dateOfRegistration": "2019-07-02",
+   "dateOfDeregistration": null,
+   "date": "2019-07-02",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 800",
+   "yearOfManufacture": 2007,
+   "owner": "Alterna Aircraft V B Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Spicejet Limited Gurgaon- 122016,Haryana, India",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SXD",
+   "msn": "34801",
+   "dateOfRegistration": "2019-07-15",
+   "dateOfDeregistration": null,
+   "date": "2019-07-15",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 800",
+   "yearOfManufacture": 2006,
+   "owner": "Alterna Aircraft V B Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Spicejet Limited Gurgaon- 122016,Haryana, India",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IJI",
+   "msn": "9045",
+   "dateOfRegistration": "2019-07-01",
+   "dateOfDeregistration": null,
+   "date": "2019-07-01",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "Sdh Wings Leasing 1 Limited Dublin 1, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IJJ",
+   "msn": "9072",
+   "dateOfRegistration": "2019-07-08",
+   "dateOfDeregistration": null,
+   "date": "2019-07-08",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "Vermillion Aviation (Eight) Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IJM",
+   "msn": "9085",
+   "dateOfRegistration": "2019-07-15",
+   "dateOfDeregistration": null,
+   "date": "2019-07-15",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "Vermillion Aviation (Eight) Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SFE",
+   "msn": "29084",
+   "dateOfRegistration": "2019-07-17",
+   "dateOfDeregistration": null,
+   "date": "2019-07-17",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 700F",
+   "yearOfManufacture": 1998,
+   "owner": "Ngf Bravo Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Spicejet Limited Gurgaon- 122016,Haryana, India",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IJK",
+   "msn": "9091",
+   "dateOfRegistration": "2019-07-18",
+   "dateOfDeregistration": null,
+   "date": "2019-07-18",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "Banc Of America Leasing Ireland Co., Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SIN",
+   "msn": "5619",
+   "dateOfRegistration": "2019-07-18",
+   "dateOfDeregistration": null,
+   "date": "2019-07-18",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "A320-216",
+   "yearOfManufacture": 2013,
+   "owner": "Wilmington Trust Sp Services (Dublin) Limited Dublin 1, Ireland",
+   "lessor": "Asia Aviation Capital Ireland Limited Dublin 2, Ireland",
+   "operator": "Air Asia (India) Limited Devena Halli, Bengaluru- 560300",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TGH",
+   "msn": "39066",
+   "dateOfRegistration": "2019-07-29",
+   "dateOfDeregistration": null,
+   "date": "2019-07-29",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 8AL",
+   "yearOfManufacture": 2014,
+   "owner": "Alafco Irish Aircraft Leasing Eight Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Tata Sia Airlines Limited 124 Connaught Circus, New Delhi- 110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TGG",
+   "msn": "39065",
+   "dateOfRegistration": "2019-08-14",
+   "dateOfDeregistration": null,
+   "date": "2019-08-14",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 8AL",
+   "yearOfManufacture": 2014,
+   "owner": "Alafco Irish Aircraft Leasing Eight Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Tata Sia Airlines Limited 124 Connaught Circus, New Delhi- 110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IYV",
+   "msn": "1547",
+   "dateOfRegistration": "2019-08-27",
+   "dateOfDeregistration": null,
+   "date": "2019-08-27",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2019,
+   "owner": "Portlaoise Aircraft Leasing Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Spicejet Limited Gurgaon- 122016,Haryana, India",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IYZ",
+   "msn": "1559",
+   "dateOfRegistration": "2019-08-30",
+   "dateOfDeregistration": null,
+   "date": "2019-08-30",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2019,
+   "owner": "Cork Aircraft Leasing Limited Dublin 2, Ireland Government",
+   "lessor": "Same As Owner Same As",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-BRO",
+   "msn": "281",
+   "dateOfRegistration": "2019-09-16",
+   "dateOfDeregistration": null,
+   "date": "2019-09-16",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2006T",
+   "yearOfManufacture": 2019,
+   "owner": "Flying Training School Jakkur Aerodrome, Bangalore-",
+   "lessor": "Owner",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SHG",
+   "msn": "9542",
+   "dateOfRegistration": "2019-08-23",
+   "dateOfDeregistration": null,
+   "date": "2019-08-23",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BD-700-1A11",
+   "yearOfManufacture": 2013,
+   "owner": "560064 Accurate Commodeal Private Limited Kolkata-700001",
+   "lessor": "Same As Owner",
+   "operator": "Accurate Commodeal Private Limited Kolkata-700001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IJP",
+   "msn": "9155",
+   "dateOfRegistration": "2019-09-03",
+   "dateOfDeregistration": null,
+   "date": "2019-09-03",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BANC OF AMERICA LEASING IRELAND CO. LIMITED Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TGI",
+   "msn": "39401",
+   "dateOfRegistration": "2019-08-28",
+   "dateOfDeregistration": null,
+   "date": "2019-08-28",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 86N",
+   "yearOfManufacture": 2012,
+   "owner": "Celestial Aviation Trading 62 Limited County Clare, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Tata Sia Airlines Limited 124 Connaught Circus, New Delhi- 110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CAQ",
+   "msn": "172S113 94",
+   "dateOfRegistration": "2019-09-04",
+   "dateOfDeregistration": null,
+   "date": "2019-09-04",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172S",
+   "yearOfManufacture": 2014,
+   "owner": "Chimes Aviation Pvt. Ltd 18, Nehru Place New Delhi- 110019",
+   "lessor": "Same As Owner",
+   "operator": "Chimes Aviation Pvt. Ltd 18, Nehru Place New Delhi- 110019",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IYY",
+   "msn": "1557",
+   "dateOfRegistration": "2019-09-20",
+   "dateOfDeregistration": null,
+   "date": "2019-09-20",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2019,
+   "owner": "Cork Aircraft Leasing Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IJD",
+   "msn": "8961",
+   "dateOfRegistration": "2019-09-24",
+   "dateOfDeregistration": null,
+   "date": "2019-09-24",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "A 320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "Cavic 17 Designated Activity Company Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IUG",
+   "msn": "8952",
+   "dateOfRegistration": "2019-09-27",
+   "dateOfDeregistration": null,
+   "date": "2019-09-27",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2019,
+   "owner": "Tfdac Ireland Ii Limited Dublin 2, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Interglobe Aviation Limited 124 Janpath, New Delhi-110001",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-TMM",
+   "msn": "825",
+   "dateOfRegistration": "2019-09-24",
+   "dateOfDeregistration": null,
+   "date": "2019-09-24",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (500)",
+   "yearOfManufacture": 2008,
+   "owner": "Constellation Aircraft Leasing Limited Co Clare, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Turbo Megha Airways Pvt. Ltd. Balanagar Hyderababd- 500037, Telangana",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-SYV",
+   "msn": "38030",
+   "dateOfRegistration": "2019-09-25",
+   "dateOfDeregistration": null,
+   "date": "2019-09-25",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "BOEING 737- 800",
+   "yearOfManufacture": 2012,
+   "owner": "Celestrial Aviation Trading 62 Limited County Clare, V14 An29, Ireland",
+   "lessor": "Same As Owner",
+   "operator": "Spicejet Limited Gurgaon- 122016,Haryana, India",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-SMS",
+   "msn": "BY-356",
+   "dateOfRegistration": "2019-09-26",
+   "dateOfDeregistration": null,
+   "date": "2019-09-26",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "registration",
+   "type": "KING AIR 250 B 200GT",
+   "yearOfManufacture": 2019,
+   "owner": "Bellary Iron Ores Private Ltd Hospet Road, Alipur, Ballari- 583104",
+   "lessor": "Same As Owner",
+   "operator": "Bellary Iron Ores Private Ltd Hospet Road, Alipur, Ballari- 583104",
+   "source": {
+    "file": "reg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(July_Sept2019).pdf",
+    "page": 3
+   }
+  }
+ ],
+ "dropped": []
+}

@@ -1,0 +1,35 @@
+{
+ "file": "Dereg(Apr_June2020).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Apr_June2020).pdf",
+ "from": "2020-04-01",
+ "to": "2020-06-30",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-TGI",
+   "msn": "39401",
+   "dateOfRegistration": "2019-08-28",
+   "dateOfDeregistration": "2020-06-24",
+   "date": "2020-06-24",
+   "period": {
+    "from": "2020-04-01",
+    "to": "2020-06-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737- 86N",
+   "yearOfManufacture": 2012,
+   "owner": "CELESTIAL AVIATION TRADING 62 LIMITED COUNTY CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(Apr_June2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Apr_June2020).pdf",
+    "page": 1
+   }
+  }
+ ],
+ "dropped": []
+}

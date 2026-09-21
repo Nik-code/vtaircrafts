@@ -5,6 +5,8 @@
  "from": "2019-01-01",
  "to": "2019-03-31",
  "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
  "rows": [
   {
    "reg": "VT-RES",
@@ -63,7 +65,7 @@
    "kind": "deregistration",
    "type": "EC-155 B1",
    "yearOfManufacture": 2007,
-   "owner": "Kingfisher Airlines Limited Mallya Road, Bangalore-560001",
+   "owner": "Kingfisher Airlines Limited Vittal Mallya Road, Bangalore-560001",
    "lessor": "Same As Owner",
    "operator": "Kingfisher Airlines Limited Vittal Mallya Road, Bangalore-560001",
    "source": {
@@ -85,7 +87,7 @@
    "kind": "deregistration",
    "type": "EC-155 B1",
    "yearOfManufacture": 2007,
-   "owner": "Kingfisher Airlines Limited Mallya Road, Bangalore-560001",
+   "owner": "Kingfisher Airlines Limited Vittal Mallya Road, Bangalore-560001",
    "lessor": "Same As Owner",
    "operator": "Kingfisher Airlines Limited Vittal Mallya Road, Bangalore-560001",
    "source": {
@@ -217,7 +219,7 @@
    "kind": "deregistration",
    "type": "B737- 85R",
    "yearOfManufacture": 2009,
-   "owner": "International Lease Finance Corporation Angles California",
+   "owner": "International Lease Finance Corporation Los Angles California",
    "lessor": "Shannon, County Clare, Ireland Ilfc Ireland Ltd Shannin County Clare, Ireland",
    "operator": "Jet Airways (India) Ltd Andheri (East), Mumbai-400099",
    "source": {

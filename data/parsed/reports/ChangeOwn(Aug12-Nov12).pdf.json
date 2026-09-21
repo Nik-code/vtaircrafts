@@ -5,6 +5,8 @@
  "from": "2012-08-01",
  "to": "2012-11-30",
  "layout": "legacy",
+ "dateOrder": "dmy",
+ "alignment": "middle",
  "rows": [
   {
    "reg": "VT-OSC",

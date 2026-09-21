@@ -1,0 +1,299 @@
+{
+ "file": "Dereg(Jul_Dec2020).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+ "from": "2020-07-01",
+ "to": "2020-12-31",
+ "layout": "modern",
+ "dateOrder": "mdy",
+ "alignment": "bottom",
+ "rows": [
+  {
+   "reg": "VT-SGZ",
+   "msn": "39423",
+   "dateOfRegistration": "2012-05-10",
+   "dateOfDeregistration": "2020-11-27",
+   "date": "2020-11-27",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2012,
+   "owner": "AWAS 2011 LEASING LLC",
+   "lessor": "AWAS 39423 IRELAND LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SZA",
+   "msn": "39424",
+   "dateOfRegistration": "2012-05-31",
+   "dateOfDeregistration": "2020-11-27",
+   "date": "2020-11-27",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2012,
+   "owner": "AWAS 39424 IRELAND LIMITED",
+   "lessor": "AWAS 39424 IRELAND LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SYM",
+   "msn": "29685",
+   "dateOfRegistration": "2019-05-08",
+   "dateOfDeregistration": "2020-12-07",
+   "date": "2020-12-07",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2007,
+   "owner": "CIT GROUP FINANCE IRELAND",
+   "lessor": "CIT GROUP FINANCE IRELAND",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SYO",
+   "msn": "33025",
+   "dateOfRegistration": "2019-05-03",
+   "dateOfDeregistration": "2020-12-11",
+   "date": "2020-12-11",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-700",
+   "yearOfManufacture": 2005,
+   "owner": "WELLS FARGO TRUST COMPANY NATIONAL ASSOCIATION",
+   "lessor": "WELLS FARGO TRUST COMPANY NATIONAL ASSOCIATION",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SYP",
+   "msn": "33026",
+   "dateOfRegistration": "2019-05-17",
+   "dateOfDeregistration": "2020-12-11",
+   "date": "2020-12-11",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-700",
+   "yearOfManufacture": 2005,
+   "owner": "SAPPHIRE LEASING 1 AOE 6 LIMITED",
+   "lessor": "SAPPHIRE LEASING 1 AOE 6 LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-INT",
+   "msn": "3497",
+   "dateOfRegistration": "2008-05-28",
+   "dateOfDeregistration": "2020-12-11",
+   "date": "2020-12-11",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-232",
+   "yearOfManufacture": 2008,
+   "owner": "M/S ALLCO LEASING ( IGO NO.2) LIMITED",
+   "lessor": "M/S ALLCO LEASING ( IGO NO.2) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-DNF",
+   "msn": "UE 424",
+   "dateOfRegistration": "2018-04-12",
+   "dateOfDeregistration": "2020-12-15",
+   "date": "2020-12-15",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BEECH 1900D",
+   "yearOfManufacture": 2001,
+   "owner": "DELLARIA LEASING PTY LIMITED",
+   "lessor": "DELLARIA LEASING PTY LIMITED",
+   "operator": "DECCAN CHARTERS PRIVATE LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SYG",
+   "msn": "34798",
+   "dateOfRegistration": "2019-04-24",
+   "dateOfDeregistration": "2020-12-17",
+   "date": "2020-12-17",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "MARDAL AVIATION LIMITED",
+   "lessor": "MARDAL AVIATION LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SYF",
+   "msn": "34797",
+   "dateOfRegistration": "2019-05-03",
+   "dateOfDeregistration": "2020-12-17",
+   "date": "2020-12-17",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "CROLLY AVIATION LIMITED",
+   "lessor": "CROLLY AVIATION LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AHA",
+   "msn": "7367",
+   "dateOfRegistration": "2019-04-11",
+   "dateOfDeregistration": "2020-12-18",
+   "date": "2020-12-18",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AS350B3",
+   "yearOfManufacture": 2012,
+   "owner": "HELISWISS IBERICA SA",
+   "lessor": "HELISWISS IBERICA SA",
+   "operator": "DECCAN CHARTERS PVT LTD",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IDS",
+   "msn": "1920",
+   "dateOfRegistration": "2016-03-22",
+   "dateOfDeregistration": "2020-12-28",
+   "date": "2020-12-28",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-214",
+   "yearOfManufacture": 2003,
+   "owner": "M/S WELLS FARGO TRUST COMPANY, NATIONAL ASSOCIATION",
+   "lessor": "M/S MASL IRELAND (22) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-AZP",
+   "msn": "36407",
+   "dateOfRegistration": "2006-11-01",
+   "dateOfDeregistration": "2020-12-28",
+   "date": "2020-12-28",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BELL 412EP",
+   "yearOfManufacture": 2006,
+   "owner": "VERTICAL AVIATION NO 1 LTD",
+   "lessor": "VERTICAL AVIATION NO 1 LTD",
+   "operator": "GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-GVQ",
+   "msn": "41206",
+   "dateOfRegistration": "2015-09-01",
+   "dateOfDeregistration": "2020-12-28",
+   "date": "2020-12-28",
+   "period": {
+    "from": "2020-07-01",
+    "to": "2020-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AW139",
+   "yearOfManufacture": 2009,
+   "owner": "ERA LEASING LLC",
+   "lessor": "AAA ROTOR LTD",
+   "operator": "GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "Dereg(Jul_Dec2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jul_Dec2020).pdf",
+    "page": 2
+   }
+  }
+ ],
+ "dropped": []
+}

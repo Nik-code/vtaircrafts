@@ -1,0 +1,167 @@
+{
+ "file": "Dereg(July_Sept2019).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(July_Sept2019).pdf",
+ "from": "2019-07-01",
+ "to": "2019-09-30",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-SPK",
+   "msn": "34898",
+   "dateOfRegistration": "2006-11-14",
+   "dateOfDeregistration": "2019-09-06",
+   "date": "2019-09-06",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737- 800",
+   "yearOfManufacture": 2006,
+   "owner": "THUNDERBOLT LEASING LTD. SHANNON, CO.CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "SPICEJET LIMITED HARYANA, INDIA INTERNATIO",
+   "source": {
+    "file": "Dereg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-VID",
+   "msn": "525A0378",
+   "dateOfRegistration": "2008-01-11",
+   "dateOfDeregistration": "2019-08-20",
+   "date": "2019-08-20",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "deregistration",
+   "type": "CESNNA CJ2- 525A",
+   "yearOfManufacture": 2007,
+   "owner": "CESSNA FINANCE CORPORATION KANASAS 67202- 3106, USA",
+   "lessor": "SAME AS OWNER",
+   "operator": "NAL AIR CHARTER OPERATIONS (I) PVT.LTD ANDHERI(E) MUMBAI",
+   "source": {
+    "file": "Dereg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-HJA",
+   "msn": "RC26",
+   "dateOfRegistration": "2009-10-07",
+   "dateOfDeregistration": "2019-09-05",
+   "date": "2019-09-05",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "deregistration",
+   "type": "HAWKER- 4000",
+   "yearOfManufacture": 2009,
+   "owner": "HINDUSTSN CONSTRUCTION CO LTD VIKHROLI WEST MUMBAI",
+   "lessor": "SAME AS OWNER",
+   "operator": "HINDUSTSN CONSTRUCTI ON CO LTD VIKHROLI WEST MUMBAI",
+   "source": {
+    "file": "Dereg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JKL",
+   "msn": "1122",
+   "dateOfRegistration": "2010-05-20",
+   "dateOfDeregistration": "2019-07-29",
+   "date": "2019-07-29",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "deregistration",
+   "type": "AVANTI-II P- 180",
+   "yearOfManufacture": 2006,
+   "owner": "JK LAKSHMI CEMENT LTD ZAFAR MARG NEW DELHI",
+   "lessor": "SAME AS OWNER",
+   "operator": "AIRCAR AIRWAYS PVT LTD NIZAMUDDI N EAST, NEW DELHI",
+   "source": {
+    "file": "Dereg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AVH",
+   "msn": "103",
+   "dateOfRegistration": "2011-02-04",
+   "dateOfDeregistration": "2019-09-25",
+   "date": "2019-09-25",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "deregistration",
+   "type": "FALCON 2000",
+   "yearOfManufacture": 2000,
+   "owner": "LIGARE VOYAGES (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "LIGARE AVIATION LIMITED SAKET, NEW DELHI",
+   "source": {
+    "file": "Dereg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TST",
+   "msn": "42.AC130",
+   "dateOfRegistration": "2015-09-23",
+   "dateOfDeregistration": "2019-08-27",
+   "date": "2019-08-27",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "deregistration",
+   "type": "DIAMOND DA 42",
+   "yearOfManufacture": 2008,
+   "owner": "MADURAI TRANS CARRIER LIMITED TAMIL NADU, INDIA,",
+   "lessor": "SAME AS OWNER",
+   "operator": "MADURAI TRANS CARRIER LIMITED TAMIL NADU, INDIA",
+   "source": {
+    "file": "Dereg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(July_Sept2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-DND",
+   "msn": "UE-427",
+   "dateOfRegistration": "2017-12-19",
+   "dateOfDeregistration": "2019-08-27",
+   "date": "2019-08-27",
+   "period": {
+    "from": "2019-07-01",
+    "to": "2019-09-30"
+   },
+   "kind": "deregistration",
+   "type": "BEECHCRAFT 1900D",
+   "yearOfManufacture": 2001,
+   "owner": "AWESOME FLIGHT LOGISTICS PROPRIETARY LIMITED SOUTH AFRICA",
+   "lessor": "AWESOME AVIATION PROPRIETA RY LIMITED AUSTRALIA",
+   "operator": "DECCAN CHARTERS PVT. LTD. BELLARY ROAD, BANGALORE",
+   "source": {
+    "file": "Dereg(July_Sept2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(July_Sept2019).pdf",
+    "page": 1
+   }
+  }
+ ],
+ "dropped": []
+}

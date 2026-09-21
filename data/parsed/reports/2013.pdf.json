@@ -1,0 +1,607 @@
+{
+ "file": "2013.pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+ "from": "2013-09-01",
+ "to": "2013-12-31",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-EIV",
+   "msn": "AH-280",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-17",
+   "date": "2013-09-17",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ALOUETTE III",
+   "yearOfManufacture": 1984,
+   "owner": "ROTARY WING ACADEMY",
+   "lessor": null,
+   "operator": "ROTARY WING ACADEMY",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JNS",
+   "msn": "28498",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-12-13",
+   "date": "2013-12-13",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-7Q8",
+   "yearOfManufacture": 2001,
+   "owner": "AWMS-1",
+   "lessor": "ANSETT WORLDWIDE AVIATION IRELAND LTD",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-DHB",
+   "msn": "6677",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-10-18",
+   "date": "2013-10-18",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "DAUPHIN AS 365N3",
+   "yearOfManufacture": 2004,
+   "owner": "RELIANCE COMMERCIAL DEALERS LTD",
+   "lessor": null,
+   "operator": "RELIANCE COMMERCIAL DEALERS LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SPE",
+   "msn": "28621",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-10-31",
+   "date": "2013-10-31",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2000,
+   "owner": "NBB28621 LEASE PARTNERSHIP",
+   "lessor": "TRINDELL LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JGL",
+   "msn": "32738",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-25",
+   "date": "2013-09-25",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-76N",
+   "yearOfManufacture": 2003,
+   "owner": "CELESTIAL AVIATION TRADING 36 LTD",
+   "lessor": null,
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JGM",
+   "msn": "32614",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-12-21",
+   "date": "2013-12-21",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2002,
+   "owner": "CELESTIAL AVIATION TRADING 27 LTD",
+   "lessor": "CELESTIAL AVIATION TRADING 1 L",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-KFJ",
+   "msn": "2664",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-12-21",
+   "date": "2013-12-21",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A319-112",
+   "yearOfManufacture": 2006,
+   "owner": "BOC AVIATION PTE LTD",
+   "lessor": "BOC AVIATION PTE LTD",
+   "operator": "KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-DEP",
+   "msn": "5098",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-10-28",
+   "date": "2013-10-28",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ENSTROM 480B",
+   "yearOfManufacture": null,
+   "owner": "VENTURE AVIATION",
+   "lessor": null,
+   "operator": "VENTURE AVIATION",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SSL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-10-21",
+   "date": "2013-10-21",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BEECH KING AIR C- 90",
+   "yearOfManufacture": null,
+   "owner": "SHAMANUR SUGARS LIMITED",
+   "lessor": "DAVANGERE-577002",
+   "operator": "SHAMANUR SUGARS LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JWF",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-12-19",
+   "date": "2013-12-19",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-202",
+   "yearOfManufacture": null,
+   "owner": "FLEET IRELAND AIRCRAFT LEASE 2007- A LTD",
+   "lessor": "ANDHERI EAST, MUMBAI-400059",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JWG",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-12-19",
+   "date": "2013-12-19",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-202",
+   "yearOfManufacture": null,
+   "owner": "FLEET IRELAND AIRCRAFT LEASE 2007- A LTD",
+   "lessor": "ANDHERI EAST, MUMBAI-400059",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KAI",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-19",
+   "date": "2013-09-19",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "KF TURBO LEASING LIMITED",
+   "lessor": "VITTAL MALLYA ROAD",
+   "operator": "KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ABE",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-30",
+   "date": "2013-09-30",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR 42-320",
+   "yearOfManufacture": null,
+   "owner": "ABRIC LEASING LIMITED",
+   "lessor": "ARRIVAL TERMINAL 1,IGI AIRPORT",
+   "operator": "AIRLINE ALLIED SERVICES LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KAL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-30",
+   "date": "2013-09-30",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "KF TURBO LEASING LIMITED",
+   "lessor": "VITTAL MALLYA ROAD",
+   "operator": "KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-INL",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-17",
+   "date": "2013-09-17",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": "LARE LEASING LIMITED",
+   "lessor": "JAANPATH, NEW DELHI- 110001",
+   "operator": "INTERGLOBE AVIATION LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WAE",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-10-28",
+   "date": "2013-10-28",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": "ALC A 320 3256 LLC",
+   "lessor": "A-33, LAWRENCE ROAD INDUSTRIAL AREA",
+   "operator": "GO AIRLINES (INDIA) LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KAM",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-19",
+   "date": "2013-09-19",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "KF TURBO LEASING LIMITED",
+   "lessor": "VITTAL MALLYA ROAD",
+   "operator": "KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-INO",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-12-13",
+   "date": "2013-12-13",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320-214",
+   "yearOfManufacture": null,
+   "owner": "MSN 3335 LEASING LIMITED",
+   "lessor": "JAANPATH, NEW DELHI- 110001",
+   "operator": "INTERGLOBE AVIATION LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JWJ",
+   "msn": "885",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-10-30",
+   "date": "2013-10-30",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-202",
+   "yearOfManufacture": 2007,
+   "owner": "MOORGATE AIRCRAFT 2007 LTD",
+   "lessor": "MOORGATE AIRCRAFT 2007 LTD",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KAN",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-19",
+   "date": "2013-09-19",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "KF TURBO LEASING LIMITED",
+   "lessor": "VITTAL MALLYA ROAD",
+   "operator": "KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JWK",
+   "msn": null,
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-04",
+   "date": "2013-09-04",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A330-202",
+   "yearOfManufacture": null,
+   "owner": "MOORGATE AIRCRAFT 2007 LTD",
+   "lessor": "ANDHERI EAST, MUMBAI-400059",
+   "operator": "JET AIRWAYS (INDIA) LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KAP",
+   "msn": "776",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-19",
+   "date": "2013-09-19",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": null,
+   "owner": "KF TURBO LEASING LIMITED",
+   "lessor": "SAME AS OWNER",
+   "operator": "KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-KAQ",
+   "msn": "777",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-19",
+   "date": "2013-09-19",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR72-212 A",
+   "yearOfManufacture": 2008,
+   "owner": "KF TURBO LEASING LIMITED",
+   "lessor": "SAME AS OWNER",
+   "operator": "KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-KAR",
+   "msn": "782",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-19",
+   "date": "2013-09-19",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": 2008,
+   "owner": "KF TURBO LEASING LIMITED",
+   "lessor": "SAME AS OWNER",
+   "operator": "KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-LMN",
+   "msn": "53836",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-12-10",
+   "date": "2013-12-10",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BELL 407",
+   "yearOfManufacture": 2008,
+   "owner": "SPAN AIR PVT. LTD.",
+   "lessor": "SAME AS OWNER",
+   "operator": "SPAN AIR PVT. LTD.",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-AKA",
+   "msn": "4628",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-09-30",
+   "date": "2013-09-30",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "EC-130 B4",
+   "yearOfManufacture": 2008,
+   "owner": "VEDANTA ALUMINIUM LTD",
+   "lessor": "SAME AS OWNER",
+   "operator": "VEDANTA ALUMINIUM LTD",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-HLF",
+   "msn": "41268",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2013-10-21",
+   "date": "2013-10-21",
+   "period": {
+    "from": "2013-09-01",
+    "to": "2013-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AGUSTA AW139",
+   "yearOfManufacture": 2012,
+   "owner": "BRICS LEASING & FINANCE INTERNATIONAL LTD.",
+   "lessor": "SAME AS OWNER",
+   "operator": "HELIGO CHARTERS PRIVATE LIMITED",
+   "source": {
+    "file": "2013.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/2013.pdf",
+    "page": 3
+   }
+  }
+ ],
+ "dropped": []
+}

@@ -5,7 +5,625 @@
  "from": "2012-08-01",
  "to": "2012-11-30",
  "layout": "legacy",
+ "dateOrder": "dmy",
+ "alignment": "middle",
  "rows": [
+  {
+   "reg": "VT-DCE",
+   "msn": null,
+   "dateOfRegistration": "2012-08-01",
+   "dateOfDeregistration": null,
+   "date": "2012-08-01",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA GRAND CARAVAN",
+   "yearOfManufacture": null,
+   "owner": "M/S QUAY CO. LTD. ACCESS CO. LTD",
+   "lessor": "M/S QUAY CO. LTD. ACCESS CO. LTD",
+   "operator": "M/S DECCAN CHARTERS",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JFB",
+   "msn": null,
+   "dateOfRegistration": "2012-08-01",
+   "dateOfDeregistration": null,
+   "date": "2012-08-01",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S CELESTIAL AVIATION TRADING 62 LTD",
+   "lessor": "M/S CELESTIAL AVIATION TRADING 62 LTD",
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JMG",
+   "msn": null,
+   "dateOfRegistration": "2012-08-02",
+   "dateOfDeregistration": null,
+   "date": "2012-08-02",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "BEECHCRAFT KING AIR B200GT",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "HIMALYAPUTRA AVIATION LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-GNR",
+   "msn": null,
+   "dateOfRegistration": "2012-08-02",
+   "dateOfDeregistration": null,
+   "date": "2012-08-02",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "MAULE M-7-235B",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "M/S GNA DURAPARTS LTD",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-PEE",
+   "msn": null,
+   "dateOfRegistration": "2012-08-03",
+   "dateOfDeregistration": null,
+   "date": "2012-08-03",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "AS 350 B3",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": "M/S CELESTIAL",
+   "operator": "M/S PRABHATAM AVIATION PVT LTD",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JFC",
+   "msn": null,
+   "dateOfRegistration": "2012-08-08",
+   "dateOfDeregistration": null,
+   "date": "2012-08-08",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JET AIRWAYS (INDIA)",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-GEM",
+   "msn": null,
+   "dateOfRegistration": "2012-08-09",
+   "dateOfDeregistration": null,
+   "date": "2012-08-09",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172S",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "CAPT KARAN R KANAL & MRS.SHAILAJA V PATIL",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JSC",
+   "msn": null,
+   "dateOfRegistration": "2012-08-09",
+   "dateOfDeregistration": null,
+   "date": "2012-08-09",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "PILATUS PC-12/47",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": "M/S GY AVIATION",
+   "operator": "M/S INDIA FLYSAFE AVIATION LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IFA",
+   "msn": null,
+   "dateOfRegistration": "2012-08-16",
+   "dateOfDeregistration": null,
+   "date": "2012-08-16",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-232",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-HLF",
+   "msn": null,
+   "dateOfRegistration": "2012-08-17",
+   "dateOfDeregistration": null,
+   "date": "2012-08-17",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "AGUSTA AW-139",
+   "yearOfManufacture": null,
+   "owner": "M/S BRICS LEASING FINANCE INTERNATIONAL LTD. FITZWILLIAM, FITZWILLIAM PLACE, DUBLIN 2, IRELAND",
+   "lessor": "M/S BRICS LEASING FINANCE INTERNATIONAL LTD. FITZWILLIAM, FITZWILLIAM PLACE, DUBLIN 2, IRELAND",
+   "operator": "M/S HELIGO CHARTERS PRIVATE LTD",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IFB",
+   "msn": null,
+   "dateOfRegistration": "2012-08-21",
+   "dateOfDeregistration": null,
+   "date": "2012-08-21",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320-232",
+   "yearOfManufacture": null,
+   "owner": "M/S GY AVIATION LEASE1201 CO. LTD",
+   "lessor": "M/S GY AVIATION LEASE1201 CO. LTD",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CJB",
+   "msn": null,
+   "dateOfRegistration": "2012-08-22",
+   "dateOfDeregistration": null,
+   "date": "2012-08-22",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "DIAMOND DA- 40NG",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "MR. JAGDISH CHANDRA BHAWANJI CHHEDA",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ANH",
+   "msn": null,
+   "dateOfRegistration": "2012-08-27",
+   "dateOfDeregistration": null,
+   "date": "2012-08-27",
+   "period": {
+    "from": "2012-08-01",
+    "to": "2012-08-31"
+   },
+   "kind": "registration",
+   "type": "BOEING 787-8",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-LSA",
+   "msn": null,
+   "dateOfRegistration": "2012-09-07",
+   "dateOfDeregistration": null,
+   "date": "2012-09-07",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
+   "kind": "registration",
+   "type": "CTLS",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "M/S AERO CLUB INDIA",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-LSB",
+   "msn": null,
+   "dateOfRegistration": "2012-09-07",
+   "dateOfDeregistration": null,
+   "date": "2012-09-07",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
+   "kind": "registration",
+   "type": "CTLS",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "M/S AERO CLUB INDIA",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-LSC",
+   "msn": null,
+   "dateOfRegistration": "2012-09-07",
+   "dateOfDeregistration": null,
+   "date": "2012-09-07",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
+   "kind": "registration",
+   "type": "CTLS",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "M/S AERO CLUB INDIA",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-PWG",
+   "msn": null,
+   "dateOfRegistration": "2012-09-07",
+   "dateOfDeregistration": null,
+   "date": "2012-09-07",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
+   "kind": "registration",
+   "type": "MI-172",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "M/S PAWAN HELICOPTERS LTD",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-PWH",
+   "msn": null,
+   "dateOfRegistration": "2012-09-07",
+   "dateOfDeregistration": null,
+   "date": "2012-09-07",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
+   "kind": "registration",
+   "type": "MI-172",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "M/S PAWAN HELICOPTERS LTD",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-VPA",
+   "msn": null,
+   "dateOfRegistration": "2012-09-19",
+   "dateOfDeregistration": null,
+   "date": "2012-09-19",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
+   "kind": "registration",
+   "type": "HAWKER 800XP",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "M/S FIRST FUTURE AIR SERVICES PVT. LTD",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-JSI",
+   "msn": null,
+   "dateOfRegistration": "2012-09-21",
+   "dateOfDeregistration": null,
+   "date": "2012-09-21",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
+   "kind": "registration",
+   "type": "ERJ-135LR",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": "M/S AVICO SKYLINES",
+   "operator": "M/S INDIA FLYSAFE AVIATION LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-RSP",
+   "msn": null,
+   "dateOfRegistration": "2012-09-24",
+   "dateOfDeregistration": null,
+   "date": "2012-09-24",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
+   "kind": "registration",
+   "type": "BOMBARDIER CHALLENGER 300",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S MANIPAL HEALTH ND SYSTEMS PVT. LTD",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IFD",
+   "msn": null,
+   "dateOfRegistration": "2012-09-26",
+   "dateOfDeregistration": null,
+   "date": "2012-09-26",
+   "period": {
+    "from": "2012-09-01",
+    "to": "2012-09-30"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320 THE MONTH OF",
+   "yearOfManufacture": null,
+   "owner": "M/S MKAC LEASING NO.70 LIMITED",
+   "lessor": "M/S MKAC LEASING NO.70 LIMITED",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ANI",
+   "msn": null,
+   "dateOfRegistration": "2012-10-04",
+   "dateOfDeregistration": null,
+   "date": "2012-10-04",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
+   "kind": "registration",
+   "type": "BOEING 787-8",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": "M/S PEMBROKE",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IFC",
+   "msn": null,
+   "dateOfRegistration": "2012-10-05",
+   "dateOfDeregistration": null,
+   "date": "2012-10-05",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS A320",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-TSR",
+   "msn": null,
+   "dateOfRegistration": "2012-10-17",
+   "dateOfDeregistration": null,
+   "date": "2012-10-17",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
+   "kind": "registration",
+   "type": "PIAGGIO P 180 AVANT II",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": null,
+   "operator": "M/S T V SUNDRAM IYENGAR & SONS LTD",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JSG",
+   "msn": null,
+   "dateOfRegistration": "2012-10-22",
+   "dateOfDeregistration": null,
+   "date": "2012-10-22",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
+   "kind": "registration",
+   "type": "PIAGGIO P 180 AVANT II",
+   "yearOfManufacture": null,
+   "owner": "",
+   "lessor": "M/S PEMBROKE",
+   "operator": "M /S DISH TV LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IFE",
+   "msn": null,
+   "dateOfRegistration": "2012-10-23",
+   "dateOfDeregistration": null,
+   "date": "2012-10-23",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
+   "kind": "registration",
+   "type": "AIRBUS 320-232",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SZB",
+   "msn": null,
+   "dateOfRegistration": "2012-10-25",
+   "dateOfDeregistration": null,
+   "date": "2012-10-25",
+   "period": {
+    "from": "2012-10-01",
+    "to": "2012-10-31"
+   },
+   "kind": "registration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": null,
+   "owner": "M/S AWAS 2012 LEASING LLC",
+   "lessor": "M/S AWAS 2012 LEASING LLC",
+   "operator": "M/S SPICEJET LIMITED 319 UDYOG VIHAR, PHASE",
+   "source": {
+    "file": "reg(Aug12-Nov12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/reg(Aug12-Nov12).pdf",
+    "page": 4
+   }
+  },
   {
    "reg": "VT-JFD",
    "msn": null,
@@ -13,8 +631,8 @@
    "dateOfDeregistration": null,
    "date": "2012-10-31",
    "period": {
-    "from": "2012-08-01",
-    "to": "2012-11-30"
+    "from": "2012-10-01",
+    "to": "2012-10-31"
    },
    "kind": "registration",
    "type": "BOEING 737-800 THE MONTH OF",

@@ -1,0 +1,1047 @@
+{
+ "file": "Reg(Jan_Jun2021).pdf",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+ "from": "2021-01-01",
+ "to": "2021-06-30",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "bottom",
+ "rows": [
+  {
+   "reg": "VT-ILM",
+   "msn": "10240",
+   "dateOfRegistration": "2021-01-01",
+   "dateOfDeregistration": null,
+   "date": "2021-01-01",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2020,
+   "owner": "SMBC AVIATION CAPITAL LIMITED",
+   "lessor": "SMBC AVIATION CAPITAL LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TRZ",
+   "msn": "560-6292",
+   "dateOfRegistration": "2021-01-06",
+   "dateOfDeregistration": null,
+   "date": "2021-01-06",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "CESSNA CITATION 560XL",
+   "yearOfManufacture": 2020,
+   "owner": "M/S. ZEST AVIATION PRIVATE LIMITED",
+   "lessor": "NA",
+   "operator": "M/S. ZEST AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-HLR",
+   "msn": "31545",
+   "dateOfRegistration": "2021-01-13",
+   "dateOfDeregistration": null,
+   "date": "2021-01-13",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "AW139",
+   "yearOfManufacture": 2014,
+   "owner": "Portrane Aviation Limited",
+   "lessor": "Portrane Aviation Limited",
+   "operator": "HELIGO CHARTERS PVT. LTD.",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-MPF",
+   "msn": "172S12570",
+   "dateOfRegistration": "2021-01-20",
+   "dateOfDeregistration": null,
+   "date": "2021-01-20",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172S",
+   "yearOfManufacture": 2020,
+   "owner": "The Madhya Pradesh Flying Club Ltd",
+   "lessor": "NA",
+   "operator": "The Madhya Pradesh Flying Club Ltd",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-GSS",
+   "msn": "14501024",
+   "dateOfRegistration": "2021-02-08",
+   "dateOfDeregistration": null,
+   "date": "2021-02-08",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "EMB-145LR",
+   "yearOfManufacture": 2008,
+   "owner": "Ghodawat Enterprises Pvt Ltd.",
+   "lessor": "NA",
+   "operator": "Ghodawat Enterprises Pvt Ltd",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ILD",
+   "msn": "10323",
+   "dateOfRegistration": "2021-02-18",
+   "dateOfDeregistration": null,
+   "date": "2021-02-18",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "SMBC AVIATION CAPITAL LIMITED",
+   "lessor": "SMBC AVIATION CAPITAL LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ILN",
+   "msn": "10151",
+   "dateOfRegistration": "2021-02-23",
+   "dateOfDeregistration": null,
+   "date": "2021-02-23",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "SMBC AVIATION CAPITAL LIMITED",
+   "lessor": "SMBC AVIATION CAPITAL LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ILH",
+   "msn": "10354",
+   "dateOfRegistration": "2021-02-26",
+   "dateOfDeregistration": null,
+   "date": "2021-02-26",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "SMBC AVIATION CAPITAL LIMITED",
+   "lessor": "SMBC AVIATION CAPITAL LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TQC",
+   "msn": "10274",
+   "dateOfRegistration": "2021-03-01",
+   "dateOfDeregistration": null,
+   "date": "2021-03-01",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2021,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AMP",
+   "msn": "A1704000 H",
+   "dateOfRegistration": "2021-03-01",
+   "dateOfDeregistration": null,
+   "date": "2021-03-01",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "CRUISER POWERED HANG GLIDER",
+   "yearOfManufacture": 2017,
+   "owner": "Anil Mohan Puri",
+   "lessor": "NA",
+   "operator": "Anil Mohan Puri",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ILI",
+   "msn": "10296",
+   "dateOfRegistration": "2021-03-02",
+   "dateOfDeregistration": null,
+   "date": "2021-03-02",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "SFI AIRCRAFT HOLDINGS VI DESIGNATED ACTIVITY COMPANY",
+   "lessor": "SFI AIRCRAFT HOLDINGS VI DESIGNATED ACTIVITY COMPANY",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AMW",
+   "msn": "120",
+   "dateOfRegistration": "2021-03-02",
+   "dateOfDeregistration": null,
+   "date": "2021-03-02",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "QUICK SILVER MX",
+   "yearOfManufacture": 2015,
+   "owner": "P R Singh",
+   "lessor": "NA",
+   "operator": "P R Singh",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TYA",
+   "msn": "10277",
+   "dateOfRegistration": "2021-03-03",
+   "dateOfDeregistration": null,
+   "date": "2021-03-03",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2021,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ILG",
+   "msn": "10422",
+   "dateOfRegistration": "2021-03-03",
+   "dateOfDeregistration": null,
+   "date": "2021-03-03",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "SFV AIRCRAFT HOLDINGS IRE 3 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "SFV AIRCRAFT HOLDINGS IRE 3 DESIGNATED ACTIVITY COMPANY",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-CMR",
+   "msn": "14501094",
+   "dateOfRegistration": "2021-03-05",
+   "dateOfDeregistration": null,
+   "date": "2021-03-05",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "EMB-135 (LEGACY 600)",
+   "yearOfManufacture": 2009,
+   "owner": "VSR VENTURES PVT LTD",
+   "lessor": "NA",
+   "operator": "VSR VENTURES PVT LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ILF",
+   "msn": "10341",
+   "dateOfRegistration": "2021-03-10",
+   "dateOfDeregistration": null,
+   "date": "2021-03-10",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "SMBC AVIATION CAPITAL LIMITED",
+   "lessor": "SMBC AVIATION CAPITAL LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RRF",
+   "msn": "36690",
+   "dateOfRegistration": "2021-03-12",
+   "dateOfDeregistration": null,
+   "date": "2021-03-12",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "BELL 412EP",
+   "yearOfManufacture": 2014,
+   "owner": "TEXTRON FINANCIAL CORPORATION",
+   "lessor": "TEXTRON FINANCIAL CORPORATION",
+   "operator": "GLOBAL VECTRA HELICORP LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ILE",
+   "msn": "10585",
+   "dateOfRegistration": "2021-03-17",
+   "dateOfDeregistration": null,
+   "date": "2021-03-17",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "DAE 8 IRELAND LIMITED",
+   "lessor": "DAE 8 IRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-BJP",
+   "msn": "62.144",
+   "dateOfRegistration": "2021-03-17",
+   "dateOfDeregistration": null,
+   "date": "2021-03-17",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "DA 62",
+   "yearOfManufacture": 2020,
+   "owner": "SledgeHammer Oil Tools Pvt Ltd",
+   "lessor": "NA",
+   "operator": "SLEDGEHAMMER OIL TOOLS PVT LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TQD",
+   "msn": "10355",
+   "dateOfRegistration": "2021-03-19",
+   "dateOfDeregistration": null,
+   "date": "2021-03-19",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2021,
+   "owner": "CELESTIAL AVIATION TRADING 62 LIMITED",
+   "lessor": "CELESTIAL AVIATION TRADING 62 LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TQF",
+   "msn": "10536",
+   "dateOfRegistration": "2021-03-25",
+   "dateOfDeregistration": null,
+   "date": "2021-03-25",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2021,
+   "owner": "ALC Blarney Aircraft Limited",
+   "lessor": "ALC Blarney Aircraft Limited",
+   "operator": "TATA SIA Airlines Ltd",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ILO",
+   "msn": "10244",
+   "dateOfRegistration": "2021-04-01",
+   "dateOfDeregistration": null,
+   "date": "2021-04-01",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "DAE 9 IRELAND LIMITED",
+   "lessor": "DAE 9 IRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ILQ",
+   "msn": "10381",
+   "dateOfRegistration": "2021-04-06",
+   "dateOfDeregistration": null,
+   "date": "2021-04-06",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "SFV AIRCRAFT HOLDINGS IRE 4 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "SFV AIRCRAFT HOLDINGS IRE 4 DESIGNATED ACTIVITY COMPANY",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-HEL",
+   "msn": "DCWF-08",
+   "dateOfRegistration": "2021-04-08",
+   "dateOfDeregistration": null,
+   "date": "2021-04-08",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "DHRUV-ALH WHEEL VERSION",
+   "yearOfManufacture": 2020,
+   "owner": "HAL, HELICOPTER DIVISION",
+   "lessor": "NA",
+   "operator": "HINDUSTAN AERONAUTICS LIMITED, HELICOPTER DIVISION",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IST",
+   "msn": "10444",
+   "dateOfRegistration": "2021-04-09",
+   "dateOfDeregistration": null,
+   "date": "2021-04-09",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2021,
+   "owner": "CELESTIAL AVIATION TRADING 32 LIMITED",
+   "lessor": "CELESTIAL AVIATION TRADING 32 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ILL",
+   "msn": "10438",
+   "dateOfRegistration": "2021-04-19",
+   "dateOfDeregistration": null,
+   "date": "2021-04-19",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "DAE 8 IRELAND LIMITED",
+   "lessor": "DAE 8 IRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-HVV",
+   "msn": "432",
+   "dateOfRegistration": "2021-04-28",
+   "dateOfDeregistration": null,
+   "date": "2021-04-28",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "FALCON 7X",
+   "yearOfManufacture": 2017,
+   "owner": "MERRITT AVIATIONS LIMITED",
+   "lessor": "MERRITT AVIATIONS LIMITED",
+   "operator": "AIR CHARTER SERVICES PVT. LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WJU",
+   "msn": "9467",
+   "dateOfRegistration": "2021-04-30",
+   "dateOfDeregistration": null,
+   "date": "2021-04-30",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2021,
+   "owner": "Sonoran MSN 9467 Limited (Company Number 681027)",
+   "lessor": "Sonoran MSN 9467 Limited (Company Number 681027)",
+   "operator": "GO AIRLINES (INDIA) LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ATH",
+   "msn": "10415",
+   "dateOfRegistration": "2021-04-30",
+   "dateOfDeregistration": null,
+   "date": "2021-04-30",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2021,
+   "owner": "CELESTIAL AVIATION TRADING 14 LIMITED",
+   "lessor": "CELESTIAL AVIATION TRADING 14 LIMITED",
+   "operator": "AIRASIA INDIA LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WJV",
+   "msn": "10011",
+   "dateOfRegistration": "2021-05-04",
+   "dateOfDeregistration": null,
+   "date": "2021-05-04",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2021,
+   "owner": "Sonoran MSN 10011 Limited (Company Number 684983)",
+   "lessor": "Sonoran MSN 10011 Limited (Company Number 684983)",
+   "operator": "GO AIRLINES (INDIA) LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ARI",
+   "msn": "20332",
+   "dateOfRegistration": "2021-05-05",
+   "dateOfDeregistration": null,
+   "date": "2021-05-05",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "AIRBUS H145",
+   "yearOfManufacture": 2021,
+   "owner": "MADURAI TRANS CARRIER LIMITED",
+   "lessor": "NA",
+   "operator": "MADURAI TRANS CARRIER LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JOE",
+   "msn": "9680",
+   "dateOfRegistration": "2021-05-05",
+   "dateOfDeregistration": null,
+   "date": "2021-05-05",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "BD-700-1A10",
+   "yearOfManufacture": 2015,
+   "owner": "INDO PACIFIC AVIATION PRIVATE LIMITED",
+   "lessor": "NA",
+   "operator": "INDO PACIFIC AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-DBL",
+   "msn": "404",
+   "dateOfRegistration": "2021-05-07",
+   "dateOfDeregistration": null,
+   "date": "2021-05-07",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "LEARJET 45XR",
+   "yearOfManufacture": 2009,
+   "owner": "VSR VENTURES PRIVATE LIMITED",
+   "lessor": "NA",
+   "operator": "VSR VENTURES PRIVATE LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-LIB",
+   "msn": "258722",
+   "dateOfRegistration": "2021-05-12",
+   "dateOfDeregistration": null,
+   "date": "2021-05-12",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "HAWKER 800 XP",
+   "yearOfManufacture": 2005,
+   "owner": "INDO PACIFIC AVIATION PRIVATE LIMITED",
+   "lessor": "NA",
+   "operator": "INDO PACIFIC AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-VRS",
+   "msn": "2080",
+   "dateOfRegistration": "2021-05-13",
+   "dateOfDeregistration": null,
+   "date": "2021-05-13",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "LEARJET 40",
+   "yearOfManufacture": 2007,
+   "owner": "VSR VENTURES PRIVATE LIMITED",
+   "lessor": "NA",
+   "operator": "VSR VENTURES PRIVATE LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ISU",
+   "msn": "10503",
+   "dateOfRegistration": "2021-05-21",
+   "dateOfDeregistration": null,
+   "date": "2021-05-21",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2021,
+   "owner": "CELESTIAL AVIATION TRADING 32 LIMITED",
+   "lessor": "CELESTIAL AVIATION TRADING 32 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-DOG",
+   "msn": "AFS9002",
+   "dateOfRegistration": "2021-05-25",
+   "dateOfDeregistration": null,
+   "date": "2021-05-25",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "Pegasus Quik",
+   "yearOfManufacture": 2021,
+   "owner": "VISHAL RAMESH SHROFF",
+   "lessor": "NA",
+   "operator": "VISHAL RAMESH SHROFF",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TQE",
+   "msn": "10464",
+   "dateOfRegistration": "2021-05-27",
+   "dateOfDeregistration": null,
+   "date": "2021-05-27",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2021,
+   "owner": "AIRAVAT LEASING LIMITED",
+   "lessor": "AIRAVAT LEASING LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TVC",
+   "msn": "10395",
+   "dateOfRegistration": "2021-06-07",
+   "dateOfDeregistration": null,
+   "date": "2021-06-07",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A321 -251NX",
+   "yearOfManufacture": 2021,
+   "owner": "ALC BLARNEY AIRCRAFT LIMITED",
+   "lessor": "ALC BLARNEY AIRCRAFT LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-KNR",
+   "msn": "HAL- K/DO228/4 148",
+   "dateOfRegistration": "2021-06-07",
+   "dateOfDeregistration": null,
+   "date": "2021-06-07",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "Hindustan 228- 201",
+   "yearOfManufacture": 2021,
+   "owner": "HAL",
+   "lessor": "NA",
+   "operator": "HAL",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-RBH",
+   "msn": "1215",
+   "dateOfRegistration": "2021-06-08",
+   "dateOfDeregistration": null,
+   "date": "2021-06-08",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2008JC",
+   "yearOfManufacture": 2021,
+   "owner": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED",
+   "lessor": "NA",
+   "operator": "REDBIRD FLIGHT TRAINING ACADEMY PRIVATE LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SSK",
+   "msn": "417",
+   "dateOfRegistration": "2021-06-10",
+   "dateOfDeregistration": null,
+   "date": "2021-06-10",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "LEARJET 45",
+   "yearOfManufacture": 2010,
+   "owner": "TRAVIAN FLIGHT SERVICES PVT LTD",
+   "lessor": "NA",
+   "operator": "TRAVIAN FLIGHT SERVICES PVT LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SKH",
+   "msn": "171A02356 170104U",
+   "dateOfRegistration": "2021-06-16",
+   "dateOfDeregistration": null,
+   "date": "2021-06-16",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "MI-171A2",
+   "yearOfManufacture": 2019,
+   "owner": "STLC Europe Twenty Four Leasing Ltd",
+   "lessor": "STLC Europe Twenty Four Leasing Ltd",
+   "operator": "Sky One Airways Private Limited",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IXS",
+   "msn": "1566",
+   "dateOfRegistration": "2021-06-25",
+   "dateOfDeregistration": null,
+   "date": "2021-06-25",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2021,
+   "owner": "INTERGLOBE AVIATION LIMITED",
+   "lessor": "NA",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IXV",
+   "msn": "1570",
+   "dateOfRegistration": "2021-06-29",
+   "dateOfDeregistration": null,
+   "date": "2021-06-29",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A(600 VERSION)",
+   "yearOfManufacture": 2021,
+   "owner": "AJNA AIRCRAFT I DESIGNATED ACTIVITY COMPANY",
+   "lessor": "AJNA AIRCRAFT I DESIGNATED ACTIVITY COMPANY",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TYB",
+   "msn": "10433",
+   "dateOfRegistration": "2021-06-30",
+   "dateOfDeregistration": null,
+   "date": "2021-06-30",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2021,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IYS",
+   "msn": "1542",
+   "dateOfRegistration": "2021-06-30",
+   "dateOfDeregistration": null,
+   "date": "2021-06-30",
+   "period": {
+    "from": "2021-01-01",
+    "to": "2021-06-30"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A",
+   "yearOfManufacture": 2021,
+   "owner": "AJNA AIRCRAFT I DESIGNATED ACTIVITY COMPANY",
+   "lessor": "AJNA AIRCRAFT I DESIGNATED ACTIVITY COMPANY",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Reg(Jan_Jun2021).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Reg(Jan_Jun2021).pdf",
+    "page": 2
+   }
+  }
+ ],
+ "dropped": []
+}

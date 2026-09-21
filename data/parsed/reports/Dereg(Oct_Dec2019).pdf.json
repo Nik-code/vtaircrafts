@@ -1,0 +1,189 @@
+{
+ "file": "Dereg(Oct_Dec2019).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Oct_Dec2019).pdf",
+ "from": "2019-10-01",
+ "to": "2019-12-31",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-NGS",
+   "msn": "5314",
+   "dateOfRegistration": "2006-09-14",
+   "dateOfDeregistration": "2019-10-11",
+   "date": "2019-10-11",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "deregistration",
+   "type": "CL6002B16 (604) CHALLENGER 604",
+   "yearOfManufacture": 1996,
+   "owner": "RAYMOND LTD. MUMBAI",
+   "lessor": "SAME AS OWNER AAA",
+   "operator": "RAYMOND LTD. MUMBAI",
+   "source": {
+    "file": "Dereg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AZW",
+   "msn": "36097",
+   "dateOfRegistration": "2007-11-06",
+   "dateOfDeregistration": "2019-10-11",
+   "date": "2019-10-11",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BELL 412 EP",
+   "yearOfManufacture": 1994,
+   "owner": "EAGLE COPTERS LTD. T2E 7G9 CANADA",
+   "lessor": "ROTOR LTD DUBLIN 4 IRELAN",
+   "operator": "GLOBAL VECTRA HELICORP LIMITED JUHU, MUMBAI",
+   "source": {
+    "file": "Dereg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-WAF",
+   "msn": "3306",
+   "dateOfRegistration": "2007-11-15",
+   "dateOfDeregistration": "2019-12-31",
+   "date": "2019-12-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320- 214",
+   "yearOfManufacture": 2007,
+   "owner": "KLAATU AIRCRAFT LEASING (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "D SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA) LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-INR",
+   "msn": "3453",
+   "dateOfRegistration": "2008-03-28",
+   "dateOfDeregistration": "2019-11-18",
+   "date": "2019-11-18",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320- 232",
+   "yearOfManufacture": 2008,
+   "owner": "ALLAVIATION LEASING (IGO NO 3) LIMITED DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Dereg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-DBG",
+   "msn": "5342",
+   "dateOfRegistration": "2009-03-18",
+   "dateOfDeregistration": "2019-12-13",
+   "date": "2019-12-13",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "deregistration",
+   "type": "CHALLENGER CL-600-2B16 (C-604)",
+   "yearOfManufacture": 1997,
+   "owner": "EON AVAITION PRIVATE LTD DESHMUKH MARG MUMBAI",
+   "lessor": "SAME AS OWNER",
+   "operator": "EON AVAITION PRIVATE LTD DESHMUKH MARG MUMBAI",
+   "source": {
+    "file": "Dereg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IDW",
+   "msn": "3750",
+   "dateOfRegistration": "2016-09-12",
+   "dateOfDeregistration": "2019-11-18",
+   "date": "2019-11-18",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320- 214",
+   "yearOfManufacture": 2009,
+   "owner": "KLAATU AIRCRAFT LEASING (IRELAND) LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Dereg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SKC",
+   "msn": "704C0 6",
+   "dateOfRegistration": "2017-04-12",
+   "dateOfDeregistration": "2019-12-31",
+   "date": "2019-12-31",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "deregistration",
+   "type": "MI 172",
+   "yearOfManufacture": 2002,
+   "owner": "NORTHERN VIETNAM HELICOPTER COMPANY LIMITED DISTRICT, HANOI, VIETNAM",
+   "lessor": "SAME AS OWNER",
+   "operator": "SKY ONE AIRWAYS PRIVATE LIMITED CAMA PLACE, NEW DELHI",
+   "source": {
+    "file": "Dereg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IHG",
+   "msn": "3308",
+   "dateOfRegistration": "2017-08-30",
+   "dateOfDeregistration": "2019-10-23",
+   "date": "2019-10-23",
+   "period": {
+    "from": "2019-10-01",
+    "to": "2019-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320- 232",
+   "yearOfManufacture": 2007,
+   "owner": "CELESTIAL AVIATION TRADING 64 LIMITED COUNTRY CLARE, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOBE AVIATION LIMITED JANPATH, NEW DELHI",
+   "source": {
+    "file": "Dereg(Oct_Dec2019).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Oct_Dec2019).pdf",
+    "page": 1
+   }
+  }
+ ],
+ "dropped": []
+}

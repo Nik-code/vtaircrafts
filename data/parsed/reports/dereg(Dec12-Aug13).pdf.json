@@ -5,6 +5,8 @@
  "from": "2012-12-01",
  "to": "2013-08-31",
  "layout": "legacy",
+ "dateOrder": "dmy",
+ "alignment": "middle",
  "rows": [
   {
    "reg": "VT-AZX",

@@ -1,0 +1,409 @@
+{
+ "file": "Dereg(Jan_Mar2020).pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+ "from": "2020-01-01",
+ "to": "2020-03-31",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-TAC",
+   "msn": "C-IA-003",
+   "dateOfRegistration": "1997-01-22",
+   "dateOfDeregistration": "2020-03-11",
+   "date": "2020-03-11",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "P68C",
+   "yearOfManufacture": 1995,
+   "owner": "CENTAUR AVIATION ACADEMY LTD. UJJAIN (MP)",
+   "lessor": "SAME AS OWNER",
+   "operator": "CENTAUR AVIATION ACADEMY LTD. UJJAIN (MP)",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TAI",
+   "msn": "C3007",
+   "dateOfRegistration": "2004-05-12",
+   "dateOfDeregistration": "2020-03-11",
+   "date": "2020-03-11",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "P68C",
+   "yearOfManufacture": 1998,
+   "owner": "CENTAUR AVIATION ACADEMY LTD. UJJAIN (MP)",
+   "lessor": "SAME AS OWNER",
+   "operator": "CENTAUR AVIATION ACADEMY LTD. UJJAIN (MP)",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TLA",
+   "msn": "C-3008",
+   "dateOfRegistration": "2004-04-01",
+   "dateOfDeregistration": "2020-03-11",
+   "date": "2020-03-11",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "P68C",
+   "yearOfManufacture": 1998,
+   "owner": "CENTAUR AVIATION ACADEMY LTD. UJJAIN (MP)",
+   "lessor": "CENTAUR AVIATION ACADEMY LTD.",
+   "operator": "CENTAUR AVIATION ACADEMY LTD. UJJAIN (MP)",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TLD",
+   "msn": "C3011",
+   "dateOfRegistration": "2001-07-25",
+   "dateOfDeregistration": "2020-03-11",
+   "date": "2020-03-11",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "P68C",
+   "yearOfManufacture": 1999,
+   "owner": "LAFARGE INDIA LTD.KINETIC MOTOR TENEJA AERO SPACE & AVIATION LTD MERIDIANO PUNE-",
+   "lessor": "SAME AS OWNER",
+   "operator": "TANEJA AEROSPACE AND AVIATION LIMITED BANGALORE",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-HRA",
+   "msn": "BB1906",
+   "dateOfRegistration": "2005-10-27",
+   "dateOfDeregistration": "2020-01-01",
+   "date": "2020-01-01",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "BEECHCR AFT KING AIR B- 200",
+   "yearOfManufacture": 2005,
+   "owner": "GOVERNMENT OF HARYANA CHANDIGARH",
+   "lessor": "SAME AS OWNER",
+   "operator": "GOVERNME NT OF HARYANA CHANDIGAR H",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TLH",
+   "msn": "C3014",
+   "dateOfRegistration": "2006-03-29",
+   "dateOfDeregistration": "2020-03-11",
+   "date": "2020-03-11",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "P68C",
+   "yearOfManufacture": 2006,
+   "owner": "SHUBHYAN MOTORS PVT. LTD. HADAPSAR, PUNE",
+   "lessor": "SAME AS OWNER",
+   "operator": "BLUE RAY AVIATION PVT. LIMITED HADAPSAR, PUNE JOY ALUKKAS",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JOY",
+   "msn": "436",
+   "dateOfRegistration": "2007-01-19",
+   "dateOfDeregistration": "2020-03-24",
+   "date": "2020-03-24",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "P68C",
+   "yearOfManufacture": 2005,
+   "owner": "JOY ALUKKAS TRADERS(INDIA) PRIVATE LTD COCHIN KERALA",
+   "lessor": "SAME AS OWNER M/S",
+   "operator": "TRADERS (INDIA) PVT LTD COCHIN KERALA M/S",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-CAT",
+   "msn": "104",
+   "dateOfRegistration": "2007-06-28",
+   "dateOfDeregistration": "2020-03-11",
+   "date": "2020-03-11",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "THORP T 211",
+   "yearOfManufacture": 1997,
+   "owner": "M/S INSTITUTE OF MANAGEMENT",
+   "lessor": "INSTITUTE OF MANAGEMEN T &",
+   "operator": "INSTITUTE OF MANAGEM",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AHO",
+   "msn": "105",
+   "dateOfRegistration": "2007-06-08",
+   "dateOfDeregistration": "2020-03-11",
+   "date": "2020-03-11",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "THORP T 211",
+   "yearOfManufacture": 1997,
+   "owner": "& TECHNOLOGIES BHOPAL M/S INSTITUTE OF MANAGEMENT & TECHNOLOGIES BHOPAL",
+   "lessor": "TECHNOLOGI ES BHOPAL M/S INSTITUTE OF MANAGEMEN T & TECHNOLOGI ES BHOPAL",
+   "operator": "ENT & TECHNOLO GIES BHOPAL M/S INSTITUTE OF MANAGEM ENT & TECHNOLO GIES",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-AZT",
+   "msn": "36422",
+   "dateOfRegistration": "2007-07-31",
+   "dateOfDeregistration": "2020-03-12",
+   "date": "2020-03-12",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "BELL 412 EP",
+   "yearOfManufacture": 2006,
+   "owner": "GLOBAL VECTRA HELICORP LIMITED MUMBAI",
+   "lessor": "SAME AS OWNER",
+   "operator": "BHOPAL GLOBAL VECTRA HELICORP LIMITED MUMBAI",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-INP",
+   "msn": "3357",
+   "dateOfRegistration": "2008-01-10",
+   "dateOfDeregistration": "2020-01-22",
+   "date": "2020-01-22",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320- 232",
+   "yearOfManufacture": 2008,
+   "owner": "ALLCO LEASING(IGO NO.1) LTD DUBLIN 4, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOB E AVIATION LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WAH",
+   "msn": "3616",
+   "dateOfRegistration": "2008-09-24",
+   "dateOfDeregistration": "2020-03-05",
+   "date": "2020-03-05",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320- 214",
+   "yearOfManufacture": 2008,
+   "owner": "CRESCENT LEASING 4 LTD SHANNON COUNTY CLARE , IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA) LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-PNA",
+   "msn": "53963",
+   "dateOfRegistration": "2010-05-25",
+   "dateOfDeregistration": "2020-01-30",
+   "date": "2020-01-30",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "BELL 407",
+   "yearOfManufacture": 2009,
+   "owner": "SINGAPORE AVIATION PTE LTD OUB CENTRE SINGAPORE",
+   "lessor": "SAME AS OWNER",
+   "operator": "AEROTECH AVIATION INDIA PRIVATE LIMITED",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IEA",
+   "msn": "4603",
+   "dateOfRegistration": "2011-02-17",
+   "dateOfDeregistration": "2020-02-28",
+   "date": "2020-02-28",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320- 232",
+   "yearOfManufacture": 2011,
+   "owner": "OIRIX AVIATION SYSTEM LIMITED DUBLIN, IRELAND WELL FARGO",
+   "lessor": "SAME AS OWNER",
+   "operator": "NEW DELHI INTERGLOB E AVIATION LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-GOI",
+   "msn": "5016",
+   "dateOfRegistration": "2012-01-31",
+   "dateOfDeregistration": "2020-03-17",
+   "date": "2020-03-17",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320- 214",
+   "yearOfManufacture": 2012,
+   "owner": "BANK NORTH WEST, NATIONAL ASSOCIATION, AS OWNER TRUSTEE UNITED STATES",
+   "lessor": "SAME AS OWNER",
+   "operator": "GO AIRLINES (INDIA) LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IDR",
+   "msn": "2649",
+   "dateOfRegistration": "2015-12-28",
+   "dateOfDeregistration": "2020-01-28",
+   "date": "2020-01-28",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "AIRBUS A320- 232",
+   "yearOfManufacture": 2006,
+   "owner": "AERGEN AIRCRAFT TWENTY EIGHT LIMITED DUBLIN 2, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "INTERGLOB E AVIATION LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-TGC",
+   "msn": "39069",
+   "dateOfRegistration": "2019-06-13",
+   "dateOfDeregistration": "2020-01-30",
+   "date": "2020-01-30",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2014,
+   "owner": "FLY AIRCRAFT HOLDINGS SEVENTEEN LIMITED DUBLIN A96 N6T7, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-TGF",
+   "msn": "42805",
+   "dateOfRegistration": "2019-06-14",
+   "dateOfDeregistration": "2020-02-07",
+   "date": "2020-02-07",
+   "period": {
+    "from": "2020-01-01",
+    "to": "2020-03-31"
+   },
+   "kind": "deregistration",
+   "type": "BOEING 737-800",
+   "yearOfManufacture": 2014,
+   "owner": "FLY AIRCRAFT HOLDINGS EIGHTEEN LIMITED DUBLIN A96 N6T7, IRELAND",
+   "lessor": "SAME AS OWNER",
+   "operator": "TATA SIA AIRLINES LIMITED NEW DELHI",
+   "source": {
+    "file": "Dereg(Jan_Mar2020).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Dereg(Jan_Mar2020).pdf",
+    "page": 3
+   }
+  }
+ ],
+ "dropped": []
+}

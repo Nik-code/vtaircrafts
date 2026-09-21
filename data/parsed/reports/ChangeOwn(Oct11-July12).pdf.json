@@ -5,6 +5,8 @@
  "from": "2011-10-01",
  "to": "2012-07-31",
  "layout": "legacy",
+ "dateOrder": "dmy",
+ "alignment": "middle",
  "rows": [
   {
    "reg": "VT-JGE",
@@ -975,7 +977,7 @@
    }
   },
   {
-   "reg": "VT-KFS",
+   "reg": "VT-TMS",
    "msn": null,
    "dateOfRegistration": "2012-12-09",
    "dateOfDeregistration": null,
@@ -985,11 +987,33 @@
     "to": "2012-01-31"
    },
    "kind": "owner-change",
-   "type": "GULF STREAM G550 AIRBUS A 321",
+   "type": "GULF STREAM G550",
    "yearOfManufacture": null,
    "owner": "",
-   "lessor": "M/S PAISLEY AIRCRAFT LEASING LTD",
+   "lessor": "M/S PAISLEY",
    "operator": "M/S AVANTHA HOLDINGS LIMITED",
+   "source": {
+    "file": "ChangeOwn(Oct11-July12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Oct11-July12).pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-KFS",
+   "msn": null,
+   "dateOfRegistration": "2012-01-10",
+   "dateOfDeregistration": null,
+   "date": "2012-01-10",
+   "period": {
+    "from": "2012-01-01",
+    "to": "2012-01-31"
+   },
+   "kind": "owner-change",
+   "type": "AIRBUS A 321",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
    "source": {
     "file": "ChangeOwn(Oct11-July12).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Oct11-July12).pdf",
@@ -1393,6 +1417,28 @@
    }
   },
   {
+   "reg": "VT-DKU",
+   "msn": null,
+   "dateOfRegistration": "2012-03-02",
+   "dateOfDeregistration": null,
+   "date": "2012-03-02",
+   "period": {
+    "from": "2012-03-01",
+    "to": "2012-03-31"
+   },
+   "kind": "owner-change",
+   "type": "AIRBUS 320-231",
+   "yearOfManufacture": null,
+   "owner": "M/S ACG ACQUSITION (CAYMAN) 2676 LTD WALKERS STB LTD, WALKERS HOUSE, MARRY ST, PB 908G, CAYMAN ISLANDS",
+   "lessor": "M/S ACG ACQUSITION (CAYMAN) 2676 LTD WALKERS STB LTD, WALKERS HOUSE, MARRY ST, PB 908G, CAYMAN ISLANDS",
+   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "source": {
+    "file": "ChangeOwn(Oct11-July12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Oct11-July12).pdf",
+    "page": 10
+   }
+  },
+  {
    "reg": "VT-DCA",
    "msn": null,
    "dateOfRegistration": "2012-03-02",
@@ -1403,11 +1449,11 @@
     "to": "2012-03-31"
    },
    "kind": "owner-change",
-   "type": "AIRBUS 320-231 BELL 206B3",
+   "type": "BELL 206B3",
    "yearOfManufacture": null,
    "owner": "M/S HANS-MARTIN SCHEMPP ROSEN WEISSTRABE 21 7056, GERMANY",
    "lessor": null,
-   "operator": "M/S KINGFISHER AIRLINES LIMITED",
+   "operator": "M/S DECCAN CHARTERS",
    "source": {
     "file": "ChangeOwn(Oct11-July12).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Oct11-July12).pdf",
@@ -1547,7 +1593,7 @@
    }
   },
   {
-   "reg": "VT-SIU",
+   "reg": "VT-SVK",
    "msn": null,
    "dateOfRegistration": "2012-04-10",
    "dateOfDeregistration": null,
@@ -1557,11 +1603,33 @@
     "to": "2012-04-30"
    },
    "kind": "owner-change",
-   "type": "BELL 407 BOEING 737-700",
+   "type": "BELL 407",
    "yearOfManufacture": null,
    "owner": "",
    "lessor": null,
    "operator": "M/S ARYAN AVIATION PVT LTD",
+   "source": {
+    "file": "ChangeOwn(Oct11-July12).pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Oct11-July12).pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-SIU",
+   "msn": null,
+   "dateOfRegistration": "2012-04-11",
+   "dateOfDeregistration": null,
+   "date": "2012-04-11",
+   "period": {
+    "from": "2012-04-01",
+    "to": "2012-04-30"
+   },
+   "kind": "owner-change",
+   "type": "BOEING 737-700",
+   "yearOfManufacture": null,
+   "owner": null,
+   "lessor": null,
+   "operator": "M/S JET LITE (INDIA) LTD SIROYA CENTRE, SAHAR AIRPORT, ANDHERI EAST, MUMBAI",
    "source": {
     "file": "ChangeOwn(Oct11-July12).pdf",
     "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/ChangeOwn(Oct11-July12).pdf",
@@ -2339,5 +2407,11 @@
    }
   }
  ],
- "dropped": []
+ "dropped": [
+  {
+   "page": 8,
+   "reason": "no date for VT-GOI",
+   "text": "4296"
+  }
+ ]
 }

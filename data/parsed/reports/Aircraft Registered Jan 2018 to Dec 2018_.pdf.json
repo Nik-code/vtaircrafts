@@ -1,0 +1,4787 @@
+{
+ "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+ "from": "2018-01-01",
+ "to": "2018-12-31",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "middle",
+ "rows": [
+  {
+   "reg": "VT-HFX",
+   "msn": "8294",
+   "dateOfRegistration": "2018-01-05",
+   "dateOfDeregistration": null,
+   "date": "2018-01-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "EC-130T2",
+   "yearOfManufacture": 2017,
+   "owner": "QUANTUM INVESTMENTS LTD",
+   "lessor": "QUANTUM INVESTMENTS LTD",
+   "operator": "HERITAGE AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IHP",
+   "msn": "4294",
+   "dateOfRegistration": "2018-01-08",
+   "dateOfDeregistration": null,
+   "date": "2018-01-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-214",
+   "yearOfManufacture": 2010,
+   "owner": "M/S AWAS AVIATION LEASING (4294) LIMITED",
+   "lessor": "M/S AWAS AVIATION LEASING (4294) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RPG",
+   "msn": "RK-190",
+   "dateOfRegistration": "2018-01-08",
+   "dateOfDeregistration": null,
+   "date": "2018-01-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH JET 400A",
+   "yearOfManufacture": 1998,
+   "owner": "M/S DHILLON AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "M/S DHILLON AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-KNQ",
+   "msn": "HAL K DO228 4132",
+   "dateOfRegistration": "2018-01-10",
+   "dateOfDeregistration": null,
+   "date": "2018-01-10",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "DORNIER DO228-201 (UPGRADED)",
+   "yearOfManufacture": 2018,
+   "owner": "HINDUSTAN AERONAUTICS LIMITED TRANSPORT AIRCRAFT DIVISION KANPUR 208008",
+   "lessor": "HINDUSTAN AERONAUTICS LIMITED",
+   "operator": "M/s HINDUSTAN AERONAUTICS LIMITED, TRANSPORT AIRCRAFT DIVISION, KANPUR",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RRB",
+   "msn": "8451",
+   "dateOfRegistration": "2018-01-15",
+   "dateOfDeregistration": null,
+   "date": "2018-01-15",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3E",
+   "yearOfManufacture": 2017,
+   "owner": "CHAILEASE INTERNATIONAL FINANCIAL SERVICES CO LTD",
+   "lessor": "AAA ROTOR LTD",
+   "operator": "GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RRA",
+   "msn": "8449",
+   "dateOfRegistration": "2018-01-15",
+   "dateOfDeregistration": null,
+   "date": "2018-01-15",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3E",
+   "yearOfManufacture": 2017,
+   "owner": "CHAILEASE INTERNATIONAL FINANCIAL SERVICES CO LTD",
+   "lessor": "AAA ROTOR LTD",
+   "operator": "GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IHH",
+   "msn": "3138",
+   "dateOfRegistration": "2018-01-16",
+   "dateOfDeregistration": null,
+   "date": "2018-01-16",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-214",
+   "yearOfManufacture": 2007,
+   "owner": "M/S CIT AEROSPACE INTERNATIONAL",
+   "lessor": "M/S CIT AEROSPACE INTERNATIONAL",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RKH",
+   "msn": "1434",
+   "dateOfRegistration": "2018-01-29",
+   "dateOfDeregistration": null,
+   "date": "2018-01-29",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2017,
+   "owner": "M/S MSN 1434 LEASING LIMITED",
+   "lessor": "M/S DAE LEASING IRELAND 20 LIMITED",
+   "operator": "AIRLINE ALLIED SERVICES LIMITED ALLIANCE AIR",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-CIH",
+   "msn": "8030",
+   "dateOfRegistration": "2018-02-05",
+   "dateOfDeregistration": null,
+   "date": "2018-02-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "AVOLON AEROSPACE IRELAND AOE 138 LIMITED",
+   "lessor": "AVOLON AEROSPACE IRELAND AOE 138 LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RRC",
+   "msn": "69066",
+   "dateOfRegistration": "2018-02-06",
+   "dateOfDeregistration": null,
+   "date": "2018-02-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "AW169",
+   "yearOfManufacture": 2018,
+   "owner": "M/s VERTICAL AVIATION No.2 LTD.",
+   "lessor": "M/s VERTICAL AVIATION No.2 LTD.",
+   "operator": "GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-NER",
+   "msn": "8191",
+   "dateOfRegistration": "2018-02-08",
+   "dateOfDeregistration": null,
+   "date": "2018-02-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "DO 228-212",
+   "yearOfManufacture": 1990,
+   "owner": "M/S NORHTEAST SHUTTLES (P) LIMITED",
+   "lessor": "-",
+   "operator": "M/S NORHTEAST SHUTTLES (P) LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JPH",
+   "msn": "53733",
+   "dateOfRegistration": "2018-02-09",
+   "dateOfDeregistration": null,
+   "date": "2018-02-09",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 407",
+   "yearOfManufacture": 2006,
+   "owner": "DEVJYOTI PATNAIK",
+   "lessor": "JYOTI INFRASTRUCTURE PVT LTD",
+   "operator": "ARROW AIRCRAFT SALES AND CHARTERS PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IEQ",
+   "msn": "5036",
+   "dateOfRegistration": "2018-02-12",
+   "dateOfDeregistration": null,
+   "date": "2018-02-12",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2012,
+   "owner": "M/S EMERALD AVIATION AOE 9 LIMITED",
+   "lessor": "M/S EMERALD AVIATION AOE 9 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ANW",
+   "msn": "36294",
+   "dateOfRegistration": "2018-02-13",
+   "dateOfDeregistration": null,
+   "date": "2018-02-13",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 787-8",
+   "yearOfManufacture": 2016,
+   "owner": "AIR INDIA LIMITED",
+   "lessor": "-",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-RSN",
+   "msn": "BB-1631",
+   "dateOfRegistration": "2018-02-13",
+   "dateOfDeregistration": null,
+   "date": "2018-02-13",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH SUPER KING AIR B- 200",
+   "yearOfManufacture": 1998,
+   "owner": "U.Y. AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "U.Y. AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-EXM",
+   "msn": "8056",
+   "dateOfRegistration": "2018-02-15",
+   "dateOfDeregistration": null,
+   "date": "2018-02-15",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "ALAFCO IRISH AIRCRAFT LEASING EIGHT LIMITED",
+   "lessor": "ALAFCO IRISH AIRCRAFT LEASING SIX LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SZJ",
+   "msn": "41397",
+   "dateOfRegistration": "2018-02-19",
+   "dateOfDeregistration": null,
+   "date": "2018-02-19",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2014,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IFO",
+   "msn": "5641",
+   "dateOfRegistration": "2018-02-21",
+   "dateOfDeregistration": null,
+   "date": "2018-02-21",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2013,
+   "owner": "M/S CONNOLLY AVIATION CAPITAL 2 LIMITED",
+   "lessor": "M/S CONNOLLY AVIATION CAPITAL 2 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IFJ",
+   "msn": "5473",
+   "dateOfRegistration": "2018-02-22",
+   "dateOfDeregistration": null,
+   "date": "2018-02-22",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2013,
+   "owner": "M/S CONNOLLY AVIATION CAPITAL 1 LIMITED",
+   "lessor": "M/S CONNOLLY AVIATION CAPITAL 1 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TNH",
+   "msn": "7980",
+   "dateOfRegistration": "2018-02-26",
+   "dateOfDeregistration": null,
+   "date": "2018-02-26",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "ARCU AIRCRAFT LEASING LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TNI",
+   "msn": "8099",
+   "dateOfRegistration": "2018-03-05",
+   "dateOfDeregistration": null,
+   "date": "2018-03-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IER",
+   "msn": "5076",
+   "dateOfRegistration": "2018-03-06",
+   "dateOfDeregistration": null,
+   "date": "2018-03-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2012,
+   "owner": "M/S GLENVAGH AVIATION LIMITED",
+   "lessor": "AVOLON AEROSPACE AOE 32 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IEV",
+   "msn": "5080",
+   "dateOfRegistration": "2018-03-07",
+   "dateOfDeregistration": null,
+   "date": "2018-03-07",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2012,
+   "owner": "M/S DUNGLOE AVIATION LIMITED",
+   "lessor": "AVOLON AEROSPACE AOE 33 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ALX",
+   "msn": "36322",
+   "dateOfRegistration": "2018-03-12",
+   "dateOfDeregistration": null,
+   "date": "2018-03-12",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 777-337ER",
+   "yearOfManufacture": 2018,
+   "owner": "AIR INDIA LIMITED",
+   "lessor": "-",
+   "operator": "M/s AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TMT",
+   "msn": "1385",
+   "dateOfRegistration": "2018-03-16",
+   "dateOfDeregistration": null,
+   "date": "2018-03-16",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2016,
+   "owner": "MSN 1385 LEASING LIMITED",
+   "lessor": "M/s Vman Aviation Services IFSC Private Limited",
+   "operator": "M/S BIG CHARTER PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-WAK",
+   "msn": "3900",
+   "dateOfRegistration": "2018-03-20",
+   "dateOfDeregistration": null,
+   "date": "2018-03-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-214",
+   "yearOfManufacture": 2009,
+   "owner": "M/S SASOF IV (A5) AVIATION IRELAND DAC",
+   "lessor": "M/S OSPRAY AIRCRAFT LEASING LIMITED FIFTEEN",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-WAL",
+   "msn": "3915",
+   "dateOfRegistration": "2018-03-20",
+   "dateOfDeregistration": null,
+   "date": "2018-03-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-214",
+   "yearOfManufacture": 2009,
+   "owner": "SASOF IV(A5) AVIATION IRELAND DAC",
+   "lessor": "SASOF IV(A5) AVIATION IRELAND DAC",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-UPA",
+   "msn": "FA-230",
+   "dateOfRegistration": "2018-03-22",
+   "dateOfDeregistration": null,
+   "date": "2018-03-22",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH SUPER KING AIR B- 300LW",
+   "yearOfManufacture": 1993,
+   "owner": "M/S JYOTI INFRASTRUCTURE PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "M/s ARROW AIRCRAFT SALES AND CHARTERS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-KNH",
+   "msn": "760713",
+   "dateOfRegistration": "2018-03-26",
+   "dateOfDeregistration": null,
+   "date": "2018-03-26",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "SIKORSKY S-76C",
+   "yearOfManufacture": 2008,
+   "owner": "FIDUCIA AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "Deccan Charters Private Limited",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-GOO",
+   "msn": "5811",
+   "dateOfRegistration": "2018-04-02",
+   "dateOfDeregistration": null,
+   "date": "2018-04-02",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-214",
+   "yearOfManufacture": 2013,
+   "owner": "M/s ACCIPITER INVESTMENTS AIRCRAFT 2 LIMITED",
+   "lessor": "M/s ACCIPITER INVESTMENTS AIRCRAFT 2 LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-HMA",
+   "msn": "9317",
+   "dateOfRegistration": "2018-04-02",
+   "dateOfDeregistration": null,
+   "date": "2018-04-02",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BD-700-1A10 (GLOBAL EXPRESS)",
+   "yearOfManufacture": 2008,
+   "owner": "CORP AIRCRAFT LEASING COMPANY",
+   "lessor": "INVESTEC INTERNATIONAL LIMITED",
+   "operator": "RELIANCE COMMERCIAL DEALERS LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IBP",
+   "msn": "8070",
+   "dateOfRegistration": "2018-04-03",
+   "dateOfDeregistration": null,
+   "date": "2018-04-03",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CHALLENGER CL 600-2B19",
+   "yearOfManufacture": 2007,
+   "owner": "M/S VIIKING AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "M/S VIIKING AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-TNJ",
+   "msn": "8138",
+   "dateOfRegistration": "2018-04-04",
+   "dateOfDeregistration": null,
+   "date": "2018-04-04",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IHQ",
+   "msn": "2670",
+   "dateOfRegistration": "2018-04-11",
+   "dateOfDeregistration": null,
+   "date": "2018-04-11",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2006,
+   "owner": "ECAF I 2670 DAC",
+   "lessor": "ECAF I 2670 DAC",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-MPG",
+   "msn": "BB1445",
+   "dateOfRegistration": "2018-04-11",
+   "dateOfDeregistration": null,
+   "date": "2018-04-11",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH SUPER KING AIR B- 200",
+   "yearOfManufacture": 1992,
+   "owner": "FLYJET AIRWAYS PVT LTD",
+   "lessor": "FLYJET AIRWAYS PVT LTD",
+   "operator": "M/s SAARTHI AIRWAYS PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-PVK",
+   "msn": "14501205",
+   "dateOfRegistration": "2018-04-12",
+   "dateOfDeregistration": null,
+   "date": "2018-04-12",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "EMB-135BJ (LEGACY 650)",
+   "yearOfManufacture": 2017,
+   "owner": "TURBO AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "TURBO AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IFB",
+   "msn": "5262",
+   "dateOfRegistration": "2018-04-12",
+   "dateOfDeregistration": null,
+   "date": "2018-04-12",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2012,
+   "owner": "M/S GY AVIATION LEASE 1201 CO., LIMITED",
+   "lessor": "M/S GY AVIATION LEASE 1201 CO., LIMITED",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IFA",
+   "msn": "5259",
+   "dateOfRegistration": "2018-04-13",
+   "dateOfDeregistration": null,
+   "date": "2018-04-13",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2012,
+   "owner": "M/S GY AVIAITION LEASE 1201 CO., LIMITED",
+   "lessor": "M/S GY AVIAITION LEASE 1201 CO., LIMITED",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IHS",
+   "msn": "2443",
+   "dateOfRegistration": "2018-04-16",
+   "dateOfDeregistration": null,
+   "date": "2018-04-16",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2005,
+   "owner": "M/S JB 2443, LLC",
+   "lessor": "M/S AWAS JETBRIDGE LLC",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IAT",
+   "msn": "172S10841",
+   "dateOfRegistration": "2018-04-18",
+   "dateOfDeregistration": null,
+   "date": "2018-04-18",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172S",
+   "yearOfManufacture": 2008,
+   "owner": "GOVERNMENT AVIATION TRAINING INSTITUTE",
+   "lessor": "GOVERNMENT AVIATION TRAINING INSTITUTE",
+   "operator": "GOVERNMENT AVIATION TRAIING INSTITUTE",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-IHM",
+   "msn": "2737",
+   "dateOfRegistration": "2018-04-27",
+   "dateOfDeregistration": null,
+   "date": "2018-04-27",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2006,
+   "owner": "M/S TC SKYWARD AVIATION IRELAND LIMITED",
+   "lessor": "M/S TC SKYWARD AVIATION IRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-JPA",
+   "msn": "11670",
+   "dateOfRegistration": "2018-04-27",
+   "dateOfDeregistration": null,
+   "date": "2018-04-27",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A109E",
+   "yearOfManufacture": 2006,
+   "owner": "M/S UNIVERSAL AIRWAYS PVT LTD",
+   "lessor": "-",
+   "operator": "M/S UNIVERSAL AIRWAYS PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-CIN",
+   "msn": "8202",
+   "dateOfRegistration": "2018-05-03",
+   "dateOfDeregistration": null,
+   "date": "2018-05-03",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "AVOLON AEROSPACE IRELAND AOE 140 LIMITED",
+   "lessor": "AVOLON AEROSPACE IRELAND AOE 140 LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-CIO",
+   "msn": "8226",
+   "dateOfRegistration": "2018-05-04",
+   "dateOfDeregistration": null,
+   "date": "2018-05-04",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "AVOLON AEROSPACE IRELAND AOE 141 LIMITED",
+   "lessor": "AVOLON AEROSPACE IRELAND AOE 141 LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-SLP",
+   "msn": "36118",
+   "dateOfRegistration": "2018-05-07",
+   "dateOfDeregistration": null,
+   "date": "2018-05-07",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-700",
+   "yearOfManufacture": 2009,
+   "owner": "VS MSN 36118 CAV DESIGNATED ACTIVITY COMPANY",
+   "lessor": "VS MSN 36118 CAV DESIGNATED ACTIVITY COMPANY",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TAT",
+   "msn": "65",
+   "dateOfRegistration": "2018-05-07",
+   "dateOfDeregistration": null,
+   "date": "2018-05-07",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "FALCON 2000",
+   "yearOfManufacture": 1998,
+   "owner": "GLOBAL COAL AND MINING PRIVATE LIMITED",
+   "lessor": "GLOBAL COAL AND MINING PRIVATE LIMITED",
+   "operator": "VSR VENTURES PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WGN",
+   "msn": "7858",
+   "dateOfRegistration": "2018-05-08",
+   "dateOfDeregistration": null,
+   "date": "2018-05-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "lessor": "PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ZOD",
+   "msn": "7767",
+   "dateOfRegistration": "2018-05-09",
+   "dateOfDeregistration": null,
+   "date": "2018-05-09",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CRJ 200ER (CL600-2B19)",
+   "yearOfManufacture": 2003,
+   "owner": "CRJ AIRCRAFT LEASING LIMITED",
+   "lessor": "CRJ AIRCRAFT LEASING LIMITED",
+   "operator": "ZEXUS AIR SERVICES PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-RRD",
+   "msn": "36588",
+   "dateOfRegistration": "2018-05-16",
+   "dateOfDeregistration": null,
+   "date": "2018-05-16",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 412EP",
+   "yearOfManufacture": 2011,
+   "owner": "M/s AGRARFLUG HELILIFT GmbH & Co.KG",
+   "lessor": "M/S AAA ROTOR LIMITED",
+   "operator": "M/s GLOBAL VECTRA HELICORP LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ARC",
+   "msn": "226",
+   "dateOfRegistration": "2018-05-18",
+   "dateOfDeregistration": null,
+   "date": "2018-05-18",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "FALCON 2000",
+   "yearOfManufacture": 2005,
+   "owner": "AR AIRWAYS PVT LTD",
+   "lessor": "-",
+   "operator": "AR AIRWAYS PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SGJ",
+   "msn": "29641",
+   "dateOfRegistration": "2018-05-18",
+   "dateOfDeregistration": null,
+   "date": "2018-05-18",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2005,
+   "owner": "AVIATOR ML 29641 LIMITED",
+   "lessor": "AVIATOR ML 29641 LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IEZ",
+   "msn": "5231",
+   "dateOfRegistration": "2018-05-22",
+   "dateOfDeregistration": null,
+   "date": "2018-05-22",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2012,
+   "owner": "M/S GY AVIATION LEASE 1201 CO.LIMITED",
+   "lessor": "M/S GY AVIATION LEASE 1201 CO.LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WGO",
+   "msn": "7871",
+   "dateOfRegistration": "2018-05-23",
+   "dateOfDeregistration": null,
+   "date": "2018-05-23",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "lessor": "PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CIF",
+   "msn": "7638",
+   "dateOfRegistration": "2018-05-29",
+   "dateOfDeregistration": null,
+   "date": "2018-05-29",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2017,
+   "owner": "AVOLON AEROSPACE IRELAND AOE 143 LIMITED",
+   "lessor": "AVOLON AEROSPACE IRELAND AOE 143 LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WGP",
+   "msn": "8146",
+   "dateOfRegistration": "2018-05-30",
+   "dateOfDeregistration": null,
+   "date": "2018-05-30",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "GY AVIATION LEASE 1728 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1728 CO., LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-RSL",
+   "msn": "LJ-1560",
+   "dateOfRegistration": "2018-05-30",
+   "dateOfDeregistration": null,
+   "date": "2018-05-30",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH KING AIR C-90A",
+   "yearOfManufacture": 1999,
+   "owner": "FLAPS AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "Flaps Aviation Pvt Ltd",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SSJ",
+   "msn": "20608175",
+   "dateOfRegistration": "2018-06-01",
+   "dateOfDeregistration": null,
+   "date": "2018-06-01",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 206H",
+   "yearOfManufacture": 2002,
+   "owner": "FAIRWINDS AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "FAIRWINDS AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ITV",
+   "msn": "6829",
+   "dateOfRegistration": "2018-06-05",
+   "dateOfDeregistration": null,
+   "date": "2018-06-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "lessor": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ITQ",
+   "msn": "7391",
+   "dateOfRegistration": "2018-06-05",
+   "dateOfDeregistration": null,
+   "date": "2018-06-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "lessor": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ITS",
+   "msn": "6772",
+   "dateOfRegistration": "2018-06-05",
+   "dateOfDeregistration": null,
+   "date": "2018-06-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "lessor": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ITR",
+   "msn": "7396",
+   "dateOfRegistration": "2018-06-05",
+   "dateOfDeregistration": null,
+   "date": "2018-06-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "lessor": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IHV",
+   "msn": "2195",
+   "dateOfRegistration": "2018-06-08",
+   "dateOfDeregistration": null,
+   "date": "2018-06-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2004,
+   "owner": "M/S CIT AEROSPACE INTERNATIONAL",
+   "lessor": "M/S CIT AEROSPACE INTERNATIONAL",
+   "operator": "INTERGLOBE A AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ITP",
+   "msn": "7331",
+   "dateOfRegistration": "2018-06-08",
+   "dateOfDeregistration": null,
+   "date": "2018-06-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "lessor": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ITT",
+   "msn": "7504",
+   "dateOfRegistration": "2018-06-08",
+   "dateOfDeregistration": null,
+   "date": "2018-06-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "lessor": "M/S ORIENTAL LEASING 8 COMPANY LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IVH",
+   "msn": "8158",
+   "dateOfRegistration": "2018-06-12",
+   "dateOfDeregistration": null,
+   "date": "2018-06-12",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S SKY AIRCRAFT INDIAN TWO LIMITED",
+   "lessor": "M/S SKY AIRCRAFT INDIAN TWO LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-TNK",
+   "msn": "8294",
+   "dateOfRegistration": "2018-06-14",
+   "dateOfDeregistration": null,
+   "date": "2018-06-14",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "TATA SIA AIRLINES LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-MRF",
+   "msn": "5778",
+   "dateOfRegistration": "2018-06-15",
+   "dateOfDeregistration": null,
+   "date": "2018-06-15",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CL-600-2B16(CHALLENGER 605)",
+   "yearOfManufacture": 2008,
+   "owner": "M/s MRF LIMITED",
+   "lessor": "-",
+   "operator": "MRF LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IVA",
+   "msn": "7912",
+   "dateOfRegistration": "2018-06-19",
+   "dateOfDeregistration": null,
+   "date": "2018-06-19",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S GAT MI VOL I DESIGNATED ACTIVITY COMPANY",
+   "lessor": "M/S GAT MI VOL I DESIGNATED ACTIVITY COMPANY",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-RSM",
+   "msn": "BB-1758",
+   "dateOfRegistration": "2018-06-25",
+   "dateOfDeregistration": null,
+   "date": "2018-06-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH SUPER KING AIR B- 200",
+   "yearOfManufacture": 2001,
+   "owner": "U.Y. AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "U.Y. AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CIM",
+   "msn": "8167",
+   "dateOfRegistration": "2018-06-28",
+   "dateOfDeregistration": null,
+   "date": "2018-06-28",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "CIT AEROSPACE INTERNATIONAL",
+   "lessor": "CIT AEROSPACE INTERNATIONAL",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-AUV",
+   "msn": "5706",
+   "dateOfRegistration": "2018-06-29",
+   "dateOfDeregistration": null,
+   "date": "2018-06-29",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CL-600-2B16 CL 604 VARIANT (CL605)",
+   "yearOfManufacture": 2006,
+   "owner": "M/S FLY BY WIRE INTERNATIONAL PVT LTD",
+   "lessor": "-",
+   "operator": "M/S FLY BY WIRE INTERNATIONAL PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WGQ",
+   "msn": "8152",
+   "dateOfRegistration": "2018-07-02",
+   "dateOfDeregistration": null,
+   "date": "2018-07-02",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "GY AVIATION LEASE 1729 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1729 CO., LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JSH",
+   "msn": "57088",
+   "dateOfRegistration": "2018-07-05",
+   "dateOfDeregistration": null,
+   "date": "2018-07-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 429",
+   "yearOfManufacture": 2012,
+   "owner": "SPAN AIR PVT LTD",
+   "lessor": "-",
+   "operator": "SPAN AIR PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-VAP",
+   "msn": "258384",
+   "dateOfRegistration": "2018-07-05",
+   "dateOfDeregistration": null,
+   "date": "2018-07-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "HAWKER 800 XP",
+   "yearOfManufacture": 1998,
+   "owner": "B G SHIRKE CONSTRUCTION TECHNOLOGY PBT LTD",
+   "lessor": "-",
+   "operator": "B G SHIRKE CONSTRUCTION TECHNOLOGY PBT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-JJA",
+   "msn": "356C157",
+   "dateOfRegistration": "2018-07-06",
+   "dateOfDeregistration": null,
+   "date": "2018-07-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "MI-172",
+   "yearOfManufacture": 2006,
+   "owner": "CRJ AIRCRAFT LEASING LTD",
+   "lessor": "CRJ AIRCRAFT LEASING LTD",
+   "operator": "SKY ONE AIRWAYS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CIQ",
+   "msn": "8267",
+   "dateOfRegistration": "2018-07-11",
+   "dateOfDeregistration": null,
+   "date": "2018-07-11",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "CIT AEROSPACE INTERNATIONAL",
+   "lessor": "CIT AEROSPACE INTERNATIONAL",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-VSR",
+   "msn": "11783",
+   "dateOfRegistration": "2018-07-11",
+   "dateOfDeregistration": null,
+   "date": "2018-07-11",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A109E",
+   "yearOfManufacture": 2010,
+   "owner": "CRESCENT EPC PROJECTS AND TECHNICCAL SERVICES LIMITED",
+   "lessor": "-",
+   "operator": "CRESCENT EPC PROJECTS AND TECHNICCAL SERVICES LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IVL",
+   "msn": "8218",
+   "dateOfRegistration": "2018-07-13",
+   "dateOfDeregistration": null,
+   "date": "2018-07-13",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "SDH WINGS LEASING 1 LIMITED",
+   "lessor": "SDH WINGS LEASING 1 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IHU",
+   "msn": "2121",
+   "dateOfRegistration": "2018-07-16",
+   "dateOfDeregistration": null,
+   "date": "2018-07-16",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2003,
+   "owner": "M/S AS AIR LEASE 55 (IRELAND) LIMITED",
+   "lessor": "M/S AS AIR LEASE 55 (IRELAND) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SKB",
+   "msn": "356C158",
+   "dateOfRegistration": "2018-07-16",
+   "dateOfDeregistration": null,
+   "date": "2018-07-16",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "MI-172",
+   "yearOfManufacture": 2006,
+   "owner": "CRJ AIRCRAFT LEASING LTD",
+   "lessor": "CRJ AIRCRAFT LEASING LTD",
+   "operator": "SKY ONE AIRWAYS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-MAE",
+   "msn": "356C01",
+   "dateOfRegistration": "2018-07-16",
+   "dateOfDeregistration": null,
+   "date": "2018-07-16",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "MI-172",
+   "yearOfManufacture": 1994,
+   "owner": "CRJ AIRCRAFT LEASING LTD",
+   "lessor": "CRJ AIRCRAFT LEASING LTD",
+   "operator": "SKY ONE AIRWAYS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IVN",
+   "msn": "8259",
+   "dateOfRegistration": "2018-07-18",
+   "dateOfDeregistration": null,
+   "date": "2018-07-18",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "lessor": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-RKJ",
+   "msn": "1439",
+   "dateOfRegistration": "2018-07-24",
+   "dateOfDeregistration": null,
+   "date": "2018-07-24",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2017,
+   "owner": "MSN 1439 LEASING SPC LIMITED",
+   "lessor": "DAE LEASING IRELAND 21 LIMITED",
+   "operator": "AIRLINE ALLIED SERVICES LIMITED ALLIANCE AIR",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-UPR",
+   "msn": "BB-1818",
+   "dateOfRegistration": "2018-07-24",
+   "dateOfDeregistration": null,
+   "date": "2018-07-24",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH SUPER KING AIR B- 200",
+   "yearOfManufacture": 2003,
+   "owner": "CIVIL AVIATION DEPARMENT GOVERNMENT OF UTTAR PRADESH",
+   "lessor": "-",
+   "operator": "CIVIL AVIATION DEPARMENT GOVERNMENT OF UTTAR PRADESH",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-WGR",
+   "msn": "8209",
+   "dateOfRegistration": "2018-07-25",
+   "dateOfDeregistration": null,
+   "date": "2018-07-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "GY AVIATION LEASE 1803 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1803 CO., LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IVE",
+   "msn": "7083",
+   "dateOfRegistration": "2018-07-25",
+   "dateOfDeregistration": null,
+   "date": "2018-07-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "lessor": "M/S PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IVO",
+   "msn": "8310",
+   "dateOfRegistration": "2018-07-25",
+   "dateOfDeregistration": null,
+   "date": "2018-07-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "lessor": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CIP",
+   "msn": "8225",
+   "dateOfRegistration": "2018-07-25",
+   "dateOfDeregistration": null,
+   "date": "2018-07-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "CIT AEROSPACE INTERNATIONAL",
+   "lessor": "CIT AEROSPACE INTERNATIONAL",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IVC",
+   "msn": "7931",
+   "dateOfRegistration": "2018-07-25",
+   "dateOfDeregistration": null,
+   "date": "2018-07-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "lessor": "M/S PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IVF",
+   "msn": "7192",
+   "dateOfRegistration": "2018-07-25",
+   "dateOfDeregistration": null,
+   "date": "2018-07-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "M/S PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "lessor": "M/S PEMBROKE AIRCRAFT LEASING 11 LIMITED",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-SSS",
+   "msn": "17275155",
+   "dateOfRegistration": "2018-07-25",
+   "dateOfDeregistration": null,
+   "date": "2018-07-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172P",
+   "yearOfManufacture": 1982,
+   "owner": "Mis GARG A VIA TlONS LIMITED",
+   "lessor": "Mis GARG A VIA TlONS LIMITED",
+   "operator": "Mis GARG A VIA TlONS LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IEK",
+   "msn": "4868",
+   "dateOfRegistration": "2018-07-26",
+   "dateOfDeregistration": null,
+   "date": "2018-07-26",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2011,
+   "owner": "GY AVIATION LEASE 101 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 101 CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ZIN",
+   "msn": "52315",
+   "dateOfRegistration": "2018-07-27",
+   "dateOfDeregistration": null,
+   "date": "2018-07-27",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 206L4",
+   "yearOfManufacture": 2005,
+   "owner": "BANK OF UTAH",
+   "lessor": "BANK OF UTAH",
+   "operator": "DHILLON AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IVQ",
+   "msn": "8387",
+   "dateOfRegistration": "2018-07-31",
+   "dateOfDeregistration": null,
+   "date": "2018-07-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S SKY AIRCRAFT INDIAN THREE LIMITED",
+   "lessor": "M/S SKY AIRCRAFT INDIAN THREE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-SUQ",
+   "msn": "4406",
+   "dateOfRegistration": "2018-07-31",
+   "dateOfDeregistration": null,
+   "date": "2018-07-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "DHC-8-402",
+   "yearOfManufacture": 2012,
+   "owner": "NAC AVIATION 7 LIMITED",
+   "lessor": "NAC AVIATION 7 LIMITED",
+   "operator": "SPICEJET LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IGU",
+   "msn": "4488",
+   "dateOfRegistration": "2018-07-31",
+   "dateOfDeregistration": null,
+   "date": "2018-07-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2010,
+   "owner": "M/S APTREE AVIATION TRADING 2 CO. LIMITED",
+   "lessor": "M/S APTREE AVIATION TRADING 2 CO. LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-WGS",
+   "msn": "8273",
+   "dateOfRegistration": "2018-08-01",
+   "dateOfDeregistration": null,
+   "date": "2018-08-01",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "GY AVIATION LEASE 1802 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1802 CO., LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IGW",
+   "msn": "4506",
+   "dateOfRegistration": "2018-08-02",
+   "dateOfDeregistration": null,
+   "date": "2018-08-02",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2010,
+   "owner": "APTREE AVIATION TRADING 2 CO., LIMITED",
+   "lessor": "ALAN GERAGHTY",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ACD",
+   "msn": "FL-465",
+   "dateOfRegistration": "2018-08-03",
+   "dateOfDeregistration": null,
+   "date": "2018-08-03",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH SUPER KING AIR B- 300 (350)",
+   "yearOfManufacture": 2005,
+   "owner": "M/S QUANTUM INVESTMENTS LTD",
+   "lessor": "M/S QUANTUM INVESTMENTS LTD",
+   "operator": "M/S HERITAGE AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-VAK",
+   "msn": "208B2281",
+   "dateOfRegistration": "2018-08-06",
+   "dateOfDeregistration": null,
+   "date": "2018-08-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA CARAVAN 208B",
+   "yearOfManufacture": 2011,
+   "owner": "MAHENDRAKUMAR BHIKHALAL DHANDHUKIA",
+   "lessor": "R D SPARKLE PTE LTD",
+   "operator": "VENTURA AIRCONECT LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-HBX",
+   "msn": "RK-400",
+   "dateOfRegistration": "2018-08-09",
+   "dateOfDeregistration": null,
+   "date": "2018-08-09",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "HAWKER 400A XP",
+   "yearOfManufacture": 2005,
+   "owner": "M/S QUANTUM INVESTMNETS LTD",
+   "lessor": "M/S QUANTUM INVESTMNETS LTD",
+   "operator": "M/S HERITAGE AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IEB",
+   "msn": "4609",
+   "dateOfRegistration": "2018-08-13",
+   "dateOfDeregistration": null,
+   "date": "2018-08-13",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2011,
+   "owner": "M/S AVOLON AEROSPACE AOE 15 LIMITED",
+   "lessor": "M/S AVOLON AEROSPACE AOE 15 LIMITED",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IGX",
+   "msn": "4518",
+   "dateOfRegistration": "2018-08-14",
+   "dateOfDeregistration": null,
+   "date": "2018-08-14",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2010,
+   "owner": "M/S AVOLON AEROSPACE AOE 4 LIMITED",
+   "lessor": "M/S AVOLON AEROSPACE AOE 4 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IHT",
+   "msn": "2388",
+   "dateOfRegistration": "2018-08-16",
+   "dateOfDeregistration": null,
+   "date": "2018-08-16",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-214",
+   "yearOfManufacture": 2005,
+   "owner": "M/S WELLS FARGO TRUST COMPANY, N.A. NOT IN ITS INDIVISUL CAPACITY BUT SOLELY AS OWNER TRUSTEE",
+   "lessor": "GENESIS IRELAND AVIATION TRADING 4 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IHW",
+   "msn": "2097",
+   "dateOfRegistration": "2018-08-21",
+   "dateOfDeregistration": null,
+   "date": "2018-08-21",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2003,
+   "owner": "M/S AS AIR LEASE 55 (IRELAND) LIMITED",
+   "lessor": "M/S AS AIR LEASE 55 (IRELAND) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-TTI",
+   "msn": "6785",
+   "dateOfRegistration": "2018-08-21",
+   "dateOfDeregistration": null,
+   "date": "2018-08-21",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2015,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "TATA SIA AIRLINES LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ANF",
+   "msn": "RB 128",
+   "dateOfRegistration": "2018-08-24",
+   "dateOfDeregistration": null,
+   "date": "2018-08-24",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "RAYTHEON PREMIER I",
+   "yearOfManufacture": 2005,
+   "owner": "M/S VRL LOGISTICS LIMITED",
+   "lessor": "-",
+   "operator": "M/S VRL LOGISTICS LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-WGI",
+   "msn": "7594",
+   "dateOfRegistration": "2018-08-27",
+   "dateOfDeregistration": null,
+   "date": "2018-08-27",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "ACG AIRCRAFT LEASING IRELAND LIMITED",
+   "lessor": "ACG AIRCRAFT LEASING IRELAND LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-WGJ",
+   "msn": "7737",
+   "dateOfRegistration": "2018-08-29",
+   "dateOfDeregistration": null,
+   "date": "2018-08-29",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "ACG AIRCRAFT LEASING IRELAND LIMITED",
+   "lessor": "ACG AIRCRAFT LEASING IRELAND LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IVR",
+   "msn": "8397",
+   "dateOfRegistration": "2018-08-31",
+   "dateOfDeregistration": null,
+   "date": "2018-08-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S APF I PROJECT NO. 12 LIMITED",
+   "lessor": "M/S APF I PROJECT NO. 12 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ATV",
+   "msn": "8326",
+   "dateOfRegistration": "2018-08-31",
+   "dateOfDeregistration": null,
+   "date": "2018-08-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "TATA SIA AIRLINES LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IVU",
+   "msn": "8414",
+   "dateOfRegistration": "2018-08-31",
+   "dateOfDeregistration": null,
+   "date": "2018-08-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S ORTUS AIRCRAFT LEASE 5 (DUBLIN) LIMITED",
+   "lessor": "M/S ORTUS AIRCRAFT LEASE 5 (DUBLIN) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-SON",
+   "msn": "55",
+   "dateOfRegistration": "2018-09-04",
+   "dateOfDeregistration": null,
+   "date": "2018-09-04",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2010",
+   "yearOfManufacture": 2017,
+   "owner": "GOVERNMENT FLYING TRAINING SCHOOL",
+   "lessor": "-",
+   "operator": "GOVERNMENT FLYING TRAINING SCHOOL",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IEM",
+   "msn": "4947",
+   "dateOfRegistration": "2018-09-06",
+   "dateOfDeregistration": null,
+   "date": "2018-09-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2011,
+   "owner": "M/s GY AVIATION LEASE 101 CO., LIMITED.",
+   "lessor": "M/s GY AVIATION LEASE 101 CO., LIMITED.",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IGH",
+   "msn": "MSN 4008",
+   "dateOfRegistration": "2018-09-07",
+   "dateOfDeregistration": null,
+   "date": "2018-09-07",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2009,
+   "owner": "SARAH CLARKIN",
+   "lessor": "SARAH CLARKIN",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-SDD",
+   "msn": "1072",
+   "dateOfRegistration": "2018-09-10",
+   "dateOfDeregistration": null,
+   "date": "2018-09-10",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "R44",
+   "yearOfManufacture": 2001,
+   "owner": "M/S MAHARAJA AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "M/S MAHARAJA AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-DVV",
+   "msn": "560 5271",
+   "dateOfRegistration": "2018-09-11",
+   "dateOfDeregistration": null,
+   "date": "2018-09-11",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA CITATION 560XL",
+   "yearOfManufacture": 2002,
+   "owner": "AIR CHARTER SERVICES PVT LTD",
+   "lessor": "-",
+   "operator": "AIR CHARTER SERVICES PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IFD",
+   "msn": "5298",
+   "dateOfRegistration": "2018-09-12",
+   "dateOfDeregistration": null,
+   "date": "2018-09-12",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2012,
+   "owner": "M/S HKAC LEASING (IGO No. 7) LIMITED",
+   "lessor": "M/S HKAC LEASING (IGO No. 7) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-WGT",
+   "msn": "8382",
+   "dateOfRegistration": "2018-09-14",
+   "dateOfDeregistration": null,
+   "date": "2018-09-14",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "GY AVIATION LEASE 1730 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1730 CO., LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ARF",
+   "msn": "143",
+   "dateOfRegistration": "2018-09-14",
+   "dateOfDeregistration": null,
+   "date": "2018-09-14",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "FALCON 2000",
+   "yearOfManufacture": 2001,
+   "owner": "M/S AR AIRWAYS PVT LTD",
+   "lessor": "-",
+   "operator": "M/S AR AIRWAYS PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-CLA",
+   "msn": "560 5010",
+   "dateOfRegistration": "2018-09-14",
+   "dateOfDeregistration": null,
+   "date": "2018-09-14",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA CITATION 560XL",
+   "yearOfManufacture": 1998,
+   "owner": "AR AIRWAYS PVT LTD",
+   "lessor": "-",
+   "operator": "AR AIRWAYS PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-WGV",
+   "msn": "8458",
+   "dateOfRegistration": "2018-09-18",
+   "dateOfDeregistration": null,
+   "date": "2018-09-18",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "GY AVIATION LEASE 1731 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1731 CO., LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IGI",
+   "msn": "4113",
+   "dateOfRegistration": "2018-09-18",
+   "dateOfDeregistration": null,
+   "date": "2018-09-18",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2009,
+   "owner": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LIMITED",
+   "lessor": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-MAN",
+   "msn": "155",
+   "dateOfRegistration": "2018-09-19",
+   "dateOfDeregistration": null,
+   "date": "2018-09-19",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "R66",
+   "yearOfManufacture": 2012,
+   "owner": "MANDKE & MANDKE INFRASTRUCTURE PVT LTD",
+   "lessor": "-",
+   "operator": "MANDKE & MANDKE INFRASTRUCTURE PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-GHK",
+   "msn": "43902",
+   "dateOfRegistration": "2018-09-20",
+   "dateOfDeregistration": null,
+   "date": "2018-09-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800NG",
+   "yearOfManufacture": 2018,
+   "owner": "M/s Sky High LXXIX Leasing Company Ltd.",
+   "lessor": "M/s Sky High LXXIX Leasing Company Ltd.",
+   "operator": "Air India Express Ltd.",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IVX",
+   "msn": "8417",
+   "dateOfRegistration": "2018-09-20",
+   "dateOfDeregistration": null,
+   "date": "2018-09-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S SKY AIRCRAFT INDIAN FOUR LIMITED",
+   "lessor": "M/S SKY AIRCRAFT INDIAN FOUR LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-VAM",
+   "msn": "208B2269",
+   "dateOfRegistration": "2018-09-20",
+   "dateOfDeregistration": null,
+   "date": "2018-09-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA CARAVAN 208B",
+   "yearOfManufacture": 2011,
+   "owner": "MAHENDRAKUMAR BHIKHALAL DHANDHUKIA",
+   "lessor": "PARESHKUMAR JAYSUKHBHAI DOBARIYA",
+   "operator": "VENTURA AIRCONECT LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IDP",
+   "msn": "2359",
+   "dateOfRegistration": "2018-09-24",
+   "dateOfDeregistration": null,
+   "date": "2018-09-24",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2005,
+   "owner": "M/S SASOF IV (A1) AVIATION IRELAND DAC",
+   "lessor": "M/S SASOF (IV) A1 AVIATION IRELAND DAC.",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IHJ",
+   "msn": "2804",
+   "dateOfRegistration": "2018-09-24",
+   "dateOfDeregistration": null,
+   "date": "2018-09-24",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2006,
+   "owner": "M/S WELLS FARGO TRUST COMPANY, NATIONAL ASSOCIATION",
+   "lessor": "M/S MASL IRELAND (22) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IZA",
+   "msn": "8492",
+   "dateOfRegistration": "2018-09-28",
+   "dateOfDeregistration": null,
+   "date": "2018-09-28",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S APF 4 PROJECT NO. 8 LIMITED",
+   "lessor": "M/S APF 4 PROJECT NO. 8 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-WGW",
+   "msn": "8464",
+   "dateOfRegistration": "2018-09-28",
+   "dateOfDeregistration": null,
+   "date": "2018-09-28",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "GY AVIATION LEASE 1801 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1801 CO., LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IVV",
+   "msn": "8440",
+   "dateOfRegistration": "2018-10-01",
+   "dateOfDeregistration": null,
+   "date": "2018-10-01",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "lessor": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-MAX",
+   "msn": "60644",
+   "dateOfRegistration": "2018-10-01",
+   "dateOfDeregistration": null,
+   "date": "2018-10-01",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SKY HIGH LXXVIII LEASING COMPANY LIMITED",
+   "lessor": "SKY HIGH LXXVIII LEASING COMPANY LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ACW",
+   "msn": "172-81493",
+   "dateOfRegistration": "2018-10-03",
+   "dateOfDeregistration": null,
+   "date": "2018-10-03",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2008,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ACN",
+   "msn": "17281464",
+   "dateOfRegistration": "2018-10-03",
+   "dateOfDeregistration": null,
+   "date": "2018-10-03",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2007,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "AERO CLUB OF INDIA",
+   "operator": "HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-EMZ",
+   "msn": "FA 152-0405",
+   "dateOfRegistration": "2018-10-03",
+   "dateOfDeregistration": null,
+   "date": "2018-10-03",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 152 AEROBAT",
+   "yearOfManufacture": 1986,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-ENH",
+   "msn": "FA152 0413",
+   "dateOfRegistration": "2018-10-03",
+   "dateOfDeregistration": null,
+   "date": "2018-10-03",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 152 AEROBAT",
+   "yearOfManufacture": 1986,
+   "owner": "M/S AERO CLOB OF INDIA",
+   "lessor": "M/S AERO CLOB OF INDIA",
+   "operator": "M/S HARYANA INSTITUTE OF CIVIL AVIATION",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-GNK",
+   "msn": "53887",
+   "dateOfRegistration": "2018-10-04",
+   "dateOfDeregistration": null,
+   "date": "2018-10-04",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 407",
+   "yearOfManufacture": 2008,
+   "owner": "M/S PINNACLE AIR PVT LTD",
+   "lessor": "M/S PINNACLE AIR PVT LTD",
+   "operator": "M/S PINNACLE AIR PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IVS",
+   "msn": "8416",
+   "dateOfRegistration": "2018-10-08",
+   "dateOfDeregistration": null,
+   "date": "2018-10-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "lessor": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IDO",
+   "msn": "2275",
+   "dateOfRegistration": "2018-10-08",
+   "dateOfDeregistration": null,
+   "date": "2018-10-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2004,
+   "owner": "SAPHHIRE LEASING I (AOE) LIMITED",
+   "lessor": "JOSEPH CLARKIN",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-NAL",
+   "msn": "54415",
+   "dateOfRegistration": "2018-10-08",
+   "dateOfDeregistration": null,
+   "date": "2018-10-08",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 407GX",
+   "yearOfManufacture": 2013,
+   "owner": "SPAN AIR PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "SPAN AIR PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IVG",
+   "msn": "8101",
+   "dateOfRegistration": "2018-10-10",
+   "dateOfDeregistration": null,
+   "date": "2018-10-10",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S FGL AIRCRAFT IRELAND LIMITED",
+   "lessor": "M/S FGL AIRCRAFT IRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-RKK",
+   "msn": "1445",
+   "dateOfRegistration": "2018-10-11",
+   "dateOfDeregistration": null,
+   "date": "2018-10-11",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2018,
+   "owner": "MSN 1445 LEASING SPC LIMITED",
+   "lessor": "DAE LEASING IRELAND 22 LIMITED",
+   "operator": "AIRLINE ALLIED SERVICES LIMITED ALLIANCE AIR",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-WGK",
+   "msn": "7753",
+   "dateOfRegistration": "2018-10-12",
+   "dateOfDeregistration": null,
+   "date": "2018-10-12",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "ACG AIRCRAFT LEASING IRELAND LIMITED",
+   "lessor": "ACG AIRCRAFT LEASING IRELAND LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-WGM",
+   "msn": "7859",
+   "dateOfRegistration": "2018-10-12",
+   "dateOfDeregistration": null,
+   "date": "2018-10-12",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2017,
+   "owner": "ACG AIRCRAFT LEASING IRELAND",
+   "lessor": "ACG AIRCRAFT LEASING IRELAND LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-MHN",
+   "msn": "53962",
+   "dateOfRegistration": "2018-10-15",
+   "dateOfDeregistration": null,
+   "date": "2018-10-15",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 407",
+   "yearOfManufacture": 2009,
+   "owner": "BELGAUM SUGARS PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "BELGAUM SUGARS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IAL",
+   "msn": "5992",
+   "dateOfRegistration": "2018-10-16",
+   "dateOfDeregistration": null,
+   "date": "2018-10-16",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2014,
+   "owner": "ID 5992 AIRCRAFT LEASING LIMITED",
+   "lessor": "ID 5992 AIRCRAFT LEASING LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-WGX",
+   "msn": "8482",
+   "dateOfRegistration": "2018-10-25",
+   "dateOfDeregistration": null,
+   "date": "2018-10-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "GY AVIATION LEASE 1732 CO. LIMITED",
+   "lessor": "GY AVIATION LEASE 1732 CO., LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-WGY",
+   "msn": "8498",
+   "dateOfRegistration": "2018-10-25",
+   "dateOfDeregistration": null,
+   "date": "2018-10-25",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "SMBC AVIATION CAPITAL LIMITED",
+   "lessor": "SMBC AVIATION CAPITAL LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ARM",
+   "msn": "207",
+   "dateOfRegistration": "2018-10-26",
+   "dateOfDeregistration": null,
+   "date": "2018-10-26",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "FALCON 2000",
+   "yearOfManufacture": 2003,
+   "owner": "AR AIRWAYS PVT LTD",
+   "lessor": "-",
+   "operator": "AR AIRWAYS PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IZD",
+   "msn": "8527",
+   "dateOfRegistration": "2018-10-26",
+   "dateOfDeregistration": null,
+   "date": "2018-10-26",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S LUNI AVIATION LEASING LIMITED",
+   "lessor": "M/S LUNI AVIATION LEASING LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SXR",
+   "msn": "4562",
+   "dateOfRegistration": "2018-10-29",
+   "dateOfDeregistration": null,
+   "date": "2018-10-29",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-214",
+   "yearOfManufacture": 2011,
+   "owner": "WELLS FARGO TRUST COMPANY NATIONAL ASSOCIATION",
+   "lessor": "RED LOTUS AVIATION LIMITED",
+   "operator": "AIRASIA (INDIA) LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-GHI",
+   "msn": "43898",
+   "dateOfRegistration": "2018-10-30",
+   "dateOfDeregistration": null,
+   "date": "2018-10-30",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800NG",
+   "yearOfManufacture": 2018,
+   "owner": "M/s Sky High LXXIX Leasing Company Ltd.",
+   "lessor": "M/s Sky High LXXIX Leasing Company Ltd.",
+   "operator": "Air India Express Ltd.",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IVT",
+   "msn": "8426",
+   "dateOfRegistration": "2018-11-01",
+   "dateOfDeregistration": null,
+   "date": "2018-11-01",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "lessor": "M/S JACKSON SQUARE AVIATION lRELAND LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-BAE",
+   "msn": "18283045",
+   "dateOfRegistration": "2018-11-02",
+   "dateOfDeregistration": null,
+   "date": "2018-11-02",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 182T",
+   "yearOfManufacture": 2018,
+   "owner": "BLUE RAY AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "BLUE RAY AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-MXA",
+   "msn": "64505",
+   "dateOfRegistration": "2018-11-02",
+   "dateOfDeregistration": null,
+   "date": "2018-11-02",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SKY HIGH LXXX LEASING COMPANY LIMITED",
+   "lessor": "SKY HIGH LXXX LEASING COMPANY LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-MXD",
+   "msn": "64938",
+   "dateOfRegistration": "2018-11-02",
+   "dateOfDeregistration": null,
+   "date": "2018-11-02",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-NKL",
+   "msn": "57013",
+   "dateOfRegistration": "2018-11-05",
+   "dateOfDeregistration": null,
+   "date": "2018-11-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 429",
+   "yearOfManufacture": 2010,
+   "owner": "SPAN AIR PVT. LTD.",
+   "lessor": "-",
+   "operator": "SPAN AIR PVT. LTD.",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-BKL",
+   "msn": "HA-103",
+   "dateOfRegistration": "2018-11-05",
+   "dateOfDeregistration": null,
+   "date": "2018-11-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "HAWKER 900 XP",
+   "yearOfManufacture": 2009,
+   "owner": "M/S ASIA AVIATION HOLDINGS LTD",
+   "lessor": "M/S AURORA AIRLINES LIMITED",
+   "operator": "M/S SPAN AIR PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SMR",
+   "msn": "BY-212",
+   "dateOfRegistration": "2018-11-05",
+   "dateOfDeregistration": null,
+   "date": "2018-11-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH SUPER KING AIR B- 200GT",
+   "yearOfManufacture": 2014,
+   "owner": "SPAN AIR PVT LTD",
+   "lessor": "-",
+   "operator": "SPAN AIR PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-NJH",
+   "msn": "52288",
+   "dateOfRegistration": "2018-11-06",
+   "dateOfDeregistration": null,
+   "date": "2018-11-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 206L4",
+   "yearOfManufacture": 2004,
+   "owner": "BANK OF UTAH",
+   "lessor": "-",
+   "operator": "DHILLON AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IZG",
+   "msn": "8511",
+   "dateOfRegistration": "2018-11-06",
+   "dateOfDeregistration": null,
+   "date": "2018-11-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S APF 4 PROJECT NO. 8 LIMITED",
+   "lessor": "M/S APF 4 PROJECT NO. 8 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-GMT",
+   "msn": "42.235",
+   "dateOfRegistration": "2018-11-06",
+   "dateOfDeregistration": null,
+   "date": "2018-11-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "DA-42",
+   "yearOfManufacture": 2007,
+   "owner": "M/s APFT AVIATION SDN BHD.",
+   "lessor": "APFT AVIATION SDN BHD",
+   "operator": "ASIA PACIFIC FLIGHT TRAINING ACADEMY LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SRB",
+   "msn": "D4.280",
+   "dateOfRegistration": "2018-11-06",
+   "dateOfDeregistration": null,
+   "date": "2018-11-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "DA-40D",
+   "yearOfManufacture": 2007,
+   "owner": "M/s APFT AVIATION SDN BHD.",
+   "lessor": "APFT AVIATION SDN BHD",
+   "operator": "ASIA PACIFIC FLIGHT TRAINING ACADEMY LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SDR",
+   "msn": "D4.284",
+   "dateOfRegistration": "2018-11-06",
+   "dateOfDeregistration": null,
+   "date": "2018-11-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "DA-40D",
+   "yearOfManufacture": 2007,
+   "owner": "M/s APFT AVIATION SDN BHD.",
+   "lessor": "APFT AVIATION SDN BHD",
+   "operator": "ASIA PACIFIC FLIGHT TRAINNG ACADEMY LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-GMR",
+   "msn": "D4.294",
+   "dateOfRegistration": "2018-11-06",
+   "dateOfDeregistration": null,
+   "date": "2018-11-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "DA-40D",
+   "yearOfManufacture": 2007,
+   "owner": "M/s APFT AVIATION SDN BHD.",
+   "lessor": "APFT AVIATION SDN BHD",
+   "operator": "ASIA PACIFIC FLIGHT TRAINING ACADEMY LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-JPS",
+   "msn": "11765",
+   "dateOfRegistration": "2018-11-09",
+   "dateOfDeregistration": null,
+   "date": "2018-11-09",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A109E",
+   "yearOfManufacture": 2010,
+   "owner": "M/S HIMALYAPUTRA AVIATION LTD",
+   "lessor": "-",
+   "operator": "M/S HIMALYAPUTRA AVIATION LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IFF",
+   "msn": "5365",
+   "dateOfRegistration": "2018-11-13",
+   "dateOfDeregistration": null,
+   "date": "2018-11-13",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2012,
+   "owner": "M/S HKAC LEASING (IGO No. 8) LIMITED",
+   "lessor": "M/S HKAC LEASING (IGO No. 8) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-AXJ",
+   "msn": "36325",
+   "dateOfRegistration": "2018-11-14",
+   "dateOfDeregistration": null,
+   "date": "2018-11-14",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800NG",
+   "yearOfManufacture": 2006,
+   "owner": "M/S AIR INDIA EXPRESS LIMITED",
+   "lessor": "-",
+   "operator": "M/S AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-AXH",
+   "msn": "36323",
+   "dateOfRegistration": "2018-11-14",
+   "dateOfDeregistration": null,
+   "date": "2018-11-14",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800NG",
+   "yearOfManufacture": 2006,
+   "owner": "Air India Express Ltd.",
+   "lessor": "-",
+   "operator": "Air India Express Ltd.",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-MXE",
+   "msn": "64939",
+   "dateOfRegistration": "2018-11-15",
+   "dateOfDeregistration": null,
+   "date": "2018-11-15",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ACR",
+   "msn": "17281468",
+   "dateOfRegistration": "2018-11-20",
+   "dateOfDeregistration": null,
+   "date": "2018-11-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2007,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S PATIALA AVIATION CLUB",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ACJ",
+   "msn": "17281424",
+   "dateOfRegistration": "2018-11-20",
+   "dateOfDeregistration": null,
+   "date": "2018-11-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2007,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S PATIALA AVIATION CLUB",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ENI",
+   "msn": "FA1520414",
+   "dateOfRegistration": "2018-11-20",
+   "dateOfDeregistration": null,
+   "date": "2018-11-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 152 AEROBAT",
+   "yearOfManufacture": 1986,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S PATIALA AVIATION CLUB",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-EMW",
+   "msn": "FA1520402",
+   "dateOfRegistration": "2018-11-20",
+   "dateOfDeregistration": null,
+   "date": "2018-11-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA FA 152 AEROB",
+   "yearOfManufacture": 1986,
+   "owner": "M/s Aero Club of India",
+   "lessor": "M/s Aero Club of India",
+   "operator": "M/s Patiala Aviation Club",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-EMU",
+   "msn": "FA-152-0400",
+   "dateOfRegistration": "2018-11-20",
+   "dateOfDeregistration": null,
+   "date": "2018-11-20",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA FA 152 AEROB",
+   "yearOfManufacture": 1985,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S MADHYA PRADESH FLYING CLUB LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-EXO",
+   "msn": "8470",
+   "dateOfRegistration": "2018-11-22",
+   "dateOfDeregistration": null,
+   "date": "2018-11-22",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "ALAFCO IRISH AIRCRAFT LEASING EIGHT LIMITED",
+   "lessor": "ALAFCO IRISH AIRCRAFT LEASING SIX LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-WGZ",
+   "msn": "8503",
+   "dateOfRegistration": "2018-11-22",
+   "dateOfDeregistration": null,
+   "date": "2018-11-22",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "GY AVIATION LEASE 1804 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1804 CO., LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ACX",
+   "msn": "TH 2236",
+   "dateOfRegistration": "2018-11-28",
+   "dateOfDeregistration": null,
+   "date": "2018-11-28",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH BARON G 58",
+   "yearOfManufacture": 2008,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S MADHYA PRADESH FLYING CLUB LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ACK",
+   "msn": "17281425",
+   "dateOfRegistration": "2018-11-28",
+   "dateOfDeregistration": null,
+   "date": "2018-11-28",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2007,
+   "owner": "AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "THE MADHYA PRADESH FLYING CLUB LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IFG",
+   "msn": "5411",
+   "dateOfRegistration": "2018-11-29",
+   "dateOfDeregistration": null,
+   "date": "2018-11-29",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2012,
+   "owner": "M/S HKAC LEASING (IGO No. 9) LIMITED",
+   "lessor": "M/S HKAC LEASING (IGO No. 9) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SLM",
+   "msn": "35063",
+   "dateOfRegistration": "2018-11-30",
+   "dateOfDeregistration": null,
+   "date": "2018-11-30",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2007,
+   "owner": "SASOF III (C) AVIATION IRELAND DAC",
+   "lessor": "SASOF III C AVIATION IRELAND DAC",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IKA",
+   "msn": "2139",
+   "dateOfRegistration": "2018-12-03",
+   "dateOfDeregistration": null,
+   "date": "2018-12-03",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-232",
+   "yearOfManufacture": 2003,
+   "owner": "M/S SAPPHIRE LEASING I (AOE 2) LIMITED.",
+   "lessor": "M/S SAPPHIRE LEASING I (AOE 2) LIMITED.",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-RGW",
+   "msn": "17281595",
+   "dateOfRegistration": "2018-12-04",
+   "dateOfDeregistration": null,
+   "date": "2018-12-04",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2012,
+   "owner": "RAJIV GANDHI ACADEMY FOR AVIATION TECHNOLOGY",
+   "lessor": "-",
+   "operator": "RAJIV GANDHI ACADEMY FOR AVIATION TECHNOLOGY",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-MXB",
+   "msn": "64506",
+   "dateOfRegistration": "2018-12-05",
+   "dateOfDeregistration": null,
+   "date": "2018-12-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SKY HIGH LXXX LEASING COMPANY LIMITED",
+   "lessor": "SKY HIGH LXXX LEASING COMPANY LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-SNB",
+   "msn": "3012",
+   "dateOfRegistration": "2018-12-05",
+   "dateOfDeregistration": null,
+   "date": "2018-12-05",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "P180 AVANTI II",
+   "yearOfManufacture": 2018,
+   "owner": "MSPL LIMITED",
+   "lessor": "-",
+   "operator": "MSPL LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IZI",
+   "msn": "8570",
+   "dateOfRegistration": "2018-12-06",
+   "dateOfDeregistration": null,
+   "date": "2018-12-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S ORTUS AIRCRAFT LEASE 6 (DUBLIN) LIMITED",
+   "lessor": "M/S ORTUS AIRCRAFT LEASE 6 (DUBLIN) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-EDF",
+   "msn": "4237",
+   "dateOfRegistration": "2018-12-06",
+   "dateOfDeregistration": null,
+   "date": "2018-12-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-214",
+   "yearOfManufacture": 2010,
+   "owner": "M/S AIR INDIA LIMITED",
+   "lessor": "-",
+   "operator": "M/S AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-EJQ",
+   "msn": "A1521049",
+   "dateOfRegistration": "2018-12-06",
+   "dateOfDeregistration": null,
+   "date": "2018-12-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 152 AEROBAT",
+   "yearOfManufacture": 1985,
+   "owner": "AERO CLUB OF INDIA",
+   "lessor": "AERO CLUB OF INDIA",
+   "operator": "TELANGANA SATATE AVIATION ACADE",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-WJB",
+   "msn": "8613",
+   "dateOfRegistration": "2018-12-06",
+   "dateOfDeregistration": null,
+   "date": "2018-12-06",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "M/S JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-PNQ",
+   "msn": "2842",
+   "dateOfRegistration": "2018-12-07",
+   "dateOfDeregistration": null,
+   "date": "2018-12-07",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-216",
+   "yearOfManufacture": 2006,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "AIRASIA (INDIA) LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-AAY",
+   "msn": "17275360",
+   "dateOfRegistration": "2018-12-07",
+   "dateOfDeregistration": null,
+   "date": "2018-12-07",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172P",
+   "yearOfManufacture": 1982,
+   "owner": "GLOBAL AVIANAUTICS LIMITED",
+   "lessor": "GLOBAL AVIANAUTICS LIMITED",
+   "operator": "GOVERNMENT AVAITION TRAINING INSTITUTE",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IZL",
+   "msn": "8628",
+   "dateOfRegistration": "2018-12-07",
+   "dateOfDeregistration": null,
+   "date": "2018-12-07",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "SOTA AVIATION LEASING LIMITED",
+   "lessor": "SOTA AVIATION LEASING LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IZJ",
+   "msn": "8586",
+   "dateOfRegistration": "2018-12-10",
+   "dateOfDeregistration": null,
+   "date": "2018-12-10",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S APF 3 PROJECT NO. 3 LIMITED",
+   "lessor": "M/S APF 3 PROJECT NO. 3 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-MXF",
+   "msn": "64507",
+   "dateOfRegistration": "2018-12-10",
+   "dateOfDeregistration": null,
+   "date": "2018-12-10",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SABARMATI AVIATION LEASING LIMITED",
+   "lessor": "SABARMATI AVIATION LEASING LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-AXI",
+   "msn": "36324",
+   "dateOfRegistration": "2018-12-11",
+   "dateOfDeregistration": null,
+   "date": "2018-12-11",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2006,
+   "owner": "M/S AIR INDIA EXPRESS LIMITED",
+   "lessor": "-",
+   "operator": "M/S AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-AXN",
+   "msn": "36327",
+   "dateOfRegistration": "2018-12-12",
+   "dateOfDeregistration": null,
+   "date": "2018-12-12",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800NG",
+   "yearOfManufacture": 2007,
+   "owner": "M/S AIR INDIA EXPRESS LIMITED",
+   "lessor": "-",
+   "operator": "M/S AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ENF",
+   "msn": "FA 152-0411",
+   "dateOfRegistration": "2018-12-14",
+   "dateOfDeregistration": null,
+   "date": "2018-12-14",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 152",
+   "yearOfManufacture": 1986,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "M/S GOVERNMENT AVIATION TRAINING INSTITUTE",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IZN",
+   "msn": "8654",
+   "dateOfRegistration": "2018-12-18",
+   "dateOfDeregistration": null,
+   "date": "2018-12-18",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S BERACH AVIATION LEASING LIMITED",
+   "lessor": "M/S BERACH AVIATION LEASING LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ACL",
+   "msn": "17281426",
+   "dateOfRegistration": "2018-12-21",
+   "dateOfDeregistration": null,
+   "date": "2018-12-21",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2007,
+   "owner": "AERO CLUB OF INDIA",
+   "lessor": "AERO CLUB OF INDIA",
+   "operator": "THE GUJARAT FLYING CLUB",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-EMN",
+   "msn": "FA-152-0393",
+   "dateOfRegistration": "2018-12-21",
+   "dateOfDeregistration": null,
+   "date": "2018-12-21",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 152 AEROBAT",
+   "yearOfManufacture": 1986,
+   "owner": "AERO CLUB OF INDIA",
+   "lessor": "AERO CLUB OF INDIA",
+   "operator": "THE GUJARAT FLYING CLUB",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-HCA",
+   "msn": "BY-328",
+   "dateOfRegistration": "2018-12-21",
+   "dateOfDeregistration": null,
+   "date": "2018-12-21",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECH SUPER KING AIR B- 200GT",
+   "yearOfManufacture": 2018,
+   "owner": "GOVERNMENT OF HARYANA",
+   "lessor": "-",
+   "operator": "GOVERNMENT OF HARYANA",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-WJE",
+   "msn": "8650",
+   "dateOfRegistration": "2018-12-24",
+   "dateOfDeregistration": null,
+   "date": "2018-12-24",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-WJD",
+   "msn": "8643",
+   "dateOfRegistration": "2018-12-26",
+   "dateOfDeregistration": null,
+   "date": "2018-12-26",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "M/S JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-MXC",
+   "msn": "60645",
+   "dateOfRegistration": "2018-12-26",
+   "dateOfDeregistration": null,
+   "date": "2018-12-26",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SKY HIGH LXXVIII LEASING COMPANY LIMITED",
+   "lessor": "SKY HIGH LXXVIII LEASING COMPANY LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-MXG",
+   "msn": "64508",
+   "dateOfRegistration": "2018-12-28",
+   "dateOfDeregistration": null,
+   "date": "2018-12-28",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "CIT GROUP FINANCE IRELAND",
+   "lessor": "CIT GROUP FINANCE IRELAND",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IUA",
+   "msn": "8557",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2018,
+   "owner": "M/s APF 4 Project No.8 Limited",
+   "lessor": "M/s APF 4 Project No.8 Limited",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-EXP",
+   "msn": "8682",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2018,
+   "owner": "HSBC MIDDLE EAST LEASING PARTNERSHIP",
+   "lessor": "ALAFCO IRISH AIRCRAFT LEASING SIX LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-RGU",
+   "msn": "3449490",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-34-220T",
+   "yearOfManufacture": 2014,
+   "owner": "RAJIV GANDHI ACADEMY FOR AVAITION TECHNOLOGY",
+   "lessor": "-",
+   "operator": "RAJIV GANDHI ACADEMY FOR AVAITION TECHNOLOGY",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ACT",
+   "msn": "17281484",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2007,
+   "owner": "M/S AERO CLUB OF INDIA",
+   "lessor": "M/S AERO CLUB OF INDIA",
+   "operator": "THE MADHYA PRADESH FLYING CLUB LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ACM",
+   "msn": "17281427",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2007,
+   "owner": "AERO CLUB OF INDIA",
+   "lessor": "AERO CLUB OF INDIA",
+   "operator": "BIHAR FLYING INSTITUTE",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-RGT",
+   "msn": "17281344",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2006,
+   "owner": "RAJIV GANDHI ACADEMY FOR AVIATION TECHNOLOGY",
+   "lessor": "-",
+   "operator": "RAJIV GANDHI ACADEMY FOR AVIATION TECHNOLOGY",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-RGV",
+   "msn": "17281346",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2006,
+   "owner": "RAJIV GANDHI ACADEMY FOR AVIATION TECHNILOGY",
+   "lessor": "RAJIV GANDHI ACADEMY FOR AVIATION TECHNILOGY",
+   "operator": "RAJIV GANDHI ACADEMY FOR AVIATION TECHNOLOGY",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-WJF",
+   "msn": "8656",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "SMBC AVIATION CAPITAL LIMITED",
+   "lessor": "SMBC AVIATION CAPITAL LIMITED",
+   "operator": "GO AIRLINES INDIA LTD",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-MXI",
+   "msn": "64940",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IYM",
+   "msn": "1512",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2018,
+   "owner": "M/S TRUENOORD YAMUNA LIMITED",
+   "lessor": "M/S TRUENOORD YAMUNA LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IYN",
+   "msn": "1514",
+   "dateOfRegistration": "2018-12-31",
+   "dateOfDeregistration": null,
+   "date": "2018-12-31",
+   "period": {
+    "from": "2018-01-01",
+    "to": "2018-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2018,
+   "owner": "M/S TRUENOORD YAMUNA LIMITED",
+   "lessor": "M/S TRUENOORD YAMUNA LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft Registered Jan 2018 to Dec 2018_.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft%20Registered%20Jan%202018%20to%20Dec%202018_.pdf",
+    "page": 5
+   }
+  }
+ ],
+ "dropped": []
+}
