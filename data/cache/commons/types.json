@@ -1,6 +1,6 @@
 {
  "ATR 72-600": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:ATR 72-600",
   "candidates": [
    {
@@ -87,7 +87,7 @@
   ]
  },
  "Airbus A320": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus A320",
   "candidates": [
    {
@@ -117,6 +117,23 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "pageUrl": "https://commons.wikimedia.org/wiki/File:United_A320_@_KBVT.jpg",
     "date": "2026-02-28 14:09:19",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
+    "file": "File:AIR CANADA A320-200.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/AIR_CANADA_A320-200.jpg/1280px-AIR_CANADA_A320-200.jpg",
+    "width": 4288,
+    "height": 2848,
+    "author": "Johnny Bin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:AIR_CANADA_A320-200.jpg",
+    "date": "2026-07-22 17:50:58",
     "score": 80,
     "flags": [
      "view",
@@ -157,27 +174,11 @@
      "big",
      "recent(2025)"
     ]
-   },
-   {
-    "file": "File:HK-5408 A320, Avianca, Miami 02-19-26 (55146539219).jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/HK-5408_A320%2C_Avianca%2C_Miami_02-19-26_%2855146539219%29.jpg/1280px-HK-5408_A320%2C_Avianca%2C_Miami_02-19-26_%2855146539219%29.jpg",
-    "width": 5225,
-    "height": 3483,
-    "author": "DUNCAN KIRK from Coeur d'Alene, United States",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:HK-5408_A320,_Avianca,_Miami_02-19-26_(55146539219).jpg",
-    "date": "2026-02-19 14:51",
-    "score": 60,
-    "flags": [
-     "big",
-     "recent(2026)"
-    ]
    }
   ]
  },
  "Airbus A319": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus A319",
   "candidates": [
    {
@@ -232,6 +233,23 @@
     ]
    },
    {
+    "file": "File:QantasLink Airbus A319 VH-8NR Perth 2026 (01).jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/QantasLink_Airbus_A319_VH-8NR_Perth_2026_%2801%29.jpg/1280px-QantasLink_Airbus_A319_VH-8NR_Perth_2026_%2801%29.jpg",
+    "width": 5697,
+    "height": 3795,
+    "author": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:QantasLink_Airbus_A319_VH-8NR_Perth_2026_(01).jpg",
+    "date": "Taken on 21 September 2026, 10:10:24",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
     "file": "File:SAS Retrojet.jpg",
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/SAS_Retrojet.jpg/1280px-SAS_Retrojet.jpg",
     "width": 5472,
@@ -247,28 +265,11 @@
      "big",
      "recent(2025)"
     ]
-   },
-   {
-    "file": "File:Airbus A319-132 (N872UA) (52018935469).jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Airbus_A319-132_%28N872UA%29_%2852018935469%29.jpg/1280px-Airbus_A319-132_%28N872UA%29_%2852018935469%29.jpg",
-    "width": 5039,
-    "height": 3360,
-    "author": "Mogami Kariya",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Airbus_A319-132_(N872UA)_(52018935469).jpg",
-    "date": "2021-12-26 04:27",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2021)"
-    ]
    }
   ]
  },
  "Airbus A320neo": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus A320neo",
   "candidates": [
    {
@@ -440,7 +441,7 @@
   ]
  },
  "Airbus A321": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus A321",
   "candidates": [
    {
@@ -470,6 +471,23 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "pageUrl": "https://commons.wikimedia.org/wiki/File:China_Eastern_Airbus_A321_B-1812_on_final_approach_to_Shanghai_Hongqiao_May_2026.jpg",
     "date": "2026-05-04 16:55:32",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
+    "file": "File:Delta Airbus A321 N346DN BWI MD1.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Delta_Airbus_A321_N346DN_BWI_MD1.jpg/1280px-Delta_Airbus_A321_N346DN_BWI_MD1.jpg",
+    "width": 7552,
+    "height": 3776,
+    "author": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Delta_Airbus_A321_N346DN_BWI_MD1.jpg",
+    "date": "2026-09-24",
     "score": 80,
     "flags": [
      "view",
@@ -510,28 +528,11 @@
      "big",
      "recent(2025)"
     ]
-   },
-   {
-    "file": "File:Juneyao Air Airbus A321 B-8459 on final approach to Shanghai Hongqiao May 2026.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Juneyao_Air_Airbus_A321_B-8459_on_final_approach_to_Shanghai_Hongqiao_May_2026.jpg/1280px-Juneyao_Air_Airbus_A321_B-8459_on_final_approach_to_Shanghai_Hongqiao_May_2026.jpg",
-    "width": 6840,
-    "height": 3848,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Juneyao_Air_Airbus_A321_B-8459_on_final_approach_to_Shanghai_Hongqiao_May_2026.jpg",
-    "date": "2026-05-04 16:30:47",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2026)"
-    ]
    }
   ]
  },
  "Airbus A350-900": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus A350-900",
   "candidates": [
    {
@@ -569,6 +570,40 @@
     ]
    },
    {
+    "file": "File:Starlux Airlines Airbus A350-900 B-58505 departing Taoyuan February 2026 4.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Starlux_Airlines_Airbus_A350-900_B-58505_departing_Taoyuan_February_2026_4.jpg/1280px-Starlux_Airlines_Airbus_A350-900_B-58505_departing_Taoyuan_February_2026_4.jpg",
+    "width": 7726,
+    "height": 4346,
+    "author": "4300streetcar",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Starlux_Airlines_Airbus_A350-900_B-58505_departing_Taoyuan_February_2026_4.jpg",
+    "date": "2026-02-15 09:46:55",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
+    "file": "File:Swiss Airbus A350-900 HB-IFB departing Boston July 2026 2.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Swiss_Airbus_A350-900_HB-IFB_departing_Boston_July_2026_2.jpg/1280px-Swiss_Airbus_A350-900_HB-IFB_departing_Boston_July_2026_2.jpg",
+    "width": 7701,
+    "height": 4332,
+    "author": "4300streetcar",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Swiss_Airbus_A350-900_HB-IFB_departing_Boston_July_2026_2.jpg",
+    "date": "2026-07-19 17:28:11",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
     "file": "File:SAS A350-900 SE-RSC on final approach at Boston Oct 2024 2.jpg",
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/SAS_A350-900_SE-RSC_on_final_approach_at_Boston_Oct_2024_2.jpg/1280px-SAS_A350-900_SE-RSC_on_final_approach_at_Boston_Oct_2024_2.jpg",
     "width": 7700,
@@ -584,45 +619,11 @@
      "big",
      "recent(2024)"
     ]
-   },
-   {
-    "file": "File:Air France Airbus A350-900 F-HTYH on final approach to Boston Feb 2025 1.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Air_France_Airbus_A350-900_F-HTYH_on_final_approach_to_Boston_Feb_2025_1.jpg/1280px-Air_France_Airbus_A350-900_F-HTYH_on_final_approach_to_Boston_Feb_2025_1.jpg",
-    "width": 7588,
-    "height": 4268,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Air_France_Airbus_A350-900_F-HTYH_on_final_approach_to_Boston_Feb_2025_1.jpg",
-    "date": "2025-02-01 16:34:02",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2025)"
-    ]
-   },
-   {
-    "file": "File:Air France Airbus A350-900 F-HTYH on final approach to Boston Feb 2025 2.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Air_France_Airbus_A350-900_F-HTYH_on_final_approach_to_Boston_Feb_2025_2.jpg/1280px-Air_France_Airbus_A350-900_F-HTYH_on_final_approach_to_Boston_Feb_2025_2.jpg",
-    "width": 7268,
-    "height": 4088,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Air_France_Airbus_A350-900_F-HTYH_on_final_approach_to_Boston_Feb_2025_2.jpg",
-    "date": "2025-02-01 16:34:06",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2025)"
-    ]
    }
   ]
  },
  "Airbus A321neo": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus A321neo",
   "candidates": [
    {
@@ -713,7 +714,7 @@
   ]
  },
  "Airbus H130": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus Helicopters H130 Ecureuil",
   "candidates": [
    {
@@ -799,7 +800,7 @@
   ]
  },
  "Airbus Dauphin (AS365)": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus Helicopters AS365 Dauphin",
   "candidates": [
    {
@@ -882,7 +883,7 @@
   ]
  },
  "Airbus H135": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus Helicopters H135",
   "candidates": [
    {
@@ -969,7 +970,7 @@
   ]
  },
  "Airbus AS355 Ecureuil 2": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus Helicopters AS355 Ecureuil 2",
   "candidates": [
    {
@@ -1055,7 +1056,7 @@
   ]
  },
  "Airbus H145": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus Helicopters H145",
   "candidates": [
    {
@@ -1142,7 +1143,7 @@
   ]
  },
  "Airbus H160": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus Helicopters H160",
   "candidates": [
    {
@@ -1317,7 +1318,7 @@
   ]
  },
  "Beechcraft King Air 350": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Beechcraft B300 King Air 350",
   "candidates": [
    {
@@ -1400,7 +1401,7 @@
   ]
  },
  "Beechcraft King Air C90": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Beechcraft 90 King Air",
   "candidates": [
    {
@@ -1469,17 +1470,21 @@
     ]
    },
    {
-    "file": "File:Aeroporto de ourofino mg.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Aeroporto_de_ourofino_mg.jpg",
-    "width": 1080,
-    "height": 810,
-    "author": "Ourofinomg",
+    "file": "File:N249CP Derek Heley.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/N249CP_Derek_Heley.jpg/1280px-N249CP_Derek_Heley.jpg",
+    "width": 1908,
+    "height": 1224,
+    "author": "Derek Heley",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Aeroporto_de_ourofino_mg.jpg",
-    "date": "2020-04-01",
-    "score": 40,
-    "flags": []
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:N249CP_Derek_Heley.jpg",
+    "date": "2007-10-11",
+    "score": 45,
+    "flags": [
+     "medium",
+     "old(2007)",
+     "variant"
+    ]
    }
   ]
  },
@@ -1568,7 +1573,7 @@
   ]
  },
  "Beechcraft King Air 200": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Beechcraft B200 Super King Air",
   "candidates": [
    {
@@ -1638,7 +1643,7 @@
   ]
  },
  "Bell 206 JetRanger": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bell 206",
   "candidates": [
    {
@@ -1726,7 +1731,7 @@
   ]
  },
  "Bell 407": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bell 407",
   "candidates": [
    {
@@ -1795,25 +1800,25 @@
     ]
    },
    {
-    "file": "File:Bell 407 JA6410 Shin Nihon Helicopter Co., Ltd. 2025 0122 Tokyo Heliport.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg/1280px-Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg",
-    "width": 4014,
-    "height": 3011,
-    "author": "ORANGE 737",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_407_JA6410_Shin_Nihon_Helicopter_Co.,_Ltd._2025_0122_Tokyo_Heliport.jpg",
-    "date": "2025-01-22 13:35:50",
+    "file": "File:Bell 401 Helicopter (52940073682).jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bell_401_Helicopter_%2852940073682%29.jpg/1280px-Bell_401_Helicopter_%2852940073682%29.jpg",
+    "width": 4032,
+    "height": 3024,
+    "author": "Forest Service - Northern Region",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_401_Helicopter_(52940073682).jpg",
+    "date": "Taken on 18 August 2021, 14:21:29",
     "score": 60,
     "flags": [
      "big",
-     "recent(2025)"
+     "recent(2021)"
     ]
    }
   ]
  },
  "Bell 412": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bell 412",
   "candidates": [
    {
@@ -1899,7 +1904,7 @@
   ]
  },
  "Bell 429": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bell 429",
   "candidates": [
    {
@@ -1984,7 +1989,7 @@
   ]
  },
  "Beechcraft Premier I": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Beechcraft Premier",
   "candidates": [
    {
@@ -2108,9 +2113,26 @@
   ]
  },
  "Boeing 737": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 737",
   "candidates": [
+   {
+    "file": "File:LX-LBR B737-700, Luxair, Palma de Mallorca 09-06-26.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/LX-LBR_B737-700%2C_Luxair%2C_Palma_de_Mallorca_09-06-26.jpg/1280px-LX-LBR_B737-700%2C_Luxair%2C_Palma_de_Mallorca_09-06-26.jpg",
+    "width": 6380,
+    "height": 4255,
+    "author": "DUNCAN KIRK",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:LX-LBR_B737-700,_Luxair,_Palma_de_Mallorca_09-06-26.jpg",
+    "date": "2026-09-07 04:59:42",
+    "score": 75,
+    "flags": [
+     "big",
+     "recent(2026)",
+     "variant"
+    ]
+   },
    {
     "file": "File:Alaska Airlines on final to LAX.jpg",
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Alaska_Airlines_on_final_to_LAX.jpg/1280px-Alaska_Airlines_on_final_to_LAX.jpg",
@@ -2161,109 +2183,42 @@
     ]
    },
    {
-    "file": "File:PK-GEX Boeing 737-800NG (8535321359).jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PK-GEX_Boeing_737-800NG_%288535321359%29.jpg/1280px-PK-GEX_Boeing_737-800NG_%288535321359%29.jpg",
-    "width": 4752,
-    "height": 3168,
-    "author": "Thank You (25 Millions ) views from Fresno, USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:PK-GEX_Boeing_737-800NG_(8535321359).jpg",
-    "date": "2013-02-18 17:08",
-    "score": 50,
-    "flags": [
-     "big",
-     "old(2013)",
-     "variant"
-    ]
-   },
-   {
-    "file": "File:Boeing 737-8ASBCF PS-GFI GOLLOG GRU 10-2025.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/Boeing_737-8ASBCF_PS-GFI_GOLLOG_GRU_10-2025.jpg",
-    "width": 1001,
-    "height": 620,
-    "author": "Claudio Koseki",
+    "file": "File:Ariana 737-500 YA-FGA Mazar-i-Sharif.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Ariana_737-500_YA-FGA_Mazar-i-Sharif.jpg/1280px-Ariana_737-500_YA-FGA_Mazar-i-Sharif.jpg",
+    "width": 1800,
+    "height": 1200,
+    "author": "Jialiang Gao peace-on-earth.org",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Boeing_737-8ASBCF_PS-GFI_GOLLOG_GRU_10-2025.jpg",
-    "date": "2025-10-25",
-    "score": 50,
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Ariana_737-500_YA-FGA_Mazar-i-Sharif.jpg",
+    "date": "2025-04-06 14:55:39",
+    "score": 55,
     "flags": [
+     "medium",
      "recent(2025)"
     ]
    }
   ]
  },
  "Boeing 737-8": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 737-8 MAX",
   "candidates": [
    {
-    "file": "File:Southwest Airlines Boeing 737-8 MAX N8925Q departing Boston December 2025.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-    "width": 7708,
-    "height": 4336,
+    "file": "File:Southwest Airlines Boeing 737-8 MAX N8845L departing Boston July 2026.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+    "width": 6664,
+    "height": 3749,
     "author": "4300streetcar",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-    "date": "2025-12-01 15:50:26",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+    "date": "2026-07-19 18:15:51",
     "score": 80,
     "flags": [
      "view",
      "big",
-     "recent(2025)"
-    ]
-   },
-   {
-    "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 2.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-    "width": 7156,
-    "height": 4771,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-    "date": "2025-03-11 16:51:36",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2025)"
-    ]
-   },
-   {
-    "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 1.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-    "width": 7110,
-    "height": 4740,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-    "date": "2025-03-11 16:51:34",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2025)"
-    ]
-   },
-   {
-    "file": "File:Southwest Airlines Boeing 737-8 MAX N8800L departing Boston December 2025.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-    "width": 7047,
-    "height": 3964,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-    "date": "2025-12-01 14:50:57",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2025)"
+     "recent(2026)"
     ]
    },
    {
@@ -2276,6 +2231,57 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
     "date": "2026-03-19",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
+    "file": "File:Southwest Airlines Boeing 737-8 MAX N8924Q departing Boston July 2026.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+    "width": 6520,
+    "height": 3668,
+    "author": "4300streetcar",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+    "date": "2026-07-19 18:25:43",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
+    "file": "File:Southwest Boeing 737-8 MAX N8780Q BWI MD1.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg/1280px-Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+    "width": 6416,
+    "height": 3592,
+    "author": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+    "date": "2026-03-19",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
+    "file": "File:Southwest Boeing 737-8 MAX N8758L BWI MD3.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg/1280px-Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg",
+    "width": 6080,
+    "height": 3168,
+    "author": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg",
+    "date": "2026-04-09",
     "score": 80,
     "flags": [
      "view",
@@ -2286,75 +2292,24 @@
   ]
  },
  "Boeing 737-8-200": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 737-8 MAX",
   "candidates": [
    {
-    "file": "File:Southwest Airlines Boeing 737-8 MAX N8925Q departing Boston December 2025.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-    "width": 7708,
-    "height": 4336,
+    "file": "File:Southwest Airlines Boeing 737-8 MAX N8845L departing Boston July 2026.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+    "width": 6664,
+    "height": 3749,
     "author": "4300streetcar",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-    "date": "2025-12-01 15:50:26",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+    "date": "2026-07-19 18:15:51",
     "score": 80,
     "flags": [
      "view",
      "big",
-     "recent(2025)"
-    ]
-   },
-   {
-    "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 2.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-    "width": 7156,
-    "height": 4771,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-    "date": "2025-03-11 16:51:36",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2025)"
-    ]
-   },
-   {
-    "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 1.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-    "width": 7110,
-    "height": 4740,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-    "date": "2025-03-11 16:51:34",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2025)"
-    ]
-   },
-   {
-    "file": "File:Southwest Airlines Boeing 737-8 MAX N8800L departing Boston December 2025.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-    "width": 7047,
-    "height": 3964,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-    "date": "2025-12-01 14:50:57",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2025)"
+     "recent(2026)"
     ]
    },
    {
@@ -2373,11 +2328,62 @@
      "big",
      "recent(2026)"
     ]
+   },
+   {
+    "file": "File:Southwest Airlines Boeing 737-8 MAX N8924Q departing Boston July 2026.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+    "width": 6520,
+    "height": 3668,
+    "author": "4300streetcar",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+    "date": "2026-07-19 18:25:43",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
+    "file": "File:Southwest Boeing 737-8 MAX N8780Q BWI MD1.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg/1280px-Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+    "width": 6416,
+    "height": 3592,
+    "author": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+    "date": "2026-03-19",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
+    "file": "File:Southwest Boeing 737-8 MAX N8758L BWI MD3.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg/1280px-Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg",
+    "width": 6080,
+    "height": 3168,
+    "author": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg",
+    "date": "2026-04-09",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
    }
   ]
  },
  "Boeing 737-800": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 737-800",
   "candidates": [
    {
@@ -2415,15 +2421,15 @@
     ]
    },
    {
-    "file": "File:Xiamen Airlines Boeing 737-800 B-5792 on final approach to Shanghai Hongqiao May 2026.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Xiamen_Airlines_Boeing_737-800_B-5792_on_final_approach_to_Shanghai_Hongqiao_May_2026.jpg/1280px-Xiamen_Airlines_Boeing_737-800_B-5792_on_final_approach_to_Shanghai_Hongqiao_May_2026.jpg",
-    "width": 7040,
-    "height": 3960,
-    "author": "4300streetcar",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Xiamen_Airlines_Boeing_737-800_B-5792_on_final_approach_to_Shanghai_Hongqiao_May_2026.jpg",
-    "date": "2026-05-04 16:53:49",
+    "file": "File:Southwest Boeing 737-800 N8694E BWI MD3.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Southwest_Boeing_737-800_N8694E_BWI_MD3.jpg/1280px-Southwest_Boeing_737-800_N8694E_BWI_MD3.jpg",
+    "width": 6648,
+    "height": 3544,
+    "author": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-800_N8694E_BWI_MD3.jpg",
+    "date": "2026-09-24",
     "score": 80,
     "flags": [
      "view",
@@ -2468,26 +2474,9 @@
   ]
  },
  "Boeing 737-700": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 737-700",
   "candidates": [
-   {
-    "file": "File:Southwest Boeing 737-700 N436WN BWI MD2.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Southwest_Boeing_737-700_N436WN_BWI_MD2.jpg/1280px-Southwest_Boeing_737-700_N436WN_BWI_MD2.jpg",
-    "width": 6968,
-    "height": 4096,
-    "author": "Acroterion",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-700_N436WN_BWI_MD2.jpg",
-    "date": "2026-03-19",
-    "score": 80,
-    "flags": [
-     "view",
-     "big",
-     "recent(2026)"
-    ]
-   },
    {
     "file": "File:Southwest Boeing 737-700 N906WN BWI MD2.jpg",
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Southwest_Boeing_737-700_N906WN_BWI_MD2.jpg/1280px-Southwest_Boeing_737-700_N906WN_BWI_MD2.jpg",
@@ -2555,11 +2544,28 @@
      "big",
      "recent(2026)"
     ]
+   },
+   {
+    "file": "File:Southwest Boeing 737-700 N926WN BWI MD1.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Southwest_Boeing_737-700_N926WN_BWI_MD1.jpg/1280px-Southwest_Boeing_737-700_N926WN_BWI_MD1.jpg",
+    "width": 6248,
+    "height": 3496,
+    "author": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-700_N926WN_BWI_MD1.jpg",
+    "date": "2026-05-07",
+    "score": 80,
+    "flags": [
+     "view",
+     "big",
+     "recent(2026)"
+    ]
    }
   ]
  },
  "Boeing 757": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 757",
   "candidates": [
    {
@@ -2650,7 +2656,7 @@
   ]
  },
  "Boeing 737-9": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 737-9 MAX",
   "candidates": [
    {
@@ -2736,7 +2742,7 @@
   ]
  },
  "Boeing 777-300ER": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 777-300ER",
   "candidates": [
    {
@@ -2804,24 +2810,25 @@
     ]
    },
    {
-    "file": "File:Ethiopian Airlines Boeing 777-300ER.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ethiopian_Airlines_Boeing_777-300ER.jpg/1280px-Ethiopian_Airlines_Boeing_777-300ER.jpg",
-    "width": 1498,
-    "height": 849,
-    "author": "Verril Ginting",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Ethiopian_Airlines_Boeing_777-300ER.jpg",
-    "date": "2020-04-10 11:24:28",
-    "score": 45,
+    "file": "File:Eclipse (11224711573).jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Eclipse_%2811224711573%29.jpg/1280px-Eclipse_%2811224711573%29.jpg",
+    "width": 4705,
+    "height": 3331,
+    "author": "sebastien lebrigand from crépy en valois, FRANCE",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Eclipse_(11224711573).jpg",
+    "date": "2013-12-05 16:59",
+    "score": 35,
     "flags": [
-     "medium"
+     "big",
+     "old(2013)"
     ]
    }
   ]
  },
  "Boeing 777-200LR": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 777-200LR",
   "candidates": [
    {
@@ -2907,7 +2914,7 @@
   ]
  },
  "Boeing 787-8": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 787-8",
   "candidates": [
    {
@@ -2998,7 +3005,7 @@
   ]
  },
  "Boeing 787-9": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Boeing 787-9",
   "candidates": [
    {
@@ -3089,7 +3096,7 @@
   ]
  },
  "Bombardier Challenger 300/350": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bombardier Challenger 300",
   "candidates": [
    {
@@ -3273,7 +3280,7 @@
   ]
  },
  "Bombardier Global 5000/5500/6000/6500": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bombardier Global 5000",
   "candidates": [
    {
@@ -3365,7 +3372,7 @@
   ]
  },
  "Bombardier Challenger 600 series": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bombardier Challenger 600",
   "candidates": [
    {
@@ -3461,7 +3468,7 @@
   ]
  },
  "Bombardier Global 7500": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bombardier Global 7500",
   "candidates": [
    {
@@ -3513,7 +3520,7 @@
   ]
  },
  "Bombardier Global Express": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bombardier Global Express",
   "candidates": [
    {
@@ -3600,7 +3607,7 @@
   ]
  },
  "Cessna 172": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Cessna 172",
   "candidates": [
    {
@@ -3636,6 +3643,22 @@
     ]
    },
    {
+    "file": "File:SE-MGP Cessna 172S VBY 01.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/SE-MGP_Cessna_172S_VBY_01.jpg/1280px-SE-MGP_Cessna_172S_VBY_01.jpg",
+    "width": 4275,
+    "height": 2850,
+    "author": "Bene Riobó",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:SE-MGP_Cessna_172S_VBY_01.jpg",
+    "date": "2026-06-22 10:14:20",
+    "score": 60,
+    "flags": [
+     "big",
+     "recent(2026)"
+    ]
+   },
+   {
     "file": "File:Finthen Airfield, Mainz (P1090484).jpg",
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Finthen_Airfield%2C_Mainz_%28P1090484%29.jpg/1280px-Finthen_Airfield%2C_Mainz_%28P1090484%29.jpg",
     "width": 4076,
@@ -3666,28 +3689,11 @@
      "big",
      "recent(2023)"
     ]
-   },
-   {
-    "file": "File:Landing (7643549400).jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Landing_%287643549400%29.jpg/1280px-Landing_%287643549400%29.jpg",
-    "width": 2592,
-    "height": 1266,
-    "author": "John Christian Fjellestad from Hamar, Norway",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Landing_(7643549400).jpg",
-    "date": "2012-07-24 15:52",
-    "score": 55,
-    "flags": [
-     "view",
-     "big",
-     "old(2012)"
-    ]
    }
   ]
  },
  "Cessna 208 Grand Caravan": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Cessna 208B Grand Caravan",
   "candidates": [
    {
@@ -3773,7 +3779,7 @@
   ]
  },
  "Cessna Citation CJ series": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Cessna 525 CitationJet",
   "candidates": [
    {
@@ -3861,7 +3867,7 @@
   ]
  },
  "Cessna 206 Stationair": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Cessna 206",
   "candidates": [
    {
@@ -3945,7 +3951,7 @@
   ]
  },
  "DHC-6 Twin Otter": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:De Havilland Canada DHC-6 Twin Otter",
   "candidates": [
    {
@@ -4033,7 +4039,7 @@
   ]
  },
  "Dash 8 Q400": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:De Havilland Canada DHC-8-400",
   "candidates": [
    {
@@ -4104,25 +4110,25 @@
     ]
    },
    {
-    "file": "File:Enterprise 2000 and dash 8-400 02.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Enterprise_2000_and_dash_8-400_02.jpg/1280px-Enterprise_2000_and_dash_8-400_02.jpg",
-    "width": 4793,
-    "height": 2996,
-    "author": "Fabian Roudra Baroi",
+    "file": "File:De Havilland Canada DHC-8-400, Edmonton International Airport, Edmonton, Alberta, 2026-09-28.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/De_Havilland_Canada_DHC-8-400%2C_Edmonton_International_Airport%2C_Edmonton%2C_Alberta%2C_2026-09-28.jpg/1280px-De_Havilland_Canada_DHC-8-400%2C_Edmonton_International_Airport%2C_Edmonton%2C_Alberta%2C_2026-09-28.jpg",
+    "width": 5625,
+    "height": 3214,
+    "author": "Chris Woodrich",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Enterprise_2000_and_dash_8-400_02.jpg",
-    "date": "2022-07-21 05:47:57",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:De_Havilland_Canada_DHC-8-400,_Edmonton_International_Airport,_Edmonton,_Alberta,_2026-09-28.jpg",
+    "date": "2026-09-28 10:51:01",
     "score": 60,
     "flags": [
      "big",
-     "recent(2022)"
+     "recent(2026)"
     ]
    }
   ]
  },
  "Cessna Citation": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Cessna Citation family",
   "candidates": [
    {
@@ -4210,7 +4216,7 @@
   ]
  },
  "Cessna Citation XLS": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Cessna Citation Excel",
   "candidates": [
    {
@@ -4306,7 +4312,7 @@
   ]
  },
  "Dassault Falcon 2000": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Dassault Falcon 2000",
   "candidates": [
    {
@@ -4392,7 +4398,7 @@
   ]
  },
  "Dassault Falcon": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Dassault Falcon 6X",
   "candidates": [
    {
@@ -4478,7 +4484,7 @@
   ]
  },
  "Dassault Falcon 7X": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Dassault Falcon 7X",
   "candidates": [
    {
@@ -4565,7 +4571,7 @@
   ]
  },
  "Dassault Falcon 900": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Dassault Falcon 900",
   "candidates": [
    {
@@ -4654,7 +4660,7 @@
   ]
  },
  "Dornier 228": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Dornier 228",
   "candidates": [
    {
@@ -4740,7 +4746,7 @@
   ]
  },
  "EMBRAER 135BJ": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Embraer Legacy 600",
   "candidates": [
    {
@@ -4828,7 +4834,7 @@
   ]
  },
  "EMBRAER 190-100ECJ (Lineage 1000)": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Embraer Lineage 1000",
   "candidates": [
    {
@@ -4912,7 +4918,7 @@
   ]
  },
  "EMBRAER 135ER": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Embraer ERJ 135",
   "candidates": [
    {
@@ -5000,7 +5006,7 @@
   ]
  },
  "Embraer E170": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Embraer 170",
   "candidates": [
    {
@@ -5091,7 +5097,7 @@
   ]
  },
  "Embraer ERJ 135": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Embraer ERJ 135",
   "candidates": [
    {
@@ -5179,7 +5185,7 @@
   ]
  },
  "Embraer ERJ 145": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Embraer ERJ 145",
   "candidates": [
    {
@@ -5268,7 +5274,7 @@
   ]
  },
  "Embraer Legacy 600/650": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Embraer Legacy 600",
   "candidates": [
    {
@@ -5361,7 +5367,7 @@
   ]
  },
  "Embraer Phenom 100": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Embraer Phenom 100",
   "candidates": [
    {
@@ -5445,7 +5451,7 @@
   ]
  },
  "Gulfstream G150": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Gulfstream G150",
   "candidates": [
    {
@@ -5527,7 +5533,7 @@
   ]
  },
  "Gulfstream G550": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Gulfstream G550",
   "candidates": [
    {
@@ -5615,7 +5621,7 @@
   ]
  },
  "HAL Dhruv": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:HAL Dhruv",
   "candidates": [
    {
@@ -5699,7 +5705,7 @@
   ]
  },
  "Gulfstream G200": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Gulfstream G200",
   "candidates": [
    {
@@ -5785,7 +5791,7 @@
   ]
  },
  "HAWKER 400A XP": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Hawker 400XP",
   "candidates": [
    {
@@ -5871,7 +5877,7 @@
   ]
  },
  "Hawker 800/850/900": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Hawker 800",
   "candidates": [
    {
@@ -5957,7 +5963,7 @@
   ]
  },
  "Hawker 4000": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Hawker 4000",
   "candidates": [
    {
@@ -5994,6 +6000,22 @@
     ]
    },
    {
+    "file": "File:Hawker 4000.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Hawker_4000.jpg",
+    "width": 1271,
+    "height": 953,
+    "author": "Scottst",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Hawker_4000.jpg",
+    "date": "10/7/2026",
+    "score": 55,
+    "flags": [
+     "medium",
+     "recent(2026)"
+    ]
+   },
+   {
     "file": "File:AIRAVAT.jpg",
     "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/AIRAVAT.jpg",
     "width": 1242,
@@ -6025,28 +6047,11 @@
      "medium",
      "old(2013)"
     ]
-   },
-   {
-    "file": "File:Hawker Beechcraft 4000, Private JP7167926.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hawker_Beechcraft_4000%2C_Private_JP7167926.jpg",
-    "width": 1200,
-    "height": 810,
-    "author": "Aldo Bidini",
-    "license": "GFDL 1.2",
-    "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Hawker_Beechcraft_4000,_Private_JP7167926.jpg",
-    "date": "15 July 2011",
-    "score": 50,
-    "flags": [
-     "view",
-     "medium",
-     "old(2011)"
-    ]
    }
   ]
  },
  "Hot air balloon": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Hot air balloons",
   "candidates": [
    {
@@ -6132,9 +6137,25 @@
   ]
  },
  "Leonardo AW109": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:AgustaWestland AW109",
   "candidates": [
+   {
+    "file": "File:ARHT & STJ at Hamilton Airport.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/ARHT_%26_STJ_at_Hamilton_Airport.jpg/1280px-ARHT_%26_STJ_at_Hamilton_Airport.jpg",
+    "width": 2226,
+    "height": 1376,
+    "author": "Dmattez",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:ARHT_%26_STJ_at_Hamilton_Airport.jpg",
+    "date": "2026-10-12",
+    "score": 60,
+    "flags": [
+     "big",
+     "recent(2026)"
+    ]
+   },
    {
     "file": "File:Pilot embarked from helicopter - panoramio.jpg",
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
@@ -6150,6 +6171,22 @@
      "view",
      "big",
      "old(2009)"
+    ]
+   },
+   {
+    "file": "File:Leonardo AW109.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Leonardo_AW109.jpg/1280px-Leonardo_AW109.jpg",
+    "width": 1819,
+    "height": 1080,
+    "author": "Armada Argentina",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_AW109.jpg",
+    "date": "2026-08-20",
+    "score": 55,
+    "flags": [
+     "medium",
+     "recent(2026)"
     ]
    },
    {
@@ -6180,36 +6217,6 @@
     "score": 50,
     "flags": [
      "big"
-    ]
-   },
-   {
-    "file": "File:Ελικόπτερο Agusta A109 του ΕΚΑΒ.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-    "width": 1188,
-    "height": 894,
-    "author": "Gepsimos",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-    "date": "15 August 2026 (according to Exif data)",
-    "score": 50,
-    "flags": [
-     "recent(2026)"
-    ]
-   },
-   {
-    "file": "File:Modenaairservice.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Modenaairservice.jpg/1280px-Modenaairservice.jpg",
-    "width": 1920,
-    "height": 1080,
-    "author": "Modenaairservice",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Modenaairservice.jpg",
-    "date": "2018-08-02",
-    "score": 45,
-    "flags": [
-     "medium"
     ]
    }
   ]
@@ -6297,7 +6304,7 @@
   ]
  },
  "Leonardo AW139": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:AgustaWestland AW139",
   "candidates": [
    {
@@ -6383,7 +6390,7 @@
   ]
  },
  "Leonardo AW169": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:AgustaWestland AW169",
   "candidates": [
    {
@@ -6469,7 +6476,7 @@
   ]
  },
  "Leonardo AW119 Koala": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:AgustaWestland AW119",
   "candidates": [
    {
@@ -6555,7 +6562,7 @@
   ]
  },
  "Mil Mi-172": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Mil Mi-17",
   "candidates": [
    {
@@ -6641,7 +6648,7 @@
   ]
  },
  "Partenavia P.68": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Partenavia P.68",
   "candidates": [
    {
@@ -6727,93 +6734,96 @@
   ]
  },
  "Pilatus PC-24": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Pilatus PC-24",
   "candidates": [
    {
-    "file": "File:Pilatus PC-24 AERO Friedrichshafen 2025-0380.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pilatus_PC-24_AERO_Friedrichshafen_2025-0380.jpg/1280px-Pilatus_PC-24_AERO_Friedrichshafen_2025-0380.jpg",
-    "width": 6000,
-    "height": 4000,
-    "author": "New York-air",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_PC-24_AERO_Friedrichshafen_2025-0380.jpg",
-    "date": "2025-04-11",
-    "score": 60,
+    "file": "File:OO-MBP PC24 (51668217698).jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/OO-MBP_PC24_%2851668217698%29.jpg/1280px-OO-MBP_PC24_%2851668217698%29.jpg",
+    "width": 4231,
+    "height": 2060,
+    "author": "Jonathan Payne from Ayr, United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:OO-MBP_PC24_(51668217698).jpg",
+    "date": "2021-11-09 12:37",
+    "score": 80,
     "flags": [
+     "view",
      "big",
-     "recent(2025)"
+     "recent(2021)"
     ]
    },
    {
-    "file": "File:Pilatus PC-24 AERO Friedrichshafen 2025-0411.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Pilatus_PC-24_AERO_Friedrichshafen_2025-0411.jpg/1280px-Pilatus_PC-24_AERO_Friedrichshafen_2025-0411.jpg",
-    "width": 6000,
-    "height": 4000,
-    "author": "New York-air",
+    "file": "File:N955PS 2018 Pilatus PC-24 s n 115 (51789291193).jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/N955PS_2018_Pilatus_PC-24_s_n_115_%2851789291193%29.jpg/1280px-N955PS_2018_Pilatus_PC-24_s_n_115_%2851789291193%29.jpg",
+    "width": 2048,
+    "height": 868,
+    "author": "Tomás Del Coro from Fabulous Las Vegas, Nevada, USA",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_PC-24_AERO_Friedrichshafen_2025-0411.jpg",
-    "date": "2025-04-11",
-    "score": 60,
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:N955PS_2018_Pilatus_PC-24_s_n_115_(51789291193).jpg",
+    "date": "2021-11-04 14:52",
+    "score": 80,
     "flags": [
+     "view",
      "big",
-     "recent(2025)"
+     "recent(2021)"
     ]
    },
    {
-    "file": "File:Pilatus PC-24 AERO Friedrichshafen 2025-0420.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Pilatus_PC-24_AERO_Friedrichshafen_2025-0420.jpg/1280px-Pilatus_PC-24_AERO_Friedrichshafen_2025-0420.jpg",
-    "width": 6000,
-    "height": 4000,
-    "author": "New York-air",
+    "file": "File:N955PS 2018 Pilatus PC-24 s n 115 (50934260386).jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/N955PS_2018_Pilatus_PC-24_s_n_115_%2850934260386%29.jpg/1280px-N955PS_2018_Pilatus_PC-24_s_n_115_%2850934260386%29.jpg",
+    "width": 2048,
+    "height": 904,
+    "author": "Tomás Del Coro from Fabulous Las Vegas, Nevada, USA",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_PC-24_AERO_Friedrichshafen_2025-0420.jpg",
-    "date": "2025-04-11",
-    "score": 60,
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:N955PS_2018_Pilatus_PC-24_s_n_115_(50934260386).jpg",
+    "date": "2021-02-11 13:01",
+    "score": 80,
     "flags": [
+     "view",
      "big",
-     "recent(2025)"
+     "recent(2021)"
     ]
    },
    {
-    "file": "File:SE-RVF Pilatus PC-24 Svenskt Ambulansflyg tailfin Flygdagarna 2026 01.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/SE-RVF_Pilatus_PC-24_Svenskt_Ambulansflyg_tailfin_Flygdagarna_2026_01.jpg/1280px-SE-RVF_Pilatus_PC-24_Svenskt_Ambulansflyg_tailfin_Flygdagarna_2026_01.jpg",
-    "width": 6000,
-    "height": 4000,
-    "author": "Bene Riobó",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:SE-RVF_Pilatus_PC-24_Svenskt_Ambulansflyg_tailfin_Flygdagarna_2026_01.jpg",
-    "date": "2026-08-21 09:30:11",
-    "score": 60,
+    "file": "File:HB-VXB PC24 (36821065475).jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/HB-VXB_PC24_%2836821065475%29.jpg/1280px-HB-VXB_PC24_%2836821065475%29.jpg",
+    "width": 4958,
+    "height": 3305,
+    "author": "Jonathan Payne from Ayr, United Kingdom",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:HB-VXB_PC24_(36821065475).jpg",
+    "date": "2017-08-26 11:45",
+    "score": 70,
     "flags": [
-     "big",
-     "recent(2026)"
+     "view",
+     "big"
     ]
    },
    {
-    "file": "File:Pilatus PC-24 at AERO Friedrichshafen 2025-0441.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pilatus_PC-24_at_AERO_Friedrichshafen_2025-0441.jpg/1280px-Pilatus_PC-24_at_AERO_Friedrichshafen_2025-0441.jpg",
-    "width": 5901,
-    "height": 3934,
-    "author": "New York-air",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_PC-24_at_AERO_Friedrichshafen_2025-0441.jpg",
-    "date": "2025-04-11",
-    "score": 60,
+    "file": "File:Pilatus HB-VSA MG 2522.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pilatus_HB-VSA_MG_2522.jpg/1280px-Pilatus_HB-VSA_MG_2522.jpg",
+    "width": 4606,
+    "height": 2398,
+    "author": "Ronnierob",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_HB-VSA_MG_2522.jpg",
+    "date": "2017-11-01 13:14:09",
+    "score": 70,
     "flags": [
-     "big",
-     "recent(2025)"
+     "view",
+     "big"
     ]
    }
   ]
  },
  "Pilatus PC-12": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Pilatus PC-12",
   "candidates": [
    {
@@ -6901,7 +6911,7 @@
   ]
  },
  "Piaggio P.180 Avanti": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Piaggio P.180 Avanti",
   "candidates": [
    {
@@ -6990,7 +7000,7 @@
   ]
  },
  "Robinson R44": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Robinson R44",
   "candidates": [
    {
@@ -7081,7 +7091,7 @@
   ]
  },
  "Sikorsky S-76": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Sikorsky S-76",
   "candidates": [
    {
@@ -7168,7 +7178,7 @@
   ]
  },
  "Tecnam P2006T": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Tecnam P2006T",
   "candidates": [
    {
@@ -7253,7 +7263,7 @@
   ]
  },
  "Stemme S6": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Stemme S6",
   "candidates": [
    {
@@ -7339,7 +7349,7 @@
   ]
  },
  "ATR 42": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:ATR 42",
   "candidates": [
    {
@@ -7428,7 +7438,7 @@
   ]
  },
  "Learjet 40/45": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Learjet 45",
   "candidates": [
    {
@@ -7520,7 +7530,7 @@
   ]
  },
  "Bell 427": {
-  "checkedAt": "2026-09-05T15:57:49.597Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Bell 427",
   "candidates": [
    {
@@ -7604,7 +7614,7 @@
   ]
  },
  "Airbus H125 (AS350)": {
-  "checkedAt": "2026-09-05T18:01:44.110Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Airbus Helicopters H125 Écureuil",
   "candidates": [
    {
@@ -7690,39 +7700,23 @@
   ]
  },
  "Piper": {
-  "checkedAt": "2026-09-05T18:01:44.110Z",
+  "checkedAt": "2026-10-21T12:47:10.199Z",
   "category": "Category:Piper",
   "candidates": [
    {
-    "file": "File:Marketing of produce 03.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Marketing_of_produce_03.jpg/1280px-Marketing_of_produce_03.jpg",
-    "width": 4480,
-    "height": 2016,
-    "author": "Iciro Iciro",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Marketing_of_produce_03.jpg",
-    "date": "2025-11-30 10:54:35",
+    "file": "File:পান পাতা 2.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/%E0%A6%AA%E0%A6%BE%E0%A6%A8_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE_2.jpg/1280px-%E0%A6%AA%E0%A6%BE%E0%A6%A8_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE_2.jpg",
+    "width": 4608,
+    "height": 2304,
+    "author": "Team7042",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%AA%E0%A6%BE%E0%A6%A8_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE_2.jpg",
+    "date": "10 November 2021 (according to Exif data)",
     "score": 60,
     "flags": [
      "big",
-     "recent(2025)"
-    ]
-   },
-   {
-    "file": "File:Marketing of produce 02.jpg",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Marketing_of_produce_02.jpg/1280px-Marketing_of_produce_02.jpg",
-    "width": 4480,
-    "height": 2016,
-    "author": "Iciro Iciro",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "pageUrl": "https://commons.wikimedia.org/wiki/File:Marketing_of_produce_02.jpg",
-    "date": "2025-11-30 10:54:38",
-    "score": 60,
-    "flags": [
-     "big",
-     "recent(2025)"
+     "recent(2021)"
     ]
    },
    {
@@ -7771,6 +7765,107 @@
     "flags": [
      "big",
      "recent(2025)"
+    ]
+   },
+   {
+    "file": "File:Wild Piper.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wild_Piper.jpg/1280px-Wild_Piper.jpg",
+    "width": 4080,
+    "height": 2296,
+    "author": "Nativeplants garden",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Wild_Piper.jpg",
+    "date": "21 June 2026 (according to Exif data)",
+    "score": 60,
+    "flags": [
+     "big",
+     "recent(2026)"
+    ]
+   }
+  ]
+ },
+ "Tecnam P2010": {
+  "checkedAt": "2026-10-21T12:47:10.199Z",
+  "category": "Category:Tecnam P2010",
+  "candidates": [
+   {
+    "file": "File:Tecnam P2010 MK II 4.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Tecnam_P2010_MK_II_4.jpg/1280px-Tecnam_P2010_MK_II_4.jpg",
+    "width": 3220,
+    "height": 2068,
+    "author": "Kakoula10",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_MK_II_4.jpg",
+    "date": "2023-03-29 15:59:32",
+    "score": 60,
+    "flags": [
+     "big",
+     "recent(2023)"
+    ]
+   },
+   {
+    "file": "File:Tecnam P2010 MK II 2.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tecnam_P2010_MK_II_2.jpg/1280px-Tecnam_P2010_MK_II_2.jpg",
+    "width": 2780,
+    "height": 1724,
+    "author": "Kakoula10",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_MK_II_2.jpg",
+    "date": "2023-03-29 15:53:51",
+    "score": 60,
+    "flags": [
+     "big",
+     "recent(2023)"
+    ]
+   },
+   {
+    "file": "File:Tecnam P2010 MK II 3.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Tecnam_P2010_MK_II_3.jpg/1280px-Tecnam_P2010_MK_II_3.jpg",
+    "width": 2684,
+    "height": 2144,
+    "author": "Kakoula10",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_MK_II_3.jpg",
+    "date": "2023-03-29 15:53:57",
+    "score": 60,
+    "flags": [
+     "big",
+     "recent(2023)"
+    ]
+   },
+   {
+    "file": "File:Tecnam P2010 MK II.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tecnam_P2010_MK_II.jpg/1280px-Tecnam_P2010_MK_II.jpg",
+    "width": 2276,
+    "height": 1540,
+    "author": "Kakoula10",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_MK_II.jpg",
+    "date": "2023-03-29 15:53:47",
+    "score": 60,
+    "flags": [
+     "big",
+     "recent(2023)"
+    ]
+   },
+   {
+    "file": "File:Tecnam P2010 n°003 (F-HEVP) - Aérodrome de Bellegarde-Vouvray, 2017.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Tecnam_P2010_n%C2%B0003_%28F-HEVP%29_-_A%C3%A9rodrome_de_Bellegarde-Vouvray%2C_2017.jpg/1280px-Tecnam_P2010_n%C2%B0003_%28F-HEVP%29_-_A%C3%A9rodrome_de_Bellegarde-Vouvray%2C_2017.jpg",
+    "width": 5184,
+    "height": 3888,
+    "author": "Anthony Levrot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_n%C2%B0003_(F-HEVP)_-_A%C3%A9rodrome_de_Bellegarde-Vouvray,_2017.jpg",
+    "date": "2017-11-17 12:43:18",
+    "score": 50,
+    "flags": [
+     "big"
     ]
    }
   ]

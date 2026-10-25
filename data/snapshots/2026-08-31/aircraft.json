@@ -552,12 +552,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-02-27",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "33003",
+   "yearOfManufacture": 2002,
+   "owner": "NAURU 33003 LEASING CORPORATION",
+   "lessor": "VMAN AVIATION SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -583,15 +583,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Pilatus PC-24 at AERO Friedrichshafen 2025-0441.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pilatus_PC-24_at_AERO_Friedrichshafen_2025-0441.jpg/1280px-Pilatus_PC-24_at_AERO_Friedrichshafen_2025-0441.jpg",
-   "width": 5901,
-   "height": 3934,
-   "author": "New York-air",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_PC-24_at_AERO_Friedrichshafen_2025-0441.jpg",
-   "date": "2025-04-11",
+   "file": "File:Pilatus HB-VSA MG 2522.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pilatus_HB-VSA_MG_2522.jpg/1280px-Pilatus_HB-VSA_MG_2522.jpg",
+   "width": 4606,
+   "height": 2398,
+   "author": "Ronnierob",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_HB-VSA_MG_2522.jpg",
+   "date": "2017-11-01 13:14:09",
    "tier": "type-world",
    "ofReg": null
   },
@@ -736,15 +736,15 @@
   "seatsRaw": "3/Aerial Work",
   "role": "aerial-work",
   "image": {
-   "file": "File:Finthen Airfield, Mainz (P1090484).jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Finthen_Airfield%2C_Mainz_%28P1090484%29.jpg/1280px-Finthen_Airfield%2C_Mainz_%28P1090484%29.jpg",
-   "width": 4076,
-   "height": 2717,
-   "author": "Matti Blume",
+   "file": "File:SE-MGP Cessna 172S VBY 01.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/SE-MGP_Cessna_172S_VBY_01.jpg/1280px-SE-MGP_Cessna_172S_VBY_01.jpg",
+   "width": 4275,
+   "height": 2850,
+   "author": "Bene Riobó",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Finthen_Airfield,_Mainz_(P1090484).jpg",
-   "date": "2021-08-01 09:34:33",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:SE-MGP_Cessna_172S_VBY_01.jpg",
+   "date": "2026-06-22 10:14:20",
    "tier": "type-world",
    "ofReg": null
   },
@@ -3745,15 +3745,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:SE-RVF Pilatus PC-24 Svenskt Ambulansflyg tailfin Flygdagarna 2026 01.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/SE-RVF_Pilatus_PC-24_Svenskt_Ambulansflyg_tailfin_Flygdagarna_2026_01.jpg/1280px-SE-RVF_Pilatus_PC-24_Svenskt_Ambulansflyg_tailfin_Flygdagarna_2026_01.jpg",
-   "width": 6000,
-   "height": 4000,
-   "author": "Bene Riobó",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:SE-RVF_Pilatus_PC-24_Svenskt_Ambulansflyg_tailfin_Flygdagarna_2026_01.jpg",
-   "date": "2026-08-21 09:30:11",
+   "file": "File:HB-VXB PC24 (36821065475).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/HB-VXB_PC24_%2836821065475%29.jpg/1280px-HB-VXB_PC24_%2836821065475%29.jpg",
+   "width": 4958,
+   "height": 3305,
+   "author": "Jonathan Payne from Ayr, United Kingdom",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:HB-VXB_PC24_(36821065475).jpg",
+   "date": "2017-08-26 11:45",
    "tier": "type-world",
    "ofReg": null
   },
@@ -3796,15 +3796,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Pilatus PC-24 AERO Friedrichshafen 2025-0420.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Pilatus_PC-24_AERO_Friedrichshafen_2025-0420.jpg/1280px-Pilatus_PC-24_AERO_Friedrichshafen_2025-0420.jpg",
-   "width": 6000,
-   "height": 4000,
-   "author": "New York-air",
+   "file": "File:N955PS 2018 Pilatus PC-24 s n 115 (50934260386).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/N955PS_2018_Pilatus_PC-24_s_n_115_%2850934260386%29.jpg/1280px-N955PS_2018_Pilatus_PC-24_s_n_115_%2850934260386%29.jpg",
+   "width": 2048,
+   "height": 904,
+   "author": "Tomás Del Coro from Fabulous Las Vegas, Nevada, USA",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_PC-24_AERO_Friedrichshafen_2025-0420.jpg",
-   "date": "2025-04-11",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:N955PS_2018_Pilatus_PC-24_s_n_115_(50934260386).jpg",
+   "date": "2021-02-11 13:01",
    "tier": "type-world",
    "ofReg": null
   },
@@ -4326,12 +4326,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-18",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "760616",
+   "yearOfManufacture": 2006,
+   "owner": "EAGLE COPTERS LTD",
+   "lessor": "EAGLE COPTERS LTD"
   }
  },
  {
@@ -4816,15 +4816,15 @@
   "seatsRaw": "5",
   "role": "passenger",
   "image": {
-   "file": "File:Flying Over Dubai (163864065).jpeg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
-   "width": 2048,
-   "height": 1536,
-   "author": "Costin Costan",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
-   "date": "before 20 July 2016, 09:09:50 (UTC)",
+   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "width": 3072,
+   "height": 2304,
+   "author": "---=XEON=---",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "date": "Taken on 21 May 2009",
    "tier": "type-world",
    "ofReg": null
   },
@@ -5091,12 +5091,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-01-13",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "69263",
+   "yearOfManufacture": 2026,
+   "owner": "BRAHMAPUTRA EKAM AVIATION LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED"
   }
  },
  {
@@ -5142,12 +5142,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-05-18",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "69264",
+   "yearOfManufacture": 2026,
+   "owner": "BRAHMAPUTRA DVE AVIATION LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED"
   }
  },
  {
@@ -5193,12 +5193,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-07-07",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "69265",
+   "yearOfManufacture": 2026,
+   "owner": "BRAHMAPUTRA CHATWARI AVIATION LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED"
   }
  },
  {
@@ -6214,11 +6214,11 @@
   "history": {
    "firstSnapshot": "2013-05-02",
    "registeredOn": "2010-10-27",
-   "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": "",
-   "lessor": null
+   "deregisteredOn": "2026-06-03",
+   "msn": "BB1776",
+   "yearOfManufacture": 2001,
+   "owner": "VSR VENTURES PVT LTD",
+   "lessor": "-"
   }
  },
  {
@@ -6315,12 +6315,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-09",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "6134",
+   "yearOfManufacture": 2019,
+   "owner": "FORUM I AVIATION PVT LTD",
+   "lessor": "-"
   }
  },
  {
@@ -6805,15 +6805,15 @@
   "seatsRaw": "7",
   "role": "passenger",
   "image": {
-   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
-   "width": 2016,
-   "height": 1134,
-   "author": "jordan tavares",
-   "license": "Public domain",
-   "licenseUrl": null,
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
-   "date": "2018-10-09 16:14",
+   "file": "File:Leonardo AW109.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Leonardo_AW109.jpg/1280px-Leonardo_AW109.jpg",
+   "width": 1819,
+   "height": 1080,
+   "author": "Armada Argentina",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_AW109.jpg",
+   "date": "2026-08-20",
    "tier": "type-world",
    "ofReg": null
   },
@@ -7284,12 +7284,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-02-02",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "1052",
+   "yearOfManufacture": 2024,
+   "owner": "SHIVAN AADITHYA AIR SERVICES PVT LTD",
+   "lessor": "-"
   }
  },
  {
@@ -7570,15 +7570,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Modenaairservice.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Modenaairservice.jpg/1280px-Modenaairservice.jpg",
-   "width": 1920,
-   "height": 1080,
-   "author": "Modenaairservice",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Modenaairservice.jpg",
-   "date": "2018-08-02",
+   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
+   "width": 2016,
+   "height": 1134,
+   "author": "jordan tavares",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
+   "date": "2018-10-09 16:14",
    "tier": "type-world",
    "ofReg": null
   },
@@ -10242,12 +10242,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-08",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "60195",
+   "yearOfManufacture": 2026,
+   "owner": "POONAWALLA AVIATION PVT. LTD.",
+   "lessor": "-"
   }
  },
  {
@@ -11619,12 +11619,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-06-12",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "5845",
+   "yearOfManufacture": 2010,
+   "owner": "VISTAJET MALTA AIRCRAFT ONE MAPCC LIMITED",
+   "lessor": "VISTAJET LEASING IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -11670,12 +11670,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-08-14",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "5870",
+   "yearOfManufacture": 2011,
+   "owner": "AYS AVIATION LLC",
+   "lessor": "AYS AVIATION LLC"
   }
  },
  {
@@ -14802,25 +14802,25 @@
   },
   "model": "TECNAM P2010TDI",
   "type": {
-   "icao": "P06T",
+   "icao": "TWEN",
    "manufacturer": "Tecnam",
-   "family": "P2006T",
-   "name": "Tecnam P2006T"
+   "family": "P2010",
+   "name": "Tecnam P2010"
   },
   "wing": "FW",
   "seats": 3,
   "seatsRaw": "3",
   "role": "passenger",
   "image": {
-   "file": "File:Tecnam P2006T at Lotos Gdynia Aerobaltic 2021.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg/1280px-Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg",
-   "width": 4160,
-   "height": 3120,
-   "author": "Szymon Rutkowski",
+   "file": "File:Tecnam P2010 MK II 2.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tecnam_P2010_MK_II_2.jpg/1280px-Tecnam_P2010_MK_II_2.jpg",
+   "width": 2780,
+   "height": 1724,
+   "author": "Kakoula10",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg",
-   "date": "2021-08-21 10:45:59",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_MK_II_2.jpg",
+   "date": "2023-03-29 15:53:51",
    "tier": "type-world",
    "ofReg": null
   },
@@ -15036,12 +15036,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-01-27",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "1236",
+   "yearOfManufacture": 2015,
+   "owner": "TRUENOORD GHAGHRA LIMITED",
+   "lessor": "TRUENOORD GHAGHRA LIMITED"
   }
  },
  {
@@ -15087,12 +15087,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-11",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "1729",
+   "yearOfManufacture": 2026,
+   "owner": "AWAS AVIATION TRADING DAC",
+   "lessor": "VMAN AVIATION SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -15138,12 +15138,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-27",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "1737",
+   "yearOfManufacture": 2026,
+   "owner": "AWAS AVIATION TRADING DAC",
+   "lessor": "VMAN AVIATION SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -15373,15 +15373,15 @@
   "seatsRaw": "8",
   "role": "passenger",
   "image": {
-   "file": "File:Ελικόπτερο Agusta A109 του ΕΚΑΒ.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-   "width": 1188,
-   "height": 894,
-   "author": "Gepsimos",
+   "file": "File:Flying Over Dubai (163864065).jpeg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
+   "width": 2048,
+   "height": 1536,
+   "author": "Costin Costan",
    "license": "CC0",
    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-   "date": "15 August 2026 (according to Exif data)",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
+   "date": "before 20 July 2016, 09:09:50 (UTC)",
    "tier": "type-world",
    "ofReg": null
   },
@@ -15985,15 +15985,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Ελικόπτερο Agusta A109 του ΕΚΑΒ.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-   "width": 1188,
-   "height": 894,
-   "author": "Gepsimos",
+   "file": "File:Flying Over Dubai (163864065).jpeg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
+   "width": 2048,
+   "height": 1536,
+   "author": "Costin Costan",
    "license": "CC0",
    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-   "date": "15 August 2026 (according to Exif data)",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
+   "date": "before 20 July 2016, 09:09:50 (UTC)",
    "tier": "type-world",
    "ofReg": null
   },
@@ -16087,15 +16087,15 @@
   "seatsRaw": "7",
   "role": "passenger",
   "image": {
-   "file": "File:Modenaairservice.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Modenaairservice.jpg/1280px-Modenaairservice.jpg",
-   "width": 1920,
-   "height": 1080,
-   "author": "Modenaairservice",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Modenaairservice.jpg",
-   "date": "2018-08-02",
+   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
+   "width": 2016,
+   "height": 1134,
+   "author": "jordan tavares",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
+   "date": "2018-10-09 16:14",
    "tier": "type-world",
    "ofReg": null
   },
@@ -16311,12 +16311,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-13",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "14501121",
+   "yearOfManufacture": 2010,
+   "owner": "MRG AVIATION IFSC PRIVATE LIMITED",
+   "lessor": "MRG AVIATION IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -17281,7 +17281,7 @@
   "history": {
    "firstSnapshot": "2013-05-02",
    "registeredOn": "2015-12-16",
-   "deregisteredOn": null,
+   "deregisteredOn": "2026-09-28",
    "msn": "36394",
    "yearOfManufacture": 2006,
    "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LTD",
@@ -17821,15 +17821,15 @@
   "seatsRaw": "7",
   "role": "passenger",
   "image": {
-   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
-   "width": 2016,
-   "height": 1134,
-   "author": "jordan tavares",
-   "license": "Public domain",
-   "licenseUrl": null,
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
-   "date": "2018-10-09 16:14",
+   "file": "File:Leonardo AW109.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Leonardo_AW109.jpg/1280px-Leonardo_AW109.jpg",
+   "width": 1819,
+   "height": 1080,
+   "author": "Armada Argentina",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_AW109.jpg",
+   "date": "2026-08-20",
    "tier": "type-world",
    "ofReg": null
   },
@@ -18076,15 +18076,15 @@
   "seatsRaw": "7",
   "role": "passenger",
   "image": {
-   "file": "File:Flying Over Dubai (163864065).jpeg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
-   "width": 2048,
-   "height": 1536,
-   "author": "Costin Costan",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
-   "date": "before 20 July 2016, 09:09:50 (UTC)",
+   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "width": 3072,
+   "height": 2304,
+   "author": "---=XEON=---",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "date": "Taken on 21 May 2009",
    "tier": "type-world",
    "ofReg": null
   },
@@ -18249,12 +18249,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-27",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "9792",
+   "yearOfManufacture": 2026,
+   "owner": "HIMALAYAN HELI SERVICES LIMITED",
+   "lessor": "-"
   }
  },
  {
@@ -19575,12 +19575,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-02",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "9849",
+   "yearOfManufacture": 2025,
+   "owner": "GD HELICOPTER FINANCE LIMITED",
+   "lessor": "GD HELICOPTER FINANCE LIMITED"
   }
  },
  {
@@ -19677,12 +19677,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-25",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "9583",
+   "yearOfManufacture": 2013,
+   "owner": "INDO PACIFIC AVIATION PVT. LTD",
+   "lessor": "-"
   }
  },
  {
@@ -19729,7 +19729,7 @@
   "history": {
    "firstSnapshot": "2025-09-30",
    "registeredOn": "2021-04-28",
-   "deregisteredOn": null,
+   "deregisteredOn": "2026-04-21",
    "msn": "432",
    "yearOfManufacture": 2017,
    "owner": "MERRITT AVIATIONS LIMITED",
@@ -24349,15 +24349,15 @@
   "seatsRaw": "3",
   "role": "passenger",
   "image": {
-   "file": "File:Finthen Airfield, Mainz (P1090484).jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Finthen_Airfield%2C_Mainz_%28P1090484%29.jpg/1280px-Finthen_Airfield%2C_Mainz_%28P1090484%29.jpg",
-   "width": 4076,
-   "height": 2717,
-   "author": "Matti Blume",
+   "file": "File:SE-MGP Cessna 172S VBY 01.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/SE-MGP_Cessna_172S_VBY_01.jpg/1280px-SE-MGP_Cessna_172S_VBY_01.jpg",
+   "width": 4275,
+   "height": 2850,
+   "author": "Bene Riobó",
    "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Finthen_Airfield,_Mainz_(P1090484).jpg",
-   "date": "2021-08-01 09:34:33",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:SE-MGP_Cessna_172S_VBY_01.jpg",
+   "date": "2026-06-22 10:14:20",
    "tier": "type-world",
    "ofReg": null
   },
@@ -24808,15 +24808,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Flying Over Dubai (163864065).jpeg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
-   "width": 2048,
-   "height": 1536,
-   "author": "Costin Costan",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
-   "date": "before 20 July 2016, 09:09:50 (UTC)",
+   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "width": 3072,
+   "height": 2304,
+   "author": "---=XEON=---",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "date": "Taken on 21 May 2009",
    "tier": "type-world",
    "ofReg": null
   },
@@ -27531,12 +27531,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-02-03",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "12833",
+   "yearOfManufacture": 2026,
+   "owner": "NANABOSHI LEASING CO., LTD.",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -27786,12 +27786,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-01-07",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13100",
+   "yearOfManufacture": 2025,
+   "owner": "INDICAN LEASING 4 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -27837,12 +27837,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-18",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13092",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -27888,12 +27888,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-09",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13125",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -27990,12 +27990,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-07-20",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13322",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -28041,12 +28041,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-07-14",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13284",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -28092,12 +28092,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-07-16",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13321",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -28143,12 +28143,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-08-07",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13406",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 17 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -35182,11 +35182,11 @@
   "history": {
    "firstSnapshot": "2018-10-31",
    "registeredOn": null,
-   "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "deregisteredOn": "2026-09-09",
+   "msn": "8465",
+   "yearOfManufacture": 2018,
+   "owner": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LIMITED",
+   "lessor": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LIMITED"
   }
  },
  {
@@ -35763,25 +35763,25 @@
   },
   "model": "TECNAM P2010TDI",
   "type": {
-   "icao": "P06T",
+   "icao": "TWEN",
    "manufacturer": "Tecnam",
-   "family": "P2006T",
-   "name": "Tecnam P2006T"
+   "family": "P2010",
+   "name": "Tecnam P2010"
   },
   "wing": "FW",
   "seats": 3,
   "seatsRaw": "3",
   "role": "passenger",
   "image": {
-   "file": "File:RO BV Ghimbav Airport apron 06.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/RO_BV_Ghimbav_Airport_apron_06.jpg/1280px-RO_BV_Ghimbav_Airport_apron_06.jpg",
-   "width": 1600,
-   "height": 1200,
-   "author": "Whitepixels",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:RO_BV_Ghimbav_Airport_apron_06.jpg",
-   "date": "2023-06-11 13:25:49",
+   "file": "File:Tecnam P2010 MK II.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tecnam_P2010_MK_II.jpg/1280px-Tecnam_P2010_MK_II.jpg",
+   "width": 2276,
+   "height": 1540,
+   "author": "Kakoula10",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_MK_II.jpg",
+   "date": "2023-03-29 15:53:47",
    "tier": "type-world",
    "ofReg": null
   },
@@ -38782,15 +38782,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Flying Over Dubai (163864065).jpeg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
-   "width": 2048,
-   "height": 1536,
-   "author": "Costin Costan",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
-   "date": "before 20 July 2016, 09:09:50 (UTC)",
+   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "width": 3072,
+   "height": 2304,
+   "author": "---=XEON=---",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "date": "Taken on 21 May 2009",
    "tier": "type-world",
    "ofReg": null
   },
@@ -38884,15 +38884,15 @@
   "seatsRaw": "7",
   "role": "passenger",
   "image": {
-   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
-   "width": 2016,
-   "height": 1134,
-   "author": "jordan tavares",
-   "license": "Public domain",
-   "licenseUrl": null,
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
-   "date": "2018-10-09 16:14",
+   "file": "File:Leonardo AW109.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Leonardo_AW109.jpg/1280px-Leonardo_AW109.jpg",
+   "width": 1819,
+   "height": 1080,
+   "author": "Armada Argentina",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_AW109.jpg",
+   "date": "2026-08-20",
    "tier": "type-world",
    "ofReg": null
   },
@@ -39088,15 +39088,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Flying Over Dubai (163864065).jpeg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
-   "width": 2048,
-   "height": 1536,
-   "author": "Costin Costan",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
-   "date": "before 20 July 2016, 09:09:50 (UTC)",
+   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "width": 3072,
+   "height": 2304,
+   "author": "---=XEON=---",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "date": "Taken on 21 May 2009",
    "tier": "type-world",
    "ofReg": null
   },
@@ -39139,15 +39139,15 @@
   "seatsRaw": "6/Aerial Work",
   "role": "aerial-work",
   "image": {
-   "file": "File:Bell 407 JA6410 Shin Nihon Helicopter Co., Ltd. 2025 0122 Tokyo Heliport.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg/1280px-Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg",
-   "width": 4014,
-   "height": 3011,
-   "author": "ORANGE 737",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_407_JA6410_Shin_Nihon_Helicopter_Co.,_Ltd._2025_0122_Tokyo_Heliport.jpg",
-   "date": "2025-01-22 13:35:50",
+   "file": "File:Bell 401 Helicopter (52940073682).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bell_401_Helicopter_%2852940073682%29.jpg/1280px-Bell_401_Helicopter_%2852940073682%29.jpg",
+   "width": 4032,
+   "height": 3024,
+   "author": "Forest Service - Northern Region",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_401_Helicopter_(52940073682).jpg",
+   "date": "Taken on 18 August 2021, 14:21:29",
    "tier": "type-world",
    "ofReg": null
   },
@@ -39802,15 +39802,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Modenaairservice.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Modenaairservice.jpg/1280px-Modenaairservice.jpg",
-   "width": 1920,
-   "height": 1080,
-   "author": "Modenaairservice",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Modenaairservice.jpg",
-   "date": "2018-08-02",
+   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
+   "width": 2016,
+   "height": 1134,
+   "author": "jordan tavares",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
+   "date": "2018-10-09 16:14",
    "tier": "type-world",
    "ofReg": null
   },
@@ -40363,15 +40363,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Pilatus PC-24 AERO Friedrichshafen 2025-0411.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Pilatus_PC-24_AERO_Friedrichshafen_2025-0411.jpg/1280px-Pilatus_PC-24_AERO_Friedrichshafen_2025-0411.jpg",
-   "width": 6000,
-   "height": 4000,
-   "author": "New York-air",
+   "file": "File:N955PS 2018 Pilatus PC-24 s n 115 (51789291193).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/N955PS_2018_Pilatus_PC-24_s_n_115_%2851789291193%29.jpg/1280px-N955PS_2018_Pilatus_PC-24_s_n_115_%2851789291193%29.jpg",
+   "width": 2048,
+   "height": 868,
+   "author": "Tomás Del Coro from Fabulous Las Vegas, Nevada, USA",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_PC-24_AERO_Friedrichshafen_2025-0411.jpg",
-   "date": "2025-04-11",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:N955PS_2018_Pilatus_PC-24_s_n_115_(51789291193).jpg",
+   "date": "2021-11-04 14:52",
    "tier": "type-world",
    "ofReg": null
   },
@@ -41067,25 +41067,25 @@
   },
   "model": "TECNAM P2010TDI",
   "type": {
-   "icao": "P06T",
+   "icao": "TWEN",
    "manufacturer": "Tecnam",
-   "family": "P2006T",
-   "name": "Tecnam P2006T"
+   "family": "P2010",
+   "name": "Tecnam P2010"
   },
   "wing": "FW",
   "seats": 3,
   "seatsRaw": "3",
   "role": "passenger",
   "image": {
-   "file": "File:Tecnam P2006T at Lotos Gdynia Aerobaltic 2021.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg/1280px-Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg",
-   "width": 4160,
-   "height": 3120,
-   "author": "Szymon Rutkowski",
+   "file": "File:Tecnam P2010 MK II 2.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tecnam_P2010_MK_II_2.jpg/1280px-Tecnam_P2010_MK_II_2.jpg",
+   "width": 2780,
+   "height": 1724,
+   "author": "Kakoula10",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg",
-   "date": "2021-08-21 10:45:59",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_MK_II_2.jpg",
+   "date": "2023-03-29 15:53:51",
    "tier": "type-world",
    "ofReg": null
   },
@@ -41230,15 +41230,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Flying Over Dubai (163864065).jpeg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
-   "width": 2048,
-   "height": 1536,
-   "author": "Costin Costan",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
-   "date": "before 20 July 2016, 09:09:50 (UTC)",
+   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "width": 3072,
+   "height": 2304,
+   "author": "---=XEON=---",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "date": "Taken on 21 May 2009",
    "tier": "type-world",
    "ofReg": null
   },
@@ -41383,15 +41383,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
-   "width": 2016,
-   "height": 1134,
-   "author": "jordan tavares",
-   "license": "Public domain",
-   "licenseUrl": null,
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
-   "date": "2018-10-09 16:14",
+   "file": "File:Leonardo AW109.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Leonardo_AW109.jpg/1280px-Leonardo_AW109.jpg",
+   "width": 1819,
+   "height": 1080,
+   "author": "Armada Argentina",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_AW109.jpg",
+   "date": "2026-08-20",
    "tier": "type-world",
    "ofReg": null
   },
@@ -42301,15 +42301,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Flying Over Dubai (163864065).jpeg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
-   "width": 2048,
-   "height": 1536,
-   "author": "Costin Costan",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
-   "date": "before 20 July 2016, 09:09:50 (UTC)",
+   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "width": 3072,
+   "height": 2304,
+   "author": "---=XEON=---",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "date": "Taken on 21 May 2009",
    "tier": "type-world",
    "ofReg": null
   },
@@ -42373,7 +42373,7 @@
   "history": {
    "firstSnapshot": "2019-07-15",
    "registeredOn": "2018-11-02",
-   "deregisteredOn": null,
+   "deregisteredOn": "2026-09-14",
    "msn": "64938",
    "yearOfManufacture": 2018,
    "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
@@ -42424,7 +42424,7 @@
   "history": {
    "firstSnapshot": "2019-07-15",
    "registeredOn": "2018-11-15",
-   "deregisteredOn": null,
+   "deregisteredOn": "2026-09-14",
    "msn": "64939",
    "yearOfManufacture": 2018,
    "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
@@ -42475,7 +42475,7 @@
   "history": {
    "firstSnapshot": "2019-07-15",
    "registeredOn": "2018-12-31",
-   "deregisteredOn": null,
+   "deregisteredOn": "2026-09-14",
    "msn": "64940",
    "yearOfManufacture": 2018,
    "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
@@ -44769,7 +44769,7 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": "2025-12-30",
+   "registeredOn": "2026-01-05",
    "deregisteredOn": null,
    "msn": "12890",
    "yearOfManufacture": 2025,
@@ -44871,7 +44871,7 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": "2025-12-29",
+   "registeredOn": "2026-01-05",
    "deregisteredOn": null,
    "msn": "12959",
    "yearOfManufacture": 2025,
@@ -44922,12 +44922,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-02-27",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13053",
+   "yearOfManufacture": 2026,
+   "owner": "EXPLORER LEASING CO., LTD.",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -45177,12 +45177,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-01-08",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "12622",
+   "yearOfManufacture": 2025,
+   "owner": "INDIJET LEASING 2 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -45228,12 +45228,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-10",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "12926",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 8 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -45279,12 +45279,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-06-10",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13018",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 8 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -45381,12 +45381,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-05-12",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13214",
+   "yearOfManufacture": 2026,
+   "owner": "MASL IRELAND (22) LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -45432,12 +45432,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-06-17",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13260",
+   "yearOfManufacture": 2026,
+   "owner": "MASL IRELAND (22) LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -45483,12 +45483,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-06-09",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13290",
+   "yearOfManufacture": 2026,
+   "owner": "MASL IRELAND (22) LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -45534,12 +45534,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-07-23",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13350",
+   "yearOfManufacture": 2026,
+   "owner": "AIRCASTLE (IRELAND) DAC",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -45585,12 +45585,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-07-24",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "13398",
+   "yearOfManufacture": 2026,
+   "owner": "AIRCASTLE (IRELAND) DAC",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -45636,12 +45636,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-02-03",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "6868",
+   "yearOfManufacture": 2009,
+   "owner": "M/S. AMAN AVIATION AND AEROSPACE SOLUTIONS PVT LTD",
+   "lessor": "-"
   }
  },
  {
@@ -45789,12 +45789,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-01",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "69285",
+   "yearOfManufacture": 2026,
+   "owner": "AS AIR LEASE 217 (IRELAND) LIMITED",
+   "lessor": "AS AIR LEASE 217 (IRELAND) LIMITED"
   }
  },
  {
@@ -45840,12 +45840,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-24",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "69284",
+   "yearOfManufacture": 2026,
+   "owner": "AS AIR LEASE 218 (IRELAND) LIMITED",
+   "lessor": "AS AIR LEASE 218 (IRELAND) LIMITED"
   }
  },
  {
@@ -46075,15 +46075,15 @@
   "seatsRaw": "7",
   "role": "passenger",
   "image": {
-   "file": "File:Modenaairservice.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Modenaairservice.jpg/1280px-Modenaairservice.jpg",
-   "width": 1920,
-   "height": 1080,
-   "author": "Modenaairservice",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Modenaairservice.jpg",
-   "date": "2018-08-02",
+   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
+   "width": 2016,
+   "height": 1134,
+   "author": "jordan tavares",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
+   "date": "2018-10-09 16:14",
    "tier": "type-world",
    "ofReg": null
   },
@@ -46126,15 +46126,15 @@
   "seatsRaw": "7",
   "role": "passenger",
   "image": {
-   "file": "File:Modenaairservice.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Modenaairservice.jpg/1280px-Modenaairservice.jpg",
-   "width": 1920,
-   "height": 1080,
-   "author": "Modenaairservice",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Modenaairservice.jpg",
-   "date": "2018-08-02",
+   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
+   "width": 2016,
+   "height": 1134,
+   "author": "jordan tavares",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
+   "date": "2018-10-09 16:14",
    "tier": "type-world",
    "ofReg": null
   },
@@ -46177,15 +46177,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Ελικόπτερο Agusta A109 του ΕΚΑΒ.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-   "width": 1188,
-   "height": 894,
-   "author": "Gepsimos",
+   "file": "File:Flying Over Dubai (163864065).jpeg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
+   "width": 2048,
+   "height": 1536,
+   "author": "Costin Costan",
    "license": "CC0",
    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-   "date": "15 August 2026 (according to Exif data)",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
+   "date": "before 20 July 2016, 09:09:50 (UTC)",
    "tier": "type-world",
    "ofReg": null
   },
@@ -46228,15 +46228,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Flying Over Dubai (163864065).jpeg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
-   "width": 2048,
-   "height": 1536,
-   "author": "Costin Costan",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
-   "date": "before 20 July 2016, 09:09:50 (UTC)",
+   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "width": 3072,
+   "height": 2304,
+   "author": "---=XEON=---",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "date": "Taken on 21 May 2009",
    "tier": "type-world",
    "ofReg": null
   },
@@ -46483,15 +46483,15 @@
   "seatsRaw": "3/Aerial Work",
   "role": "aerial-work",
   "image": {
-   "file": "File:Cessna 172 vs. Moon (53443333846).jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cessna_172_vs._Moon_%2853443333846%29.jpg/1280px-Cessna_172_vs._Moon_%2853443333846%29.jpg",
-   "width": 3980,
-   "height": 3184,
-   "author": "Glenn Beltz from Goleta, CA, USA",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Cessna_172_vs._Moon_(53443333846).jpg",
-   "date": "2023-11-21 17:33",
+   "file": "File:Finthen Airfield, Mainz (P1090484).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Finthen_Airfield%2C_Mainz_%28P1090484%29.jpg/1280px-Finthen_Airfield%2C_Mainz_%28P1090484%29.jpg",
+   "width": 4076,
+   "height": 2717,
+   "author": "Matti Blume",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Finthen_Airfield,_Mainz_(P1090484).jpg",
+   "date": "2021-08-01 09:34:33",
    "tier": "type-world",
    "ofReg": null
   },
@@ -46534,15 +46534,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Pilatus PC-24 AERO Friedrichshafen 2025-0380.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pilatus_PC-24_AERO_Friedrichshafen_2025-0380.jpg/1280px-Pilatus_PC-24_AERO_Friedrichshafen_2025-0380.jpg",
-   "width": 6000,
-   "height": 4000,
-   "author": "New York-air",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilatus_PC-24_AERO_Friedrichshafen_2025-0380.jpg",
-   "date": "2025-04-11",
+   "file": "File:OO-MBP PC24 (51668217698).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/OO-MBP_PC24_%2851668217698%29.jpg/1280px-OO-MBP_PC24_%2851668217698%29.jpg",
+   "width": 4231,
+   "height": 2060,
+   "author": "Jonathan Payne from Ayr, United Kingdom",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:OO-MBP_PC24_(51668217698).jpg",
+   "date": "2021-11-09 12:37",
    "tier": "type-world",
    "ofReg": null
   },
@@ -47472,12 +47472,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-10",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "325",
+   "yearOfManufacture": 2016,
+   "owner": "VIJAYANAND TRAVELS PRIVATE LIMITED",
+   "lessor": "-"
   }
  },
  {
@@ -49339,15 +49339,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Flying Over Dubai (163864065).jpeg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
-   "width": 2048,
-   "height": 1536,
-   "author": "Costin Costan",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
-   "date": "before 20 July 2016, 09:09:50 (UTC)",
+   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "width": 3072,
+   "height": 2304,
+   "author": "---=XEON=---",
+   "license": "CC BY 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
+   "date": "Taken on 21 May 2009",
    "tier": "type-world",
    "ofReg": null
   },
@@ -49492,15 +49492,15 @@
   "seatsRaw": "3",
   "role": "passenger",
   "image": {
-   "file": "File:Tecnam P2006T at Lotos Gdynia Aerobaltic 2021.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg/1280px-Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg",
-   "width": 4160,
-   "height": 3120,
-   "author": "Szymon Rutkowski",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg",
-   "date": "2021-08-21 10:45:59",
+   "file": "File:Tecnam P2006T FAD1548 de la FARD en MDSI. Foto por Jimmy Lorenzo.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Tecnam_P2006T_FAD1548_de_la_FARD_en_MDSI._Foto_por_Jimmy_Lorenzo.jpg/1280px-Tecnam_P2006T_FAD1548_de_la_FARD_en_MDSI._Foto_por_Jimmy_Lorenzo.jpg",
+   "width": 4380,
+   "height": 2736,
+   "author": "Sonicx3",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2006T_FAD1548_de_la_FARD_en_MDSI._Foto_por_Jimmy_Lorenzo.jpg",
+   "date": "2023-02-19 10:42:32",
    "tier": "type-world",
    "ofReg": null
   },
@@ -50175,12 +50175,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-02-17",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "1084",
+   "yearOfManufacture": 2025,
+   "owner": "GD HELICOPTER FINANCE I LIMITED",
+   "lessor": "GD HELICOPTER FINANCE I LIMITED"
   }
  },
  {
@@ -51175,15 +51175,15 @@
   "seatsRaw": "7",
   "role": "passenger",
   "image": {
-   "file": "File:Pilot embarked from helicopter - panoramio.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pilot_embarked_from_helicopter_-_panoramio.jpg/1280px-Pilot_embarked_from_helicopter_-_panoramio.jpg",
-   "width": 3072,
-   "height": 2304,
-   "author": "---=XEON=---",
-   "license": "CC BY 3.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Pilot_embarked_from_helicopter_-_panoramio.jpg",
-   "date": "Taken on 21 May 2009",
+   "file": "File:ARHT & STJ at Hamilton Airport.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/ARHT_%26_STJ_at_Hamilton_Airport.jpg/1280px-ARHT_%26_STJ_at_Hamilton_Airport.jpg",
+   "width": 2226,
+   "height": 1376,
+   "author": "Dmattez",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:ARHT_%26_STJ_at_Hamilton_Airport.jpg",
+   "date": "2026-10-12",
    "tier": "type-world",
    "ofReg": null
   },
@@ -51532,15 +51532,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Bell 407 JA6410 Shin Nihon Helicopter Co., Ltd. 2025 0122 Tokyo Heliport.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg/1280px-Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg",
-   "width": 4014,
-   "height": 3011,
-   "author": "ORANGE 737",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_407_JA6410_Shin_Nihon_Helicopter_Co.,_Ltd._2025_0122_Tokyo_Heliport.jpg",
-   "date": "2025-01-22 13:35:50",
+   "file": "File:Bell 401 Helicopter (52940073682).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bell_401_Helicopter_%2852940073682%29.jpg/1280px-Bell_401_Helicopter_%2852940073682%29.jpg",
+   "width": 4032,
+   "height": 3024,
+   "author": "Forest Service - Northern Region",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_401_Helicopter_(52940073682).jpg",
+   "date": "Taken on 18 August 2021, 14:21:29",
    "tier": "type-world",
    "ofReg": null
   },
@@ -54765,12 +54765,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-02-13",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "987",
+   "yearOfManufacture": 2020,
+   "owner": "AER LLC",
+   "lessor": "AER LLC"
   }
  },
  {
@@ -54847,15 +54847,15 @@
   "seatsRaw": "4",
   "role": "passenger",
   "image": {
-   "file": "File:Marketing of produce 03.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Marketing_of_produce_03.jpg/1280px-Marketing_of_produce_03.jpg",
-   "width": 4480,
-   "height": 2016,
-   "author": "Iciro Iciro",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Marketing_of_produce_03.jpg",
-   "date": "2025-11-30 10:54:35",
+   "file": "File:পান পাতা 2.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/%E0%A6%AA%E0%A6%BE%E0%A6%A8_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE_2.jpg/1280px-%E0%A6%AA%E0%A6%BE%E0%A6%A8_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE_2.jpg",
+   "width": 4608,
+   "height": 2304,
+   "author": "Team7042",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%AA%E0%A6%BE%E0%A6%A8_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE_2.jpg",
+   "date": "10 November 2021 (according to Exif data)",
    "tier": "type-world",
    "ofReg": null
   },
@@ -55785,12 +55785,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-01-27",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "57552",
+   "yearOfManufacture": 2025,
+   "owner": "SPAN AIR PVT. LTD",
+   "lessor": "-"
   }
  },
  {
@@ -56347,11 +56347,11 @@
   "history": {
    "firstSnapshot": "2006-01-20",
    "registeredOn": "2011-12-05",
-   "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": "",
-   "lessor": "M/S WHITE CITY"
+   "deregisteredOn": "2026-06-29",
+   "msn": "BL 139",
+   "yearOfManufacture": 1993,
+   "owner": "M/S VSR VENTURES PVT LTD",
+   "lessor": "-"
   }
  },
  {
@@ -58111,15 +58111,15 @@
   "seatsRaw": "6/Aerial Work",
   "role": "aerial-work",
   "image": {
-   "file": "File:Bell 407 JA6410 Shin Nihon Helicopter Co., Ltd. 2025 0122 Tokyo Heliport.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg/1280px-Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg",
-   "width": 4014,
-   "height": 3011,
-   "author": "ORANGE 737",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_407_JA6410_Shin_Nihon_Helicopter_Co.,_Ltd._2025_0122_Tokyo_Heliport.jpg",
-   "date": "2025-01-22 13:35:50",
+   "file": "File:Bell 401 Helicopter (52940073682).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bell_401_Helicopter_%2852940073682%29.jpg/1280px-Bell_401_Helicopter_%2852940073682%29.jpg",
+   "width": 4032,
+   "height": 3024,
+   "author": "Forest Service - Northern Region",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_401_Helicopter_(52940073682).jpg",
+   "date": "Taken on 18 August 2021, 14:21:29",
    "tier": "type-world",
    "ofReg": null
   },
@@ -58162,15 +58162,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Bell 407 JA6410 Shin Nihon Helicopter Co., Ltd. 2025 0122 Tokyo Heliport.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg/1280px-Bell_407_JA6410_Shin_Nihon_Helicopter_Co.%2C_Ltd._2025_0122_Tokyo_Heliport.jpg",
-   "width": 4014,
-   "height": 3011,
-   "author": "ORANGE 737",
-   "license": "CC0",
-   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_407_JA6410_Shin_Nihon_Helicopter_Co.,_Ltd._2025_0122_Tokyo_Heliport.jpg",
-   "date": "2025-01-22 13:35:50",
+   "file": "File:Bell 401 Helicopter (52940073682).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Bell_401_Helicopter_%2852940073682%29.jpg/1280px-Bell_401_Helicopter_%2852940073682%29.jpg",
+   "width": 4032,
+   "height": 3024,
+   "author": "Forest Service - Northern Region",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Bell_401_Helicopter_(52940073682).jpg",
+   "date": "Taken on 18 August 2021, 14:21:29",
    "tier": "type-world",
    "ofReg": null
   },
@@ -62007,12 +62007,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-20",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "604",
+   "yearOfManufacture": 2008,
+   "owner": "PASSERINE INVESTMENTS LTD",
+   "lessor": "OEL AVIATION IFSC PRIVATE LIMITED"
   }
  },
  {
@@ -63232,11 +63232,11 @@
   "history": {
    "firstSnapshot": "2023-01-31",
    "registeredOn": "2020-02-21",
-   "deregisteredOn": null,
+   "deregisteredOn": "2026-09-03",
    "msn": "6178",
    "yearOfManufacture": 2014,
-   "owner": "CIT AEROSPACE INTERNATIONAL DUBLIN 4, IRELAND",
-   "lessor": "SAME AS OWNER"
+   "owner": "CIT AEROSPACE INTERNATIONAL UNLIMITED COMPANY",
+   "lessor": "CIT AEROSPACE INTERNATIONAL UNLIMITED COMPANY"
   }
  },
  {
@@ -63670,15 +63670,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Modenaairservice.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Modenaairservice.jpg/1280px-Modenaairservice.jpg",
-   "width": 1920,
-   "height": 1080,
-   "author": "Modenaairservice",
-   "license": "CC BY-SA 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Modenaairservice.jpg",
-   "date": "2018-08-02",
+   "file": "File:Hélicoptère Agusta A.109 (45159120242).jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg/1280px-H%C3%A9licopt%C3%A8re_Agusta_A.109_%2845159120242%29.jpg",
+   "width": 2016,
+   "height": 1134,
+   "author": "jordan tavares",
+   "license": "Public domain",
+   "licenseUrl": null,
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A9licopt%C3%A8re_Agusta_A.109_(45159120242).jpg",
+   "date": "2018-10-09 16:14",
    "tier": "type-world",
    "ofReg": null
   },
@@ -63966,25 +63966,25 @@
   },
   "model": "TECNAM P2010TDI",
   "type": {
-   "icao": "P06T",
+   "icao": "TWEN",
    "manufacturer": "Tecnam",
-   "family": "P2006T",
-   "name": "Tecnam P2006T"
+   "family": "P2010",
+   "name": "Tecnam P2010"
   },
   "wing": "FW",
   "seats": 3,
   "seatsRaw": "3",
   "role": "passenger",
   "image": {
-   "file": "File:Tecnam P2006T G-OGOL 5D4 2765 (32831621177).jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tecnam_P2006T_G-OGOL_5D4_2765_%2832831621177%29.jpg/1280px-Tecnam_P2006T_G-OGOL_5D4_2765_%2832831621177%29.jpg",
-   "width": 5265,
-   "height": 3515,
-   "author": "Ronnie Macdonald from Chelmsford, United Kingdom",
-   "license": "CC BY 2.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2006T_G-OGOL_5D4_2765_(32831621177).jpg",
-   "date": "2019-04-30 13:11",
+   "file": "File:Tecnam P2010 n°003 (F-HEVP) - Aérodrome de Bellegarde-Vouvray, 2017.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Tecnam_P2010_n%C2%B0003_%28F-HEVP%29_-_A%C3%A9rodrome_de_Bellegarde-Vouvray%2C_2017.jpg/1280px-Tecnam_P2010_n%C2%B0003_%28F-HEVP%29_-_A%C3%A9rodrome_de_Bellegarde-Vouvray%2C_2017.jpg",
+   "width": 5184,
+   "height": 3888,
+   "author": "Anthony Levrot",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_n%C2%B0003_(F-HEVP)_-_A%C3%A9rodrome_de_Bellegarde-Vouvray,_2017.jpg",
+   "date": "2017-11-17 12:43:18",
    "tier": "type-world",
    "ofReg": null
   },
@@ -64017,25 +64017,25 @@
   },
   "model": "TECNAM P2010TDI",
   "type": {
-   "icao": "P06T",
+   "icao": "TWEN",
    "manufacturer": "Tecnam",
-   "family": "P2006T",
-   "name": "Tecnam P2006T"
+   "family": "P2010",
+   "name": "Tecnam P2010"
   },
   "wing": "FW",
   "seats": 3,
   "seatsRaw": "3",
   "role": "passenger",
   "image": {
-   "file": "File:Tecnam P2006T at Lotos Gdynia Aerobaltic 2021.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg/1280px-Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg",
-   "width": 4160,
-   "height": 3120,
-   "author": "Szymon Rutkowski",
+   "file": "File:Tecnam P2010 MK II 2.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tecnam_P2010_MK_II_2.jpg/1280px-Tecnam_P2010_MK_II_2.jpg",
+   "width": 2780,
+   "height": 1724,
+   "author": "Kakoula10",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2006T_at_Lotos_Gdynia_Aerobaltic_2021.jpg",
-   "date": "2021-08-21 10:45:59",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecnam_P2010_MK_II_2.jpg",
+   "date": "2023-03-29 15:53:51",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65149,15 +65149,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 1.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-   "width": 7110,
-   "height": 4740,
+   "file": "File:Southwest Airlines Boeing 737-8 MAX N8924Q departing Boston July 2026.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+   "width": 6520,
+   "height": 3668,
    "author": "4300streetcar",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-   "date": "2025-03-11 16:51:34",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+   "date": "2026-07-19 18:25:43",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65353,15 +65353,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 2.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-   "width": 7156,
-   "height": 4771,
-   "author": "4300streetcar",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-   "date": "2025-03-11 16:51:36",
+   "file": "File:Southwest Boeing 737-8 MAX N8949Q BWI MD2.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg/1280px-Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
+   "width": 6568,
+   "height": 3880,
+   "author": "Acroterion",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
+   "date": "2026-03-19",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65455,15 +65455,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 1.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-   "width": 7110,
-   "height": 4740,
+   "file": "File:Southwest Airlines Boeing 737-8 MAX N8924Q departing Boston July 2026.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+   "width": 6520,
+   "height": 3668,
    "author": "4300streetcar",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-   "date": "2025-03-11 16:51:34",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+   "date": "2026-07-19 18:25:43",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65506,15 +65506,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8800L departing Boston December 2025.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-   "width": 7047,
-   "height": 3964,
-   "author": "4300streetcar",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-   "date": "2025-12-01 14:50:57",
+   "file": "File:Southwest Boeing 737-8 MAX N8780Q BWI MD1.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg/1280px-Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+   "width": 6416,
+   "height": 3592,
+   "author": "Acroterion",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+   "date": "2026-03-19",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65557,15 +65557,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8925Q departing Boston December 2025.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-   "width": 7708,
-   "height": 4336,
+   "file": "File:Southwest Airlines Boeing 737-8 MAX N8845L departing Boston July 2026.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+   "width": 6664,
+   "height": 3749,
    "author": "4300streetcar",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-   "date": "2025-12-01 15:50:26",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+   "date": "2026-07-19 18:15:51",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65608,15 +65608,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 2.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-   "width": 7156,
-   "height": 4771,
-   "author": "4300streetcar",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-   "date": "2025-03-11 16:51:36",
+   "file": "File:Southwest Boeing 737-8 MAX N8949Q BWI MD2.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg/1280px-Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
+   "width": 6568,
+   "height": 3880,
+   "author": "Acroterion",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
+   "date": "2026-03-19",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65659,15 +65659,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8925Q departing Boston December 2025.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-   "width": 7708,
-   "height": 4336,
+   "file": "File:Southwest Airlines Boeing 737-8 MAX N8845L departing Boston July 2026.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+   "width": 6664,
+   "height": 3749,
    "author": "4300streetcar",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-   "date": "2025-12-01 15:50:26",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+   "date": "2026-07-19 18:15:51",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65710,15 +65710,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 2.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-   "width": 7156,
-   "height": 4771,
-   "author": "4300streetcar",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_2.jpg",
-   "date": "2025-03-11 16:51:36",
+   "file": "File:Southwest Boeing 737-8 MAX N8949Q BWI MD2.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg/1280px-Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
+   "width": 6568,
+   "height": 3880,
+   "author": "Acroterion",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
+   "date": "2026-03-19",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65730,12 +65730,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-01",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67868",
+   "yearOfManufacture": 2026,
+   "owner": "JINGWEI AVIATION CAPITAL LIMITED",
+   "lessor": "JINGWEI AVIATION CAPITAL LIMITED"
   }
  },
  {
@@ -65761,15 +65761,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8800L departing Boston December 2025.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-   "width": 7047,
-   "height": 3964,
-   "author": "4300streetcar",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-   "date": "2025-12-01 14:50:57",
+   "file": "File:Southwest Boeing 737-8 MAX N8780Q BWI MD1.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg/1280px-Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+   "width": 6416,
+   "height": 3592,
+   "author": "Acroterion",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+   "date": "2026-03-19",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65781,12 +65781,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-30",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67869",
+   "yearOfManufacture": 2026,
+   "owner": "JINGWEI AVIATION CAPITAL LIMITED",
+   "lessor": "JINGWEI AVIATION CAPITAL LIMITED"
   }
  },
  {
@@ -65812,15 +65812,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Boeing 737-8 MAX N8949Q BWI MD2.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg/1280px-Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
-   "width": 6568,
-   "height": 3880,
+   "file": "File:Southwest Boeing 737-8 MAX N8758L BWI MD3.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg/1280px-Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg",
+   "width": 6080,
+   "height": 3168,
    "author": "Acroterion",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
-   "date": "2026-03-19",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg",
+   "date": "2026-04-09",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65832,12 +65832,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-04-24",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67870",
+   "yearOfManufacture": 2026,
+   "owner": "BOC AVIATION (IRELAND) LIMITED",
+   "lessor": "BOC AVIATION (IRELAND) LIMITED"
   }
  },
  {
@@ -65863,15 +65863,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Boeing 737-8 MAX N8949Q BWI MD2.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg/1280px-Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
-   "width": 6568,
-   "height": 3880,
+   "file": "File:Southwest Boeing 737-8 MAX N8758L BWI MD3.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg/1280px-Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg",
+   "width": 6080,
+   "height": 3168,
    "author": "Acroterion",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8949Q_BWI_MD2.jpg",
-   "date": "2026-03-19",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8758L_BWI_MD3.jpg",
+   "date": "2026-04-09",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65883,12 +65883,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-02-16",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67871",
+   "yearOfManufacture": 2026,
+   "owner": "KS I AIRCRAFT AOE TWO DAC",
+   "lessor": "KS I AIRCRAFT AOE TWO DAC"
   }
  },
  {
@@ -65914,15 +65914,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8925Q departing Boston December 2025.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-   "width": 7708,
-   "height": 4336,
+   "file": "File:Southwest Airlines Boeing 737-8 MAX N8845L departing Boston July 2026.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+   "width": 6664,
+   "height": 3749,
    "author": "4300streetcar",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-   "date": "2025-12-01 15:50:26",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+   "date": "2026-07-19 18:15:51",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65934,12 +65934,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-02-04",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67872",
+   "yearOfManufacture": 2026,
+   "owner": "ALTITUDE II AIRCRAFT SIXTEEN DAC",
+   "lessor": "ALTITUDE II AIRCRAFT SIXTEEN DAC"
   }
  },
  {
@@ -65965,15 +65965,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 1.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-   "width": 7110,
-   "height": 4740,
+   "file": "File:Southwest Airlines Boeing 737-8 MAX N8924Q departing Boston July 2026.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+   "width": 6520,
+   "height": 3668,
    "author": "4300streetcar",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-   "date": "2025-03-11 16:51:34",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+   "date": "2026-07-19 18:25:43",
    "tier": "type-world",
    "ofReg": null
   },
@@ -65985,12 +65985,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-01-29",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67873",
+   "yearOfManufacture": 2026,
+   "owner": "KS I AIRCRAFT AOE TWO DAC",
+   "lessor": "KS I AIRCRAFT AOE TWO DAC"
   }
  },
  {
@@ -66016,15 +66016,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8800L departing Boston December 2025.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-   "width": 7047,
-   "height": 3964,
-   "author": "4300streetcar",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-   "date": "2025-12-01 14:50:57",
+   "file": "File:Southwest Boeing 737-8 MAX N8780Q BWI MD1.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg/1280px-Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+   "width": 6416,
+   "height": 3592,
+   "author": "Acroterion",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+   "date": "2026-03-19",
    "tier": "type-world",
    "ofReg": null
   },
@@ -66036,12 +66036,12 @@
   "firstSeen": "2026-05-31",
   "history": {
    "firstSnapshot": "2026-05-31",
-   "registeredOn": null,
+   "registeredOn": "2026-03-03",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67874",
+   "yearOfManufacture": 2026,
+   "owner": "JINGWEI AVIATION CAPITAL LIMITED",
+   "lessor": "JINGWEI AVIATION CAPITAL LIMITED"
   }
  },
  {
@@ -66067,15 +66067,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8885Q departing Boston March 2025 1.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-   "width": 7110,
-   "height": 4740,
+   "file": "File:Southwest Airlines Boeing 737-8 MAX N8924Q departing Boston July 2026.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+   "width": 6520,
+   "height": 3668,
    "author": "4300streetcar",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8885Q_departing_Boston_March_2025_1.jpg",
-   "date": "2025-03-11 16:51:34",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8924Q_departing_Boston_July_2026.jpg",
+   "date": "2026-07-19 18:25:43",
    "tier": "type-world",
    "ofReg": null
   },
@@ -66087,12 +66087,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-06-22",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67875",
+   "yearOfManufacture": 2026,
+   "owner": "BOC AVIATION (IRELAND) LIMITED",
+   "lessor": "BOC AVIATION (IRELAND) LIMITED"
   }
  },
  {
@@ -66118,15 +66118,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8800L departing Boston December 2025.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-   "width": 7047,
-   "height": 3964,
-   "author": "4300streetcar",
-   "license": "CC BY 4.0",
-   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8800L_departing_Boston_December_2025.jpg",
-   "date": "2025-12-01 14:50:57",
+   "file": "File:Southwest Boeing 737-8 MAX N8780Q BWI MD1.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg/1280px-Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+   "width": 6416,
+   "height": 3592,
+   "author": "Acroterion",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Boeing_737-8_MAX_N8780Q_BWI_MD1.jpg",
+   "date": "2026-03-19",
    "tier": "type-world",
    "ofReg": null
   },
@@ -66138,12 +66138,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-07-07",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67876",
+   "yearOfManufacture": 2026,
+   "owner": "BOC AVIATION (IRELAND) LIMITED",
+   "lessor": "BOC AVIATION (IRELAND) LIMITED"
   }
  },
  {
@@ -66169,15 +66169,15 @@
   "seatsRaw": "197",
   "role": "passenger",
   "image": {
-   "file": "File:Southwest Airlines Boeing 737-8 MAX N8925Q departing Boston December 2025.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-   "width": 7708,
-   "height": 4336,
+   "file": "File:Southwest Airlines Boeing 737-8 MAX N8845L departing Boston July 2026.jpg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg/1280px-Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+   "width": 6664,
+   "height": 3749,
    "author": "4300streetcar",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8925Q_departing_Boston_December_2025.jpg",
-   "date": "2025-12-01 15:50:26",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_Boeing_737-8_MAX_N8845L_departing_Boston_July_2026.jpg",
+   "date": "2026-07-19 18:15:51",
    "tier": "type-world",
    "ofReg": null
   },
@@ -66189,12 +66189,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-08-21",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "67877",
+   "yearOfManufacture": 2026,
+   "owner": "AVOLON LEASING IRELAND 3 LIMITED",
+   "lessor": "AVOLON LEASING IRELAND 3 LIMITED"
   }
  },
  {
@@ -66291,12 +66291,12 @@
   "firstSeen": "2026-08-31",
   "history": {
    "firstSnapshot": "2026-08-31",
-   "registeredOn": null,
+   "registeredOn": "2026-06-10",
    "deregisteredOn": null,
-   "msn": null,
-   "yearOfManufacture": null,
-   "owner": null,
-   "lessor": null
+   "msn": "033",
+   "yearOfManufacture": 2026,
+   "owner": "MERRITT AVIATIONS LIMITED",
+   "lessor": "MERRITT AVIATIONS LIMITED"
   }
  },
  {
@@ -66322,15 +66322,15 @@
   "seatsRaw": "6",
   "role": "passenger",
   "image": {
-   "file": "File:Ελικόπτερο Agusta A109 του ΕΚΑΒ.jpg",
-   "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-   "width": 1188,
-   "height": 894,
-   "author": "Gepsimos",
+   "file": "File:Flying Over Dubai (163864065).jpeg",
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flying_Over_Dubai_%28163864065%29.jpeg/1280px-Flying_Over_Dubai_%28163864065%29.jpeg",
+   "width": 2048,
+   "height": 1536,
+   "author": "Costin Costan",
    "license": "CC0",
    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-   "pageUrl": "https://commons.wikimedia.org/wiki/File:%CE%95%CE%BB%CE%B9%CE%BA%CF%8C%CF%80%CF%84%CE%B5%CF%81%CE%BF_Agusta_A109_%CF%84%CE%BF%CF%85_%CE%95%CE%9A%CE%91%CE%92.jpg",
-   "date": "15 August 2026 (according to Exif data)",
+   "pageUrl": "https://commons.wikimedia.org/wiki/File:Flying_Over_Dubai_(163864065).jpeg",
+   "date": "before 20 July 2016, 09:09:50 (UTC)",
    "tier": "type-world",
    "ofReg": null
   },

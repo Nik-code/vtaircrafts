@@ -1544,8 +1544,8 @@
   "statedCount": 5,
   "types": [
    {
-    "name": "Tecnam P2006T",
-    "icao": "P06T",
+    "name": "Tecnam P2010",
+    "icao": "TWEN",
     "manufacturer": "Tecnam",
     "count": 5
    }
