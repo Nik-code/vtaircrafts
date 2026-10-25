@@ -3,19 +3,33 @@
 //
 //   npx tsx pipeline/history.ts            # fetch what is missing, then parse everything
 //   npx tsx pipeline/history.ts --no-fetch # re-parse what is already on disk
+//   npx tsx pipeline/history.ts --current  # only the year-to-date reports: re-fetch, re-parse
 //
-// Idempotent: files already present are never re-downloaded, and the Archive is queried
-// sequentially with backoff. The output under data/raw/wayback, data/raw/reports,
+// Idempotent: files already present are never re-downloaded, except the year-to-date reports
+// DGCA re-publishes in place (`live` in reportSources.ts), which are replaced when their
+// sha256 changes. The Archive is queried sequentially with backoff. `--current` touches
+// neither the Archive nor the static reports; the monthly workflow runs it. The output under data/raw/wayback, data/raw/reports,
 // data/parsed/history and data/parsed/reports is static and committed; pipeline/build.ts
 // reads it and appends the current month's snapshot to the chain.
 import { parseCaptures } from "./history/captures";
-import { fetchReports, parseAllReports } from "./history/reports";
+import { fetchReports, parseAllReports, type ReportResult } from "./history/reports";
 import { fetchAll, type ListName } from "./history/wayback";
 
 const LISTS: ListName[] = ["scheduled", "non-scheduled"];
 
 async function main() {
   const fetch = !process.argv.includes("--no-fetch");
+  const current = process.argv.includes("--current");
+
+  if (current) {
+    if (fetch) {
+      console.log("== DGCA year-to-date registration reports");
+      await fetchReports({ liveOnly: true });
+    }
+    console.log("\n== Parsing year-to-date reports");
+    checkReports(parseAllReports(true, (s) => !!s.live));
+    return;
+  }
 
   if (fetch) {
     console.log("== Wayback captures");
@@ -34,7 +48,10 @@ async function main() {
   }
 
   console.log("\n== Parsing reports");
-  const reports = parseAllReports();
+  checkReports(parseAllReports());
+}
+
+function checkReports(reports: ReportResult[]) {
   const rows = reports.reduce((s, r) => s + r.rows.length, 0);
   const dropped = reports.reduce((s, r) => s + r.dropped.length, 0);
   const bad = reports.flatMap((r) => r.rows.filter((x) => !/^VT-[A-Z]{3}$/.test(x.reg)));

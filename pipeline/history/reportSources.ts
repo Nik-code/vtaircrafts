@@ -7,6 +7,12 @@ export interface ReportSource {
   /** period the report covers, for the manifest and for sanity-checking dates */
   from: string;
   to: string;
+  /**
+   * Year-to-date report that DGCA re-publishes in place under the same name as the year goes
+   * on. Re-fetched on every run and replaced when its sha256 changes; static reports are
+   * downloaded once and never again.
+   */
+  live?: boolean;
 }
 
 const BASE =
@@ -77,4 +83,21 @@ export const REPORT_SOURCES: ReportSource[] = [
   { file: "De-registered Data 2024.pdf", kind: "deregistration", from: "2024-01-01", to: "2024-12-31" },
   { file: "Aircraft Registered Data 2025.pdf", kind: "registration", from: "2025-01-01", to: "2025-12-31" },
   { file: "Aircraft De-Register Data 2025.pdf", kind: "deregistration", from: "2025-01-01", to: "2025-12-31" },
+  ...yearToDate(2026, new Date().getUTCFullYear()),
 ];
+
+/**
+ * From 2026 eGCA publishes one registration and one de-registration report per year, both
+ * refreshed in place until the year is over. Each year from `first` to `last` is listed, so
+ * a new year's pair is picked up as soon as DGCA posts it under the same name; a year not
+ * yet published is simply missing.
+ */
+function yearToDate(first: number, last: number): ReportSource[] {
+  const out: ReportSource[] = [];
+  for (let y = first; y <= last; y += 1) {
+    const period = { from: `${y}-01-01`, to: `${y}-12-31`, live: true };
+    out.push({ file: `Aircraft_Registered_Report ${y}.pdf`, kind: "registration", ...period });
+    out.push({ file: `Aircraft_Deregistered_Report ${y}.pdf`, kind: "deregistration", ...period });
+  }
+  return out;
+}

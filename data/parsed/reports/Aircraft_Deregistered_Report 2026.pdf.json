@@ -1,0 +1,1839 @@
+{
+ "file": "Aircraft_Deregistered_Report 2026.pdf",
+ "kind": "deregistration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+ "from": "2026-01-01",
+ "to": "2026-12-31",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "top",
+ "rows": [
+  {
+   "reg": "VT-AEE",
+   "msn": "29739",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-04-01",
+   "date": "2026-04-01",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 777-232LR",
+   "yearOfManufacture": 2009,
+   "owner": "SPECTRE OVERSEAS AIRCRAFT LIMITED",
+   "lessor": "SPECTRE OVERSEAS AIRCRAFT LIMITED",
+   "operator": "AIR INDIA LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AEG",
+   "msn": "30440",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-01-14",
+   "date": "2026-01-14",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 777-232LR",
+   "yearOfManufacture": 2009,
+   "owner": "SPECTRE OVERSEAS AIRCRAFT LIMITED",
+   "lessor": "SPECTRE OVERSEAS AIRCRAFT LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AEH",
+   "msn": "39091",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-03",
+   "date": "2026-03-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 777-232LR",
+   "yearOfManufacture": 2009,
+   "owner": "SPECTRE OVERSEAS AIRCRAFT LIMITED",
+   "lessor": "SPECTRE OVERSEAS AIRCRAFT LIMITED",
+   "operator": "AIR INDIA LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AEI",
+   "msn": "39254",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-21",
+   "date": "2026-07-21",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 777-232LR",
+   "yearOfManufacture": 2009,
+   "owner": "SPECTRE OVERSEAS AIRCRAFT LIMITED",
+   "lessor": "SPECTRE OVERSEAS AIRCRAFT LIMITED",
+   "operator": "AIR INDIA LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ATB",
+   "msn": "6034",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-26",
+   "date": "2026-05-26",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-216",
+   "yearOfManufacture": 2014,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-BAS",
+   "msn": "BB1776",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-06-03",
+   "date": "2026-06-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BEECH SUPER KING AIR B-200",
+   "yearOfManufacture": 2001,
+   "owner": "VSR VENTURES PVT LTD",
+   "lessor": "-",
+   "operator": "VSR VENTURES PVT LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-BNF",
+   "msn": "1096",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-06-29",
+   "date": "2026-06-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "CESSNA CITATION BRAVO 550",
+   "yearOfManufacture": 2004,
+   "owner": "SINO INVESTMENT GLOBAL LTD",
+   "lessor": "SINO INVESTMENT GLOBAL LTD",
+   "operator": "KESTREL AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ELK",
+   "msn": "6245",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-13",
+   "date": "2026-02-13",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "SA 365N",
+   "yearOfManufacture": 1986,
+   "owner": "PAWAN HANS LTD",
+   "lessor": "-",
+   "operator": "PAWAN HANS LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ENX",
+   "msn": "6126",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-19",
+   "date": "2026-02-19",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "SA 365N",
+   "yearOfManufacture": 1987,
+   "owner": "PAWAN HANS LTD",
+   "lessor": "-",
+   "operator": "PAWAN HANS LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-FGC",
+   "msn": "40 1005",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-01-30",
+   "date": "2026-01-30",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "DA-40",
+   "yearOfManufacture": 2008,
+   "owner": "INDIRA GANDHI RASHTRIYA URAN AKADEMI",
+   "lessor": "-",
+   "operator": "INDIRA GANDHI RASHTRIYA URAN AKADEMI",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-GSC",
+   "msn": "14500845",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-01-27",
+   "date": "2026-01-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "EMB-145LR",
+   "yearOfManufacture": 2004,
+   "owner": "GHODAWAT ENTERPRISES PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "GHODAWAT ENTERPRISES PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-GSF",
+   "msn": "14500871",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-26",
+   "date": "2026-05-26",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "EMB-145LR",
+   "yearOfManufacture": 2004,
+   "owner": "GHODAWAT ENTERPRISES PRIVATE LIMITED",
+   "lessor": "NA",
+   "operator": "-",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-GSS",
+   "msn": "14501024",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-26",
+   "date": "2026-02-26",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "EMB-145LR",
+   "yearOfManufacture": 2008,
+   "owner": "GHODAWAT ENTERPRISES PVT LTD.",
+   "lessor": "-",
+   "operator": "GHODAWAT ENTERPRISES PVT LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-GVL",
+   "msn": "36394",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-09-28",
+   "date": "2026-09-28",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BELL 412EP",
+   "yearOfManufacture": 2006,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LTD",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LTD",
+   "operator": "GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-GVR",
+   "msn": "31705",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-04-17",
+   "date": "2026-04-17",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AW139",
+   "yearOfManufacture": 2015,
+   "owner": "GLOBAL VECTRA HELICORP LTD",
+   "lessor": "AAB ROTOR LIMITED",
+   "operator": "GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-GVV",
+   "msn": "8228",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-06-29",
+   "date": "2026-06-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "EC-130T2",
+   "yearOfManufacture": 2016,
+   "owner": "AAA ROTOR LIMITED",
+   "lessor": "AAA ROTOR LIMITED",
+   "operator": "GLOBAL VECTRA HELICORP LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-HHA",
+   "msn": "8994",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-19",
+   "date": "2026-02-19",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AS350B3",
+   "yearOfManufacture": 2021,
+   "owner": "HELISWISS IBERICA SA",
+   "lessor": "HELISWISS IBERICA SA",
+   "operator": "HIMALAYAN HELI SERVICES PVT LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-HHM",
+   "msn": "8605",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-04-29",
+   "date": "2026-04-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AS350B3",
+   "yearOfManufacture": 2018,
+   "owner": "HELISWISS IBERICA S A",
+   "lessor": "HELISWISS IBERICA S A",
+   "operator": "HIMALAYAN HELI SERVICES PVT LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-HKG",
+   "msn": "4936",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-27",
+   "date": "2026-02-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-214",
+   "yearOfManufacture": 2011,
+   "owner": "AS AIR LEASE 189 (IRELAND) LIMITED",
+   "lessor": "AS AIR LEASE 189 (IRELAND) LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-HVV",
+   "msn": "432",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-04-21",
+   "date": "2026-04-21",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "FALCON 7X",
+   "yearOfManufacture": 2017,
+   "owner": "MERRITT AVIATIONS LIMITED",
+   "lessor": "MERRITT AVIATIONS LIMITED",
+   "operator": "AIR CHARTER SERVICES PVT. LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-ICU",
+   "msn": "7642",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-09",
+   "date": "2026-03-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A109C",
+   "yearOfManufacture": 1991,
+   "owner": "M/S OSS AIR MANAGEMENT PVT LTD",
+   "lessor": "-",
+   "operator": "M/S OSS AIR MANAGEMENT PVT LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IGB",
+   "msn": "1880",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-14",
+   "date": "2026-05-14",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "TRINIDAD TB20",
+   "yearOfManufacture": 1999,
+   "owner": "INDIRA GANDHI RASHTRIYA URAN AKADEMI",
+   "lessor": "-",
+   "operator": "INDIRA GANDHI RASHTRIYA URAN AKADEMI",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-IGF",
+   "msn": "1884",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-01-30",
+   "date": "2026-01-30",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "TRINIDAD TB20",
+   "yearOfManufacture": 1999,
+   "owner": "INDIRA GANDHI RASHIRIYA URAN AKADEMI",
+   "lessor": "-",
+   "operator": "INDIRA GANDHI RASHIRIYA URAN AKADEMI",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IGG",
+   "msn": "2041",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-02",
+   "date": "2026-03-02",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "TRINIDAD TB20",
+   "yearOfManufacture": 2001,
+   "owner": "INDIRA GANDHI RASHTRIYA URAN AKADEMI",
+   "lessor": "-",
+   "operator": "INDIRA GANDHI RASHTRIYA URAN AKADEMI",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IGO",
+   "msn": "772",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-27",
+   "date": "2026-05-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ZLIN Z 242L",
+   "yearOfManufacture": 2005,
+   "owner": "INDIRA GANDHI RASHTIRYA URAN AKADEMI",
+   "lessor": "-",
+   "operator": "INDIRA GANDHI RASHTIRYA URAN AKADEMI",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IGQ",
+   "msn": "774",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-27",
+   "date": "2026-05-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ZLIN Z 242L",
+   "yearOfManufacture": 2005,
+   "owner": "INDIRA GANDHI RASHTRIYA URAN AKADEMI",
+   "lessor": "-",
+   "operator": "INDIRA GANDHI RASHTRIYA URAN AKADEMI",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IGR",
+   "msn": "775",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-27",
+   "date": "2026-05-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ZLIN Z 242L",
+   "yearOfManufacture": 2005,
+   "owner": "INDIRA GANDHI RASHTIRYA URAN AKADEMI",
+   "lessor": "-",
+   "operator": "INDIRA GANDHI RASHTIRYA URAN AKADEMI",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IJB",
+   "msn": "8928",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-26",
+   "date": "2026-02-26",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "VMO AIRCRAFT LEASING 36 (IRELAND) LIMITED",
+   "lessor": "VMO AIRCRAFT LEASING 36 (IRELAND) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IJD",
+   "msn": "8961",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-11",
+   "date": "2026-03-11",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "CAVIC 17 DESIGNATED ACTIVITY COMP ANY",
+   "lessor": "CAVIC 17 DESIGNATED ACTIVITY COMP ANY",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IJE",
+   "msn": "8967",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-08-03",
+   "date": "2026-08-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BANC OF AMERICA LEASING IRELAND CO., LIMITED",
+   "lessor": "BANC OF AMERICA LEASING IRELAND CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IJG",
+   "msn": "8987",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-27",
+   "date": "2026-02-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2020,
+   "owner": "PURPLESUNBIRD LEASING LIMITED",
+   "lessor": "PURPLESUNBIRD LEASING LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IJJ",
+   "msn": "9072",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-19",
+   "date": "2026-02-19",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "M/S VERMILLION AVIATION (EIGHT) LIMITED",
+   "lessor": "M/S VERMILLION AVIATION (EIGHT) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IJL",
+   "msn": "9079",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-04-13",
+   "date": "2026-04-13",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BANC OF AMERICA LEASING IRELAND CO., LIMITED",
+   "lessor": "BANC OF AMERICA LEASING IRELAND CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-IJM",
+   "msn": "9085",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-18",
+   "date": "2026-05-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "MAVERICK AVIATION TL II (D) LIMITED",
+   "lessor": "MAVERICK AVIATION TL II (D) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IJP",
+   "msn": "9155",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-27",
+   "date": "2026-02-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "BANC OF AMERICA LEASING IRELAND CO., LIMITED",
+   "lessor": "BANC OF AMERICA LEASING IRELAND CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IJU",
+   "msn": "9215",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-08-12",
+   "date": "2026-08-12",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2019,
+   "owner": "LUNAR AIRCRAFT TRADING COMPANY 7 LIMITED",
+   "lessor": "LUNAR AIRCRAFT TRADING COMPANY 7 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IJW",
+   "msn": "9385",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-08-07",
+   "date": "2026-08-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2020,
+   "owner": "AERDRAGON CRYSTAL NO.4 LEASING LIMITED",
+   "lessor": "AERDRAGON CRYSTAL NO 4 LEASING LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IKN",
+   "msn": "6819",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-29",
+   "date": "2026-05-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2016,
+   "owner": "SUBRIA TWO LIMITED",
+   "lessor": "SUBRIA TWO LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ITA",
+   "msn": "6744",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-24",
+   "date": "2026-07-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2016,
+   "owner": "M/S SUBRIA SIX LIMITED",
+   "lessor": "M/S SUBRIA SIX LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ITF",
+   "msn": "6860",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-04",
+   "date": "2026-05-04",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2016,
+   "owner": "M/S HKAC LEASING 6860 (IRELAND) LIMITED",
+   "lessor": "M/S HKAC LEASING 6860 (IRELAND) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-ITM",
+   "msn": "7053",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-09",
+   "date": "2026-07-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2016,
+   "owner": "M/S AVOLON AEROSPACE (IRELAND) AOE 51 LIMITED",
+   "lessor": "M/S AVOLON AEROSPACE (IRELAND) AOE 51 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IUF",
+   "msn": "8989",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-08-27",
+   "date": "2026-08-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2019,
+   "owner": "GY AVIATION LEASE 1902 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1902 CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IUH",
+   "msn": "8968",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-24",
+   "date": "2026-03-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2019,
+   "owner": "BLACKBIRD CAPITAL II LEASING 2 LIMITED",
+   "lessor": "BLACKBIRD CAPITAL II LEASING 2 LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-IUI",
+   "msn": "8992",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-06",
+   "date": "2026-07-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "GY AVIATION LEASE 1903 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1903 CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IUJ",
+   "msn": "9042",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-30",
+   "date": "2026-03-30",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2019,
+   "owner": "GY AVIATION LEASE 1904 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1904 CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IUK",
+   "msn": "9063",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-08-05",
+   "date": "2026-08-05",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "GY AVIATION LEASE 1905 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1905 CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IUL",
+   "msn": "9106",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-06-05",
+   "date": "2026-06-05",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2019,
+   "owner": "GY AVIATION LEASING 1906 CO., LIMITED",
+   "lessor": "GY AVIATION LEASING 1906 CO., LIMITED",
+   "operator": "M/S INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IUM",
+   "msn": "9112",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-08-19",
+   "date": "2026-08-19",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "GY AVIATION LEASE 1908 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1908 CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IUN",
+   "msn": "9151",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-29",
+   "date": "2026-05-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A321-271NX",
+   "yearOfManufacture": 2020,
+   "owner": "GY AVIATION LEASE 1907 CO., LIMITED",
+   "lessor": "GY AVIATION LEASE 1907 CO., LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IVZ",
+   "msn": "8465",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-09-09",
+   "date": "2026-09-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-271N",
+   "yearOfManufacture": 2018,
+   "owner": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LIMITED",
+   "lessor": "M/S KLAATU AIRCRAFT LEASING (IRELAND) LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IYT",
+   "msn": "1544",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-21",
+   "date": "2026-05-21",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2019,
+   "owner": "M/S SANDYCOVE AIRCRAFT LEASING LIMITED",
+   "lessor": "M/S SANDYCOVE AIRCRAFT LEASING LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IYW",
+   "msn": "1550",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-04-02",
+   "date": "2026-04-02",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2019,
+   "owner": "M/S SANDYCOVE AIRCRAFT LEASING LIMITED",
+   "lessor": "M/S SANDYCOVE AIRCRAFT LEASING LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JEM",
+   "msn": "35162",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-03",
+   "date": "2026-03-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 777-300 ER",
+   "yearOfManufacture": 2007,
+   "owner": "JET AIRWAYS INDIA LIMITED",
+   "lessor": "JET AIRWAYS INDIA LIMITED",
+   "operator": "JET AIRWAYS INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JES",
+   "msn": "35159",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-03",
+   "date": "2026-03-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 777-35RER",
+   "yearOfManufacture": 2007,
+   "owner": "JET AIRWAYS INDIA LTD",
+   "lessor": "JET AIRWAYS INDIA LTD",
+   "operator": "JET AIRWAYS INDIA LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JET",
+   "msn": "35157",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-09-18",
+   "date": "2026-09-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 777-35RER",
+   "yearOfManufacture": 2007,
+   "owner": "JET AIRWAYS INDIA LTD",
+   "lessor": "JET AIRWAYS INDIA LTD",
+   "operator": "JET AIRWAYS INDIA LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-JEU",
+   "msn": "35160",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-09-18",
+   "date": "2026-09-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 777-35RER",
+   "yearOfManufacture": 2007,
+   "owner": "JET AIRWAYS INDIA LTD",
+   "lessor": "JET AIRWAYS INDIA LTD",
+   "operator": "JET AIRWAYS INDIA LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JEV",
+   "msn": "35158",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-03",
+   "date": "2026-03-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 777-35RER",
+   "yearOfManufacture": 2007,
+   "owner": "JET AIRWAYS INDIA LTD",
+   "lessor": "JET AIRWAYS INDIA LTD",
+   "operator": "JET AIRWAYS INDIA LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JMD",
+   "msn": "3421",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-08-06",
+   "date": "2026-08-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "AS350B3",
+   "yearOfManufacture": 2001,
+   "owner": "M/S. HIMALAYAN HELI SERVICES PVT LTD",
+   "lessor": "-",
+   "operator": "M/S. HIMALAYAN HELI SERVICES PVT LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JPR",
+   "msn": "3536",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-09",
+   "date": "2026-07-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-216",
+   "yearOfManufacture": 2008,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JRT",
+   "msn": "3448",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-04-21",
+   "date": "2026-04-21",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-216",
+   "yearOfManufacture": 2008,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JSK",
+   "msn": "9214",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-19",
+   "date": "2026-05-19",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BD-700-1A11 (GLOBAL 5000)",
+   "yearOfManufacture": 2006,
+   "owner": "VISTAJET MALTA AIRCRAFT FIFTEEN LIMITED",
+   "lessor": "VISTAJET MALTA AIRCRAFT FIFTEEN LIMITED",
+   "operator": "RELIANCE TRANSPORT AND TRAVELS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-KNV",
+   "msn": "HAL-K/HINDUSTAN-228/4160",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-15",
+   "date": "2026-05-15",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "Hindustan 228-201",
+   "yearOfManufacture": 2025,
+   "owner": "HINDUSTAN AERONAUTICS LIMITED",
+   "lessor": "-",
+   "operator": "HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-KNW",
+   "msn": "HAL-K/HINDUSTAN-228/4161",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-15",
+   "date": "2026-05-15",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "Hindustan 228-201",
+   "yearOfManufacture": 2025,
+   "owner": "HINDUSTAN AERONAUTICS LIMITED",
+   "lessor": "-",
+   "operator": "HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-KUL",
+   "msn": "3370",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-02-19",
+   "date": "2026-02-19",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-216",
+   "yearOfManufacture": 2008,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-LJS",
+   "msn": "FL 526",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-12",
+   "date": "2026-03-12",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BEECH SUPER KING AIR B-300 (350)",
+   "yearOfManufacture": 2007,
+   "owner": "VSR CORPORATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "VSR CORPORATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-MAX",
+   "msn": "60644",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-20",
+   "date": "2026-07-20",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SKY HIGH LXXVIII LEASING COMPANY LIMITED",
+   "lessor": "SKY HIGH LXXVIII LEASING COMPANY LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-MLE",
+   "msn": "3306",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-24",
+   "date": "2026-03-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-214",
+   "yearOfManufacture": 2007,
+   "owner": "WNG II AIRCRAFT LEASING 15 LIMITED",
+   "lessor": "WNG II AIRCRAFT LEASING 15 LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-MSR",
+   "msn": "53589",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-04-02",
+   "date": "2026-04-02",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BELL 407",
+   "yearOfManufacture": 2004,
+   "owner": "ARCELORMITTAL NIPPON STEEL INDIA LIMITED",
+   "lessor": "-",
+   "operator": "ARCELORMITTAL NIPPON STEEL INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-MXA",
+   "msn": "64505",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-20",
+   "date": "2026-07-20",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SKY HIGH LXXX LEASING COMPANY LIMITED",
+   "lessor": "SKY HIGH LXXX LEASING COMPANY LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-MXB",
+   "msn": "64506",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-20",
+   "date": "2026-07-20",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SKY HIGH LXXX LEASING COMPANY LIMITED",
+   "lessor": "SKY HIGH LXXX LEASING COMPANY LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-MXC",
+   "msn": "60645",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-20",
+   "date": "2026-07-20",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "SKY HIGH LXXVIII LEASING COMPANY LIMITED",
+   "lessor": "SKY HIGH LXXVIII LEASING COMPANY LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-MXD",
+   "msn": "64938",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-09-14",
+   "date": "2026-09-14",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-MXE",
+   "msn": "64939",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-09-14",
+   "date": "2026-09-14",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-MXI",
+   "msn": "64940",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-09-14",
+   "date": "2026-09-14",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2018,
+   "owner": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES DUBLIN LIMITED",
+   "operator": "M/S SPICEJET LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-OSE",
+   "msn": "7660",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-24",
+   "date": "2026-03-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A109C",
+   "yearOfManufacture": 1992,
+   "owner": "M/S OSS AIR MANAGEMENT PVT LTD",
+   "lessor": "-",
+   "operator": "M/S OSS AIR MANAGEMENT PVT LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-OSF",
+   "msn": "7676",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-09",
+   "date": "2026-03-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A109C",
+   "yearOfManufacture": 1995,
+   "owner": "M/S OSS AIR MANAGEMENT PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "M/S OSS AIR MANAGEMENT PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-RED",
+   "msn": "5824",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-01-02",
+   "date": "2026-01-02",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-216",
+   "yearOfManufacture": 2013,
+   "owner": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "lessor": "WILMINGTON TRUST SP SERVICES (DUBLIN) LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-RUP",
+   "msn": "9840",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-07-06",
+   "date": "2026-07-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BD-700-1A11 (GLOBAL 5000)",
+   "yearOfManufacture": 2018,
+   "owner": "BANK OF UTAH TRUSTEE",
+   "lessor": "BANK OF UTAH TRUSTEE",
+   "operator": "BAJAJ HOLDINGS & INVESTMENT LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-SKR",
+   "msn": "50000210",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-03-09",
+   "date": "2026-03-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "EMB-500 (PHENOM 100)",
+   "yearOfManufacture": 2010,
+   "owner": "T A JETS FZE",
+   "lessor": "T A JETS FZE",
+   "operator": "TAI JETS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-SRC",
+   "msn": "BL 139",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-06-29",
+   "date": "2026-06-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BEECH SUPER KING AIR B-200C",
+   "yearOfManufacture": 1993,
+   "owner": "M/S VSR VENTURES PVT LTD",
+   "lessor": "-",
+   "operator": "M/S VSR VENTURES PVT LTD",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-TGG",
+   "msn": "39065",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-08-24",
+   "date": "2026-08-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "B 737-8AL",
+   "yearOfManufacture": 2014,
+   "owner": "ALAFCO IRISH AIRCRAFT LEASING EIGHT LIMITED",
+   "lessor": "TATA SIA AIRLINES LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-VIV",
+   "msn": "9446",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-05-19",
+   "date": "2026-05-19",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "BD-700-1A11 (GLOBAL 5000)",
+   "yearOfManufacture": 2011,
+   "owner": "VISTAJET MALTA AIRCRAFT ELEVEN MAPCC LTD",
+   "lessor": "VISTAJET MALTA AIRCRAFT ELEVEN MAPCC LTD",
+   "operator": "RELIANCE TRANSPORT AND TRAVELS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-VNS",
+   "msn": "6178",
+   "dateOfRegistration": null,
+   "dateOfDeregistration": "2026-09-03",
+   "date": "2026-09-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "deregistration",
+   "type": "A320-216",
+   "yearOfManufacture": 2014,
+   "owner": "CIT AEROSPACE INTERNATIONAL UNLIMITED COMPANY",
+   "lessor": "CIT AEROSPACE INTERNATIONAL UNLIMITED COMPANY",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Deregistered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Deregistered_Report%202026.pdf",
+    "page": 8
+   }
+  }
+ ],
+ "dropped": []
+}

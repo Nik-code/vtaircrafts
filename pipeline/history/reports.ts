@@ -15,6 +15,12 @@
 // modern files align them to the top or bottom of the row instead; see `detectAlignment`.
 //
 // Dates are day-first except where a spreadsheet export got in the way; see `pickDateOrder`.
+//
+// The eGCA year-to-date reports (2026 on) are iText tables with narrow columns that wrap
+// character by character: "CORPOR / ATION", "27-02- / 2026", a header that reads "OPERAT OR
+// NAME". Those files print the column header once, run records across page breaks and
+// stamp every page with a print date; see `Layout.wraps`, `unwrapCell` and `dropPrintStamp`.
+import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { extractWords, groupRows, joinText, type Page, type Word } from "../lib/bbox";
@@ -78,6 +84,8 @@ interface Column {
 interface Layout {
   kind: "legacy" | "modern";
   columns: Column[];
+  /** cells wrap mid-word (the eGCA reports); their header labels are wrapped too */
+  wraps?: boolean;
 }
 
 /** Vertical extent of one header block, used to keep records out of it. */
@@ -91,10 +99,12 @@ const TITLE_RE = /^(NEW REGISTRATION|DE-?REGISTRATION|CHANGE (OF OWNERSHIP|TO C 
 // Every word that appears in a column label, in either layout. A row made only of these
 // is part of a header block; the first row that is not ends it.
 const HEADER_WORD =
-  /^(SL|SR|S\.?N\.?|S\/N|S\.?L\.?|S\.|S\.NO\.?|NO\.?\/?|\/|REGN?\.?|MARK|MSN|TYPE|OF|AIRCRAFT|C|O|R|DATE|DT|DE-?|DE-?REGN?\.?|DREGN|DE-?REGISTRATION|DEREGISTRATIO|N|REGISTRATION|CHANGE|IN|OWNER|LESSOR|OPERATOR|OWNER\/OPERATOR|YEAR|YEAROFMAN|UFACTURE|MANU-?|MANUF\.?|MANUFAC|MANUFACTURE|TURE|FACTURE)$/i;
-const SERIAL_WORD = /^(SL|SR|S\.?N\.?|S\/N|S\.?L\.?|S\.|S\.NO\.?)$/i;
-const YEAR_WORD = /^(YEAR|YEAROFMAN|UFACTURE|MANU-?|MANUF\.?|MANUFAC|MANUFACTURE|TURE|FACTURE)$/i;
-const DATE_WORD = /^(DATE|DT|OF|REGN?\.?|DE-?|DE-?REGN?\.?|DREGN|DE-?REGISTRATION|DEREGISTRATIO|N|REGISTRATION)$/i;
+  /^(SL|SR|S|S\.?N\.?|S\/N|S\.?L\.?|S\.|S\.NO\.?|NO\.?\/?|\/|REGN?\.?|MARK|MSN|TYPE|OF|AIRCRAFT|AIRCRAF|T|C|O|R|DATE|DT|DE-?|DE-?REGN?\.?|DREGN|DE-?REGISTRATION|DEREGISTRATIO|N|REGISTRATION|REGISTR|ATION|CHANGE|IN|OWNER|LESSOR|OPERATOR|OPERAT|OR|NAME|OWNER\/OPERATOR|YEAR|YEAROFMAN|UFACTURE|MANU-?|MANUF\.?|MANUFA|MANUFAC|MANUFACTURE|TURE|FACTURE|CTURER)$/i;
+const SERIAL_WORD = /^(SL|SR|S|S\.?N\.?|S\/N|S\.?L\.?|S\.|S\.NO\.?)$/i;
+const YEAR_WORD = /^(YEAR|YEAROFMAN|UFACTURE|MANU-?|MANUF\.?|MANUFA|MANUFAC|MANUFACTURE|TURE|FACTURE|CTURER)$/i;
+const DATE_WORD = /^(DATE|DT|OF|REGN?\.?|DE-?|DE-?REGN?\.?|DREGN|DE-?REGISTRATION|DEREGISTRATIO|N|REGISTRATION|REGISTR|ATION)$/i;
+/** label fragments that only a character-wrapped (eGCA) header produces */
+const WRAPPED_LABEL = /^(REGISTR|MANUFA|CTURER|AIRCRAF|OPERAT)$/i;
 
 /**
  * Header blocks: maximal runs of label-only rows that name both the serial and the
@@ -145,7 +155,7 @@ function detectLayout(page: Page, blocks: Word[][], kind: ReportKind): Layout | 
     const year = pick(YEAR_WORD);
     const owner = pick(/^Owner$/i);
     const lessor = pick(/^Lessor$/i);
-    const operator = pick(/^Operator$/i);
+    const operator = pick(/^(Operator|OPERAT)$/i);
     const type = pick(/^(Type|Aircraft)$/i);
     if (!sn.length || !mark.length || !year.length || !owner.length || !operator.length || !type.length) return null;
     const msnSpan = span(msn);
@@ -192,7 +202,11 @@ function detectLayout(page: Page, blocks: Word[][], kind: ReportKind): Layout | 
     bands.push({ key: "owner", ...span([owner]) });
   }
 
-  return { kind: msn.length ? "modern" : "legacy", columns: bandsToColumns(bands, page.width) };
+  return {
+    kind: msn.length ? "modern" : "legacy",
+    columns: bandsToColumns(bands, page.width),
+    wraps: msn.length > 0 && words.some((w) => WRAPPED_LABEL.test(w.text)),
+  };
 }
 
 /**
@@ -420,8 +434,75 @@ function joinSplitRegs(words: Word[]): Word[] {
   return out;
 }
 
+/** The eGCA print stamp at the foot of every page: "Date:07-Oct-2026 12:41:57 … 2026-41-07 12:41:49". */
+const PRINT_STAMP = /^Date:\s*\d{1,2}-[A-Za-z]{3}-\d{4}\s+\d{1,2}:\d{2}/;
+
+function dropPrintStamp(page: Page): Page {
+  const stamp = new Set(groupRows(page.words, 4).filter((row) => PRINT_STAMP.test(joinText(row))).flat());
+  return stamp.size ? { ...page, words: page.words.filter((w) => !stamp.has(w)) } : page;
+}
+
+let vocabulary: Map<string, number> | null = null;
+
+/**
+ * How often each word appears in the static reports' owner, lessor, operator and type cells.
+ * It tells a wrapped fragment ("SERVICE" + "S") from two real words ("AVIATION" +
+ * "SERVICES"). A word seen twice or more counts as known.
+ */
+function reportVocabulary(): Map<string, number> {
+  if (vocabulary) return vocabulary;
+  vocabulary = new Map<string, number>();
+  for (const s of REPORT_SOURCES) {
+    const p = join(REPORTS_PARSED_DIR, `${s.file}.json`);
+    if (s.live || !existsSync(p)) continue;
+    const r = JSON.parse(readFileSync(p, "utf8")) as ReportResult;
+    for (const row of r.rows) {
+      for (const cell of [row.owner, row.lessor, row.operator, row.type]) {
+        for (const t of (cell ?? "").toUpperCase().split(/\s+/)) {
+          if (t.length >= 2) vocabulary.set(t, (vocabulary.get(t) ?? 0) + 1);
+        }
+      }
+    }
+  }
+  return vocabulary;
+}
+
+/**
+ * Rebuild one wrapped eGCA cell from its lines. iText moves a word that does not fit to the
+ * next line and only splits a word that does not fit on a line of its own (or at a hyphen),
+ * so a line is glued to the next without a space when it ends in a hyphen, or when it is a
+ * single word that reaches the column's right edge and either the join reads as a word the
+ * static reports use or neither side is a known word. MSN cells never hold a space across
+ * lines.
+ */
+function unwrapCell(lines: Word[][], right: number, glueAll: boolean): string {
+  const vocab = reportVocabulary();
+  const count = (t: string) => vocab.get(t) ?? 0;
+  const known = (t: string) => count(t) >= 2;
+  let out = joinText(lines[0] ?? []);
+  for (let i = 1; i < lines.length; i += 1) {
+    const prev = lines[i - 1];
+    const w = prev[prev.length - 1];
+    const n = lines[i][0];
+    const charWidth = (w.x1 - w.x0) / Math.max(1, w.text.length);
+    const fills = prev.length === 1 && w.x1 >= right - 1.5 * charWidth && !n.text.startsWith("(");
+    // the word as rebuilt so far, so "INFRASTR" + "UCTURE" is judged as "INFRASTRUCTURE"
+    const word = (out.split(" ").at(-1) ?? "").toUpperCase();
+    const next = n.text.toUpperCase();
+    // "INVESTM" + "ENT": the joined word is commoner than either half. Old typos such as
+    // "CAPITALLIMITED" are rarer than both halves, so they never win.
+    const joined = count(word + next) > Math.min(count(word), count(next));
+    // A lone letter is the tail of a split word ("SERVICE" + "S"); a lone digit is a number
+    // that did not fit ("LEASING" + "4").
+    const fragment = joined || /^[A-Z]$/.test(next) || (!known(word) && !known(next));
+    const glue = glueAll || (w.text.length >= 2 && w.text.endsWith("-")) || (fills && fragment);
+    out += (glue ? "" : " ") + joinText(lines[i]);
+  }
+  return out.replace(/\s+/g, " ").trim();
+}
+
 export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
-  const pages = extractWords(pdfPath);
+  const pages = extractWords(pdfPath).map(dropPrintStamp);
   const rows: ReportRow[] = [];
   const dropped: ReportResult["dropped"] = [];
   const url = reportUrl(src.file);
@@ -469,7 +550,23 @@ export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
     ),
   );
 
-  for (const { page, layout: l, bands, anchors } of prepared) {
+  // Right edge of each wrapped column's text, for telling a split fragment from a whole word.
+  // A high percentile rather than the maximum: the odd cell is printed in a larger font.
+  const rightEdge = new Map<string, number>();
+  const edges = new Map<string, number[]>();
+  for (const p of prepared) {
+    if (!p.layout?.wraps) continue;
+    for (const w of p.page.words) {
+      const key = colOf(p.layout, w);
+      if (key) edges.set(key, [...(edges.get(key) ?? []), w.x1]);
+    }
+  }
+  for (const [key, xs] of edges) {
+    xs.sort((a, b) => a - b);
+    rightEdge.set(key, xs[Math.floor(xs.length * 0.98)]);
+  }
+
+  for (const [pageIndex, { page, layout: l, bands, anchors }] of prepared.entries()) {
     if (!l) {
       dropped.push({ page: page.index, reason: "no column header seen yet", text: "" });
       continue;
@@ -492,9 +589,18 @@ export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
         if (b.bottom <= cy && b.bottom > top) top = b.bottom;
         if (b.top > cy && b.top < bottom) bottom = b.top;
       }
+      const words = page.words.filter((w) => w.cy > top && w.cy < bottom);
+      // eGCA tables print the header once and let a record run onto the next page: its tail
+      // is whatever sits above the first registration there, moved below this page's words.
+      const next = prepared[pageIndex + 1];
+      if (l.wraps && alignment === "top" && i === anchors.length - 1 && next && !next.bands.length) {
+        const until = next.anchors[0]?.y0 ?? Infinity;
+        for (const w of next.page.words) {
+          if (w.cy < until - 2) words.push({ ...w, y0: w.y0 + page.height, y1: w.y1 + page.height, cy: w.cy + page.height });
+        }
+      }
       const cells = new Map<string, Word[]>();
-      for (const w of page.words) {
-        if (w.cy <= top || w.cy >= bottom) continue;
+      for (const w of words) {
         if (TITLE_RE.test(w.text)) continue;
         const key = colOf(l, w);
         if (!key) continue;
@@ -505,7 +611,9 @@ export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
       const text = (key: string) => {
         const ws = cells.get(key);
         if (!ws?.length) return "";
-        return groupRows(ws, 4).map((r) => joinText(r)).join(" ").replace(/\s+/g, " ").trim();
+        const lines = groupRows(ws, 4);
+        if (l.wraps) return unwrapCell(lines, rightEdge.get(key) ?? Infinity, key === "msn");
+        return lines.map((r) => joinText(r)).join(" ").replace(/\s+/g, " ").trim();
       };
       const reg = normalizeReg(anchors[i].text);
       if (!reg) continue;
@@ -574,26 +682,42 @@ export function parseReport(pdfPath: string, src: ReportSource): ReportResult {
   return { file: src.file, kind: src.kind, url, from: src.from, to: src.to, layout: kind, dateOrder, alignment, rows, dropped };
 }
 
-/** Download every report that is not already on disk. */
-export async function fetchReports(): Promise<void> {
+const sha256 = (b: Buffer) => createHash("sha256").update(b).digest("hex");
+
+/**
+ * Download every report that is not already on disk. A live (year-to-date) report is
+ * downloaded every time and replaces the stored copy when its sha256 differs; if DGCA is
+ * unreachable or the file is gone, the stored copy stays. Returns the files written.
+ */
+export async function fetchReports(opts: { liveOnly?: boolean } = {}): Promise<string[]> {
   mkdirSync(REPORTS_DIR, { recursive: true });
+  const written: string[] = [];
   for (const s of REPORT_SOURCES) {
+    if (opts.liveOnly && !s.live) continue;
     const dest = join(REPORTS_DIR, s.file);
-    if (existsSync(dest)) continue;
-    const buf = await getBuffer(reportUrl(s.file), { delay: 800 });
+    const stored = existsSync(dest);
+    if (stored && !s.live) continue;
+    const buf = await getBuffer(reportUrl(s.file), { delay: 800, optional: s.live });
     if (!buf || !isPdf(buf)) {
-      console.warn(`  ! ${s.file}: not a PDF`);
+      console.warn(`  ! ${s.file}: not a PDF${stored ? ", keeping the stored copy" : ""}`);
+      continue;
+    }
+    const sha = sha256(buf);
+    if (stored && sha256(readFileSync(dest)) === sha) {
+      console.log(`  unchanged ${s.file}  sha256=${sha.slice(0, 12)}`);
       continue;
     }
     writeFileSync(dest, buf);
-    console.log(`  saved ${s.file}  ${buf.length}B`);
+    written.push(s.file);
+    console.log(`  ${stored ? "updated" : "saved"} ${s.file}  ${buf.length}B  sha256=${sha.slice(0, 12)}`);
   }
+  return written;
 }
 
-export function parseAllReports(verbose = true): ReportResult[] {
+export function parseAllReports(verbose = true, only: (s: ReportSource) => boolean = () => true): ReportResult[] {
   mkdirSync(REPORTS_PARSED_DIR, { recursive: true });
   const results: ReportResult[] = [];
-  for (const s of REPORT_SOURCES) {
+  for (const s of REPORT_SOURCES.filter(only)) {
     const pdf = join(REPORTS_DIR, s.file);
     if (!existsSync(pdf)) {
       if (verbose) console.warn(`  ! ${s.file} missing`);

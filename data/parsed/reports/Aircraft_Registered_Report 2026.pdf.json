@@ -1,0 +1,3401 @@
+{
+ "file": "Aircraft_Registered_Report 2026.pdf",
+ "kind": "registration",
+ "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+ "from": "2026-01-01",
+ "to": "2026-12-31",
+ "layout": "modern",
+ "dateOrder": "dmy",
+ "alignment": "top",
+ "rows": [
+  {
+   "reg": "VT-AFJ",
+   "msn": "33003",
+   "dateOfRegistration": "2026-02-27",
+   "dateOfDeregistration": null,
+   "date": "2026-02-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-800",
+   "yearOfManufacture": 2002,
+   "owner": "NAURU 33003 LEASING CORPORATION",
+   "lessor": "VMAN AVIATION SERVICES IFSC PRIVATE LIMITED",
+   "operator": "AFCOM HOLDINGS LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AGN",
+   "msn": "172S12407",
+   "dateOfRegistration": "2026-06-18",
+   "dateOfDeregistration": null,
+   "date": "2026-06-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172S",
+   "yearOfManufacture": 2019,
+   "owner": "ARCA GLOBAL AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "ARCA GLOBAL AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AGO",
+   "msn": "172S12438",
+   "dateOfRegistration": "2026-06-18",
+   "dateOfDeregistration": null,
+   "date": "2026-06-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172S",
+   "yearOfManufacture": 2020,
+   "owner": "ARCA GLOBAL AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "ARCA GLOBAL AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AGQ",
+   "msn": "172S12618",
+   "dateOfRegistration": "2026-06-18",
+   "dateOfDeregistration": null,
+   "date": "2026-06-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172S",
+   "yearOfManufacture": 2021,
+   "owner": "ARCA GLOBAL AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "ARCA GLOBAL AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AGR",
+   "msn": "14911",
+   "dateOfRegistration": "2026-08-25",
+   "dateOfDeregistration": null,
+   "date": "2026-08-25",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "R44 II",
+   "yearOfManufacture": 2025,
+   "owner": "BATIVALAM BHAGVATI FLYING CHARTERS LLP",
+   "lessor": "-",
+   "operator": "BATIVALAM BHAGVATI FLYING CHARTERS LLP",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AGT",
+   "msn": "AVIA-BRAKO-01",
+   "dateOfRegistration": "2026-04-09",
+   "dateOfDeregistration": null,
+   "date": "2026-04-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "BRAKO GYRO GT",
+   "yearOfManufacture": 2025,
+   "owner": "AVIATRAINING SOLUTIONS PRIVATE LIMTED",
+   "lessor": "-",
+   "operator": "AVIATRAINING SOLUTIONS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ASA",
+   "msn": "8878",
+   "dateOfRegistration": "2026-09-02",
+   "dateOfDeregistration": null,
+   "date": "2026-09-02",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3",
+   "yearOfManufacture": 2020,
+   "owner": "VMAN AVIATION SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "VMAN AVIATION SERVICES IFSC PRIVATE LIMITED",
+   "operator": "ABS AEROSPACE PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-ASO",
+   "msn": "760616",
+   "dateOfRegistration": "2026-03-18",
+   "dateOfDeregistration": null,
+   "date": "2026-03-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "SIKORSKY S-76C++",
+   "yearOfManufacture": 2006,
+   "owner": "EAGLE COPTERS LTD",
+   "lessor": "EAGLE COPTERS LTD",
+   "operator": "SIMM SAMM AIRWAYS PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AVU",
+   "msn": "28010030",
+   "dateOfRegistration": "2026-08-31",
+   "dateOfDeregistration": null,
+   "date": "2026-08-31",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "AVYANNA AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "AVYANNA AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 1
+   }
+  },
+  {
+   "reg": "VT-AWA",
+   "msn": "69263",
+   "dateOfRegistration": "2026-01-13",
+   "dateOfDeregistration": null,
+   "date": "2026-01-13",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 787-9",
+   "yearOfManufacture": 2026,
+   "owner": "BRAHMAPUTRA EKAM AVIATION LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-AWB",
+   "msn": "69264",
+   "dateOfRegistration": "2026-05-18",
+   "dateOfDeregistration": null,
+   "date": "2026-05-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 787-9",
+   "yearOfManufacture": 2026,
+   "owner": "BRAHMAPUTRA DVE AVIATION LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-AWC",
+   "msn": "69265",
+   "dateOfRegistration": "2026-07-07",
+   "dateOfDeregistration": null,
+   "date": "2026-07-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 787-9",
+   "yearOfManufacture": 2026,
+   "owner": "BRAHMAPUTRA CHATWARI AVIATION LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-AWD",
+   "msn": "69266",
+   "dateOfRegistration": "2026-09-01",
+   "dateOfDeregistration": null,
+   "date": "2026-09-01",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 787-9",
+   "yearOfManufacture": 2026,
+   "owner": "BRAHMAPUTRA TRINI AVIATION LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-BBD",
+   "msn": "6134",
+   "dateOfRegistration": "2026-04-09",
+   "dateOfDeregistration": null,
+   "date": "2026-04-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CHALLENGER 650 CL-600-2B16",
+   "yearOfManufacture": 2019,
+   "owner": "FORUM I AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "FORUM I AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-BFS",
+   "msn": "60201",
+   "dateOfRegistration": "2026-04-30",
+   "dateOfDeregistration": null,
+   "date": "2026-04-30",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "BD-700-1A10(G6500)",
+   "yearOfManufacture": 2026,
+   "owner": "BAJAJ FINSERV LIMITED",
+   "lessor": "-",
+   "operator": "BAJAJ FINSERV LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-BOB",
+   "msn": "1052",
+   "dateOfRegistration": "2026-02-02",
+   "dateOfDeregistration": null,
+   "date": "2026-02-02",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "H160-B",
+   "yearOfManufacture": 2024,
+   "owner": "SHIVAN AADITHYA AIR SERVICES PVT LTD",
+   "lessor": "-",
+   "operator": "SHIVAN AADITHYA AIR SERVICES PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CCA",
+   "msn": "60195",
+   "dateOfRegistration": "2026-04-08",
+   "dateOfDeregistration": null,
+   "date": "2026-04-08",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "BD-700-1A10(G6500)",
+   "yearOfManufacture": 2026,
+   "owner": "POONAWALLA AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "POONAWALLA AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CHD",
+   "msn": "2881101",
+   "dateOfRegistration": "2026-01-12",
+   "dateOfDeregistration": null,
+   "date": "2026-01-12",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2019,
+   "owner": "CHIMES AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "CHIMES AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CHF",
+   "msn": "2881103",
+   "dateOfRegistration": "2026-01-12",
+   "dateOfDeregistration": null,
+   "date": "2026-01-12",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2019,
+   "owner": "CHIMES AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "CHIMES AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CHH",
+   "msn": "2881188",
+   "dateOfRegistration": "2026-01-12",
+   "dateOfDeregistration": null,
+   "date": "2026-01-12",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2019,
+   "owner": "CHIMES AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "CHIMES AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CHJ",
+   "msn": "2881208",
+   "dateOfRegistration": "2026-01-30",
+   "dateOfDeregistration": null,
+   "date": "2026-01-30",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2019,
+   "owner": "CHIMES AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "CHIMES AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CHK",
+   "msn": "2881210",
+   "dateOfRegistration": "2026-01-30",
+   "dateOfDeregistration": null,
+   "date": "2026-01-30",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2019,
+   "owner": "CHIMES AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "CHIMES AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CHL",
+   "msn": "2881211",
+   "dateOfRegistration": "2026-01-30",
+   "dateOfDeregistration": null,
+   "date": "2026-01-30",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2019,
+   "owner": "CHIMES AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "CHIMES AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 2
+   }
+  },
+  {
+   "reg": "VT-CHW",
+   "msn": "2881271",
+   "dateOfRegistration": "2026-01-12",
+   "dateOfDeregistration": null,
+   "date": "2026-01-12",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2019,
+   "owner": "CHIMES AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "CHIMES AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-CVD",
+   "msn": "5845",
+   "dateOfRegistration": "2026-06-12",
+   "dateOfDeregistration": null,
+   "date": "2026-06-12",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CL-600-2B16 CL 604 VARIANT (CL605)",
+   "yearOfManufacture": 2010,
+   "owner": "VISTAJET MALTA AIRCRAFT ONE MAPCC LIMITED",
+   "lessor": "VISTAJET LEASING IFSC PRIVATE LIMITED",
+   "operator": "CHARLIE FOXFORT AVIATION SERVICES PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-CVE",
+   "msn": "5870",
+   "dateOfRegistration": "2026-08-14",
+   "dateOfDeregistration": null,
+   "date": "2026-08-14",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CL-600-2B16 CL 604 VARIANT (CL605)",
+   "yearOfManufacture": 2011,
+   "owner": "AYS AVIATION LLC",
+   "lessor": "AYS AVIATION LLC",
+   "operator": "CHARLIE FOXTROT AVIATION SERVICES PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-DGR",
+   "msn": "28010020",
+   "dateOfRegistration": "2026-09-29",
+   "dateOfDeregistration": null,
+   "date": "2026-09-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "GANPAT CARE FOUNDATION",
+   "lessor": "-",
+   "operator": "GANPAT CARE FOUNDATION",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-DGS",
+   "msn": "28010021",
+   "dateOfRegistration": "2026-09-23",
+   "dateOfDeregistration": null,
+   "date": "2026-09-23",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "GANPAT CARE FOUNDATION",
+   "lessor": "-",
+   "operator": "GANPAT CARE FOUNDATION",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-DGT",
+   "msn": "28010022",
+   "dateOfRegistration": "2026-09-28",
+   "dateOfDeregistration": null,
+   "date": "2026-09-28",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "GANPAT CARE FOUNDATION",
+   "lessor": "-",
+   "operator": "GANPAT CARE FOUNDATION",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-DGU",
+   "msn": "28010023",
+   "dateOfRegistration": "2026-09-28",
+   "dateOfDeregistration": null,
+   "date": "2026-09-28",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "GANPAT CARE FOUNDATION",
+   "lessor": "-",
+   "operator": "GANPAT CARE FOUNDATION",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-DGV",
+   "msn": "28010024",
+   "dateOfRegistration": "2026-09-29",
+   "dateOfDeregistration": null,
+   "date": "2026-09-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "GANPAT CARE FOUNDATION",
+   "lessor": "-",
+   "operator": "GANPAT CARE FOUNDATION",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-DGX",
+   "msn": "28010025",
+   "dateOfRegistration": "2026-09-29",
+   "dateOfDeregistration": null,
+   "date": "2026-09-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "GANPAT CARE FOUNDATION",
+   "lessor": "-",
+   "operator": "GANPAT CARE FOUNDATION",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-DRY",
+   "msn": "2881992",
+   "dateOfRegistration": "2026-03-06",
+   "dateOfDeregistration": null,
+   "date": "2026-03-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "AVYANNA AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "AVYANNA AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-FAK",
+   "msn": "2881939",
+   "dateOfRegistration": "2026-09-23",
+   "dateOfDeregistration": null,
+   "date": "2026-09-23",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2025,
+   "owner": "AI FLEET SERVICES IFSC LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-FAU",
+   "msn": "2881942",
+   "dateOfRegistration": "2026-09-22",
+   "dateOfDeregistration": null,
+   "date": "2026-09-22",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2025,
+   "owner": "AI FLEET SERVICES IFSC LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-FAX",
+   "msn": "42.N592",
+   "dateOfRegistration": "2026-01-21",
+   "dateOfDeregistration": null,
+   "date": "2026-01-21",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DA-42NG",
+   "yearOfManufacture": 2025,
+   "owner": "AI FLEET SERVICES IFSC LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-FAY",
+   "msn": "42.N596",
+   "dateOfRegistration": "2026-01-19",
+   "dateOfDeregistration": null,
+   "date": "2026-01-19",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DA-42NG",
+   "yearOfManufacture": 2025,
+   "owner": "AI FLEET SERVICES IFSC LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 3
+   }
+  },
+  {
+   "reg": "VT-FAZ",
+   "msn": "42.N597",
+   "dateOfRegistration": "2026-01-21",
+   "dateOfDeregistration": null,
+   "date": "2026-01-21",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DA-42NG",
+   "yearOfManufacture": 2025,
+   "owner": "AI FLEET SERVICES IFSC LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-FIE",
+   "msn": "1236",
+   "dateOfRegistration": "2026-01-27",
+   "dateOfDeregistration": null,
+   "date": "2026-01-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2015,
+   "owner": "TRUENOORD GHAGHRA LIMITED",
+   "lessor": "TRUENOORD GHAGHRA LIMITED",
+   "operator": "JUST UDO AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-FIF",
+   "msn": "1729",
+   "dateOfRegistration": "2026-03-11",
+   "dateOfDeregistration": null,
+   "date": "2026-03-11",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2026,
+   "owner": "AWAS AVIATION TRADING DAC",
+   "lessor": "VMAN AVIATION SERVICES IFSC PRIVATE LIMITED",
+   "operator": "JUST UDO AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-FIG",
+   "msn": "1737",
+   "dateOfRegistration": "2026-03-27",
+   "dateOfDeregistration": null,
+   "date": "2026-03-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "ATR 72-212A (600 VERSION)",
+   "yearOfManufacture": 2026,
+   "owner": "AWAS AVIATION TRADING DAC",
+   "lessor": "VMAN AVIATION SERVICES IFSC PRIVATE LIMITED",
+   "operator": "JUST UDO AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-FSI",
+   "msn": "17281569",
+   "dateOfRegistration": "2026-08-05",
+   "dateOfDeregistration": null,
+   "date": "2026-08-05",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2010,
+   "owner": "FSTC FLYING SCHOOL PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "FSTC FLYING SCHOOL PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-FST",
+   "msn": "17281570",
+   "dateOfRegistration": "2026-08-05",
+   "dateOfDeregistration": null,
+   "date": "2026-08-05",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2010,
+   "owner": "FSTC FLYING SCHOOL PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "FSTC FLYING SCHOOL PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-FSU",
+   "msn": "17281572",
+   "dateOfRegistration": "2026-08-04",
+   "dateOfDeregistration": null,
+   "date": "2026-08-04",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2010,
+   "owner": "FSTC FLYING SCHOOL PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "FSTC FLYING SCHOOL PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-FSW",
+   "msn": "17281574",
+   "dateOfRegistration": "2026-08-05",
+   "dateOfDeregistration": null,
+   "date": "2026-08-05",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "CESSNA 172R",
+   "yearOfManufacture": 2010,
+   "owner": "FSTC FLYING SCHOOL PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "FSTC FLYING SCHOOL PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-FTM",
+   "msn": "2881899",
+   "dateOfRegistration": "2026-09-23",
+   "dateOfDeregistration": null,
+   "date": "2026-09-23",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2025,
+   "owner": "AI FLEET SERVICES IFSC LIMITED",
+   "lessor": "AI FLEET SERVICES IFSC LIMITED",
+   "operator": "AIR INDIA LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-GBC",
+   "msn": "RB-284",
+   "dateOfRegistration": "2026-07-28",
+   "dateOfDeregistration": null,
+   "date": "2026-07-28",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECHCRAFT PREMIER 1A-390",
+   "yearOfManufacture": 2011,
+   "owner": "GOLDEN CRANE AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "GOLDEN CRANE AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-GPS",
+   "msn": "14501121",
+   "dateOfRegistration": "2026-03-13",
+   "dateOfDeregistration": null,
+   "date": "2026-03-13",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "EMB-135BJ (LEGACY 650)",
+   "yearOfManufacture": 2010,
+   "owner": "MRG AVIATION IFSC PRIVATE LIMITED",
+   "lessor": "MRG AVIATION IFSC PRIVATE LIMITED",
+   "operator": "FLYSBS AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 4
+   }
+  },
+  {
+   "reg": "VT-GTL",
+   "msn": "MLAGL005",
+   "dateOfRegistration": "2026-03-20",
+   "dateOfDeregistration": null,
+   "date": "2026-03-20",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "ARGON GTL",
+   "yearOfManufacture": 2024,
+   "owner": "GYROX AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "GYROX AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-HHD",
+   "msn": "9792",
+   "dateOfRegistration": "2026-03-27",
+   "dateOfDeregistration": null,
+   "date": "2026-03-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3E",
+   "yearOfManufacture": 2026,
+   "owner": "HIMALAYAN HELI SERVICES LIMITED",
+   "lessor": "-",
+   "operator": "HIMALAYAN HELI SERVICES LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-HOX",
+   "msn": "9849",
+   "dateOfRegistration": "2026-04-02",
+   "dateOfDeregistration": null,
+   "date": "2026-04-02",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "EC-130T2",
+   "yearOfManufacture": 2025,
+   "owner": "GD HELICOPTER FINANCE LIMITED",
+   "lessor": "GD HELICOPTER FINANCE LIMITED",
+   "operator": "HERITAGE AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-HUH",
+   "msn": "9583",
+   "dateOfRegistration": "2026-03-25",
+   "dateOfDeregistration": null,
+   "date": "2026-03-25",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "BD-700-1A10(G6000)",
+   "yearOfManufacture": 2013,
+   "owner": "INDO PACIFIC AVIATION PVT. LTD",
+   "lessor": "-",
+   "operator": "INDO PACIFIC AVIATION PVT. LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IOG",
+   "msn": "12833",
+   "dateOfRegistration": "2026-02-03",
+   "dateOfDeregistration": null,
+   "date": "2026-02-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "NANABOSHI LEASING CO., LTD.",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IOL",
+   "msn": "13100",
+   "dateOfRegistration": "2026-01-07",
+   "dateOfDeregistration": null,
+   "date": "2026-01-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2025,
+   "owner": "INDICAN LEASING 4 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IOM",
+   "msn": "13092",
+   "dateOfRegistration": "2026-03-18",
+   "dateOfDeregistration": null,
+   "date": "2026-03-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-ION",
+   "msn": "13125",
+   "dateOfRegistration": "2026-04-09",
+   "dateOfDeregistration": null,
+   "date": "2026-04-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IOQ",
+   "msn": "13322",
+   "dateOfRegistration": "2026-07-20",
+   "dateOfDeregistration": null,
+   "date": "2026-07-20",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 5
+   }
+  },
+  {
+   "reg": "VT-IOR",
+   "msn": "13284",
+   "dateOfRegistration": "2026-07-14",
+   "dateOfDeregistration": null,
+   "date": "2026-07-14",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-IOT",
+   "msn": "13321",
+   "dateOfRegistration": "2026-07-16",
+   "dateOfDeregistration": null,
+   "date": "2026-07-16",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-IOU",
+   "msn": "13406",
+   "dateOfRegistration": "2026-08-07",
+   "dateOfDeregistration": null,
+   "date": "2026-08-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 17 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-IOV",
+   "msn": "13455",
+   "dateOfRegistration": "2026-09-07",
+   "dateOfDeregistration": null,
+   "date": "2026-09-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 13 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-IOW",
+   "msn": "13461",
+   "dateOfRegistration": "2026-09-23",
+   "dateOfDeregistration": null,
+   "date": "2026-09-23",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-IOX",
+   "msn": "13453",
+   "dateOfRegistration": "2026-09-28",
+   "dateOfDeregistration": null,
+   "date": "2026-09-28",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A320-251N",
+   "yearOfManufacture": 2026,
+   "owner": "JACKSON SQUARE AVIATION IRELAND LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JMU",
+   "msn": "9858",
+   "dateOfRegistration": "2026-05-19",
+   "dateOfDeregistration": null,
+   "date": "2026-05-19",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3E",
+   "yearOfManufacture": 2025,
+   "owner": "KESTREL AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "KESTREL AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 6
+   }
+  },
+  {
+   "reg": "VT-JMV",
+   "msn": "9861",
+   "dateOfRegistration": "2026-02-16",
+   "dateOfDeregistration": null,
+   "date": "2026-02-16",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3E",
+   "yearOfManufacture": 2025,
+   "owner": "KESTREL AVIATION PVT.LTD.",
+   "lessor": "-",
+   "operator": "KESTREL AVIATION PVT.LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JMW",
+   "msn": "9863",
+   "dateOfRegistration": "2026-04-20",
+   "dateOfDeregistration": null,
+   "date": "2026-04-20",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3E",
+   "yearOfManufacture": 2025,
+   "owner": "KESTREL AVIATION PVT. LTD.",
+   "lessor": "-",
+   "operator": "KESTREL AVIATION PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-JVA",
+   "msn": "091",
+   "dateOfRegistration": "2026-07-13",
+   "dateOfDeregistration": null,
+   "date": "2026-07-13",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "FALCON 7X",
+   "yearOfManufacture": 2010,
+   "owner": "B. G. SHIRKE CONSTRUCTION TECHNOLOGY PVT. LTD.",
+   "lessor": "-",
+   "operator": "B. G. SHIRKE CONSTRUCTION TECHNOLOGY PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-LEW",
+   "msn": "552",
+   "dateOfRegistration": "2026-09-15",
+   "dateOfDeregistration": null,
+   "date": "2026-09-15",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PC-24",
+   "yearOfManufacture": 2024,
+   "owner": "CLOUDCRUZE AVIATION LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "CLOUDCRUZE AVIATION LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "TARA AVIATION SERVICES PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-LME",
+   "msn": "57414",
+   "dateOfRegistration": "2026-07-07",
+   "dateOfDeregistration": null,
+   "date": "2026-07-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 429",
+   "yearOfManufacture": 2021,
+   "owner": "CLOUDCRUZE AVIATION LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "CLOUDCRUZE AVIATION LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "TARA AVIATION SERVICES PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-NHO",
+   "msn": "12890",
+   "dateOfRegistration": "2026-01-05",
+   "dateOfDeregistration": null,
+   "date": "2026-01-05",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2025,
+   "owner": "INDICAN LEASING 13 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-NHR",
+   "msn": "12959",
+   "dateOfRegistration": "2026-01-05",
+   "dateOfDeregistration": null,
+   "date": "2026-01-05",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2025,
+   "owner": "INDIJET LEASING 1 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-NHS",
+   "msn": "12938",
+   "dateOfRegistration": "2026-05-26",
+   "dateOfDeregistration": null,
+   "date": "2026-05-26",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 4 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-NHT",
+   "msn": "13043",
+   "dateOfRegistration": "2026-05-06",
+   "dateOfDeregistration": null,
+   "date": "2026-05-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INVESTIMA 84 SAS",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 7
+   }
+  },
+  {
+   "reg": "VT-NHV",
+   "msn": "13130",
+   "dateOfRegistration": "2026-05-05",
+   "dateOfDeregistration": null,
+   "date": "2026-05-05",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "FITZWILLIAM AIRCRAFT LEASING (IRELAND) LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-NHW",
+   "msn": "13112",
+   "dateOfRegistration": "2026-04-17",
+   "dateOfDeregistration": null,
+   "date": "2026-04-17",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "PEGASUS JET LEASING 14 LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-NHX",
+   "msn": "13053",
+   "dateOfRegistration": "2026-02-27",
+   "dateOfDeregistration": null,
+   "date": "2026-02-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "EXPLORER LEASING CO., LTD.",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-NHZ",
+   "msn": "13149",
+   "dateOfRegistration": "2026-09-01",
+   "dateOfDeregistration": null,
+   "date": "2026-09-01",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 15 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-NIS",
+   "msn": "258840",
+   "dateOfRegistration": "2026-01-12",
+   "dateOfDeregistration": null,
+   "date": "2026-01-12",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "HAWKER 800 XP",
+   "yearOfManufacture": 2007,
+   "owner": "NUTANA AVIATION CAPITAL IFSC PRIVATE LIMITED",
+   "lessor": "NUTANA AVIATION CAPITAL IFSC PRIVATE LIMITED",
+   "operator": "SPARZANA AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-NLA",
+   "msn": "12622",
+   "dateOfRegistration": "2026-01-08",
+   "dateOfDeregistration": null,
+   "date": "2026-01-08",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321-253NY",
+   "yearOfManufacture": 2025,
+   "owner": "INDIJET LEASING 2 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-NLB",
+   "msn": "12926",
+   "dateOfRegistration": "2026-04-10",
+   "dateOfDeregistration": null,
+   "date": "2026-04-10",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321-253NY",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 8 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 8
+   }
+  },
+  {
+   "reg": "VT-NLC",
+   "msn": "13018",
+   "dateOfRegistration": "2026-06-10",
+   "dateOfDeregistration": null,
+   "date": "2026-06-10",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321-253NY",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 8 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-NLD",
+   "msn": "13173",
+   "dateOfRegistration": "2026-09-15",
+   "dateOfDeregistration": null,
+   "date": "2026-09-15",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321-253NY",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 18 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-NOA",
+   "msn": "13139",
+   "dateOfRegistration": "2026-04-02",
+   "dateOfDeregistration": null,
+   "date": "2026-04-02",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 13 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-NOB",
+   "msn": "13156",
+   "dateOfRegistration": "2026-05-18",
+   "dateOfDeregistration": null,
+   "date": "2026-05-18",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INVESTIMA 83 SAS",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-NOC",
+   "msn": "13214",
+   "dateOfRegistration": "2026-05-12",
+   "dateOfDeregistration": null,
+   "date": "2026-05-12",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "MASL IRELAND (22) LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-NOD",
+   "msn": "13270",
+   "dateOfRegistration": "2026-06-04",
+   "dateOfDeregistration": null,
+   "date": "2026-06-04",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INVESTIMA 85 SAS",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 9
+   }
+  },
+  {
+   "reg": "VT-NOE",
+   "msn": "13254",
+   "dateOfRegistration": "2026-07-03",
+   "dateOfDeregistration": null,
+   "date": "2026-07-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INVESTIMA 87 SAS",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-NOF",
+   "msn": "13260",
+   "dateOfRegistration": "2026-06-17",
+   "dateOfDeregistration": null,
+   "date": "2026-06-17",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "MASL IRELAND (22) LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-NOG",
+   "msn": "13290",
+   "dateOfRegistration": "2026-06-09",
+   "dateOfDeregistration": null,
+   "date": "2026-06-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "MASL IRELAND (22) LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-NOH",
+   "msn": "13223",
+   "dateOfRegistration": "2026-07-15",
+   "dateOfDeregistration": null,
+   "date": "2026-07-15",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INVESTIMA 86 SAS",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-NOI",
+   "msn": "13350",
+   "dateOfRegistration": "2026-07-23",
+   "dateOfDeregistration": null,
+   "date": "2026-07-23",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "AIRCASTLE (IRELAND) DAC",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-NOJ",
+   "msn": "13385",
+   "dateOfRegistration": "2026-08-13",
+   "dateOfDeregistration": null,
+   "date": "2026-08-13",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 15 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-NOL",
+   "msn": "13398",
+   "dateOfRegistration": "2026-07-24",
+   "dateOfDeregistration": null,
+   "date": "2026-07-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "AIRCASTLE (IRELAND) DAC",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 10
+   }
+  },
+  {
+   "reg": "VT-NOM",
+   "msn": "13377",
+   "dateOfRegistration": "2026-09-01",
+   "dateOfDeregistration": null,
+   "date": "2026-09-01",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "AIRCASTLE (IRELAND) DAC",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-NOO",
+   "msn": "13477",
+   "dateOfRegistration": "2026-09-01",
+   "dateOfDeregistration": null,
+   "date": "2026-09-01",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 14 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-NOP",
+   "msn": "13416",
+   "dateOfRegistration": "2026-09-07",
+   "dateOfDeregistration": null,
+   "date": "2026-09-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 22 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-NOT",
+   "msn": "13374",
+   "dateOfRegistration": "2026-09-16",
+   "dateOfDeregistration": null,
+   "date": "2026-09-16",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "FITZWILLIAM AIRCRAFT LEASING (IRELAND) LIMITED",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-NOU",
+   "msn": "13230",
+   "dateOfRegistration": "2026-09-25",
+   "dateOfDeregistration": null,
+   "date": "2026-09-25",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 22 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-NOX",
+   "msn": "13589",
+   "dateOfRegistration": "2026-09-30",
+   "dateOfDeregistration": null,
+   "date": "2026-09-30",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 16 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 11
+   }
+  },
+  {
+   "reg": "VT-NOZ",
+   "msn": "13479",
+   "dateOfRegistration": "2026-10-06",
+   "dateOfDeregistration": null,
+   "date": "2026-10-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "A321 - 251NX",
+   "yearOfManufacture": 2026,
+   "owner": "INDICAN LEASING 14 DESIGNATED ACTIVITY COMPANY",
+   "lessor": "INTERGLOBE AVIATION FINANCIAL SERVICES IFSC PRIVATE LIMITED",
+   "operator": "INTERGLOBE AVIATION LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NPL",
+   "msn": "RB293",
+   "dateOfRegistration": "2026-04-23",
+   "dateOfDeregistration": null,
+   "date": "2026-04-23",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "BEECHCRAFT PREMIER 1A-390",
+   "yearOfManufacture": 2012,
+   "owner": "KRYSTAL AVIATION SERVICES PVT. LTD.",
+   "lessor": "-",
+   "operator": "KRYSTAL AVIATION SERVICES PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NRJ",
+   "msn": "6868",
+   "dateOfRegistration": "2026-02-03",
+   "dateOfDeregistration": null,
+   "date": "2026-02-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "AS365N3",
+   "yearOfManufacture": 2009,
+   "owner": "M/S. AMAN AVIATION AND AEROSPACE SOLUTIONS PVT LTD",
+   "lessor": "-",
+   "operator": "M/S. AMAN AVIATION AEROSPACE SOLUTIONS PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NTA",
+   "msn": "69285",
+   "dateOfRegistration": "2026-04-01",
+   "dateOfDeregistration": null,
+   "date": "2026-04-01",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2026,
+   "owner": "AS AIR LEASE 217 (IRELAND) LIMITED",
+   "lessor": "AS AIR LEASE 217 (IRELAND) LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NTB",
+   "msn": "69284",
+   "dateOfRegistration": "2026-04-24",
+   "dateOfDeregistration": null,
+   "date": "2026-04-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8",
+   "yearOfManufacture": 2026,
+   "owner": "AS AIR LEASE 218 (IRELAND) LIMITED",
+   "lessor": "AS AIR LEASE 218 (IRELAND) LIMITED",
+   "operator": "AIR INDIA EXPRESS LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NXM",
+   "msn": "2881966",
+   "dateOfRegistration": "2026-07-06",
+   "dateOfDeregistration": null,
+   "date": "2026-07-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NXN",
+   "msn": "2881967",
+   "dateOfRegistration": "2026-07-06",
+   "dateOfDeregistration": null,
+   "date": "2026-07-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NXO",
+   "msn": "2881968",
+   "dateOfRegistration": "2026-07-06",
+   "dateOfDeregistration": null,
+   "date": "2026-07-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NXP",
+   "msn": "2881969",
+   "dateOfRegistration": "2026-07-06",
+   "dateOfDeregistration": null,
+   "date": "2026-07-06",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NXQ",
+   "msn": "2881970",
+   "dateOfRegistration": "2026-08-04",
+   "dateOfDeregistration": null,
+   "date": "2026-08-04",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 12
+   }
+  },
+  {
+   "reg": "VT-NXR",
+   "msn": "2881971",
+   "dateOfRegistration": "2026-08-03",
+   "dateOfDeregistration": null,
+   "date": "2026-08-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-NXS",
+   "msn": "2881972",
+   "dateOfRegistration": "2026-07-24",
+   "dateOfDeregistration": null,
+   "date": "2026-07-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-NXT",
+   "msn": "2881973",
+   "dateOfRegistration": "2026-07-24",
+   "dateOfDeregistration": null,
+   "date": "2026-07-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-NXU",
+   "msn": "2881974",
+   "dateOfRegistration": "2026-09-09",
+   "dateOfDeregistration": null,
+   "date": "2026-09-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-NXV",
+   "msn": "2881975",
+   "dateOfRegistration": "2026-08-21",
+   "dateOfDeregistration": null,
+   "date": "2026-08-21",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-NXW",
+   "msn": "2881976",
+   "dateOfRegistration": "2026-08-07",
+   "dateOfDeregistration": null,
+   "date": "2026-08-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-NXX",
+   "msn": "2881977",
+   "dateOfRegistration": "2026-08-04",
+   "dateOfDeregistration": null,
+   "date": "2026-08-04",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-NXY",
+   "msn": "2881978",
+   "dateOfRegistration": "2026-08-21",
+   "dateOfDeregistration": null,
+   "date": "2026-08-21",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-NXZ",
+   "msn": "2881979",
+   "dateOfRegistration": "2026-09-09",
+   "dateOfDeregistration": null,
+   "date": "2026-09-09",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "MRIYA LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "SKYNEX AERO PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-ORA",
+   "msn": "2881993",
+   "dateOfRegistration": "2026-04-17",
+   "dateOfDeregistration": null,
+   "date": "2026-04-17",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "AVYANNA AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "AVYANNA AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 13
+   }
+  },
+  {
+   "reg": "VT-PLC",
+   "msn": "325",
+   "dateOfRegistration": "2026-04-10",
+   "dateOfDeregistration": null,
+   "date": "2026-04-10",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "FALCON 2000EX",
+   "yearOfManufacture": 2016,
+   "owner": "VIJAYANAND TRAVELS PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "VIJAYANAND TRAVELS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-PRO",
+   "msn": "28010031",
+   "dateOfRegistration": "2026-08-31",
+   "dateOfDeregistration": null,
+   "date": "2026-08-31",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "PA-28-181 (Archer III)",
+   "yearOfManufacture": 2026,
+   "owner": "AVYANNA AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "AVYANNA AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-PWO",
+   "msn": "DCS002",
+   "dateOfRegistration": "2026-02-11",
+   "dateOfDeregistration": null,
+   "date": "2026-02-11",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DHRUV-ALH",
+   "yearOfManufacture": 2026,
+   "owner": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "lessor": "-",
+   "operator": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-PWP",
+   "msn": "DCS003",
+   "dateOfRegistration": "2026-02-11",
+   "dateOfDeregistration": null,
+   "date": "2026-02-11",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DHRUV-ALH",
+   "yearOfManufacture": 2026,
+   "owner": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "lessor": "-",
+   "operator": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-PWQ",
+   "msn": "DCS004",
+   "dateOfRegistration": "2026-02-11",
+   "dateOfDeregistration": null,
+   "date": "2026-02-11",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DHRUV-ALH",
+   "yearOfManufacture": 2026,
+   "owner": "HELICOPTER DIVISION, HINDUATAN AERONAUTICS LIMITED",
+   "lessor": "-",
+   "operator": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-PWR",
+   "msn": "DCS005",
+   "dateOfRegistration": "2026-02-11",
+   "dateOfDeregistration": null,
+   "date": "2026-02-11",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DHRUV-ALH",
+   "yearOfManufacture": 2026,
+   "owner": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "lessor": "-",
+   "operator": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-PWS",
+   "msn": "DCS006",
+   "dateOfRegistration": "2026-02-11",
+   "dateOfDeregistration": null,
+   "date": "2026-02-11",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DHRUV-ALH",
+   "yearOfManufacture": 2026,
+   "owner": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "lessor": "-",
+   "operator": "HELICOPTER DIVISION, HINDUATAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-PWT",
+   "msn": "DCS007",
+   "dateOfRegistration": "2026-06-04",
+   "dateOfDeregistration": null,
+   "date": "2026-06-04",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DHRUV-ALH",
+   "yearOfManufacture": 2026,
+   "owner": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "lessor": "-",
+   "operator": "HELICOPTER DIVISION, HINDUSTAN AERONAUTICS LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 14
+   }
+  },
+  {
+   "reg": "VT-RGN",
+   "msn": "30106",
+   "dateOfRegistration": "2026-03-25",
+   "dateOfDeregistration": null,
+   "date": "2026-03-25",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "R44",
+   "yearOfManufacture": 2025,
+   "owner": "CHIPSAN AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "CHIPSAN AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-RGZ",
+   "msn": "1084",
+   "dateOfRegistration": "2026-02-17",
+   "dateOfDeregistration": null,
+   "date": "2026-02-17",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "H160-B",
+   "yearOfManufacture": 2025,
+   "owner": "GD HELICOPTER FINANCE I LIMITED",
+   "lessor": "GD HELICOPTER FINANCE I LIMITED",
+   "operator": "CHIPSAN AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-SHE",
+   "msn": "987",
+   "dateOfRegistration": "2026-02-13",
+   "dateOfDeregistration": null,
+   "date": "2026-02-13",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "DHC-6-400",
+   "yearOfManufacture": 2020,
+   "owner": "AER LLC",
+   "lessor": "AER LLC",
+   "operator": "SKYHOP AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-SMK",
+   "msn": "57552",
+   "dateOfRegistration": "2026-01-27",
+   "dateOfDeregistration": null,
+   "date": "2026-01-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "BELL 429",
+   "yearOfManufacture": 2025,
+   "owner": "SPAN AIR PVT. LTD",
+   "lessor": "-",
+   "operator": "SPAN AIR PVT. LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-SRP",
+   "msn": "14932",
+   "dateOfRegistration": "2026-07-31",
+   "dateOfDeregistration": null,
+   "date": "2026-07-31",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "R44 II",
+   "yearOfManufacture": 2026,
+   "owner": "MAHARAJA AVIATION PVT LTD",
+   "lessor": "-",
+   "operator": "MAHARAJA AVIATION PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-TEM",
+   "msn": "9590",
+   "dateOfRegistration": "2026-04-17",
+   "dateOfDeregistration": null,
+   "date": "2026-04-17",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "AS350B3",
+   "yearOfManufacture": 2024,
+   "owner": "CLOUDCRUZE AVIATION LEASING SERVICES IFSC PRIVATE LIMITED",
+   "lessor": "CLOUDCRUZE AVIATION LEASING SERVICES IFSC PRIVATE LIMITED",
+   "operator": "THRIVENI EARTHMOVERS PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-TWJ",
+   "msn": "604",
+   "dateOfRegistration": "2026-03-20",
+   "dateOfDeregistration": null,
+   "date": "2026-03-20",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "FALCON 2000 EX EASY",
+   "yearOfManufacture": 2008,
+   "owner": "PASSERINE INVESTMENTS LTD",
+   "lessor": "OEL AVIATION IFSC PRIVATE LIMITED",
+   "operator": "TRANSWORLD JETS PVT LTD",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-UPG",
+   "msn": "32148",
+   "dateOfRegistration": "2026-01-13",
+   "dateOfDeregistration": null,
+   "date": "2026-01-13",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "AW139",
+   "yearOfManufacture": 2025,
+   "owner": "CIVIL AVIATION DEPARTMENT, GOVT. OF UTTAR PRADESH",
+   "lessor": "-",
+   "operator": "CIVIL AVIATION DEPARTMENT, GOVT. OF UTTAR PRADESH",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-VFT",
+   "msn": "163",
+   "dateOfRegistration": "2026-07-20",
+   "dateOfDeregistration": null,
+   "date": "2026-07-20",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2006T",
+   "yearOfManufacture": 2015,
+   "owner": "VISION DIVYANG FOUNDATION",
+   "lessor": "-",
+   "operator": "VISION DIVYANG FOUNDATION",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-VMR",
+   "msn": "9007",
+   "dateOfRegistration": "2026-04-02",
+   "dateOfDeregistration": null,
+   "date": "2026-04-02",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "Pegasus Quik",
+   "yearOfManufacture": 2025,
+   "owner": "P AND M AVIATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "P AND M AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-VOR",
+   "msn": "025",
+   "dateOfRegistration": "2026-08-07",
+   "dateOfDeregistration": null,
+   "date": "2026-08-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2006T",
+   "yearOfManufacture": 2010,
+   "owner": "EKVI AIR TRAINING ORGANISATION PRIVATE LIMITED",
+   "lessor": "-",
+   "operator": "EKVI AIR TRAINING ORGANISATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-VTA",
+   "msn": "1061",
+   "dateOfRegistration": "2026-03-25",
+   "dateOfDeregistration": null,
+   "date": "2026-03-25",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2008JC",
+   "yearOfManufacture": 2016,
+   "owner": "VISION DIVYANG FOUNDATION",
+   "lessor": "-",
+   "operator": "VISION DIVYANG FOUNDATION",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 15
+   }
+  },
+  {
+   "reg": "VT-VTB",
+   "msn": "1076",
+   "dateOfRegistration": "2026-03-27",
+   "dateOfDeregistration": null,
+   "date": "2026-03-27",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "TECNAM P2008JC",
+   "yearOfManufacture": 2017,
+   "owner": "VISION DIVYANG FOUNDATION",
+   "lessor": "-",
+   "operator": "VISION DIVYANG FOUNDATION",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-XIF",
+   "msn": "GA8-TC320-13-200",
+   "dateOfRegistration": "2026-01-14",
+   "dateOfDeregistration": null,
+   "date": "2026-01-14",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "GA-8 Air van",
+   "yearOfManufacture": 2013,
+   "owner": "AMANRA FZC",
+   "lessor": "AMANRA FZC",
+   "operator": "AVIATION CONNECTIVITY AND INFRASTRUCTURE DEVELOPERS PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBI",
+   "msn": "67868",
+   "dateOfRegistration": "2026-04-01",
+   "dateOfDeregistration": null,
+   "date": "2026-04-01",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "JINGWEI AVIATION CAPITAL LIMITED",
+   "lessor": "JINGWEI AVIATION CAPITAL LIMITED",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBJ",
+   "msn": "67869",
+   "dateOfRegistration": "2026-03-30",
+   "dateOfDeregistration": null,
+   "date": "2026-03-30",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "JINGWEI AVIATION CAPITAL LIMITED",
+   "lessor": "JINGWEI AVIATION CAPITAL LIMITED",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBK",
+   "msn": "67870",
+   "dateOfRegistration": "2026-04-24",
+   "dateOfDeregistration": null,
+   "date": "2026-04-24",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "BOC AVIATION (IRELAND) LIMITED",
+   "lessor": "BOC AVIATION (IRELAND) LIMITED",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBL",
+   "msn": "67871",
+   "dateOfRegistration": "2026-02-16",
+   "dateOfDeregistration": null,
+   "date": "2026-02-16",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "KS I AIRCRAFT AOE TWO DAC",
+   "lessor": "KS I AIRCRAFT AOE TWO DAC",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBM",
+   "msn": "67872",
+   "dateOfRegistration": "2026-02-04",
+   "dateOfDeregistration": null,
+   "date": "2026-02-04",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "ALTITUDE II AIRCRAFT SIXTEEN DAC",
+   "lessor": "ALTITUDE II AIRCRAFT SIXTEEN DAC",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBN",
+   "msn": "67873",
+   "dateOfRegistration": "2026-01-29",
+   "dateOfDeregistration": null,
+   "date": "2026-01-29",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "KS I AIRCRAFT AOE TWO DAC",
+   "lessor": "KS I AIRCRAFT AOE TWO DAC",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBO",
+   "msn": "67874",
+   "dateOfRegistration": "2026-03-03",
+   "dateOfDeregistration": null,
+   "date": "2026-03-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "JINGWEI AVIATION CAPITAL LIMITED",
+   "lessor": "JINGWEI AVIATION CAPITAL LIMITED",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBP",
+   "msn": "67875",
+   "dateOfRegistration": "2026-06-22",
+   "dateOfDeregistration": null,
+   "date": "2026-06-22",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "BOC AVIATION (IRELAND) LIMITED",
+   "lessor": "BOC AVIATION (IRELAND) LIMITED",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBQ",
+   "msn": "67876",
+   "dateOfRegistration": "2026-07-07",
+   "dateOfDeregistration": null,
+   "date": "2026-07-07",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "BOC AVIATION (IRELAND) LIMITED",
+   "lessor": "BOC AVIATION (IRELAND) LIMITED",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBR",
+   "msn": "67877",
+   "dateOfRegistration": "2026-08-21",
+   "dateOfDeregistration": null,
+   "date": "2026-08-21",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "AVOLON LEASING IRELAND 3 LIMITED",
+   "lessor": "AVOLON LEASING IRELAND 3 LIMITED",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBS",
+   "msn": "67878",
+   "dateOfRegistration": "2026-09-03",
+   "dateOfDeregistration": null,
+   "date": "2026-09-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "AVOLON LEASING IRELAND 3 LIMITED",
+   "lessor": "AVOLON LEASING IRELAND 3 LIMITED",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 16
+   }
+  },
+  {
+   "reg": "VT-YBT",
+   "msn": "67879",
+   "dateOfRegistration": "2026-09-03",
+   "dateOfDeregistration": null,
+   "date": "2026-09-03",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "B 737-8200",
+   "yearOfManufacture": 2026,
+   "owner": "AVOLON LEASING IRELAND 3 LIMITED",
+   "lessor": "AVOLON LEASING IRELAND 3 LIMITED",
+   "operator": "SNV AVIATION PRIVATE LIMITED",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 17
+   }
+  },
+  {
+   "reg": "VT-YVV",
+   "msn": "033",
+   "dateOfRegistration": "2026-06-10",
+   "dateOfDeregistration": null,
+   "date": "2026-06-10",
+   "period": {
+    "from": "2026-01-01",
+    "to": "2026-12-31"
+   },
+   "kind": "registration",
+   "type": "FALCON 6X",
+   "yearOfManufacture": 2026,
+   "owner": "MERRITT AVIATIONS LIMITED",
+   "lessor": "MERRITT AVIATIONS LIMITED",
+   "operator": "AIR CHARTER SERVICES PVT. LTD.",
+   "source": {
+    "file": "Aircraft_Registered_Report 2026.pdf",
+    "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/aircraft/registration/aircraftReport/Aircraft_Registered_Report%202026.pdf",
+    "page": 17
+   }
+  }
+ ],
+ "dropped": []
+}
