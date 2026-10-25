@@ -1,56 +1,47 @@
 import type { Metadata } from "next";
-import { statSync } from "node:fs";
-import { join } from "node:path";
 import { getMeta } from "@/lib/data";
 import { fmtDate, fmtInt } from "@/lib/format";
 import { Container, PageHeader, SectionHeader } from "@/components/ui/Container";
 
 export const metadata: Metadata = {
-  title: "Data and method",
-  description: "Download the dataset and read how it is built, snapshot by snapshot.",
+  title: "Sources and method",
+  description: "Where every fact on vtaircrafts.in comes from, and how the index is rebuilt each month from DGCA's lists.",
+  alternates: { canonical: "/data" },
 };
 
-const FILES = [
-  { name: "aircraft.json", desc: "Full aircraft records: registration, operator, type, seats, permit, image credit and history." },
-  { name: "aircraft.csv", desc: "The same aircraft records as a flat CSV, for spreadsheets." },
-  { name: "operators.json", desc: "Operator summaries: type mix, fleet counts and permit validity." },
-  { name: "events.json", desc: "Every recorded registration, deregistration, addition, removal, move and ownership change." },
-  { name: "snapshots.json", desc: "One entry per DGCA list snapshot: date, list, source, hash and counts." },
-  { name: "changes.json", desc: "Added, removed and moved registrations between the two most recent snapshots." },
-  { name: "meta.json", desc: "Snapshot metadata, source hashes and fleet counts." },
-];
+const REPO = "https://github.com/Nik-code/vtaircrafts";
 
-const AIRCRAFT_FIELDS: Array<[string, string]> = [
-  ["reg", "Indian registration, e.g. VT-ANA."],
-  ["hex", "ICAO 24-bit Mode S address, or null if not in the tar1090 database."],
-  ["operatorId", "Slug of the operating company, links to /operators/<id>."],
-  ["operator", "Operator's trading name."],
-  ["operatorLegal", "Operator's registered legal name."],
-  ["category", "\"scheduled\" or \"non-scheduled\", per the DGCA list it appears on."],
-  ["permit.no", "AOC number (scheduled) or AOP number (non-scheduled)."],
-  ["permit.validUntil", "Permit expiry date."],
-  ["model", "Model string exactly as printed by DGCA."],
-  ["type.name", "Normalised type name, e.g. \"Boeing 787-9\"."],
-  ["type.icao", "ICAO type designator, e.g. B789."],
-  ["type.manufacturer", "Airframe manufacturer."],
-  ["wing", "\"FW\" fixed wing, \"RW\" rotary, \"B\" balloon."],
-  ["seatsRaw", "Seat count exactly as printed by DGCA."],
-  ["role", "passenger, cargo, aerial-work, mixed or unknown."],
-  ["image", "Wikimedia Commons photo with credit and a tier (exact, operator-type, type, type-world)."],
-  ["source.file / .page / .asOn", "Which DGCA PDF, which page, and its \"updated as on\" date."],
-  ["firstSeen", "Date of the earliest snapshot in which this registration appears."],
-  ["history", "Optional: firstSnapshot, registeredOn, deregisteredOn, msn, yearOfManufacture, owner, lessor, from DGCA registration reports."],
-];
-
-const EVENT_FIELDS: Array<[string, string]> = [
-  ["kind", "registered, deregistered, owner-change, added, removed, moved, or snapshot."],
-  ["reg", "Registration affected, or null for a snapshot event."],
-  ["date", "Exact ISO date, when the source states one directly."],
-  ["from / to", "Interval bounds when the date is only known to fall between two snapshots."],
-  ["list", "scheduled or non-scheduled."],
-  ["operator / fromOperator / toOperator", "Operator names involved in the change."],
-  ["msn / owner / lessor", "Manufacturer serial number and ownership, where a registration report gives them."],
-  ["source", "Which document the event was read from: dgca, wayback, or report."],
+const OTHER_SOURCES = [
+  {
+    name: "DGCA aircraft registration and deregistration reports",
+    url: "https://www.dgca.gov.in/digigov-portal/",
+    use: "October 2009 to date (July to December 2021 is scanned and not read): registration and deregistration dates, serial numbers, year of manufacture, owners and lessors. The current year is re-read every month.",
+  },
+  {
+    name: "DGCA list of flying training organisations",
+    url: "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/personal/training/pilot/flrTrainOrgs/flyclub.pdf",
+    use: "Every approved flying school, its bases and approval, and the aircraft it lists. Refreshed monthly.",
+  },
+  {
+    name: "Wayback Machine captures of the DGCA operator lists",
+    url: "https://web.archive.org/",
+    use: "Earlier editions of both lists back to 2005, which date when aircraft joined, left or moved between operators.",
+  },
+  {
+    name: "tar1090-db",
+    url: "https://github.com/wiedehopf/tar1090-db",
+    use: "Mode S hex addresses and ICAO type designators.",
+  },
+  {
+    name: "VRS standing-data (CC0)",
+    url: "https://github.com/vradarserver/standing-data",
+    use: "Build year and serial number where DGCA's reports have none, and engine count and wake category per type.",
+  },
+  {
+    name: "Wikimedia Commons",
+    url: "https://commons.wikimedia.org/",
+    use: "Photographs, each credited with its photographer and licence.",
+  },
 ];
 
 const METHOD_STEPS = [
@@ -61,20 +52,6 @@ const METHOD_STEPS = [
   "Each month, snapshot the parsed lists, diff them against the previous snapshot, and select a Wikimedia Commons photo for each registration.",
 ];
 
-function fmtSize(bytes: number): string {
-  if (bytes < 1024) return `${bytes} B`;
-  if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} KB`;
-  return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
-}
-
-function fileSize(name: string): string {
-  try {
-    return fmtSize(statSync(join(process.cwd(), "data", "latest", name)).size);
-  } catch {
-    return "—";
-  }
-}
-
 export default function DataPage() {
   const meta = getMeta();
 
@@ -83,32 +60,11 @@ export default function DataPage() {
       <Container className="max-w-[880px]!">
         <PageHeader
           eyebrow={`Snapshot ${fmtDate(meta.snapshot)}`}
-          title="Data and method"
-          lede="The whole dataset is downloadable, versioned, and licensed CC BY 4.0. Here is what is in it and how it is built."
+          title="Sources and method"
+          lede="Where every fact on this site comes from, and how the index is rebuilt each month. The compiled dataset is versioned on GitHub under CC BY 4.0."
         />
 
         <section className="mt-14">
-          <SectionHeader title="Downloads" />
-          <ul className="card divide-y divide-line overflow-hidden">
-            {FILES.map((f) => (
-              <li key={f.name}>
-                <a href={`/data/latest/${f.name}`} download className="row flex flex-col gap-1 px-5 py-4 sm:flex-row sm:items-baseline sm:gap-6">
-                  <span className="mono w-40 shrink-0 text-[15px] font-medium text-fg">{f.name}</span>
-                  <span className="flex-1 text-[15px] text-fg-2">{f.desc}</span>
-                  <span className="num shrink-0 text-[13px] text-fg-3">{fileSize(f.name)}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section className="mt-16">
-          <SectionHeader title="Schema" />
-          <Schema name="aircraft.json" fields={AIRCRAFT_FIELDS} />
-          <Schema name="events.json" fields={EVENT_FIELDS} className="mt-10" />
-        </section>
-
-        <section className="mt-16">
           <SectionHeader title="Method" />
           <ol className="space-y-4">
             {METHOD_STEPS.map((step, i) => (
@@ -138,11 +94,26 @@ export default function DataPage() {
         </section>
 
         <section className="mt-16">
+          <SectionHeader title="Other sources" />
+          <ul className="space-y-5 text-[15px]">
+            {OTHER_SOURCES.map((s) => (
+              <li key={s.name}>
+                <a href={s.url} target="_blank" rel="noreferrer" className="font-medium text-fg underline decoration-line-2 underline-offset-4 hover:decoration-fg">
+                  {s.name}
+                </a>
+                <p className="mt-1 text-[14px] text-fg-2">{s.use}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mt-16">
           <SectionHeader title="Coverage and limits" />
           <p className="max-w-[64ch] text-[16px] leading-relaxed text-fg-2">
-            This covers scheduled and non-scheduled operator permits only: no privately owned aircraft, flying training fleets, or
-            state government aircraft. DGCA has not published a full register extract since 2019, so this index is built from
-            operator permit lists instead, cross-checked against Wayback Machine captures where an exact date is needed.
+            The core index is every aircraft on a scheduled or non-scheduled operator permit. Flying school aircraft come from
+            DGCA&rsquo;s separate list of flying training organisations. Privately owned and state government aircraft have no
+            current public list: they appear only when a registration report names them, and their pages carry only what those
+            reports say. DGCA has not published a full register extract since 2019.
           </p>
         </section>
 
@@ -154,6 +125,13 @@ export default function DataPage() {
               The compiled dataset is released under CC BY 4.0. Suggested citation: &ldquo;vtaircrafts.in, from DGCA operator lists&rdquo;. Code is
               MIT licensed. Photographs keep their individual Creative Commons licences and photographer credits, shown with every image.
             </p>
+            <p>
+              The code and every monthly dataset release are on{" "}
+              <a href={REPO} target="_blank" rel="noreferrer" className="text-fg underline decoration-line-2 underline-offset-4 hover:decoration-fg">
+                GitHub
+              </a>
+              .
+            </p>
             <p>This is an independent, unofficial index. It is not the Indian civil aircraft register and must not be used for operational or legal purposes.</p>
           </div>
         </section>
@@ -162,18 +140,3 @@ export default function DataPage() {
   );
 }
 
-function Schema({ name, fields, className = "" }: { name: string; fields: Array<[string, string]>; className?: string }) {
-  return (
-    <div className={className}>
-      <h3 className="mono mb-3 text-[15px] font-medium">{name}</h3>
-      <dl className="divide-y divide-line">
-        {fields.map(([field, meaning]) => (
-          <div key={field} className="grid gap-1 py-3 sm:grid-cols-[14rem_1fr] sm:gap-6">
-            <dt className="mono text-[14px] text-fg">{field}</dt>
-            <dd className="text-[15px] text-fg-2">{meaning}</dd>
-          </div>
-        ))}
-      </dl>
-    </div>
-  );
-}

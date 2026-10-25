@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { getMeta, getOperators } from "@/lib/data";
+import { getArchive, getMeta, getOperators, getPastOperators, getTraining } from "@/lib/data";
+import { getLessorLeague, getTypes, slugify } from "@/lib/registry";
+import { JsonLd } from "@/components/JsonLd";
 import { fmtDate, fmtInt } from "@/lib/format";
 import { Container, SectionHeader } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
@@ -10,6 +13,10 @@ import { Photo } from "@/components/ui/Photo";
 import { eventLabel, eventTone } from "@/components/log/eventFormat";
 import { Badge } from "@/components/ui/Badge";
 import { operatorsBySize, plateSelection, recentMovements, typeCount, typeRows } from "@/components/home/derive";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const TOP_OPERATORS = 8;
 const TOP_TYPES = 8;
@@ -23,9 +30,24 @@ export default function Home() {
   const maxType = types[0]?.count ?? 1;
   const photos = plateSelection(6);
   const movements = recentMovements(6);
+  const explore = [
+    { href: "/types", title: "Types", value: getTypes().length, text: "Every aircraft type, who flies it, how old the fleet is and which engines it uses." },
+    { href: "/owners", title: "Owners and lessors", value: getLessorLeague().length, text: "Who owns the aircraft Indian operators fly, from DGCA registration reports." },
+    { href: "/flying-schools", title: "Flying schools", value: getTraining()?.ftos.length ?? null, text: "Every DGCA-approved flying training organisation and the trainers it flies." },
+    { href: "/operators", title: "Past operators", value: getPastOperators().length, text: `Jet Airways, Kingfisher, Go First, Vistara and more, with ${fmtInt(getArchive().length)} earlier registrations.` },
+  ];
 
   return (
     <main>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "VT Aircrafts",
+          url: "https://vtaircrafts.in",
+          description: "Every aircraft on India's scheduled and non-scheduled operator permits, from DGCA's published lists.",
+        }}
+      />
       {/* Hero */}
       <section className="border-b border-line">
         <Container className="py-16 sm:py-24">
@@ -39,7 +61,7 @@ export default function Home() {
           <div className="mt-8 flex flex-wrap gap-3">
             <ButtonLink href="/fleet" tone="primary">Browse the fleet</ButtonLink>
             <ButtonLink href="/operators">Operators</ButtonLink>
-            <ButtonLink href="/data">Download the data</ButtonLink>
+            <ButtonLink href="/log">Change log</ButtonLink>
           </div>
         </Container>
       </section>
@@ -85,12 +107,12 @@ export default function Home() {
           <div>
             <SectionHeader
               title="Most common types"
-              action={<Link href="/fleet?view=table&sort=type" className="text-[15px] text-fg-2 underline decoration-line-2 underline-offset-4 hover:text-fg">All {fmtInt(types.length)} types</Link>}
+              action={<Link href="/types" className="text-[15px] text-fg-2 underline decoration-line-2 underline-offset-4 hover:text-fg">All {fmtInt(types.length)} types</Link>}
             />
             <ol className="divide-y divide-line">
               {types.slice(0, TOP_TYPES).map((t) => (
                 <li key={t.name}>
-                  <Link href={`/fleet?t=${encodeURIComponent(t.name)}`} className="row -mx-3 block rounded-[var(--radius-sm)] px-3 py-3.5">
+                  <Link href={`/types/${slugify(t.name)}`} className="row -mx-3 block rounded-[var(--radius-sm)] px-3 py-3.5">
                     <div className="flex items-baseline justify-between gap-4">
                       <span className="flex min-w-0 items-baseline gap-2.5">
                         <span className="truncate text-[17px] font-medium">{t.name}</span>
@@ -104,6 +126,26 @@ export default function Home() {
               ))}
             </ol>
           </div>
+        </Container>
+      </section>
+
+      {/* Explore */}
+      <section className="border-t border-line">
+        <Container className="py-16 sm:py-20">
+          <SectionHeader title="Explore the register" />
+          <ul className="grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-4">
+            {explore.map((x) => (
+              <li key={x.title}>
+                <Link href={x.href} className="group block">
+                  <span className="flex items-baseline justify-between gap-3 border-b border-line pb-3">
+                    <span className="text-[17px] font-medium group-hover:underline group-hover:decoration-line-2 group-hover:underline-offset-4">{x.title}</span>
+                    {x.value != null && <span className="num text-[17px] font-semibold">{fmtInt(x.value)}</span>}
+                  </span>
+                  <span className="mt-3 block text-[15px] leading-relaxed text-fg-2">{x.text}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </Container>
       </section>
 
@@ -167,11 +209,11 @@ export default function Home() {
               Every aircraft on India&rsquo;s scheduled and non-scheduled operator permits, in one searchable list, with a page per tail and per operator.
             </About>
             <About title="Where it comes from">
-              Two PDFs DGCA publishes each month. They are parsed, checked against DGCA&rsquo;s own counts, and versioned. Method and downloads on the{" "}
-              <Link href="/data" className="text-fg underline decoration-line-2 underline-offset-4">data page</Link>.
+              Two PDFs DGCA publishes each month. They are parsed, checked against DGCA&rsquo;s own counts, and versioned. Method and sources on the{" "}
+              <Link href="/data" className="text-fg underline decoration-line-2 underline-offset-4">sources page</Link>.
             </About>
             <About title="What it is not">
-              The civil aircraft register. Private aircraft, flying schools and state fleets have no public list, so they are not here. Roughly 1,300 of about 2,300 manned aircraft.
+              The civil aircraft register. Private and state aircraft have no public list, so they appear only where a DGCA registration report names them.
             </About>
           </div>
         </Container>

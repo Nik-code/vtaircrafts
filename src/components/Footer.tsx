@@ -26,8 +26,12 @@ export function Footer() {
             <ul className="space-y-2 text-[15px]">
               <li><Link href="/fleet" className="text-fg-2 hover:text-fg">Fleet</Link></li>
               <li><Link href="/operators" className="text-fg-2 hover:text-fg">Operators</Link></li>
+              <li><Link href="/types" className="text-fg-2 hover:text-fg">Types</Link></li>
+              <li><Link href="/owners" className="text-fg-2 hover:text-fg">Owners and lessors</Link></li>
+              <li><Link href="/flying-schools" className="text-fg-2 hover:text-fg">Flying schools</Link></li>
+              <li><Link href="/stats" className="text-fg-2 hover:text-fg">Stats</Link></li>
               <li><Link href="/log" className="text-fg-2 hover:text-fg">Change log</Link></li>
-              <li><Link href="/data" className="text-fg-2 hover:text-fg">Data and method</Link></li>
+              <li><Link href="/data" className="text-fg-2 hover:text-fg">Sources and method</Link></li>
             </ul>
           </div>
           <div>

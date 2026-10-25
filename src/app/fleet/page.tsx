@@ -8,6 +8,7 @@ import { Container, PageHeader } from "@/components/ui/Container";
 export const metadata: Metadata = {
   title: "Fleet",
   description: "Search and filter every aircraft on an Indian scheduled or non-scheduled operator permit.",
+  alternates: { canonical: "/fleet" },
 };
 
 export default function FleetPage() {

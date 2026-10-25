@@ -9,6 +9,7 @@ import { LogTimeline } from "@/components/log/LogTimeline";
 export const metadata: Metadata = {
   title: "Change log",
   description: "Every registration, deregistration, addition, removal and move recorded across DGCA list snapshots.",
+  alternates: { canonical: "/log" },
 };
 
 const KINDS: EventKind[] = ["registered", "added", "moved", "removed", "deregistered", "owner-change", "snapshot"];

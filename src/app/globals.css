@@ -23,6 +23,9 @@
   --teal-soft: rgba(95, 205, 180, 0.14);
   --danger: #f08a6a;
   --danger-soft: rgba(240, 138, 106, 0.14);
+  /* Two-series chart steps, validated for CVD separation and contrast on --bg. */
+  --chart-in: #3aa58d;
+  --chart-out: #f05a1f;
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -43,6 +46,8 @@
   --teal-soft: rgba(15, 143, 119, 0.12);
   --danger: #c8482a;
   --danger-soft: rgba(200, 72, 42, 0.12);
+  --chart-in: #0f8f77;
+  --chart-out: #e2500c;
 }
 
 @theme inline {
@@ -61,6 +66,8 @@
   --color-teal-soft: var(--teal-soft);
   --color-danger: var(--danger);
   --color-danger-soft: var(--danger-soft);
+  --color-chart-in: var(--chart-in);
+  --color-chart-out: var(--chart-out);
   --font-sans: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --radius-sm: 8px;

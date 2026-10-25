@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAircraft, getChanges, getOperator, getOperators } from "@/lib/data";
+import { getAircraft, getArchive, getChanges, getOperator, getOperators, getPastOperators } from "@/lib/data";
+import { ageSummary, hasOwnerPage, ownerName } from "@/lib/registry";
+import { JsonLd, breadcrumbs } from "@/components/JsonLd";
+import { PastOperatorPage, pastOperatorMeta } from "@/components/operators/PastOperatorPage";
 import { fmtDate, fmtInt } from "@/lib/format";
 import { Bar } from "@/components/ui/Bar";
 import { Badge, ListBadge } from "@/components/ui/Badge";
@@ -11,22 +14,31 @@ import { Photo, PhotoCredit } from "@/components/ui/Photo";
 import { daysUntil } from "@/lib/format";
 
 export function generateStaticParams() {
-  return getOperators().map((o) => ({ id: o.id }));
+  return [...getOperators().map((o) => ({ id: o.id })), ...getPastOperators().map((o) => ({ id: o.id }))];
 }
 
 export async function generateMetadata({ params }: PageProps<"/operators/[id]">): Promise<Metadata> {
   const { id } = await params;
   const o = getOperator(id);
+  if (!o) return pastOperatorMeta(id);
+  const age = ageSummary(getAircraft().filter((a) => a.operatorId === o.id));
+  const types = o.types.slice(0, 3).map((t) => `${t.count} ${t.name}`).join(", ");
   return {
-    title: o ? o.name : id,
-    description: o ? `${o.fleetCount} aircraft on the DGCA list for ${o.name} (${o.legalName}).` : undefined,
+    title: `${o.name} fleet: ${o.fleetCount} aircraft`,
+    description: `${o.name} (${o.legalName}) has ${o.fleetCount} aircraft on its DGCA ${o.category} permit: ${types}${
+      age.mean != null ? `. Average age ${age.mean.toFixed(1)} years across the ${age.known} with a known build year` : ""
+    }. Every tail, with registration dates, owners and history.`,
+    alternates: { canonical: `/operators/${o.id}` },
   };
 }
 
 export default async function OperatorPage({ params }: PageProps<"/operators/[id]">) {
   const { id } = await params;
   const operator = getOperator(id);
-  if (!operator) notFound();
+  if (!operator) {
+    if (getPastOperators().some((o) => o.id === id)) return <PastOperatorPage id={id} />;
+    notFound();
+  }
 
   const fleet = getAircraft().filter((a) => a.operatorId === operator.id);
   const hero = fleet.find((a) => a.reg === operator.heroReg) ?? fleet.find((a) => a.image) ?? fleet[0] ?? null;
@@ -39,6 +51,17 @@ export default async function OperatorPage({ params }: PageProps<"/operators/[id
   }));
   const left = daysUntil(operator.permit.validUntil);
   const expiring = left != null && left <= 180;
+  const age = ageSummary(fleet);
+  const former = getArchive().filter((h) => h.stints.some((st) => st.operatorId === operator.id));
+  const owners = new Map<string, { slug: string; name: string; count: number }>();
+  for (const a of fleet) {
+    const o = ownerName(a.history?.owner);
+    if (!o) continue;
+    const row = owners.get(o.slug) ?? { slug: o.slug, name: o.name, count: 0 };
+    row.count += 1;
+    owners.set(o.slug, row);
+  }
+  const topOwners = [...owners.values()].sort((x, y) => y.count - x.count || x.name.localeCompare(y.name)).slice(0, 8);
   const wings = [
     operator.wings.FW && `${fmtInt(operator.wings.FW)} fixed wing`,
     operator.wings.RW && `${fmtInt(operator.wings.RW)} rotary wing`,
@@ -47,6 +70,21 @@ export default async function OperatorPage({ params }: PageProps<"/operators/[id
 
   return (
     <main className="py-10 sm:py-14">
+      <JsonLd
+        data={[
+          breadcrumbs([
+            ["Operators", "/operators"],
+            [operator.name, `/operators/${operator.id}`],
+          ]),
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: operator.name,
+            legalName: operator.legalName,
+            ...(operator.website ? { url: operator.website } : {}),
+          },
+        ]}
+      />
       <Container>
         <nav className="mb-6 flex flex-wrap items-center gap-2 text-[14px] text-fg-3" aria-label="Breadcrumb">
           <Link href="/operators" className="hover:text-fg">Operators</Link>
@@ -95,6 +133,14 @@ export default async function OperatorPage({ params }: PageProps<"/operators/[id
               {operator.ops && <Field label="Operations">{operator.ops}</Field>}
               <Field label="Airframes">{wings.join(", ")}</Field>
               {operator.seatsTotal > 0 && <Field label="Seats on the list">{fmtInt(operator.seatsTotal)}</Field>}
+              {age.mean != null && (
+                <Field label="Average age">
+                  {age.mean.toFixed(1)} years
+                  <span className="mt-0.5 block text-[13px] text-fg-3">
+                    {age.known === age.total ? "All aircraft" : `${fmtInt(age.known)} of ${fmtInt(age.total)} with a known build year`}
+                  </span>
+                </Field>
+              )}
               {operator.statedCount != null && operator.statedCount !== operator.fleetCount && (
                 <Field label="Stated by DGCA">{fmtInt(operator.statedCount)} aircraft</Field>
               )}
@@ -132,6 +178,27 @@ export default async function OperatorPage({ params }: PageProps<"/operators/[id
           </ul>
         </section>
 
+        {topOwners.length > 0 && (
+          <section className="mt-16">
+            <SectionHeader title="Registered owners" meta={`${fmtInt(owners.size)} owners`} />
+            <ul className="divide-y divide-line">
+              {topOwners.map((o) => (
+                <li key={o.slug} className="flex items-baseline justify-between gap-4 py-3">
+                  {hasOwnerPage(o.slug) ? (
+                    <Link href={`/owners/${o.slug}`} className="text-[15px] underline decoration-line-2 underline-offset-4 hover:decoration-fg">
+                      {o.name}
+                    </Link>
+                  ) : (
+                    <span className="text-[15px]">{o.name}</span>
+                  )}
+                  <span className="num text-[15px] font-medium">{fmtInt(o.count)}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-3 text-[13px] text-fg-3">From DGCA registration reports; {fmtInt(fleet.length - [...owners.values()].reduce((n, o) => n + o.count, 0))} aircraft have no owner on record.</p>
+          </section>
+        )}
+
         <section className="mt-16">
           <SectionHeader
             title="Fleet"
@@ -163,6 +230,20 @@ export default async function OperatorPage({ params }: PageProps<"/operators/[id
             ))}
           </div>
         </section>
+        {former.length > 0 && (
+          <section className="mt-16">
+            <SectionHeader title="Former aircraft" meta={`${fmtInt(former.length)} no longer on any permit`} />
+            <ul className="flex flex-wrap gap-2">
+              {former.map((h) => (
+                <li key={h.reg}>
+                  <Link href={`/aircraft/${h.reg}`} className="chip mono">
+                    {h.reg}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </Container>
     </main>
   );

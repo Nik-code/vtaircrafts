@@ -1,9 +1,11 @@
-// Copy the latest dataset into public/ so it is served as static files.
-import { cpSync, mkdirSync, existsSync } from "node:fs";
+// Copy the files the client fetches at runtime into public/. Full dataset downloads live on GitHub, not on the site.
+import { copyFileSync, existsSync, mkdirSync, rmSync } from "node:fs";
 const src = "data/latest";
 const dst = "public/data/latest";
+const CLIENT_FILES = ["index.json", "events.json"];
 if (existsSync(src)) {
+  rmSync(dst, { recursive: true, force: true });
   mkdirSync(dst, { recursive: true });
-  cpSync(src, dst, { recursive: true });
-  console.log(`copied ${src} -> ${dst}`);
+  for (const name of CLIENT_FILES) copyFileSync(`${src}/${name}`, `${dst}/${name}`);
+  console.log(`copied ${CLIENT_FILES.join(", ")} -> ${dst}`);
 }
