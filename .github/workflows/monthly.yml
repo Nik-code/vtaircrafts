@@ -31,23 +31,67 @@ jobs:
       - name: Fetch DGCA PDFs
         id: fetch
         run: npx tsx pipeline/fetch.ts | tee fetch.log
+      # The FTO list is published separately and runs every month, even when the operator
+      # lists are unchanged. A failure here must not hold up the operator snapshot.
+      - name: Fetch and parse DGCA training organisations
+        id: training
+        continue-on-error: true
+        run: |
+          npx tsx pipeline/training.ts
+          if [ -n "$(git status --porcelain data/raw/training data/latest/training.json)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+      # Only the year-to-date registration reports are refreshed here (`--current`): DGCA
+      # re-publishes them in place, so a changed sha256 replaces the stored copy and its rows
+      # are re-parsed. The archived captures and the older reports are static and committed;
+      # run `npm run pipeline:history` by hand when new archived material appears. A failed
+      # refresh never blocks the snapshot: the committed copies are restored instead.
+      - name: Refresh year-to-date registration reports
+        id: reports
+        run: |
+          if npx tsx pipeline/history.ts --current; then
+            if [ -n "$(git status --porcelain -- data/raw/reports data/parsed/reports)" ]; then
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "::warning::year-to-date report refresh failed; keeping the committed copies"
+            git checkout -- data/raw/reports data/parsed/reports
+            git clean -fdq -- data/raw/reports data/parsed/reports
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+      # run=true: new operator PDFs (or force), the full pipeline for a new snapshot.
+      # build=true without run: only the reports changed, so the snapshot data/latest was
+      # built from is rebuilt in place with the same --previous, taken from its meta.json.
       - name: Decide whether to continue
         id: decide
         run: |
           if grep -q '^unchanged' fetch.log && [ "${{ github.event.inputs.force }}" != "true" ]; then
             echo "run=false" >> "$GITHUB_OUTPUT"
+            if [ "${{ steps.reports.outputs.changed }}" = "true" ]; then
+              SNAP=$(node -p "require('./data/latest/meta.json').snapshot")
+              PREV=$(node -p "require('./data/latest/meta.json').previous || ''")
+              echo "build=true" >> "$GITHUB_OUTPUT"
+              echo "snapshot=$SNAP" >> "$GITHUB_OUTPUT"
+              echo "previous=$PREV" >> "$GITHUB_OUTPUT"
+              echo "message=data: DGCA registration reports refreshed, $SNAP rebuilt" >> "$GITHUB_OUTPUT"
+            else
+              echo "build=false" >> "$GITHUB_OUTPUT"
+            fi
           else
             echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "build=true" >> "$GITHUB_OUTPUT"
             SNAP=$(ls data/raw | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' | sort | tail -1)
             PREV=$(ls data/raw | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' | sort | tail -2 | head -1)
             echo "snapshot=$SNAP" >> "$GITHUB_OUTPUT"
             echo "previous=$PREV" >> "$GITHUB_OUTPUT"
+            echo "message=data: DGCA snapshot $SNAP" >> "$GITHUB_OUTPUT"
           fi
-      # pipeline/history.ts is NOT run here. The archived captures and the DGCA registration
-      # reports are static and committed, so the event log only needs the new snapshot to be
-      # parsed: build.ts reads data/parsed/history plus data/parsed/<snapshot> and appends
-      # this month to the chain. Run `npm run pipeline:history` by hand when new archived
-      # material appears.
+      # build.ts reads data/parsed/history, data/parsed/reports and data/parsed/<snapshot>,
+      # so the snapshot extends the chain and the report events come along either way.
       - name: Parse
         if: steps.decide.outputs.run == 'true'
         run: npx tsx pipeline/parse.ts data/raw/${{ steps.decide.outputs.snapshot }}
@@ -55,23 +99,33 @@ jobs:
         if: steps.decide.outputs.run == 'true'
         run: npx tsx pipeline/images.ts data/parsed/${{ steps.decide.outputs.snapshot }}
       - name: Build dataset
-        if: steps.decide.outputs.run == 'true'
+        if: steps.decide.outputs.build == 'true'
         run: |
           if [ -n "${{ steps.decide.outputs.previous }}" ] && [ "${{ steps.decide.outputs.previous }}" != "${{ steps.decide.outputs.snapshot }}" ]; then
             npx tsx pipeline/build.ts ${{ steps.decide.outputs.snapshot }} --previous ${{ steps.decide.outputs.previous }}
           else
             npx tsx pipeline/build.ts ${{ steps.decide.outputs.snapshot }}
           fi
+      # Archive of off-permit registrations, flying school aircraft and VRS enrichment. Runs
+      # whenever data/latest is rebuilt or the FTO list changed, since both feed it.
+      - name: Archive and enrichment (VRS standing-data)
+        if: steps.decide.outputs.build == 'true' || steps.training.outputs.changed == 'true'
+        run: npx tsx pipeline/extras.ts
       - name: Warm Commons thumbnails (best effort)
         if: steps.decide.outputs.run == 'true'
         run: npx tsx pipeline/warm.ts || echo "some thumbnails were not warmed"
       - name: Commit snapshot
-        if: steps.decide.outputs.run == 'true'
+        if: steps.decide.outputs.build == 'true' || steps.training.outputs.changed == 'true'
         run: |
           git config user.name "vtaircrafts-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/raw data/parsed data/snapshots data/latest data/cache
-          git commit -m "data: DGCA snapshot ${{ steps.decide.outputs.snapshot }}" || echo "nothing to commit"
+          git add data/raw/training data/latest
+          if [ "${{ steps.decide.outputs.build }}" = "true" ]; then
+            git add data/raw data/parsed data/snapshots data/latest data/cache
+            git commit -m "${{ steps.decide.outputs.message }}" || echo "nothing to commit"
+          else
+            git commit -m "data: DGCA training organisations" || echo "nothing to commit"
+          fi
           git push
       - name: Release
         if: steps.decide.outputs.run == 'true'

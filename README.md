@@ -22,13 +22,18 @@ government fleets have no public list.
 - **Fleet explorer** with search by registration, hex, operator, type and model,
   faceted filters, a dense log view and a photo grid view. State lives in the URL.
 - **Aircraft pages** for every tail: type, ICAO designator, Mode S hex, seats,
-  permit number and validity, source page, and a photo with credit.
-- **Operator pages** with type mix and full fleet lists.
+  permit number and validity, serial, build year and age, engines, owner and lessor,
+  source page, and a photo with credit.
+- **Archive pages** for about 2,200 registrations no longer on a permit (Jet Airways,
+  Kingfisher, Go First, Vistara and others), from the registration reports and old lists.
+- **Operator pages** with type mix, fleet age, owners, full fleet lists and former aircraft,
+  plus pages for past operators.
+- **Type, owner and lessor, flying school and stats pages** derived from the same data.
 - **Change log** going back to 2005: exact-dated registrations, de-registrations and
   ownership changes from DGCA's own reports, plus additions, removals and operator moves
   between 73 archived snapshots of the two operator lists.
-- **Downloads**: `aircraft.json`, `aircraft.csv`, `operators.json`, `changes.json`,
-  `events.json`, `snapshots.json`, `meta.json`, plus a GitHub Release per snapshot.
+- **The dataset** in `data/latest/` in this repository, plus a GitHub Release per snapshot.
+  The site itself does not serve downloads.
 
 ## How it works
 
@@ -54,8 +59,8 @@ DGCA PDFs ──▶ pdftotext -bbox-layout ──▶ positional parsers ──�
      the URLs they have lived at since 2004) with the CDX API, downloads each unique
      digest, rejects anything that is not a PDF, parses it with the same parsers, reads
      the "as on" date printed on page 1, and writes `data/parsed/history/<list>/<date>.json`;
-   - it downloads and parses DGCA's registration, de-registration and change-of-ownership
-     reports (2009-2013 and Q1 2019, the only ones published) into
+   - it downloads and parses DGCA's registration and de-registration reports (October 2009
+     to date) and change-of-ownership reports (October 2009 to August 2013) into
      `data/parsed/reports/`. These are the only public DGCA documents that carry an exact
      date per airframe.
 5. `pipeline/build.ts` normalises operator names, classifies models into types,
@@ -63,7 +68,11 @@ DGCA PDFs ──▶ pdftotext -bbox-layout ──▶ positional parsers ──�
    representative photos for tails without one (same type and operator, else
    same type), builds the event log from the whole snapshot chain plus the reports,
    and writes the snapshot plus a diff against the previous one.
-6. The Next.js app is a static export that reads `data/latest/` at build time.
+6. `pipeline/training.ts` parses DGCA's list of flying training organisations into
+   `training.json`, and `pipeline/extras.ts` writes the archive of off-permit registrations,
+   past operators and per-registration enrichment (engine from the model number, build
+   year and serial from VRS standing-data, CC0).
+7. The Next.js app is a static export that reads `data/latest/` at build time.
 
 A GitHub Actions workflow runs fetch → parse → images → build on the 3rd of every month
 and commits the new snapshot; the new snapshot simply extends the chain, so the event log
@@ -78,6 +87,8 @@ npm run pipeline:history                       # once: archived snapshots + DGCA
 npm run pipeline:parse data/raw/2026-08-31
 npm run pipeline:images data/parsed/2026-08-31
 npm run pipeline:build 2026-08-31 -- --previous 2024-06-10
+npm run pipeline:training
+npm run pipeline:extras
 npm run dev
 ```
 
@@ -112,8 +123,11 @@ re-parse without touching the network.
   is reported.
 - **Coverage gaps.** The Archive holds no usable capture of either list between February
   2020 and January 2023: for that period the site kept the PDFs behind a JavaScript
-  viewer, and only the wrapper HTML was archived. Registration reports exist only for
-  October 2009 - August 2013 and January - March 2019; DGCA has published none since.
+  viewer, and only the wrapper HTML was archived. Registration and de-registration reports
+  cover October 2009 to date except July to December 2021, which DGCA published as PDFs
+  with no text layer. The current year's pair (2026 on) is a year-to-date file DGCA
+  re-publishes in place; the monthly workflow re-fetches it with
+  `npx tsx pipeline/history.ts --current`. Ownership-change reports stop at August 2013.
 - `seats` is the number DGCA prints; freighters and aerial-work aircraft carry
   `role` instead. Some rows read `222/232` for mixed configurations; the first
   number is used.
