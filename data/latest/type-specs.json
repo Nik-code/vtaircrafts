@@ -1,0 +1,632 @@
+[
+ {
+  "icao": "F2TH",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B738",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B350",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": null
+ },
+ {
+  "icao": "PC12",
+  "engines": 1,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "B77W",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "B772",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "PC24",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "C172",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "GL5T",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "H25B",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "C208",
+  "engines": 1,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "E35L",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "AT76",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "M"
+ },
+ {
+  "icao": "H160",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "F900",
+  "engines": 3,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B39M",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B788",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "PRM1",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "L"
+ },
+ {
+  "icao": "CL60",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B407",
+  "engines": 1,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "AS50",
+  "engines": 1,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "B412",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "S76",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "GL7T",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "G150",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "A20N",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "A109",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "S6",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "E50P",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "L"
+ },
+ {
+  "icao": "B789",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "BE20",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": null
+ },
+ {
+  "icao": "B752",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "EC35",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "BALL",
+  "engines": null,
+  "engineKind": null,
+  "wake": null
+ },
+ {
+  "icao": "C25B",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "L"
+ },
+ {
+  "icao": "A320",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "C206",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "R44",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "C56X",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B38M",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "GLEX",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "C550",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "L"
+ },
+ {
+  "icao": "A119",
+  "engines": 1,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "LJ45",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B429",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "AS55",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "A169",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "EC30",
+  "engines": 1,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "BE9L",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "AS65",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "DHC6",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "D228",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "TWEN",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "E145",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "E170",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "A139",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "ALH",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "BE40",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "EC45",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "FA7X",
+  "engines": 3,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "A319",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "A21N",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "A321",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "C650",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B06",
+  "engines": 1,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "MI17",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "M"
+ },
+ {
+  "icao": "E135",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "A359",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "CL30",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "HA4T",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B427",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "GALX",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "E195",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "P06T",
+  "engines": 2,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "GLF5",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B737",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "PA46",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "P180",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "DH8D",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "M"
+ },
+ {
+  "icao": "P68",
+  "engines": 2,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "AT46",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "M"
+ },
+ {
+  "icao": "FA6X",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "C152",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "BE58",
+  "engines": 2,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "PA34",
+  "engines": 2,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "A310",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "B744",
+  "engines": 4,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "E55P",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "DA40",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "P28A",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "C182",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "R66",
+  "engines": 1,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "DA42",
+  "engines": 2,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "P208",
+  "engines": 1,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "GLF4",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "A306",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "C310",
+  "engines": 2,
+  "engineKind": "piston",
+  "wake": "L"
+ },
+ {
+  "icao": "B505",
+  "engines": 1,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "B430",
+  "engines": 2,
+  "engineKind": "turboprop",
+  "wake": "L"
+ },
+ {
+  "icao": "A332",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "A343",
+  "engines": 4,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "A333",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "E190",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ },
+ {
+  "icao": "B763",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "H"
+ },
+ {
+  "icao": "C680",
+  "engines": 2,
+  "engineKind": "jet",
+  "wake": "M"
+ }
+]
