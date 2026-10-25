@@ -8,14 +8,16 @@
     "start": "next start",
     "lint": "eslint",
     "predev": "node scripts/copy-data.mjs",
-    "prebuild": "node scripts/copy-data.mjs && tsx scripts/og.ts",
+    "prebuild": "node scripts/copy-data.mjs && node scripts/redirects.mjs && tsx scripts/og.ts",
     "pipeline:parse": "tsx pipeline/parse.ts",
     "pipeline:history": "tsx pipeline/history.ts",
     "pipeline:images": "tsx pipeline/images.ts",
     "pipeline:build": "tsx pipeline/build.ts",
+    "pipeline:training": "tsx pipeline/training.ts",
     "typecheck": "next typegen && tsc --noEmit",
     "pipeline:warm": "tsx pipeline/warm.ts",
-    "og": "tsx scripts/og.ts"
+    "og": "tsx scripts/og.ts",
+    "pipeline:extras": "tsx pipeline/extras.ts"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",

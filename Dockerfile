@@ -8,6 +8,7 @@ RUN npm run build
 
 FROM nginx:1.27-alpine
 COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /app/build/redirects.map /etc/nginx/redirects.map
 COPY --from=build /app/out /usr/share/nginx/html
 EXPOSE 80
 HEALTHCHECK CMD wget -qO- http://127.0.0.1/ >/dev/null || exit 1
