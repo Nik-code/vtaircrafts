@@ -1,0 +1,5333 @@
+{
+ "asOn": "2026-10-03",
+ "source": {
+  "url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/personal/training/pilot/flrTrainOrgs/flyclub.pdf",
+  "file": "data/raw/training/2026-10-03/flyclub.pdf",
+  "sha256": "23deeafae2271cb307dcfd2b7901eb2998829391b3bfd516f7cbcee65d10606b"
+ },
+ "ftos": [
+  {
+   "id": "academy-of-carver-aviation",
+   "seq": 1,
+   "name": "Academy of Carver Aviation Pvt. Ltd.",
+   "bases": [
+    "Plot No. P-50, MIDC Ind. Area, Near Baramati Airport, Baramati Maharashtra.413133"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "05/2015",
+   "validFrom": "2024-04-30",
+   "validUntil": "2029-04-29",
+   "singleEngine": 10,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-HOT",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ICE",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-LEO",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FTV",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TNT",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SEX",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ALI",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AAG",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AAL",
+     "model": "Cessna 172 S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RUM",
+     "model": "Cessna 172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TLB",
+     "model": "Partenavia 68C",
+     "type": {
+      "icao": "P68",
+      "manufacturer": "Vulcanair / Partenavia",
+      "family": "P.68",
+      "name": "Partenavia P.68"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 0
+  },
+  {
+   "id": "alchemist-aviation",
+   "seq": 2,
+   "name": "Alchemist Aviation Pvt. Ltd.",
+   "bases": [
+    "Sonari Aerodrome, Jamshedpur Jharkhand- 831011"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "01/2018",
+   "validFrom": "2023-05-21",
+   "validUntil": "2028-05-20",
+   "singleEngine": 8,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-TAM",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TAK",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TEB",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TAJ",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RAF",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-MLP",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TKP",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-JKD",
+     "model": "Cessna: 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TAO",
+     "model": "Piper Seneca PA34",
+     "type": {
+      "icao": "PA34",
+      "manufacturer": "Piper",
+      "family": "PA-34",
+      "name": "Piper PA-34 Seneca"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-MKP",
+     "model": "Technam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 0
+  },
+  {
+   "id": "ambitions-flying-club",
+   "seq": 3,
+   "name": "Ambitions Flying Club Pvt. Ltd.",
+   "bases": [
+    "Karad Airport, Karad –Patan Road, Karad Satara, Maharashtra-415124."
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "06/2016",
+   "validFrom": "2022-12-01",
+   "validUntil": "2027-11-30",
+   "singleEngine": 4,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-AFD",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AFR",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AFC",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NWG",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": null,
+   "page": 0
+  },
+  {
+   "id": "asia-pacific-flight-training-academy",
+   "seq": 4,
+   "name": "Asia Pacific Flight Training Academy Ltd.",
+   "bases": [
+    "GMR HIAL Rajiv Gandhi International Airport Shamshabad",
+    "Kalaburagi Airport, Gulbarga, Karnataka"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "06/2015",
+   "validFrom": "2022-10-19",
+   "validUntil": "2027-10-18",
+   "singleEngine": 6,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-GMR",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SRB",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SDR",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-UVH",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VCH",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CBH",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-GMT",
+     "model": "Diamond DA-42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 0
+  },
+  {
+   "id": "arca-global-aviation",
+   "seq": 5,
+   "name": "ARCA Global Aviation Private Limited",
+   "bases": [
+    "Hanger 3, Begumpet Airport, Begumpet, Hyderabad, Telangana 500016"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "01/2026",
+   "validFrom": "2026-03-13",
+   "validUntil": "2031-03-12",
+   "singleEngine": 5,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-XID",
+     "model": "Tecnam P2010 TDI",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-XIE",
+     "model": "Tecnam P2010 TDI",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AGN",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AGO",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AGQ",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AGM",
+     "model": "Tecnam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 1
+  },
+  {
+   "id": "avyanna-aviation",
+   "seq": 6,
+   "name": "Avyanna Aviation Pvt. Ltd.",
+   "bases": [
+    "Site-2, Kishangarh Airport, Ajmer, Rajasthan-305802"
+   ],
+   "ownership": "Private Ltd",
+   "approvalNo": "03/2024",
+   "validFrom": "2024-07-18",
+   "validUntil": "2029-07-17",
+   "singleEngine": 14,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-SST",
+     "model": "Piper PA-28-181 (Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SSW",
+     "model": "Piper PA-28-181 (Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SSV",
+     "model": "Piper PA-28-181 (Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SSU",
+     "model": "Piper PA-28-181 (Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SSX",
+     "model": "Piper PA-28-181 (Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SSY",
+     "model": "Piper PA-28-181 (Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SSP",
+     "model": "Piper PA-28-181, (Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SSQ",
+     "model": "Piper PA-28-181, (Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CEO",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SSZ",
+     "model": "Piper PA-28-81(Archer)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DRY",
+     "model": "Piper PA-28-181(Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ORA",
+     "model": "Piper PA-28-181 (Archer III)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AVU",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PRO",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BBS",
+     "model": "Diamond DA-42 NG",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 1
+  },
+  {
+   "id": "aviation-connectivity-and-infrastructure-developers",
+   "seq": 7,
+   "name": "Aviation Connectivity and Infrastructure Developers Pvt. Ltd.",
+   "bases": [
+    "Old Technical Block, Ground Floor and 1st Floor (Old MET Office), Old Technical Block, Dharwad, Karnataka, 580030, India."
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "01/2025",
+   "validFrom": "2025-07-25",
+   "validUntil": "2030-07-24",
+   "singleEngine": 5,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-KTC",
+     "model": "Tecnam P2010 TDI",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-XIA",
+     "model": "Tecnam P2010 TDI",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-XIB",
+     "model": "Tecnam P2010 TDI",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-XIC",
+     "model": "Tecnam P2010 TDI",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-XIP",
+     "model": "Tecnam P Mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": null,
+   "page": 2
+  },
+  {
+   "id": "banasthali-vidyapith-gliding-and-flying-club",
+   "seq": 8,
+   "name": "Banasthali Vidyapith Gliding & Flying Club",
+   "bases": [
+    "Banasthali Aerodrome, Dist. Tonk, Rajasthan - 304022"
+   ],
+   "ownership": "Society",
+   "approvalNo": "15/2016",
+   "validFrom": "2023-06-20",
+   "validUntil": "2028-06-19",
+   "singleEngine": 4,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-BSD",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BSC",
+     "model": "Cessna 152A",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BSB",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-HNX",
+     "model": "Hansa3",
+     "type": {
+      "icao": null,
+      "manufacturer": "CSIR-NAL",
+      "family": "Hansa",
+      "name": "NAL Hansa-3"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": "Currently non- operational since 15.06.2025.Para 17.4 of CAR Section 7 Series D Part I refers.",
+   "page": 2
+  },
+  {
+   "id": "bihar-flying-institute",
+   "seq": 9,
+   "name": "Bihar Flying Institute",
+   "bases": [
+    "Patna Airport, Patna, Bihar- 800014."
+   ],
+   "ownership": "State Govt.",
+   "approvalNo": "17/2016",
+   "validFrom": "2022-09-27",
+   "validUntil": "2027-09-26",
+   "singleEngine": 4,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-BFB",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BFC",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BFD",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACM",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": null,
+   "page": 2
+  },
+  {
+   "id": "blue-ray-aviation",
+   "seq": 10,
+   "name": "Blue Ray Aviation Pvt. Ltd.",
+   "bases": [
+    "Mehsana Airstrip, Ahmedabad, Gujarat- 384002"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "03/2018",
+   "validFrom": "2023-08-08",
+   "validUntil": "2028-08-07",
+   "singleEngine": 6,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-PBA",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-JSN",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RRM",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AAO",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AAQ",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BAE",
+     "model": "Cessna 182T",
+     "type": {
+      "icao": "C182",
+      "manufacturer": "Cessna",
+      "family": "182",
+      "name": "Cessna 182"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AET",
+     "model": "Piper PA-34",
+     "type": {
+      "icao": "PA34",
+      "manufacturer": "Piper",
+      "family": "PA-34",
+      "name": "Piper PA-34 Seneca"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 2
+  },
+  {
+   "id": "the-bombay-flying-club",
+   "seq": 11,
+   "name": "The Bombay Flying Club",
+   "bases": [
+    "Juhu Airport, Mumbai, Maharashtra",
+    "Dhule Airstrip, Mumbai, Maharashtra"
+   ],
+   "ownership": "Society",
+   "approvalNo": "03/2016",
+   "validFrom": "2022-11-05",
+   "validUntil": "2027-11-04",
+   "singleEngine": 8,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-MFC",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACU",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TEI",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BMW",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BMX",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ENA",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DFR",
+     "model": "Piper Seneca PA 18",
+     "type": {
+      "icao": "PA34",
+      "manufacturer": "Piper",
+      "family": "PA-34",
+      "name": "Piper PA-34 Seneca"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-MMA",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TBD",
+     "model": "Piper Seneca PA 34",
+     "type": {
+      "icao": "PA34",
+      "manufacturer": "Piper",
+      "family": "PA-34",
+      "name": "Piper PA-34 Seneca"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 2
+  },
+  {
+   "id": "chetak-aviation",
+   "seq": 12,
+   "name": "Chetak Aviation (A unit of Sultan Education Society)",
+   "bases": [
+    "MS- 10 NH-91, Dhanipur Airstrip, Post Panethi, Aligarh- 202001, Uttar Pradesh-202001."
+   ],
+   "ownership": "Society",
+   "approvalNo": "01/2021",
+   "validFrom": "2021-08-27",
+   "validUntil": "2026-08-26",
+   "singleEngine": 4,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-CAE",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHA",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AFB",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AJS",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": null,
+   "page": 3
+  },
+  {
+   "id": "chimes-aviation-academy",
+   "seq": 13,
+   "name": "Chimes Aviation Academy",
+   "bases": [
+    "Dhana Airstrip, Sagar District - Madhya Pradesh: 470228",
+    "Neemuch Airstrip, Jaysingpura, Neemuch, Madhya Pradesh - 458441."
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "04/2015",
+   "validFrom": "2024-04-21",
+   "validUntil": "2029-04-20",
+   "singleEngine": 32,
+   "multiEngine": 3,
+   "aircraft": [
+    {
+     "reg": "VT-CAC",
+     "model": "Cessna 172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAD",
+     "model": "Cessna172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAG",
+     "model": "Cessna 172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAH",
+     "model": "Cessna172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAU",
+     "model": "Cessna 172 S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAK",
+     "model": "Cessna 172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAL",
+     "model": "Cessna 172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAZ",
+     "model": "Cessna 172 S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHB",
+     "model": "Cessna 172 S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHP",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHE",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHM",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHN",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHO",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHQ",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHR",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHS",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHT",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHX",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHY",
+     "model": "Piper PA28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CIK",
+     "model": "Tecnam P2010",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CIR",
+     "model": "Tecnam P2010",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CIT",
+     "model": "Tecnam P2010 TDI",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CIS",
+     "model": "Tecnam P2010 TDJ",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHC",
+     "model": "Cessna-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHD",
+     "model": "Piper PA 28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHF",
+     "model": "Piper PA 28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHH",
+     "model": "Piper PA 28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHJ",
+     "model": "Piper PA 28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHK",
+     "model": "Piper PA 28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHL",
+     "model": "Piper PA 28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHW",
+     "model": "Piper PA 28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAW",
+     "model": "Diamond DA42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-CAV",
+     "model": "Diamond DA42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-CIJ",
+     "model": "Diamond DA42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 3
+  },
+  {
+   "id": "dunes-aviation-academy",
+   "seq": 14,
+   "name": "Dunes Aviation Academy (A unit of Ganpat Care Foundation)",
+   "bases": [
+    "GCF Hangar, Bahvnagar Airport, Bhavnagar, Gujarat: 364001",
+    "GCF Hangar, Hamirgarh Airstrip, Bhilwara, Rajasthan- 312901"
+   ],
+   "ownership": "Trust",
+   "approvalNo": "01/2024",
+   "validFrom": "2024-01-05",
+   "validUntil": "2029-01-04",
+   "singleEngine": 13,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-DGM",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGP",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGA",
+     "model": "Piper PA-28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGB",
+     "model": "Piper PA-28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGC",
+     "model": "Piper PA-28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGD",
+     "model": "Piper PA-28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGE",
+     "model": "Piper PA-28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGI",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGH",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGK",
+     "model": "Piper PA-28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGL",
+     "model": "Piper PA-28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGO",
+     "model": "Piper PA-28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGQ",
+     "model": "Piper PA-28",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DGG",
+     "model": "Diamond DA-42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 4
+  },
+  {
+   "id": "ekvi-air-training-organistaion",
+   "seq": 15,
+   "name": "Ekvi Air Training Organistaion Pvt. Ltd.",
+   "bases": [
+    "Salem Airport, Kamlapuram Distt.: Salem TAMILNADU-636309"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "01/2023",
+   "validFrom": "2023-07-06",
+   "validUntil": "2028-07-05",
+   "singleEngine": 5,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-SHA",
+     "model": "Cessna-152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SHC",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FTO",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CPL",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AME",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-MRO",
+     "model": "Tecnum P 2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-DKP",
+     "model": "Diamond DA 42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 4
+  },
+  {
+   "id": "falcon-aviation-academy",
+   "seq": 16,
+   "name": "Falcon Aviation Academy",
+   "bases": [
+    "Civil Airport, Ayodhya, Uttar Pradesh - 224001",
+    "Rewa Airfield, Rewa, Madhya Pradesh"
+   ],
+   "ownership": "Trust",
+   "approvalNo": "19/2016",
+   "validFrom": "2022-12-20",
+   "validUntil": "2027-12-19",
+   "singleEngine": 10,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-PTA",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTE",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTG",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTH",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTJ",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTK",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTB",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTC",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTD",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTF",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PTL",
+     "model": "Piper Seneca PA34",
+     "type": {
+      "icao": "PA34",
+      "manufacturer": "Piper",
+      "family": "PA-34",
+      "name": "Piper PA-34 Seneca"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-PTM",
+     "model": "Piper Seneca PA 34",
+     "type": {
+      "icao": "PA34",
+      "manufacturer": "Piper",
+      "family": "PA-34",
+      "name": "Piper PA-34 Seneca"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": "Ayodhya and Rewa bases currently non- operational. Para 17.4 of CAR Section 7 Series D Part I refers",
+   "page": 4
+  },
+  {
+   "id": "flytech-aviation-academy",
+   "seq": 17,
+   "name": "Flytech Aviation Academy",
+   "bases": [
+    "Nadergul Aerodrome, Hyderabad, Telangana- 500070.",
+    "Nagarjuna Sagar Airfield. Guntur, Andhra Pradesh- 522439."
+   ],
+   "ownership": "Pvt.",
+   "approvalNo": "16/2016",
+   "validFrom": "2022-11-18",
+   "validUntil": "2027-11-17",
+   "singleEngine": 5,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-FAL",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FAV",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FAM",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-IAV",
+     "model": "Cesnna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FAS",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": null,
+   "page": 5
+  },
+  {
+   "id": "fstc-flying-school",
+   "seq": 18,
+   "name": "FSTC Flying School Pvt. Ltd.",
+   "bases": [
+    "Chaudhary Bansi Lal Airport, SH-16A, Village Gujrani, Bhiwani Airstrip - Haryana 127031.",
+    "Narnaul Airstrip, Haryana"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "02/2021",
+   "validFrom": "2021-10-20",
+   "validUntil": "2026-10-19",
+   "singleEngine": 15,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-FSA",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSB",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSC",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSD",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSE",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSG",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSV",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSJ",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSK",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSL",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSM",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSN",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSP",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSQ",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSO",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FSH",
+     "model": "Tecnam P2006",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-FSR",
+     "model": "Diamond DA-42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 5
+  },
+  {
+   "id": "garg-aviations",
+   "seq": 19,
+   "name": "Garg Aviations Ltd.",
+   "bases": [
+    "Hanger No.3, Civil Aerodrome, Cantt. Kanpur- 208004 Uttar Pradesh."
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "08/2020",
+   "validFrom": "2022-11-11",
+   "validUntil": "2027-11-10",
+   "singleEngine": 14,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-ETV",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ONS",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAX",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TAG",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-SSS",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TAF",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DDD",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-UPY",
+     "model": "Beech Bonanza A36",
+     "type": {
+      "icao": null,
+      "manufacturer": "Beechcraft",
+      "family": "Bonanza",
+      "name": "Beechcraft Bonanza"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RKI",
+     "model": "Cessna-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TBJ",
+     "model": "Cessna-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EMY",
+     "model": "Cessna-152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OHN",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-JMK",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OGN",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EJX",
+     "model": "Cessna 310",
+     "type": {
+      "icao": "C310",
+      "manufacturer": "Cessna",
+      "family": "310",
+      "name": "Cessna 310"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-NBV",
+     "model": "Tecnam P 2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 5
+  },
+  {
+   "id": "govt-aviation-training-institute",
+   "seq": 20,
+   "name": "Govt. Aviation Training Institute",
+   "bases": [
+    "Birasal Airstrip, Birasal, Dhenkanal, Odisha - 759039",
+    "BPI Airport, Bhuvneshwar, Odisha 751020"
+   ],
+   "ownership": "State Government",
+   "approvalNo": "10/2016",
+   "validFrom": "2022-12-28",
+   "validUntil": "2027-12-27",
+   "singleEngine": 3,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-TED",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-IAT",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EUW",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-DPA",
+     "model": "Virus SW",
+     "type": {
+      "icao": null,
+      "manufacturer": "Pipistrel",
+      "family": "Virus",
+      "name": "Pipistrel Virus SW"
+     },
+     "section": "LSA"
+    },
+    {
+     "reg": "VT-DPB",
+     "model": "Virus SW",
+     "type": {
+      "icao": null,
+      "manufacturer": "Pipistrel",
+      "family": "Virus",
+      "name": "Pipistrel Virus SW"
+     },
+     "section": "LSA"
+    }
+   ],
+   "remarks": null,
+   "page": 5
+  },
+  {
+   "id": "the-gujarat-flying-club",
+   "seq": 21,
+   "name": "The Gujarat Flying Club",
+   "bases": [
+    "Civil Aerodrome, Harni Road, Vadodara-Gujarat , 390022",
+    "Amreli Airstrip, Amreli- Gujarat 365601."
+   ],
+   "ownership": "Trust",
+   "approvalNo": "13/2016",
+   "validFrom": "2023-04-07",
+   "validUntil": "2028-04-06",
+   "singleEngine": 3,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-EMN",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACL",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AGG",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NIK",
+     "model": "Piper PA 34",
+     "type": {
+      "icao": "PA34",
+      "manufacturer": "Piper",
+      "family": "PA-34",
+      "name": "Piper PA-34 Seneca"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 6
+  },
+  {
+   "id": "govt-flying-training-school",
+   "seq": 22,
+   "name": "Govt. Flying Training School",
+   "bases": [
+    "Jakkur Aerodrome, Bangalore Karnataka"
+   ],
+   "ownership": "State Govt.",
+   "approvalNo": "07/2016",
+   "validFrom": "2026-07-16",
+   "validUntil": "2031-12-14",
+   "singleEngine": 3,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-EIB",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EHA",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-MOM",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BRO",
+     "model": "Tecnam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 6
+  },
+  {
+   "id": "haryana-institute-of-civil-aviation",
+   "seq": 23,
+   "name": "Haryana Institute of Civil Aviation",
+   "bases": [
+    "Civil Aerodrome, Kunjpura Road, Karnal Haryana",
+    "Civil Aerodrome, Hisar, Haryana",
+    "Civil Aerodrome , Pinjore, Haryana"
+   ],
+   "ownership": "State Govt.",
+   "approvalNo": "04/2016",
+   "validFrom": "2022-12-11",
+   "validUntil": "2027-12-10",
+   "singleEngine": 7,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-EMZ",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AAE",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ENH",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACW",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACN",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-HRB",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-HRC",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": "Currently, Hisar base is not operational",
+   "page": 6
+  },
+  {
+   "id": "indian-flying-academy",
+   "seq": 24,
+   "name": "Indian Flying Academy ( A unit of Shaurya Flight Sim Pvt. Ltd.",
+   "bases": [
+    "Hangar No. 02, Khajuraho Airport, Khajuraho, M.P 471606"
+   ],
+   "ownership": "Private Ltd",
+   "approvalNo": "02/2024",
+   "validFrom": "2024-01-08",
+   "validUntil": "2029-01-07",
+   "singleEngine": 4,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-VSP",
+     "model": "Diamond DA-40D",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NSI",
+     "model": "Diamond DA-40D",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ASI",
+     "model": "Diamond DA-40D",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PNP",
+     "model": "Diamond DA-40D",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VPI",
+     "model": "Diamond DA 42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 7
+  },
+  {
+   "id": "indira-gandhi-rashtriya-uran-akademi",
+   "seq": 25,
+   "name": "Indira Gandhi Rashtriya Uran Akademi",
+   "bases": [
+    "Fursatganj Airfield, Raebareli, Amethi-, Uttar Pradesh 229302.",
+    "Airport Authority of India, Birsi Airport, P.O.P; Paraswada, Gondia, Maharashtra , 441614",
+    "Kalaburagi Airport, Gulbarga Karnataka"
+   ],
+   "ownership": "Central Govt.",
+   "approvalNo": "01/1999",
+   "validFrom": "2024-03-27",
+   "validUntil": "2029-03-26",
+   "singleEngine": 11,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-FGA",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGB",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGD",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGF",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGG",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGH",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGJ",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGK",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGM",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGN",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGO",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-FGI",
+     "model": "Diamond DA-42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-FGP",
+     "model": "Diamond DA-42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": "Cuurently, kalaburagi Base is not operational.",
+   "page": 7
+  },
+  {
+   "id": "jet-serve-aviation",
+   "seq": 26,
+   "name": "Jet Serve Aviation Pvt. Ltd.",
+   "bases": [
+    "Flyola Aviation Academy, Terminal Road, Khajuraho Airport, Khajuraho, Madhya Pradesh.",
+    "Flyola Aviation Academy, Jalgaon Airport,Jalgaon Maharashtra-425003"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "02/2022",
+   "validFrom": "2022-12-27",
+   "validUntil": "2027-12-26",
+   "singleEngine": 4,
+   "multiEngine": 4,
+   "aircraft": [
+    {
+     "reg": "VT-OLA",
+     "model": "Cessna-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OLX",
+     "model": "Cessna-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OLP",
+     "model": "Cessna-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OLS",
+     "model": "Cessna-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OJS",
+     "model": "R-44",
+     "type": {
+      "icao": "R44",
+      "manufacturer": "Robinson",
+      "family": "R44",
+      "name": "Robinson R44"
+     },
+     "section": "helicopter"
+    },
+    {
+     "reg": "VT-HNC",
+     "model": "R-44",
+     "type": {
+      "icao": "R44",
+      "manufacturer": "Robinson",
+      "family": "R44",
+      "name": "Robinson R44"
+     },
+     "section": "helicopter"
+    },
+    {
+     "reg": "VT-DEJ",
+     "model": "KA C-90A",
+     "type": {
+      "icao": "BE9L",
+      "manufacturer": "Beechcraft",
+      "family": "King Air",
+      "name": "Beechcraft King Air C90"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-JPK",
+     "model": "KA C-90A",
+     "type": {
+      "icao": "BE9L",
+      "manufacturer": "Beechcraft",
+      "family": "King Air",
+      "name": "Beechcraft King Air C90"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-EMJ",
+     "model": "KA C-90A",
+     "type": {
+      "icao": "BE9L",
+      "manufacturer": "Beechcraft",
+      "family": "King Air",
+      "name": "Beechcraft King Air C90"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-RSN",
+     "model": "SKA B-200",
+     "type": {
+      "icao": "BE20",
+      "manufacturer": "Beechcraft",
+      "family": "King Air",
+      "name": "Beechcraft King Air 200"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 7
+  },
+  {
+   "id": "jharkhand-flying-institute",
+   "seq": 27,
+   "name": "Jharkhand Flying Institute",
+   "bases": [
+    "Jharkhand Flying Institute Dumka Airport, Dumka, Santhal Pargana Dumka, Jharkhand, Dumka, Jharkhand-814119, India"
+   ],
+   "ownership": "Government",
+   "approvalNo": "02/2025",
+   "validFrom": "2025-07-08",
+   "validUntil": "2030-06-08",
+   "singleEngine": 3,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-JHA",
+     "model": "ZLIN Z 143L",
+     "type": {
+      "icao": null,
+      "manufacturer": "Zlin",
+      "family": "Z 143",
+      "name": "Zlin Z 143"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-JHB",
+     "model": "ZLIN Z 143L",
+     "type": {
+      "icao": null,
+      "manufacturer": "Zlin",
+      "family": "Z 143",
+      "name": "Zlin Z 143"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-JHC",
+     "model": "ZLIN Z 143L",
+     "type": {
+      "icao": null,
+      "manufacturer": "Zlin",
+      "family": "Z 143",
+      "name": "Zlin Z 143"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": null,
+   "page": 7
+  },
+  {
+   "id": "the-madhya-pradesh-flying-club",
+   "seq": 28,
+   "name": "The Madhya Pradesh Flying Club Ltd.",
+   "bases": [
+    "Devi Ahilyabai Holkar Airport, Civil Aerodrome, Bijasan Road, Indore- Madhya Pradesh , 452005.",
+    "Raja Bhoj Airport, Bairagarh, Bhopal- Madhya Pradesh , 462030."
+   ],
+   "ownership": "Trust",
+   "approvalNo": "02/2015",
+   "validFrom": "2024-03-21",
+   "validUntil": "2029-03-20",
+   "singleEngine": 6,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-ACE",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACT",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACK",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-MPF",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACP",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ENE",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACX",
+     "model": "Beech Baron G58",
+     "type": {
+      "icao": "BE58",
+      "manufacturer": "Beechcraft",
+      "family": "Baron",
+      "name": "Beechcraft Baron 58"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-TAE",
+     "model": "Partenavia P-68",
+     "type": {
+      "icao": "P68",
+      "manufacturer": "Vulcanair / Partenavia",
+      "family": "P.68",
+      "name": "Partenavia P.68"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 7
+  },
+  {
+   "id": "nagpur-flying-club",
+   "seq": 29,
+   "name": "Nagpur Flying Club",
+   "bases": [
+    "Hangar no. 1, Dr. Babasaheb Ambedkar International Airport, Sonegaon Aerodrome, Nagpur- Maharashtra 440005",
+    "Moorwa airstrip, Chandrapur, Maharashtra"
+   ],
+   "ownership": "State Government",
+   "approvalNo": "23/2016",
+   "validFrom": "2023-11-16",
+   "validUntil": "2028-11-15",
+   "singleEngine": 4,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-ACQ",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ENC",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EUK",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EUL",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": null,
+   "page": 8
+  },
+  {
+   "id": "national-flying-training-institute",
+   "seq": 30,
+   "name": "National Flying Training Institute Pvt. Ltd",
+   "bases": [
+    "Birsi Airport, Paraswada, Gondia, Maharashtra- 441614."
+   ],
+   "ownership": "Private Ltd. (Joint Venture between CAE and AAI)",
+   "approvalNo": "20/2016",
+   "validFrom": "2023-02-19",
+   "validUntil": "2028-02-18",
+   "singleEngine": 12,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-NFA",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFB",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFC",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFD",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFF",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFG",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFH",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFI",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFJ",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFK",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFL",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFN",
+     "model": "Diamond DA40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NFO",
+     "model": "Diamond DA42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-NFT",
+     "model": "Diamond DA42",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 8
+  },
+  {
+   "id": "orient-flight-aviation-academy",
+   "seq": 31,
+   "name": "Orient Flight Aviation Academy",
+   "bases": [
+    "Mysore Airport, Mandakally post, Mysore , Karnataka- 571311"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "07/2015",
+   "validFrom": "2022-12-18",
+   "validUntil": "2027-12-17",
+   "singleEngine": 8,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-OFS",
+     "model": "Cessna152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EUQ",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OFX",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OFZ",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OFA",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-OFB",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-LIZ",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-JRC",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-KCG",
+     "model": "Piper Seneca PA34",
+     "type": {
+      "icao": "PA34",
+      "manufacturer": "Piper",
+      "family": "PA-34",
+      "name": "Piper PA-34 Seneca"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-ATC",
+     "model": "Tecnam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 8
+  },
+  {
+   "id": "patiala-aviation-club",
+   "seq": 32,
+   "name": "Patiala Aviation Club",
+   "bases": [
+    "Hanger -1, Civil Aerodrome, Sangrur Road, Patiala, Punjab- 147001",
+    "Sri Guru Ram Das Jee, International Airport Amritsar Punjab"
+   ],
+   "ownership": "State Government",
+   "approvalNo": "02/2018",
+   "validFrom": "2023-05-13",
+   "validUntil": "2028-05-12",
+   "singleEngine": 6,
+   "multiEngine": 3,
+   "aircraft": [
+    {
+     "reg": "VT-ACJ",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ACR",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PBB",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PBC",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-ENI",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EMW",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PBD",
+     "model": "Tecnam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-ACY",
+     "model": "Beech Baron G-58",
+     "type": {
+      "icao": "BE58",
+      "manufacturer": "Beechcraft",
+      "family": "Baron",
+      "name": "Beechcraft Baron 58"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-AMS",
+     "model": "Tecnam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 8
+  },
+  {
+   "id": "pioneer-flying-academy",
+   "seq": 33,
+   "name": "Pioneer Flying Academy Pvt. Ltd",
+   "bases": [
+    "MS- 10 NH-91, Dhanipur Airstrip, Post Panethi, Aligarh, Uttar Pradesh- 202001."
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "05/2016",
+   "validFrom": "2023-02-19",
+   "validUntil": "2028-02-18",
+   "singleEngine": 11,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-PFA",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PSS",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NNN",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AGH",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-IAU",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AMU",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PMA",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PNH",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PRH",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PFB",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PFC",
+     "model": "Diamond DA-40",
+     "type": {
+      "icao": "DA40",
+      "manufacturer": "Diamond",
+      "family": "DA40",
+      "name": "Diamond DA40"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TAD",
+     "model": "Partenavia P68",
+     "type": {
+      "icao": "P68",
+      "manufacturer": "Vulcanair / Partenavia",
+      "family": "P.68",
+      "name": "Partenavia P.68"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 8
+  },
+  {
+   "id": "rajiv-gandhi-academy-for-aviation-technology",
+   "seq": 34,
+   "name": "Rajiv Gandhi Academy for Aviation Technology",
+   "bases": [
+    "International Airport Thiruvananthapuram, Kerala"
+   ],
+   "ownership": "State Govt.",
+   "approvalNo": "01/2017",
+   "validFrom": "2024-03-23",
+   "validUntil": "2029-03-22",
+   "singleEngine": 4,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-ACV",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGT",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGV",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGW",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGU",
+     "model": "Piper Seneca PA34",
+     "type": {
+      "icao": "PA34",
+      "manufacturer": "Piper",
+      "family": "PA-34",
+      "name": "Piper PA-34 Seneca"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 9
+  },
+  {
+   "id": "redbird-flight-training-academy",
+   "seq": 35,
+   "name": "Redbird Flight Training Academy Pvt. Ltd.",
+   "bases": [
+    "Baramati Airport, Pune District, Maharashtra - 413133",
+    "Suktara Airport, Seoni, Madhya Pradesh -4806617",
+    "Lilabari Airport district North Lakhimpur, Assam",
+    "Kalaburagi Airport, Karnataka -545102",
+    "Belagavi Airport, Belagavi, Karnataka"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "01/2020",
+   "validFrom": "2025-07-23",
+   "validUntil": "2030-07-22",
+   "singleEngine": 45,
+   "multiEngine": 3,
+   "aircraft": [
+    {
+     "reg": "VT-RBC",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBD",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBE",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBF",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBH",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBI",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAQ",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AAY",
+     "model": "Cessna 172P",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAY",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBM",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EUC",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBJ",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBL",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBV",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBW",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBY",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBX",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBR",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBS",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBT",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBU",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBZ",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFD",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFE",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFF",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFG",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RIA",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RIB",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFH",
+     "model": "Tecnam P-mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFI",
+     "model": "Tecnam P-mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFJ",
+     "model": "Tecnam P-mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFK",
+     "model": "Tecnam P-mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFL",
+     "model": "Tecnam P-mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFO",
+     "model": "Tecnam P-mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFS",
+     "model": "Tecnam P-mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFN",
+     "model": "Tecnam P-mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFY",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFZ",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFT",
+     "model": "Tecnam P2010TDI",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFU",
+     "model": "Tecnam P2010TDI",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P2010",
+      "name": "Tecnam P2010"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFM",
+     "model": "Tecnam P mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFP",
+     "model": "Tecnam P mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFQ",
+     "model": "Tecnam P mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RFR",
+     "model": "Tecnam P mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBN",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RBB",
+     "model": "Technam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-RFW",
+     "model": "Technam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-RIC",
+     "model": "Technam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 10
+  },
+  {
+   "id": "sha-shib-flying-academy",
+   "seq": 36,
+   "name": "Sha- Shib Flying Academy",
+   "bases": [
+    "Guna Airport, Madhya Pradesh - 473001"
+   ],
+   "ownership": "Society",
+   "approvalNo": "21/2016",
+   "validFrom": "2022-07-27",
+   "validUntil": "2027-07-26",
+   "singleEngine": 4,
+   "multiEngine": 0,
+   "aircraft": [
+    {
+     "reg": "VT-TLG",
+     "model": "Thorp T-211",
+     "type": {
+      "icao": null,
+      "manufacturer": "Thorp",
+      "family": "T-211",
+      "name": "Thorp T-211"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TEG",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-MEH",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TEH",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    }
+   ],
+   "remarks": null,
+   "page": 10
+  },
+  {
+   "id": "skynex-aero",
+   "seq": 37,
+   "name": "Skynex Aero Pvt. Ltd.",
+   "bases": [
+    "Jalgaon Airport, Jalgaon, Maharashtra - 425003",
+    "Mahsana, Gujarat"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "01/2022",
+   "validFrom": "2022-05-31",
+   "validUntil": "2027-05-30",
+   "singleEngine": 18,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-LAA",
+     "model": "Cessna – 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-LAY",
+     "model": "Cessna-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NEX",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CZR",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXA",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXB",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXG",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXF",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXC",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-KDS",
+     "model": "C-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-KTU",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXD",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXH",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXI",
+     "model": "Piper PA-28-181",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXE",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXJ",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXK",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-NXL",
+     "model": "Piper PA-28-181 (Archer 3)",
+     "type": {
+      "icao": "P28A",
+      "manufacturer": "Piper",
+      "family": "PA-28",
+      "name": "Piper PA-28 Archer"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VPB",
+     "model": "Tecnam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 11
+  },
+  {
+   "id": "svkm-nmims-academy-of-aviation",
+   "seq": 38,
+   "name": "SVKM NMIMS Academy of Aviation",
+   "bases": [
+    "Shirpur Airstrip, Dist. Dhule , Maharashtra-425405"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "14/2016",
+   "validFrom": "2022-08-27",
+   "validUntil": "2027-08-26",
+   "singleEngine": 5,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-MRP",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RCP",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-BRP",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CHI",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-AMR",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-MSP",
+     "model": "Tecnam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 11
+  },
+  {
+   "id": "telangana-state-aviation-academy",
+   "seq": 39,
+   "name": "Telangana State Aviation Academy",
+   "bases": [
+    "Begumpet Airport Hyderabad, Telangana- 500011"
+   ],
+   "ownership": "State Govt.",
+   "approvalNo": "02/2016",
+   "validFrom": "2023-01-08",
+   "validUntil": "2028-01-07",
+   "singleEngine": 6,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-AKN",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-EJQ",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-YOU",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-CAM",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TSB",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TSC",
+     "model": "Cessna 172S",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-TSI",
+     "model": "Diamond DA42 NG (Austro)",
+     "type": {
+      "icao": "DA42",
+      "manufacturer": "Diamond",
+      "family": "DA42",
+      "name": "Diamond DA42"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 11
+  },
+  {
+   "id": "vision-flying-training-institute",
+   "seq": 40,
+   "name": "Vision Flying Training Institute",
+   "bases": [
+    "VFTI Hangar, Amreli Airport, Chital Road, Amreli, Gujarat,365601."
+   ],
+   "ownership": "Trust",
+   "approvalNo": "04/2024",
+   "validFrom": "2024-10-22",
+   "validUntil": "2029-10-21",
+   "singleEngine": 12,
+   "multiEngine": 1,
+   "aircraft": [
+    {
+     "reg": "VT-MRG",
+     "model": "Tecnam P-Mentor",
+     "type": {
+      "icao": null,
+      "manufacturer": "Tecnam",
+      "family": "P-Mentor",
+      "name": "Tecnam P-Mentor"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VDF",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-PAV",
+     "model": "Tecnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VFA",
+     "model": "Cessna-172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VFB",
+     "model": "Cessna 172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VFC",
+     "model": "Cessna 172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VFD",
+     "model": "Cessna 172 R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VFE",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VFF",
+     "model": "Cessna 172R",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VTA",
+     "model": "Texnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VTB",
+     "model": "Texnam P2008JC",
+     "type": {
+      "icao": "P208",
+      "manufacturer": "Tecnam",
+      "family": "P2008",
+      "name": "Tecnam P2008"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VFT",
+     "model": "Tecnam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-VFT",
+     "model": "Tecnam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 11
+  },
+  {
+   "id": "wings-aviation",
+   "seq": 41,
+   "name": "Wings Aviation Pvt. Ltd.",
+   "bases": [
+    "Begumpet Airport Hyderabad Telangana- 500016"
+   ],
+   "ownership": "Private Ltd.",
+   "approvalNo": "11/2016",
+   "validFrom": "2022-10-27",
+   "validUntil": "2027-10-26",
+   "singleEngine": 9,
+   "multiEngine": 2,
+   "aircraft": [
+    {
+     "reg": "VT-YPR",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGH",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGA",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGI",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGD",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGE",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGF",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGC",
+     "model": "Cessna 172",
+     "type": {
+      "icao": "C172",
+      "manufacturer": "Cessna",
+      "family": "172",
+      "name": "Cessna 172"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGG",
+     "model": "Cessna 152",
+     "type": {
+      "icao": "C152",
+      "manufacturer": "Cessna",
+      "family": "152",
+      "name": "Cessna 152"
+     },
+     "section": "SE"
+    },
+    {
+     "reg": "VT-RGJ",
+     "model": "Technam P2006T",
+     "type": {
+      "icao": "P06T",
+      "manufacturer": "Tecnam",
+      "family": "P2006T",
+      "name": "Tecnam P2006T"
+     },
+     "section": "ME"
+    },
+    {
+     "reg": "VT-TLC",
+     "model": "Partenavia P68C",
+     "type": {
+      "icao": "P68",
+      "manufacturer": "Vulcanair / Partenavia",
+      "family": "P.68",
+      "name": "Partenavia P.68"
+     },
+     "section": "ME"
+    }
+   ],
+   "remarks": null,
+   "page": 12
+  }
+ ],
+ "issues": [
+  {
+   "level": "warn",
+   "ftoId": null,
+   "message": "Dropped \"2. BPI Airport,\" repeated across the page break",
+   "page": 6
+  },
+  {
+   "level": "warn",
+   "ftoId": "jet-serve-aviation",
+   "message": "2 aircraft listed under a heading without a stated count (VT-OJS, VT-HNC)",
+   "page": 7
+  },
+  {
+   "level": "warn",
+   "ftoId": "vision-flying-training-institute",
+   "message": "Listed more than once in this FTO: VT-VFT",
+   "page": 11
+  }
+ ]
+}
