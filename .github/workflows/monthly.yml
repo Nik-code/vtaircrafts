@@ -127,6 +127,11 @@ jobs:
             git commit -m "data: DGCA training organisations" || echo "nothing to commit"
           fi
           git push
+      # Ping IndexNow once the new build is live. Never fails the run: the sitemap reaches Bing anyway.
+      - name: IndexNow
+        if: steps.decide.outputs.build == 'true'
+        continue-on-error: true
+        run: node scripts/indexnow.mjs --wait
       - name: Release
         if: steps.decide.outputs.run == 'true'
         env:

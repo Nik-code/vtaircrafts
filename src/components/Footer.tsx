@@ -25,6 +25,7 @@ export function Footer() {
             <p className="eyebrow mb-3">Browse</p>
             <ul className="space-y-2 text-[15px]">
               <li><Link href="/fleet" className="text-fg-2 hover:text-fg">Fleet</Link></li>
+              <li><Link href="/register" className="text-fg-2 hover:text-fg">Registrations A to Z</Link></li>
               <li><Link href="/operators" className="text-fg-2 hover:text-fg">Operators</Link></li>
               <li><Link href="/types" className="text-fg-2 hover:text-fg">Types</Link></li>
               <li><Link href="/owners" className="text-fg-2 hover:text-fg">Owners and lessors</Link></li>

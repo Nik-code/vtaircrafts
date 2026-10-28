@@ -17,7 +17,8 @@
     "typecheck": "next typegen && tsc --noEmit",
     "pipeline:warm": "tsx pipeline/warm.ts",
     "og": "tsx scripts/og.ts",
-    "pipeline:extras": "tsx pipeline/extras.ts"
+    "pipeline:extras": "tsx pipeline/extras.ts",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",

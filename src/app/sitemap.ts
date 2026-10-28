@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAircraft, getArchive, getMeta, getOperators, getPastOperators, getTraining } from "@/lib/data";
-import { getOwnerPages, getTypes } from "@/lib/registry";
+import { getOwnerPages, getRegister, getTypes } from "@/lib/registry";
 
 export const dynamic = "force-static";
 
@@ -11,7 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const page = (path: string, priority: number): MetadataRoute.Sitemap[number] => ({ url: `${ORIGIN}${path}`, lastModified, priority });
   return [
     page("/", 1),
-    ...["/fleet", "/operators", "/types", "/stats", "/owners", "/flying-schools", "/log", "/data"].map((p) => page(p, 0.8)),
+    ...["/fleet", "/operators", "/types", "/stats", "/owners", "/flying-schools", "/log", "/data", "/register"].map((p) => page(p, 0.8)),
+    ...[...getRegister().keys()].map((l) => page(`/register/${l}`, 0.7)),
     ...getOperators().map((o) => page(`/operators/${o.id}`, 0.7)),
     ...getTypes().map((t) => page(`/types/${t.slug}`, 0.7)),
     ...getOwnerPages().map((o) => page(`/owners/${o.slug}`, 0.5)),

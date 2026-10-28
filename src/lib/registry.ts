@@ -151,8 +151,11 @@ function cleanOwner(raw: string): string | null {
     .replace(/^\s*M\/S\.?\s*/i, "")
     .replace(/\s+/g, " ")
     .trim();
-  // Drop postal addresses DGCA sometimes prints after the name.
-  s = s.split(/,|\s+(?:[A-Z]{2}\s+)?(?=\d{3,})| (?:FOURTH|THIRD|SECOND|FIRST|GROUND) FLOOR/i)[0].trim();
+  // Drop postal addresses DGCA sometimes prints after the name. A number inside the name itself
+  // ("ID 5992 AIRCRAFT LEASING") is not an address: keep the whole first clause when the cut leaves a stub.
+  const clause = s.split(",")[0].trim();
+  s = clause.split(/\s+(?:[A-Z]{2}\s+)?(?=\d{3,})| (?:FOURTH|THIRD|SECOND|FIRST|GROUND) FLOOR/i)[0].trim();
+  if (s.length < 3) s = clause;
   if (!s || /^(-+|same as.*|msn|n\.?a\.?|nil|none|not applicable)$/i.test(s)) return null;
   return s;
 }
@@ -298,4 +301,46 @@ export function getOwnerPages(): OwnerGroup[] {
 
 export function hasOwnerPage(slug: string): boolean {
   return getOwnerPages().some((o) => o.slug === slug);
+}
+
+// ---------------------------------------------------------------------------------------------
+// A to Z register: every registration with a page, grouped by the first letter after "VT-".
+// Plain server-rendered links, so crawlers reach every aircraft page without running the explorer.
+
+export interface RegisterEntry {
+  reg: string;
+  type: string;
+  detail: string;
+  current: boolean;
+}
+
+const ARCHIVE_DETAIL: Record<ArchivedAircraft["status"], string> = {
+  deregistered: "Deregistered",
+  "off-permit": "Off permit",
+  "register-only": "Indian register",
+  training: "Flying school",
+};
+
+let registerCache: Map<string, RegisterEntry[]> | undefined;
+
+export function getRegister(): Map<string, RegisterEntry[]> {
+  if (registerCache) return registerCache;
+  const entries: RegisterEntry[] = [
+    ...getAircraft().map((a) => ({ reg: a.reg, type: a.type.name, detail: a.operator, current: true })),
+    ...getArchive().map((h) => ({
+      reg: h.reg,
+      type: h.type.name,
+      detail: h.training?.fto ?? (h.stints.at(-1) ? `${ARCHIVE_DETAIL[h.status]}, ex-${h.stints.at(-1)!.operator}` : ARCHIVE_DETAIL[h.status]),
+      current: false,
+    })),
+  ].sort((x, y) => x.reg.localeCompare(y.reg));
+  registerCache = new Map();
+  for (const e of entries) {
+    const letter = e.reg.charAt(3).toLowerCase();
+    if (!/^[a-z0-9]$/.test(letter)) continue;
+    const list = registerCache.get(letter) ?? [];
+    list.push(e);
+    registerCache.set(letter, list);
+  }
+  return registerCache;
 }

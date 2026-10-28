@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAircraft, getAircraftByReg, getArchive, getArchivedByReg, getEnrichment, getEventsFor, getOperator } from "@/lib/data";
-import { ageOf, builtYear } from "@/lib/registry";
+import { getAircraft, getAircraftByReg, getArchive, getArchivedByReg, getEventsFor, getMeta, getOperator } from "@/lib/data";
+import { ageOf } from "@/lib/registry";
+import { answersFor, archivedAnswersFor, faqJsonLd } from "@/lib/answers";
 import { Container } from "@/components/ui/Container";
 import { Photo, PhotoCredit } from "@/components/ui/Photo";
 import { Placard } from "@/components/aircraft/Placard";
 import { ArchivedPlacard, archivedSummary } from "@/components/aircraft/ArchivedPlacard";
 import { HistoryTimeline } from "@/components/aircraft/HistoryTimeline";
 import { Siblings } from "@/components/aircraft/Siblings";
+import { Answers } from "@/components/aircraft/Answers";
 import { Badge, ListBadge } from "@/components/ui/Badge";
 import { JsonLd, breadcrumbs } from "@/components/JsonLd";
 
@@ -21,29 +23,22 @@ export async function generateMetadata({ params }: PageProps<"/aircraft/[reg]">)
   const canonical = `/aircraft/${reg}`;
   const a = getAircraftByReg(reg);
   if (a) {
-    const built = builtYear(a);
-    const msn = a.history?.msn ?? getEnrichment(a.reg)?.msn;
-    const title = [`${a.reg}: ${a.operator} ${a.type.name}`, msn && `MSN ${msn}`, built && `built ${built.year}`].filter(Boolean).join(", ");
-    const facts = [
-      `${a.reg} is a ${a.type.name} on ${a.operator}'s ${a.category} permit${a.permit.no ? ` ${a.permit.no}` : ""}`,
-      a.history?.registeredOn && `registered in India on ${a.history.registeredOn}`,
-      a.history?.owner && `owned by ${a.history.owner.replace(/^M\/S\.?\s*/i, "").split(",")[0].trim()}`,
-      a.seats && `${a.seats} seats`,
-    ].filter(Boolean);
+    const ans = answersFor(a);
     return {
-      title: { absolute: `${title} · VT Aircrafts` },
-      description: `${facts.join(", ")}. From DGCA's published lists.`,
+      title: { absolute: ans.title },
+      description: ans.description,
       alternates: { canonical },
-      openGraph: a.image ? { images: [{ url: a.image.src }] } : undefined,
+      openGraph: { title: ans.title, description: ans.description, ...(a.image ? { images: [{ url: a.image.src }] } : {}) },
     };
   }
   const h = getArchivedByReg(reg);
   if (!h) return { title: reg };
-  const s = archivedSummary(h);
+  const ans = archivedAnswersFor(h, archivedSummary(h));
   return {
-    title: { absolute: `${h.reg}: ${s.headline} · VT Aircrafts` },
-    description: `${h.reg} ${s.sentence} From DGCA registration reports and operator lists.`,
+    title: { absolute: ans.title },
+    description: ans.description,
     alternates: { canonical },
+    openGraph: { title: ans.title, description: ans.description },
   };
 }
 
@@ -58,6 +53,7 @@ export default async function AircraftPage({ params }: PageProps<"/aircraft/[reg
   const op = getOperator(a.operatorId);
   const siblings = getAircraft().filter((x) => x.operatorId === a.operatorId && x.type.name === a.type.name && x.reg !== a.reg);
   const age = ageOf(a);
+  const ans = answersFor(a);
 
   return (
     <main className="py-10 sm:py-14">
@@ -73,6 +69,8 @@ export default async function AircraftPage({ params }: PageProps<"/aircraft/[reg
             "@type": "ItemPage",
             name: `${a.reg}, ${a.type.name}, ${a.operator}`,
             url: `https://vtaircrafts.in/aircraft/${a.reg}`,
+            description: ans.lede,
+            dateModified: getMeta().generatedAt,
             about: {
               "@type": "Product",
               name: `${a.type.name} ${a.reg}`,
@@ -82,6 +80,7 @@ export default async function AircraftPage({ params }: PageProps<"/aircraft/[reg
               ...(a.image ? { image: a.image.src } : {}),
             },
           },
+          faqJsonLd(ans.answers),
         ]}
       />
       <Container>
@@ -100,6 +99,7 @@ export default async function AircraftPage({ params }: PageProps<"/aircraft/[reg
             {a.type.name} · <Link href={`/operators/${a.operatorId}`} className="text-fg underline decoration-line-2 underline-offset-4 hover:decoration-fg">{a.operator}</Link>
             {age != null && <span className="text-fg-3"> · {age === 0 ? "new this year" : `${age} ${age === 1 ? "year" : "years"} old`}</span>}
           </p>
+          <p className="lede mt-5 max-w-[64ch]">{ans.lede}</p>
         </header>
 
         <div className="mt-10 grid gap-10 lg:grid-cols-[1.25fr_1fr] lg:gap-14">
@@ -120,6 +120,7 @@ export default async function AircraftPage({ params }: PageProps<"/aircraft/[reg
           }}
           events={getEventsFor(a.reg)}
         />
+        <Answers reg={a.reg} answers={ans.answers} />
         <Siblings aircraft={a} operatorName={op?.name ?? a.operator} siblings={siblings} />
       </Container>
     </main>
@@ -129,17 +130,29 @@ export default async function AircraftPage({ params }: PageProps<"/aircraft/[reg
 function ArchivedAircraftPage({ reg }: { reg: string }) {
   const h = getArchivedByReg(reg)!;
   const s = archivedSummary(h);
+  const ans = archivedAnswersFor(h, s);
   const last = h.stints.at(-1);
   const firstSeen = h.stints.map((x) => x.start.to).sort()[0] ?? null;
 
   return (
     <main className="py-10 sm:py-14">
       <JsonLd
-        data={breadcrumbs([
-          ["Fleet", "/fleet"],
-          ...(last ? ([[last.operator, `/operators/${last.operatorId}`]] as Array<[string, string]>) : []),
-          [h.reg, `/aircraft/${h.reg}`],
-        ])}
+        data={[
+          breadcrumbs([
+            ["Fleet", "/fleet"],
+            ...(last ? ([[last.operator, `/operators/${last.operatorId}`]] as Array<[string, string]>) : []),
+            [h.reg, `/aircraft/${h.reg}`],
+          ]),
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemPage",
+            name: `${h.reg}, ${h.type.name}`,
+            url: `https://vtaircrafts.in/aircraft/${h.reg}`,
+            description: ans.lede,
+            dateModified: getMeta().generatedAt,
+          },
+          faqJsonLd(ans.answers),
+        ]}
       />
       <Container>
         <nav className="mb-6 flex flex-wrap items-center gap-2 text-[14px] text-fg-3" aria-label="Breadcrumb">
@@ -167,6 +180,7 @@ function ArchivedAircraftPage({ reg }: { reg: string }) {
           aircraft={{ reg: h.reg, registeredOn: h.registeredOn, owner: h.owner, msn: h.msn, firstSeen }}
           events={getEventsFor(h.reg)}
         />
+        <Answers reg={h.reg} answers={ans.answers} />
       </Container>
     </main>
   );
