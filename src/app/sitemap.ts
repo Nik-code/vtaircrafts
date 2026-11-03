@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAircraft, getArchive, getMeta, getOperators, getPastOperators, getTraining } from "@/lib/data";
 import { getOwnerPages, getRegister, getTypes } from "@/lib/registry";
+import { isThinArchive } from "@/lib/answers";
 
 export const dynamic = "force-static";
 
@@ -19,6 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...(getTraining()?.ftos ?? []).map((f) => page(`/flying-schools/${f.id}`, 0.5)),
     ...getAircraft().map((a) => page(`/aircraft/${a.reg}`, 0.6)),
     ...getPastOperators().map((o) => page(`/operators/${o.id}`, 0.4)),
-    ...getArchive().map((a) => page(`/aircraft/${a.reg}`, 0.3)),
+    ...getArchive().filter((a) => !isThinArchive(a)).map((a) => page(`/aircraft/${a.reg}`, 0.3)),
   ];
 }
