@@ -94,7 +94,9 @@ function current(a: Aircraft) {
   }
 
   return {
-    title: `${a.reg}: ${named}, owner and operator`,
+    // The registration, type and operator, the format these pages ranked with through October.
+    // The 29 Oct "owner and operator" wording dropped the operator name from every title.
+    title: `${a.reg} · ${a.type.name} · ${a.operator} · VT Aircrafts`,
     description: `${lede}${facts.length ? ` ${capitalise(facts.join(", "))}.` : ""}`,
     lede,
     answers,
@@ -136,11 +138,12 @@ function archived(h: ArchivedAircraft, sentence: string) {
           : `${h.reg} is not on any scheduled or non-scheduled operator permit in DGCA's latest lists, as on ${asOn}.`,
   });
 
-  const title = h.training
-    ? `${h.reg}: ${h.type.name} trainer, ${h.training.fto.replace(/\.$/, "")}`
-    : operators.length
-      ? `${h.reg}: ex-${operators.at(-1)} ${h.type.name}, owner and history`
-      : `${h.reg}: ${named}, ${owner ? "owner and history" : "history"}`;
+  const title = [
+    h.reg,
+    h.type.name,
+    h.training ? h.training.fto.replace(/\.$/, "") : operators.length ? `ex-${operators.at(-1)}` : h.status === "deregistered" ? "deregistered" : "Indian register",
+    "VT Aircrafts",
+  ].join(" · ");
   return {
     title,
     description: `${h.reg} ${sentence}${owner ? ` Last registered owner: ${owner}.` : ""}`,
@@ -164,11 +167,10 @@ export function archivedAnswersFor(h: ArchivedAircraft, summary: { sentence: str
   return archived(h, summary.sentence);
 }
 
-/** schema.org FAQPage for a question list. */
-export function faqJsonLd(answers: Answer[]): object {
-  return {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: answers.map((x) => ({ "@type": "Question", name: x.q, acceptedAnswer: { "@type": "Answer", text: x.a } })),
-  };
+/**
+ * An archived registration with nothing beyond its DGCA register line: no owner, no operator history
+ * and no flying school. These pages stay reachable but are kept out of the index and the sitemap.
+ */
+export function isThinArchive(h: ArchivedAircraft): boolean {
+  return !h.training && h.stints.length === 0 && !ownerName(h.owner)?.name;
 }

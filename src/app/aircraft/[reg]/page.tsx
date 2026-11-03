@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAircraft, getAircraftByReg, getArchive, getArchivedByReg, getEventsFor, getMeta, getOperator } from "@/lib/data";
 import { ageOf } from "@/lib/registry";
-import { answersFor, archivedAnswersFor, faqJsonLd } from "@/lib/answers";
+import { answersFor, archivedAnswersFor, isThinArchive } from "@/lib/answers";
 import { Container } from "@/components/ui/Container";
 import { Photo, PhotoCredit } from "@/components/ui/Photo";
 import { Placard } from "@/components/aircraft/Placard";
@@ -39,6 +39,7 @@ export async function generateMetadata({ params }: PageProps<"/aircraft/[reg]">)
     description: ans.description,
     alternates: { canonical },
     openGraph: { title: ans.title, description: ans.description },
+    ...(isThinArchive(h) ? { robots: { index: false, follow: true } } : {}),
   };
 }
 
@@ -71,16 +72,16 @@ export default async function AircraftPage({ params }: PageProps<"/aircraft/[reg
             url: `https://vtaircrafts.in/aircraft/${a.reg}`,
             description: ans.lede,
             dateModified: getMeta().generatedAt,
+            // Not "Product": Google validates Product markup for offers, reviews or ratings and flags every page without them.
             about: {
-              "@type": "Product",
+              "@type": "Thing",
+              additionalType: "https://www.wikidata.org/wiki/Q11436",
               name: `${a.type.name} ${a.reg}`,
               identifier: a.reg,
-              manufacturer: { "@type": "Organization", name: a.type.manufacturer },
-              ...(a.history?.msn ? { serialNumber: a.history.msn } : {}),
+              description: `${a.type.name}${a.history?.msn ? `, MSN ${a.history.msn}` : ""}`,
               ...(a.image ? { image: a.image.src } : {}),
             },
           },
-          faqJsonLd(ans.answers),
         ]}
       />
       <Container>
@@ -151,7 +152,6 @@ function ArchivedAircraftPage({ reg }: { reg: string }) {
             description: ans.lede,
             dateModified: getMeta().generatedAt,
           },
-          faqJsonLd(ans.answers),
         ]}
       />
       <Container>
