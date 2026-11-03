@@ -449,7 +449,7 @@
      "reg": "VT-XID",
      "model": "Tecnam P2010 TDI",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -460,7 +460,7 @@
      "reg": "VT-XIE",
      "model": "Tecnam P2010 TDI",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -716,7 +716,7 @@
      "reg": "VT-KTC",
      "model": "Tecnam P2010 TDI",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -727,7 +727,7 @@
      "reg": "VT-XIA",
      "model": "Tecnam P2010 TDI",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -738,7 +738,7 @@
      "reg": "VT-XIB",
      "model": "Tecnam P2010 TDI",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -749,7 +749,7 @@
      "reg": "VT-XIC",
      "model": "Tecnam P2010 TDI",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -1409,7 +1409,7 @@
      "reg": "VT-CIK",
      "model": "Tecnam P2010",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -1420,7 +1420,7 @@
      "reg": "VT-CIR",
      "model": "Tecnam P2010",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -1431,7 +1431,7 @@
      "reg": "VT-CIT",
      "model": "Tecnam P2010 TDI",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -1442,7 +1442,7 @@
      "reg": "VT-CIS",
      "model": "Tecnam P2010 TDJ",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -4430,7 +4430,7 @@
      "reg": "VT-RFT",
      "model": "Tecnam P2010TDI",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
@@ -4441,7 +4441,7 @@
      "reg": "VT-RFU",
      "model": "Tecnam P2010TDI",
      "type": {
-      "icao": null,
+      "icao": "TWEN",
       "manufacturer": "Tecnam",
       "family": "P2010",
       "name": "Tecnam P2010"
